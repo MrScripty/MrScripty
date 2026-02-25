@@ -1,5 +1,7 @@
 <div align="center">
-  
+
+<img src="banner.jpg" alt="MrScripty Banner" width="100%" />
+
 ## AI-First Creative Tools for Film & Games
 
 Building cross-platform desktop apps that put AI at the core of 2D, 3D, and creative writing workflows.
@@ -8,13 +10,20 @@ Rust Python backends | Game engine + web frontends | P2P networking
 
 ---
 
-</div>
+## Featured Projects
 
-<!-- ## Featured Projects -->
-<!-- Add projects here as cards when ready, e.g.: -->
-<!-- | Project | Description | -->
-<!-- |---------|-------------| -->
-<!-- | [Project Name](link) | Short description | -->
+| Project                                                     | Description                                                                           |
+| ----------------------------------------------------------- | ------------------------------------------------------------------------------------- |
+| [Eidetic](https://github.com/MrScripty/Eidetic)             | Clip-based AI screenwriting tool for film                                             |
+| [Pantograph](https://github.com/MrScripty/Pantograph)       | Node-based agent builder and AI dataflow engine                                       |
+| [Pumas Library](https://github.com/MrScripty/Pumas-Library) | Local AI model manager — serves weights locally with optional GUI and launcher        |
+| [Pentimento](https://github.com/MrScripty/Pentimento)       | 3D sculpting & model gen, 3D Depth Map generation Projection Painting with diffusion. |
+| [Korino](https://github.com/MrScripty/Korino-Reaves)        | The only open reverse engineered UE4/5 modding tool with 3D scene viewing             |
+| Angrd                                                       | A yet to be revealed Davinci Resolve plugin for folly design                          |
+
+
+
+Many repos are exploritory stand-alone feature demos for modules developed for Studio Whip, a real-time collaborative AI produciton environment for film.
 
 ---
 
