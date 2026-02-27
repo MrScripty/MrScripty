@@ -30,9 +30,5 @@ Many repos are exploritory stand-alone feature demos for modules developed for S
 <div align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=MrScripty&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak" />
-<br />
-<img src="https://github-readme-stats.vercel.app/api?username=MrScripty&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=00000000&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff" alt="GitHub Stats" />
-<br />
-<img src="https://github-contributor-stats.vercel.app/api?username=MrScripty&combine_all_yearly_contributions=true" alt="Total Contributions" />
 
 </div>
