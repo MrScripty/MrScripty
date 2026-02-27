@@ -30,5 +30,11 @@ Many repos are exploritory stand-alone feature demos for modules developed for S
 <div align="center">
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=MrScripty&theme=tokyonight&hide_border=true&background=00000000" alt="GitHub Streak" />
+<br />
+<br />
+<!-- GH_STATS_START -->
+### Contribution Snapshot
+- Total contributions (all years): **Pending first workflow run**
+<!-- GH_STATS_END -->
 
 </div>
