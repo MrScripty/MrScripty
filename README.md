@@ -15,8 +15,8 @@ Rust Python backends | Game engine + web frontends | P2P networking
 | Project                                                     | Description                                                                           |
 | ----------------------------------------------------------- | ------------------------------------------------------------------------------------- |
 | [Eidetic](https://github.com/MrScripty/Eidetic)             | Clip-based AI screenwriting tool for film                                             |
-| [Pantograph](https://github.com/MrScripty/Pantograph)       | Embeddable node-based agent builder and AI dataflow engine                                       |
-| [Pumas Library](https://github.com/MrScripty/Pumas-Library) | Embedabble local AI model manager — serves weights locally with optional GUI      |
+| [Pantograph](https://github.com/MrScripty/Pantograph)       | Embedded AI workflow engine                                      |
+| [Pumas Library](https://github.com/MrScripty/Pumas-Library) | Embedded local models made easy      |
 | [Pentimento](https://github.com/MrScripty/Pentimento)       | 3D sculpting & model gen, 3D Depth Map generation Projection Painting with diffusion. |
 | [Korino](https://github.com/MrScripty/Korino-Reaves)        | The only open reverse engineered UE4/5 modding tool with 3D scene viewing             |
 | Angrd                                                       | A yet to be revealed Davinci Resolve plugin for folly design                          |
