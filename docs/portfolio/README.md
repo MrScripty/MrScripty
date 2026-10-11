@@ -1,6 +1,6 @@
 # Puma / Jeremy Bayley portfolio
 
-A reviewable, buildless portfolio for GitHub Pages. This source is prepared for review in a separate branch. Website hosting has not been enabled and the site is not deployed. The existing GitHub profile README and banner are unchanged.
+A buildless portfolio for GitHub Pages. The validated static snapshot is on the separate `gh-pages` branch. GitHub reports its deployment succeeded; direct public-URL verification is blocked in the publication environment. The existing GitHub profile README and banner are unchanged.
 
 ## Preview
 
@@ -37,9 +37,9 @@ Both pass. The static checker covers local resource paths, fragment targets, dup
 
 `tools/browser_check.py` is the responsive and dialog QA harness for an environment with Playwright and Chromium. Publication QA passed at 1440, 768, 390 and 320 px, including lazy images, keyboard navigation, Escape/Close, history traversal, focus return, overflow and the no-JavaScript baseline. See `VALIDATION.md` for evidence and external-link verification limits.
 
-## Deploying later
+## Publication status
 
-See `DEPLOYMENT.md`. Publishing remains a separate approved step. This package has no automatic deploy workflow and no live URL.
+See `DEPLOYMENT.md` for the exact deployment commit, GitHub-reported URL, and remaining external verification. This source package adds no deployment workflow to the profile branch.
 
 ## Editing
 

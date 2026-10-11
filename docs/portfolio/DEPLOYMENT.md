@@ -2,13 +2,23 @@
 
 The approved destination is the existing public `MrScripty/MrScripty` repository. A static-only `gh-pages` branch can publish this portfolio independently of `main`, preserving the existing profile README and its workflow. It requires no application-code merge or new repository.
 
+## Confirmed deployment and remaining verification
+
+GitHub reports a successful Pages deployment of `e7bdfc36e59c29d64493f6510829054b7591d1d6` from `gh-pages`:
+
+- Deployment: https://github.com/MrScripty/MrScripty/actions/runs/38173977879
+- GitHub-reported public URL: https://mrscripty.github.io/MrScripty/
+- Source: `gh-pages`, `/(root)`; public; HTTPS enforced.
+
+The publication environment's outbound proxy rejects `mrscripty.github.io`, including an approved escalated fetch. The web fetch tool also could not access it. Therefore public HTTP content and assets have not been independently verified. Local Chromium QA passed against the exact publication bundle. Open the returned URL in an authorized browser, check the desktop and mobile layouts and screenshot dialogs, and verify assets before describing it as publicly browser-verified.
+
 ## Publishing source
 
 In repository **Settings → Pages**, choose **Deploy from a branch**, branch **gh-pages**, folder **/(root)**, then **Save**.
 
 The publication root contains only `index.html`, `styles.css`, `script.js`, `.nojekyll`, the favicon, and the five referenced approved screenshots. Review files, unused Tuldok captures, source notes and local QA logs are excluded.
 
-The expected project URL is `https://mrscripty.github.io/MrScripty/`; it must not be described as live until the Pages build and returned URL are verified. This differs from a user-root site, which would require a separate `mrscripty.github.io` repository.
+The project URL reported by Pages is `https://mrscripty.github.io/MrScripty/`. This differs from a user-root site, which would require a separate `mrscripty.github.io` repository.
 
 The supported REST equivalent is `POST /repos/MrScripty/MrScripty/pages` with `{"build_type":"legacy","source":{"branch":"gh-pages","path":"/"}}`. This operation requires the existing credential to have Pages write and Administration write permissions. A permission denial must be resolved by the repository owner; do not work around it with another account, credential, or hosting provider.
 
