@@ -1,31 +1,20 @@
-# Optional GitHub Pages deployment
+# GitHub Pages publication
 
-Committing this source does not enable website hosting. The site is not deployed. Obtain approval for the hosting destination and publication before taking these steps.
+The approved destination is the existing public `MrScripty/MrScripty` repository. A static-only `gh-pages` branch can publish this portfolio independently of `main`, preserving the existing profile README and its workflow. It requires no application-code merge or new repository.
 
-## Recommended destination
+## Publishing source
 
-A GitHub user site uses a repository named `mrscripty.github.io`, giving the root address `https://mrscripty.github.io/`. This is a proposed destination, not a verified live website. A project repository is also possible; all local paths in this source are relative.
+In repository **Settings → Pages**, choose **Deploy from a branch**, branch **gh-pages**, folder **/(root)**, then **Save**.
 
-## Once publication is approved
+The publication root contains only `index.html`, `styles.css`, `script.js`, `.nojekyll`, the favicon, and the five referenced approved screenshots. Review files, unused Tuldok captures, source notes and local QA logs are excluded.
 
-1. Create or choose the approved repository, preserving any existing files.
-2. Put `index.html`, `styles.css`, `script.js`, `.nojekyll`, and the required `assets/` files at the publishing root.
-3. In repository Settings → Pages, select “Deploy from a branch,” the approved branch, and “/(root).”
-4. Save the publishing source. Inspect the Pages workflow and confirm its deployment uses the intended commit.
-5. Open the exact URL returned by Pages and verify the site and local assets. Only then describe that address as live.
+The expected project URL is `https://mrscripty.github.io/MrScripty/`; it must not be described as live until the Pages build and returned URL are verified. This differs from a user-root site, which would require a separate `mrscripty.github.io` repository.
 
-Do not publish the `review/` directory. It is ignored. Keep source/provenance documents in the repository if desired, but review them as public content. No private project data, credentials, contact address, or internal coordination material belongs in the deployed bundle.
+The supported REST equivalent is `POST /repos/MrScripty/MrScripty/pages` with `{"build_type":"legacy","source":{"branch":"gh-pages","path":"/"}}`. This operation requires the existing credential to have Pages write and Administration write permissions. A permission denial must be resolved by the repository owner; do not work around it with another account, credential, or hosting provider.
 
-## Before launch
+Before reporting launch, inspect the Pages deployment commit and actual public URL and verify all local assets. Add the separate Pantograph website link and canonical metadata only after the deployed URL is verified. Until then, existing source links remain authoritative.
 
-- Review the biography, project copy, and public contact links.
-- Complete browser QA; see `VALIDATION.md`.
-- Replace architecture panels only with verified running-app captures and accurate captions.
-- Confirm status of screenshot source PRs and any newer application changes.
-- Link the separate Pantograph website only after its URL is verified.
-- Add a canonical URL and social-preview image for the actual destination.
+Official references:
 
-Official references, checked 2026-10-11:
-
-- https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site
 - https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
+- https://docs.github.com/en/rest/pages/pages#create-a-github-pages-site

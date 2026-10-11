@@ -1,32 +1,17 @@
 # Validation status
 
-## Passed locally
+Validated 11 October 2026 in Chromium 151 on the isolated publication checkout.
 
-- `python3 tools/verify.py`: no errors; one h1, valid local resource paths and anchor targets, required image alt attributes, and no external scripts.
-- `node --check script.js`: JavaScript syntax passed.
-- Original Tuldok JPEG files opened, decoded, and visually inspected at 1600 × 1100.
-- Original Pantograph, Rheon, and Kenoma PNG captures decoded and visually inspected; screenshot pixels are unedited.
-- SHA-256 image provenance recorded.
-- Manual source review: no fabricated metrics, testimonials, customers, inference quality, anatomical accuracy, or production fluid-simulation claims; no private project disclosures.
-- Basic palette contrast spot checks prompted darker light-background label colors. This is not a full automated accessibility audit.
+- Static resource, fragment, duplicate-ID, alt-text, single-h1 and no-external-script checks pass.
+- JavaScript syntax checks pass.
+- Browser checks pass at 1440, 768, 390 and 320 px: no horizontal overflow, successful local resources, working skip navigation, and readable responsive layouts.
+- All five screenshot dialogs load their original images. Escape and Close dismiss them; focus returns to the initiating link after history traversal. Back closes and Forward reopens the dialog.
+- The page remains readable and source links work with JavaScript disabled.
+- The harness waits for lazy image loading and asynchronous history/focus changes before asserting outcomes.
+- Original image bytes and the approved paired-book attribution are preserved. No inference-quality, production simulation, or anatomical-accuracy claim was added.
 
-## Browser QA baseline and pending rerun
+Publication validation also traverses every local link and fragment in the paired Pantograph site, tests recording selection and event inspection, and checks all six research reading pages on phone and desktop.
 
-The source at commit `e5e743e536330ebee40be62cdc0416b09cc73ff5` was rendered in a separate authorized saved environment: 39 checks passed across desktop and phone, 320–1440 px widths, overflow, anchors, disclosures, keyboard navigation, and the skip link. Two issues were reported: missing-glyph external-link arrows and small phone attribution/diagram labels.
+The landing pages contain 16 distinct external links. Fourteen GitHub targets returned HTTP 200. The environment cannot verify the public LinkedIn profile or Practical Data Analysis Pages URL: its outbound proxy rejects those hosts, and the web fetch tool could not retrieve them. Their previously approved source URLs remain unchanged. This is an external-access limitation, not evidence that those links are broken.
 
-This follow-up replaces arrows with inline SVG and adds a readable mobile project map and larger labels. It also adds five visible app captures and browser-history-aware image dialogs. These new changes still need a browser rerun, including Close, Escape, Back/Forward, and repeated opening. The earlier baseline had no visible captures, so it did not validate the dialog.
-
-The original local rendering limitation below remains specific to this preparation workspace.
-
-The installed Chromium process failed before navigation with:
-
-```
-FATAL:chrome/browser/process_singleton_posix.cc:297
-Check failed: . socket() failed: Operation not permitted (1)
-```
-
-The execution escalation ran but returned the same Chromium runtime failure. This was not a reviewer denial. A subsequent supported cloud-browser attempt to the local preview URL returned `net::ERR_CONNECTION_REFUSED`; that browser could not reach the workspace's loopback service. The temporary preview server was stopped.
-
-The included `tools/browser_check.py` is a test harness, not evidence of passed checks. Run it on an authorized environment with working Playwright and Chromium, or perform equivalent browser QA manually. It checks 1440, 768, 390, and 320 px widths; resource loads; overflow; skip navigation; screenshot dialog open/Escape/focus return; and a no-JavaScript baseline.
-
-Additional final QA should check the close button, repeated open/close, anchor navigation, screenshots at full size, source links, and reduced-motion presentation. The result is a source-only review package, not a launch-ready certification.
+The earlier preparation environment's browser-startup failure is superseded by these checks. Local QA does not establish that either public site has deployed; see `DEPLOYMENT.md`.

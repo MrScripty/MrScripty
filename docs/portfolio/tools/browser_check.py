@@ -6,6 +6,7 @@ from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from functools import partial
 import threading,json
 ROOT=Path(__file__).resolve().parents[1]
+(ROOT/'review').mkdir(exist_ok=True)
 server=ThreadingHTTPServer(('127.0.0.1',0),partial(SimpleHTTPRequestHandler,directory=str(ROOT)))
 thread=threading.Thread(target=server.serve_forever,daemon=True);thread.start()
 url=f'http://127.0.0.1:{server.server_port}/'
@@ -16,16 +17,19 @@ try:
   for name,width,height in [('desktop',1440,1050),('tablet',768,1024),('mobile',390,844),('narrow',320,800)]:
    page=browser.new_page(viewport={'width':width,'height':height},device_scale_factor=1,reduced_motion='reduce')
    errors=[];page.on('pageerror',lambda err:errors.append(str(err)))
-   response=page.goto(url,wait_until='networkidle');page.screenshot(path=str(ROOT/f'review/{name}-full.png'),full_page=True)
+   response=page.goto(url,wait_until='networkidle')
+   for img in page.locator('img[src]').all():
+    img.scroll_into_view_if_needed();img.evaluate('(i)=>i.decode()')
+   page.evaluate('window.scrollTo(0,0)');page.screenshot(path=str(ROOT/f'review/{name}-full.png'),full_page=True)
    if name=='desktop':page.screenshot(path=str(ROOT/'review/desktop-first-screen.png'))
    if name=='mobile':page.screenshot(path=str(ROOT/'review/mobile-first-screen.png'))
    overflow=page.evaluate('document.documentElement.scrollWidth > window.innerWidth')
    broken=page.locator('img[src]').evaluate_all('(images) => images.filter(i => !i.complete || i.naturalWidth === 0).map(i => i.src)')
    blank_links=page.locator('a').evaluate_all('(links) => links.filter(a => !a.innerText.trim() && !a.getAttribute("aria-label")).map(a => a.outerHTML)')
-   page.keyboard.press('Tab');skip=page.locator('.skip-link').evaluate('(e) => e === document.activeElement');page.keyboard.press('Enter'); skip_target=page.evaluate('location.hash === "#main"')
+   page.goto(url,wait_until='networkidle');page.keyboard.press('Tab');skip=page.locator('.skip-link').evaluate('(e) => e === document.activeElement');page.keyboard.press('Enter'); skip_target=page.evaluate('location.hash === "#main"')
    screenshot_tests=[]
    for link in page.locator('a.capture-button').all():
-    link.click();page.wait_for_selector('#image-dialog[open]');opened=page.locator('#dialog-image').evaluate('(i)=>i.complete&&i.naturalWidth>0');page.keyboard.press('Escape');closed=page.locator('#image-dialog').evaluate('(d)=>!d.open');focus_restored=link.evaluate('(a)=>a===document.activeElement');screenshot_tests.append({'opened':opened,'escape_closed':closed,'focus_restored':focus_restored})
+    link.click();page.wait_for_selector('#image-dialog[open]');page.locator('#dialog-image').evaluate('(i)=>i.decode()');opened=page.locator('#dialog-image').evaluate('(i)=>i.complete&&i.naturalWidth>0');page.keyboard.press('Escape');page.wait_for_function('!document.querySelector("#image-dialog").open && !history.state?.portfolioCapture');page.wait_for_function('(a)=>a===document.activeElement',arg=link.element_handle());closed=page.locator('#image-dialog').evaluate('(d)=>!d.open');focus_restored=link.evaluate('(a)=>a===document.activeElement');screenshot_tests.append({'opened':opened,'escape_closed':closed,'focus_restored':focus_restored})
    result={'viewport':name,'http_status':response.status,'horizontal_overflow':overflow,'broken_images':broken,'blank_links':blank_links,'js_errors':errors,'skip_link_focused':skip,'skip_link_target':skip_target,'screenshot_dialogs':screenshot_tests}
    report['pages'].append(result)
    if response.status!=200 or overflow or broken or blank_links or errors or not skip or not skip_target or any(not all(t.values()) for t in screenshot_tests):failures.append(name)

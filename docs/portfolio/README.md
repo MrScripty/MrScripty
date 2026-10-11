@@ -35,9 +35,7 @@ node --check script.js
 
 Both pass. The static checker covers local resource paths, fragment targets, duplicate IDs, alt attributes, a single primary heading, external scripts, and the Pages marker.
 
-`tools/browser_check.py` contains a local responsive and dialog QA harness for an environment that already has Playwright and Chromium. In the preparation environment, browser startup failed before page rendering because Chromium could not create its process-singleton socket. A retry with elevated execution returned the same runtime failure. The supported cloud browser could not reach this workspace's loopback server. The source at `e5e743e` subsequently passed 39 browser checks in a separate authorized environment. Reported arrow-glyph and phone-type issues are corrected in this follow-up, whose new captures/dialogs still need a browser rerun. See `VALIDATION.md`.
-
-Before publishing: render desktop, tablet, and phone sizes; check anchors, keyboard navigation, dialog close/Escape/focus return, overflow, and actual screenshot readability. Confirm the final copy and capture selection.
+`tools/browser_check.py` is the responsive and dialog QA harness for an environment with Playwright and Chromium. Publication QA passed at 1440, 768, 390 and 320 px, including lazy images, keyboard navigation, Escape/Close, history traversal, focus return, overflow and the no-JavaScript baseline. See `VALIDATION.md` for evidence and external-link verification limits.
 
 ## Deploying later
 
