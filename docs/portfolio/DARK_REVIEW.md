@@ -14,6 +14,8 @@ This source-only revision replaces the cream sections with a compact dark design
 
 ## Remaining content blockers
 
+The [follow-up source gap audit](SOURCE_GAP_AUDIT.md) records the exact book searches and distinguishes four available playground images from the missing actual Pumas Library GUI capture.
+
 1. **Pumas Library GUI:** no genuine library GUI capture was available in the reviewed public repositories. Main `ad31e391` and the public `feat/model-testing-playground` branch at `bd982b67` contain no suitable capture. The main README attachment (`be18cffc-b4fe-418b-a3b4-034ee0b35060`) redirects to a host blocked by this environment. The current Pumas visual remains explicitly labeled an authored architecture summary; it is not an app screenshot. Needed: an approved actual Library GUI capture with public source/provenance, excluding unpublished local changes and private catalogs.
 2. **Cooking the Cat:** title confirmed in the public profile and requested by the owner. Searches of public repositories/web sources did not establish a book URL, text, or cover. Needed: its public URL and existing cover source, if one exists. The source question has already been sent.
 3. **Rheon refinement:** the first 24³ genuine 3D flow capture was not selected because the owner found its resolution insufficient. The prior solver-comparison image remains, with its unequal-time limitation. Await the numerical grid-refinement worker's approved capture; no smoothing or image editing was used to imply added solver detail.
