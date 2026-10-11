@@ -104,5 +104,22 @@
     "scope": "Deliberate missing-path input produces a real downstream Invalid failure through the persistent native scheduler host. No simulated transport error or model inference.",
     "pixel_edits": "none",
     "visually_inspected": true
+  },
+  {
+    "file": "assets/eidetic-screenplay-timeline.png",
+    "sha256": "d8f85a18ac887ad5821e944eade2efa7f987bcff72ec9c7e767d87580812db16",
+    "git_blob_sha": "f4a13a549fac53a160d0d339ae89fa250293140e",
+    "dimensions": [
+      1440,
+      960
+    ],
+    "source_repository": "MrScripty/Eidetic",
+    "source_commit": "0f3481cd93e28673a566c77a2f0c7ca48469aab5",
+    "app_revision": "18d6c5e0c51c2c6b75f161939ce4b32f0bfb6338",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Eidetic/0f3481cd93e28673a566c77a2f0c7ca48469aab5/docs/reports/native-workflow-acceptance/screenplay-timeline.png",
+    "provenance_url": "https://github.com/MrScripty/Eidetic/blob/0f3481cd93e28673a566c77a2f0c7ca48469aab5/docs/reports/native-workflow-acceptance/provenance.json",
+    "scope": "Genuine native Linux Tauri/WebKit application capture of screenplay editor and six-scene timeline. Original authored demo fiction; saved text verified after project reopen. No real Pumas inference or model generation. Native renderer-type switches require restart; unified multiwindow unfinished.",
+    "pixel_edits": "none",
+    "visually_inspected": true
   }
 ]

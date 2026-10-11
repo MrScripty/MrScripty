@@ -78,3 +78,15 @@ All source pixels were inspected before integration. Original PNG bytes are pres
 - **Pantograph**: approved captures pinned to `7fc3584cca8bef647b60ebf303c4b5d6b37d98bd` in PR #71. The real Svelte workbench connects to a persistent Rust workflow service over loopback HTTP. Diagnostics query that running service and the I/O Inspector reads retained scalar artifact bytes. The model catalog is a real isolated empty Pumas library. Success and deliberate missing-path rejection captures preserve actual native results. Graph editor mutation/submission is outside the demo host; native Tauri and model inference remain unqualified. Source PNG bytes are unchanged. Guide: https://github.com/MrScripty/Pantograph/blob/7fc3584cca8bef647b60ebf303c4b5d6b37d98bd/examples/scheduler-demo/README.md
 - **Rheon**: source capture commit `a2ebb8f11bcb65df0c70c45bfb8234d08b293a0a`, running app commit `34235d33c886aa05b5bdf95d920b863d1fb2ad6f`. Native Linux software-rendered solver comparison, 1650 × 900. The unequal accepted-time warning is visible. This is exploratory fixed-box solver evidence, not physical validation or a qualified speed comparison. Source: https://github.com/MrScripty/Rheon/blob/a2ebb8f11bcb65df0c70c45bfb8234d08b293a0a/README.md
 - **Kenoma**: source capture commit `9739080116b658e6248816f4e4239c4fde95ca94`, running app commit `e2ea6acc5db44794ae8b49beb877f5a8bccea056`. Chromium151, 1600 × 1000, actual Rust/WASM editor. Schematic posing and joint creasing are retained. Source: https://github.com/MrScripty/Kenoma/blob/9739080116b658e6248816f4e4239c4fde95ca94/README.md
+
+## Eidetic native workflow capture
+
+- Public repository: https://github.com/MrScripty/Eidetic
+- Approved capture commit: `0f3481cd93e28673a566c77a2f0c7ca48469aab5`, draft PR #30.
+- Native application source at capture: `18d6c5e0c51c2c6b75f161939ce4b32f0bfb6338`; native Linux Tauri/WebKit window with the production frontend.
+- Pinned acceptance report: https://github.com/MrScripty/Eidetic/blob/0f3481cd93e28673a566c77a2f0c7ca48469aab5/docs/reports/native-workflow-acceptance/README.md
+- The displayed `screenplay-timeline.png` is copied byte-for-byte. Its SHA-256 is `d8f85a18ac887ad5821e944eade2efa7f987bcff72ec9c7e767d87580812db16`; dimensions are 1440 × 960. The public provenance manifest confirms those values.
+- All displayed story material is the original authored Signal at Low Tide demo, not private story content or generated output.
+- Verified scope: native project open; screenplay and story-bible editing, save/reopen, cancelled screenplay edits, timeline-title changes, and renderer controls.
+- Limits: no real Pumas inference; native graph/timeline renderers remain minimal; renderer-type switching needs an application restart; unified multiwindow rendering is unfinished. No Windows/macOS native UI acceptance is claimed.
+- Exact-head CI run: https://github.com/MrScripty/Eidetic/actions/runs/38175127015 . CI is separate from the visible native Linux workflow evidence.

@@ -28,3 +28,7 @@ Official references:
 
 - https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 - https://docs.github.com/en/rest/pages/pages#create-a-github-pages-site
+
+## Prepared source addition
+
+The Eidetic section and native screenplay/timeline capture are prepared in the source branch only. They are not included in deployed commit `5c5be2f53129f91fe89843caf0e53559f88655c7`. The `gh-pages` branch has not been updated for this addition.
