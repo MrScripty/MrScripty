@@ -24,7 +24,7 @@ Then visit `http://127.0.0.1:8080` on that same computer. There is no dependency
 - An accessible screenshot enlargement dialog with a direct-image fallback
 - Dark / light sections, reduced-motion support, print styling, and a skip link
 
-The Pumas panel currently shows a clearly labeled authored architecture summary, not an app screenshot. Pantograph shows genuine captures of its browser-rendered Svelte editor and separate native scheduler demo. Rheon and Kenoma show genuine running-application captures. Each project has concise capability copy; detailed scope and verification notes use closed disclosure sections.
+The Pumas panel currently shows a clearly labeled authored architecture summary, not an app screenshot. Pantograph shows approved genuine captures from PR #71 revision `7fc3584`: the browser-rendered Svelte Graph connected to a live loopback Rust host, plus successful and deliberately rejected deterministic scheduler runs. The workbench reads retained output; native Tauri execution and model inference are not claimed. Rheon and Kenoma show genuine running-application captures. Each project has concise capability copy; detailed scope and verification notes use closed disclosure sections.
 
 ## Checks
 

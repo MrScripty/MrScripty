@@ -59,49 +59,49 @@
   },
   {
     "file": "assets/pantograph-node-editor.png",
-    "sha256": "896914d99160a9c36881205a987e2e5a9fa96f41f533b53e6b4fce0cca276703",
-    "git_blob_sha": "4eacb3285a036872598a6b50c8bbebc7821dfffb",
+    "sha256": "486639eb27b8db6deff9a47aee4a4904c02a9540400b50968b4ef905032e62d6",
+    "git_blob_sha": "113b199376800c630b3131f217724b7cdbbcd18e",
     "dimensions": [
       1600,
       1000
     ],
     "source_repository": "MrScripty/Pantograph",
-    "source_commit": "7c9cc6d94da0f4612d5240967bcc5e0aaafa6a9b",
-    "app_revision": "256b6b94ece4dbbaa1fb236bc4092ad08aa63525 plus the capture branch changes",
-    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/7c9cc6d94da0f4612d5240967bcc5e0aaafa6a9b/docs/images/node-editor.png",
-    "scope": "Actual Svelte editor rendering the backend-produced graph and definitions. Submit unavailable and No output yet retained; native desktop save/edit/submit unqualified.",
+    "source_commit": "7fc3584cca8bef647b60ebf303c4b5d6b37d98bd",
+    "app_revision": "PR #71 live loopback host at 7fc3584cca8bef647b60ebf303c4b5d6b37d98bd",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/7fc3584cca8bef647b60ebf303c4b5d6b37d98bd/docs/images/node-editor.png",
+    "scope": "Actual Svelte Graph canvas connected to the live loopback Rust host, rendering backend-produced graph and definitions. Editor mutation/submission is outside this host\u2019s capabilities. No native Tauri or model-inference claim.",
     "pixel_edits": "none",
     "visually_inspected": true
   },
   {
     "file": "assets/pantograph-scheduler-success.png",
-    "sha256": "22124621a0e4e90e972879f49616070db21b48c70dc09febd57cd480dc002fb5",
-    "git_blob_sha": "3d3fd1d14f5e4f28f4a1c5fb3c805319016f87aa",
+    "sha256": "f86c2e38067b27f630d30b405e765e36d80f1e40860ebe9c9bde40b0be39d3ac",
+    "git_blob_sha": "3738f58f5044525b82ca782ea3a3f512a6371071",
     "dimensions": [
       1600,
-      1535
+      1612
     ],
     "source_repository": "MrScripty/Pantograph",
-    "source_commit": "7c9cc6d94da0f4612d5240967bcc5e0aaafa6a9b",
-    "app_revision": "256b6b94ece4dbbaa1fb236bc4092ad08aa63525 plus the capture branch changes",
-    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/7c9cc6d94da0f4612d5240967bcc5e0aaafa6a9b/docs/images/scheduler-demo-success.png",
-    "scope": "Real native deterministic scheduler execution in a minimal browser host. JSON extraction succeeds. Separate from desktop editor and model inference.",
+    "source_commit": "7fc3584cca8bef647b60ebf303c4b5d6b37d98bd",
+    "app_revision": "PR #71 live loopback host at 7fc3584cca8bef647b60ebf303c4b5d6b37d98bd",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/7fc3584cca8bef647b60ebf303c4b5d6b37d98bd/docs/images/scheduler-demo-success.png",
+    "scope": "Real deterministic native scheduler execution through the persistent loopback host. JSON extraction succeeds and small scalar output artifacts are retained. No model inference or native Tauri capture.",
     "pixel_edits": "none",
     "visually_inspected": true
   },
   {
     "file": "assets/pantograph-scheduler-rejection.png",
-    "sha256": "843be963cea4669b91fa7506782214833c08d8309d5aeb327e3639c432312f77",
-    "git_blob_sha": "e33b6df98e7156735df9cc2a88e0ba289d419315",
+    "sha256": "5f58eabb8c17f8d136505c8a2b75faa4b30d2f20355b31eda1a8727b3221e043",
+    "git_blob_sha": "a842904a180b194452bddabedcda4ef56632eb45",
     "dimensions": [
       1600,
-      1355
+      1396
     ],
     "source_repository": "MrScripty/Pantograph",
-    "source_commit": "7c9cc6d94da0f4612d5240967bcc5e0aaafa6a9b",
-    "app_revision": "256b6b94ece4dbbaa1fb236bc4092ad08aa63525 plus the capture branch changes",
-    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/7c9cc6d94da0f4612d5240967bcc5e0aaafa6a9b/docs/images/scheduler-demo-rejection.png",
-    "scope": "Real native deterministic scheduler execution in a minimal browser host. Missing JSON path causes downstream Invalid failure. Separate from desktop editor and model inference.",
+    "source_commit": "7fc3584cca8bef647b60ebf303c4b5d6b37d98bd",
+    "app_revision": "PR #71 live loopback host at 7fc3584cca8bef647b60ebf303c4b5d6b37d98bd",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/7fc3584cca8bef647b60ebf303c4b5d6b37d98bd/docs/images/scheduler-demo-rejection.png",
+    "scope": "Deliberate missing-path input produces a real downstream Invalid failure through the persistent native scheduler host. No simulated transport error or model inference.",
     "pixel_edits": "none",
     "visually_inspected": true
   }
