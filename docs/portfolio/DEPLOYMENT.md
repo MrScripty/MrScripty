@@ -4,13 +4,13 @@ The approved destination is the existing public `MrScripty/MrScripty` repository
 
 ## Confirmed deployment and remaining verification
 
-GitHub reports a successful Pages deployment of `e7bdfc36e59c29d64493f6510829054b7591d1d6` from `gh-pages`:
+GitHub reports a successful Pages deployment of `5c5be2f53129f91fe89843caf0e53559f88655c7` from `gh-pages`:
 
-- Deployment: https://github.com/MrScripty/MrScripty/actions/runs/38173977879
+- Deployment: https://github.com/MrScripty/MrScripty/actions/runs/38175626680
 - GitHub-reported public URL: https://mrscripty.github.io/MrScripty/
 - Source: `gh-pages`, `/(root)`; public; HTTPS enforced.
 
-The publication environment's outbound proxy rejects `mrscripty.github.io`, including an approved escalated fetch. The web fetch tool also could not access it. Therefore public HTTP content and assets have not been independently verified. Local Chromium QA passed against the exact publication bundle. Open the returned URL in an authorized browser, check the desktop and mobile layouts and screenshot dialogs, and verify assets before describing it as publicly browser-verified.
+The publication environment's outbound proxy rejects `mrscripty.github.io`, including an approved escalated fetch. The web fetch tool also could not access it. Therefore public HTTP content and assets have not been independently verified. Local Chromium QA passed against the exact publication bundle. The current refresh uses approved capture revision `7fc3584`, with original image hashes verified and 1,220 combined portfolio/presentation checks passing. Open the returned URL in an authorized browser, check the desktop and mobile layouts and screenshot dialogs, and verify assets before describing it as publicly browser-verified.
 
 ## Publishing source
 
