@@ -1,6 +1,6 @@
 # Portfolio appearance review
 
-Source-only revision, 11 October 2026. These are browser screenshots of the proposed static page, not new application captures. This visual revision remains unpublished. The approved Eidetic addition was published separately onto the existing layout.
+Reviewed design, 11 October 2026. The desktop/book/mobile previews below show the approved appearance from `b600137`, now published at Pages commit `e0ddbf9811044cf2bbd25af4e6527032d2abd701`. These are screenshots of the static site, not new app captures. The later Tuldok and Kenoma previews farther down remain source-only.
 
 | Desktop | Mobile |
 | --- | --- |
@@ -11,7 +11,7 @@ The landscape includes Chrema after Pumas and Pantograph, using only the existin
 
 The complete page can be previewed with Python's local HTTP server from `docs/portfolio/`. It passed desktop/tablet/phone checks, keyboard navigation, nine screenshot dialogs and no-JavaScript reading. See [validation](../portfolio/VALIDATION.md), [image audit](../portfolio/IMAGE_AUDIT.md) and [source notes](../portfolio/SOURCES.md).
 
-Fresh Pantograph Graph/Scheduler/Network and improved Rheon captures are pending with their application workers. The page preserves current genuine evidence and its limitations. Appearance approval is still required before publishing this revision.
+Fresh Pantograph Graph/Scheduler/Network and improved Rheon captures are pending with their application workers. The page preserves current genuine evidence and its limitations. The core visual direction is approved and published. Later image additions still require applicable appearance review and publication approval.
 
 ## Tuldok image-workspace addition
 
@@ -21,7 +21,7 @@ A real completed CPU image-classifier run on 12 authored CC0 drawings, with froz
 | --- | --- |
 | ![Tuldok desktop card](tuldok-desktop.png) | ![Tuldok mobile card](tuldok-mobile.png) |
 
-This new card remains source-only and is not included in the separately approved Eidetic publication.
+This new card remains source-only and is excluded from the published `b600137` design.
 
 ## Kenoma arm apparatus addition
 
@@ -31,4 +31,4 @@ The existing schematic poser is now paired with a genuine capture of the separat
 | --- | --- |
 | ![Kenoma desktop card](kenoma-desktop.png) | ![Kenoma mobile card](kenoma-mobile.png) |
 
-This addition also remains source-only and was excluded from the Eidetic-only publication.
+This addition also remains source-only and is excluded from the published `b600137` design.

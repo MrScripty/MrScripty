@@ -1,25 +1,32 @@
 # GitHub Pages publication
 
-The existing public `MrScripty/MrScripty` repository publishes a static-only `gh-pages` branch at its root. The profile README, `main`, application branches and workflows are preserved.
+The existing public `MrScripty/MrScripty` repository publishes the static `gh-pages` branch at its root. The profile README, `main`, application PRs and shared workflows are unchanged.
 
-## Approved Eidetic publication
+## Reviewed portfolio design — published
 
-GitHub reports a successful Pages deployment of **`2eedae76819b17d9442478bddc5df9ff7bc6a745`**:
+GitHub reports successful Pages deployment of **`e0ddbf9811044cf2bbd25af4e6527032d2abd701`**:
 
-- Deployment: https://github.com/MrScripty/MrScripty/actions/runs/38182001345
+- Deployment: https://github.com/MrScripty/MrScripty/actions/runs/38183074768
 - GitHub-reported public URL: https://mrscripty.github.io/MrScripty/
 - Source: `gh-pages`, `/(root)`; public; HTTPS enforced.
+- Build, deploy and status-report jobs: completed successfully. Latest Pages build: `built`, at this exact commit.
 
-This publication applies only the explicitly approved Eidetic addition from source `48a06f9a857d29a56b92945726ca5de5b3554015` onto deployed base `5c5be2f53129f91fe89843caf0e53559f88655c7`. The delta contains `index.html` and the original Eidetic screenplay/timeline PNG. The resulting HTML matches the approved source exactly. Every existing stylesheet, script and asset remains byte-identical to the deployed base.
+The user explicitly approved the desktop/book/mobile design shown from source **`b60013744ffec0eaef049b023c02db7b8d6efbe8`**. All 15 published runtime files match that reviewed source byte-for-byte. The generated desktop and mobile screenshots also match the reviewed PNG files byte-for-byte. The new layout, Chrema overview, original book covers and existing approved captures are included.
 
-The 114 publication checks pass across 1440, 768, 390 and 320 px, including all local links, six screenshot dialogs, keyboard navigation, Escape/Close, Back/Forward, focus return, resource loads, no overflow and no-JavaScript reading.
+The approved Eidetic section remains present; its original PNG is unchanged. It was initially published by itself in `2eedae76819b17d9442478bddc5df9ff7bc6a745` from approved source `48a06f9`. That release is the parent of the reviewed-design publication.
 
-A fresh public HTTP request after GitHub's successful deployment still fails with `Tunnel connection failed: 403 Forbidden` from the environment's outbound proxy. Public content delivery and CDN caching therefore remain independently unverified. GitHub's terminal deployment result is confirmed; do not describe the URL as independently browser-verified from this environment.
+The exact publication diff contains `index.html`, `styles.css`, the three pre-existing public book covers, and the approved Pantograph I/O Inspector image already visible in the reviewed design. Existing script, favicon, Eidetic and other previously published application-image bytes are unchanged. The profile README blob remains `5d48d5df5f18548fc8706ee49fb6f13ca09eaa52`.
 
-## Broader source revision remains unpublished
+## Verification
 
-The new visual design, Chrema overview, original book cards, retained-output lead image, and Tuldok image-workspace milestone remain on the source review branch. They were excluded from the Eidetic publication. The approved Kenoma anatomical-arm image is also source-only. New Pantograph and Rheon captures remain separate dependencies.
+**141 local publication checks passed** at 1440, 768, 390 and 320 px: local resources and fragments, seven screenshot dialogs, keyboard navigation, Escape/Close, Back/Forward, focus return, no horizontal overflow, no browser errors and no-JavaScript reading.
 
-Appearance review and clear approval are required before publishing that broader revision. The existing branch-based route requires no application-code merge, new hosting provider, account grant or settings change. No denied PR creation or Pages-enablement action was retried.
+A fresh HTTP request after the successful deployment still fails with `Tunnel connection failed: 403 Forbidden` from this environment's outbound proxy. GitHub's terminal deployment result is confirmed; actual public HTTP content and CDN delivery remain independently unverified here.
 
-Review previews and notes remain outside the publication bundle. The approved Eidetic release contains only the existing runtime files plus its new image; no local QA logs, source-review documents or private data were published.
+## Later source additions remain unpublished
+
+The Tuldok image-workspace results and Kenoma held anatomical-arm capture added after `b600137` remain on the source review branch. Neither asset was copied to the publication bundle. No new Rheon or Pantograph captures were included. Rheon's first computed-flow candidate remains private review evidence pending a numerical-resolution/visual refinement.
+
+This approval applies to the personal portfolio only. The separate Pantograph presentation remains deployed at `6630f0777e06ff0411085304131be78352dc5e5a`; its source redesign is not published by this action.
+
+Future image additions still require applicable review and publication approval. The existing branch-based route required no application-code merge, account grant, permission change, settings write or hosting change. No denied PR-creation or Pages-enablement action was retried. Source-review documents, unused images and local QA logs are excluded from the Pages bundle.

@@ -91,7 +91,7 @@ All source pixels were inspected before integration. Original PNG bytes are pres
 - Limits: no real Pumas inference; native graph/timeline renderers remain minimal; renderer-type switching needs an application restart; unified multiwindow rendering is unfinished. No Windows/macOS native UI acceptance is claimed.
 - Exact-head CI run: https://github.com/MrScripty/Eidetic/actions/runs/38175127015 . CI is separate from the visible native Linux workflow evidence.
 
-## Source-only visual revision
+## Reviewed visual revision and later source additions
 
 - **Chrema / Composable Agents:** copy comes only from the public profile README, in “Models, workflows & agent-first development.” It describes private workflow-composition and auditable-ledger research. No Chrema private repository, source, credentials or ledger records were accessed or published. “Composable Agents” is the requested presentation label, not a new integration qualification.
 - **Related tools:** Passeur (cross-provider delegation), Coding Standards (shared agent-oriented standards), and Whip Docs (code architecture navigation) are described at the level of their existing public profile entries. These relationships communicate shared concerns, not a verified end-to-end stack.

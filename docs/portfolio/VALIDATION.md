@@ -1,6 +1,6 @@
 # Validation status
 
-Validated 11 October 2026 against the source-only visual revision, using Chromium 151.
+Validated 11 October 2026 using Chromium 151. The source checks below include later image additions; the separately published reviewed design is qualified in the publication section.
 
 - Static resource paths, fragment targets, unique IDs, image alt text, single h1, no external scripts, and JavaScript syntax pass.
 - Combined portfolio/Pantograph validation passes **1,286 checks** at 1440, 768, 390 and 320 px: local resources, no horizontal overflow, skip navigation, nine screenshot dialogs, Escape/Close, Back/Forward, focus return and no-JavaScript reading.
@@ -13,7 +13,9 @@ The standalone portfolio harness is `tools/browser_check.py`. Review screenshots
 
 ## Publication boundary
 
-This visual revision, Chrema copy, book artwork and Tuldok image-workspace addition have not been published. The separately approved Eidetic addition is deployed in the existing layout; its isolated bundle passed 114 publication checks. The existing Pages commit is recorded in `DEPLOYMENT.md`. Fresh Pantograph Graph/Scheduler/Network captures are pending in the app worker; Rheon updates are also pending. The approved Kenoma arm apparatus is now included in the source revision. No replacement image is simulated.
+The reviewed visual design from `b600137`, Chrema overview, original book artwork and preserved Eidetic section are published at `e0ddbf9811044cf2bbd25af4e6527032d2abd701`. Its isolated bundle passed 141 publication checks with seven screenshot dialogs across four viewport sizes. All 15 runtime files match the approved source, and desktop/mobile screenshot bytes match the exact reviewed previews. GitHub build/deploy succeeded; direct public HTTP verification remains proxy-blocked.
+
+The newer Tuldok image-workspace and Kenoma held anatomical-arm additions remain source-only. Fresh Pantograph captures and Rheon refinements remain pending. The separate Pantograph-site redesign was not published. See `DEPLOYMENT.md` for exact commits and verification limits.
 
 ## Tuldok image-workspace addition
 

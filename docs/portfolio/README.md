@@ -1,6 +1,6 @@
 # Puma / Jeremy Bayley portfolio
 
-A buildless portfolio for GitHub Pages. This source branch contains a new visual revision awaiting review; it has not been published. The existing layout with the separately approved Eidetic addition is on the `gh-pages` branch. GitHub reports its deployment succeeded; direct public-URL verification is blocked in the publication environment. The existing GitHub profile README and banner are unchanged.
+A buildless portfolio for GitHub Pages. The reviewed visual design from `b600137`, including Eidetic, is published on `gh-pages`. This source branch also contains later Tuldok and Kenoma anatomical-arm additions that remain unpublished. GitHub reports its deployment succeeded; direct public-URL verification is blocked in the publication environment. The existing GitHub profile README and banner are unchanged.
 
 ## Preview
 
@@ -12,7 +12,7 @@ python3 -m http.server 8080 --bind 127.0.0.1
 
 Then visit `http://127.0.0.1:8080` on that same computer. There is no dependency installation or build step. All images, styling, and scripts are local; third-party requests occur only if a visitor follows an external link.
 
-## What is included
+## What this source includes
 
 - A responsive portfolio with Pumas Library, Pantograph, Chrema, Tuldok, Eidetic, Rheon, and Kenoma
 - A clear project landscape and separate related-tool links, without claiming a complete end-to-end integration
@@ -54,4 +54,4 @@ See `DEPLOYMENT.md` for the exact deployment commit, GitHub-reported URL, and re
 
 Relative asset paths work on a user site or project site. Add a canonical URL and social-preview metadata only after the actual deployment URL is verified. Link the separate Pantograph site only once its published address is verified; the current portfolio links verified repository documentation.
 
-The visual redesign, Chrema, original book covers and new Tuldok image-workspace card remain source-only. The approved Eidetic section was published separately onto the existing layout; see `DEPLOYMENT.md`.
+The reviewed visual redesign, Chrema and original book covers are published, with the approved Eidetic section preserved. The newer Tuldok image-workspace card and Kenoma held anatomical-arm image remain source-only; see `DEPLOYMENT.md` for the exact publication boundary.
