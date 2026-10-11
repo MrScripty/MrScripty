@@ -16,7 +16,8 @@ Then visit `http://127.0.0.1:8080` on that same computer. There is no dependency
 
 - A responsive portfolio with Pumas Library, Pantograph, Tuldok, Rheon, and Kenoma
 - Source and architecture links, project status, and explicit research boundaries
-- Three public book links
+- Dataset Production and Training Your Own Models presented as a paired collection of separate books, with distinct attribution and verified repository links
+- Practical Data Analysis listed separately as an engineering-methods resource
 - Public GitHub and LinkedIn contact links; no private contact details
 - Two genuine Tuldok captures retained in `assets/` with provenance, currently omitted from the visible page pending its compact-UI update
 - An accessible screenshot enlargement dialog with a direct-image fallback

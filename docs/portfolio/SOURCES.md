@@ -60,11 +60,12 @@ Reviewed 2026-10-11. These are repository descriptions and contracts, not an ind
 
 ## Books
 
-These URLs and descriptions are published in the profile README:
+Dataset Production and Training Your Own Models are presented as a paired collection, not as one book. Their repository ownership and attribution remain separate.
 
-- https://bc-ai-ecosystem.github.io/training-your-own-models/ (transferred to BC+AI)
-- https://mrscripty.github.io/practical-data-analysis/
-- https://mrscripty.github.io/dataset-production/
+- **Dataset Production**: https://github.com/MrScripty/dataset-production . This remains MrScripty’s fieldbook and interactive dataset-production workbench. README blob at review: `00d2d1f3333586feb5a68b0b5bba07283c5721d2`. Manuscript title and companion relationship verified in `docs/book/manuscript.md`, blob `8f10a4bc9adc5325974fa0e3cdba1a97127d3fdf`.
+- **Training Your Own Models on One 24 GB GPU**: https://github.com/bc-ai-ecosystem/training-your-own-models . Exact credit: “Vibe Authored by Dr.Puma.” The project was transferred to BC+AI. The repository is archived as of the metadata check on 2026-10-11; the portfolio uses this verified repository link rather than claiming its current site was live-verified. README blob: `b7ee10d5c4ee437c7bc1dd547905f498e78ed8d4`.
+- The training README references a copied archive in WalksWithASwagger/kk-kb and an unspecified improved edition elsewhere. The copied archive is not described or linked here as an improved edition.
+- **Practical Data Analysis for Engineering Decisions** remains a separate resource: https://mrscripty.github.io/practical-data-analysis/ . This title and URL are published in the GitHub profile README.
 
 ## Artwork
 
