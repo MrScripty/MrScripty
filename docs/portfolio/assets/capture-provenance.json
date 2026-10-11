@@ -1,0 +1,28 @@
+[
+  {
+    "file": "assets/tuldok-workbench-image.jpg",
+    "sha256": "7bcb3234b3379ec31ffc53f6cfa9ce86bf9f0f3c1a2e5540c8c5708959e369a8",
+    "dimensions": [
+      1600,
+      1100
+    ],
+    "origin": "genuine running Tuldok application capture",
+    "source_commit": "83b2df92d16acb80a03d1a5d19370489b464501a",
+    "app_revision": "1bb2c3a",
+    "status": "draft PR32, not merged",
+    "fixture": "authored safe sample data; no real-model quality claim"
+  },
+  {
+    "file": "assets/tuldok-workbench-text.jpg",
+    "sha256": "c81be20c2982d7062f79057cb07127f0c5a59cce21d0280b38991df3b05ad499",
+    "dimensions": [
+      1600,
+      1100
+    ],
+    "origin": "genuine running Tuldok application capture",
+    "source_commit": "83b2df92d16acb80a03d1a5d19370489b464501a",
+    "app_revision": "1bb2c3a",
+    "status": "draft PR32, not merged",
+    "fixture": "authored safe sample data; no real-model quality claim"
+  }
+]
