@@ -135,5 +135,21 @@
     "scope": "Actual Svelte I/O Inspector reading retained scalar artifacts from the running loopback Rust service. No native Tauri or model-inference claim.",
     "pixel_edits": "none",
     "visually_inspected": true
+  },
+  {
+    "file": "assets/tuldok-workspace-results.jpg",
+    "sha256": "34fdf853af386eec516d6e026930d98fd80256ec0545b6c9b299e4f4d7e20487",
+    "dimensions": [
+      1440,
+      900
+    ],
+    "source_repository": "MrScripty/Tuldok",
+    "source_commit": "6d939359d3cef2464c2aff990dd58d50c4f8d791",
+    "app_revision": "f725bd1806bfe5e27635eb817a403b602a14591a",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Tuldok/6d939359d3cef2464c2aff990dd58d50c4f8d791/docs/images/workspaces-m2/results-real-1440.jpg",
+    "provenance_url": "https://github.com/MrScripty/Tuldok/blob/6d939359d3cef2464c2aff990dd58d50c4f8d791/docs/images/workspaces-m2/manifest.json",
+    "scope": "Genuine Chromium capture of completed scratch CPU image-classification run on 12 authored CC0 drawings. Frozen release and graph, validation metrics on three examples, stages and verified artifacts are visible. PostgreSQL persistence and restart tested by source workflow; no useful model-quality, audio-training or 3D-training claim.",
+    "pixel_edits": "none",
+    "visually_inspected": true
   }
 ]

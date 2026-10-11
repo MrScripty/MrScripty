@@ -1,36 +1,25 @@
 # GitHub Pages publication
 
-The approved destination is the existing public `MrScripty/MrScripty` repository. A static-only `gh-pages` branch can publish this portfolio independently of `main`, preserving the existing profile README and its workflow. It requires no application-code merge or new repository.
+The existing public `MrScripty/MrScripty` repository publishes a static-only `gh-pages` branch at its root. The profile README, `main`, application branches and workflows are preserved.
 
-## Confirmed deployment and remaining verification
+## Approved Eidetic publication
 
-GitHub reports a successful Pages deployment of `5c5be2f53129f91fe89843caf0e53559f88655c7` from `gh-pages`:
+GitHub reports a successful Pages deployment of **`2eedae76819b17d9442478bddc5df9ff7bc6a745`**:
 
-- Deployment: https://github.com/MrScripty/MrScripty/actions/runs/38175626680
+- Deployment: https://github.com/MrScripty/MrScripty/actions/runs/38182001345
 - GitHub-reported public URL: https://mrscripty.github.io/MrScripty/
 - Source: `gh-pages`, `/(root)`; public; HTTPS enforced.
 
-The publication environment's outbound proxy rejects `mrscripty.github.io`, including an approved escalated fetch. The web fetch tool also could not access it. Therefore public HTTP content and assets have not been independently verified. Local Chromium QA passed against the exact publication bundle. The current refresh uses approved capture revision `7fc3584`, with original image hashes verified and 1,220 combined portfolio/presentation checks passing. Open the returned URL in an authorized browser, check the desktop and mobile layouts and screenshot dialogs, and verify assets before describing it as publicly browser-verified.
+This publication applies only the explicitly approved Eidetic addition from source `48a06f9a857d29a56b92945726ca5de5b3554015` onto deployed base `5c5be2f53129f91fe89843caf0e53559f88655c7`. The delta contains `index.html` and the original Eidetic screenplay/timeline PNG. The resulting HTML matches the approved source exactly. Every existing stylesheet, script and asset remains byte-identical to the deployed base.
 
-## Publishing source
+The 114 publication checks pass across 1440, 768, 390 and 320 px, including all local links, six screenshot dialogs, keyboard navigation, Escape/Close, Back/Forward, focus return, resource loads, no overflow and no-JavaScript reading.
 
-The settings below describe the existing route, not a request to reconfigure it. Do not republish this new visual revision until appearance review and approval are clear.
+A fresh public HTTP request after GitHub's successful deployment still fails with `Tunnel connection failed: 403 Forbidden` from the environment's outbound proxy. Public content delivery and CDN caching therefore remain independently unverified. GitHub's terminal deployment result is confirmed; do not describe the URL as independently browser-verified from this environment.
 
-In repository **Settings → Pages**, choose **Deploy from a branch**, branch **gh-pages**, folder **/(root)**, then **Save**.
+## Broader source revision remains unpublished
 
-The publication root contains only `index.html`, `styles.css`, `script.js`, `.nojekyll`, the favicon, and the five referenced approved screenshots. Review files, unused Tuldok captures, source notes and local QA logs are excluded.
+The new visual design, Chrema overview, original book cards, retained-output lead image, and Tuldok image-workspace milestone remain on the source review branch. They were excluded from the Eidetic publication. New Pantograph, Kenoma anatomy and Rheon captures remain separate dependencies.
 
-The project URL reported by Pages is `https://mrscripty.github.io/MrScripty/`. This differs from a user-root site, which would require a separate `mrscripty.github.io` repository.
+Appearance review and clear approval are required before publishing that broader revision. The existing branch-based route requires no application-code merge, new hosting provider, account grant or settings change. No denied PR creation or Pages-enablement action was retried.
 
-The supported REST equivalent is `POST /repos/MrScripty/MrScripty/pages` with `{"build_type":"legacy","source":{"branch":"gh-pages","path":"/"}}`. This operation requires the existing credential to have Pages write and Administration write permissions. A permission denial must be resolved by the repository owner; do not work around it with another account, credential, or hosting provider.
-
-Before reporting launch, inspect the Pages deployment commit and actual public URL and verify all local assets. Add the separate Pantograph website link and canonical metadata only after the deployed URL is verified. Until then, existing source links remain authoritative.
-
-Official references:
-
-- https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
-- https://docs.github.com/en/rest/pages/pages#create-a-github-pages-site
-
-## Prepared source revision
-
-The redesigned portfolio, Chrema overview, original book covers, retained-output lead image, and Eidetic native screenplay/timeline capture are prepared in the source branch only. They are not included in deployed commit `5c5be2f53129f91fe89843caf0e53559f88655c7`. The `gh-pages` branch has not been updated for this visual revision. No merge, new permission, account grant or hosting change is required to review these source changes.
+Review previews and notes remain outside the publication bundle. The approved Eidetic release contains only the existing runtime files plus its new image; no local QA logs, source-review documents or private data were published.

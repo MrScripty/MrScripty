@@ -37,7 +37,7 @@ Reviewed 2026-10-11. These are repository descriptions and contracts, not an ind
 - Supports: local Python/browser dataset tool, capture/import, corner labeling, provenance/review/export workflows.
 - Screenshot provenance: https://github.com/MrScripty/Tuldok/blob/83b2df92d16acb80a03d1a5d19370489b464501a/docs/images/README.md
 - Source application: `1bb2c3ae9d08432c53ddf9d4bf77fa5f62ad318c`.
-- Capture commit: `83b2df92d16acb80a03d1a5d19370489b464501a` in draft PR #32 (not merged at capture review). These provisional captures are retained as source evidence but omitted from the visible page while Tuldok’s compact-UI update is in progress.
+- Capture commit: `83b2df92d16acb80a03d1a5d19370489b464501a` in draft PR #32 (not merged at capture review). These provisional captures are retained as source evidence but omitted from the visible page in favor of the newer image-workspace milestone described below.
 - Captured in Chromium 151.0.7922.173, 1600 × 1100, device scale 1, direct JPEG85. Files were downloaded from those pinned public URLs and their pixels inspected. No image modification is applied.
 - Image screenshot uses the built-in `rectangles-v1` offline recipe, seed 42, count 3. Text screenshot uses an authored SAMPLE workshop request and a manually saved draft label. Neither image contains personal records or demonstrates model-quality qualification.
 - SHA-256 values and dimensions are recorded in `assets/capture-provenance.json`.
@@ -99,3 +99,14 @@ All source pixels were inspected before integration. Original PNG bytes are pres
 - **Pantograph lead image:** the actual I/O Inspector at approved capture revision `7fc3584` shows retained text. The earlier Graph image is retained and labeled. App follow-up `679622e9d8b17e87a278b81b60194d31ee4f4981` adds saved-workflow submission and a Network adapter, but no new screenshot was delivered; presentation copy distinguishes source changes from old visual evidence.
 - **Pending captures:** Kenoma anatomy and improved Rheon simulation/layout await actual approved images from their application workers. Current genuine captures and their limits remain in place.
 - **Audit:** `IMAGE_AUDIT.md` records displayed image states, source revisions and deployed-branch comparisons. Content-derived asset query strings are cache hygiene, not evidence that caching caused the reported errors.
+
+## Tuldok image-workspace milestone
+
+- Gallery documentation commit: `6d939359d3cef2464c2aff990dd58d50c4f8d791` on `feature/workspace-image-runs-20261011`.
+- The gallery manifest pins the actual capture to clean application source `f725bd1806bfe5e27635eb817a403b602a14591a`, Chromium 151.0.7922.173, 1440 × 900, original JPEG quality 85. The capture's source is distinguished from the later qualification/documentation heads.
+- Displayed image: `results-real-1440.jpg`, copied unchanged as `assets/tuldok-workspace-results.jpg`. SHA-256: `34fdf853af386eec516d6e026930d98fd80256ec0545b6c9b299e4f4d7e20487`.
+- Approved authored data: 12 independent CC0 drawings; 6 training, 3 validation and 3 test examples. The screenshot displays a completed CPU run, 33.3% validation accuracy on 3 examples, macro F1 0.250, frozen graph/release identities, completed stages and verified artifacts. Test access is visibly locked at capture time. This demonstrates the workflow, not useful model quality.
+- Manifest checks cover image import/labels/review, immutable release, actual editable graph and trainer parameters, real CPU training, artifact verification, correction/new release and application restart with retained run/input/prediction identities. The portfolio describes image classification only; it does not claim audio/3D training.
+- Gallery: https://github.com/MrScripty/Tuldok/blob/6d939359d3cef2464c2aff990dd58d50c4f8d791/docs/images/workspaces-m2/README.md
+- Provenance: https://github.com/MrScripty/Tuldok/blob/6d939359d3cef2464c2aff990dd58d50c4f8d791/docs/images/workspaces-m2/manifest.json
+- The app worker reported 98 passing CI steps and 507 Python tests at qualified successor `acac0d3`; this portfolio change does not rerun or extend application qualification. It does not claim the later documentation head has completed CI.
