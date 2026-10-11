@@ -30,4 +30,4 @@ Searches completed:
 
 ## Icons
 
-The original Pumas Library and Pantograph app icons are verified and used. Eidetic and Whip Docs contain placeholders. No usable standalone icon was found in the reviewed public sources for Tuldok, Rheon, Kenoma, Coding Standards or Passeur; Chrema has no verified public icon. See [the exact inventory and sources](ICON_AUDIT.md).
+The original Pumas Library and Pantograph app icons are verified and used. Whip Docs contains a placeholder app image. Eidetic's original icon is owner-confirmed and pending its location; its reviewed packaging files are placeholders, which does not establish that the original artwork is absent. No usable standalone icon was found in the reviewed public sources for Tuldok, Rheon, Kenoma, Coding Standards or Passeur; Chrema has no verified public icon. See [the exact inventory and sources](ICON_AUDIT.md).

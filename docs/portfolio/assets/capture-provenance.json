@@ -318,5 +318,56 @@
     "pixel_edits": "none",
     "visually_inspected": true,
     "publication_approval": "User explicitly approved this exact image for public upload."
+  },
+  {
+    "file": "assets/whip-docs-file-graph.png",
+    "sha256": "a27901eb2ef095dbd4c0a178bcf0e66de8f39be3039a7e7c060bdf79796d04f8",
+    "dimensions": [
+      1680,
+      1050
+    ],
+    "source_repository": "MrScripty/whip-docs",
+    "source_commit": "c5a8417e4e13d18c6751de196cf667653863d5de",
+    "app_revision": "a5caed08ad159de53896753b7cf9eecf98e83e7b",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/whip-docs/c5a8417e4e13d18c6751de196cf667653863d5de/docs/images/mixed-fixture-file-overview.png",
+    "provenance_url": "https://github.com/MrScripty/whip-docs/blob/c5a8417e4e13d18c6751de196cf667653863d5de/docs/images/compact-inspector-provenance.json",
+    "scope": "Actual Chromium/WebGL UI with public synthetic Rust-parser fixture, whip-docs-syntax@5, 39 files and 37 captured sources. The @6 parser repair leaves this UI unchanged. Browser preview is separate from native persistence; native desktop build, Tauri IPC and restart are not qualified. No Passeur runtime, automatic proposal execution or inference claim.",
+    "pixel_edits": "none",
+    "visually_inspected": true,
+    "original_capture_commit_bytes_verified": true
+  },
+  {
+    "file": "assets/whip-docs-expanded-symbols.png",
+    "sha256": "34637384262df566250c2d781fcf0c1cdd297338efa5dab0e1692540d558dfb9",
+    "dimensions": [
+      1680,
+      1050
+    ],
+    "source_repository": "MrScripty/whip-docs",
+    "source_commit": "c5a8417e4e13d18c6751de196cf667653863d5de",
+    "app_revision": "a5caed08ad159de53896753b7cf9eecf98e83e7b",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/whip-docs/c5a8417e4e13d18c6751de196cf667653863d5de/docs/images/mixed-fixture-file-expanded.png",
+    "provenance_url": "https://github.com/MrScripty/whip-docs/blob/c5a8417e4e13d18c6751de196cf667653863d5de/docs/images/compact-inspector-provenance.json",
+    "scope": "Actual Chromium/WebGL UI with public synthetic Rust-parser fixture, whip-docs-syntax@5, 39 files and 37 captured sources. The @6 parser repair leaves this UI unchanged. Browser preview is separate from native persistence; native desktop build, Tauri IPC and restart are not qualified. No Passeur runtime, automatic proposal execution or inference claim.",
+    "pixel_edits": "none",
+    "visually_inspected": true,
+    "original_capture_commit_bytes_verified": true
+  },
+  {
+    "file": "assets/whip-docs-compact-inspector.png",
+    "sha256": "8ec3abbe4c50b016aff0fcff98d8bd666aa478d4416b8278287759e7c1c67f3a",
+    "dimensions": [
+      395,
+      970
+    ],
+    "source_repository": "MrScripty/whip-docs",
+    "source_commit": "c5a8417e4e13d18c6751de196cf667653863d5de",
+    "app_revision": "a5caed08ad159de53896753b7cf9eecf98e83e7b",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/whip-docs/c5a8417e4e13d18c6751de196cf667653863d5de/docs/images/compact-inspector.png",
+    "provenance_url": "https://github.com/MrScripty/whip-docs/blob/c5a8417e4e13d18c6751de196cf667653863d5de/docs/images/compact-inspector-provenance.json",
+    "scope": "Actual Chromium/WebGL UI with public synthetic Rust-parser fixture, whip-docs-syntax@5, 39 files and 37 captured sources. The @6 parser repair leaves this UI unchanged. Browser preview is separate from native persistence; native desktop build, Tauri IPC and restart are not qualified. No Passeur runtime, automatic proposal execution or inference claim.",
+    "pixel_edits": "none",
+    "visually_inspected": true,
+    "original_capture_commit_bytes_verified": true
   }
 ]

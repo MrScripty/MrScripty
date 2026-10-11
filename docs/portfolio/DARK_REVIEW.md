@@ -6,6 +6,7 @@ This source-only revision replaces the cream sections with a compact dark design
 
 - Dark backgrounds throughout, shorter spacing, larger visual share of each project row, original book covers retained.
 - Separate full-width Tuldok and Eidetic sections, stacked vertically at every viewport.
+- A full Whip Docs visual section: actual 3D file graph, expanded symbols and the compact intent inspector, from merged public evidence. Independent Tree-sitter parsing and immutable intent entries are described concisely; browser fixture and native desktop verification remain distinct.
 - Four unedited, actual Pantograph workbench captures: completed Graph, retained output, Diagnostics and Scheduler. The earlier amber-warning Graph and separate scheduler-demo host images are absent from the visible gallery.
 - The exact approved 700 × 661 Kenoma held-arm canvas beside the unchanged two-mannequin poser. Caption distinguishes held right-arm geometry and authored weighting from a new motion solve. Original component credits and pinned evidence remain accessible.
 - Original Pumas Library and Pantograph icons. Other project names retain text branding; see [icon inventory](ICON_AUDIT.md).
@@ -28,3 +29,9 @@ The [follow-up source gap audit](SOURCE_GAP_AUDIT.md) records the exact book sea
 - [Coding Standards engine, 188beda](https://github.com/MrScripty/Coding-Standards/blob/188beda1fa477d21d576c233dd8c7f4c4c267d23/tools/standards_engine/README.md). Typed MCP navigation and controlled authoring; actual content qualification is separate.
 
 All copied screenshot hashes and image dimensions are recorded in [capture provenance](assets/capture-provenance.json). App screenshots are shown complete with access to their original size. No app code, shared workflow, root profile README, account permission, main branch, or Pages publication was changed.
+
+## Whip Docs visual addition
+
+Three unedited captures from [merged main c5a8417](https://github.com/MrScripty/whip-docs/blob/c5a8417e4e13d18c6751de196cf667653863d5de/docs/images/README.md) are byte-identical to UI commit `a5caed08`. They replay actual Rust-parser output from the public synthetic fixture using extractor @5; the newer @6 parser privacy repair does not change this UI. The main merge has no file differences from reviewed head `be1ed18`. Native desktop build, Tauri IPC and restart acceptance remain unverified. No Passeur runtime, graph-folding integration or model inference is claimed.
+
+The owner-confirmed original Eidetic icon remains pending its location. The icon inventory now distinguishes that unresolved asset from the placeholder files encountered in the committed packaging sources.

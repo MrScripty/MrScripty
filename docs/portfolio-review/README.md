@@ -1,6 +1,6 @@
 # Dark portfolio appearance review
 
-**Review branch only; not deployed.** The page now has a compact dark palette, separate stacked Tuldok and Eidetic sections, current actual Pantograph workbench captures, the approved cleaner Kenoma held-arm scene beside the mannequins, shipped Pumas/Pantograph icons, and a featured Coding Standards / Cooking the Cat pairing.
+**Review branch only; not deployed.** The page now has a compact dark palette, separate stacked Tuldok and Eidetic sections, current actual Pantograph workbench captures, the approved cleaner Kenoma held-arm scene beside the mannequins, shipped Pumas/Pantograph icons, a full Whip Docs visual section, and a featured Coding Standards / Cooking the Cat pairing.
 
 [Full desktop preview](dark-desktop.png) · [Full mobile preview](dark-mobile.png) · [Source and remaining blockers](../portfolio/DARK_REVIEW.md) · [Icon inventory](../portfolio/ICON_AUDIT.md) · [Validation](../portfolio/VALIDATION.md)
 
@@ -10,9 +10,12 @@
 | ![Pantograph actual workbench gallery](dark-pantograph-desktop.png) | ![Pantograph mobile gallery](dark-pantograph-mobile.png) |
 | ![Tuldok desktop](dark-tuldok-desktop.png) | ![Tuldok mobile](dark-tuldok-mobile.png) |
 | ![Eidetic desktop](dark-eidetic-desktop.png) | ![Eidetic mobile](dark-eidetic-mobile.png) |
+| ![Whip Docs 3D graph, symbols and compact inspector](dark-whip-docs-desktop.png) | ![Whip Docs mobile](dark-whip-docs-mobile.png) |
 | ![Kenoma poser and approved held arm](dark-kenoma-desktop.png) | ![Kenoma mobile](dark-kenoma-mobile.png) |
 | ![Coding Standards and book pairing](dark-standards-desktop.png) | ![Coding Standards mobile](dark-standards-mobile.png) |
 | ![Original book covers](dark-books-desktop.png) | ![Original book covers on mobile](dark-books-mobile.png) |
+
+The owner-confirmed original Eidetic icon is pending its location; the earlier placeholder-file finding was not a complete asset conclusion.
 
 The Pumas architecture diagram is explicitly authored, not a GUI capture. An actual public Library GUI image is still needed. Cooking the Cat has the owner-provided title and description but awaits its public book URL and original cover. The low-resolution Rheon candidate was not selected; the earlier solver comparison remains qualified by its caption.
 
