@@ -69,4 +69,12 @@ Dataset Production and Training Your Own Models are presented as a paired collec
 
 ## Artwork
 
-The hero is an original SVG concept map. It is explicitly labeled as an editorial grouping, not a runtime dependency graph. The Pumas and Pantograph architecture panels are authored diagrams, not screenshots. No generated or reconstructed application interface is used.
+The hero is an original SVG editorial concept map. The Pumas architecture panel is an authored diagram, not a screenshot. Pantograph, Rheon, and Kenoma use unedited running-application captures; no generated or reconstructed application interface is used.
+
+## Additional running-application captures
+
+All source pixels were inspected before integration. Original PNG bytes are preserved; CSS scales images without cropping. File hashes, dimensions, source URLs, exact capture commits, and scope are in `assets/capture-provenance.json`.
+
+- **Pantograph**: capture branch pinned to `7c9cc6d94da0f4612d5240967bcc5e0aaafa6a9b`. The actual Svelte editor and the deterministic native scheduler demo are separate surfaces. Success and missing-path rejection screenshots show actual native results; no model weights, GPU inference, or end-to-end Tauri execution is established. Guide: https://github.com/MrScripty/Pantograph/blob/7c9cc6d94da0f4612d5240967bcc5e0aaafa6a9b/examples/scheduler-demo/README.md
+- **Rheon**: source capture commit `a2ebb8f11bcb65df0c70c45bfb8234d08b293a0a`, running app commit `34235d33c886aa05b5bdf95d920b863d1fb2ad6f`. Native Linux software-rendered solver comparison, 1650 × 900. The unequal accepted-time warning is visible. This is exploratory fixed-box solver evidence, not physical validation or a qualified speed comparison. Source: https://github.com/MrScripty/Rheon/blob/a2ebb8f11bcb65df0c70c45bfb8234d08b293a0a/README.md
+- **Kenoma**: source capture commit `9739080116b658e6248816f4e4239c4fde95ca94`, running app commit `e2ea6acc5db44794ae8b49beb877f5a8bccea056`. Chromium151, 1600 × 1000, actual Rust/WASM editor. Schematic posing and joint creasing are retained. Source: https://github.com/MrScripty/Kenoma/blob/9739080116b658e6248816f4e4239c4fde95ca94/README.md

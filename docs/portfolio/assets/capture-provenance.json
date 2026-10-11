@@ -24,5 +24,85 @@
     "app_revision": "1bb2c3a",
     "status": "draft PR32, not merged",
     "fixture": "authored safe sample data; no real-model quality claim"
+  },
+  {
+    "file": "assets/rheon-native-comparison.png",
+    "sha256": "95cbfa411eb50fbe0c7497a5320340d5680f46d84e49066de4456692975c448b",
+    "git_blob_sha": "81135ddda50791d2c1cc7eb8bc2f662d3bc166f6",
+    "dimensions": [
+      1650,
+      900
+    ],
+    "source_repository": "MrScripty/Rheon",
+    "source_commit": "a2ebb8f11bcb65df0c70c45bfb8234d08b293a0a",
+    "app_revision": "34235d33c886aa05b5bdf95d920b863d1fb2ad6f",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Rheon/a2ebb8f11bcb65df0c70c45bfb8234d08b293a0a/docs/images/rheon-native-comparison-32-cubed-100-steps.png",
+    "scope": "Unedited native-window capture on Linux with Xvfb/Mesa software rendering. Solver comparison with unequal accepted-time warning; no physical-validation or benchmark claim.",
+    "pixel_edits": "none",
+    "visually_inspected": true
+  },
+  {
+    "file": "assets/kenoma-two-character-scene.png",
+    "sha256": "4ae8f7458f541e1c818ba10cbbdd6383c11851e9e7d8a11a792dbaca1e1c51bc",
+    "git_blob_sha": "3b796ce37edbcead80ec1feb293e152a4f90a667",
+    "dimensions": [
+      1600,
+      1000
+    ],
+    "source_repository": "MrScripty/Kenoma",
+    "source_commit": "9739080116b658e6248816f4e4239c4fde95ca94",
+    "app_revision": "e2ea6acc5db44794ae8b49beb877f5a8bccea056",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Kenoma/9739080116b658e6248816f4e4239c4fde95ca94/docs/images/kenoma-two-character-scene.png",
+    "scope": "Unedited Chromium151 capture of running Rust/WASM posing editor at1600x1000. Schematic posing; joint creasing retained.",
+    "pixel_edits": "none",
+    "visually_inspected": true
+  },
+  {
+    "file": "assets/pantograph-node-editor.png",
+    "sha256": "896914d99160a9c36881205a987e2e5a9fa96f41f533b53e6b4fce0cca276703",
+    "git_blob_sha": "4eacb3285a036872598a6b50c8bbebc7821dfffb",
+    "dimensions": [
+      1600,
+      1000
+    ],
+    "source_repository": "MrScripty/Pantograph",
+    "source_commit": "7c9cc6d94da0f4612d5240967bcc5e0aaafa6a9b",
+    "app_revision": "256b6b94ece4dbbaa1fb236bc4092ad08aa63525 plus the capture branch changes",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/7c9cc6d94da0f4612d5240967bcc5e0aaafa6a9b/docs/images/node-editor.png",
+    "scope": "Actual Svelte editor rendering the backend-produced graph and definitions. Submit unavailable and No output yet retained; native desktop save/edit/submit unqualified.",
+    "pixel_edits": "none",
+    "visually_inspected": true
+  },
+  {
+    "file": "assets/pantograph-scheduler-success.png",
+    "sha256": "22124621a0e4e90e972879f49616070db21b48c70dc09febd57cd480dc002fb5",
+    "git_blob_sha": "3d3fd1d14f5e4f28f4a1c5fb3c805319016f87aa",
+    "dimensions": [
+      1600,
+      1535
+    ],
+    "source_repository": "MrScripty/Pantograph",
+    "source_commit": "7c9cc6d94da0f4612d5240967bcc5e0aaafa6a9b",
+    "app_revision": "256b6b94ece4dbbaa1fb236bc4092ad08aa63525 plus the capture branch changes",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/7c9cc6d94da0f4612d5240967bcc5e0aaafa6a9b/docs/images/scheduler-demo-success.png",
+    "scope": "Real native deterministic scheduler execution in a minimal browser host. JSON extraction succeeds. Separate from desktop editor and model inference.",
+    "pixel_edits": "none",
+    "visually_inspected": true
+  },
+  {
+    "file": "assets/pantograph-scheduler-rejection.png",
+    "sha256": "843be963cea4669b91fa7506782214833c08d8309d5aeb327e3639c432312f77",
+    "git_blob_sha": "e33b6df98e7156735df9cc2a88e0ba289d419315",
+    "dimensions": [
+      1600,
+      1355
+    ],
+    "source_repository": "MrScripty/Pantograph",
+    "source_commit": "7c9cc6d94da0f4612d5240967bcc5e0aaafa6a9b",
+    "app_revision": "256b6b94ece4dbbaa1fb236bc4092ad08aa63525 plus the capture branch changes",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/7c9cc6d94da0f4612d5240967bcc5e0aaafa6a9b/docs/images/scheduler-demo-rejection.png",
+    "scope": "Real native deterministic scheduler execution in a minimal browser host. Missing JSON path causes downstream Invalid failure. Separate from desktop editor and model inference.",
+    "pixel_edits": "none",
+    "visually_inspected": true
   }
 ]

@@ -19,11 +19,12 @@ Then visit `http://127.0.0.1:8080` on that same computer. There is no dependency
 - Dataset Production and Training Your Own Models presented as a paired collection of separate books, with distinct attribution and verified repository links
 - Practical Data Analysis listed separately as an engineering-methods resource
 - Public GitHub and LinkedIn contact links; no private contact details
+- Genuine Pantograph editor/native-demo, Rheon native-comparison, and Kenoma WASM-editor captures with full-size enlargement and pinned provenance
 - Two genuine Tuldok captures retained in `assets/` with provenance, currently omitted from the visible page pending its compact-UI update
 - An accessible screenshot enlargement dialog with a direct-image fallback
 - Dark / light sections, reduced-motion support, print styling, and a skip link
 
-The Pumas and Pantograph visual panels currently show clearly labeled authored architecture summaries. They are not app screenshots. Their markup has `SCREENSHOT_SLOT` comment markers for verified captures when available. Rheon and Kenoma are presented through supported source descriptions without invented imagery. Each project has concise capability copy; detailed scope and verification notes use closed disclosure sections.
+The Pumas panel currently shows a clearly labeled authored architecture summary, not an app screenshot. Pantograph shows genuine captures of its browser-rendered Svelte editor and separate native scheduler demo. Rheon and Kenoma show genuine running-application captures. Each project has concise capability copy; detailed scope and verification notes use closed disclosure sections.
 
 ## Checks
 
@@ -34,7 +35,7 @@ node --check script.js
 
 Both pass. The static checker covers local resource paths, fragment targets, duplicate IDs, alt attributes, a single primary heading, external scripts, and the Pages marker.
 
-`tools/browser_check.py` contains a local responsive and dialog QA harness for an environment that already has Playwright and Chromium. In the preparation environment, browser startup failed before page rendering because Chromium could not create its process-singleton socket. A retry with elevated execution returned the same runtime failure. The supported cloud browser could not reach this workspace's loopback server. Consequently, no visual/browser QA pass or website preview screenshot is claimed. See `VALIDATION.md`.
+`tools/browser_check.py` contains a local responsive and dialog QA harness for an environment that already has Playwright and Chromium. In the preparation environment, browser startup failed before page rendering because Chromium could not create its process-singleton socket. A retry with elevated execution returned the same runtime failure. The supported cloud browser could not reach this workspace's loopback server. The source at `e5e743e` subsequently passed 39 browser checks in a separate authorized environment. Reported arrow-glyph and phone-type issues are corrected in this follow-up, whose new captures/dialogs still need a browser rerun. See `VALIDATION.md`.
 
 Before publishing: render desktop, tablet, and phone sizes; check anchors, keyboard navigation, dialog close/Escape/focus return, overflow, and actual screenshot readability. Confirm the final copy and capture selection.
 

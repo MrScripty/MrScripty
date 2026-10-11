@@ -2,16 +2,21 @@
 
 ## Passed locally
 
-- `python3 tools/verify.py`: no errors; 26 unique IDs, one h1, valid local resource paths and anchor targets, required image alt attributes, and no external scripts.
+- `python3 tools/verify.py`: no errors; one h1, valid local resource paths and anchor targets, required image alt attributes, and no external scripts.
 - `node --check script.js`: JavaScript syntax passed.
 - Original Tuldok JPEG files opened, decoded, and visually inspected at 1600 × 1100.
+- Original Pantograph, Rheon, and Kenoma PNG captures decoded and visually inspected; screenshot pixels are unedited.
 - SHA-256 image provenance recorded.
 - Manual source review: no fabricated metrics, testimonials, customers, inference quality, anatomical accuracy, or production fluid-simulation claims; no private project disclosures.
 - Basic palette contrast spot checks prompted darker light-background label colors. This is not a full automated accessibility audit.
 
-## Not completed
+## Browser QA baseline and pending rerun
 
-The website has not yet been rendered successfully in a browser in this workspace. No website screenshots are supplied or claimed.
+The source at commit `e5e743e536330ebee40be62cdc0416b09cc73ff5` was rendered in a separate authorized saved environment: 39 checks passed across desktop and phone, 320–1440 px widths, overflow, anchors, disclosures, keyboard navigation, and the skip link. Two issues were reported: missing-glyph external-link arrows and small phone attribution/diagram labels.
+
+This follow-up replaces arrows with inline SVG and adds a readable mobile project map and larger labels. It also adds five visible app captures and browser-history-aware image dialogs. These new changes still need a browser rerun, including Close, Escape, Back/Forward, and repeated opening. The earlier baseline had no visible captures, so it did not validate the dialog.
+
+The original local rendering limitation below remains specific to this preparation workspace.
 
 The installed Chromium process failed before navigation with:
 
