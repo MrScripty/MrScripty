@@ -1,21 +1,23 @@
 # Validation status
 
-Validated 11 October 2026 using Chromium 151. The source checks below include later image additions; the separately published reviewed design is qualified in the publication section.
+The compact dark revision is source-only. It was checked locally in Chromium 151 at **1440, 768, 390 and 320 px** on 11 October 2026.
 
-- Static resource paths, fragment targets, unique IDs, image alt text, single h1, no external scripts, and JavaScript syntax pass.
-- Combined portfolio/Pantograph validation passes **1,286 checks** at 1440, 768, 390 and 320 px: local resources, no horizontal overflow, skip navigation, nine screenshot dialogs, Escape/Close, Back/Forward, focus return and no-JavaScript reading.
-- Pantograph keyboard tabs, successful and expected-rejection recordings, event inspection and JSON downloads pass. All six research pages pass phone/desktop contents navigation and overflow checks; bibliography links resolve.
-- Desktop and mobile review images were inspected for the hero, book cards, Pantograph project card, three perspectives and view coverage. Original image pixels are unchanged; CSS preserves the full captures and cover art.
-- All **24 distinct GitHub destinations** on the two landing pages returned HTTP 200. The previously approved LinkedIn and Practical Data Analysis Pages URLs remain independently unverified because the environment blocks those external hosts. The two Creative Commons license URLs from Kenoma's pinned attribution record are also blocked by the proxy; their exact source-provided links are preserved.
-- The existing profile README, manuscript editions, backend code and shared CI workflows are unchanged. Eidetic's original approved native capture and its qualification limits remain intact.
+- Static paths, fragments, IDs, alt attributes, one h1, and JavaScript syntax pass. No external scripts are loaded.
+- All four browser viewports have no horizontal overflow, broken images, blank links or JavaScript errors. Skip navigation works. All nine screenshot dialogs open their original images, close with Escape, and restore focus at every width (36 dialog exercises). Reading and source links remain usable without JavaScript.
+- **64 additional checks pass:** dark section backgrounds, separately stacked Tuldok/Eidetic sections, the four actual Pantograph workbench views, both Kenoma views, screenshot hashes and matching Pantograph receipt hashes.
+- Desktop/mobile full-page and project-section previews were visually inspected. Existing screenshots and cover art retain their original pixels and aspect ratios.
+- All **21 distinct GitHub destinations** on the current page returned HTTP 200, including Eidetic's evidence link on retry after a transient 503. Four external destinations remain proxy-blocked: LinkedIn, the existing Practical Data Analysis Pages site, and two source-provided Creative Commons license links. These are recorded as unverified, not broken or successfully checked.
+- The profile README is unchanged (`5d48d5df5f18548fc8706ee49fb6f13ca09eaa52`). Remote main remains `20ae4e6f08e753fc37f97abb6b651d60fd156ed5`; Pages remains `e0ddbf9811044cf2bbd25af4e6527032d2abd701`.
 
-The standalone portfolio harness is `tools/browser_check.py`. Review screenshots and its JSON report are written under ignored `review/`. A combined static-site harness additionally checks the assembled project subpaths and research documents. Local checks establish source behavior, not live deployment.
+See [dark review and remaining blockers](DARK_REVIEW.md), [product icon inventory](ICON_AUDIT.md), [desktop/mobile previews](../portfolio-review/README.md), and [capture provenance](assets/capture-provenance.json). Pumas Library GUI evidence, the Cooking the Cat public source/cover, and the approved Rheon refinement are still outstanding.
+
+The standalone browser harness is `tools/browser_check.py`; outputs under `review/` are ignored. Local source checks do not establish a live deployment. Earlier validation and release records follow for historical context.
 
 ## Publication boundary
 
 The reviewed visual design from `b600137`, Chrema overview, original book artwork and preserved Eidetic section are published at `e0ddbf9811044cf2bbd25af4e6527032d2abd701`. Its isolated bundle passed 141 publication checks with seven screenshot dialogs across four viewport sizes. All 15 runtime files match the approved source, and desktop/mobile screenshot bytes match the exact reviewed previews. GitHub build/deploy succeeded; direct public HTTP verification remains proxy-blocked.
 
-The newer Tuldok image-workspace and Kenoma held anatomical-arm additions remain source-only. Fresh Pantograph captures and Rheon refinements remain pending. The separate Pantograph-site redesign was not published. See `DEPLOYMENT.md` for exact commits and verification limits.
+The dark revision and its Tuldok image-workspace, fresh Pantograph and Kenoma held anatomical-arm additions remain source-only. The dark source revision now includes fresh Pantograph captures; Rheon refinements remain pending. The separate Pantograph-site redesign was not published. See `DEPLOYMENT.md` for exact commits and verification limits.
 
 ## Tuldok image-workspace addition
 

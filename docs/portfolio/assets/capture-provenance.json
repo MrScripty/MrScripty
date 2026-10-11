@@ -202,5 +202,121 @@
     },
     "pixel_edits": "none",
     "visually_inspected": true
+  },
+  {
+    "file": "assets/pantograph-inference-graph-completed.png",
+    "sha256": "7ec9c4357cf7531261c2b4b7751e88d0e2ed38085e75d705e5c50c0ade3ecbd3",
+    "dimensions": [
+      1800,
+      1200
+    ],
+    "source_repository": "MrScripty/Pantograph",
+    "source_commit": "095895e34b804fbe6757eb0dc3beba34a82c2e35",
+    "app_revision": "12fa09a685a4ccc44edf992ba117648f8fa367ef",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/095895e34b804fbe6757eb0dc3beba34a82c2e35/docs/images/real-inference-demo-2026-10-11/inference/graph-completed.png",
+    "provenance_url": "https://github.com/MrScripty/Pantograph/blob/095895e34b804fbe6757eb0dc3beba34a82c2e35/docs/images/real-inference-demo-2026-10-11/inference/receipt.json",
+    "scope": "Actual Svelte workbench and loopback Rust service. One completed CPU Candle untrained BERT-8 embedding run. No meaningful model-quality, native Tauri or richer multimodal claim.",
+    "pixel_edits": "none",
+    "visually_inspected": true
+  },
+  {
+    "file": "assets/pantograph-inference-retained-output.png",
+    "sha256": "418d93dee443090b513fa95087a4d8fe2c91aa8ecdcde07154d3b9fa5eac300b",
+    "dimensions": [
+      1800,
+      1200
+    ],
+    "source_repository": "MrScripty/Pantograph",
+    "source_commit": "095895e34b804fbe6757eb0dc3beba34a82c2e35",
+    "app_revision": "12fa09a685a4ccc44edf992ba117648f8fa367ef",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/095895e34b804fbe6757eb0dc3beba34a82c2e35/docs/images/real-inference-demo-2026-10-11/inference/retained-output.png",
+    "provenance_url": "https://github.com/MrScripty/Pantograph/blob/095895e34b804fbe6757eb0dc3beba34a82c2e35/docs/images/real-inference-demo-2026-10-11/inference/receipt.json",
+    "scope": "Actual Svelte workbench and loopback Rust service. One completed CPU Candle untrained BERT-8 embedding run. No meaningful model-quality, native Tauri or richer multimodal claim.",
+    "pixel_edits": "none",
+    "visually_inspected": true
+  },
+  {
+    "file": "assets/pantograph-inference-diagnostics.png",
+    "sha256": "521bfb55a66160557bda4a099f62418b6f2eef8e141fa4b6d0c8efb360a95ab2",
+    "dimensions": [
+      1800,
+      1200
+    ],
+    "source_repository": "MrScripty/Pantograph",
+    "source_commit": "095895e34b804fbe6757eb0dc3beba34a82c2e35",
+    "app_revision": "12fa09a685a4ccc44edf992ba117648f8fa367ef",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/095895e34b804fbe6757eb0dc3beba34a82c2e35/docs/images/real-inference-demo-2026-10-11/inference/diagnostics.png",
+    "provenance_url": "https://github.com/MrScripty/Pantograph/blob/095895e34b804fbe6757eb0dc3beba34a82c2e35/docs/images/real-inference-demo-2026-10-11/inference/receipt.json",
+    "scope": "Actual Svelte workbench and loopback Rust service. One completed CPU Candle untrained BERT-8 embedding run. No meaningful model-quality, native Tauri or richer multimodal claim.",
+    "pixel_edits": "none",
+    "visually_inspected": true
+  },
+  {
+    "file": "assets/pantograph-inference-scheduler.png",
+    "sha256": "4fd2d4df4f24a6113b328c8d07d16fffc2dc3715928e1f1170bb740b3be67eb3",
+    "dimensions": [
+      1800,
+      1200
+    ],
+    "source_repository": "MrScripty/Pantograph",
+    "source_commit": "095895e34b804fbe6757eb0dc3beba34a82c2e35",
+    "app_revision": "12fa09a685a4ccc44edf992ba117648f8fa367ef",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/095895e34b804fbe6757eb0dc3beba34a82c2e35/docs/images/real-inference-demo-2026-10-11/inference/scheduler.png",
+    "provenance_url": "https://github.com/MrScripty/Pantograph/blob/095895e34b804fbe6757eb0dc3beba34a82c2e35/docs/images/real-inference-demo-2026-10-11/inference/receipt.json",
+    "scope": "Actual Svelte workbench and loopback Rust service. One completed CPU Candle untrained BERT-8 embedding run. No meaningful model-quality, native Tauri or richer multimodal claim.",
+    "pixel_edits": "none",
+    "visually_inspected": true
+  },
+  {
+    "file": "assets/kenoma-held-anatomy-scene.png",
+    "sha256": "f5447eaa7a86935156a347d2fee3bc9f6bfdf03844749fb98fb72b94466caa20",
+    "dimensions": [
+      700,
+      661
+    ],
+    "source_repository": "MrScripty/Kenoma",
+    "source_commit": "b9ccaacd355d9c75cce042541f738de7df56de69",
+    "app_revision": "b6ff7af9010e867e6f8361ef4c5652147efa8391",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Kenoma/b9ccaacd355d9c75cce042541f738de7df56de69/docs/review/research-book-teaching/portfolio-anatomy/kenoma-held-anatomy-scene.png",
+    "provenance_url": "https://github.com/MrScripty/Kenoma/blob/b9ccaacd355d9c75cce042541f738de7df56de69/docs/review/research-book-teaching/portfolio-anatomy/held-scene-provenance.json",
+    "scope": "Complete native WebGL canvas at an adjusted oblique camera angle. Held right-arm reference and same-angle authored bone-weight comparison; no pixels or geometry edited, no new motion solve or full-body simulation.",
+    "attribution": {
+      "notice_source": "education/data/elbow-v1/LICENSES_AND_ATTRIBUTION.txt",
+      "notice_sha256": "9c2fa6c1434f40faed1fa1c24c1af9a04bd931066d4ada27a501752c7af38f2e",
+      "atlas": {
+        "credit": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International.",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "official_grant": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+        "release": "BodyParts3D 4.0, IS-A 99% polygon-reduced archive",
+        "publication": "Mitsuhashi N, Fujieda K, Tamura T, Kawamoto S, Takagi T, Okubo K. BodyParts3D: 3D structure database for anatomical concepts. Nucleic Acids Research37 (2009), D782\u2013D785. doi:10.1093/nar/gkn613.",
+        "modifications": "Ten-element selection; mm to SI m; zero-based face indices; colors/rendering. Muscle volumes additionally authored segmentation/remeshing and explicit reference repairs; authored attachments, fibres and tendon routes.",
+        "historical_notices": "Historical CC BY-SA2.1 Japan comments remain in original OBJ files; no license changed.",
+        "source": "education/data/elbow-v1/data/bodyparts3d_right_arm_m.json",
+        "source_sha256": "c3ca97df0d41302de5c3e553cb9974c4c0bd68a30866c26a18e1ba41ceab4257"
+      },
+      "arm26": {
+        "credit": "The OpenSim Development Team (Reinbolt, J; Seth, A; Habib, A; Hamner, S), adapted from a model originally created by Kate Holzbaur (11/22/04).",
+        "license": "CC BY3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "publication": "Holzbaur KRS, Murray WM, Delp SL. A Model of the Upper Extremity for Simulating Musculoskeletal Surgery and Analyzing Neuromuscular Control. Annals of Biomedical Engineering33 (2005),829\u2013840. doi:10.1007/s10439-005-3320-7.",
+        "pinned_model_url": "https://github.com/opensim-org/opensim-models/blob/84b487c4e3245359a64381e01f01b9cf4772d457/Models/Arm26/arm26.osim",
+        "modifications": "Selected numerical parameters/coordinate bounds extracted into CSV/JSON with units and evidence labels; original XML unchanged.",
+        "source_sha256": "e2224d0044eb393b05d64926c3fa1682c451a9adc7f510e5517ef9958d3d41b9"
+      },
+      "original_processing_scripts": {
+        "credit": "Copyright (c)2026 Kenoma educational data contribution",
+        "license": "MIT; full existing notice retained in linked component record"
+      },
+      "renderer": {
+        "credit": "Copyright \u00a92010\u20132025 three.js authors",
+        "license": "MIT; existing bundled notices retained"
+      },
+      "openarm": "Not used or displayed in this capture; separate OpenArm Multisensor2.0 CC BY4.0 credits remain in the component record.",
+      "license_changes": "None; no package-wide license overrides component licenses."
+    },
+    "pixel_edits": "none",
+    "visually_inspected": true,
+    "publication_approval": "User explicitly approved this exact image for public upload."
   }
 ]

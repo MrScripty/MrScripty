@@ -1,3 +1,25 @@
+# Dark portfolio appearance review
+
+**Review branch only; not deployed.** The page now has a compact dark palette, separate stacked Tuldok and Eidetic sections, current actual Pantograph workbench captures, the approved cleaner Kenoma held-arm scene beside the mannequins, shipped Pumas/Pantograph icons, and a featured Coding Standards / Cooking the Cat pairing.
+
+[Full desktop preview](dark-desktop.png) · [Full mobile preview](dark-mobile.png) · [Source and remaining blockers](../portfolio/DARK_REVIEW.md) · [Icon inventory](../portfolio/ICON_AUDIT.md) · [Validation](../portfolio/VALIDATION.md)
+
+| Desktop | Mobile |
+| --- | --- |
+| ![Dark portfolio desktop](dark-desktop.png) | ![Dark portfolio mobile](dark-mobile.png) |
+| ![Pantograph actual workbench gallery](dark-pantograph-desktop.png) | ![Pantograph mobile gallery](dark-pantograph-mobile.png) |
+| ![Tuldok desktop](dark-tuldok-desktop.png) | ![Tuldok mobile](dark-tuldok-mobile.png) |
+| ![Eidetic desktop](dark-eidetic-desktop.png) | ![Eidetic mobile](dark-eidetic-mobile.png) |
+| ![Kenoma poser and approved held arm](dark-kenoma-desktop.png) | ![Kenoma mobile](dark-kenoma-mobile.png) |
+| ![Coding Standards and book pairing](dark-standards-desktop.png) | ![Coding Standards mobile](dark-standards-mobile.png) |
+| ![Original book covers](dark-books-desktop.png) | ![Original book covers on mobile](dark-books-mobile.png) |
+
+The Pumas architecture diagram is explicitly authored, not a GUI capture. An actual public Library GUI image is still needed. Cooking the Cat has the owner-provided title and description but awaits its public book URL and original cover. The low-resolution Rheon candidate was not selected; the earlier solver comparison remains qualified by its caption.
+
+The existing Pages publication remains `e0ddbf9811044cf2bbd25af4e6527032d2abd701`. The previously approved cream design and its historical image-addition previews are retained below as an archive, not the current appearance.
+
+---
+
 # Portfolio appearance review
 
 Reviewed design, 11 October 2026. The desktop/book/mobile previews below show the approved appearance from `b600137`, now published at Pages commit `e0ddbf9811044cf2bbd25af4e6527032d2abd701`. These are screenshots of the static site, not new app captures. The later Tuldok and Kenoma previews farther down remain source-only.

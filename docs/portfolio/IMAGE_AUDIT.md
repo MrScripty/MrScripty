@@ -1,3 +1,9 @@
+# Current dark review
+
+The dark revision supersedes the visible gallery described below. It uses fresh actual Pantograph workbench captures and the approved cleaner Kenoma held-arm canvas. Old screenshots remain only as historical source assets. See [dark review](DARK_REVIEW.md), [icon inventory](ICON_AUDIT.md), and the exact [capture hashes](assets/capture-provenance.json).
+
+---
+
 # Portfolio image audit — 11 October 2026
 
 The displayed app images below have been inspected. Original bytes are preserved.

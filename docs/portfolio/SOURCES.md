@@ -1,3 +1,5 @@
+The current source-only dark revision and its new pinned evidence are documented in [DARK_REVIEW.md](DARK_REVIEW.md). Product icon provenance is in [ICON_AUDIT.md](ICON_AUDIT.md). Earlier source notes follow.
+
 # Source and claim review
 
 Reviewed 2026-10-11. These are repository descriptions and contracts, not an independent qualification of every application feature.
