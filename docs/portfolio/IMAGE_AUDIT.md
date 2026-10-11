@@ -12,6 +12,7 @@ The displayed app images below have been inspected. Original bytes are preserved
 | Pantograph I/O Inspector | `7fc3584` | Real retained text read through the artifact API. Healthy lead image; no model-inference or native Tauri claim. Added to this source revision only. |
 | Eidetic screenplay/timeline | `0f3481cd` | Native Linux application with original authored demo fiction. No error banner or real-model inference evidence; renderer restart/multiwindow limits retained. Approved addition from `48a06f9`, published separately in `2eedae7`. |
 | Rheon comparison | `a2ebb8f1` | `Accepted times differ; these are not equal physical horizons.` Fixed-box solver research; no qualified full 3D fluid-physics claim. |
+| Kenoma anatomical arm | Capture `85107192`, viewer `b6ff7af9` | Held resting geometry. Material credibility remains unestablished; original atlas-gap and omission warnings are visible. No new motion solve. |
 | Kenoma two-character poser | `97390801` | Actual Rust/WASM editor; joint creasing retained. No error banner; schematic posing is separate from anatomical research. |
 
 The five app images in deployed portfolio commit
@@ -28,5 +29,4 @@ editorial mark. None represents an app execution result. Earlier Tuldok capture 
 
 The parallel Pantograph presentation audit contains the complete gallery states,
 its three media types, and all eight app views. New app source at `679622e9` is not
-represented as a new screenshot. Fresh Pantograph captures, Kenoma anatomy, and
-Rheon simulation/layout imagery remain pending with their application workers.
+represented as a new screenshot. Fresh Pantograph captures and Rheon simulation/layout imagery remain pending with their application workers. The Kenoma anatomy capture has now been added to the source revision only.

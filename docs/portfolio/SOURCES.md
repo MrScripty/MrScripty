@@ -97,7 +97,7 @@ All source pixels were inspected before integration. Original PNG bytes are pres
 - **Related tools:** Passeur (cross-provider delegation), Coding Standards (shared agent-oriented standards), and Whip Docs (code architecture navigation) are described at the level of their existing public profile entries. These relationships communicate shared concerns, not a verified end-to-end stack.
 - **Book art:** original public cover files are copied without pixel changes. Exact repository commits, raw URLs and SHA-256 hashes are in `assets/books/provenance.json`. Dataset Production and Training Your Own Models retain separate ownership and attribution.
 - **Pantograph lead image:** the actual I/O Inspector at approved capture revision `7fc3584` shows retained text. The earlier Graph image is retained and labeled. App follow-up `679622e9d8b17e87a278b81b60194d31ee4f4981` adds saved-workflow submission and a Network adapter, but no new screenshot was delivered; presentation copy distinguishes source changes from old visual evidence.
-- **Pending captures:** Kenoma anatomy and improved Rheon simulation/layout await actual approved images from their application workers. Current genuine captures and their limits remain in place.
+- **Pending captures:** The approved Kenoma arm apparatus now accompanies the poser; improved Rheon simulation/layout and new Pantograph captures remain pending. Current genuine captures and their limits remain in place.
 - **Audit:** `IMAGE_AUDIT.md` records displayed image states, source revisions and deployed-branch comparisons. Content-derived asset query strings are cache hygiene, not evidence that caching caused the reported errors.
 
 ## Tuldok image-workspace milestone
@@ -110,3 +110,14 @@ All source pixels were inspected before integration. Original PNG bytes are pres
 - Gallery: https://github.com/MrScripty/Tuldok/blob/6d939359d3cef2464c2aff990dd58d50c4f8d791/docs/images/workspaces-m2/README.md
 - Provenance: https://github.com/MrScripty/Tuldok/blob/6d939359d3cef2464c2aff990dd58d50c4f8d791/docs/images/workspaces-m2/manifest.json
 - The app worker reported 98 passing CI steps and 507 Python tests at qualified successor `acac0d3`; this portfolio change does not rerun or extend application qualification. It does not claim the later documentation head has completed CI.
+
+## Kenoma anatomical arm apparatus
+
+- Approved capture/documentation commit: `85107192d6459cae8d0054fe59f5f7889618f7ec`. The original 1440 × 1440 PNG matches SHA-256 `3e0b37ecab5259fea8828faa9f67c6adf6e6703e7d4f2666c74706b3d7b3590d`.
+- Actual viewer build: `b6ff7af9010e867e6f8361ef4c5652147efa8391`, `/anatomical-arm/index.html`, Chromium 151.0.7922.173. Camera orbit changed the view only; the complete scientific state stayed unchanged. This is a browser capture, not a native desktop-window claim.
+- Three BodyParts3D bones, seven derived muscle volumes, authored tendon routes and interpolation scaffolds form the left arm apparatus. The right applies the existing linear bone-weight comparison at the same held angle. There is no torso, hand mesh or skin.
+- Capture state: time/step/newly recorded steps all zero, zero activation and angular velocity. The saved held angle has external motor support. No new nonlinear time step, motion trajectory, unsupported dynamic-equilibrium, full-body or clinical claim is made.
+- The image retains the source's material-calibration warning and atlas gap/omission notices. No pixels were cropped, composited, generated or retouched.
+- Attribution: BodyParts3D, © The Database Center for Life Science, CC BY 4.0. Atlas selection, units, colors and derived segmentation/remeshing/reference repairs are identified in the linked notice. Arm26 parameters: OpenSim Development Team (Reinbolt, Seth, Habib, Hamner), adapted from Kate Holzbaur's model, CC BY 3.0. Three.js and original processing-script notices remain in that notice. The page links the component licenses and full credits/changes; the capture manifest preserves the full structured attribution.
+- Caption and credits: https://github.com/MrScripty/Kenoma/blob/85107192d6459cae8d0054fe59f5f7889618f7ec/docs/review/research-book-teaching/portfolio-anatomy/README.md
+- Provenance: https://github.com/MrScripty/Kenoma/blob/85107192d6459cae8d0054fe59f5f7889618f7ec/docs/review/research-book-teaching/portfolio-anatomy/capture-provenance.json

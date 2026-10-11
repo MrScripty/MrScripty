@@ -151,5 +151,56 @@
     "scope": "Genuine Chromium capture of completed scratch CPU image-classification run on 12 authored CC0 drawings. Frozen release and graph, validation metrics on three examples, stages and verified artifacts are visible. PostgreSQL persistence and restart tested by source workflow; no useful model-quality, audio-training or 3D-training claim.",
     "pixel_edits": "none",
     "visually_inspected": true
+  },
+  {
+    "file": "assets/kenoma-anatomical-arm-apparatus.png",
+    "sha256": "3e0b37ecab5259fea8828faa9f67c6adf6e6703e7d4f2666c74706b3d7b3590d",
+    "dimensions": [
+      1440,
+      1440
+    ],
+    "source_repository": "MrScripty/Kenoma",
+    "source_commit": "85107192d6459cae8d0054fe59f5f7889618f7ec",
+    "app_revision": "b6ff7af9010e867e6f8361ef4c5652147efa8391",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Kenoma/85107192d6459cae8d0054fe59f5f7889618f7ec/docs/review/research-book-teaching/portfolio-anatomy/kenoma-anatomical-arm-apparatus.png",
+    "provenance_url": "https://github.com/MrScripty/Kenoma/blob/85107192d6459cae8d0054fe59f5f7889618f7ec/docs/review/research-book-teaching/portfolio-anatomy/capture-provenance.json",
+    "scope": "Unedited Chromium capture of existing right-arm viewer at held reference state. Three BodyParts3D bones, seven derived muscle volumes, authored tendon routes and same-angle weighting comparison. No new nonlinear step, motion trajectory, full-body simulation or clinical qualification.",
+    "attribution": {
+      "notice_source": "education/data/elbow-v1/LICENSES_AND_ATTRIBUTION.txt",
+      "notice_sha256": "9c2fa6c1434f40faed1fa1c24c1af9a04bd931066d4ada27a501752c7af38f2e",
+      "atlas": {
+        "credit": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International.",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "official_grant": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+        "release": "BodyParts3D 4.0, IS-A 99% polygon-reduced archive",
+        "publication": "Mitsuhashi N, Fujieda K, Tamura T, Kawamoto S, Takagi T, Okubo K. BodyParts3D: 3D structure database for anatomical concepts. Nucleic Acids Research37 (2009), D782\u2013D785. doi:10.1093/nar/gkn613.",
+        "modifications": "Ten-element selection; mm to SI m; zero-based face indices; colors/rendering. Muscle volumes additionally authored segmentation/remeshing and explicit reference repairs; authored attachments, fibres and tendon routes.",
+        "historical_notices": "Historical CC BY-SA2.1 Japan comments remain in original OBJ files; no license changed.",
+        "source": "education/data/elbow-v1/data/bodyparts3d_right_arm_m.json",
+        "source_sha256": "c3ca97df0d41302de5c3e553cb9974c4c0bd68a30866c26a18e1ba41ceab4257"
+      },
+      "arm26": {
+        "credit": "The OpenSim Development Team (Reinbolt, J; Seth, A; Habib, A; Hamner, S), adapted from a model originally created by Kate Holzbaur (11/22/04).",
+        "license": "CC BY3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "publication": "Holzbaur KRS, Murray WM, Delp SL. A Model of the Upper Extremity for Simulating Musculoskeletal Surgery and Analyzing Neuromuscular Control. Annals of Biomedical Engineering33 (2005),829\u2013840. doi:10.1007/s10439-005-3320-7.",
+        "pinned_model_url": "https://github.com/opensim-org/opensim-models/blob/84b487c4e3245359a64381e01f01b9cf4772d457/Models/Arm26/arm26.osim",
+        "modifications": "Selected numerical parameters/coordinate bounds extracted into CSV/JSON with units and evidence labels; original XML unchanged.",
+        "source_sha256": "e2224d0044eb393b05d64926c3fa1682c451a9adc7f510e5517ef9958d3d41b9"
+      },
+      "original_processing_scripts": {
+        "credit": "Copyright (c)2026 Kenoma educational data contribution",
+        "license": "MIT; full existing notice retained in linked component record"
+      },
+      "renderer": {
+        "credit": "Copyright \u00a92010\u20132025 three.js authors",
+        "license": "MIT; existing bundled notices retained"
+      },
+      "openarm": "Not used or displayed in this capture; separate OpenArm Multisensor2.0 CC BY4.0 credits remain in the component record.",
+      "license_changes": "None; no package-wide license overrides component licenses."
+    },
+    "pixel_edits": "none",
+    "visually_inspected": true
   }
 ]

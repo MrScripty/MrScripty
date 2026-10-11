@@ -18,7 +18,7 @@ A fresh public HTTP request after GitHub's successful deployment still fails wit
 
 ## Broader source revision remains unpublished
 
-The new visual design, Chrema overview, original book cards, retained-output lead image, and Tuldok image-workspace milestone remain on the source review branch. They were excluded from the Eidetic publication. New Pantograph, Kenoma anatomy and Rheon captures remain separate dependencies.
+The new visual design, Chrema overview, original book cards, retained-output lead image, and Tuldok image-workspace milestone remain on the source review branch. They were excluded from the Eidetic publication. The approved Kenoma anatomical-arm image is also source-only. New Pantograph and Rheon captures remain separate dependencies.
 
 Appearance review and clear approval are required before publishing that broader revision. The existing branch-based route requires no application-code merge, new hosting provider, account grant or settings change. No denied PR creation or Pages-enablement action was retried.
 
