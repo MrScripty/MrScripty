@@ -69,13 +69,13 @@ Dataset Production and Training Your Own Models are presented as a paired collec
 
 ## Artwork
 
-The hero is an original SVG editorial concept map. The Pumas architecture panel is an authored diagram, not a screenshot. Pantograph, Rheon, and Kenoma use unedited running-application captures; no generated or reconstructed application interface is used.
+The hero landscape is authored semantic HTML with inline SVG arrow icons. The Pumas architecture panel is an authored diagram, not a screenshot. Pantograph, Rheon, and Kenoma use unedited running-application captures; no generated or reconstructed application interface is used.
 
 ## Additional running-application captures
 
 All source pixels were inspected before integration. Original PNG bytes are preserved; CSS scales images without cropping. File hashes, dimensions, source URLs, exact capture commits, and scope are in `assets/capture-provenance.json`.
 
-- **Pantograph**: approved captures pinned to `7fc3584cca8bef647b60ebf303c4b5d6b37d98bd` in PR #71. The real Svelte workbench connects to a persistent Rust workflow service over loopback HTTP. Diagnostics query that running service and the I/O Inspector reads retained scalar artifact bytes. The model catalog is a real isolated empty Pumas library. Success and deliberate missing-path rejection captures preserve actual native results. Graph editor mutation/submission is outside the demo host; native Tauri and model inference remain unqualified. Source PNG bytes are unchanged. Guide: https://github.com/MrScripty/Pantograph/blob/7fc3584cca8bef647b60ebf303c4b5d6b37d98bd/examples/scheduler-demo/README.md
+- **Pantograph**: approved captures pinned to `7fc3584cca8bef647b60ebf303c4b5d6b37d98bd` in PR #71. The real Svelte workbench connects to a persistent Rust workflow service over loopback HTTP. Diagnostics query that running service and the I/O Inspector reads retained scalar artifact bytes. The model catalog is a real isolated empty Pumas library. Success and deliberate missing-path rejection captures preserve actual native results. At that capture revision, Graph editor mutation/submission was outside the demo host; native Tauri and model inference remain unqualified. Source PNG bytes are unchanged. Guide: https://github.com/MrScripty/Pantograph/blob/7fc3584cca8bef647b60ebf303c4b5d6b37d98bd/examples/scheduler-demo/README.md
 - **Rheon**: source capture commit `a2ebb8f11bcb65df0c70c45bfb8234d08b293a0a`, running app commit `34235d33c886aa05b5bdf95d920b863d1fb2ad6f`. Native Linux software-rendered solver comparison, 1650 × 900. The unequal accepted-time warning is visible. This is exploratory fixed-box solver evidence, not physical validation or a qualified speed comparison. Source: https://github.com/MrScripty/Rheon/blob/a2ebb8f11bcb65df0c70c45bfb8234d08b293a0a/README.md
 - **Kenoma**: source capture commit `9739080116b658e6248816f4e4239c4fde95ca94`, running app commit `e2ea6acc5db44794ae8b49beb877f5a8bccea056`. Chromium151, 1600 × 1000, actual Rust/WASM editor. Schematic posing and joint creasing are retained. Source: https://github.com/MrScripty/Kenoma/blob/9739080116b658e6248816f4e4239c4fde95ca94/README.md
 
@@ -90,3 +90,12 @@ All source pixels were inspected before integration. Original PNG bytes are pres
 - Verified scope: native project open; screenplay and story-bible editing, save/reopen, cancelled screenplay edits, timeline-title changes, and renderer controls.
 - Limits: no real Pumas inference; native graph/timeline renderers remain minimal; renderer-type switching needs an application restart; unified multiwindow rendering is unfinished. No Windows/macOS native UI acceptance is claimed.
 - Exact-head CI run: https://github.com/MrScripty/Eidetic/actions/runs/38175127015 . CI is separate from the visible native Linux workflow evidence.
+
+## Source-only visual revision
+
+- **Chrema / Composable Agents:** copy comes only from the public profile README, in “Models, workflows & agent-first development.” It describes private workflow-composition and auditable-ledger research. No Chrema private repository, source, credentials or ledger records were accessed or published. “Composable Agents” is the requested presentation label, not a new integration qualification.
+- **Related tools:** Passeur (cross-provider delegation), Coding Standards (shared agent-oriented standards), and Whip Docs (code architecture navigation) are described at the level of their existing public profile entries. These relationships communicate shared concerns, not a verified end-to-end stack.
+- **Book art:** original public cover files are copied without pixel changes. Exact repository commits, raw URLs and SHA-256 hashes are in `assets/books/provenance.json`. Dataset Production and Training Your Own Models retain separate ownership and attribution.
+- **Pantograph lead image:** the actual I/O Inspector at approved capture revision `7fc3584` shows retained text. The earlier Graph image is retained and labeled. App follow-up `679622e9d8b17e87a278b81b60194d31ee4f4981` adds saved-workflow submission and a Network adapter, but no new screenshot was delivered; presentation copy distinguishes source changes from old visual evidence.
+- **Pending captures:** Kenoma anatomy and improved Rheon simulation/layout await actual approved images from their application workers. Current genuine captures and their limits remain in place.
+- **Audit:** `IMAGE_AUDIT.md` records displayed image states, source revisions and deployed-branch comparisons. Content-derived asset query strings are cache hygiene, not evidence that caching caused the reported errors.

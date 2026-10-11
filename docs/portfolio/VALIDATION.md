@@ -1,21 +1,16 @@
 # Validation status
 
-Validated 11 October 2026 in Chromium 151 on the isolated publication checkout.
+Validated 11 October 2026 against the source-only visual revision, using Chromium 151.
 
-- Static resource, fragment, duplicate-ID, alt-text, single-h1 and no-external-script checks pass.
-- JavaScript syntax checks pass.
-- Browser checks pass at 1440, 768, 390 and 320 px: no horizontal overflow, successful local resources, working skip navigation, and readable responsive layouts.
-- All six screenshot dialogs load their original images. Escape and Close dismiss them; focus returns to the initiating link after history traversal. Back closes and Forward reopens the dialog.
-- The page remains readable and source links work with JavaScript disabled.
-- The harness waits for lazy image loading and asynchronous history/focus changes before asserting outcomes.
-- Original image bytes and the approved paired-book attribution are preserved. No inference-quality, production simulation, or anatomical-accuracy claim was added.
+- Static resource paths, fragment targets, unique IDs, image alt text, single h1, no external scripts, and JavaScript syntax pass.
+- Combined portfolio/Pantograph validation passes **1,262 checks** at 1440, 768, 390 and 320 px: local resources, no horizontal overflow, skip navigation, seven screenshot dialogs, Escape/Close, Back/Forward, focus return and no-JavaScript reading.
+- Pantograph keyboard tabs, successful and expected-rejection recordings, event inspection and JSON downloads pass. All six research pages pass phone/desktop contents navigation and overflow checks; bibliography links resolve.
+- Desktop and mobile review images were inspected for the hero, book cards, Pantograph project card, three perspectives and view coverage. Original image pixels are unchanged; CSS preserves the full captures and cover art.
+- All **22 distinct GitHub destinations** on the two landing pages returned HTTP 200. The previously approved LinkedIn and Practical Data Analysis Pages URLs remain independently unverified because the environment blocks those external hosts.
+- The existing profile README, manuscript editions, backend code and shared CI workflows are unchanged. Eidetic's original approved native capture and its qualification limits remain intact.
 
-Publication validation also traverses every local link and fragment in the paired Pantograph site, tests recording selection and event inspection, and checks all six research reading pages on phone and desktop.
+The standalone portfolio harness is `tools/browser_check.py`. Review screenshots and its JSON report are written under ignored `review/`. A combined static-site harness additionally checks the assembled project subpaths and research documents. Local checks establish source behavior, not live deployment.
 
-The landing pages contain 16 distinct external links. Fourteen GitHub targets returned HTTP 200. The environment cannot verify the public LinkedIn profile or Practical Data Analysis Pages URL: its outbound proxy rejects those hosts, and the web fetch tool could not retrieve them. Their previously approved source URLs remain unchanged. This is an external-access limitation, not evidence that those links are broken.
+## Publication boundary
 
-The earlier preparation environment's browser-startup failure is superseded by these checks. Local QA does not establish that either public site has deployed; see `DEPLOYMENT.md`.
-
-## Eidetic source addition
-
-The added native Linux screenplay/timeline PNG matches the SHA-256 in the pinned public provenance at `0f3481cd93e28673a566c77a2f0c7ca48469aab5`. Original image bytes and authored demo content are preserved. The source card retains explicit inference, renderer-restart and multiwindow limits. This addition has not been deployed to Pages.
+This visual revision, Chrema copy, book artwork and Eidetic addition have not been published. The existing Pages commit is recorded in `DEPLOYMENT.md`. Fresh Pantograph Graph/Scheduler/Network captures are pending in the app worker; Kenoma anatomy and Rheon updates are also pending. No replacement image is simulated.

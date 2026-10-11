@@ -1,6 +1,6 @@
 # Puma / Jeremy Bayley portfolio
 
-A buildless portfolio for GitHub Pages. The validated static snapshot is on the separate `gh-pages` branch. GitHub reports its deployment succeeded; direct public-URL verification is blocked in the publication environment. The existing GitHub profile README and banner are unchanged.
+A buildless portfolio for GitHub Pages. This source branch contains a new visual revision awaiting review; it has not been published. The earlier static snapshot is on the separate `gh-pages` branch. GitHub reports its deployment succeeded; direct public-URL verification is blocked in the publication environment. The existing GitHub profile README and banner are unchanged.
 
 ## Preview
 
@@ -14,17 +14,20 @@ Then visit `http://127.0.0.1:8080` on that same computer. There is no dependency
 
 ## What is included
 
-- A responsive portfolio with Pumas Library, Pantograph, Tuldok, Eidetic, Rheon, and Kenoma
+- A responsive portfolio with Pumas Library, Pantograph, Chrema, Tuldok, Eidetic, Rheon, and Kenoma
+- A clear project landscape and separate related-tool links, without claiming a complete end-to-end integration
+- Chrema described only through the existing public profile summary; no private source or operational data
 - Source and architecture links, project status, and explicit research boundaries
 - Dataset Production and Training Your Own Models presented as a paired collection of separate books, with distinct attribution and verified repository links
 - Practical Data Analysis listed separately as an engineering-methods resource
+- Three original public book covers with pinned byte-level provenance in `assets/books/provenance.json`
 - Public GitHub and LinkedIn contact links; no private contact details
 - Genuine Pantograph editor/native-demo, Eidetic native screenplay/timeline, Rheon native-comparison, and Kenoma WASM-editor captures with full-size enlargement and pinned provenance
 - Two genuine Tuldok captures retained in `assets/` with provenance, currently omitted from the visible page pending its compact-UI update
 - An accessible screenshot enlargement dialog with a direct-image fallback
 - Dark / light sections, reduced-motion support, print styling, and a skip link
 
-The Pumas panel currently shows a clearly labeled authored architecture summary, not an app screenshot. Pantograph shows approved genuine captures from PR #71 revision `7fc3584`: the browser-rendered Svelte Graph connected to a live loopback Rust host, plus successful and deliberately rejected deterministic scheduler runs. The workbench reads retained output; native Tauri execution and model inference are not claimed. Eidetic shows the native Linux screenplay/timeline workflow with authored demo fiction and explicit renderer/inference limits. Rheon and Kenoma show genuine running-application captures. Each project has concise capability copy; detailed scope and verification notes use closed disclosure sections.
+The Pumas panel currently shows a clearly labeled authored architecture summary, not an app screenshot. Pantograph shows approved genuine captures from PR #71 revision `7fc3584`: the I/O Inspector reading retained outputs, the earlier browser-rendered Svelte Graph connected to a live loopback Rust host, plus successful and deliberately rejected deterministic scheduler runs. The workbench reads retained output; native Tauri execution and model inference are not claimed. Eidetic shows the native Linux screenplay/timeline workflow with authored demo fiction and explicit renderer/inference limits. Rheon and Kenoma show genuine running-application captures. Each project has concise capability copy; detailed scope and verification notes use closed disclosure sections.
 
 ## Checks
 
@@ -51,4 +54,4 @@ See `DEPLOYMENT.md` for the exact deployment commit, GitHub-reported URL, and re
 
 Relative asset paths work on a user site or project site. Add a canonical URL and social-preview metadata only after the actual deployment URL is verified. Link the separate Pantograph site only once its published address is verified; the current portfolio links verified repository documentation.
 
-The Eidetic section is prepared in this source branch only; it is not part of the currently deployed Pages snapshot described in `DEPLOYMENT.md`.
+The visual redesign, Chrema, original book covers and Eidetic section are prepared in this source branch only; it is not part of the currently deployed Pages snapshot described in `DEPLOYMENT.md`.

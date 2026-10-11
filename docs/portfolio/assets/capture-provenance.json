@@ -121,5 +121,19 @@
     "scope": "Genuine native Linux Tauri/WebKit application capture of screenplay editor and six-scene timeline. Original authored demo fiction; saved text verified after project reopen. No real Pumas inference or model generation. Native renderer-type switches require restart; unified multiwindow unfinished.",
     "pixel_edits": "none",
     "visually_inspected": true
+  },
+  {
+    "file": "assets/pantograph-workflow-run-inspector.png",
+    "sha256": "843ad770e4fc9c44c57dba223a1a20cb79d19b9a45cc20991631eabf6e170a86",
+    "dimensions": [
+      1600,
+      1000
+    ],
+    "source_repository": "MrScripty/Pantograph",
+    "source_commit": "7fc3584cca8bef647b60ebf303c4b5d6b37d98bd",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/7fc3584cca8bef647b60ebf303c4b5d6b37d98bd/docs/images/workflow-run-inspector.png",
+    "scope": "Actual Svelte I/O Inspector reading retained scalar artifacts from the running loopback Rust service. No native Tauri or model-inference claim.",
+    "pixel_edits": "none",
+    "visually_inspected": true
   }
 ]

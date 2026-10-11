@@ -14,6 +14,8 @@ The publication environment's outbound proxy rejects `mrscripty.github.io`, incl
 
 ## Publishing source
 
+The settings below describe the existing route, not a request to reconfigure it. Do not republish this new visual revision until appearance review and approval are clear.
+
 In repository **Settings → Pages**, choose **Deploy from a branch**, branch **gh-pages**, folder **/(root)**, then **Save**.
 
 The publication root contains only `index.html`, `styles.css`, `script.js`, `.nojekyll`, the favicon, and the five referenced approved screenshots. Review files, unused Tuldok captures, source notes and local QA logs are excluded.
@@ -29,6 +31,6 @@ Official references:
 - https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site
 - https://docs.github.com/en/rest/pages/pages#create-a-github-pages-site
 
-## Prepared source addition
+## Prepared source revision
 
-The Eidetic section and native screenplay/timeline capture are prepared in the source branch only. They are not included in deployed commit `5c5be2f53129f91fe89843caf0e53559f88655c7`. The `gh-pages` branch has not been updated for this addition.
+The redesigned portfolio, Chrema overview, original book covers, retained-output lead image, and Eidetic native screenplay/timeline capture are prepared in the source branch only. They are not included in deployed commit `5c5be2f53129f91fe89843caf0e53559f88655c7`. The `gh-pages` branch has not been updated for this visual revision. No merge, new permission, account grant or hosting change is required to review these source changes.
