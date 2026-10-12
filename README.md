@@ -12,24 +12,34 @@ I develop independent, reusable projects that can support many applications. Som
 
 | Project | Purpose & current direction |
 | --- | --- |
-| [Pumas Library](https://github.com/MrScripty/Pumas-Library) | Model files, metadata, downloads, and runtime configuration in a reusable Rust backend with an optional desktop interface. Practical local inference is an immediate priority; its plugins are a staging ground for heterogeneous backends under a unified API, including llama.cpp, Ollama, ONNX, and Torch. |
-| [Passeur](https://github.com/MrScripty/Passeur) | Cross-provider coding-agent delegation with affordable model use, durable tasks, and repository-level coordination. Ongoing research addresses early detection and resolution of overlapping edits, with less intervention and fewer conflicts at final integration, toward longer-term large-scale parallel software production. |
-| Chrema · private | Workflow composition and auditable ledgers for deterministic operations and probabilistic model outputs. A practical setting for developing alternative data-flow composition and tracing, with lessons that may inform Pantograph. |
-| [Coding-Standards](https://github.com/MrScripty/Coding-Standards) | Reusable engineering standards and a node/information-graph engine with agent-first interfaces for finding relevant knowledge, understanding relationships, and making evidence-backed changes. It's essential to how I build and a real application for refining those abstractions. |
-| [Pantograph](https://github.com/MrScripty/Pantograph) | Rust-native node-based AI workflows, execution, and resource management. Scheduling addresses the mathematical problem of running work under resource constraints; distribution across machines is a future direction. |
-| [Whip Docs](https://github.com/MrScripty/whip-docs) | A local code-architecture explorer for Rust repositories. I'm developing it toward intent-provenance software development: visual code graphs connected to the intent, reasoning, and standards behind decisions, understandable at a glance. |
-| [Eidetic](https://github.com/MrScripty/Eidetic) | A writing workspace connecting stories and their relationships through knowledge graphs, with screenwriting as one use case. It also supports research into memory and knowledge structures for Chrema and Nearwork. |
+| [Pumas Library](https://github.com/MrScripty/Pumas-Library) | A Rust model-management layer for local AI deployment: acquisition, downloads, storage, metadata and shared configuration so apps can reuse models without duplicating files. Inference plugins support development and testing. |
+| [Pantograph](https://github.com/MrScripty/Pantograph) | Node-based AI workflows across inference backends, with retained data and execution history for later inspection. Resource-aware scheduling that looks ahead across the graph is in development. |
+| [Chrema](https://github.com/MrScripty/Chrema) | Agent composition from reusable components, designed to make inputs, decisions and outputs observable so people and other agents can inspect and refine them. Pumas models → Pantograph execution → Chrema composition describes the wider design; integrations are developing separately. |
+| [Passeur](https://github.com/MrScripty/Passeur) | Local coding-agent delegation across providers, with durable tasks and repository coordination. Research into overlapping edits and structural coordination aims to reduce intervention and integration conflicts. |
+| [Coding Standards](https://github.com/MrScripty/Coding-Standards) | Domain-modeling and agent-interface research using a graph-memory engine. Current typed MCP tools expose navigation and retained workflow state; the broader aim is agent-transparent observability for studying and improving interactions. |
+| [Whip Docs](https://github.com/MrScripty/whip-docs) | A visual workspace in development for understanding code structure and collaborating with coding agents: inspecting designs and proposed changes, then guiding the work through the same interface. Current prototypes combine a file-and-symbol graph with an intent journal. |
+| [Eidetic](https://github.com/MrScripty/Eidetic) | A clip-based knowledge graph for shaping context over time. The aim is to move, trim, split and rearrange clips to control which graph information contributes to context and output; screenwriting is one application. |
+| [Pumas Playground](https://github.com/MrScripty/Pumas-Playground) | A local developer workbench for inspecting a running Pumas gateway, trying individual model operations and reviewing responses and receipts. It uses an existing runtime rather than installing models or inference providers. |
 
 ## Creative tools & applications
 
 | Project | Purpose & current direction |
 | --- | --- |
-| [Pentimento](https://github.com/MrScripty/Pentimento) | A Bevy-based rendering workspace with web and native frontends, providing a practical setting for hybrid-interface development. |
-| [Crispen](https://github.com/MrScripty/Crispen) | Reusable color-grading modules and the tools around them. |
-| [Korino](https://github.com/MrScripty/Korino-Reaves) | A reverse-engineered UE4/5 asset-inspection and modding workbench with 3D scene viewing. |
-| [Tuldok](https://github.com/MrScripty/Tuldok) | The beginning of a model-training system, currently focused on dataset capture, labeling, generation, and export. One goal is training tiny models that can run on phones for Book-Be-Gone. |
-| [Book-Be-Gone](https://github.com/MrScripty/Book-Be-Gone) | A commercial book-digitization product I'm developing, turning captured pages into editable text. Its planned phone application gives the small-model training work a practical target. |
-| Nearwork · private | A commercial location-based evidence and research application. Its real-world information needs also guide research into data modeling. |
+| [Pentimento](https://github.com/MrScripty/Pentimento) | A Bevy rendering workspace with several web and native frontend approaches, providing a practical setting for hybrid-interface development. Linux is the current supported platform. |
+| [Crispen](https://github.com/MrScripty/Crispen) | Reusable color-correction and grading tools, designed for standalone adjustments or embedding in other creative software. |
+| [Korino-Reaves](https://github.com/MrScripty/Korino-Reaves) | A fork-based Unreal asset-inspection and modding workbench, combining Godot, Svelte and native tooling to inspect, compare and extract assets. |
+| [Tuldok](https://github.com/MrScripty/Tuldok) | Create and curate model-training datasets, review the data, and follow workflows through to training results. Current work includes image data and small-model experiments. |
+| [Book-Be-Gone](https://github.com/MrScripty/Book-Be-Gone) | A personal book-digitization utility: capture pages with a webcam, run OCR, review the result and export editable Markdown. |
+| [Commonlight](https://github.com/MrScripty/Commonlight) | A portrait-studio prototype for BC + AI members, with consent-based capture, restrained photo cleanup, consistent presentation and optional shareable galleries. |
+| [Lanternwake](https://github.com/MrScripty/Lanternwake) | An in-development Godot/C# 3D visual novel exploring guided and adaptive storytelling with local AI. The authored island mystery is distinct from optional AI conversations; current model-deployment and real-microphone qualification remain pending. |
+
+## Physics & simulation research
+
+| Project | Purpose & current direction |
+| --- | --- |
+| [Rheon](https://github.com/MrScripty/Rheon) | A general 3D fluid-physics solver in development, intended to generate training data for faster AI surrogate simulation. Current native solver work and its UI remain distinct from surrogate experiments. |
+| [Rheon Surrogate Lab](https://github.com/MrScripty/rheon-surrogate-lab) | Controlled experiments replacing Rheon's iterative pressure solve with learned models, retaining numerical comparisons and timing evidence. Results belong to their documented fixed-box conditions, not a general speed or accuracy guarantee. |
+| [Kenoma](https://github.com/MrScripty/Kenoma) | Soft- and rigid-body physics research toward anatomically detailed muscle and skeleton simulation, including contracting soft bodies. Current posing tools and held-arm prototypes explore parts of that larger goal. |
 
 ## Books & research
 
@@ -38,10 +48,10 @@ I write about the methods behind this work, from training models and producing d
 | Book | Focus |
 | --- | --- |
 | [Training Your Own Models on One 24 GB GPU](https://bc-ai-ecosystem.github.io/training-your-own-models/) | A project-first handbook spanning language, vision, embeddings, and other model families, with interactive learning tools. Vibe Authored by Dr.Puma; I transferred the project to BC+AI. |
-| [Practical Data Analysis for Engineering Decisions](https://mrscripty.github.io/practical-data-analysis/) | Measurement, fair comparisons, uncertainty, and turning analysis into engineering decisions, with nine interactive examples and a reproducible companion. |
-| [Dataset Production](https://mrscripty.github.io/dataset-production/) | A methods-first fieldbook on building, reviewing, and releasing datasets, with educational examples covering labels, splits, synthetic data, and provenance. |
+| [Practical Data Analysis for Engineering Decisions](https://mrscripty.github.io/practical-data-analysis/) | Measurement, fair comparisons, uncertainty, and turning analysis into engineering decisions, with nine interactive examples and a reproducible companion. [Source](https://github.com/MrScripty/practical-data-analysis). |
+| [Dataset Production](https://mrscripty.github.io/dataset-production/) | A methods-first fieldbook on building, reviewing, and releasing datasets, with educational examples covering labels, splits, synthetic data, and provenance. [Source](https://github.com/MrScripty/dataset-production). |
 
-My other books include *Cooking the Cat*, *Contribution Belonging and Shared Power*, and *Knowledge Graphs and Agentic Memory*.
+My other books include *Cooking the Cat*, *Contribution Belonging and Shared Power*, and *Knowledge Graphs and Agentic Memory*. *Cooking the Cat* is a personal account of my development approach, assembled by an agent analyzing engineering conversations.
 
 The [Pantograph research collection](https://github.com/MrScripty/Pantograph/blob/b09380618224277e21fc5be2a2fe7ccc21e9d7dd/docs/research/README.md) brings together a book and papers on compatible inference backends, node execution, provenance, and resource-safe scheduling, plus a scheduler simulation report. These research editions document evidence and proposals that inform development.
 
