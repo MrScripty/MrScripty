@@ -1,3 +1,22 @@
+# Current purpose, typography and gallery review
+
+This revision is not deployed. Pages remains `396dc133c5209aa88c48845d64aa600320dfacff`.
+
+- Static validation passes: 20 unique IDs, 82 local/external references, 23 images and no external scripts; JavaScript syntax passes.
+- Chromium checks pass at 1440, 768, 390 and 320 px: no overflow, broken images, blank links or browser errors; skip navigation and all 13 image dialogs work with Escape/focus restoration (52 exercises).
+- 384 additional checks pass for all four galleries: one image at a time, correct counter, repeated navigation, Arrow/Home/End keys, original proportions and captions, no reserved image-frame height, fixed control position, full-size dialogs and Back/Forward selecting the correct image. Reduced motion suppresses the 150 ms fade. Without JavaScript, all 13 original image links remain visible and usable.
+- Touch-device checks at `/MrScripty/` pass for all four galleries: Next, full-size image, Close, Space/Enter activation and focus restoration.
+- All ten equivalent project taglines have matching computed font family, size, weight, line height and white color at each width. Project names also share one treatment. Tuldok and Eidetic remain stacked; the dark theme is preserved.
+- Original image markup, image links and existing prototype-limit disclosures are unchanged. Both Rheon JPEG hashes still match the owner’s originals. No new asset or screenshot was fabricated for Lanternwake.
+- The separate Cooking the Cat draft is byte-for-byte preserved in the working copy and excluded from review screenshots and staged HTML. Its newly authorized short portfolio description is included; no manuscript, cover or book site is published.
+- Current public Coding Standards main (`188beda1`) and Lanternwake main (`76b8428e`) were inspected before describing capabilities. See [exact copy and sources](COPY_REVIEW.md).
+
+Run `python tools/verify.py`, `python tools/browser_check.py` and `python tools/gallery_check.py` against an isolated approved-source copy to exclude any local book draft. Browser outputs under `review/` are ignored. Versioned CSS/JS preserve cache separation from the live release.
+
+---
+
+# Earlier validation records (historical)
+
 # Validation status
 
 ## Asset-version repair, 12 October 2026

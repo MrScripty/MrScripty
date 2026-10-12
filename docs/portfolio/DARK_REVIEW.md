@@ -1,3 +1,11 @@
+# Current purpose and gallery review
+
+The approved Rheon image version is published at Pages `396dc13`. The new purpose-first copy, consistent white project typography, manual one-image galleries and Lanternwake row are **review only**. See [exact copy](COPY_REVIEW.md) and [desktop/mobile previews](../portfolio-review/README.md). All original image bytes, prototype disclosures and the separate local book draft are preserved.
+
+---
+
+# Earlier dark review (historical)
+
 # Dark portfolio review
 
 The compact dark design is published at Pages commit `7b5847785c76388c00205a68f36145d401ff62b3`. The owner-supplied Rheon UI and Surrogate Lab additions described here remains source-only pending review.

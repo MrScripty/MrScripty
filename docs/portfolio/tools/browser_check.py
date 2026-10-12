@@ -18,7 +18,7 @@ try:
    page=browser.new_page(viewport={'width':width,'height':height},device_scale_factor=1,reduced_motion='reduce')
    errors=[];page.on('pageerror',lambda err:errors.append(str(err)))
    response=page.goto(url,wait_until='networkidle')
-   for img in page.locator('img[src]').all():
+   for img in page.locator('img[src]:visible').all():
     img.scroll_into_view_if_needed();img.evaluate('(i)=>i.decode()')
    page.evaluate('window.scrollTo(0,0)');page.screenshot(path=str(ROOT/f'review/{name}-full.png'),full_page=True)
    if name=='desktop':page.screenshot(path=str(ROOT/'review/desktop-first-screen.png'))
@@ -29,6 +29,11 @@ try:
    page.goto(url,wait_until='networkidle');page.keyboard.press('Tab');skip=page.locator('.skip-link').evaluate('(e) => e === document.activeElement');page.keyboard.press('Enter'); skip_target=page.evaluate('location.hash === "#main"')
    screenshot_tests=[]
    for link in page.locator('a.capture-button').all():
+    if not link.is_visible():
+     gallery=link.locator('xpath=ancestor::div[contains(concat(" ",normalize-space(@class)," ")," capture-gallery ")]')
+     for _ in range(gallery.locator('figure').count()):
+      gallery.locator('.gallery-controls button').last.click()
+      if link.is_visible():break
     link.click();page.wait_for_selector('#image-dialog[open]');page.locator('#dialog-image').evaluate('(i)=>i.decode()');opened=page.locator('#dialog-image').evaluate('(i)=>i.complete&&i.naturalWidth>0');page.keyboard.press('Escape');page.wait_for_function('!document.querySelector("#image-dialog").open && !history.state?.portfolioCapture');page.wait_for_function('(a)=>a===document.activeElement',arg=link.element_handle());closed=page.locator('#image-dialog').evaluate('(d)=>!d.open');focus_restored=link.evaluate('(a)=>a===document.activeElement');screenshot_tests.append({'opened':opened,'escape_closed':closed,'focus_restored':focus_restored})
    result={'viewport':name,'http_status':response.status,'horizontal_overflow':overflow,'broken_images':broken,'blank_links':blank_links,'js_errors':errors,'skip_link_focused':skip,'skip_link_target':skip_target,'screenshot_dialogs':screenshot_tests}
    report['pages'].append(result)

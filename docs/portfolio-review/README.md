@@ -1,3 +1,29 @@
+# Purpose, typography and gallery review
+
+**Review revision; not deployed.** Purpose-first descriptions, consistent white project headlines, compact manual image galleries and a lower-priority Lanternwake row beneath the books. The live site remains at Pages commit `396dc13`.
+
+[Exact revised copy and source checks](../portfolio/COPY_REVIEW.md) · [Full desktop preview](purpose-desktop.png) · [Full mobile preview](purpose-mobile.png) · [Validation](../portfolio/VALIDATION.md)
+
+| Desktop | Mobile |
+| --- | --- |
+| ![Pumas Library desktop](purpose-pumas-desktop.png) | ![Pumas Library mobile](purpose-pumas-mobile.png) |
+| ![Pantograph desktop](purpose-pantograph-desktop.png) | ![Pantograph mobile](purpose-pantograph-mobile.png) |
+| ![Chrema desktop](purpose-chrema-desktop.png) | ![Chrema mobile](purpose-chrema-mobile.png) |
+| ![Tuldok desktop](purpose-tuldok-desktop.png) | ![Tuldok mobile](purpose-tuldok-mobile.png) |
+| ![Eidetic desktop](purpose-eidetic-desktop.png) | ![Eidetic mobile](purpose-eidetic-mobile.png) |
+| ![Whip Docs desktop](purpose-whip-docs-desktop.png) | ![Whip Docs mobile](purpose-whip-docs-mobile.png) |
+| ![Rheon native UI desktop](purpose-rheon-desktop.png) | ![Rheon native UI mobile](purpose-rheon-mobile.png) |
+| ![Rheon Surrogate Lab desktop](purpose-rheon-lab-desktop.png) | ![Rheon Surrogate Lab mobile](purpose-rheon-lab-mobile.png) |
+| ![Kenoma desktop](purpose-kenoma-desktop.png) | ![Kenoma mobile](purpose-kenoma-mobile.png) |
+| ![Coding Standards / Cooking the Cat desktop](purpose-standards-desktop.png) | ![Coding Standards / Cooking the Cat mobile](purpose-standards-mobile.png) |
+| ![Lanternwake desktop](purpose-lanternwake-desktop.png) | ![Lanternwake mobile](purpose-lanternwake-mobile.png) |
+
+The galleries are manual: Previous/Next, a count, a short fade and reduced-motion support. Full-size images, original captions and keyboard/history focus are retained. No book manuscript or cover is included. Chrema retains its existing public-overview link pending repository confirmation.
+
+---
+
+# Earlier reviewed appearances (historical)
+
 # Dark portfolio appearance review
 
 **Rheon UI + Surrogate Lab update for review; not deployed.** The page now has the owner’s profile photograph in the header, a compact dark palette, separate stacked Tuldok and Eidetic sections, the richer 13-node Pantograph CPU fixture run with matching standalone inspection views, the approved cleaner Kenoma held-arm scene beside the mannequins, original Pumas/Pantograph/Eidetic icons, the owner-supplied Pumas Hugging Face search view, a full Whip Docs visual section, the owner-supplied Rheon native UI and separate Surrogate Lab comparison, and a featured Coding Standards / Cooking the Cat pairing.
