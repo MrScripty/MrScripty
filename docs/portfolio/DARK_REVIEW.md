@@ -6,10 +6,10 @@ This source-only revision replaces the cream sections with a compact dark design
 
 - Dark backgrounds throughout, shorter spacing, larger visual share of each project row, original book covers retained.
 - Separate full-width Tuldok and Eidetic sections, stacked vertically at every viewport.
-- A full Whip Docs visual section: actual 3D file graph, expanded symbols and the compact intent inspector, from merged public evidence. Independent Tree-sitter parsing and immutable intent entries are described concisely; browser fixture and native desktop verification remain distinct.
+- A full Whip Docs visual section: actual 3D file graph and expanded symbols with the intent inspector visible in context, from merged public evidence. Independent Tree-sitter parsing and immutable intent entries are described concisely; browser fixture and native desktop verification remain distinct.
 - Four unedited, actual Pantograph workbench captures from the current 13-node multi-branch CPU run: completed Graph, retained output, Diagnostics and Scheduler. The earlier amber-warning Graph and separate scheduler-demo host images are absent from the visible gallery.
 - The exact approved 700 × 661 Kenoma held-arm canvas beside the unchanged two-mannequin poser. Caption distinguishes held right-arm geometry and authored weighting from a new motion solve. Original component credits and pinned evidence remain accessible.
-- Original Pumas Library and Pantograph icons. Other project names retain text branding; see [icon inventory](ICON_AUDIT.md).
+- Original Pumas Library, Pantograph and Eidetic icons. Other project names retain text branding; see [icon inventory](ICON_AUDIT.md).
 - Featured Coding Standards section grounded in the current typed MCP engine source. It describes navigation, immutable evidence, explicit review/application, and common engineering concerns across the stack. It makes no company endorsement or unverified end-to-end integration claim.
 - “Cooking the Cat” paired by title and the user-provided engineering-approach description. No public book URL or existing cover has been verified, so neither is invented.
 
@@ -34,9 +34,9 @@ All copied screenshot hashes and image dimensions are recorded in [capture prove
 
 ## Whip Docs visual addition
 
-Three unedited captures from [merged main c5a8417](https://github.com/MrScripty/whip-docs/blob/c5a8417e4e13d18c6751de196cf667653863d5de/docs/images/README.md) are byte-identical to UI commit `a5caed08`. They replay actual Rust-parser output from the public synthetic fixture using extractor @5; the newer @6 parser privacy repair does not change this UI. The main merge has no file differences from reviewed head `be1ed18`. Native desktop build, Tauri IPC and restart acceptance remain unverified. No Passeur runtime, graph-folding integration or model inference is claimed.
+Two visible unedited captures from [merged main c5a8417](https://github.com/MrScripty/whip-docs/blob/c5a8417e4e13d18c6751de196cf667653863d5de/docs/images/README.md) are byte-identical to UI commit `a5caed08`. They replay actual Rust-parser output from the public synthetic fixture using extractor @5; the newer @6 parser privacy repair does not change this UI. The main merge has no file differences from reviewed head `be1ed18`. The third, standalone inspector view was removed from the visible gallery at the owner’s request because it repeats the second view; its source screenshot remains intact. Native desktop build, Tauri IPC and restart acceptance remain unverified. No Passeur runtime, graph-folding integration or model inference is claimed.
 
-The owner-confirmed original Eidetic icon remains pending its location. The icon inventory now distinguishes that unresolved asset from the placeholder files encountered in the committed packaging sources.
+Eidetic’s original icon is now published at root `icon.png` in source commit `cc80011`. The inspected 512 × 512 original is used unchanged beside the section title; the packaging placeholders are separate files.
 
 ## Richer Pantograph graph, 12 October
 

@@ -368,7 +368,8 @@
     "scope": "Actual Chromium/WebGL UI with public synthetic Rust-parser fixture, whip-docs-syntax@5, 39 files and 37 captured sources. The @6 parser repair leaves this UI unchanged. Browser preview is separate from native persistence; native desktop build, Tauri IPC and restart are not qualified. No Passeur runtime, automatic proposal execution or inference claim.",
     "pixel_edits": "none",
     "visually_inspected": true,
-    "original_capture_commit_bytes_verified": true
+    "original_capture_commit_bytes_verified": true,
+    "portfolio_display": "Retained as source evidence; removed from the visible gallery at the owner\u2019s request because it repeats the expanded-symbols view."
   },
   {
     "file": "assets/pantograph-inference-multibranch-graph-completed.png",
