@@ -1,6 +1,6 @@
 # Dark portfolio appearance review
 
-**Review branch only; not deployed.** The page now has a compact dark palette, separate stacked Tuldok and Eidetic sections, current actual Pantograph workbench captures, the approved cleaner Kenoma held-arm scene beside the mannequins, shipped Pumas/Pantograph icons, a full Whip Docs visual section, and a featured Coding Standards / Cooking the Cat pairing.
+**Review branch only; not deployed.** The page now has a compact dark palette, separate stacked Tuldok and Eidetic sections, the richer 13-node Pantograph CPU fixture run with matching standalone inspection views, the approved cleaner Kenoma held-arm scene beside the mannequins, shipped Pumas/Pantograph icons, a full Whip Docs visual section, and a featured Coding Standards / Cooking the Cat pairing.
 
 [Full desktop preview](dark-desktop.png) · [Full mobile preview](dark-mobile.png) · [Source and remaining blockers](../portfolio/DARK_REVIEW.md) · [Icon inventory](../portfolio/ICON_AUDIT.md) · [Validation](../portfolio/VALIDATION.md)
 
@@ -14,6 +14,8 @@
 | ![Kenoma poser and approved held arm](dark-kenoma-desktop.png) | ![Kenoma mobile](dark-kenoma-mobile.png) |
 | ![Coding Standards and book pairing](dark-standards-desktop.png) | ![Coding Standards mobile](dark-standards-mobile.png) |
 | ![Original book covers](dark-books-desktop.png) | ![Original book covers on mobile](dark-books-mobile.png) |
+
+The Pantograph gallery now shows two actual untrained CPU embedding fixtures (8D/12D) and their combined report. Text/image generation is not demonstrated. All four views come from the same completed run.
 
 The owner-confirmed original Eidetic icon is pending its location; the earlier placeholder-file finding was not a complete asset conclusion.
 

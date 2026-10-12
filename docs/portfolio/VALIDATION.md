@@ -1,10 +1,11 @@
 # Validation status
 
-The compact dark revision is source-only. It was checked locally in Chromium 151 at **1440, 768, 390 and 320 px** on 11 October 2026.
+The compact dark revision is source-only. It was checked locally in Chromium 151 at **1440, 768, 390 and 320 px** on 12 October 2026.
 
 - Static paths, fragments, IDs, alt attributes, one h1, and JavaScript syntax pass. No external scripts are loaded.
 - All four browser viewports have no horizontal overflow, broken images, blank links or JavaScript errors. Skip navigation works. All twelve screenshot dialogs open their original images, close with Escape, and restore focus at every width (48 dialog exercises). Reading and source links remain usable without JavaScript.
-- **67 additional checks pass:** dark section backgrounds, separately stacked Tuldok/Eidetic sections, the four actual Pantograph workbench views, both Kenoma views, screenshot hashes including the three Whip Docs captures and matching Pantograph receipt hashes.
+- **71 additional checks pass:** dark section backgrounds, separately stacked Tuldok/Eidetic sections, the four matching Pantograph multi-branch workbench views, both Kenoma views, screenshot hashes including the three Whip Docs captures and matching Pantograph receipt hashes.
+- The Pantograph gallery uses the inspected 13-node run at `03d838b`; all four image hashes match its public receipt. Its visible caption identifies two untrained CPU embedding fixtures (8D/12D) and excludes text/image generation.
 - Whip Docs’s three added images match the original `a5caed08` capture bytes retained on merged main `c5a8417`. The full visual section was inspected on desktop and mobile, including the uncropped portrait inspector and full-size dialogs.
 - Desktop/mobile full-page and project-section previews were visually inspected. Existing screenshots and cover art retain their original pixels and aspect ratios.
 - All **22 distinct GitHub destinations** on the current page returned HTTP 200. Four external destinations remain proxy-blocked: LinkedIn, the existing Practical Data Analysis Pages site, and two source-provided Creative Commons license links. These are recorded as unverified, not broken or successfully checked.

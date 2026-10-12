@@ -369,5 +369,77 @@
     "pixel_edits": "none",
     "visually_inspected": true,
     "original_capture_commit_bytes_verified": true
+  },
+  {
+    "file": "assets/pantograph-inference-multibranch-graph-completed.png",
+    "sha256": "d48e36d267e76407b551513abe47a521ded832b88de1f109fa33e5bb1dd0dcac",
+    "dimensions": [
+      2560,
+      1800
+    ],
+    "source_repository": "MrScripty/Pantograph",
+    "source_commit": "03d838bb099104ccd36f02f366d1d4721674626a",
+    "app_revision": "7b30b9b0b25697e9216ceb21f6cdb43e41037f34",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/03d838bb099104ccd36f02f366d1d4721674626a/docs/images/multibranch-inference-demo-2026-10-12/graph-completed.png",
+    "provenance_url": "https://github.com/MrScripty/Pantograph/blob/03d838bb099104ccd36f02f366d1d4721674626a/docs/images/multibranch-inference-demo-2026-10-12/receipt.json",
+    "run_id": "run_b7478981-5ac7-4a93-8546-2d34a1456caf",
+    "scope": "Actual Chromium Svelte workbench and loopback Rust service. One completed 13-node, 13-edge workflow with two real untrained Candle CPU embedding fixtures (8D and 12D) and a combined deterministic report. No text generation, image generation, image transport, useful semantic quality or native Tauri claim.",
+    "pixel_edits": "none",
+    "visually_inspected": true,
+    "source_receipt_hash_verified": true
+  },
+  {
+    "file": "assets/pantograph-inference-multibranch-retained-output.png",
+    "sha256": "21f74817ab9ee4d53699954ac1fb135de8a0fd9de314f8ddbdbb15a79f82421a",
+    "dimensions": [
+      2560,
+      1800
+    ],
+    "source_repository": "MrScripty/Pantograph",
+    "source_commit": "03d838bb099104ccd36f02f366d1d4721674626a",
+    "app_revision": "7b30b9b0b25697e9216ceb21f6cdb43e41037f34",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/03d838bb099104ccd36f02f366d1d4721674626a/docs/images/multibranch-inference-demo-2026-10-12/retained-output.png",
+    "provenance_url": "https://github.com/MrScripty/Pantograph/blob/03d838bb099104ccd36f02f366d1d4721674626a/docs/images/multibranch-inference-demo-2026-10-12/receipt.json",
+    "run_id": "run_b7478981-5ac7-4a93-8546-2d34a1456caf",
+    "scope": "Actual Chromium Svelte workbench and loopback Rust service. One completed 13-node, 13-edge workflow with two real untrained Candle CPU embedding fixtures (8D and 12D) and a combined deterministic report. No text generation, image generation, image transport, useful semantic quality or native Tauri claim.",
+    "pixel_edits": "none",
+    "visually_inspected": true,
+    "source_receipt_hash_verified": true
+  },
+  {
+    "file": "assets/pantograph-inference-multibranch-diagnostics.png",
+    "sha256": "797ea7038a733dc481b696bef4af498edfa3bde801c0d6e89f8eb4ab1cc3e07e",
+    "dimensions": [
+      2560,
+      1800
+    ],
+    "source_repository": "MrScripty/Pantograph",
+    "source_commit": "03d838bb099104ccd36f02f366d1d4721674626a",
+    "app_revision": "7b30b9b0b25697e9216ceb21f6cdb43e41037f34",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/03d838bb099104ccd36f02f366d1d4721674626a/docs/images/multibranch-inference-demo-2026-10-12/diagnostics.png",
+    "provenance_url": "https://github.com/MrScripty/Pantograph/blob/03d838bb099104ccd36f02f366d1d4721674626a/docs/images/multibranch-inference-demo-2026-10-12/receipt.json",
+    "run_id": "run_b7478981-5ac7-4a93-8546-2d34a1456caf",
+    "scope": "Actual Chromium Svelte workbench and loopback Rust service. One completed 13-node, 13-edge workflow with two real untrained Candle CPU embedding fixtures (8D and 12D) and a combined deterministic report. No text generation, image generation, image transport, useful semantic quality or native Tauri claim.",
+    "pixel_edits": "none",
+    "visually_inspected": true,
+    "source_receipt_hash_verified": true
+  },
+  {
+    "file": "assets/pantograph-inference-multibranch-scheduler.png",
+    "sha256": "7bfa03d810b4724483a26c5eb8f5be43639e57f9178ba37cf68a47cd47a74b66",
+    "dimensions": [
+      2560,
+      1800
+    ],
+    "source_repository": "MrScripty/Pantograph",
+    "source_commit": "03d838bb099104ccd36f02f366d1d4721674626a",
+    "app_revision": "7b30b9b0b25697e9216ceb21f6cdb43e41037f34",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Pantograph/03d838bb099104ccd36f02f366d1d4721674626a/docs/images/multibranch-inference-demo-2026-10-12/scheduler.png",
+    "provenance_url": "https://github.com/MrScripty/Pantograph/blob/03d838bb099104ccd36f02f366d1d4721674626a/docs/images/multibranch-inference-demo-2026-10-12/receipt.json",
+    "run_id": "run_b7478981-5ac7-4a93-8546-2d34a1456caf",
+    "scope": "Actual Chromium Svelte workbench and loopback Rust service. One completed 13-node, 13-edge workflow with two real untrained Candle CPU embedding fixtures (8D and 12D) and a combined deterministic report. No text generation, image generation, image transport, useful semantic quality or native Tauri claim.",
+    "pixel_edits": "none",
+    "visually_inspected": true,
+    "source_receipt_hash_verified": true
   }
 ]
