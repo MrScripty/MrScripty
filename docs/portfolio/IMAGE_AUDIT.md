@@ -4,7 +4,11 @@ The dark revision supersedes the visible gallery described below. It uses the 12
 
 The current Pumas gallery displays only the owner-supplied 805 × 1001 Hugging Face search for Pixal3D from asset commit `bdcb9b3`. The separate Library image has two visible “Download activity · error” rows and is excluded from the rendered gallery at the owner’s request. Both original PNGs and their provenance remain intact, without pixel edits. A healthy Library replacement is pending. No visible credentials or private paths were found. Capture publication is verified; exact app source and inference qualification are not inferred.
 
-Rheon now shows the original 1250 × 820 native material-preview orbit JPEG from capture source `a552d0a`, published in asset commit `973b543`. The held frame is 1023/1024 at 1.061 s, with 87 quantized particles. No visible error banner, credentials or private paths were found in the selected image. Final-run diagnostics at 1.0621 s are kept separate and are not attributed to this frame. The historical comparison and rejected low-resolution captures are not used for this replacement.
+Rheon now shows two owner-published JPEGs from `c2e337a`, inspected in full and preserved byte-for-byte. `rheon.jpg` (2560 × 1571) shows the native UI with pressure coloring, controls and timeline; it replaces the earlier material-preview orbit image. The screenshot shows timeline step 538 / 546 at 10.760 s while another step is calculating. The old 1023/1024 SPH capture conditions do not apply.
+
+`Rheon_algo_to_AI.jpg` (1551 × 1078) shows the separate **Rheon Surrogate Lab**. Orange Rheon CPU/Jacobi PCG and blue-green learned pressure appear beside each other for a 32 × 32 × 32 sealed box, seed 900, prescribed 3D forcing, at replay frame 120/120 (2.000 s). The visible pressure-stage readings are 135.46 ms and 1.85 ms; they are per-frame readings, distinct from the complete-simulation benchmark headline. The page does not derive a new speedup or general accuracy claim. The image's measurement notes explicitly exclude free surfaces, variable density, obstacles and viscosity; visual agreement alone is insufficient. No new app run or benchmark was performed for the portfolio.
+
+No visible error banners, credentials or private paths were found in either selected JPEG. Exact application runtime revisions are not established by this asset upload. Both full images retain their aspect ratios and can be enlarged; no cropping or pixel editing was applied.
 
 ---
 

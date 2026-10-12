@@ -40,7 +40,7 @@
     "scope": "Unedited native-window capture on Linux with Xvfb/Mesa software rendering. Solver comparison with unequal accepted-time warning; no physical-validation or benchmark claim.",
     "pixel_edits": "none",
     "visually_inspected": true,
-    "portfolio_display": "Retained historical source asset; replaced in the rendered gallery by the verified native material-preview capture from a552d0a."
+    "portfolio_display": "Retained historical source asset; superseded in the review gallery by the owner-supplied Rheon UI and separate Surrogate Lab captures from c2e337a."
   },
   {
     "file": "assets/kenoma-two-character-scene.png",
@@ -510,6 +510,46 @@
     "visually_inspected": true,
     "browser_used_for_app_capture": false,
     "native_source_modified_for_capture": false,
-    "accepted_step_preserved_on_orbit": true
+    "accepted_step_preserved_on_orbit": true,
+    "portfolio_display": "Retained historical source asset; superseded in the review gallery by the owner-supplied Rheon UI and separate Surrogate Lab captures from c2e337a."
+  },
+  {
+    "file": "assets/rheon.jpg",
+    "sha256": "8666fc09c0712641db67c57db4de5de4e33f8d0e076acb6249b981e94953cf42",
+    "bytes": 208749,
+    "dimensions": [
+      2560,
+      1571
+    ],
+    "source_repository": "MrScripty/MrScripty",
+    "source_commit": "c2e337afb9d9e03ed5c0ed4305e63f516dffd113",
+    "source_path": "docs/portfolio/assets/rheon.jpg",
+    "source_url": "https://github.com/MrScripty/MrScripty/blob/c2e337afb9d9e03ed5c0ed4305e63f516dffd113/docs/portfolio/assets/rheon.jpg",
+    "app_revision": null,
+    "qualification": "Owner-published screenshot; the asset commit does not identify the application runtime revision. No new benchmark or application run was performed for the portfolio.",
+    "pixel_edits": "none; original repository JPEG bytes preserved",
+    "visually_inspected": true,
+    "capture_kind": "Rheon native application UI",
+    "scope": "Pressure-colored 3D orbit view, material controls and simulation timeline. The displayed timeline reads step 538 / 546, simulated 10.760 s, while calculation continues separately at step 547. No prior SPH material-preview provenance or physical-validation claim is transferred to this image."
+  },
+  {
+    "file": "assets/Rheon_algo_to_AI.jpg",
+    "sha256": "8d71c81835beabc2df4f6bd36158e6482d55e7b34457015a3fa10e3245dbce1f",
+    "bytes": 168394,
+    "dimensions": [
+      1551,
+      1078
+    ],
+    "source_repository": "MrScripty/MrScripty",
+    "source_commit": "c2e337afb9d9e03ed5c0ed4305e63f516dffd113",
+    "source_path": "docs/portfolio/assets/Rheon_algo_to_AI.jpg",
+    "source_url": "https://github.com/MrScripty/MrScripty/blob/c2e337afb9d9e03ed5c0ed4305e63f516dffd113/docs/portfolio/assets/Rheon_algo_to_AI.jpg",
+    "app_revision": null,
+    "qualification": "Owner-published screenshot; the asset commit does not identify the application runtime revision. No new benchmark or application run was performed for the portfolio.",
+    "pixel_edits": "none; original repository JPEG bytes preserved",
+    "visually_inspected": true,
+    "capture_kind": "Rheon Surrogate Lab; separate pressure-solver experiment",
+    "scope": "Sealed box with prescribed 3D forcing, 32 \u00d7 32 \u00d7 32 cells, seed 900. Orange Rheon CPU (Jacobi PCG) and blue-green learned pressure (PyTorch 2.14, zero PCG iterations). Synchronized replay displays frame 120 / 120 at 2.000 s. Visible per-frame pressure-stage readings are 135.46 ms and 1.85 ms; calculation readings are 174.04 ms and 41.72 ms. These are distinct from the complete-simulation benchmark headline. No derived speedup or general accuracy claim is made by the portfolio.",
+    "visible_conditions": "The image says recorded frame timings exclude rendering/capture serialization. The full benchmark includes native startup, all stages, inference, transfers, acceptance gates and teardown with a resident model; excludes Python/model initialization and rendering. No free liquid surface, variable density, obstacles or viscosity. Error is against the numerical reference; visual agreement alone is insufficient."
   }
 ]

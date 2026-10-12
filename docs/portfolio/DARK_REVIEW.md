@@ -1,13 +1,13 @@
 # Dark portfolio review
 
-The compact dark design is published at Pages commit `7b5847785c76388c00205a68f36145d401ff62b3`. The new Rheon native-material image replacement described here remains source-only pending review.
+The compact dark design is published at Pages commit `7b5847785c76388c00205a68f36145d401ff62b3`. The owner-supplied Rheon UI and Surrogate Lab additions described here remains source-only pending review.
 
 ## Implemented
 
 - Owner-supplied `puma.jpg` replaces the header monogram, using the existing circular header size. The original photograph is preserved unchanged; see [photo provenance](assets/profile-photo-provenance.json).
 - Dark backgrounds throughout, shorter spacing, larger visual share of each project row, original book covers retained.
 - The owner-supplied Pumas Hugging Face search view is displayed unchanged. The error-bearing Library view is excluded from the gallery while its source file and provenance remain intact. No app revision or inference qualification is inferred.
-- Rheon’s actual native material preview replaces the older comparison image: held step 1023/1024 at 1.061 s, with camera orbit and quantized particles. Original JPEG bytes are preserved; engineering reconstruction and physical-validation limits remain explicit. This new image is source-only pending review.
+- The owner-supplied Rheon native UI replaces the prior orbit capture. A second figure identifies Rheon Surrogate Lab as a separate pressure-solver experiment, comparing orange Jacobi PCG with blue-green learned pressure. Both original JPEGs remain unchanged, with full-size dialogs and a compact two-column desktop / stacked phone layout. These additions remain source-only pending review.
 - Separate full-width Tuldok and Eidetic sections, stacked vertically at every viewport.
 - A full Whip Docs visual section: actual 3D file graph and expanded symbols with the intent inspector visible in context, from merged public evidence. Independent Tree-sitter parsing and immutable intent entries are described concisely; browser fixture and native desktop verification remain distinct.
 - Four unedited, actual Pantograph workbench captures from the current 13-node multi-branch CPU run: completed Graph, retained output, Diagnostics and Scheduler. The earlier amber-warning Graph and separate scheduler-demo host images are absent from the visible gallery.
@@ -25,7 +25,7 @@ The [follow-up source gap audit](SOURCE_GAP_AUDIT.md) records the exact book sea
 
 ## Capture sources
 
-- [Rheon current native material preview, 973b543](https://github.com/MrScripty/Rheon/blob/973b543c4091303f71c7bdb48af71708f6ce6da5/docs/native-app-review/material-preview-a552d0a/README.md). Captured from `a552d0a`, held at step 1023/1024 (1.061 s); the completed-run diagnostics are a separate 1.0621 s time level. The recommended orbit JPEG is shown unchanged. No CAD/free-surface reconstruction, calibrated-optics or benchmark qualification is inferred.
+- [Owner-published Rheon images, c2e337a](https://github.com/MrScripty/MrScripty/tree/c2e337afb9d9e03ed5c0ed4305e63f516dffd113/docs/portfolio/assets): `rheon.jpg` (2560 × 1571) is the native UI; `Rheon_algo_to_AI.jpg` (1551 × 1078) is the separate Surrogate Lab experiment. The latter visibly specifies a 32³-cell sealed box, seed 900 and prescribed forcing. Per-frame timing readings are distinct from complete-simulation benchmarks. The asset publication does not qualify an app source revision or general accuracy. The earlier `a552d0a` orbit JPEG is retained only as historical source.
 
 - [Pumas Library supplied screenshots, bdcb9b3](https://github.com/MrScripty/MrScripty/commit/bdcb9b38a696d757fa96e8eb0c70fb8fdea018b6). Two inspected 805 × 1001 originals, published by the owner on the review branch. Library: categorized local models with two visible download errors, now excluded from the rendered gallery. Search: Hugging Face results for Pixal3D, retained as the sole visible Pumas capture. This asset-publication commit is not an application-source qualification.
 
