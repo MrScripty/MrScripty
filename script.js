@@ -3,7 +3,6 @@
 (() => {
   const dialog = document.querySelector("#image-dialog");
   const image = document.querySelector("#dialog-image");
-  const caption = document.querySelector("#dialog-caption");
   const links = [...document.querySelectorAll("a.capture-button")];
   let trigger = null;
   let suppressHistoryClose = false;
@@ -44,7 +43,7 @@
       });
       const active = figures[current];
       active.querySelector(".capture-frame").append(controls);
-      const title = active.querySelector(".capture-heading b").textContent.trim();
+      const title = active.querySelector("img").alt;
       status.textContent = `${current + 1} / ${figures.length}`;
       status.setAttribute("aria-label", `Image ${current + 1} of ${figures.length}: ${title}`);
       if (controlFocused) focused.focus({ preventScroll: true });
@@ -108,7 +107,6 @@
     trigger = link;
     image.src = link.href;
     image.alt = link.querySelector("img").alt;
-    caption.textContent = link.closest("figure").querySelector("figcaption").innerText.trim();
     if (!dialog.open) dialog.showModal();
   }
   links.forEach((link) => {
