@@ -4,7 +4,9 @@ This source-only revision replaces the cream sections with a compact dark design
 
 ## Implemented
 
+- Owner-supplied `puma.jpg` replaces the header monogram, using the existing circular header size. The original photograph is preserved unchanged; see [photo provenance](assets/profile-photo-provenance.json).
 - Dark backgrounds throughout, shorter spacing, larger visual share of each project row, original book covers retained.
+- Two owner-supplied actual Pumas Library views replace the authored architecture diagram: the categorized model library and Hugging Face search. Original bytes and visible download errors are retained; no exact app revision or inference qualification is inferred.
 - Separate full-width Tuldok and Eidetic sections, stacked vertically at every viewport.
 - A full Whip Docs visual section: actual 3D file graph and expanded symbols with the intent inspector visible in context, from merged public evidence. Independent Tree-sitter parsing and immutable intent entries are described concisely; browser fixture and native desktop verification remain distinct.
 - Four unedited, actual Pantograph workbench captures from the current 13-node multi-branch CPU run: completed Graph, retained output, Diagnostics and Scheduler. The earlier amber-warning Graph and separate scheduler-demo host images are absent from the visible gallery.
@@ -15,13 +17,14 @@ This source-only revision replaces the cream sections with a compact dark design
 
 ## Remaining content blockers
 
-The [follow-up source gap audit](SOURCE_GAP_AUDIT.md) records the exact book searches and distinguishes four available playground images from the missing actual Pumas Library GUI capture.
+The [follow-up source gap audit](SOURCE_GAP_AUDIT.md) records the exact book searches and the now-resolved Pumas Library screenshot gap. The supplied app captures are distinct from the earlier playground images.
 
-1. **Pumas Library GUI:** no genuine library GUI capture was available in the reviewed public repositories. Main `ad31e391` and the public `feat/model-testing-playground` branch at `bd982b67` contain no suitable capture. The main README attachment (`be18cffc-b4fe-418b-a3b4-034ee0b35060`) redirects to a host blocked by this environment. The current Pumas visual remains explicitly labeled an authored architecture summary; it is not an app screenshot. Needed: an approved actual Library GUI capture with public source/provenance, excluding unpublished local changes and private catalogs.
-2. **Cooking the Cat:** title confirmed in the public profile and requested by the owner. Searches of public repositories/web sources did not establish a book URL, text, or cover. Needed: its public URL and existing cover source, if one exists. The source question has already been sent.
-3. **Rheon refinement:** the first 24³ genuine 3D flow capture was not selected because the owner found its resolution insufficient. The prior solver-comparison image remains, with its unequal-time limitation. Await the numerical grid-refinement worker's approved capture; no smoothing or image editing was used to imply added solver detail.
+1. **Cooking the Cat:** title confirmed in the public profile and requested by the owner. Searches of public repositories/web sources did not establish a book URL, text, or cover. Needed: its public URL and existing cover source, if one exists. The source question has already been sent.
+2. **Rheon refinement:** the first 24³ genuine 3D flow capture was not selected because the owner found its resolution insufficient. The prior solver-comparison image remains, with its unequal-time limitation. Await the numerical grid-refinement worker's approved capture; no smoothing or image editing was used to imply added solver detail.
 
 ## Capture sources
+
+- [Pumas Library supplied screenshots, bdcb9b3](https://github.com/MrScripty/MrScripty/commit/bdcb9b38a696d757fa96e8eb0c70fb8fdea018b6). Two inspected 805 × 1001 originals, published by the owner on the review branch. Library: categorized local models with two visible download errors. Search: Hugging Face results for Pixal3D. This asset-publication commit is not an application-source qualification.
 
 - [Pantograph multi-branch evidence, 03d838b](https://github.com/MrScripty/Pantograph/blob/03d838bb099104ccd36f02f366d1d4721674626a/docs/images/multibranch-inference-demo-2026-10-12/README.md), clean runtime `7b30b9b`. **Current visible gallery:** one 13-node, 13-edge run with two actual untrained Candle CPU embedding fixtures (8D and 12D), plus a deterministic combined report. Text generation is unqualified; image generation and image transport are unavailable. No useful semantic model-quality or native Tauri claim. All four retained views belong to run `run_b7478981-5ac7-4a93-8546-2d34a1456caf`.
 

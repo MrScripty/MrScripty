@@ -442,5 +442,43 @@
     "pixel_edits": "none",
     "visually_inspected": true,
     "source_receipt_hash_verified": true
+  },
+  {
+    "file": "assets/PumasLibrary_library_v0.8.0.png",
+    "sha256": "4ba0a2b43577ebb2c3029c0149bd6607d3c31dc823ff6b44d67567e0e944b6b9",
+    "bytes": 542279,
+    "dimensions": [
+      805,
+      1001
+    ],
+    "source_repository": "MrScripty/MrScripty",
+    "source_commit": "bdcb9b38a696d757fa96e8eb0c70fb8fdea018b6",
+    "source_path": "docs/portfolio/assets/PumasLibrary_library_v0.8.0.png",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/MrScripty/bdcb9b38a696d757fa96e8eb0c70fb8fdea018b6/docs/portfolio/assets/PumasLibrary_library_v0.8.0.png",
+    "app_revision": null,
+    "scope": "User-supplied current local Pumas Library app capture. The source commit records publication of the image, not the application revision. No exact app commit, completed download or inference qualification is inferred.",
+    "visible_state": "Categorized local models, formats and sizes. Two download-error states remain visible.",
+    "pixel_edits": "none; original published PNG bytes preserved",
+    "visually_inspected": true,
+    "public_use_authorized": "Owner supplied the screenshots specifically for the public portfolio and committed these originals."
+  },
+  {
+    "file": "assets/PumasLibrary_search_v0.8.0.png",
+    "sha256": "174078d0e2f58d26b687ff0c82291150fbb300df9f81f8b435926ee093bbec87",
+    "bytes": 568995,
+    "dimensions": [
+      805,
+      1001
+    ],
+    "source_repository": "MrScripty/MrScripty",
+    "source_commit": "bdcb9b38a696d757fa96e8eb0c70fb8fdea018b6",
+    "source_path": "docs/portfolio/assets/PumasLibrary_search_v0.8.0.png",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/MrScripty/bdcb9b38a696d757fa96e8eb0c70fb8fdea018b6/docs/portfolio/assets/PumasLibrary_search_v0.8.0.png",
+    "app_revision": null,
+    "scope": "User-supplied current local Pumas Library app capture. The source commit records publication of the image, not the application revision. No exact app commit, completed download or inference qualification is inferred.",
+    "visible_state": "Hugging Face results for Pixal3D, with model details and download controls.",
+    "pixel_edits": "none; original published PNG bytes preserved",
+    "visually_inspected": true,
+    "public_use_authorized": "Owner supplied the screenshots specifically for the public portfolio and committed these originals."
   }
 ]

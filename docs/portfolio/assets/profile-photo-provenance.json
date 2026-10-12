@@ -1,0 +1,17 @@
+{
+  "file": "puma.jpg",
+  "sha256": "661bb77b05d56cf01ad0eba0bb108fee297d99f3c13009ebc8906467a04b5e19",
+  "bytes": 185254,
+  "dimensions": [
+    1176,
+    1174
+  ],
+  "source_repository": "MrScripty/MrScripty",
+  "source_commit": "a2ab18d89f058d90e008c0d917da761b0fefa0b0",
+  "source_path": "docs/portfolio/puma.jpg",
+  "source_url": "https://raw.githubusercontent.com/MrScripty/MrScripty/a2ab18d89f058d90e008c0d917da761b0fefa0b0/docs/portfolio/puma.jpg",
+  "origin": "Owner-supplied profile photograph, explicitly identified as puma.jpg for the portfolio header.",
+  "pixel_edits": "none; original JPEG bytes preserved",
+  "display": "Circular CSS presentation at the existing 38 px desktop / 34 px phone header size, object-fit cover with centered positioning.",
+  "visually_inspected": true
+}

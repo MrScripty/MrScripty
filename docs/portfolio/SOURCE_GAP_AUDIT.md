@@ -20,13 +20,17 @@ Searches completed:
 
 ## Pumas Library GUI
 
+**Resolved, 12 October:** the owner supplied the actual Library and Hugging Face search captures in [review-branch commit bdcb9b3](https://github.com/MrScripty/MrScripty/commit/bdcb9b38a696d757fa96e8eb0c70fb8fdea018b6). Both 805 × 1001 PNGs were inspected and are displayed unchanged. The Library image retains two download-error states. No exact app source revision or inference result is established by these images.
+
+Earlier source search:
+
 - Enumerated 170 public repository branches; inspected 103 untruncated trees, including main `ad31e391`, the relevant desktop-review branches and playground `bd982b67`.
 - Main and inspected desktop branches contain no suitable actual Library GUI capture. Product icons and backend logos are not screenshots.
 - Four images exist in [the playground evidence folder at bd982b67](https://github.com/MrScripty/Pumas-Library/tree/bd982b67bb34e57088b5db466b3761809b6a03f6/tools/model-playground/evidence): `real-runtime-browser.png`, `real-untrained-onnx-browser.png`, `simulated-browser-desktop.png`, and `simulated-browser-mobile.png`. They are **playground evidence, not the actual Library GUI**. None was used for the portfolio's Library section.
 - The actual Library screenshot referenced by the public README is GitHub attachment `be18cffc-b4fe-418b-a3b4-034ee0b35060`. Its download still fails at the environment proxy with HTTP 403; its pixels and provenance could not be verified here.
 - No unpublished local catalog, app changes, or private model data were used.
 
-**Needed:** an approved actual Library GUI capture with public source/provenance. Until available, the portfolio keeps its existing visual explicitly labeled “Authored architecture summary.”
+The actual supplied views now replace the authored architecture summary in the visible Pumas section. Exact original hashes and capture limits are recorded in [capture provenance](assets/capture-provenance.json).
 
 ## Icons
 

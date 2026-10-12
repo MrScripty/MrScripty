@@ -2,6 +2,8 @@
 
 The dark revision supersedes the visible gallery described below. It uses the 12 October multi-branch Pantograph captures from `03d838b` (two untrained CPU embedding fixtures; no text/image generation) and the approved cleaner Kenoma held-arm canvas. Old screenshots remain only as historical source assets. See [dark review](DARK_REVIEW.md), [icon inventory](ICON_AUDIT.md), and the exact [capture hashes](assets/capture-provenance.json).
 
+The current Pumas gallery uses two owner-supplied 805 × 1001 PNGs from asset commit `bdcb9b3`: categorized Library models and Hugging Face search for Pixal3D. The Library image has two visible “Download activity · error” rows; these remain unedited. No visible credentials or private paths were found. Capture publication is verified; exact app source and inference qualification are not inferred.
+
 ---
 
 # Portfolio image audit — 11 October 2026

@@ -1,12 +1,14 @@
 # Dark portfolio appearance review
 
-**Review branch only; not deployed.** The page now has a compact dark palette, separate stacked Tuldok and Eidetic sections, the richer 13-node Pantograph CPU fixture run with matching standalone inspection views, the approved cleaner Kenoma held-arm scene beside the mannequins, original Pumas/Pantograph/Eidetic icons, a full Whip Docs visual section, and a featured Coding Standards / Cooking the Cat pairing.
+**Review branch only; not deployed.** The page now has the owner’s profile photograph in the header, a compact dark palette, separate stacked Tuldok and Eidetic sections, the richer 13-node Pantograph CPU fixture run with matching standalone inspection views, the approved cleaner Kenoma held-arm scene beside the mannequins, original Pumas/Pantograph/Eidetic icons, two owner-supplied Pumas Library / Hugging Face search views, a full Whip Docs visual section, and a featured Coding Standards / Cooking the Cat pairing.
 
 [Full desktop preview](dark-desktop.png) · [Full mobile preview](dark-mobile.png) · [Source and remaining blockers](../portfolio/DARK_REVIEW.md) · [Icon inventory](../portfolio/ICON_AUDIT.md) · [Validation](../portfolio/VALIDATION.md)
 
 | Desktop | Mobile |
 | --- | --- |
 | ![Dark portfolio desktop](dark-desktop.png) | ![Dark portfolio mobile](dark-mobile.png) |
+| ![Profile-photo header on desktop](dark-header-desktop.png) | ![Profile-photo header on mobile](dark-header-mobile.png) |
+| ![Pumas Library and Hugging Face search](dark-pumas-desktop.png) | ![Pumas Library mobile gallery](dark-pumas-mobile.png) |
 | ![Pantograph actual workbench gallery](dark-pantograph-desktop.png) | ![Pantograph mobile gallery](dark-pantograph-mobile.png) |
 | ![Tuldok desktop](dark-tuldok-desktop.png) | ![Tuldok mobile](dark-tuldok-mobile.png) |
 | ![Eidetic desktop](dark-eidetic-desktop.png) | ![Eidetic mobile](dark-eidetic-mobile.png) |
@@ -21,7 +23,7 @@ Whip Docs retains the two distinct graph views; the repeated standalone inspecto
 
 Eidetic now displays the owner’s original 512 × 512 icon, published at root `icon.png` in commit `cc80011` and copied without pixel edits.
 
-The Pumas architecture diagram is explicitly authored, not a GUI capture. An actual public Library GUI image is still needed. Cooking the Cat has the owner-provided title and description but awaits its public book URL and original cover. The low-resolution Rheon candidate was not selected; the earlier solver comparison remains qualified by its caption.
+The Pumas gallery now shows the actual Library and Hugging Face search, supplied by the owner. Visible download errors remain in the Library view; the screenshots do not qualify a specific app revision or inference result. Cooking the Cat has the owner-provided title and description but awaits its public book URL and original cover. The low-resolution Rheon candidate was not selected; the earlier solver comparison remains qualified by its caption.
 
 The existing Pages publication remains `e0ddbf9811044cf2bbd25af4e6527032d2abd701`. The previously approved cream design and its historical image-addition previews are retained below as an archive, not the current appearance.
 
