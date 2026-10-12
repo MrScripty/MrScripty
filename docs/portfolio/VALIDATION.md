@@ -1,4 +1,24 @@
-# Current purpose, typography and gallery review
+# Consolidated presentation review — 12 October 2026
+
+This review is not deployed. The approved portfolio remains at Pages commit `fe30267e0c99c6cc19b9d5fd35208823cc93a678`, from source `83b67e99cb52c17af8eb42b8900ebadc81377569`.
+
+- Static validation: 33 unique IDs, 80 links/assets, 24 image elements, one h1 and no external scripts; JavaScript syntax passes.
+- Chromium at 1440, 768, 390 and 320 px: no horizontal overflow, broken images, blank links or script errors; skip navigation and all 14 image dialogs work (56 open/Escape/focus exercises).
+- 424 gallery checks: intrinsic proportions, overlay controls without a reserved strip, keyboard focus, Arrow/Home/End, repeated navigation, full-size history, captions and reduced motion. All 14 original image links remain visible without JavaScript.
+- 219 refinement checks: actual CDP touch swipes left/right, vertical-scroll separation, no accidental enlargement, desktop hidden/revealed arrows, touch-visible arrows, language focus/hover/tap/Escape, exact measured proportions, all requested grouping and labels, social icons and credits at every width.
+- All ten main purpose headlines retain matching white typography. Tuldok, Eidetic, Whip Docs and Coding Standards are distinct rows in Memory & context. Books are separate, followed by Lanternwake.
+- Twelve repository byte distributions remain independent; no language weighting, inferred effort share or book breakdown is used. The two Rheon bars are labeled explicitly.
+- Kenoma's arm is first. Its image caption is visually hidden; original licensing attribution remains on the linked credits page. No time-evolving anatomy claim was introduced.
+- The Lanternwake image retains SHA-256 `ab4fe6f43ae12109f3858fe66eb54868617efe86fcade84a7bb571c64e1dcbcc` and its full 1275 × 799 proportions. Both Rheon JPEGs remain byte-identical.
+- GitHub Pages configuration/deployment records support the Pantograph, Whip Docs, Rheon and Kenoma site links. Direct requests to the Pages host remain blocked by the execution environment's outbound proxy; this is not a live-page visual inspection.
+- External link check: all 18 GitHub links returned HTTP 200. Five Pages URLs, the unchanged LinkedIn URL and two Creative Commons license URLs were proxy-blocked, not observed as remote 404s.
+- The unrelated local Cooking the Cat draft is preserved byte-for-byte in the working copy and excluded from staged HTML and previews. Only the already approved short book description is included.
+
+Current review previews and reports are under `review/consolidated-2026-10-12/`. Historical records below describe earlier versions and their then-current publication boundaries.
+
+---
+
+# Earlier purpose, typography and gallery review
 
 This revision is not deployed. Pages remains `396dc133c5209aa88c48845d64aa600320dfacff`.
 

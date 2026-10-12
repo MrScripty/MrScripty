@@ -18,7 +18,7 @@ try:
     with sync_playwright() as p:
         browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])
         for name,w,h in [('desktop',1440,1050),('tablet',768,1024),('mobile',390,844),('narrow',320,800)]:
-            page=browser.new_page(viewport={'width':w,'height':h},reduced_motion='reduce');errors=[]
+            page=browser.new_page(viewport={'width':w,'height':h},reduced_motion='reduce',has_touch=w<=560,is_mobile=w<=560);errors=[]
             page.on('pageerror',lambda e:errors.append(str(e)));page.goto(url,wait_until='networkidle')
             styles=page.locator('.project-deck').evaluate_all('(xs)=>xs.map(e=>{let s=getComputedStyle(e);return [s.fontFamily,s.fontSize,s.fontWeight,s.fontStyle,s.lineHeight,s.color]})')
             check(name+' ten matching white taglines',len(styles)==10 and all(s==styles[0] and s[-1]=='rgb(255, 255, 255)' for s in styles))
@@ -27,7 +27,7 @@ try:
             check(name+' dark theme',page.locator('#work').evaluate('(e)=>getComputedStyle(e).backgroundColor')=='rgb(18, 28, 23)')
             books=page.locator('#books').bounding_box();lantern=page.locator('#lanternwake').bounding_box()
             check(name+' Lanternwake below books',lantern['y']>=books['y']+books['height'])
-            check(name+' no fabricated Lanternwake image',page.locator('#lanternwake img').count()==0)
+            check(name+' supplied Lanternwake image',page.locator('#lanternwake img').count()==1 and page.locator('#lanternwake img').get_attribute('src').startswith('assets/Lanternwake_2026-10-07_13-43-35.jpg'))
             a=page.locator('#tuldok').bounding_box();b=page.locator('#eidetic').bounding_box();check(name+' stacked apps',b['y']>=a['y']+a['height'])
             if name in ['desktop','mobile']:
                 for id in ['pumas','pantograph','chrema','tuldok','eidetic','whip-docs','rheon','kenoma','standards','lanternwake']:
@@ -49,8 +49,8 @@ try:
                     link.click();page.wait_for_selector('#image-dialog[open]');page.locator('#dialog-image').evaluate('(i)=>i.decode()')
                     check(label+' full original and caption',page.locator('#dialog-image').get_attribute('src').endswith(link.get_attribute('href')) and ' '.join(page.locator('#dialog-caption').inner_text().split())==' '.join(expected.split()))
                     page.keyboard.press('Escape');page.wait_for_function('!document.querySelector("#image-dialog").open && !history.state?.portfolioCapture');page.wait_for_function('(a)=>a===document.activeElement',arg=link.element_handle())
-                    y=gallery.locator('.gallery-controls').evaluate('(e)=>e.getBoundingClientRect().top-e.parentElement.getBoundingClientRect().top')
-                    next.click();check(label+' stable controls',abs(gallery.locator('.gallery-controls').evaluate('(e)=>e.getBoundingClientRect().top-e.parentElement.getBoundingClientRect().top')-y)<1)
+                    check(label+' controls inside image frame',gallery.locator('.gallery-controls').evaluate('(e)=>{const a=e.getBoundingClientRect(),b=e.parentElement.getBoundingClientRect();return e.parentElement.classList.contains("capture-frame")&&getComputedStyle(e).position==="absolute"&&Math.abs(a.top-b.top)<1&&Math.abs(a.height-b.height)<1}'))
+                    next.click();check(label+' overlay focus survives',next.evaluate('(e)=>e===document.activeElement'))
                 next.evaluate('(b)=>{for(let i=0;i<9;i++)b.click()}');check(label+' repeated clicks',gallery.locator('.gallery-status').inner_text()==f'{9%count+1} / {count}')
                 next.focus();page.keyboard.press('End');check(label+' End',gallery.locator('.gallery-status').inner_text()==f'{count} / {count}')
                 page.keyboard.press('Home');page.keyboard.press('ArrowLeft');check(label+' keyboard wrap',gallery.locator('.gallery-status').inner_text()==f'{count} / {count}')
@@ -68,7 +68,7 @@ try:
             check(name+' no overflow or errors',not errors and page.evaluate('document.documentElement.scrollWidth<=innerWidth'))
             page.close()
         page=browser.new_page(viewport={'width':390,'height':844},java_script_enabled=False);page.goto(url)
-        check('no JS all 13 image links visible',page.locator('.capture-button:visible').count()==13)
+        check('no JS all 14 image links visible',page.locator('.capture-button:visible').count()==14)
         check('no JS no inert controls',page.locator('.gallery-controls').count()==0);page.close()
         page=browser.new_page(viewport={'width':390,'height':844},reduced_motion='no-preference');page.goto(url)
         gallery=page.locator('#rheon .capture-gallery');gallery.locator('button').last.evaluate('(b)=>b.click()')

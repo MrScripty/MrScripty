@@ -551,5 +551,23 @@
     "capture_kind": "Rheon Surrogate Lab; separate pressure-solver experiment",
     "scope": "Sealed box with prescribed 3D forcing, 32 \u00d7 32 \u00d7 32 cells, seed 900. Orange Rheon CPU (Jacobi PCG) and blue-green learned pressure (PyTorch 2.14, zero PCG iterations). Synchronized replay displays frame 120 / 120 at 2.000 s. Visible per-frame pressure-stage readings are 135.46 ms and 1.85 ms; calculation readings are 174.04 ms and 41.72 ms. These are distinct from the complete-simulation benchmark headline. No derived speedup or general accuracy claim is made by the portfolio.",
     "visible_conditions": "The image says recorded frame timings exclude rendering/capture serialization. The full benchmark includes native startup, all stages, inference, transfers, acceptance gates and teardown with a resident model; excludes Python/model initialization and rendering. No free liquid surface, variable density, obstacles or viscosity. Error is against the numerical reference; visual agreement alone is insufficient."
+  },
+  {
+    "file": "assets/Lanternwake_2026-10-07_13-43-35.jpg",
+    "sha256": "ab4fe6f43ae12109f3858fe66eb54868617efe86fcade84a7bb571c64e1dcbcc",
+    "bytes": 178815,
+    "dimensions": [
+      1275,
+      799
+    ],
+    "source_repository": "MrScripty/MrScripty",
+    "source_commit": "f143037268e62206bdf8195f76c85e2fd50bf637",
+    "source_path": "docs/portfolio/assets/Lanternwake_2026-10-07_13-43-35.jpg",
+    "source_url": "https://github.com/MrScripty/MrScripty/blob/f143037268e62206bdf8195f76c85e2fd50bf637/docs/portfolio/assets/Lanternwake_2026-10-07_13-43-35.jpg",
+    "capture_kind": "Owner-supplied Lanternwake game screenshot",
+    "app_revision": null,
+    "scope": "Visible Inventory harbour/lighthouse scene with narrative and game controls. No runtime source revision, voice capability or model-output qualification inferred.",
+    "pixel_edits": "none; original uploaded JPEG bytes preserved",
+    "visually_inspected": true
   }
 ]

@@ -1,3 +1,16 @@
+# Current presentation additions — 12 October 2026
+
+- Language graphics: individual public GitHub repository `/languages` responses and GitHub Linguist colors. See `assets/language-stats.json` for exact byte totals, timestamped source URLs, percentages and pinned color commit. No effort weighting or runtime-language inference is applied. Rheon and Surrogate Lab are separate datasets.
+- Rheon claim: [trajectory-cpu-v1 receipt](https://github.com/MrScripty/rheon-surrogate-lab/blob/e8a90bfef6b2955c502008ccc62443e29dd9f2ec/experiments/trajectory-cpu-v1/README.md), 8.20× versus Jacobi for the complete 120-frame, 32³ sealed-box CPU rollout; eight native/PyTorch threads per stage, seeds 900–903. Mean timings: Jacobi 15.21 s, SGS 9.39 s, learned 1.86 s. The short portfolio sentence scopes the claim to the tested fixed-box CPU workload; it does not assert an isolated pressure-stage speedup or general fluid accuracy/speed guarantee.
+- Lanternwake original: owner-published `docs/portfolio/assets/Lanternwake_2026-10-07_13-43-35.jpg` at source `f143037268e62206bdf8195f76c85e2fd50bf637`, SHA-256 `ab4fe6f43ae12109f3858fe66eb54868617efe86fcade84a7bb571c64e1dcbcc`. Image pixels were inspected; no precise app revision or model/microphone qualification is inferred.
+- Project websites: GitHub Pages metadata and successful deployment records resolve Pantograph, Whip Docs, Rheon and Kenoma. No site URL was invented for projects without configured Pages.
+- Icons: Font Awesome 6.7.2 GitHub and LinkedIn brand SVG paths; attribution and license are on `image-credits.html`. Existing LinkedIn destination is unchanged.
+- Kenoma licensing: existing BodyParts3D/DBCLS and Arm26/OpenSim credits were moved to `image-credits.html`; their source/change and license links remain intact.
+
+Earlier source notes below remain historical and may refer to superseded captures or copy.
+
+---
+
 The current source-only dark revision and its new pinned evidence are documented in [DARK_REVIEW.md](DARK_REVIEW.md). Product icon provenance is in [ICON_AUDIT.md](ICON_AUDIT.md). Earlier source notes follow.
 
 # Source and claim review

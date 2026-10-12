@@ -1,3 +1,18 @@
+# Current GitHub Pages publication — 12 October 2026
+
+- Approved source: `83b67e99cb52c17af8eb42b8900ebadc81377569`.
+- Published `gh-pages`: `fe30267e0c99c6cc19b9d5fd35208823cc93a678`.
+- GitHub-reported site: https://mrscripty.github.io/MrScripty/
+- Successful build/report/deploy: https://github.com/MrScripty/MrScripty/actions/runs/38314279950
+- All 31 runtime files were anonymously fetched from this exact public Pages commit and matched the approved source. Isolated `/MrScripty/` checks passed at four widths; desktop/mobile preview bytes matched the approved previews.
+- Direct HTTP and browser requests to the Pages host remain outbound-proxy blocked (`403` tunnel / `ERR_TUNNEL_CONNECTION_FAILED`). GitHub deployment and bundle contents are verified; live CDN formatting is not independently verified here.
+
+The later consolidated presentation changes in this branch remain for review only. No new Pages push, main merge, application change, workflow edit, account grant or settings write accompanies this review. The separate Pantograph presentation remains at its previously deployed `6630f0777e06ff0411085304131be78352dc5e5a`; its application PR is not merged by this task.
+
+The following publication records are historical.
+
+---
+
 # GitHub Pages publication
 
 The existing public `MrScripty/MrScripty` repository publishes the static `gh-pages` branch at its root. The profile README, `main`, application PRs and shared workflows are unchanged.

@@ -15,7 +15,7 @@ try:
  with sync_playwright() as p:
   browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])
   for name,width,height in [('desktop',1440,1050),('tablet',768,1024),('mobile',390,844),('narrow',320,800)]:
-   page=browser.new_page(viewport={'width':width,'height':height},device_scale_factor=1,reduced_motion='reduce')
+   page=browser.new_page(viewport={'width':width,'height':height},device_scale_factor=1,reduced_motion='reduce',has_touch=width<=560,is_mobile=width<=560)
    errors=[];page.on('pageerror',lambda err:errors.append(str(err)))
    response=page.goto(url,wait_until='networkidle')
    for img in page.locator('img[src]:visible').all():
@@ -25,7 +25,7 @@ try:
    if name=='mobile':page.screenshot(path=str(ROOT/'review/mobile-first-screen.png'))
    overflow=page.evaluate('document.documentElement.scrollWidth > window.innerWidth')
    broken=page.locator('img[src]').evaluate_all('(images) => images.filter(i => !i.complete || i.naturalWidth === 0).map(i => i.src)')
-   blank_links=page.locator('a').evaluate_all('(links) => links.filter(a => !a.innerText.trim() && !a.getAttribute("aria-label")).map(a => a.outerHTML)')
+   blank_links=page.locator('a').evaluate_all('(links) => links.filter(a => !(a.textContent||"").trim() && !a.getAttribute("aria-label")).map(a => a.outerHTML)')
    page.goto(url,wait_until='networkidle');page.keyboard.press('Tab');skip=page.locator('.skip-link').evaluate('(e) => e === document.activeElement');page.keyboard.press('Enter'); skip_target=page.evaluate('location.hash === "#main"')
    screenshot_tests=[]
    for link in page.locator('a.capture-button').all():
