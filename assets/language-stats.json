@@ -1,0 +1,735 @@
+{
+  "basis": "GitHub repository language bytes; no weighting by effort or runtime importance",
+  "color_source": {
+    "commit": "5fbdfcb8133be2bed88bf3ce62b2335f50474525",
+    "url": "https://raw.githubusercontent.com/github-linguist/linguist/5fbdfcb8133be2bed88bf3ce62b2335f50474525/lib/linguist/languages.yml"
+  },
+  "repositories": [
+    {
+      "repository": "MrScripty/Pumas-Library",
+      "source_url": "https://api.github.com/repos/MrScripty/Pumas-Library/languages",
+      "retrieved_at": "2026-10-12T22:25:26.370415+00:00",
+      "total_bytes": 20826677,
+      "languages": [
+        {
+          "name": "Rust",
+          "bytes": 12623843,
+          "percentage": 60.613812755630676,
+          "color": "#dea584",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 4109118,
+          "percentage": 19.7300702363608,
+          "color": "#f1e05a",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "TypeScript",
+          "bytes": 2527479,
+          "percentage": 12.135776629176128,
+          "color": "#3178c6",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Python",
+          "bytes": 1500831,
+          "percentage": 7.206291238875986,
+          "color": "#3572A5",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Shell",
+          "bytes": 42140,
+          "percentage": 0.20233664736818072,
+          "color": "#89e051",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "CSS",
+          "bytes": 15847,
+          "percentage": 0.07608991103093403,
+          "color": "#663399",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "C",
+          "bytes": 4712,
+          "percentage": 0.0226248287232764,
+          "color": "#555555",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "C#",
+          "bytes": 1301,
+          "percentage": 0.006246795876269652,
+          "color": "#7355dd",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "HTML",
+          "bytes": 942,
+          "percentage": 0.004523045131011539,
+          "color": "#e34c26",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "PowerShell",
+          "bytes": 464,
+          "percentage": 0.0022279118267402908,
+          "color": "#012456",
+          "color_source": "GitHub Linguist"
+        }
+      ]
+    },
+    {
+      "repository": "MrScripty/Pantograph",
+      "source_url": "https://api.github.com/repos/MrScripty/Pantograph/languages",
+      "retrieved_at": "2026-10-12T22:25:26.424073+00:00",
+      "total_bytes": 18981415,
+      "languages": [
+        {
+          "name": "Rust",
+          "bytes": 15757244,
+          "percentage": 83.01406401999007,
+          "color": "#dea584",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "TypeScript",
+          "bytes": 1631720,
+          "percentage": 8.596408644982473,
+          "color": "#3178c6",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Svelte",
+          "bytes": 980475,
+          "percentage": 5.165447359957095,
+          "color": "#ff3e00",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Python",
+          "bytes": 360704,
+          "percentage": 1.9003008995904678,
+          "color": "#3572A5",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 157463,
+          "percentage": 0.8295640762293012,
+          "color": "#f1e05a",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Shell",
+          "bytes": 45110,
+          "percentage": 0.2376535152937755,
+          "color": "#89e051",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "C#",
+          "bytes": 35853,
+          "percentage": 0.18888475911832706,
+          "color": "#7355dd",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "CSS",
+          "bytes": 6468,
+          "percentage": 0.034075436420309024,
+          "color": "#663399",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Elixir",
+          "bytes": 6074,
+          "percentage": 0.03199972183317208,
+          "color": "#8847B9",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "HTML",
+          "bytes": 304,
+          "percentage": 0.0016015665849990635,
+          "color": "#e34c26",
+          "color_source": "GitHub Linguist"
+        }
+      ]
+    },
+    {
+      "repository": "MrScripty/Chrema",
+      "source_url": "https://api.github.com/repos/MrScripty/Chrema/languages",
+      "retrieved_at": "2026-10-12T22:25:26.355939+00:00",
+      "total_bytes": 1271433,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "bytes": 1155685,
+          "percentage": 90.89625642876975,
+          "color": "#f1e05a",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "PLpgSQL",
+          "bytes": 115748,
+          "percentage": 9.103743571230257,
+          "color": "#336790",
+          "color_source": "GitHub Linguist"
+        }
+      ]
+    },
+    {
+      "repository": "MrScripty/Tuldok",
+      "source_url": "https://api.github.com/repos/MrScripty/Tuldok/languages",
+      "retrieved_at": "2026-10-12T22:25:26.398430+00:00",
+      "total_bytes": 3135727,
+      "languages": [
+        {
+          "name": "Python",
+          "bytes": 1588647,
+          "percentage": 50.6627968569968,
+          "color": "#3572A5",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 1466839,
+          "percentage": 46.77827502202838,
+          "color": "#f1e05a",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "HTML",
+          "bytes": 57639,
+          "percentage": 1.8381383328331835,
+          "color": "#e34c26",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "CSS",
+          "bytes": 22602,
+          "percentage": 0.7207897881416335,
+          "color": "#663399",
+          "color_source": "GitHub Linguist"
+        }
+      ]
+    },
+    {
+      "repository": "MrScripty/Eidetic",
+      "source_url": "https://api.github.com/repos/MrScripty/Eidetic/languages",
+      "retrieved_at": "2026-10-12T22:25:26.443915+00:00",
+      "total_bytes": 4843800,
+      "languages": [
+        {
+          "name": "Rust",
+          "bytes": 3354777,
+          "percentage": 69.25919732441471,
+          "color": "#dea584",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "TypeScript",
+          "bytes": 925966,
+          "percentage": 19.11652008753458,
+          "color": "#3178c6",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Svelte",
+          "bytes": 314554,
+          "percentage": 6.493951030182914,
+          "color": "#ff3e00",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Python",
+          "bytes": 206872,
+          "percentage": 4.270861720137082,
+          "color": "#3572A5",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Shell",
+          "bytes": 22080,
+          "percentage": 0.45584045584045585,
+          "color": "#89e051",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "CSS",
+          "bytes": 17002,
+          "percentage": 0.35100540897642346,
+          "color": "#663399",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 1984,
+          "percentage": 0.04095957719146125,
+          "color": "#f1e05a",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "HTML",
+          "bytes": 337,
+          "percentage": 0.006957347537057682,
+          "color": "#e34c26",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "WGSL",
+          "bytes": 228,
+          "percentage": 0.004707048185309055,
+          "color": "#1a5e9a",
+          "color_source": "GitHub Linguist"
+        }
+      ]
+    },
+    {
+      "repository": "MrScripty/whip-docs",
+      "source_url": "https://api.github.com/repos/MrScripty/whip-docs/languages",
+      "retrieved_at": "2026-10-12T22:25:26.734143+00:00",
+      "total_bytes": 31480088,
+      "languages": [
+        {
+          "name": "C",
+          "bytes": 30256152,
+          "percentage": 96.11203119889626,
+          "color": "#555555",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Rust",
+          "bytes": 452688,
+          "percentage": 1.4380137692118269,
+          "color": "#dea584",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "TypeScript",
+          "bytes": 421697,
+          "percentage": 1.3395674116285825,
+          "color": "#3178c6",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 245195,
+          "percentage": 0.7788891822665807,
+          "color": "#f1e05a",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Svelte",
+          "bytes": 35742,
+          "percentage": 0.11353843737666806,
+          "color": "#ff3e00",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "C++",
+          "bytes": 33322,
+          "percentage": 0.10585103828172272,
+          "color": "#f34b7d",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Python",
+          "bytes": 12506,
+          "percentage": 0.03972669962040767,
+          "color": "#3572A5",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "CSS",
+          "bytes": 11820,
+          "percentage": 0.0375475443397744,
+          "color": "#663399",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Tree-sitter Query",
+          "bytes": 4114,
+          "percentage": 0.013068578461407096,
+          "color": "#8ea64c",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "C#",
+          "bytes": 2079,
+          "percentage": 0.006604174677021233,
+          "color": "#7355dd",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Kotlin",
+          "bytes": 1955,
+          "percentage": 0.0062102748886851905,
+          "color": "#A97BFF",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Zig",
+          "bytes": 1264,
+          "percentage": 0.00401523655207063,
+          "color": "#ec915c",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Odin",
+          "bytes": 951,
+          "percentage": 0.0030209572476417473,
+          "color": "#60AFFE",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "HTML",
+          "bytes": 294,
+          "percentage": 0.0009339236916999724,
+          "color": "#e34c26",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Lua",
+          "bytes": 272,
+          "percentage": 0.0008640382453822873,
+          "color": "#000080",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Go",
+          "bytes": 37,
+          "percentage": 0.00011753461426156115,
+          "color": "#00ADD8",
+          "color_source": "GitHub Linguist"
+        }
+      ]
+    },
+    {
+      "repository": "MrScripty/Rheon",
+      "source_url": "https://api.github.com/repos/MrScripty/Rheon/languages",
+      "retrieved_at": "2026-10-12T22:25:26.695700+00:00",
+      "total_bytes": 2709016,
+      "languages": [
+        {
+          "name": "Rust",
+          "bytes": 1389922,
+          "percentage": 51.30726433509437,
+          "color": "#dea584",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Python",
+          "bytes": 1178301,
+          "percentage": 43.495534910092815,
+          "color": "#3572A5",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Lean",
+          "bytes": 132762,
+          "percentage": 4.9007462488224505,
+          "color": "#8b949e",
+          "color_source": "neutral fallback (no Linguist color)"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 4122,
+          "percentage": 0.15215856975374084,
+          "color": "#f1e05a",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "TypeScript",
+          "bytes": 2807,
+          "percentage": 0.10361695907296228,
+          "color": "#3178c6",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Shell",
+          "bytes": 1102,
+          "percentage": 0.04067897716366385,
+          "color": "#89e051",
+          "color_source": "GitHub Linguist"
+        }
+      ]
+    },
+    {
+      "repository": "MrScripty/rheon-surrogate-lab",
+      "source_url": "https://api.github.com/repos/MrScripty/rheon-surrogate-lab/languages",
+      "retrieved_at": "2026-10-12T22:25:26.754466+00:00",
+      "total_bytes": 238099,
+      "languages": [
+        {
+          "name": "Python",
+          "bytes": 143491,
+          "percentage": 60.26526780876862,
+          "color": "#3572A5",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Rust",
+          "bytes": 80354,
+          "percentage": 33.74814677928089,
+          "color": "#dea584",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "JavaScript",
+          "bytes": 10454,
+          "percentage": 4.390610628352072,
+          "color": "#f1e05a",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "HTML",
+          "bytes": 3800,
+          "percentage": 1.595974783598419,
+          "color": "#e34c26",
+          "color_source": "GitHub Linguist"
+        }
+      ]
+    },
+    {
+      "repository": "MrScripty/Kenoma",
+      "source_url": "https://api.github.com/repos/MrScripty/Kenoma/languages",
+      "retrieved_at": "2026-10-12T22:25:26.682329+00:00",
+      "total_bytes": 3183179,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "bytes": 1817368,
+          "percentage": 57.09286219845004,
+          "color": "#f1e05a",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Python",
+          "bytes": 805780,
+          "percentage": 25.313687982988075,
+          "color": "#3572A5",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "HTML",
+          "bytes": 220229,
+          "percentage": 6.918523903305469,
+          "color": "#e34c26",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Lean",
+          "bytes": 205686,
+          "percentage": 6.461653585927778,
+          "color": "#8b949e",
+          "color_source": "neutral fallback (no Linguist color)"
+        },
+        {
+          "name": "Rust",
+          "bytes": 130277,
+          "percentage": 4.092669623668666,
+          "color": "#dea584",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "CSS",
+          "bytes": 2358,
+          "percentage": 0.0740768898010448,
+          "color": "#663399",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Shell",
+          "bytes": 1481,
+          "percentage": 0.046525815858925935,
+          "color": "#89e051",
+          "color_source": "GitHub Linguist"
+        }
+      ]
+    },
+    {
+      "repository": "MrScripty/Coding-Standards",
+      "source_url": "https://api.github.com/repos/MrScripty/Coding-Standards/languages",
+      "retrieved_at": "2026-10-12T22:25:26.723404+00:00",
+      "total_bytes": 3978363,
+      "languages": [
+        {
+          "name": "Python",
+          "bytes": 3956691,
+          "percentage": 99.45525332907027,
+          "color": "#3572A5",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "HTML",
+          "bytes": 21608,
+          "percentage": 0.5431379690591331,
+          "color": "#e34c26",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "TypeScript",
+          "bytes": 64,
+          "percentage": 0.001608701870593508,
+          "color": "#3178c6",
+          "color_source": "GitHub Linguist"
+        }
+      ]
+    },
+    {
+      "repository": "MrScripty/Lanternwake",
+      "source_url": "https://api.github.com/repos/MrScripty/Lanternwake/languages",
+      "retrieved_at": "2026-10-12T22:25:26.935568+00:00",
+      "total_bytes": 1346537,
+      "languages": [
+        {
+          "name": "C#",
+          "bytes": 911134,
+          "percentage": 67.66498061323232,
+          "color": "#7355dd",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Python",
+          "bytes": 403134,
+          "percentage": 29.93857576880546,
+          "color": "#3572A5",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "GDScript",
+          "bytes": 25724,
+          "percentage": 1.9103819649961344,
+          "color": "#355570",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Shell",
+          "bytes": 6106,
+          "percentage": 0.4534595038977763,
+          "color": "#89e051",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "GDShader",
+          "bytes": 439,
+          "percentage": 0.032602149068313754,
+          "color": "#478CBF",
+          "color_source": "GitHub Linguist"
+        }
+      ]
+    },
+    {
+      "repository": "MrScripty/Passeur",
+      "source_url": "https://api.github.com/repos/MrScripty/Passeur/languages",
+      "retrieved_at": "2026-10-12T22:25:26.965866+00:00",
+      "total_bytes": 5815163,
+      "languages": [
+        {
+          "name": "JavaScript",
+          "bytes": 3338034,
+          "percentage": 57.40224306696132,
+          "color": "#f1e05a",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "TypeScript",
+          "bytes": 2443816,
+          "percentage": 42.0248925094619,
+          "color": "#3178c6",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Shell",
+          "bytes": 6855,
+          "percentage": 0.11788147640917374,
+          "color": "#89e051",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Rust",
+          "bytes": 4566,
+          "percentage": 0.07851886524934899,
+          "color": "#dea584",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Python",
+          "bytes": 3594,
+          "percentage": 0.061803942555006625,
+          "color": "#3572A5",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "C++",
+          "bytes": 3382,
+          "percentage": 0.05815830097969739,
+          "color": "#f34b7d",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Kotlin",
+          "bytes": 2573,
+          "percentage": 0.04424639515693713,
+          "color": "#A97BFF",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Zig",
+          "bytes": 2492,
+          "percentage": 0.0428534849324086,
+          "color": "#ec915c",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "C",
+          "bytes": 2124,
+          "percentage": 0.036525201443192566,
+          "color": "#555555",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Odin",
+          "bytes": 2115,
+          "percentage": 0.03637043364046717,
+          "color": "#60AFFE",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "C#",
+          "bytes": 1978,
+          "percentage": 0.0340145237545362,
+          "color": "#7355dd",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Lua",
+          "bytes": 1846,
+          "percentage": 0.03174459598123045,
+          "color": "#000080",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "Svelte",
+          "bytes": 1194,
+          "percentage": 0.020532528494902034,
+          "color": "#ff3e00",
+          "color_source": "GitHub Linguist"
+        },
+        {
+          "name": "HTML",
+          "bytes": 594,
+          "percentage": 0.010214674979875887,
+          "color": "#e34c26",
+          "color_source": "GitHub Linguist"
+        }
+      ]
+    }
+  ]
+}
