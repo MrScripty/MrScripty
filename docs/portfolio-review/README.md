@@ -1,6 +1,6 @@
 # Dark portfolio appearance review
 
-**Review branch only; not deployed.** The page now has the owner’s profile photograph in the header, a compact dark palette, separate stacked Tuldok and Eidetic sections, the richer 13-node Pantograph CPU fixture run with matching standalone inspection views, the approved cleaner Kenoma held-arm scene beside the mannequins, original Pumas/Pantograph/Eidetic icons, the owner-supplied Pumas Hugging Face search view, a full Whip Docs visual section, and a featured Coding Standards / Cooking the Cat pairing.
+**Rheon image update for review; not deployed.** The page now has the owner’s profile photograph in the header, a compact dark palette, separate stacked Tuldok and Eidetic sections, the richer 13-node Pantograph CPU fixture run with matching standalone inspection views, the approved cleaner Kenoma held-arm scene beside the mannequins, original Pumas/Pantograph/Eidetic icons, the owner-supplied Pumas Hugging Face search view, a full Whip Docs visual section, the current native Rheon material preview, and a featured Coding Standards / Cooking the Cat pairing.
 
 [Full desktop preview](dark-desktop.png) · [Full mobile preview](dark-mobile.png) · [Source and remaining blockers](../portfolio/DARK_REVIEW.md) · [Icon inventory](../portfolio/ICON_AUDIT.md) · [Validation](../portfolio/VALIDATION.md)
 
@@ -13,6 +13,7 @@
 | ![Tuldok desktop](dark-tuldok-desktop.png) | ![Tuldok mobile](dark-tuldok-mobile.png) |
 | ![Eidetic desktop](dark-eidetic-desktop.png) | ![Eidetic mobile](dark-eidetic-mobile.png) |
 | ![Whip Docs 3D graph and expanded symbols](dark-whip-docs-desktop.png) | ![Whip Docs mobile](dark-whip-docs-mobile.png) |
+| ![Rheon native material preview](dark-rheon-desktop.png) | ![Rheon material preview on mobile](dark-rheon-mobile.png) |
 | ![Kenoma poser and approved held arm](dark-kenoma-desktop.png) | ![Kenoma mobile](dark-kenoma-mobile.png) |
 | ![Coding Standards and book pairing](dark-standards-desktop.png) | ![Coding Standards mobile](dark-standards-mobile.png) |
 | ![Original book covers](dark-books-desktop.png) | ![Original book covers on mobile](dark-books-mobile.png) |
@@ -23,9 +24,9 @@ Whip Docs retains the two distinct graph views; the repeated standalone inspecto
 
 Eidetic now displays the owner’s original 512 × 512 icon, published at root `icon.png` in commit `cc80011` and copied without pixel edits.
 
-The Pumas gallery shows only the owner-supplied Hugging Face search. The error-bearing Library view has been removed from the rendered gallery; its original source file remains intact while a healthy replacement is pending. The screenshot does not qualify a specific app revision or inference result. Cooking the Cat has the owner-provided title and description but awaits its public book URL and original cover. The low-resolution Rheon candidate was not selected; the earlier solver comparison remains qualified by its caption.
+The Pumas gallery shows only the owner-supplied Hugging Face search. The error-bearing Library view has been removed from the rendered gallery; its original source file remains intact while a healthy replacement is pending. The screenshot does not qualify a specific app revision or inference result. Cooking the Cat has the owner-provided title and description but awaits its public book URL and original cover. Rheon now shows the verified native material-preview orbit capture at held step 1023/1024 (1.061 s). It remains a quantized particle view, without a physical-validation or engineering-reconstruction claim. This image replacement has not been deployed.
 
-The existing Pages publication remains `e0ddbf9811044cf2bbd25af4e6527032d2abd701`. The previously approved cream design and its historical image-addition previews are retained below as an archive, not the current appearance.
+The existing dark Pages publication remains `7b5847785c76388c00205a68f36145d401ff62b3`; it still uses the older Rheon comparison image. The previously approved cream design and its historical image-addition previews below are retained as an archive.
 
 ---
 

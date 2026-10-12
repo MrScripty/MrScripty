@@ -4,6 +4,8 @@ The dark revision supersedes the visible gallery described below. It uses the 12
 
 The current Pumas gallery displays only the owner-supplied 805 × 1001 Hugging Face search for Pixal3D from asset commit `bdcb9b3`. The separate Library image has two visible “Download activity · error” rows and is excluded from the rendered gallery at the owner’s request. Both original PNGs and their provenance remain intact, without pixel edits. A healthy Library replacement is pending. No visible credentials or private paths were found. Capture publication is verified; exact app source and inference qualification are not inferred.
 
+Rheon now shows the original 1250 × 820 native material-preview orbit JPEG from capture source `a552d0a`, published in asset commit `973b543`. The held frame is 1023/1024 at 1.061 s, with 87 quantized particles. No visible error banner, credentials or private paths were found in the selected image. Final-run diagnostics at 1.0621 s are kept separate and are not attributed to this frame. The historical comparison and rejected low-resolution captures are not used for this replacement.
+
 ---
 
 # Portfolio image audit — 11 October 2026

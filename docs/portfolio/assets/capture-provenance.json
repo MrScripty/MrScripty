@@ -39,7 +39,8 @@
     "source_url": "https://raw.githubusercontent.com/MrScripty/Rheon/a2ebb8f11bcb65df0c70c45bfb8234d08b293a0a/docs/images/rheon-native-comparison-32-cubed-100-steps.png",
     "scope": "Unedited native-window capture on Linux with Xvfb/Mesa software rendering. Solver comparison with unequal accepted-time warning; no physical-validation or benchmark claim.",
     "pixel_edits": "none",
-    "visually_inspected": true
+    "visually_inspected": true,
+    "portfolio_display": "Retained historical source asset; replaced in the rendered gallery by the verified native material-preview capture from a552d0a."
   },
   {
     "file": "assets/kenoma-two-character-scene.png",
@@ -481,5 +482,34 @@
     "pixel_edits": "none; original published PNG bytes preserved",
     "visually_inspected": true,
     "public_use_authorized": "Owner supplied the screenshots specifically for the public portfolio and committed these originals."
+  },
+  {
+    "file": "assets/rheon-material-preview.jpg",
+    "sha256": "a182b1ead1ec2688c0970c4d954083cd0156656f64b9dfe54fab4a0c5689ea92",
+    "bytes": 83981,
+    "dimensions": [
+      1250,
+      820
+    ],
+    "source_repository": "MrScripty/Rheon",
+    "source_commit": "973b543c4091303f71c7bdb48af71708f6ce6da5",
+    "source_path": "docs/native-app-review/material-preview-a552d0a/material-accepted-orbit.jpg",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/Rheon/973b543c4091303f71c7bdb48af71708f6ce6da5/docs/native-app-review/material-preview-a552d0a/material-accepted-orbit.jpg",
+    "provenance_url": "https://github.com/MrScripty/Rheon/blob/973b543c4091303f71c7bdb48af71708f6ce6da5/docs/native-app-review/material-preview-a552d0a/provenance.json",
+    "app_revision": "a552d0afda3cf73ff1cc789746898a3ba0f332d3",
+    "binary_sha256": "eef52179384e2df667096658fdb56cc35a0d5a46fcce83e3546e33cd0aa99bd1",
+    "held_step": 1023,
+    "total_steps": 1024,
+    "displayed_simulated_time_seconds": 1.061,
+    "displayed_particles": 87,
+    "displayed_mass_kg": 21.202002,
+    "displayed_temperature_c": 20.0,
+    "scope": "Actual native desktop SPH material preview with quantized voxel visualization. Held frame preserved during camera orbit. No CAD reconstruction, validated free-surface geometry, calibrated optics or isolated benchmark claim. Values are displayed UI readings, not a full-precision particle-state export.",
+    "separate_results_context": "The completed-run results capture reports 1.0621 s, maximum accepted speed 3.175 m/s and maximum force pressure 0 Pa. Those diagnostics are not attributed to the held frame; the results image is not displayed in this portfolio slot.",
+    "pixel_edits": "none; original published JPEG bytes preserved",
+    "visually_inspected": true,
+    "browser_used_for_app_capture": false,
+    "native_source_modified_for_capture": false,
+    "accepted_step_preserved_on_orbit": true
   }
 ]

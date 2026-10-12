@@ -1,12 +1,13 @@
 # Dark portfolio review
 
-This source-only revision replaces the cream sections with a compact dark design. It is not deployed. The existing published Pages branch remains `e0ddbf9811044cf2bbd25af4e6527032d2abd701`.
+The compact dark design is published at Pages commit `7b5847785c76388c00205a68f36145d401ff62b3`. The new Rheon native-material image replacement described here remains source-only pending review.
 
 ## Implemented
 
 - Owner-supplied `puma.jpg` replaces the header monogram, using the existing circular header size. The original photograph is preserved unchanged; see [photo provenance](assets/profile-photo-provenance.json).
 - Dark backgrounds throughout, shorter spacing, larger visual share of each project row, original book covers retained.
 - The owner-supplied Pumas Hugging Face search view is displayed unchanged. The error-bearing Library view is excluded from the gallery while its source file and provenance remain intact. No app revision or inference qualification is inferred.
+- Rheon’s actual native material preview replaces the older comparison image: held step 1023/1024 at 1.061 s, with camera orbit and quantized particles. Original JPEG bytes are preserved; engineering reconstruction and physical-validation limits remain explicit. This new image is source-only pending review.
 - Separate full-width Tuldok and Eidetic sections, stacked vertically at every viewport.
 - A full Whip Docs visual section: actual 3D file graph and expanded symbols with the intent inspector visible in context, from merged public evidence. Independent Tree-sitter parsing and immutable intent entries are described concisely; browser fixture and native desktop verification remain distinct.
 - Four unedited, actual Pantograph workbench captures from the current 13-node multi-branch CPU run: completed Graph, retained output, Diagnostics and Scheduler. The earlier amber-warning Graph and separate scheduler-demo host images are absent from the visible gallery.
@@ -20,10 +21,11 @@ This source-only revision replaces the cream sections with a compact dark design
 The [follow-up source gap audit](SOURCE_GAP_AUDIT.md) records the exact book searches and the Pumas capture status. The HF search image is available; a replacement Library image is pending. The supplied app captures are distinct from the earlier playground images.
 
 1. **Cooking the Cat:** title confirmed in the public profile and requested by the owner. Searches of public repositories/web sources did not establish a book URL, text, or cover. Needed: its public URL and existing cover source, if one exists. The source question has already been sent.
-2. **Rheon refinement:** the first 24³ genuine 3D flow capture was not selected because the owner found its resolution insufficient. The prior solver-comparison image remains, with its unequal-time limitation. Await the numerical grid-refinement worker's approved capture; no smoothing or image editing was used to imply added solver detail.
-3. **Pumas Library replacement:** the owner rejected the error-bearing Library capture, reported a code fix in progress, and will provide a new image. No fix or healthy runtime state has been independently verified. The visible gallery retains only HF search and has no placeholder.
+2. **Pumas Library replacement:** the owner rejected the error-bearing Library capture, reported a code fix in progress, and will provide a new image. No fix or healthy runtime state has been independently verified. The visible gallery retains only HF search and has no placeholder.
 
 ## Capture sources
+
+- [Rheon current native material preview, 973b543](https://github.com/MrScripty/Rheon/blob/973b543c4091303f71c7bdb48af71708f6ce6da5/docs/native-app-review/material-preview-a552d0a/README.md). Captured from `a552d0a`, held at step 1023/1024 (1.061 s); the completed-run diagnostics are a separate 1.0621 s time level. The recommended orbit JPEG is shown unchanged. No CAD/free-surface reconstruction, calibrated-optics or benchmark qualification is inferred.
 
 - [Pumas Library supplied screenshots, bdcb9b3](https://github.com/MrScripty/MrScripty/commit/bdcb9b38a696d757fa96e8eb0c70fb8fdea018b6). Two inspected 805 × 1001 originals, published by the owner on the review branch. Library: categorized local models with two visible download errors, now excluded from the rendered gallery. Search: Hugging Face results for Pixal3D, retained as the sole visible Pumas capture. This asset-publication commit is not an application-source qualification.
 
