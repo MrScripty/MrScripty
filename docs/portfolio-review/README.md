@@ -18,7 +18,7 @@
 | ![Coding Standards / Cooking the Cat desktop](purpose-standards-desktop.png) | ![Coding Standards / Cooking the Cat mobile](purpose-standards-mobile.png) |
 | ![Lanternwake desktop](purpose-lanternwake-desktop.png) | ![Lanternwake mobile](purpose-lanternwake-mobile.png) |
 
-The galleries are manual: Previous/Next, a count, a short fade and reduced-motion support. Full-size images, original captions and keyboard/history focus are retained. No book manuscript or cover is included. Chrema retains its existing public-overview link pending repository confirmation.
+The galleries are manual: Previous/Next, a count, a short fade and reduced-motion support. Full-size images, original captions and keyboard/history focus are retained. No book manuscript or cover is included. Chrema now links directly to its repository, confirmed publicly accessible without authentication; its purpose copy and the galleries are unchanged.
 
 ---
 

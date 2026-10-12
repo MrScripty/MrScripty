@@ -88,7 +88,7 @@ Assembled by an agent analyzing engineering conversations.
 
 ## Sources and boundaries
 
-- Project purposes follow the owner’s voice-call descriptions. Existing prototype-limit disclosures and all original images remain unchanged. The Chrema link stays at the existing public overview pending confirmation of the newly supplied repository.
+- Project purposes follow the owner’s voice-call descriptions. Existing prototype-limit disclosures and all original images remain unchanged. The Chrema entry links to the owner-specified repository, https://github.com/MrScripty/Chrema. GitHub reports it public and the repository page returned HTTP 200 without authentication on 12 October 2026. Repository visibility was not changed by this review.
 - Coding Standards current public main is [`188beda1`](https://github.com/MrScripty/Coding-Standards/tree/188beda1fa477d21d576c233dd8c7f4c4c267d23). Its engine README, MCP server and tool catalog confirm typed navigation, structured results, runtime/contract inspection and retained workflow status. The broader agent-transparent observability is framed as a research aim, not a completed general tracing system.
 - Lanternwake current public main is [`76b8428e`](https://github.com/MrScripty/Lanternwake/tree/76b8428ee6bbe0c03d80b7df0520370df1a1b3a7). Its README distinguishes authored story, optional local AI, historical inference tests and pending current-deployment/physical-microphone qualification. No screenshot or shipped-product claim was added.
 - The separate local Cooking the Cat draft is preserved exactly. Only the owner-authorized short portfolio description changes; no book manuscript, cover or separate book site is published here.
