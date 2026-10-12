@@ -1,6 +1,6 @@
 # Puma / Jeremy Bayley portfolio
 
-Buildless, self-contained portfolio for the existing GitHub Pages project site. This revision contains the final authored-source language review, Book-Be-Gone gallery, five-concept hero and image-caption removal. Publication uses the established `gh-pages` route after final checks and independent review; see [deployment evidence](DEPLOYMENT.md).
+Buildless, self-contained portfolio for the existing GitHub Pages project site. Tested source `faed6ec2ffe05a00d645e4d3e14a21cd7ae90d61` is published as `b9bb6841a2250b3be4e006d00609e3f9418d90e9` after independent review and four-width verification. See [deployment evidence and live-inspection limits](DEPLOYMENT.md).
 
 ## Preview and verify
 

@@ -1,3 +1,20 @@
+# Published authored-source portfolio — 12 October 2026
+
+- Tested source: `faed6ec2ffe05a00d645e4d3e14a21cd7ae90d61` on `fix/portfolio-authored-languages-2026-10-12`.
+- Published `gh-pages`: `b9bb6841a2250b3be4e006d00609e3f9418d90e9`.
+- GitHub-reported URL: https://mrscripty.github.io/MrScripty/
+- Terminal successful [build/report/deploy run 38320457366](https://github.com/MrScripty/MrScripty/actions/runs/38320457366); latest Pages build is `built` at the exact published commit.
+- All **40 runtime files** were anonymously fetched from the public Pages commit and matched the tested source byte-for-byte. The isolated `/MrScripty/` bundle passed four-width checks, 64 dialog exercises and 381 refinements. Desktop/mobile full-page and first-screen previews are byte-identical to the reviewed source. Source galleries passed 508 checks; independent review found no blocking findings.
+- Included: reproducible authored-source bars for 13 pinned repositories; left-column metadata; original Book-Be-Gone scan/OCR images; removal of every image label/caption strip and Whip's blank website link; equal five-concept hero without eyebrow/supporting sentence; owner-confirmed BC+AI/devLab biography and official website link.
+- BC+AI website: https://bc-ai.ca/. Discord/WhatsApp invite URLs remain unverified and are omitted pending owner confirmation.
+- Direct HTTP and Chromium requests to the Pages host remain outbound-proxy blocked (`403` tunnel / `ERR_TUNNEL_CONNECTION_FAILED`); the web reader also cannot access the URL. **Live CDN rendering is not independently verified here.**
+
+[Structured release evidence](review/authored-source-2026-10-12/release.json) records the exact commits, checks and remaining limitation. Main, the separate profile README review branch, the owner-upload branch and the unrelated local Cooking the Cat draft are unchanged. No application merge, workflow/security change, denied PR-creation retry or alternate hosting was used. Pantograph's separate previously published site remains at `6630f0777e06ff0411085304131be78352dc5e5a`.
+
+The preparation and older release records below are historical.
+
+---
+
 # Authored-source release preparation — 12 October 2026
 
 This source revision is prepared for the user's explicitly authorized finish-and-publish update. The established publication route is the root of `gh-pages` in the existing public repository. The immediate prior release is source `a8a6ed7ee33ed7f5dc013fac64f8b60ee362099e` published as `419c106a3206e40b8c428a1abf08096ade4dcdc2`, with successful run [38317759771](https://github.com/MrScripty/MrScripty/actions/runs/38317759771).
