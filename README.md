@@ -6,6 +6,8 @@
 
 # Agent-First Systems, Graphs & Creative Tools
 
+**[View my portfolio →](https://mrscripty.github.io/MrScripty/)**
+
 I develop independent, reusable projects that can support many applications. Some began as experiments, and many contain areas of active research. Practical applications give that research real problems to solve and ways to test the results. Ideas can move between projects without becoming runtime dependencies.
 
 ## Models, workflows & agent-first development
