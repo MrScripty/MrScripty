@@ -460,7 +460,8 @@
     "visible_state": "Categorized local models, formats and sizes. Two download-error states remain visible.",
     "pixel_edits": "none; original published PNG bytes preserved",
     "visually_inspected": true,
-    "public_use_authorized": "Owner supplied the screenshots specifically for the public portfolio and committed these originals."
+    "public_use_authorized": "Owner supplied the screenshots specifically for the public portfolio and committed these originals.",
+    "portfolio_display": "Excluded from the rendered gallery at the owner\u2019s request because visible download errors do not meet the showcase requirement. Original source file and provenance retained unchanged; awaiting the owner\u2019s replacement capture."
   },
   {
     "file": "assets/PumasLibrary_search_v0.8.0.png",

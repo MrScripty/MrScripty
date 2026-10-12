@@ -20,7 +20,7 @@ Searches completed:
 
 ## Pumas Library GUI
 
-**Resolved, 12 October:** the owner supplied the actual Library and Hugging Face search captures in [review-branch commit bdcb9b3](https://github.com/MrScripty/MrScripty/commit/bdcb9b38a696d757fa96e8eb0c70fb8fdea018b6). Both 805 × 1001 PNGs were inspected and are displayed unchanged. The Library image retains two download-error states. No exact app source revision or inference result is established by these images.
+**Partially resolved, 12 October:** the owner supplied the actual Library and Hugging Face search captures in [review-branch commit bdcb9b3](https://github.com/MrScripty/MrScripty/commit/bdcb9b38a696d757fa96e8eb0c70fb8fdea018b6). Both 805 × 1001 PNGs were inspected. Only HF search is displayed, unchanged. The Library image has two download-error states and is excluded at the owner’s request; its original file is retained pending a healthy replacement. No exact app source revision or inference result is established by these images.
 
 Earlier source search:
 
@@ -30,7 +30,7 @@ Earlier source search:
 - The actual Library screenshot referenced by the public README is GitHub attachment `be18cffc-b4fe-418b-a3b4-034ee0b35060`. Its download still fails at the environment proxy with HTTP 403; its pixels and provenance could not be verified here.
 - No unpublished local catalog, app changes, or private model data were used.
 
-The actual supplied views now replace the authored architecture summary in the visible Pumas section. Exact original hashes and capture limits are recorded in [capture provenance](assets/capture-provenance.json).
+The supplied HF search view replaces the authored architecture summary in the visible Pumas section. The Library replacement remains pending without a filler or placeholder. Exact original hashes and capture limits are recorded in [capture provenance](assets/capture-provenance.json).
 
 ## Icons
 
