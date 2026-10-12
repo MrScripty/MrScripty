@@ -1,3 +1,15 @@
+# Authored-source release preparation — 12 October 2026
+
+This source revision is prepared for the user's explicitly authorized finish-and-publish update. The established publication route is the root of `gh-pages` in the existing public repository. The immediate prior release is source `a8a6ed7ee33ed7f5dc013fac64f8b60ee362099e` published as `419c106a3206e40b8c428a1abf08096ade4dcdc2`, with successful run [38317759771](https://github.com/MrScripty/MrScripty/actions/runs/38317759771).
+
+Only reviewed runtime files are copied from the exact tested source commit, with existing public versioned URLs retained for cached pages. Source audit documents, QA previews, tools and logs are excluded. Publication requires final independent review and verification of the isolated `/MrScripty/` bundle. A following release record will identify the exact terminal deployment and verification results.
+
+No main merge, README merge, application-code change, workflow change, permissions grant, hosting change or retry of the denied PR-creation action is part of this publication. Pantograph remains at its separately deployed `6630f0777e06ff0411085304131be78352dc5e5a`.
+
+The records below are historical.
+
+---
+
 # Current GitHub Pages publication — 12 October 2026
 
 - Approved source: `83b67e99cb52c17af8eb42b8900ebadc81377569`.

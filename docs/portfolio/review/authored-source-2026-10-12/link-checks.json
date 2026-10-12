@@ -1,0 +1,129 @@
+[
+  {
+    "url": "https://bc-ai.ca/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://creativecommons.org/licenses/by/3.0/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://creativecommons.org/licenses/by/4.0/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://github.com/FortAwesome/Font-Awesome/tree/6.7.2/svgs/brands",
+    "status": 200,
+    "final_url": "https://github.com/FortAwesome/Font-Awesome/tree/6.7.2/svgs/brands"
+  },
+  {
+    "url": "https://github.com/MrScripty",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty"
+  },
+  {
+    "url": "https://github.com/MrScripty/Book-Be-Gone",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty/Book-Be-Gone"
+  },
+  {
+    "url": "https://github.com/MrScripty/Chrema",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty/Chrema"
+  },
+  {
+    "url": "https://github.com/MrScripty/Coding-Standards",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty/Coding-Standards"
+  },
+  {
+    "url": "https://github.com/MrScripty/Coding-Standards/blob/188beda1fa477d21d576c233dd8c7f4c4c267d23/tools/standards_engine/README.md",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty/Coding-Standards/blob/188beda1fa477d21d576c233dd8c7f4c4c267d23/tools/standards_engine/README.md"
+  },
+  {
+    "url": "https://github.com/MrScripty/Eidetic",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty/Eidetic"
+  },
+  {
+    "url": "https://github.com/MrScripty/Kenoma",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty/Kenoma"
+  },
+  {
+    "url": "https://github.com/MrScripty/Kenoma/blob/b9ccaacd355d9c75cce042541f738de7df56de69/docs/review/research-book-teaching/portfolio-anatomy/held-scene.md",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty/Kenoma/blob/b9ccaacd355d9c75cce042541f738de7df56de69/docs/review/research-book-teaching/portfolio-anatomy/held-scene.md"
+  },
+  {
+    "url": "https://github.com/MrScripty/Lanternwake",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty/Lanternwake"
+  },
+  {
+    "url": "https://github.com/MrScripty/Pantograph",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty/Pantograph"
+  },
+  {
+    "url": "https://github.com/MrScripty/Passeur",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty/Passeur"
+  },
+  {
+    "url": "https://github.com/MrScripty/Pumas-Library",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty/Pumas-Library"
+  },
+  {
+    "url": "https://github.com/MrScripty/Rheon",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty/Rheon"
+  },
+  {
+    "url": "https://github.com/MrScripty/Tuldok",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty/Tuldok"
+  },
+  {
+    "url": "https://github.com/MrScripty/dataset-production",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty/dataset-production"
+  },
+  {
+    "url": "https://github.com/MrScripty/rheon-surrogate-lab",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty/rheon-surrogate-lab"
+  },
+  {
+    "url": "https://github.com/MrScripty/whip-docs",
+    "status": 200,
+    "final_url": "https://github.com/MrScripty/whip-docs"
+  },
+  {
+    "url": "https://github.com/bc-ai-ecosystem/training-your-own-models",
+    "status": 200,
+    "final_url": "https://github.com/bc-ai-ecosystem/training-your-own-models"
+  },
+  {
+    "url": "https://mrscripty.github.io/Kenoma/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://mrscripty.github.io/Pantograph/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://mrscripty.github.io/Rheon/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://mrscripty.github.io/practical-data-analysis/",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  },
+  {
+    "url": "https://www.linkedin.com/in/jeremybayley",
+    "error": "<urlopen error Tunnel connection failed: 403 Forbidden>"
+  }
+]

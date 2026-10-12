@@ -1,0 +1,494 @@
+[
+  {
+    "repository": "MrScripty/Pumas-Library",
+    "source_commit": "ef9eead9fe6595f5b3152ef8df19c5dace30190b",
+    "previous_display": {
+      "retrieved_at": "2026-10-12T22:25:26.370415+00:00",
+      "source_commit": null,
+      "total_bytes": 20826677,
+      "languages": {
+        "Rust": 12623843,
+        "JavaScript": 4109118,
+        "TypeScript": 2527479,
+        "Python": 1500831,
+        "Shell": 42140,
+        "CSS": 15847,
+        "C": 4712,
+        "C#": 1301,
+        "HTML": 942,
+        "PowerShell": 464
+      }
+    },
+    "same_commit_linguist_total": 20826677,
+    "same_commit_linguist_languages": {
+      "C#": 1301,
+      "JavaScript": 4109118,
+      "TypeScript": 2527479,
+      "HTML": 942,
+      "Shell": 42140,
+      "CSS": 15847,
+      "PowerShell": 464,
+      "Rust": 12623843,
+      "Python": 1500831,
+      "C": 4712
+    },
+    "authored_total": 17153295,
+    "authored_languages": {
+      "C#": 1301,
+      "JavaScript": 532978,
+      "TypeScript": 2430237,
+      "HTML": 942,
+      "Shell": 42140,
+      "CSS": 15847,
+      "PowerShell": 464,
+      "Rust": 12623843,
+      "Python": 1500831,
+      "C": 4712
+    }
+  },
+  {
+    "repository": "MrScripty/Pantograph",
+    "source_commit": "07b23d47b2cdfae5669bbda78515c9c728081031",
+    "previous_display": {
+      "retrieved_at": "2026-10-12T22:25:26.424073+00:00",
+      "source_commit": null,
+      "total_bytes": 18981415,
+      "languages": {
+        "Rust": 15757244,
+        "TypeScript": 1631720,
+        "Svelte": 980475,
+        "Python": 360704,
+        "JavaScript": 157463,
+        "Shell": 45110,
+        "C#": 35853,
+        "CSS": 6468,
+        "Elixir": 6074,
+        "HTML": 304
+      }
+    },
+    "same_commit_linguist_total": 18981415,
+    "same_commit_linguist_languages": {
+      "Elixir": 6074,
+      "C#": 35853,
+      "Python": 360704,
+      "Rust": 15757244,
+      "JavaScript": 157463,
+      "HTML": 304,
+      "Shell": 45110,
+      "TypeScript": 1631720,
+      "Svelte": 980475,
+      "CSS": 6468
+    },
+    "authored_total": 18981415,
+    "authored_languages": {
+      "Elixir": 6074,
+      "C#": 35853,
+      "Python": 360704,
+      "Rust": 15757244,
+      "JavaScript": 157463,
+      "HTML": 304,
+      "Shell": 45110,
+      "TypeScript": 1631720,
+      "Svelte": 980475,
+      "CSS": 6468
+    }
+  },
+  {
+    "repository": "MrScripty/Chrema",
+    "source_commit": "75fba334d35378f3205746cbf6467700baa07671",
+    "previous_display": {
+      "retrieved_at": "2026-10-12T22:25:26.355939+00:00",
+      "source_commit": null,
+      "total_bytes": 1271433,
+      "languages": {
+        "JavaScript": 1155685,
+        "PLpgSQL": 115748
+      }
+    },
+    "same_commit_linguist_total": 1270022,
+    "same_commit_linguist_languages": {
+      "JavaScript": 1155685,
+      "PLpgSQL": 114337
+    },
+    "authored_total": 1270022,
+    "authored_languages": {
+      "JavaScript": 1155685,
+      "PLpgSQL": 114337
+    }
+  },
+  {
+    "repository": "MrScripty/Tuldok",
+    "source_commit": "c522bf6b5eaf94d89811578c9e73aecfdba4ef9e",
+    "previous_display": {
+      "retrieved_at": "2026-10-12T22:25:26.398430+00:00",
+      "source_commit": null,
+      "total_bytes": 3135727,
+      "languages": {
+        "Python": 1588647,
+        "JavaScript": 1466839,
+        "HTML": 57639,
+        "CSS": 22602
+      }
+    },
+    "same_commit_linguist_total": 3135727,
+    "same_commit_linguist_languages": {
+      "Python": 1588647,
+      "JavaScript": 1466839,
+      "CSS": 22602,
+      "HTML": 57639
+    },
+    "authored_total": 3135727,
+    "authored_languages": {
+      "Python": 1588647,
+      "JavaScript": 1466839,
+      "CSS": 22602,
+      "HTML": 57639
+    }
+  },
+  {
+    "repository": "MrScripty/Eidetic",
+    "source_commit": "cc80011cbf631f7c4774c576ba879dfec1211c6a",
+    "previous_display": {
+      "retrieved_at": "2026-10-12T22:25:26.443915+00:00",
+      "source_commit": null,
+      "total_bytes": 4843800,
+      "languages": {
+        "Rust": 3354777,
+        "TypeScript": 925966,
+        "Svelte": 314554,
+        "Python": 206872,
+        "Shell": 22080,
+        "CSS": 17002,
+        "JavaScript": 1984,
+        "HTML": 337,
+        "WGSL": 228
+      }
+    },
+    "same_commit_linguist_total": 4843800,
+    "same_commit_linguist_languages": {
+      "Rust": 3354777,
+      "WGSL": 228,
+      "Shell": 22080,
+      "Python": 206872,
+      "JavaScript": 1984,
+      "CSS": 17002,
+      "HTML": 337,
+      "TypeScript": 925966,
+      "Svelte": 314554
+    },
+    "authored_total": 4843800,
+    "authored_languages": {
+      "Rust": 3354777,
+      "WGSL": 228,
+      "Shell": 22080,
+      "Python": 206872,
+      "JavaScript": 1984,
+      "CSS": 17002,
+      "HTML": 337,
+      "TypeScript": 925966,
+      "Svelte": 314554
+    }
+  },
+  {
+    "repository": "MrScripty/whip-docs",
+    "source_commit": "c5a8417e4e13d18c6751de196cf667653863d5de",
+    "previous_display": {
+      "retrieved_at": "2026-10-12T22:25:26.734143+00:00",
+      "source_commit": null,
+      "total_bytes": 31480088,
+      "languages": {
+        "C": 30256152,
+        "Rust": 452688,
+        "TypeScript": 421697,
+        "JavaScript": 245195,
+        "Svelte": 35742,
+        "C++": 33322,
+        "Python": 12506,
+        "CSS": 11820,
+        "Tree-sitter Query": 4114,
+        "C#": 2079,
+        "Kotlin": 1955,
+        "Zig": 1264,
+        "Odin": 951,
+        "HTML": 294,
+        "Lua": 272,
+        "Go": 37
+      }
+    },
+    "same_commit_linguist_total": 31480088,
+    "same_commit_linguist_languages": {
+      "JavaScript": 245195,
+      "Rust": 452688,
+      "Python": 12506,
+      "C": 30256152,
+      "Kotlin": 1955,
+      "C++": 33322,
+      "C#": 2079,
+      "Svelte": 35742,
+      "Odin": 951,
+      "Zig": 1264,
+      "Lua": 272,
+      "Go": 37,
+      "TypeScript": 421697,
+      "Tree-sitter Query": 4114,
+      "HTML": 294,
+      "CSS": 11820
+    },
+    "authored_total": 1090454,
+    "authored_languages": {
+      "JavaScript": 154745,
+      "Rust": 444030,
+      "Python": 12506,
+      "C": 1033,
+      "Kotlin": 1955,
+      "C++": 2029,
+      "C#": 2079,
+      "Svelte": 35742,
+      "Odin": 951,
+      "Zig": 1264,
+      "Lua": 272,
+      "Go": 37,
+      "TypeScript": 421697,
+      "HTML": 294,
+      "CSS": 11820
+    }
+  },
+  {
+    "repository": "MrScripty/Rheon",
+    "source_commit": "2209012bc5f902693d0f695ec1c2d854126af317",
+    "previous_display": {
+      "retrieved_at": "2026-10-12T22:25:26.695700+00:00",
+      "source_commit": null,
+      "total_bytes": 2709016,
+      "languages": {
+        "Rust": 1389922,
+        "Python": 1178301,
+        "Lean": 132762,
+        "JavaScript": 4122,
+        "TypeScript": 2807,
+        "Shell": 1102
+      }
+    },
+    "same_commit_linguist_total": 2709016,
+    "same_commit_linguist_languages": {
+      "TypeScript": 2807,
+      "Lean": 132762,
+      "Python": 1178301,
+      "Shell": 1102,
+      "Rust": 1389922,
+      "JavaScript": 4122
+    },
+    "authored_total": 2709016,
+    "authored_languages": {
+      "TypeScript": 2807,
+      "Lean": 132762,
+      "Python": 1178301,
+      "Shell": 1102,
+      "Rust": 1389922,
+      "JavaScript": 4122
+    }
+  },
+  {
+    "repository": "MrScripty/rheon-surrogate-lab",
+    "source_commit": "e8a90bfef6b2955c502008ccc62443e29dd9f2ec",
+    "previous_display": {
+      "retrieved_at": "2026-10-12T22:25:26.754466+00:00",
+      "source_commit": null,
+      "total_bytes": 238099,
+      "languages": {
+        "Python": 143491,
+        "Rust": 80354,
+        "JavaScript": 10454,
+        "HTML": 3800
+      }
+    },
+    "same_commit_linguist_total": 238099,
+    "same_commit_linguist_languages": {
+      "Rust": 80354,
+      "Python": 143491,
+      "JavaScript": 10454,
+      "HTML": 3800
+    },
+    "authored_total": 238099,
+    "authored_languages": {
+      "Rust": 80354,
+      "Python": 143491,
+      "JavaScript": 10454,
+      "HTML": 3800
+    }
+  },
+  {
+    "repository": "MrScripty/Kenoma",
+    "source_commit": "e2ea6acc5db44794ae8b49beb877f5a8bccea056",
+    "previous_display": {
+      "retrieved_at": "2026-10-12T22:25:26.682329+00:00",
+      "source_commit": null,
+      "total_bytes": 3183179,
+      "languages": {
+        "JavaScript": 1817368,
+        "Python": 805780,
+        "HTML": 220229,
+        "Lean": 205686,
+        "Rust": 130277,
+        "CSS": 2358,
+        "Shell": 1481
+      }
+    },
+    "same_commit_linguist_total": 3183179,
+    "same_commit_linguist_languages": {
+      "JavaScript": 1817368,
+      "Shell": 1481,
+      "HTML": 220229,
+      "Rust": 130277,
+      "Lean": 205686,
+      "Python": 805780,
+      "CSS": 2358
+    },
+    "authored_total": 3013666,
+    "authored_languages": {
+      "JavaScript": 1817368,
+      "Shell": 1481,
+      "HTML": 50716,
+      "Rust": 130277,
+      "Lean": 205686,
+      "Python": 805780,
+      "CSS": 2358
+    }
+  },
+  {
+    "repository": "MrScripty/Coding-Standards",
+    "source_commit": "188beda1fa477d21d576c233dd8c7f4c4c267d23",
+    "previous_display": {
+      "retrieved_at": "2026-10-12T22:25:26.723404+00:00",
+      "source_commit": null,
+      "total_bytes": 3978363,
+      "languages": {
+        "Python": 3956691,
+        "HTML": 21608,
+        "TypeScript": 64
+      }
+    },
+    "same_commit_linguist_total": 3978363,
+    "same_commit_linguist_languages": {
+      "Python": 3956691,
+      "TypeScript": 64,
+      "HTML": 21608
+    },
+    "authored_total": 3366001,
+    "authored_languages": {
+      "Python": 3344329,
+      "TypeScript": 64,
+      "HTML": 21608
+    }
+  },
+  {
+    "repository": "MrScripty/Lanternwake",
+    "source_commit": "76b8428ee6bbe0c03d80b7df0520370df1a1b3a7",
+    "previous_display": {
+      "retrieved_at": "2026-10-12T22:25:26.935568+00:00",
+      "source_commit": null,
+      "total_bytes": 1346537,
+      "languages": {
+        "C#": 911134,
+        "Python": 403134,
+        "GDScript": 25724,
+        "Shell": 6106,
+        "GDShader": 439
+      }
+    },
+    "same_commit_linguist_total": 1346537,
+    "same_commit_linguist_languages": {
+      "GDShader": 439,
+      "C#": 911134,
+      "Python": 403134,
+      "GDScript": 25724,
+      "Shell": 6106
+    },
+    "authored_total": 1346537,
+    "authored_languages": {
+      "GDShader": 439,
+      "C#": 911134,
+      "Python": 403134,
+      "GDScript": 25724,
+      "Shell": 6106
+    }
+  },
+  {
+    "repository": "MrScripty/Passeur",
+    "source_commit": "725c45cfc1fcd9fae0980bceebe051debdc11cb2",
+    "previous_display": {
+      "retrieved_at": "2026-10-12T22:25:26.965866+00:00",
+      "source_commit": null,
+      "total_bytes": 5815163,
+      "languages": {
+        "JavaScript": 3338034,
+        "TypeScript": 2443816,
+        "Shell": 6855,
+        "Rust": 4566,
+        "Python": 3594,
+        "C++": 3382,
+        "Kotlin": 2573,
+        "Zig": 2492,
+        "C": 2124,
+        "Odin": 2115,
+        "C#": 1978,
+        "Lua": 1846,
+        "Svelte": 1194,
+        "HTML": 594
+      }
+    },
+    "same_commit_linguist_total": 5815163,
+    "same_commit_linguist_languages": {
+      "Shell": 6855,
+      "TypeScript": 2407417,
+      "JavaScript": 3374433,
+      "C": 2124,
+      "C++": 3382,
+      "C#": 1978,
+      "Kotlin": 2573,
+      "Lua": 1846,
+      "Odin": 2115,
+      "Python": 3594,
+      "HTML": 594,
+      "Rust": 4566,
+      "Svelte": 1194,
+      "Zig": 2492
+    },
+    "authored_total": 5815163,
+    "authored_languages": {
+      "Shell": 6855,
+      "TypeScript": 2407417,
+      "JavaScript": 3374433,
+      "C": 2124,
+      "C++": 3382,
+      "C#": 1978,
+      "Kotlin": 2573,
+      "Lua": 1846,
+      "Odin": 2115,
+      "Python": 3594,
+      "HTML": 594,
+      "Rust": 4566,
+      "Svelte": 1194,
+      "Zig": 2492
+    }
+  },
+  {
+    "repository": "MrScripty/Book-Be-Gone",
+    "source_commit": "ea6a3fa2e2bfe3605ad932731f5693e2754ce07d",
+    "previous_display": null,
+    "same_commit_linguist_total": 284283,
+    "same_commit_linguist_languages": {
+      "Python": 184285,
+      "HTML": 756,
+      "Svelte": 43437,
+      "JavaScript": 55805
+    },
+    "authored_total": 284283,
+    "authored_languages": {
+      "Python": 184285,
+      "HTML": 756,
+      "Svelte": 43437,
+      "JavaScript": 55805
+    }
+  }
+]

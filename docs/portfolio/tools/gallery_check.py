@@ -21,16 +21,16 @@ try:
             page=browser.new_page(viewport={'width':w,'height':h},reduced_motion='reduce',has_touch=w<=560,is_mobile=w<=560);errors=[]
             page.on('pageerror',lambda e:errors.append(str(e)));page.goto(url,wait_until='networkidle')
             styles=page.locator('.project-deck').evaluate_all('(xs)=>xs.map(e=>{let s=getComputedStyle(e);return [s.fontFamily,s.fontSize,s.fontWeight,s.fontStyle,s.lineHeight,s.color]})')
-            check(name+' ten matching white taglines',len(styles)==10 and all(s==styles[0] and s[-1]=='rgb(255, 255, 255)' for s in styles))
+            check(name+' twelve matching white taglines',len(styles)==12 and all(s==styles[0] and s[-1]=='rgb(255, 255, 255)' for s in styles))
             styles=page.locator('h3.project-title').evaluate_all('(xs)=>xs.map(e=>{let s=getComputedStyle(e);return [s.fontFamily,s.fontSize,s.fontWeight,s.color]})')
-            check(name+' matching project names',len(styles)==10 and all(s==styles[0] for s in styles))
+            check(name+' matching project names',len(styles)==12 and all(s==styles[0] for s in styles))
             check(name+' dark theme',page.locator('#work').evaluate('(e)=>getComputedStyle(e).backgroundColor')=='rgb(18, 28, 23)')
             books=page.locator('#books').bounding_box();lantern=page.locator('#lanternwake').bounding_box()
             check(name+' Lanternwake below books',lantern['y']>=books['y']+books['height'])
             check(name+' supplied Lanternwake image',page.locator('#lanternwake img').count()==1 and page.locator('#lanternwake img').get_attribute('src').startswith('assets/Lanternwake_2026-10-07_13-43-35.jpg'))
             a=page.locator('#tuldok').bounding_box();b=page.locator('#eidetic').bounding_box();check(name+' stacked apps',b['y']>=a['y']+a['height'])
             if name in ['desktop','mobile']:
-                for id in ['pumas','pantograph','chrema','tuldok','eidetic','whip-docs','rheon','kenoma','standards','lanternwake']:
+                for id in ['pumas','pantograph','chrema','tuldok','book-be-gone','eidetic','whip-docs','rheon','kenoma','standards','lanternwake','passeur']:
                     card=page.locator('#'+id)
                     for img in card.locator('img:visible').all():img.evaluate('(i)=>i.decode()')
                     card.screenshot(path=str(OUT/f'{name}-{id}.png'))
@@ -45,9 +45,9 @@ try:
                     check(label+' no reserved image height',active.locator('.capture-button').evaluate('(a)=>Math.abs(a.getBoundingClientRect().height-a.querySelector("img").getBoundingClientRect().height)<1'))
                     if name in ['desktop','mobile'] and gallery.get_attribute('data-gallery')=='Rheon' and index==1:
                         page.locator('#rheon').screenshot(path=str(OUT/f'{name}-rheon-lab.png'))
-                    link=active.locator('.capture-button');expected=active.locator('figcaption').inner_text().strip()
+                    link=active.locator('.capture-button');expected=active.locator('img').get_attribute('alt')
                     link.click();page.wait_for_selector('#image-dialog[open]');page.locator('#dialog-image').evaluate('(i)=>i.decode()')
-                    check(label+' full original and caption',page.locator('#dialog-image').get_attribute('src').endswith(link.get_attribute('href')) and ' '.join(page.locator('#dialog-caption').inner_text().split())==' '.join(expected.split()))
+                    check(label+' full original and accessible description',page.locator('#dialog-image').get_attribute('src').endswith(link.get_attribute('href')) and page.locator('#dialog-image').get_attribute('alt')==expected)
                     page.keyboard.press('Escape');page.wait_for_function('!document.querySelector("#image-dialog").open && !history.state?.portfolioCapture');page.wait_for_function('(a)=>a===document.activeElement',arg=link.element_handle())
                     check(label+' controls inside image frame',gallery.locator('.gallery-controls').evaluate('(e)=>{const a=e.getBoundingClientRect(),b=e.parentElement.getBoundingClientRect();return e.parentElement.classList.contains("capture-frame")&&getComputedStyle(e).position==="absolute"&&Math.abs(a.top-b.top)<1&&Math.abs(a.height-b.height)<1}'))
                     next.click();check(label+' overlay focus survives',next.evaluate('(e)=>e===document.activeElement'))
@@ -68,13 +68,13 @@ try:
             check(name+' no overflow or errors',not errors and page.evaluate('document.documentElement.scrollWidth<=innerWidth'))
             page.close()
         page=browser.new_page(viewport={'width':390,'height':844},java_script_enabled=False);page.goto(url)
-        check('no JS all 14 image links visible',page.locator('.capture-button:visible').count()==14)
+        check('no JS all 16 image links visible',page.locator('.capture-button:visible').count()==16)
         check('no JS no inert controls',page.locator('.gallery-controls').count()==0);page.close()
         page=browser.new_page(viewport={'width':390,'height':844},reduced_motion='no-preference');page.goto(url)
         gallery=page.locator('#rheon .capture-gallery');gallery.locator('button').last.evaluate('(b)=>b.click()')
         check('short normal-motion fade',gallery.evaluate('(g)=>g.getAnimations({subtree:true}).some(a=>a.effect.getTiming().duration===150)'))
         page.wait_for_function('document.querySelector("#rheon .capture-gallery").getAnimations({subtree:true}).length===0')
-        check('Rheon lab distinct title and caption',selected(gallery).locator('.capture-heading b').inner_text()=='Rheon Surrogate Lab' and 'seed-900' in selected(gallery).locator('figcaption').inner_text())
+        check('Rheon lab distinct accessible description','Surrogate Lab' in selected(gallery).locator('img').get_attribute('alt') and 'Jacobi PCG' in selected(gallery).locator('img').get_attribute('alt'))
         page.close();browser.close()
 finally:
     server.shutdown();server.server_close()

@@ -1,0 +1,1561 @@
+{
+  "repository": "MrScripty/whip-docs",
+  "source_commit": "c5a8417e4e13d18c6751de196cf667653863d5de",
+  "baseline_total_bytes": 31480088,
+  "authored_total_bytes": 1090454,
+  "baseline_languages": {
+    "JavaScript": 245195,
+    "Rust": 452688,
+    "Python": 12506,
+    "C": 30256152,
+    "Kotlin": 1955,
+    "C++": 33322,
+    "C#": 2079,
+    "Svelte": 35742,
+    "Odin": 951,
+    "Zig": 1264,
+    "Lua": 272,
+    "Go": 37,
+    "TypeScript": 421697,
+    "Tree-sitter Query": 4114,
+    "HTML": 294,
+    "CSS": 11820
+  },
+  "authored_languages": {
+    "JavaScript": 154745,
+    "Rust": 444030,
+    "Python": 12506,
+    "C": 1033,
+    "Kotlin": 1955,
+    "C++": 2029,
+    "C#": 2079,
+    "Svelte": 35742,
+    "Odin": 951,
+    "Zig": 1264,
+    "Lua": 272,
+    "Go": 37,
+    "TypeScript": 421697,
+    "HTML": 294,
+    "CSS": 11820
+  },
+  "files": [
+    {
+      "path": "eslint.config.mjs",
+      "language": "JavaScript",
+      "bytes": 583,
+      "sha256": "9c0c19384c4e36f106a95c6114a7d4b40030a394a133d54c230179b403a67360",
+      "counted": true
+    },
+    {
+      "path": "fixtures/file-workspace/src/checkout.rs",
+      "language": "Rust",
+      "bytes": 417,
+      "sha256": "1124319c870033d6be09eee1a8e9ede35a54140b85470fc850a2a3c7fa49c49e",
+      "counted": true
+    },
+    {
+      "path": "fixtures/file-workspace/src/domain/mod.rs",
+      "language": "Rust",
+      "bytes": 17,
+      "sha256": "a2730bc5b8092f7a450369a65582404dbb83895caf104941af12d8a39024e534",
+      "counted": true
+    },
+    {
+      "path": "fixtures/file-workspace/src/domain/pricing.rs",
+      "language": "Rust",
+      "bytes": 215,
+      "sha256": "d7b0a65cb7727ceab5abefb37654a49de7322cd1dcd7d8757fe75fb7018557d2",
+      "counted": true
+    },
+    {
+      "path": "fixtures/file-workspace/src/inventory.rs",
+      "language": "Rust",
+      "bytes": 224,
+      "sha256": "a5435812041c950795f305a5c0cccde6f4001770fc14fc9236a636db4048d3f8",
+      "counted": true
+    },
+    {
+      "path": "fixtures/file-workspace/src/lib.rs",
+      "language": "Rust",
+      "bytes": 129,
+      "sha256": "472cb9a4543850c30488ffc51dddd057fc1d8f86f1499d904b65d723f001bba2",
+      "counted": true
+    },
+    {
+      "path": "fixtures/file-workspace/src/receipt.rs",
+      "language": "Rust",
+      "bytes": 135,
+      "sha256": "18be43ee2cfdcaee08d6832e848776b9ecab96db1923f0de536e484b7db0d9da",
+      "counted": true
+    },
+    {
+      "path": "fixtures/file-workspace/tests/order.rs",
+      "language": "Rust",
+      "bytes": 141,
+      "sha256": "b1f8b42ea9f31e0ee5a756d0a6de51c8a38e111c9362b4e7c83ad45cb0ab2ef7",
+      "counted": true
+    },
+    {
+      "path": "fixtures/intent-preview/source.rs",
+      "language": "Rust",
+      "bytes": 11513,
+      "sha256": "c42cd1bed68d3a5c6449489e139a99c448ce882e03f70d98d3134219e336b488",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/api/default-type-parameters.py",
+      "language": "Python",
+      "bytes": 353,
+      "sha256": "91da036db2b7e06b0c954556e7fbc9c86c5a4b25159ee46d0d4f490fb982520a",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/api/handler.py",
+      "language": "Python",
+      "bytes": 277,
+      "sha256": "17e9fae5dc26c9902674b3ea726858fb7556220ad4f7f023862a530328aaf5ec",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/broken/alternatives.c",
+      "language": "C",
+      "bytes": 52,
+      "sha256": "81b26740dde069b7c82de8ac815a1fd23a0bd258ddfd86792485d08a84530ab9",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/broken/bad.py",
+      "language": "Python",
+      "bytes": 22,
+      "sha256": "6b8c8a725c23dc076d9a2c185ce4e02435746bc3b4f99906d13de360e56898c7",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/broken/context-property.kt",
+      "language": "Kotlin",
+      "bytes": 47,
+      "sha256": "6ef95b6bc78a9b535516e33ffb39bf0fb8f11f1006bf22c9e147577a0951500a",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/broken/destructuring.kt",
+      "language": "Kotlin",
+      "bytes": 43,
+      "sha256": "9b4ad1497a90f6800facf1ff312cf809facdbfdc210ab724f17bb67ac1a2398f",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/broken/namespace-name.cpp",
+      "language": "C++",
+      "bytes": 97,
+      "sha256": "5c1db74021e7d51f10ea683067e411cf79e854d43cca01f863123ba7c0a6ab8a",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/broken/namespace-name.cs",
+      "language": "C#",
+      "bytes": 92,
+      "sha256": "662439734355fdf06a8e4cabcd62a3d44ca6aad525e3f4bfeb15441f26f04023",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/broken/namespace.cs",
+      "language": "C#",
+      "bytes": 38,
+      "sha256": "348abc1cc53d1379c978de3f0367c09ecec83953b77a02908a5c5b2a00cfa6b6",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/broken/patterns.js",
+      "language": "JavaScript",
+      "bytes": 68,
+      "sha256": "4ea9930c717a52d01a3f04ad4606473ae86824a838e8e728a1d1bfa1638b1eb0",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/broken/snippet-header.svelte",
+      "language": "Svelte",
+      "bytes": 53,
+      "sha256": "7c2726ce63b15a9d30c1c620a1635cd65a42407e10236a8d0c7d2fb3f0cfc478",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/broken/unsupported-callable.cpp",
+      "language": "C++",
+      "bytes": 103,
+      "sha256": "2955f26b310480150f72e832cd42f18a0f05a4031ccbc66795f13fdf4ccc1b6c",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/broken/variants.odin",
+      "language": "Odin",
+      "bytes": 77,
+      "sha256": "397c140dd30852d65ff1bbf731c98d7d96e37aad936e5a76c47c0ee8d6f04d58",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/include/api.h",
+      "language": "C",
+      "bytes": 56,
+      "sha256": "a018ff632a2e649484c047bc38297246836f02033f9338e32c300acbb3a3933e",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/mobile/Screen.kt",
+      "language": "Kotlin",
+      "bytes": 188,
+      "sha256": "cb5f66195218dc2b6c2ba67e4faa29adcd56e516b268d7e6d2d8ed12c0dd99e9",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/mobile/context-parameters.kt",
+      "language": "Kotlin",
+      "bytes": 418,
+      "sha256": "238e560fbc838df9408ecdceaaedf79c2c1a6585647f8b2fc572007563ba88e6",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/mobile/properties.kt",
+      "language": "Kotlin",
+      "bytes": 301,
+      "sha256": "f64937a4e868d3ec64058ae80f7e190e4e2cadf324a2d2eae980360322f6c127",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/native/assignments.zig",
+      "language": "Zig",
+      "bytes": 274,
+      "sha256": "96fe140b5426df0a9e7b90a47a8cb5461dd85fb80ef6cee36350ef2f59499526",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/native/bitint.c",
+      "language": "C",
+      "bytes": 295,
+      "sha256": "c7d42c5a016cf666ea492ee878d9affff0fc46e453b837d96979368d9aa14b5c",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/native/callable-groups.odin",
+      "language": "Odin",
+      "bytes": 293,
+      "sha256": "9f49a26e475cd8c42f7fd363af3e106a5e0144cb0ca2661616c9ab8fb73c2f03",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/native/explicit-object.cpp",
+      "language": "C++",
+      "bytes": 503,
+      "sha256": "7580030bf3aaa90150a899340929f7a6bd072d1000349497a06236cf79e1cb21",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/native/extension-blocks.cs",
+      "language": "C#",
+      "bytes": 723,
+      "sha256": "4311c5d4c480ff01cbdcfa3e5ae313f5422bd9a3be1b0ac297296f128be835bd",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/native/math.c",
+      "language": "C",
+      "bytes": 138,
+      "sha256": "4825155d47a94bd0b4d39dffd324c9bfe1681f912dd9bfebafbf551a44e280b2",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/native/memory.zig",
+      "language": "Zig",
+      "bytes": 204,
+      "sha256": "d050d6f82249e54715358306059019756ed7af4f0e006e030d2852bf820f2e83",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/native/special-members.cpp",
+      "language": "C++",
+      "bytes": 212,
+      "sha256": "ba2a74c6ec7a10d1e192a6f67f9b95f24e3b2e876c0c95710b941f4b6b6bc986",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/native/vector.cpp",
+      "language": "C++",
+      "bytes": 167,
+      "sha256": "876570a8b7a6b406a5f76e83502b63649f16a7797bd744d2fcb5cdc495494c78",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/native/vector.odin",
+      "language": "Odin",
+      "bytes": 144,
+      "sha256": "202240015107c34c02039dda2d2461ef403058c569eeefd76a6fea2678dd4f48",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/scripts/task.lua",
+      "language": "Lua",
+      "bytes": 136,
+      "sha256": "d8bf2acff404f6e71438771bb3a3e0912b8442592c966a05f3692b741d693571",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/server/Service.cs",
+      "language": "C#",
+      "bytes": 206,
+      "sha256": "70e6aac78ea0672e81b4c91ee74b5be962c96d23fc5434792195b917e970db8a",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/src/helper.rs",
+      "language": "Rust",
+      "bytes": 187,
+      "sha256": "ca810b054aa445bd02dc1b674ec49820b6bfe7add43e07ed2f5a9c00e6350072",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/src/lib.rs",
+      "language": "Rust",
+      "bytes": 38,
+      "sha256": "63f4a3b89fd69f08e38e36a84f719e4728d3bc80ba4489831b683f6af97b8a3b",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/unsupported/plugin.go",
+      "language": "Go",
+      "bytes": 37,
+      "sha256": "7f2d6d74118519275a69eefff53330ab9e3605815ba2e0a9bd8de6959ee8445d",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/web/Card.jsx",
+      "language": "JavaScript",
+      "bytes": 55,
+      "sha256": "013e21ffaed23cb290235042ea279352ccab9ed6ba0366c827c11e1859d9b4f6",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/web/Card.tsx",
+      "language": "TypeScript",
+      "bytes": 96,
+      "sha256": "1bed4061399e7b4b9bf053b3a3b44380449e34b4b379c2b670241cd49b9122b3",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/web/Panel.svelte",
+      "language": "Svelte",
+      "bytes": 247,
+      "sha256": "5d8bc28c6dbfef54b0e93f14d42e226592f28e49023bf84ab83509372fa5d77d",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/web/Template.svelte",
+      "language": "Svelte",
+      "bytes": 659,
+      "sha256": "b854fe6106a0f45e067ff13e71bbc4de55bbd075b64864621951599d82004d80",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/web/View.js",
+      "language": "JavaScript",
+      "bytes": 67,
+      "sha256": "e2a79799f3ec63b92e0b32097c4f6291d765aa47df86b4d3eaaa341c896d5621",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/web/app.ts",
+      "language": "TypeScript",
+      "bytes": 277,
+      "sha256": "e84b691cde7f455fedd141a259f1e806c45b5ad5746acbe809f79f10349d8177",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/web/plain.js",
+      "language": "JavaScript",
+      "bytes": 168,
+      "sha256": "15f5f7eaa0c225d249f45081e1e527520a80d1d1a229b67ad636461d23463adf",
+      "counted": true
+    },
+    {
+      "path": "fixtures/mixed-workspace/web/template-bindings.svelte",
+      "language": "Svelte",
+      "bytes": 562,
+      "sha256": "a7159cbadfb535acde4bfb0e8eb44b47572926b8257e3b2d20371152a4b2dfac",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/basic/c.c",
+      "language": "C",
+      "bytes": 138,
+      "sha256": "4825155d47a94bd0b4d39dffd324c9bfe1681f912dd9bfebafbf551a44e280b2",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/basic/cpp.cpp",
+      "language": "C++",
+      "bytes": 167,
+      "sha256": "876570a8b7a6b406a5f76e83502b63649f16a7797bd744d2fcb5cdc495494c78",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/basic/csharp.cs",
+      "language": "C#",
+      "bytes": 206,
+      "sha256": "70e6aac78ea0672e81b4c91ee74b5be962c96d23fc5434792195b917e970db8a",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/basic/javascript.js",
+      "language": "JavaScript",
+      "bytes": 168,
+      "sha256": "15f5f7eaa0c225d249f45081e1e527520a80d1d1a229b67ad636461d23463adf",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/basic/kotlin.kt",
+      "language": "Kotlin",
+      "bytes": 188,
+      "sha256": "cb5f66195218dc2b6c2ba67e4faa29adcd56e516b268d7e6d2d8ed12c0dd99e9",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/basic/lua.lua",
+      "language": "Lua",
+      "bytes": 136,
+      "sha256": "d8bf2acff404f6e71438771bb3a3e0912b8442592c966a05f3692b741d693571",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/basic/odin.odin",
+      "language": "Odin",
+      "bytes": 144,
+      "sha256": "202240015107c34c02039dda2d2461ef403058c569eeefd76a6fea2678dd4f48",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/basic/python.py",
+      "language": "Python",
+      "bytes": 215,
+      "sha256": "51301fdcc35f421d8518228f5b280b235ef113da16a6b2216643196dc39a065f",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/basic/react.jsx",
+      "language": "JavaScript",
+      "bytes": 55,
+      "sha256": "013e21ffaed23cb290235042ea279352ccab9ed6ba0366c827c11e1859d9b4f6",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/basic/react.tsx",
+      "language": "TypeScript",
+      "bytes": 96,
+      "sha256": "1bed4061399e7b4b9bf053b3a3b44380449e34b4b379c2b670241cd49b9122b3",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/basic/rust.rs",
+      "language": "Rust",
+      "bytes": 187,
+      "sha256": "ca810b054aa445bd02dc1b674ec49820b6bfe7add43e07ed2f5a9c00e6350072",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/basic/svelte.svelte",
+      "language": "Svelte",
+      "bytes": 247,
+      "sha256": "5d8bc28c6dbfef54b0e93f14d42e226592f28e49023bf84ab83509372fa5d77d",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/basic/typescript.ts",
+      "language": "TypeScript",
+      "bytes": 277,
+      "sha256": "e84b691cde7f455fedd141a259f1e806c45b5ad5746acbe809f79f10349d8177",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/basic/zig.zig",
+      "language": "Zig",
+      "bytes": 204,
+      "sha256": "d050d6f82249e54715358306059019756ed7af4f0e006e030d2852bf820f2e83",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/correctness/assignments.zig",
+      "language": "Zig",
+      "bytes": 274,
+      "sha256": "96fe140b5426df0a9e7b90a47a8cb5461dd85fb80ef6cee36350ef2f59499526",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/correctness/callable-groups.odin",
+      "language": "Odin",
+      "bytes": 293,
+      "sha256": "9f49a26e475cd8c42f7fd363af3e106a5e0144cb0ca2661616c9ab8fb73c2f03",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/correctness/properties.kt",
+      "language": "Kotlin",
+      "bytes": 301,
+      "sha256": "f64937a4e868d3ec64058ae80f7e190e4e2cadf324a2d2eae980360322f6c127",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/correctness/special-members.cpp",
+      "language": "C++",
+      "bytes": 212,
+      "sha256": "ba2a74c6ec7a10d1e192a6f67f9b95f24e3b2e876c0c95710b941f4b6b6bc986",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/modern/bitint.c",
+      "language": "C",
+      "bytes": 295,
+      "sha256": "c7d42c5a016cf666ea492ee878d9affff0fc46e453b837d96979368d9aa14b5c",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/modern/c.c",
+      "language": "C",
+      "bytes": 59,
+      "sha256": "7d2d3f89c66f1f22cc7cc4bbcdacd362942de3f60028d9170e6e475490346d3e",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/modern/context-parameters.kt",
+      "language": "Kotlin",
+      "bytes": 418,
+      "sha256": "238e560fbc838df9408ecdceaaedf79c2c1a6585647f8b2fc572007563ba88e6",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/modern/cpp.cpp",
+      "language": "C++",
+      "bytes": 65,
+      "sha256": "05a07413e162c72e78788b285d6dc0d122bb87d9a50654f6104cbcd5d35fb2cb",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/modern/csharp.cs",
+      "language": "C#",
+      "bytes": 91,
+      "sha256": "16280d13af3a82f6e4611b64718ae91ea171de7655eeb6d422b3730a5f08f971",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/modern/default-type-parameters.py",
+      "language": "Python",
+      "bytes": 353,
+      "sha256": "91da036db2b7e06b0c954556e7fbc9c86c5a4b25159ee46d0d4f490fb982520a",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/modern/explicit-object.cpp",
+      "language": "C++",
+      "bytes": 503,
+      "sha256": "7580030bf3aaa90150a899340929f7a6bd072d1000349497a06236cf79e1cb21",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/modern/extension-blocks.cs",
+      "language": "C#",
+      "bytes": 723,
+      "sha256": "4311c5d4c480ff01cbdcfa3e5ae313f5422bd9a3be1b0ac297296f128be835bd",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/modern/kotlin.kt",
+      "language": "Kotlin",
+      "bytes": 51,
+      "sha256": "baecbd2012db0653450cafc4c684e5cc9e44b1a303d51c2f2a625aa250f1e363",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/modern/python.py",
+      "language": "Python",
+      "bytes": 158,
+      "sha256": "958f4b6f108f8f85f0a360bc276f0266cc36e69c50782168d33acfddd0a618dc",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/modern/rust.rs",
+      "language": "Rust",
+      "bytes": 53,
+      "sha256": "e8efcddbb14b13af11279f4ce9217f15cba36dec32b1a74dc2d0cdc0103e3b89",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/modern/template-bindings.svelte",
+      "language": "Svelte",
+      "bytes": 562,
+      "sha256": "a7159cbadfb535acde4bfb0e8eb44b47572926b8257e3b2d20371152a4b2dfac",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/modern/template-expressions.svelte",
+      "language": "Svelte",
+      "bytes": 659,
+      "sha256": "b854fe6106a0f45e067ff13e71bbc4de55bbd075b64864621951599d82004d80",
+      "counted": true
+    },
+    {
+      "path": "fixtures/syntax/modern/zig.zig",
+      "language": "Zig",
+      "bytes": 308,
+      "sha256": "41d4b9654868590591f8fede916bbade095a6678c4b48b79c252388f88ddbe7d",
+      "counted": true
+    },
+    {
+      "path": "grammars/c/bindings/rust/build.rs",
+      "language": "Rust",
+      "bytes": 2082,
+      "sha256": "8b6cdaa628f455bd3fe4f0e7cc0bd40e052c6d587ce875462939ffaaa9feb4e0",
+      "counted": true
+    },
+    {
+      "path": "grammars/c/bindings/rust/lib.rs",
+      "language": "Rust",
+      "bytes": 1867,
+      "sha256": "786c8ab81d2325234b60e5e321a74486875c88e11a15a9479e1d049911e343c1",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Unchanged upstream source; bytes match source-provenance.json."
+    },
+    {
+      "path": "grammars/c/grammar.js",
+      "language": "JavaScript",
+      "bytes": 38784,
+      "sha256": "ada74d4ebaacd0c67d750b57fe67e8c820fe9513b0c0f89f4a7713a5a57367e5",
+      "counted": true
+    },
+    {
+      "path": "grammars/c/queries/highlights.scm",
+      "language": "Tree-sitter Query",
+      "bytes": 1432,
+      "sha256": "3378d854dda695b2b282b9468247524ed4271ef74af691033d2e36883379409c",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Unchanged upstream source; bytes match source-provenance.json."
+    },
+    {
+      "path": "grammars/c/queries/tags.scm",
+      "language": "Tree-sitter Query",
+      "bytes": 375,
+      "sha256": "774ca67cfe23b0e0d1d3a4f01788049a822beb1311feee72b20a595a37be1e28",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Unchanged upstream source; bytes match source-provenance.json."
+    },
+    {
+      "path": "grammars/c/src/parser.c",
+      "language": "C",
+      "bytes": 3928901,
+      "sha256": "f4d83356b4a259ce8399fc9005c52758c1d38b797d43e0f32fbffef352618e4a",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Tree-sitter output listed in the checked-in generation manifest."
+    },
+    {
+      "path": "grammars/c/src/tree_sitter/alloc.h",
+      "language": "C",
+      "bytes": 985,
+      "sha256": "b29c1c9fb7cc82f58c84b376df1297d6e2737a1d655fd356db0859e3c29c2fea",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Tree-sitter output listed in the checked-in generation manifest."
+    },
+    {
+      "path": "grammars/c/src/tree_sitter/array.h",
+      "language": "C++",
+      "bytes": 10431,
+      "sha256": "5bdf6ed1a78e3409fd443e085ca967a64c188a5d082aaf7f819bccd53a471c94",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Tree-sitter output listed in the checked-in generation manifest."
+    },
+    {
+      "path": "grammars/c/src/tree_sitter/parser.h",
+      "language": "C",
+      "bytes": 7624,
+      "sha256": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Tree-sitter output listed in the checked-in generation manifest."
+    },
+    {
+      "path": "grammars/c/upstream/bindings/rust/build.rs",
+      "language": "Rust",
+      "bytes": 2058,
+      "sha256": "111b403dd548b7024678668f4f5af0afd89ba62a549b6c42b46dc50b79082966",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Preserved original upstream source; bytes match source-provenance.json."
+    },
+    {
+      "path": "grammars/c/upstream/grammar.js",
+      "language": "JavaScript",
+      "bytes": 38242,
+      "sha256": "f362b9fe06db321464fc77f1e5ba2ce089baec9d18f4defddb0c9ca87885e546",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Preserved original upstream source; bytes match source-provenance.json."
+    },
+    {
+      "path": "grammars/kotlin/bindings/rust/build.rs",
+      "language": "Rust",
+      "bytes": 638,
+      "sha256": "8f497bb1459c09529efecfb9ae0dbc6e6f3c5892911e535f6551e15337d2cd6c",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Unchanged upstream source; bytes match source-provenance.json."
+    },
+    {
+      "path": "grammars/kotlin/bindings/rust/lib.rs",
+      "language": "Rust",
+      "bytes": 1667,
+      "sha256": "1e3ede5fbdb4106d84452424d796facd175b130e0c55d6b3887809e9642d0fcc",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Unchanged upstream source; bytes match source-provenance.json."
+    },
+    {
+      "path": "grammars/kotlin/grammar.js",
+      "language": "JavaScript",
+      "bytes": 26028,
+      "sha256": "ee132c86b69cbd7b5627ff3644d02e95906796f34e5aaf677f1420b989d894ae",
+      "counted": true
+    },
+    {
+      "path": "grammars/kotlin/src/parser.c",
+      "language": "C",
+      "bytes": 22794813,
+      "sha256": "4c4e97cfae09117329b734482edbd5ba4a1ec5e550fe177258572562c8cef9f5",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Tree-sitter output listed in the checked-in generation manifest."
+    },
+    {
+      "path": "grammars/kotlin/src/scanner.c",
+      "language": "C",
+      "bytes": 15179,
+      "sha256": "164c2bb928d23765ed38c3a322deaef9b52d6e147cec7cdf45add90d4fa6101c",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Unchanged upstream source; bytes match source-provenance.json."
+    },
+    {
+      "path": "grammars/kotlin/src/tree_sitter/alloc.h",
+      "language": "C",
+      "bytes": 985,
+      "sha256": "b29c1c9fb7cc82f58c84b376df1297d6e2737a1d655fd356db0859e3c29c2fea",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Tree-sitter output listed in the checked-in generation manifest."
+    },
+    {
+      "path": "grammars/kotlin/src/tree_sitter/array.h",
+      "language": "C++",
+      "bytes": 10431,
+      "sha256": "5bdf6ed1a78e3409fd443e085ca967a64c188a5d082aaf7f819bccd53a471c94",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Tree-sitter output listed in the checked-in generation manifest."
+    },
+    {
+      "path": "grammars/kotlin/src/tree_sitter/parser.h",
+      "language": "C",
+      "bytes": 7624,
+      "sha256": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Tree-sitter output listed in the checked-in generation manifest."
+    },
+    {
+      "path": "grammars/kotlin/upstream/grammar.js",
+      "language": "JavaScript",
+      "bytes": 25319,
+      "sha256": "1f6260635f96071fe1a164a3acbdaaf9d670dc2b35766e438c91f58ed2d50a7f",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Preserved original upstream source; bytes match source-provenance.json."
+    },
+    {
+      "path": "grammars/python/bindings/rust/build.rs",
+      "language": "Rust",
+      "bytes": 679,
+      "sha256": "4e069992deffe54f04909739e954f581409c7d167cb5ba1f775717258751568f",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Unchanged upstream source; bytes match source-provenance.json."
+    },
+    {
+      "path": "grammars/python/bindings/rust/lib.rs",
+      "language": "Rust",
+      "bytes": 1749,
+      "sha256": "b582f6091fe5978d9c12fb50438de0e0dcc2b962f297e633793523009e40e202",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Unchanged upstream source; bytes match source-provenance.json."
+    },
+    {
+      "path": "grammars/python/grammar.js",
+      "language": "JavaScript",
+      "bytes": 28431,
+      "sha256": "70a9a56168055e5c4b0c4d82a5921628df8ef89f9e1fc92c071980fa289f4812",
+      "counted": true
+    },
+    {
+      "path": "grammars/python/queries/highlights.scm",
+      "language": "Tree-sitter Query",
+      "bytes": 1957,
+      "sha256": "a6708f209381618e2b398972c8f1ccd892f0c064eab35a2a3f911c3e22e79a7e",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Unchanged upstream source; bytes match source-provenance.json."
+    },
+    {
+      "path": "grammars/python/queries/tags.scm",
+      "language": "Tree-sitter Query",
+      "bytes": 350,
+      "sha256": "d0f3e577878167bfabc30e526e497bce58d1699b9bcabf8ab3a50698efb5ca3e",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Unchanged upstream source; bytes match source-provenance.json."
+    },
+    {
+      "path": "grammars/python/src/parser.c",
+      "language": "C",
+      "bytes": 3474929,
+      "sha256": "186eefa327e23949f46c3c832133693f52b8861402c02c91c74251ce926460e2",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Tree-sitter output listed in the checked-in generation manifest."
+    },
+    {
+      "path": "grammars/python/src/scanner.c",
+      "language": "C",
+      "bytes": 15470,
+      "sha256": "6db82134ac2d4c90a1a1475487a625cface02662ebda9b7478cad9c7147e9afe",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Unchanged upstream source; bytes match source-provenance.json."
+    },
+    {
+      "path": "grammars/python/src/tree_sitter/alloc.h",
+      "language": "C",
+      "bytes": 985,
+      "sha256": "b29c1c9fb7cc82f58c84b376df1297d6e2737a1d655fd356db0859e3c29c2fea",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Tree-sitter output listed in the checked-in generation manifest."
+    },
+    {
+      "path": "grammars/python/src/tree_sitter/array.h",
+      "language": "C++",
+      "bytes": 10431,
+      "sha256": "5bdf6ed1a78e3409fd443e085ca967a64c188a5d082aaf7f819bccd53a471c94",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Tree-sitter output listed in the checked-in generation manifest."
+    },
+    {
+      "path": "grammars/python/src/tree_sitter/parser.h",
+      "language": "C",
+      "bytes": 7624,
+      "sha256": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Tree-sitter output listed in the checked-in generation manifest."
+    },
+    {
+      "path": "grammars/python/upstream/grammar.js",
+      "language": "JavaScript",
+      "bytes": 26889,
+      "sha256": "5071cb77def12a276ec71c2c584ef276b1266df720e16f642530bac35c5c2560",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Preserved original upstream source; bytes match source-provenance.json."
+    },
+    {
+      "path": "index.html",
+      "language": "HTML",
+      "bytes": 294,
+      "sha256": "04fa351aa45e647e8c5ad20a40310e443b6c13d5901079fe763ba902f29d9983",
+      "counted": true
+    },
+    {
+      "path": "scripts/verify-grammar-provenance.py",
+      "language": "Python",
+      "bytes": 2956,
+      "sha256": "aedde4f0e14db284c5dc69cb01cd19b73541afd4d24f4ab8006dd141117e20e1",
+      "counted": true
+    },
+    {
+      "path": "scripts/verify-owned-grammars.py",
+      "language": "Python",
+      "bytes": 6182,
+      "sha256": "17cb131bbe055203b8be27bb39fd70660a3a341587fc5349ebf77499fc04140a",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/build.rs",
+      "language": "Rust",
+      "bytes": 72,
+      "sha256": "4379ba89924184a9a57d189938af36565f876df56bc4edcca39fc5a2bd282e8a",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/examples/integration_fixture.rs",
+      "language": "Rust",
+      "bytes": 2485,
+      "sha256": "404041f9b0437b3d3df6663012fdc2adeea65736edf34133a566f57bd599d235",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/examples/syntax_probe.rs",
+      "language": "Rust",
+      "bytes": 517,
+      "sha256": "27e5c4df883f10834c5b5dc4aa48354f46ca1ded0772b2a9e5e75d8dcb155aba",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/analyzer/extraction.rs",
+      "language": "Rust",
+      "bytes": 37302,
+      "sha256": "d385fed37140dbfce84df4847badd3480d0bc75684f08ee63a508525becf3b77",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/analyzer/mod.rs",
+      "language": "Rust",
+      "bytes": 20928,
+      "sha256": "a795e39cad26af7c1d85b37dcb225f47a3ce3a1dc1d407953922e3f5913840d3",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/analyzer/rust_relations.rs",
+      "language": "Rust",
+      "bytes": 17227,
+      "sha256": "c87542579856640fde4f67327e94cab2a71cd909d9acfb214aa4cecc7e1557bc",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/app_lifecycle.rs",
+      "language": "Rust",
+      "bytes": 398,
+      "sha256": "108b5f901ebad2b3b97002090ec888a9429cb3e03c1996925636b82edac74ad6",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/app_setup.rs",
+      "language": "Rust",
+      "bytes": 1956,
+      "sha256": "07020d459f8b0e29428134eedb7f49a33ed74c31be95f0e388bfbb464fae01b8",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/commands/mod.rs",
+      "language": "Rust",
+      "bytes": 37614,
+      "sha256": "8f5a94efad003a13abd15fb7d60ea5a3cbdb1aca9eb769144bcce28296b8dc67",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/config/mod.rs",
+      "language": "Rust",
+      "bytes": 5353,
+      "sha256": "03059c3d9e040452cb068b9a628a2c55125b3726e0e6f4cbe8917d732f9fb3a7",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/graph/mod.rs",
+      "language": "Rust",
+      "bytes": 18987,
+      "sha256": "aeae498cce8f9018789744c328ffffca92fa70cda8507cf5a9ae7a2501ff93ab",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/graph/relations.rs",
+      "language": "Rust",
+      "bytes": 29523,
+      "sha256": "f0cb21d48a7328babb1954d7404e1fdd9cec1c3b93808c2e7213337ae85ed5ae",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/intent/mod.rs",
+      "language": "Rust",
+      "bytes": 74984,
+      "sha256": "24516d22aafb185ac3ac33dfbf87fc9ce498c380c9a3b962cb62ad8555e4020c",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/lib.rs",
+      "language": "Rust",
+      "bytes": 173,
+      "sha256": "bf31779bed83e63d621facebea982afce536111718a9773f1b2d3300964bd463",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/main.rs",
+      "language": "Rust",
+      "bytes": 293,
+      "sha256": "fa19529ae71fb00a5599aa59d340c6888bbf1bb25945db67eedd991b915a6f8d",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/source/mod.rs",
+      "language": "Rust",
+      "bytes": 16253,
+      "sha256": "d17576fb146e70a364322d1c6c98cd9ee419313db0d94391fbd92814fb0da672",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/syntax/extract.rs",
+      "language": "Rust",
+      "bytes": 53045,
+      "sha256": "4955dc7912b79e4dedd4a82df4f197685f602998085ed16891a2eb4316c73ac8",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/syntax/mod.rs",
+      "language": "Rust",
+      "bytes": 455,
+      "sha256": "bfab3647bf9b3145c352c2d232e5f4b8133df453ec70c91f3174ec82dd5d4ac8",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/syntax/model.rs",
+      "language": "Rust",
+      "bytes": 3755,
+      "sha256": "fbb7086e87cc6c080b31bc740daea0cd5a360c4f6c1729cdd367f1e92508f488",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/syntax/registry.rs",
+      "language": "Rust",
+      "bytes": 3816,
+      "sha256": "90ebb71e2aa8e090a5e530e4fe3d35158f6b3e7e072642a2e87e7d1d8a3d2365",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/syntax/repository.rs",
+      "language": "Rust",
+      "bytes": 12463,
+      "sha256": "aa38d97e1358eaff01566b43f104723e2b0c4de5dd58b59c220605c26a2d7afc",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/syntax/template.rs",
+      "language": "Rust",
+      "bytes": 17729,
+      "sha256": "27fa4e96d23c0bbf578504556dc3a07adf39603525c9cdd2327c716649cb902c",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/syntax/tests.rs",
+      "language": "Rust",
+      "bytes": 73364,
+      "sha256": "f0efb00f47815fa319fd3a7daf33b76552b7a5a0881b8f58651b543799f8394c",
+      "counted": true
+    },
+    {
+      "path": "src/App.svelte",
+      "language": "Svelte",
+      "bytes": 119,
+      "sha256": "e87e1dee657674fd09e95db4a0c8f3e8e5c729ee0a2d2fedd05984d2c554bf64",
+      "counted": true
+    },
+    {
+      "path": "src/backends/SyntaxAnalysis.ts",
+      "language": "TypeScript",
+      "bytes": 3199,
+      "sha256": "90f8a43c1dda4ea35f43738ae54a69d42208688308e2ea23915053c4e636ef27",
+      "counted": true
+    },
+    {
+      "path": "src/backends/TauriArchitectureBackend.test.ts",
+      "language": "TypeScript",
+      "bytes": 447,
+      "sha256": "4dd397263d930e5c2f8eacfee8fe3a33872d818a4ec7d5f8421c7448696724e2",
+      "counted": true
+    },
+    {
+      "path": "src/backends/TauriArchitectureBackend.ts",
+      "language": "TypeScript",
+      "bytes": 7134,
+      "sha256": "2cfa859f9d25f972be8156bd22088ec3a391d5568aa3896539710423befbc063",
+      "counted": true
+    },
+    {
+      "path": "src/lib/api/index.ts",
+      "language": "TypeScript",
+      "bytes": 760,
+      "sha256": "96ee59740526d331afc3c93bbf4249d6fcdcf75e9c12cefc35d2fe51f528c8a1",
+      "counted": true
+    },
+    {
+      "path": "src/lib/components/index.ts",
+      "language": "TypeScript",
+      "bytes": 12,
+      "sha256": "99f55197894a9875feffc4a92c84818cd1d45835b0a5d12b324d92f4b668db6d",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/ThreeDirectoryGraphScene.ts",
+      "language": "TypeScript",
+      "bytes": 91814,
+      "sha256": "a0b1f14440417488decbef86ea7cdf3c02e4c5d9f4e23eb4fd4ff89b48f9d05c",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/adapters.test.ts",
+      "language": "TypeScript",
+      "bytes": 5245,
+      "sha256": "ce58d65f61593979d0bbdc3db1f4f870fcc73ffc1421fd6646e858861aaadb34",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/adapters.ts",
+      "language": "TypeScript",
+      "bytes": 2188,
+      "sha256": "2b8834b9526605ee85f6de101ca93f9323994a4635716265c6c0f2a277b40f18",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/constants.ts",
+      "language": "TypeScript",
+      "bytes": 1313,
+      "sha256": "3747c4a0a200d0408f3ba63a0cdf863b7bb02c1d5c1672daeace470aa4db655d",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/edgeGeometry.test.ts",
+      "language": "TypeScript",
+      "bytes": 4490,
+      "sha256": "fde137ae9d3fe7f5c59bcb7e8554503fca9f687106dfb9afba10d0b68c45ec7b",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/edgeGeometry.ts",
+      "language": "TypeScript",
+      "bytes": 7359,
+      "sha256": "345de214d2caf43417836df257a6b5647e8888b7c79b81831124beea0775e12c",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/focusLayout.test.ts",
+      "language": "TypeScript",
+      "bytes": 10080,
+      "sha256": "3140bb45263f1de0e2b2d31c2d8a648a7ea289b34cac814f50e955573a0e9e68",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/focusLayout.ts",
+      "language": "TypeScript",
+      "bytes": 36926,
+      "sha256": "73c46476a133790fbb712a4dc0ddbbf925257f01872982fa45ab5e554787f2f4",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/index.ts",
+      "language": "TypeScript",
+      "bytes": 1959,
+      "sha256": "c5fc65febda492b94eda1758c657df3688682b553d90af4d07f6d9e8354c355b",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/layouts.test.ts",
+      "language": "TypeScript",
+      "bytes": 26753,
+      "sha256": "9767116e6c3756c9acc23fc86c31ca0eef0e892b0787d0d90c7a13e97f5880e5",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/layouts.ts",
+      "language": "TypeScript",
+      "bytes": 39338,
+      "sha256": "417409e5e0b77be0bd032e202b015da736c4f81aa47f7050a0d1d25c85ccb3b3",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/neighborhood.test.ts",
+      "language": "TypeScript",
+      "bytes": 2048,
+      "sha256": "f3907b2df372a8fe9b80bce137aa6a32b21e02a87f025202db487d93a4e583f4",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/neighborhood.ts",
+      "language": "TypeScript",
+      "bytes": 589,
+      "sha256": "4a9d956c9aba206e7b19c6f8d718f64e0a29384c74ecbf3255bd31be2507dd8c",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/relationVisibility.test.ts",
+      "language": "TypeScript",
+      "bytes": 2475,
+      "sha256": "167fdb99979881f7124cd1df66419bfd74f0d5d3a8eaabbdd862c551758a1a0c",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/relationVisibility.ts",
+      "language": "TypeScript",
+      "bytes": 1041,
+      "sha256": "4747d92452353622e5dcb309699bb4210ec6a4feb6fb32feca7f65d754402582",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/sceneVisibility.test.ts",
+      "language": "TypeScript",
+      "bytes": 1755,
+      "sha256": "f0e745304c82de512dca706422b5f4e9a5fe8e752e0972b0125faeda7c482a88",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/sceneVisibility.ts",
+      "language": "TypeScript",
+      "bytes": 423,
+      "sha256": "ac7ae87c8a75d973f1a043f950f12081e5cc6ae63a8078362bb6421a65bc13d5",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/selection.test.ts",
+      "language": "TypeScript",
+      "bytes": 2289,
+      "sha256": "d88e4e44631a226bf87bc8f109702cc8c99895e6ac03c3ae7e2a26e15d0b99f4",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/selection.ts",
+      "language": "TypeScript",
+      "bytes": 4343,
+      "sha256": "b9b47e02377778f19d0f0cc7df05668113d0022bfe9ffc3ebc909e06d298bb0a",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/selectionIndex.test.ts",
+      "language": "TypeScript",
+      "bytes": 5855,
+      "sha256": "2dedef8931357a5d96d5d29a817fedc16b33976abaaa4fb94df1ca8878f345ef",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/selectionIndex.ts",
+      "language": "TypeScript",
+      "bytes": 7843,
+      "sha256": "6f4215a0a5e895a48edb254b60ada90908fa2fed1b911bcb6c3c78d8e111b7fe",
+      "counted": true
+    },
+    {
+      "path": "src/lib/graph-v0/types.ts",
+      "language": "TypeScript",
+      "bytes": 5217,
+      "sha256": "5feaff18920c3d6e6b0cf45572cbe53c65e8289744d2d90a29f5efc5539b71f0",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent-graph/IntentGraphScene.ts",
+      "language": "TypeScript",
+      "bytes": 18564,
+      "sha256": "26939bfb0f9fd27e81a19993cd29a4f5f8918b69666a35a79f1bdc5a3727f310",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent-graph/SymbolSceneLayer.ts",
+      "language": "TypeScript",
+      "bytes": 9016,
+      "sha256": "dd0a047ef801350ddec57cb257255df2202caf23f902980e4d152e20936d3532",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent-graph/projection.test.ts",
+      "language": "TypeScript",
+      "bytes": 5699,
+      "sha256": "bc5a39f362d5b599965f150d401b6ac427f80cd4b9e946fb08d3b8412cc10bee",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent-graph/projection.ts",
+      "language": "TypeScript",
+      "bytes": 6102,
+      "sha256": "a70e80218585aeccda4509d923032675e65bc6396b3f31d39f2fc5256e810048",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent-graph/symbolOverlay.test.ts",
+      "language": "TypeScript",
+      "bytes": 2942,
+      "sha256": "311d44478915828c6e9c1a99181bdf82742b9fd1d2fa12ac8ca9473d2a4ba230",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent-graph/symbolOverlay.ts",
+      "language": "TypeScript",
+      "bytes": 2401,
+      "sha256": "7755bd128ba84293ba09bd752405f8cdefe0774deea7f57021b2567910816669",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent/IntentWorkspace.svelte",
+      "language": "Svelte",
+      "bytes": 32634,
+      "sha256": "120e955e96a50654e62821d1adc4d67f9e3e6560656d82a83c161c1fb56bf2f1",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent/NativeIntentBackend.ts",
+      "language": "TypeScript",
+      "bytes": 388,
+      "sha256": "40526237a59cecde06c09940fb373360e4cc7eb5fffa1cb185e51ca3b107fb90",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent/PreviewIntentBackend.test.ts",
+      "language": "TypeScript",
+      "bytes": 9156,
+      "sha256": "5b4c4d1abe231d83ebe062b5566c60cd276e0f13f5670492d919baa0802acf5f",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent/PreviewIntentBackend.ts",
+      "language": "TypeScript",
+      "bytes": 10750,
+      "sha256": "30fab4dfefcefdd4346ceb850c431020e4dd99c793b6e1a6d078b41c0c19cc93",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent/SyntaxPreviewIntentBackend.test.ts",
+      "language": "TypeScript",
+      "bytes": 11539,
+      "sha256": "caeb160d42bd6518ae4946c9b9877104012ba5ecc251772d44252ea83ae160b6",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent/SyntaxPreviewIntentBackend.ts",
+      "language": "TypeScript",
+      "bytes": 11301,
+      "sha256": "062932041c28d4ab248ee870189ccb2dc120e9cfa567e5d3aa585778baf24128",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent/expansion.test.ts",
+      "language": "TypeScript",
+      "bytes": 3004,
+      "sha256": "a1bc8825012306bdea3c8559e5a4d5cff61f8ec45274b01e52fb24627e9933ec",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent/expansion.ts",
+      "language": "TypeScript",
+      "bytes": 2285,
+      "sha256": "cd76c2d93583749297d114a34a51a436223424b7d2069ea78d73e9d5ae57d14c",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent/fileWorkspaceFixture.ts",
+      "language": "TypeScript",
+      "bytes": 817,
+      "sha256": "ce3421c5d407a63835fba6337c62d1d0dd5eddb93c42e12d737e276bede39856",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent/mixedWorkspaceFixture.ts",
+      "language": "TypeScript",
+      "bytes": 960,
+      "sha256": "069f0916d6b97f724759af758a6e04ec0d7c476c6c1beb5b065f19976b55cbc1",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent/previewFixture.ts",
+      "language": "TypeScript",
+      "bytes": 2011,
+      "sha256": "d7adcf1d853086b9f9b13f2abf904cf4924199d84d2e78446f598543b91134b1",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent/syntaxSupport.test.ts",
+      "language": "TypeScript",
+      "bytes": 11831,
+      "sha256": "d7755aeedaef84dc1f0db97585b8b1e5a1a4d299fb5b7dc8bf45ed5ef806c700",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent/syntaxSupport.ts",
+      "language": "TypeScript",
+      "bytes": 6924,
+      "sha256": "ee92e24978d50f49ce45c657a98d192ff74d10ce1fcc5aa1417aa4823055ad11",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent/types.ts",
+      "language": "TypeScript",
+      "bytes": 1532,
+      "sha256": "0c73186ff7b8122276e767ffd7851cac35286d9bc9e2860ee3a2eecb180599ac",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent/workspaceLoading.test.ts",
+      "language": "TypeScript",
+      "bytes": 6152,
+      "sha256": "e727f1f3cdfba5f7c09aa4d914c0f143e6deb2e15d59428ce28e2b1c57fdfa36",
+      "counted": true
+    },
+    {
+      "path": "src/lib/intent/workspaceLoading.ts",
+      "language": "TypeScript",
+      "bytes": 2600,
+      "sha256": "0b57b6a856f930facd519174332c2536add8cdb3a12621899f3384ed6be26793",
+      "counted": true
+    },
+    {
+      "path": "src/lib/services/ArchitectureService.test.ts",
+      "language": "TypeScript",
+      "bytes": 2161,
+      "sha256": "3558c2b25f031fd03bc53212250127c5e12046184392cac365a7ef2564474ac4",
+      "counted": true
+    },
+    {
+      "path": "src/lib/services/ArchitectureService.ts",
+      "language": "TypeScript",
+      "bytes": 1956,
+      "sha256": "5467647bdea58f9425c946a03afabe853b0109946ad046c8d5dfe3a1b7343f30",
+      "counted": true
+    },
+    {
+      "path": "src/lib/services/graphView.test.ts",
+      "language": "TypeScript",
+      "bytes": 3220,
+      "sha256": "5335183b9c2e7451efc66fc36f04792188161642ea07c4c6da701b80f2ea97b9",
+      "counted": true
+    },
+    {
+      "path": "src/lib/services/graphView.ts",
+      "language": "TypeScript",
+      "bytes": 12295,
+      "sha256": "a20247d90ccd6581c925e07868bb33315aea7d46dde4c7a174b5928cc77cf602",
+      "counted": true
+    },
+    {
+      "path": "src/lib/services/index.ts",
+      "language": "TypeScript",
+      "bytes": 345,
+      "sha256": "42fb1a4dcfa58e4b5b09554992b82478988a9632c7fd8b12237b9e5d61f96059",
+      "counted": true
+    },
+    {
+      "path": "src/lib/stores/analysisStore.ts",
+      "language": "TypeScript",
+      "bytes": 268,
+      "sha256": "f8002a54ef6092642cda9a5d79e66a1697ae7c9192639aa821de21579ba858ce",
+      "counted": true
+    },
+    {
+      "path": "src/lib/stores/configStore.ts",
+      "language": "TypeScript",
+      "bytes": 316,
+      "sha256": "373bc90851b61be3bfe24875a04884ec080c99088480da376860a8d34b8b44d3",
+      "counted": true
+    },
+    {
+      "path": "src/lib/stores/graphStore.ts",
+      "language": "TypeScript",
+      "bytes": 708,
+      "sha256": "47d1a0c6d4f2564e3afbed47e1877a71a9d8c2dfcb7ba00e82b43146c61b3177",
+      "counted": true
+    },
+    {
+      "path": "src/lib/stores/index.ts",
+      "language": "TypeScript",
+      "bytes": 281,
+      "sha256": "45bd4a9f1dfb1b8407b9daed2442feb8f6ac155b7f16e014d7293e7e31886874",
+      "counted": true
+    },
+    {
+      "path": "src/main.ts",
+      "language": "TypeScript",
+      "bytes": 225,
+      "sha256": "b33488fcee37cd29f57442cc011ee2ef52e94c44864e496a63d424d5023ad46e",
+      "counted": true
+    },
+    {
+      "path": "src/styles.css",
+      "language": "CSS",
+      "bytes": 11820,
+      "sha256": "05c39f8d5e5a0278119ae31787c648d8dcf5cadb730f98864644adc4accc9ef9",
+      "counted": true
+    },
+    {
+      "path": "svelte.config.js",
+      "language": "JavaScript",
+      "bytes": 64,
+      "sha256": "13340a74844e7cf17109b7c5fb3cd71f2ab29e4fd3f020e85e06c1b91c4e165c",
+      "counted": true
+    },
+    {
+      "path": "verification/graph-restoration/browser-check.cjs",
+      "language": "JavaScript",
+      "bytes": 15010,
+      "sha256": "8777d4dd25cd7ed6b2de9b334440ca852b51d5e0d67214f37ec412c3430c8e57",
+      "counted": true
+    },
+    {
+      "path": "verification/integration/browser-check.cjs",
+      "language": "JavaScript",
+      "bytes": 15526,
+      "sha256": "28e0624541a9f74d69e28e404bb4898fb584db66dd85cc7a4ced67498c9842a5",
+      "counted": true
+    },
+    {
+      "path": "verification/integration/capture-inspector.cjs",
+      "language": "JavaScript",
+      "bytes": 3668,
+      "sha256": "8b76299c7633beb813845d7c2177f5f85acb4216a30e324388f2deb7e88242ea",
+      "counted": true
+    },
+    {
+      "path": "verification/integration/inspector-browser-check.cjs",
+      "language": "JavaScript",
+      "bytes": 10279,
+      "sha256": "e993c398caa2dd4c69108cdcfc2482d9053fca5fec2b295f31f7c7f788533df4",
+      "counted": true
+    },
+    {
+      "path": "verification/integration/namespace-browser-check.cjs",
+      "language": "JavaScript",
+      "bytes": 6211,
+      "sha256": "c4a085ae2d347ab4ffc39fb82989de81381dee8db55b4e02647e98589459e383",
+      "counted": true
+    },
+    {
+      "path": "verification/integration/normalize-fixture.py",
+      "language": "Python",
+      "bytes": 1990,
+      "sha256": "c78b795884d0b4add2bf9b6452cd0576a01699af64602ef14f3c906662e7fc67",
+      "counted": true
+    },
+    {
+      "path": "verification/integration/parser-v5-browser-check.cjs",
+      "language": "JavaScript",
+      "bytes": 9580,
+      "sha256": "b68e197f4b789989efc18734a938b37f229c4507dcbdfcc75a92ad9174215df9",
+      "counted": true
+    },
+    {
+      "path": "vite.config.ts",
+      "language": "TypeScript",
+      "bytes": 307,
+      "sha256": "b50d9ea800ad166c4270c6edbfa68cdef7ff0cfed8c5c3e64592a73b76331b92",
+      "counted": true
+    }
+  ],
+  "explicit_exclusions_already_omitted_by_linguist": [
+    "grammars/c/src/grammar.json",
+    "grammars/c/src/node-types.json",
+    "grammars/kotlin/src/grammar.json",
+    "grammars/kotlin/src/node-types.json",
+    "grammars/python/src/grammar.json",
+    "grammars/python/src/node-types.json"
+  ]
+}

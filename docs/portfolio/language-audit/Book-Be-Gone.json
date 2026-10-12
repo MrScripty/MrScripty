@@ -1,0 +1,354 @@
+{
+  "repository": "MrScripty/Book-Be-Gone",
+  "source_commit": "ea6a3fa2e2bfe3605ad932731f5693e2754ce07d",
+  "baseline_total_bytes": 284283,
+  "authored_total_bytes": 284283,
+  "baseline_languages": {
+    "Python": 184285,
+    "HTML": 756,
+    "Svelte": 43437,
+    "JavaScript": 55805
+  },
+  "authored_languages": {
+    "Python": 184285,
+    "HTML": 756,
+    "Svelte": 43437,
+    "JavaScript": 55805
+  },
+  "files": [
+    {
+      "path": "app.py",
+      "language": "Python",
+      "bytes": 28608,
+      "sha256": "73be999ef06ddf1561224e6094fc9ee267f13c5c634d7a5390dcdb54db1743dc",
+      "counted": true
+    },
+    {
+      "path": "codex_stream.py",
+      "language": "Python",
+      "bytes": 11995,
+      "sha256": "6945e93603a3909f263244183ce1d6c56a523e5601f0317ea616ab69ea0a5ab6",
+      "counted": true
+    },
+    {
+      "path": "diagnose_ocr.py",
+      "language": "Python",
+      "bytes": 3661,
+      "sha256": "cae71748fb2fa48cd727ad66691798abc4ef74796041dc268db30d7fe825840b",
+      "counted": true
+    },
+    {
+      "path": "figures.py",
+      "language": "Python",
+      "bytes": 5775,
+      "sha256": "6887798f3c354b19ae56b66d582e4f78e0573d302285844474d2b633fea8f0f4",
+      "counted": true
+    },
+    {
+      "path": "frontend/index.html",
+      "language": "HTML",
+      "bytes": 294,
+      "sha256": "9d9ad86facd458d7e8c7aeed7f32034a1bd3cbae442b5376211ed86ea14237bc",
+      "counted": true
+    },
+    {
+      "path": "frontend/src/App.svelte",
+      "language": "Svelte",
+      "bytes": 7488,
+      "sha256": "7e3b84b48b0423c1b7a1033c79a3bc9a407ac50a068b0bd9af80b5ac3d140e41",
+      "counted": true
+    },
+    {
+      "path": "frontend/src/Capture.svelte",
+      "language": "Svelte",
+      "bytes": 4027,
+      "sha256": "0729e57ab78c0070ea745ab7f8f34124a387118080a274a7e6ae97811285a203",
+      "counted": true
+    },
+    {
+      "path": "frontend/src/Corners.svelte",
+      "language": "Svelte",
+      "bytes": 1861,
+      "sha256": "b070c365ab1ac117f4d41f07e7b15bd98ad1da1f6abe87c5582dc21d317be10f",
+      "counted": true
+    },
+    {
+      "path": "frontend/src/CropEditor.svelte",
+      "language": "Svelte",
+      "bytes": 4922,
+      "sha256": "228c6a78828d8ea1abc59421e991317aef14c0e77d412a687eb72a8f91c3ac89",
+      "counted": true
+    },
+    {
+      "path": "frontend/src/ImagePane.svelte",
+      "language": "Svelte",
+      "bytes": 3799,
+      "sha256": "fe008cf24ee2e9fdfa865caea4288ed207be0a9b4b8dd6bda54f053bcf93fdd1",
+      "counted": true
+    },
+    {
+      "path": "frontend/src/OCRReview.svelte",
+      "language": "Svelte",
+      "bytes": 8790,
+      "sha256": "d16bada2dba2885ba35f8583c05ba0491bcf9d81cce27174225a1f684b43d993",
+      "counted": true
+    },
+    {
+      "path": "frontend/src/OCRSettings.svelte",
+      "language": "Svelte",
+      "bytes": 4610,
+      "sha256": "fc2ff89e535e4b0944af4597eede923d5d7d893cc1efd00761737a0708463927",
+      "counted": true
+    },
+    {
+      "path": "frontend/src/Transcript.svelte",
+      "language": "Svelte",
+      "bytes": 7940,
+      "sha256": "b0fb23337e8130a7d596a742f7a8d6a0adc2990051f5ea6c7e0744202a2d9a25",
+      "counted": true
+    },
+    {
+      "path": "frontend/src/imaging.js",
+      "language": "JavaScript",
+      "bytes": 915,
+      "sha256": "6e38ad90bf0adb992775d9ad099301243fd4e4ade0002e0736f4a755230d4c22",
+      "counted": true
+    },
+    {
+      "path": "frontend/src/main.js",
+      "language": "JavaScript",
+      "bytes": 477,
+      "sha256": "41f05ba291c805555b3ff802f576a8561a83d2016e9faff94444bbe9aefabc83",
+      "counted": true
+    },
+    {
+      "path": "frontend/src/review-text.js",
+      "language": "JavaScript",
+      "bytes": 3178,
+      "sha256": "14aaea0ef3d384ac352bde6cb265cabe8367eecbda9d94c1016d373d23a84bd5",
+      "counted": true
+    },
+    {
+      "path": "frontend/src/session.svelte.js",
+      "language": "JavaScript",
+      "bytes": 14373,
+      "sha256": "5347bde260aa8b8f743a09b13a0b32b2eba81c2ee49793c0e2ae6735eaef490c",
+      "counted": true
+    },
+    {
+      "path": "frontend/svelte.config.js",
+      "language": "JavaScript",
+      "bytes": 19,
+      "sha256": "450f0af4f4c1ecc4c7180f2e364c8a59bfed69dd350fb6b47bce8641c2a37786",
+      "counted": true
+    },
+    {
+      "path": "frontend/vite.config.js",
+      "language": "JavaScript",
+      "bytes": 479,
+      "sha256": "87738440727c86cfe487de819c02965897d4a354cf8b8480801d497c8728f203",
+      "counted": true
+    },
+    {
+      "path": "geometry.js",
+      "language": "JavaScript",
+      "bytes": 2692,
+      "sha256": "d568b395467870d90fdbdea740b3dfe082aae86b0c3f8974d6ad691e377a04d2",
+      "counted": true
+    },
+    {
+      "path": "http_ocr.py",
+      "language": "Python",
+      "bytes": 11792,
+      "sha256": "c14db8bea1b8d9b427f14356a7cd99efd0c99b0de7e918bcd3a0b2c7a8a1fe14",
+      "counted": true
+    },
+    {
+      "path": "index.html",
+      "language": "HTML",
+      "bytes": 462,
+      "sha256": "fa5a055d2313f243a09f5ed4001825b810be630a278aa4e489704853d4a8d9de",
+      "counted": true
+    },
+    {
+      "path": "local_ocr.py",
+      "language": "Python",
+      "bytes": 153,
+      "sha256": "d050404cecda716c04629225fad2105bacb4e8dbe24a5fab8c03d22acc0afe1c",
+      "counted": true
+    },
+    {
+      "path": "markdown_groups.py",
+      "language": "Python",
+      "bytes": 6072,
+      "sha256": "9584ff0e9058a4ef74355542324afb56ac811b3fb385b10794f25cfeddf2983f",
+      "counted": true
+    },
+    {
+      "path": "ocr_labels.py",
+      "language": "Python",
+      "bytes": 2537,
+      "sha256": "53d962fd8fe96d365717c4749706b13645883b42f94dca3fbc25c518e9d7e017",
+      "counted": true
+    },
+    {
+      "path": "ocr_review.py",
+      "language": "Python",
+      "bytes": 6286,
+      "sha256": "d9053c6b5e2a307e339e9079784274abe714aeb1cf8f16dd96e5e5c5983a50f8",
+      "counted": true
+    },
+    {
+      "path": "openrouter_ocr.py",
+      "language": "Python",
+      "bytes": 2587,
+      "sha256": "f04bedd9ac478aece291ed4339948a1fe20f0374cca3270cca9f24d48f81463d",
+      "counted": true
+    },
+    {
+      "path": "page_links.py",
+      "language": "Python",
+      "bytes": 6227,
+      "sha256": "cf21d398d6ebf075684803968470af061b56e68da1231d60bb73428683470a61",
+      "counted": true
+    },
+    {
+      "path": "review_render.py",
+      "language": "Python",
+      "bytes": 2707,
+      "sha256": "cff887a266961061f10876a5671c643c766a1a72be652f6d4eac97cd63e2c568",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_server.py",
+      "language": "Python",
+      "bytes": 1465,
+      "sha256": "bb4f9c50282afd5be53f3de93f8e8a94d806161ff9c7e9432fe92724b808af8a",
+      "counted": true
+    },
+    {
+      "path": "tests/fake_codex_server.py",
+      "language": "Python",
+      "bytes": 5891,
+      "sha256": "2774eb5906533f1801fd0037ee8cbb274701ec1c19aaa2eabee138e65d5fca46",
+      "counted": true
+    },
+    {
+      "path": "tests/fake_local_server.py",
+      "language": "Python",
+      "bytes": 4922,
+      "sha256": "513397cbb3eec890cf0bafdedfc39eab06e3268a136ed87c0c1cc410802b40cb",
+      "counted": true
+    },
+    {
+      "path": "tests/test_app.py",
+      "language": "Python",
+      "bytes": 5537,
+      "sha256": "0c70e201295ef05e78bcc916eb97bf4fda2c95c3cc51efc6603f3a39cb48489e",
+      "counted": true
+    },
+    {
+      "path": "tests/test_browser.cjs",
+      "language": "JavaScript",
+      "bytes": 29326,
+      "sha256": "f249fa26e2562f4ab347330c67484bc7c0a87afd8f2ca1b55d3276f37134f7eb",
+      "counted": true
+    },
+    {
+      "path": "tests/test_figures.py",
+      "language": "Python",
+      "bytes": 6674,
+      "sha256": "6d09c93263f8b4644f63fa62c42d9cef415d4de0cb5b424b2cef3efc7204acc8",
+      "counted": true
+    },
+    {
+      "path": "tests/test_geometry.cjs",
+      "language": "JavaScript",
+      "bytes": 1314,
+      "sha256": "9b4d570c1a3b45ecab78e92a3ece69a4e79d04dac9f47c5ab91b02426d9478ab",
+      "counted": true
+    },
+    {
+      "path": "tests/test_local_ocr.py",
+      "language": "Python",
+      "bytes": 5733,
+      "sha256": "0a01ff0e1319b53e3178e7371bd15b9e340113e1bb7c06a7c1600a60c3d03fbe",
+      "counted": true
+    },
+    {
+      "path": "tests/test_markdown_groups.py",
+      "language": "Python",
+      "bytes": 3461,
+      "sha256": "4fe7b1031e2bf291a6b6d9c4df649d36201bdb49609f09636c9ed3ba17a282bf",
+      "counted": true
+    },
+    {
+      "path": "tests/test_ocr_review.py",
+      "language": "Python",
+      "bytes": 10927,
+      "sha256": "9048a2101fa24c268655618a71db571e60dcb942aaff2e38762b79055e14a180",
+      "counted": true
+    },
+    {
+      "path": "tests/test_openrouter_ocr.py",
+      "language": "Python",
+      "bytes": 6032,
+      "sha256": "de5c29f00242f287a45035262fccde5f8cc2727f48d1b5b4bd408b883e8fbe25",
+      "counted": true
+    },
+    {
+      "path": "tests/test_page_links.py",
+      "language": "Python",
+      "bytes": 6798,
+      "sha256": "f58e617900dd9e753af1986872968fdac6a9ca5df3df5ea813f6d3b174685413",
+      "counted": true
+    },
+    {
+      "path": "tests/test_review_render.py",
+      "language": "Python",
+      "bytes": 3684,
+      "sha256": "2f2b5286bc2873b5ca185df2bc6e2f1736b549beb36eec678c2528c799c0d1ad",
+      "counted": true
+    },
+    {
+      "path": "tests/test_review_text.mjs",
+      "language": "JavaScript",
+      "bytes": 3032,
+      "sha256": "50844966fc38d7d64c31d2c98d0b597f36b61403d9e6a0aa9918d3306b80e597",
+      "counted": true
+    },
+    {
+      "path": "tests/test_streaming.py",
+      "language": "Python",
+      "bytes": 11644,
+      "sha256": "cba870a2dfa3c36c0bbbf7d8416a3b7eda40975760c3cd7226b2b3e8c32ffd85",
+      "counted": true
+    },
+    {
+      "path": "tests/test_transcriptions.py",
+      "language": "Python",
+      "bytes": 9093,
+      "sha256": "fb14df39fec899906fc8ddc173e0cbfabaf0719fd13360e25284a88efaf8ca5a",
+      "counted": true
+    },
+    {
+      "path": "tests/test_viewer.py",
+      "language": "Python",
+      "bytes": 5308,
+      "sha256": "d38bf1022efcf33e7262f169ec62ed19b54b561a27ba74b497d2c389f6873a15",
+      "counted": true
+    },
+    {
+      "path": "transcriptions.py",
+      "language": "Python",
+      "bytes": 8716,
+      "sha256": "9ccb5eb0023a8f4adf7b5e45755bd6a026c714ac093133ccf19b290363db1386",
+      "counted": true
+    }
+  ],
+  "explicit_exclusions_already_omitted_by_linguist": [
+    "frontend/dist/assets/index-B0Y62VYZ.js",
+    "frontend/dist/assets/index-DeQivOCC.css",
+    "frontend/dist/index.html"
+  ]
+}

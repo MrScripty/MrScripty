@@ -1,0 +1,3893 @@
+{
+  "repository": "MrScripty/Kenoma",
+  "source_commit": "e2ea6acc5db44794ae8b49beb877f5a8bccea056",
+  "baseline_total_bytes": 3183179,
+  "authored_total_bytes": 3013666,
+  "baseline_languages": {
+    "JavaScript": 1817368,
+    "Shell": 1481,
+    "HTML": 220229,
+    "Rust": 130277,
+    "Lean": 205686,
+    "Python": 805780,
+    "CSS": 2358
+  },
+  "authored_languages": {
+    "JavaScript": 1817368,
+    "Shell": 1481,
+    "HTML": 50716,
+    "Rust": 130277,
+    "Lean": 205686,
+    "Python": 805780,
+    "CSS": 2358
+  },
+  "files": [
+    {
+      "path": "assets/samples/rig_bind_v1/generate.mjs",
+      "language": "JavaScript",
+      "bytes": 3378,
+      "sha256": "bfa7850d4c6a45f791caa819431b575aed3a56d2966172e6b4295a48e01ad8c4",
+      "counted": true
+    },
+    {
+      "path": "assets/samples/rig_bind_v1/verify.mjs",
+      "language": "JavaScript",
+      "bytes": 1875,
+      "sha256": "d203bf1f84c117dcfd4435a7bc9659e5f9ab7ef3810a2f3076979de692deb8cb",
+      "counted": true
+    },
+    {
+      "path": "browser/embedded/viewport.js",
+      "language": "JavaScript",
+      "bytes": 3160,
+      "sha256": "f2bd585ad8b1beff3a914d19ab04d7ce9168b6f40a9a3cab50ee8fd9ce6fecbb",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/build.sh",
+      "language": "Shell",
+      "bytes": 661,
+      "sha256": "83a491e0167a607f7606cf24844e66d6ea524fb9dc67ab086cb936b69c4d76fd",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/client.js",
+      "language": "JavaScript",
+      "bytes": 2286,
+      "sha256": "7f535b61031d03b99b49c51deb2d816813188537faba5b2d5bddaece1ee66698",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/index.html",
+      "language": "HTML",
+      "bytes": 3123,
+      "sha256": "bbbc31d7d5dd0209ccb8aa7b1052329fac25dfdf8551017f237e0002cda4be48",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/rig-worker.js",
+      "language": "JavaScript",
+      "bytes": 1687,
+      "sha256": "fd9320f207f4cef42f9b97c6b0ef72c019c738b02859f7c471903e7aed7dbd8c",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/rig.js",
+      "language": "JavaScript",
+      "bytes": 2488,
+      "sha256": "a854070f6a13e6a2ca5ebbe85477dd40da563c8187143f13f3a2500cd1bc75eb",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/scene-file.js",
+      "language": "JavaScript",
+      "bytes": 6565,
+      "sha256": "72354f4980e7269192773cc77362877cb2db97eb761cf16f286a62cb7ed991fb",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/scene-files-ui.js",
+      "language": "JavaScript",
+      "bytes": 4312,
+      "sha256": "4dc74b8de81d6f8b50331e4fd33cb53544e0e4607157526f1aab1b9285e15fd9",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/scene-state.js",
+      "language": "JavaScript",
+      "bytes": 7664,
+      "sha256": "038c8e0013dd3d11fc3c9acf32df26ff30a9f6fdfded474ed144ad1c8a6d50e7",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/tests/browser-support.mjs",
+      "language": "JavaScript",
+      "bytes": 4604,
+      "sha256": "188046a58934fcacdb71703f1df5df574eb0ecd3b4e68bc43733434aa89d9299",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/tests/browser.mjs",
+      "language": "JavaScript",
+      "bytes": 23827,
+      "sha256": "8945b9a3e1768b434571bc1b5113efc68ed3d434ab9b3c16854bbc6b9df69d37",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/tests/contact-cases.mjs",
+      "language": "JavaScript",
+      "bytes": 1066,
+      "sha256": "3c828d59f8e631c3626f30ebcc254a59655c797f833bfce5a5952c73bbfc2a61",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/tests/rig-bridge.test.mjs",
+      "language": "JavaScript",
+      "bytes": 5209,
+      "sha256": "88e9925a2310bc865f58e9b3173875d1b6bf2034994d293347d5ceaea4e9d713",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/tests/rig-browser.mjs",
+      "language": "JavaScript",
+      "bytes": 6558,
+      "sha256": "6468d518b5998553746f6a7cb2dc6cfa3983cfd6e4d1dd185f2d44810fc301e7",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/tests/rig.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2367,
+      "sha256": "83972ca92b1ebe9181409f75f2cb83c7d99b90093c852d7719a1d55e0eb80256",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/tests/scene-archive.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2363,
+      "sha256": "9964c2638350b20631c321ca80865715407f7e8d551193b2a458462ac114ab5c",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/tests/scene-file.test.mjs",
+      "language": "JavaScript",
+      "bytes": 6863,
+      "sha256": "05a4102d447fd7ea6d3ffc41744e8cf2788ef0c8cbf5a47a91db36a62673a516",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/tests/scene-files-browser.mjs",
+      "language": "JavaScript",
+      "bytes": 7817,
+      "sha256": "c718fb94f53ac2ce52a13d012ebc175a790400b15d0a1bb0833d6b0148ab9b21",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/tests/scene-files-ui.test.mjs",
+      "language": "JavaScript",
+      "bytes": 7269,
+      "sha256": "55c4c4f75b843be7b1220f3efa43781b3192c15977604edad40040ad00e8963f",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/tests/scene.test.mjs",
+      "language": "JavaScript",
+      "bytes": 6075,
+      "sha256": "6d2db479585467e2e845f243df93b56e4d0d9b8100891e11a0bbf8f90f28370f",
+      "counted": true
+    },
+    {
+      "path": "browser/simple-graph/tests/surface-topology.mjs",
+      "language": "JavaScript",
+      "bytes": 2538,
+      "sha256": "712829473d961e7897ba17cda596e6a17ba85eee843ad30daf3bb0e94e22e541",
+      "counted": true
+    },
+    {
+      "path": "crates/human_core/src/edit.rs",
+      "language": "Rust",
+      "bytes": 6112,
+      "sha256": "f96bd2808f49aaeb736c70f0a458fb52d71dcfbcce36dd84a5811ebc0aaf05c2",
+      "counted": true
+    },
+    {
+      "path": "crates/human_core/src/generate.rs",
+      "language": "Rust",
+      "bytes": 9198,
+      "sha256": "10e4161fc4676329fc98afb137abda23db29b1a81bb4165339de9cf04806ea45",
+      "counted": true
+    },
+    {
+      "path": "crates/human_core/src/lib.rs",
+      "language": "Rust",
+      "bytes": 316,
+      "sha256": "177975fd1004b831a5b26307b04b561293eff24743464f87bbab2fcd1ac59bdc",
+      "counted": true
+    },
+    {
+      "path": "crates/human_core/src/samples.rs",
+      "language": "Rust",
+      "bytes": 2841,
+      "sha256": "9fecb2995fa8cb520a2696f9aa49ddcdc5d95a51c5eacc26a147add833c8025e",
+      "counted": true
+    },
+    {
+      "path": "crates/human_core/src/types.rs",
+      "language": "Rust",
+      "bytes": 3714,
+      "sha256": "425a890d006c52b6483ea0b4bd10404d53e328241db5007cae70fbdb127581f8",
+      "counted": true
+    },
+    {
+      "path": "crates/human_core/src/validation.rs",
+      "language": "Rust",
+      "bytes": 3753,
+      "sha256": "fc304dcbc62d2c070bea53533bc874d60cbd06dd7b58284b704c93cb62301960",
+      "counted": true
+    },
+    {
+      "path": "crates/human_core/tests/graph.rs",
+      "language": "Rust",
+      "bytes": 14108,
+      "sha256": "e5de35acfed2d247defb55351074f5ac65af3042e6f3ebc5d75c3961ae396f85",
+      "counted": true
+    },
+    {
+      "path": "crates/human_persistence/examples/samples.rs",
+      "language": "Rust",
+      "bytes": 1023,
+      "sha256": "bfa627226dee77281138cf079a95ba64c2eb51a435f81e17cb2d7011b8aa45d9",
+      "counted": true
+    },
+    {
+      "path": "crates/human_persistence/src/lib.rs",
+      "language": "Rust",
+      "bytes": 7174,
+      "sha256": "a4dad37cd09ea539ba00ee5c969190c451b3bb0e8a6d3c0c55de94145f116a26",
+      "counted": true
+    },
+    {
+      "path": "crates/human_persistence/tests/store.rs",
+      "language": "Rust",
+      "bytes": 7669,
+      "sha256": "7ac8cf3d4eeb3929c8a1c2a9991b9575b72c40c413eafd564f949d3acdf4e3d4",
+      "counted": true
+    },
+    {
+      "path": "crates/human_rig/src/lib.rs",
+      "language": "Rust",
+      "bytes": 12243,
+      "sha256": "31214eab34378a69d56d2e15a4ba4bb41362c46f2806b84e72f05dd9e8ca3755",
+      "counted": true
+    },
+    {
+      "path": "crates/human_rig/tests/rig.rs",
+      "language": "Rust",
+      "bytes": 14637,
+      "sha256": "960619f565769dd5e4850a866b83190fbbe319274d568bf38a1143289dcef862",
+      "counted": true
+    },
+    {
+      "path": "crates/human_surface/src/lib.rs",
+      "language": "Rust",
+      "bytes": 19024,
+      "sha256": "46fb136acc0e440e838ca2e287e3f2124033f3456be95f9ff6ce9bbeeb11d2c6",
+      "counted": true
+    },
+    {
+      "path": "crates/human_surface/tests/surface.rs",
+      "language": "Rust",
+      "bytes": 8973,
+      "sha256": "0144e63dbf7201bbdec8e23ddd6405f93aca82995e6be327bc78ac40aade1657",
+      "counted": true
+    },
+    {
+      "path": "crates/human_wasm/src/lib.rs",
+      "language": "Rust",
+      "bytes": 7291,
+      "sha256": "dbe76d271d18fc448571ef70d78d2deadd9fd4f324682fac2dd3242df684e6fd",
+      "counted": true
+    },
+    {
+      "path": "crates/human_wasm/src/rig_protocol.rs",
+      "language": "Rust",
+      "bytes": 3507,
+      "sha256": "11cad6b668fb9cc2b15b32775c4fe5d89c8159f2289801d8d9516f47ff766e70",
+      "counted": true
+    },
+    {
+      "path": "crates/human_wasm/tests/protocol.rs",
+      "language": "Rust",
+      "bytes": 8694,
+      "sha256": "d4a26aa84da590e892842632a098565d7e52ac2b5f214eb3dc719b79f084481d",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/architecture-force/ArchitectureForce.lean",
+      "language": "Lean",
+      "bytes": 2711,
+      "sha256": "36f96515d885c06b824c3b6aa3fb8e915175fe4c3dbb441f0a143448399f746c",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/architecture-force/check_algebra.py",
+      "language": "Python",
+      "bytes": 1364,
+      "sha256": "dd44da57657c95ee206a507782196e5daabc295403cac982b532367b1212978b",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/architecture-force/check_lean.py",
+      "language": "Python",
+      "bytes": 3342,
+      "sha256": "6dab5f129b044cd9014dabb48b40dbd4b0ca56e7780fbe6852b6a740c41d73c8",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/architecture-force/index.html",
+      "language": "HTML",
+      "bytes": 5763,
+      "sha256": "92daa28b29c1a36685267a4962ef24d67c6b163433ce184cf045263699f22a1c",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/architecture-force/lab.mjs",
+      "language": "JavaScript",
+      "bytes": 2329,
+      "sha256": "097ab7de2e7531bb084d05a5e0042daa32030fc54a728396efe3269fed5e2ba0",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/architecture-force/model.mjs",
+      "language": "JavaScript",
+      "bytes": 4756,
+      "sha256": "e12e1b27cb249fdc41cd5b815ab4da830e8227f75666f323255864ce035d5d46",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/architecture-force/model.test.mjs",
+      "language": "JavaScript",
+      "bytes": 3962,
+      "sha256": "509dbf10868124317e7a09e99ce8b3a1f7ac7c62a4036ee7529660e3d3d7af55",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/architecture-force/repo-contract.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1640,
+      "sha256": "4c35d3307e16151b4834398760412593dd83f9e802c59518c4bdc2edd8be548d",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/continuum_reference/continuum.mjs",
+      "language": "JavaScript",
+      "bytes": 15574,
+      "sha256": "88e69aa2cb83db4f6441259a8f8bdfb56a3cc20708587eae3415c559a7c9ea19",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/continuum_reference/generate.mjs",
+      "language": "JavaScript",
+      "bytes": 11555,
+      "sha256": "349396924f0be70f092e595dc174833cd2e65c91c3022bf3faf1993a049483e1",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/continuum_reference/tests/continuum.test.mjs",
+      "language": "JavaScript",
+      "bytes": 8855,
+      "sha256": "eaab67446b48df7bf7d542f9bbc76201ffa34de03423edde491e5fa83d7e8485",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/nonuniform-isochoric-kinematics/NonuniformIsochoric.lean",
+      "language": "Lean",
+      "bytes": 3756,
+      "sha256": "99029516cf26fca5a82cbd2971c13f9d9d1e6a10face1d71704a6185b7a731ea",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/nonuniform-isochoric-kinematics/browser.py",
+      "language": "Python",
+      "bytes": 7033,
+      "sha256": "4ca13da5c5cb609691df38a5159ba7d4408c4cd0e22aca2ed123003ca5e0df52",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/nonuniform-isochoric-kinematics/build.py",
+      "language": "Python",
+      "bytes": 5235,
+      "sha256": "c79a789c760b52c30522a5a08022fe102084e8572ce32b8e77819319351ed1f7",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/nonuniform-isochoric-kinematics/check_proofs.py",
+      "language": "Python",
+      "bytes": 3979,
+      "sha256": "af6624691698dff989eab736500df12876292b007505fcc942bdf2f2f573435f",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/nonuniform-isochoric-kinematics/index.template.html",
+      "language": "HTML",
+      "bytes": 11867,
+      "sha256": "22f1e23ef2f032a60f2c7c174a0fc71d6967c2c8ecb80aaf53e575beb45d4f99",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/nonuniform-isochoric-kinematics/model.mjs",
+      "language": "JavaScript",
+      "bytes": 4299,
+      "sha256": "6655542498955f2d0a446ee9f9a5fbaa0263a658b3e7496de83cc243ed8a4d60",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/nonuniform-isochoric-kinematics/model.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2956,
+      "sha256": "14db58fc1338fbed8dac451554cc53ed3d9dbb36d8171e5dfb8a0e5f69586c98",
+      "counted": true
+    },
+    {
+      "path": "education/contributions/nonuniform-isochoric-kinematics/model_audit.py",
+      "language": "Python",
+      "bytes": 6477,
+      "sha256": "88a848f9a650fd460db31d0322d5b231395cce1b1f48dc888e04efb8c1e85636",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-aponeurosis.mjs",
+      "language": "JavaScript",
+      "bytes": 4123,
+      "sha256": "1dbebfd2ea67427ee0d962b7b234d2d40a2f2cd4616a4f1199e20b3aba7316a0",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-apparatus.mjs",
+      "language": "JavaScript",
+      "bytes": 15889,
+      "sha256": "be60e6a3ba4db34ee01a4cb531bcdd19f868645ef26e06e1e30daedbc360cb98",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-arm-worker.mjs",
+      "language": "JavaScript",
+      "bytes": 2903,
+      "sha256": "dfadf3136b8ecac0fd6275f059085636eb8953346d920ca69a4d4382fa7b39d5",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-arm.mjs",
+      "language": "JavaScript",
+      "bytes": 13440,
+      "sha256": "9ec37ec7b23bb67643fef715f4554fc8811e897a581691231e6669fdd66c7569",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 1413,
+      "sha256": "4f45bf4ce4459096e9595cd7bb1e0bcdfb0fafe858ee5da25444940604589f14",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-comparison.mjs",
+      "language": "JavaScript",
+      "bytes": 2240,
+      "sha256": "d812405b86541f756759bede9750071117edbab81e69efcfadf96f4f195fd09f",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-contact-differential.mjs",
+      "language": "JavaScript",
+      "bytes": 3771,
+      "sha256": "76f107f5eb1c41fdf6622c428648babc5a489113a709fd337782b1b3de3cac0b",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-contact-refinement.mjs",
+      "language": "JavaScript",
+      "bytes": 6236,
+      "sha256": "cd995e20424fb268ddda22b4bfa50c2fcaab11294f33897f45275357b61d63cd",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-contact.mjs",
+      "language": "JavaScript",
+      "bytes": 17184,
+      "sha256": "00e0f6a1c6f410631c1955d7d0a876201db5cf3ffa3d4c1ed6fb2e280433e142",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-coupled-fixture.mjs",
+      "language": "JavaScript",
+      "bytes": 8519,
+      "sha256": "620afbb2e801f00ec361f5f1b5d39f010acc386812dcaa7239c0ca781d0bf4b9",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-coupled-worker.mjs",
+      "language": "JavaScript",
+      "bytes": 1357,
+      "sha256": "1c54d08f5e36ca837343fc96399ac85de8e92f8fe1ebd1d73a50e5885b93c435",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-distance.mjs",
+      "language": "JavaScript",
+      "bytes": 6748,
+      "sha256": "e11826c97f160220fda68f72cbe5e73f35f9527edcf4a4d58100c467cb50940a",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-element.mjs",
+      "language": "JavaScript",
+      "bytes": 3397,
+      "sha256": "3f67a6bd31565c83d2cbea591c3cf1862a48e50cc4efa780880fda7e808d4b1f",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-fixture.mjs",
+      "language": "JavaScript",
+      "bytes": 5558,
+      "sha256": "d53b5dca829883b4e91c02e5b88f3ac745ce7510cf28aabfcbd6cb978353a30a",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-intersections.mjs",
+      "language": "JavaScript",
+      "bytes": 1298,
+      "sha256": "a083a9838ac3c7508b65b58329c741aef65a065288aff82fc886d1c2c90375df",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-material.mjs",
+      "language": "JavaScript",
+      "bytes": 3733,
+      "sha256": "e6ddf6cc391b417f03f5d122670036eb55ebe837ecbbc51d8535bd4e3e6d3a5b",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-modal.mjs",
+      "language": "JavaScript",
+      "bytes": 5352,
+      "sha256": "12cd671bc963aa04dd5c0e173a776049de191283d850b0b60d0fe8e63be4c9a1",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-newton.mjs",
+      "language": "JavaScript",
+      "bytes": 3887,
+      "sha256": "e0b2193bff56a3fdb9595fa0893c469b5897a31512a282ff7a9b5519b2fe93fe",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-preconditioner.mjs",
+      "language": "JavaScript",
+      "bytes": 1558,
+      "sha256": "d234cd800784a57171514139a17d0720bb1a9d4d1089afcd9e7c783cead1b0b4",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-retraction.mjs",
+      "language": "JavaScript",
+      "bytes": 3487,
+      "sha256": "f5c4ef1115bc2a385d86e232cb9a6a36f8f61cd56d823b3495284de8e9c71819",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-routing-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 1633,
+      "sha256": "e6ef4473a272c985cd05012cf4cbf424c45522b535c280ad5de49222dd459d9b",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-routing.mjs",
+      "language": "JavaScript",
+      "bytes": 7163,
+      "sha256": "83e52df556739786c97e4cb8ef6a7854d0d9a5fb36ca197b6bdc0b7597d09a3e",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-solver.mjs",
+      "language": "JavaScript",
+      "bytes": 2387,
+      "sha256": "2e23ae4e594c0947d15b21cdcd0422ad27e2bc3c2ac3af40293703c208906bfb",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-tangent.mjs",
+      "language": "JavaScript",
+      "bytes": 1991,
+      "sha256": "9b35daecd9efd68908e393998271f63cbc5728a5a2c4821560010ff5786f285c",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-feature-v2/web/anatomical-transfer.mjs",
+      "language": "JavaScript",
+      "bytes": 1488,
+      "sha256": "1e82dabebf5a6247af9216a70292216b194a52545abf8f3b73c93ee6e2f22431",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-aponeurosis.mjs",
+      "language": "JavaScript",
+      "bytes": 4123,
+      "sha256": "1dbebfd2ea67427ee0d962b7b234d2d40a2f2cd4616a4f1199e20b3aba7316a0",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-apparatus.mjs",
+      "language": "JavaScript",
+      "bytes": 15889,
+      "sha256": "be60e6a3ba4db34ee01a4cb531bcdd19f868645ef26e06e1e30daedbc360cb98",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-arm-worker.mjs",
+      "language": "JavaScript",
+      "bytes": 2903,
+      "sha256": "dfadf3136b8ecac0fd6275f059085636eb8953346d920ca69a4d4382fa7b39d5",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-arm.mjs",
+      "language": "JavaScript",
+      "bytes": 13086,
+      "sha256": "0590d0085cb02ce1c1ed8b1ed0000402b7bea023fcf4384461eb11fcefb14fe0",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 1413,
+      "sha256": "4f45bf4ce4459096e9595cd7bb1e0bcdfb0fafe858ee5da25444940604589f14",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-comparison.mjs",
+      "language": "JavaScript",
+      "bytes": 2240,
+      "sha256": "d812405b86541f756759bede9750071117edbab81e69efcfadf96f4f195fd09f",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-contact-differential.mjs",
+      "language": "JavaScript",
+      "bytes": 2811,
+      "sha256": "41a6e5276067216507a4ffcea885c23813aac3d2fa9e36b69030fafc2363b810",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-contact-refinement.mjs",
+      "language": "JavaScript",
+      "bytes": 6236,
+      "sha256": "cd995e20424fb268ddda22b4bfa50c2fcaab11294f33897f45275357b61d63cd",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-contact.mjs",
+      "language": "JavaScript",
+      "bytes": 13854,
+      "sha256": "08bcebcaeaed0f5cd502177eb09f0263efc2a953a08c2b232514e2a5017eecde",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-coupled-fixture.mjs",
+      "language": "JavaScript",
+      "bytes": 8519,
+      "sha256": "620afbb2e801f00ec361f5f1b5d39f010acc386812dcaa7239c0ca781d0bf4b9",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-coupled-worker.mjs",
+      "language": "JavaScript",
+      "bytes": 1357,
+      "sha256": "1c54d08f5e36ca837343fc96399ac85de8e92f8fe1ebd1d73a50e5885b93c435",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-distance.mjs",
+      "language": "JavaScript",
+      "bytes": 5951,
+      "sha256": "93e191f675afa9e2bb2a2a067cb3054512713d3de1e38eb9087f381a7554acc7",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-element.mjs",
+      "language": "JavaScript",
+      "bytes": 3397,
+      "sha256": "3f67a6bd31565c83d2cbea591c3cf1862a48e50cc4efa780880fda7e808d4b1f",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-fixture.mjs",
+      "language": "JavaScript",
+      "bytes": 5558,
+      "sha256": "d53b5dca829883b4e91c02e5b88f3ac745ce7510cf28aabfcbd6cb978353a30a",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-intersections.mjs",
+      "language": "JavaScript",
+      "bytes": 1298,
+      "sha256": "a083a9838ac3c7508b65b58329c741aef65a065288aff82fc886d1c2c90375df",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-material.mjs",
+      "language": "JavaScript",
+      "bytes": 3733,
+      "sha256": "e6ddf6cc391b417f03f5d122670036eb55ebe837ecbbc51d8535bd4e3e6d3a5b",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-modal.mjs",
+      "language": "JavaScript",
+      "bytes": 5352,
+      "sha256": "12cd671bc963aa04dd5c0e173a776049de191283d850b0b60d0fe8e63be4c9a1",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-newton.mjs",
+      "language": "JavaScript",
+      "bytes": 3887,
+      "sha256": "e0b2193bff56a3fdb9595fa0893c469b5897a31512a282ff7a9b5519b2fe93fe",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-preconditioner.mjs",
+      "language": "JavaScript",
+      "bytes": 1558,
+      "sha256": "d234cd800784a57171514139a17d0720bb1a9d4d1089afcd9e7c783cead1b0b4",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-retraction.mjs",
+      "language": "JavaScript",
+      "bytes": 3487,
+      "sha256": "f5c4ef1115bc2a385d86e232cb9a6a36f8f61cd56d823b3495284de8e9c71819",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-routing-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 1633,
+      "sha256": "e6ef4473a272c985cd05012cf4cbf424c45522b535c280ad5de49222dd459d9b",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-routing.mjs",
+      "language": "JavaScript",
+      "bytes": 7163,
+      "sha256": "83e52df556739786c97e4cb8ef6a7854d0d9a5fb36ca197b6bdc0b7597d09a3e",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-solver.mjs",
+      "language": "JavaScript",
+      "bytes": 2387,
+      "sha256": "2e23ae4e594c0947d15b21cdcd0422ad27e2bc3c2ac3af40293703c208906bfb",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-tangent.mjs",
+      "language": "JavaScript",
+      "bytes": 1991,
+      "sha256": "9b35daecd9efd68908e393998271f63cbc5728a5a2c4821560010ff5786f285c",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-gradient-v1/web/anatomical-transfer.mjs",
+      "language": "JavaScript",
+      "bytes": 1488,
+      "sha256": "1e82dabebf5a6247af9216a70292216b194a52545abf8f3b73c93ee6e2f22431",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/tools/anatomical-contact-experiment.mjs",
+      "language": "JavaScript",
+      "bytes": 6775,
+      "sha256": "71d5245128b508c3ad9925c0ca79c194b139e89b53c6c5a988ede249502f1f61",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-aponeurosis.mjs",
+      "language": "JavaScript",
+      "bytes": 4123,
+      "sha256": "1dbebfd2ea67427ee0d962b7b234d2d40a2f2cd4616a4f1199e20b3aba7316a0",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-apparatus.mjs",
+      "language": "JavaScript",
+      "bytes": 15889,
+      "sha256": "be60e6a3ba4db34ee01a4cb531bcdd19f868645ef26e06e1e30daedbc360cb98",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-arm-worker.mjs",
+      "language": "JavaScript",
+      "bytes": 2903,
+      "sha256": "dfadf3136b8ecac0fd6275f059085636eb8953346d920ca69a4d4382fa7b39d5",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-arm.mjs",
+      "language": "JavaScript",
+      "bytes": 13440,
+      "sha256": "9ec37ec7b23bb67643fef715f4554fc8811e897a581691231e6669fdd66c7569",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 1413,
+      "sha256": "4f45bf4ce4459096e9595cd7bb1e0bcdfb0fafe858ee5da25444940604589f14",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-comparison.mjs",
+      "language": "JavaScript",
+      "bytes": 2240,
+      "sha256": "d812405b86541f756759bede9750071117edbab81e69efcfadf96f4f195fd09f",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-contact-differential.mjs",
+      "language": "JavaScript",
+      "bytes": 3771,
+      "sha256": "76f107f5eb1c41fdf6622c428648babc5a489113a709fd337782b1b3de3cac0b",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-contact-refinement.mjs",
+      "language": "JavaScript",
+      "bytes": 6236,
+      "sha256": "cd995e20424fb268ddda22b4bfa50c2fcaab11294f33897f45275357b61d63cd",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-contact.mjs",
+      "language": "JavaScript",
+      "bytes": 17172,
+      "sha256": "2e0ce22d3880b4d681cb24d700f694ea2b3bf8fc64fc66519e8ba998813aee1e",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-coupled-fixture.mjs",
+      "language": "JavaScript",
+      "bytes": 8519,
+      "sha256": "620afbb2e801f00ec361f5f1b5d39f010acc386812dcaa7239c0ca781d0bf4b9",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-coupled-worker.mjs",
+      "language": "JavaScript",
+      "bytes": 1357,
+      "sha256": "1c54d08f5e36ca837343fc96399ac85de8e92f8fe1ebd1d73a50e5885b93c435",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-distance.mjs",
+      "language": "JavaScript",
+      "bytes": 6748,
+      "sha256": "e11826c97f160220fda68f72cbe5e73f35f9527edcf4a4d58100c467cb50940a",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-element.mjs",
+      "language": "JavaScript",
+      "bytes": 3397,
+      "sha256": "3f67a6bd31565c83d2cbea591c3cf1862a48e50cc4efa780880fda7e808d4b1f",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-fixture.mjs",
+      "language": "JavaScript",
+      "bytes": 5558,
+      "sha256": "d53b5dca829883b4e91c02e5b88f3ac745ce7510cf28aabfcbd6cb978353a30a",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-intersections.mjs",
+      "language": "JavaScript",
+      "bytes": 1298,
+      "sha256": "a083a9838ac3c7508b65b58329c741aef65a065288aff82fc886d1c2c90375df",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-material.mjs",
+      "language": "JavaScript",
+      "bytes": 3733,
+      "sha256": "e6ddf6cc391b417f03f5d122670036eb55ebe837ecbbc51d8535bd4e3e6d3a5b",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-modal.mjs",
+      "language": "JavaScript",
+      "bytes": 5352,
+      "sha256": "12cd671bc963aa04dd5c0e173a776049de191283d850b0b60d0fe8e63be4c9a1",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-newton.mjs",
+      "language": "JavaScript",
+      "bytes": 3887,
+      "sha256": "e0b2193bff56a3fdb9595fa0893c469b5897a31512a282ff7a9b5519b2fe93fe",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-preconditioner.mjs",
+      "language": "JavaScript",
+      "bytes": 1558,
+      "sha256": "d234cd800784a57171514139a17d0720bb1a9d4d1089afcd9e7c783cead1b0b4",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-retraction.mjs",
+      "language": "JavaScript",
+      "bytes": 3487,
+      "sha256": "f5c4ef1115bc2a385d86e232cb9a6a36f8f61cd56d823b3495284de8e9c71819",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-routing-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 1633,
+      "sha256": "e6ef4473a272c985cd05012cf4cbf424c45522b535c280ad5de49222dd459d9b",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-routing.mjs",
+      "language": "JavaScript",
+      "bytes": 7163,
+      "sha256": "83e52df556739786c97e4cb8ef6a7854d0d9a5fb36ca197b6bdc0b7597d09a3e",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-solver.mjs",
+      "language": "JavaScript",
+      "bytes": 2387,
+      "sha256": "2e23ae4e594c0947d15b21cdcd0422ad27e2bc3c2ac3af40293703c208906bfb",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-tangent.mjs",
+      "language": "JavaScript",
+      "bytes": 1991,
+      "sha256": "9b35daecd9efd68908e393998271f63cbc5728a5a2c4821560010ff5786f285c",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/contact-missed-soft-v3/web/anatomical-transfer.mjs",
+      "language": "JavaScript",
+      "bytes": 1488,
+      "sha256": "1e82dabebf5a6247af9216a70292216b194a52545abf8f3b73c93ee6e2f22431",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-aponeurosis.mjs",
+      "language": "JavaScript",
+      "bytes": 4123,
+      "sha256": "1dbebfd2ea67427ee0d962b7b234d2d40a2f2cd4616a4f1199e20b3aba7316a0",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-apparatus.mjs",
+      "language": "JavaScript",
+      "bytes": 15876,
+      "sha256": "e5ee0e7ff4138d31a476a2b8737dca19099b6c91779d5540513c5958b0a2b624",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-arm.mjs",
+      "language": "JavaScript",
+      "bytes": 11309,
+      "sha256": "81f449eca8d07d190d99f166aee4f96a9484929174fd0e12e08c821b9a676d8a",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 1413,
+      "sha256": "4f45bf4ce4459096e9595cd7bb1e0bcdfb0fafe858ee5da25444940604589f14",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-contact-differential.mjs",
+      "language": "JavaScript",
+      "bytes": 2811,
+      "sha256": "41a6e5276067216507a4ffcea885c23813aac3d2fa9e36b69030fafc2363b810",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-contact.mjs",
+      "language": "JavaScript",
+      "bytes": 12952,
+      "sha256": "9b6d718be4915b8b363e1cdc29d9b342f375eaa721e69d415f7c13aad5eeb9fa",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-distance.mjs",
+      "language": "JavaScript",
+      "bytes": 5951,
+      "sha256": "93e191f675afa9e2bb2a2a067cb3054512713d3de1e38eb9087f381a7554acc7",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-element.mjs",
+      "language": "JavaScript",
+      "bytes": 3397,
+      "sha256": "3f67a6bd31565c83d2cbea591c3cf1862a48e50cc4efa780880fda7e808d4b1f",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-intersections.mjs",
+      "language": "JavaScript",
+      "bytes": 1298,
+      "sha256": "a083a9838ac3c7508b65b58329c741aef65a065288aff82fc886d1c2c90375df",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-material.mjs",
+      "language": "JavaScript",
+      "bytes": 3733,
+      "sha256": "e6ddf6cc391b417f03f5d122670036eb55ebe837ecbbc51d8535bd4e3e6d3a5b",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-modal.mjs",
+      "language": "JavaScript",
+      "bytes": 5352,
+      "sha256": "12cd671bc963aa04dd5c0e173a776049de191283d850b0b60d0fe8e63be4c9a1",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-newton.mjs",
+      "language": "JavaScript",
+      "bytes": 3887,
+      "sha256": "e0b2193bff56a3fdb9595fa0893c469b5897a31512a282ff7a9b5519b2fe93fe",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-preconditioner.mjs",
+      "language": "JavaScript",
+      "bytes": 1558,
+      "sha256": "d234cd800784a57171514139a17d0720bb1a9d4d1089afcd9e7c783cead1b0b4",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-retraction.mjs",
+      "language": "JavaScript",
+      "bytes": 3487,
+      "sha256": "f5c4ef1115bc2a385d86e232cb9a6a36f8f61cd56d823b3495284de8e9c71819",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-routing-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 1633,
+      "sha256": "e6ef4473a272c985cd05012cf4cbf424c45522b535c280ad5de49222dd459d9b",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-routing.mjs",
+      "language": "JavaScript",
+      "bytes": 7163,
+      "sha256": "83e52df556739786c97e4cb8ef6a7854d0d9a5fb36ca197b6bdc0b7597d09a3e",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/loaded-attempt-inputs/web/anatomical-transfer.mjs",
+      "language": "JavaScript",
+      "bytes": 1488,
+      "sha256": "1e82dabebf5a6247af9216a70292216b194a52545abf8f3b73c93ee6e2f22431",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/rejected-rest-v1/snapshot/web/anatomical-aponeurosis.mjs",
+      "language": "JavaScript",
+      "bytes": 4123,
+      "sha256": "1dbebfd2ea67427ee0d962b7b234d2d40a2f2cd4616a4f1199e20b3aba7316a0",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/rejected-rest-v1/snapshot/web/anatomical-apparatus.mjs",
+      "language": "JavaScript",
+      "bytes": 15106,
+      "sha256": "060be01017fea5a56deb50ec0685f6932e14b1049cc81874934e810b02b98e28",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/rejected-rest-v1/snapshot/web/anatomical-arm.mjs",
+      "language": "JavaScript",
+      "bytes": 10856,
+      "sha256": "580c6a31e91704a08f442fdfa4268d31e15e8ec26face248f8f2fa714f54ed1a",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/rejected-rest-v1/snapshot/web/anatomical-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 1413,
+      "sha256": "4f45bf4ce4459096e9595cd7bb1e0bcdfb0fafe858ee5da25444940604589f14",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/rejected-rest-v1/snapshot/web/anatomical-contact-differential.mjs",
+      "language": "JavaScript",
+      "bytes": 2811,
+      "sha256": "41a6e5276067216507a4ffcea885c23813aac3d2fa9e36b69030fafc2363b810",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/rejected-rest-v1/snapshot/web/anatomical-contact.mjs",
+      "language": "JavaScript",
+      "bytes": 12952,
+      "sha256": "9b6d718be4915b8b363e1cdc29d9b342f375eaa721e69d415f7c13aad5eeb9fa",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/rejected-rest-v1/snapshot/web/anatomical-distance.mjs",
+      "language": "JavaScript",
+      "bytes": 5951,
+      "sha256": "93e191f675afa9e2bb2a2a067cb3054512713d3de1e38eb9087f381a7554acc7",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/rejected-rest-v1/snapshot/web/anatomical-element.mjs",
+      "language": "JavaScript",
+      "bytes": 3397,
+      "sha256": "3f67a6bd31565c83d2cbea591c3cf1862a48e50cc4efa780880fda7e808d4b1f",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/rejected-rest-v1/snapshot/web/anatomical-intersections.mjs",
+      "language": "JavaScript",
+      "bytes": 1298,
+      "sha256": "a083a9838ac3c7508b65b58329c741aef65a065288aff82fc886d1c2c90375df",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/rejected-rest-v1/snapshot/web/anatomical-material.mjs",
+      "language": "JavaScript",
+      "bytes": 3733,
+      "sha256": "e6ddf6cc391b417f03f5d122670036eb55ebe837ecbbc51d8535bd4e3e6d3a5b",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/rejected-rest-v1/snapshot/web/anatomical-modal.mjs",
+      "language": "JavaScript",
+      "bytes": 5352,
+      "sha256": "12cd671bc963aa04dd5c0e173a776049de191283d850b0b60d0fe8e63be4c9a1",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/rejected-rest-v1/snapshot/web/anatomical-newton.mjs",
+      "language": "JavaScript",
+      "bytes": 3806,
+      "sha256": "00281344873681bc3b18a83a5a6971942674a30caf05628fdf0967729d508893",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/rejected-rest-v1/snapshot/web/anatomical-preconditioner.mjs",
+      "language": "JavaScript",
+      "bytes": 1558,
+      "sha256": "d234cd800784a57171514139a17d0720bb1a9d4d1089afcd9e7c783cead1b0b4",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/rejected-rest-v1/snapshot/web/anatomical-routing-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 1633,
+      "sha256": "e6ef4473a272c985cd05012cf4cbf424c45522b535c280ad5de49222dd459d9b",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/rejected-rest-v1/snapshot/web/anatomical-routing.mjs",
+      "language": "JavaScript",
+      "bytes": 6833,
+      "sha256": "c1b91ab794c58f161d50110387c2eb5e002dbf319b604dfc71e0a6ef83bbca80",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/rejected-rest-v1/snapshot/web/anatomical-transfer.mjs",
+      "language": "JavaScript",
+      "bytes": 1488,
+      "sha256": "1e82dabebf5a6247af9216a70292216b194a52545abf8f3b73c93ee6e2f22431",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/release-source-transition-v1/tools/anatomical-bulk-step.mjs",
+      "language": "JavaScript",
+      "bytes": 8597,
+      "sha256": "fcb5bc3138229c762615ab97d17010ce71bc554edd3b90f127ac1e4b44320739",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/release-source-transition-v1/tools/anatomical-enriched-step.mjs",
+      "language": "JavaScript",
+      "bytes": 8949,
+      "sha256": "b2184cf8c5ddd30542cc8a48fa1a34738f4b88f69243acc582401a6e689ef946",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/release-source-transition-v1/tools/anatomical-release-refinement-experiment.mjs",
+      "language": "JavaScript",
+      "bytes": 3689,
+      "sha256": "cf3d5dd287c55c98949b8082b9a9bdbc78913fa400cbd90b73aa74f7e20058dc",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/release-source-transition-v1/web/anatomical-contact.mjs",
+      "language": "JavaScript",
+      "bytes": 17172,
+      "sha256": "2e0ce22d3880b4d681cb24d700f694ea2b3bf8fc64fc66519e8ba998813aee1e",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/audit/viewer-cache-load-driver.mjs",
+      "language": "JavaScript",
+      "bytes": 1194,
+      "sha256": "7578627689e29815b19079603e4e01ae50e15ee2434bce21636d4223abcdc1a5",
+      "counted": true
+    },
+    {
+      "path": "education/data/anatomical-arm-v1/scripts/fetch_shoulder_sources.py",
+      "language": "Python",
+      "bytes": 4109,
+      "sha256": "35da6122d947b22bfb905f06b893739de267427b12dc9b1840d4134306d5c241",
+      "counted": true
+    },
+    {
+      "path": "education/data/elbow-v1/scripts/build_manifest.py",
+      "language": "Python",
+      "bytes": 6100,
+      "sha256": "cd868976451d5f4408322fb0080458b4f9c09fb8cebd8682a1166a4fb0bbb3d0",
+      "counted": true
+    },
+    {
+      "path": "education/data/elbow-v1/scripts/fetch_atlas_subset.py",
+      "language": "Python",
+      "bytes": 1837,
+      "sha256": "7d8f9573942660390ef65d030279e1db02ce0889ae9f5103cf4b2791aa5dccde",
+      "counted": true
+    },
+    {
+      "path": "education/data/elbow-v1/scripts/fetch_documents.py",
+      "language": "Python",
+      "bytes": 4552,
+      "sha256": "5f63d3ce345435148d4983d6b4fba6909048c8cf308814eb3c386477e04510e9",
+      "counted": true
+    },
+    {
+      "path": "education/data/elbow-v1/scripts/fetch_sources.py",
+      "language": "Python",
+      "bytes": 4231,
+      "sha256": "fe29b1f1e8131dd5ec9c9c07ad1ef14fdb202317bd22f70d0d95681bfaa07c33",
+      "counted": true
+    },
+    {
+      "path": "education/data/elbow-v1/scripts/make_figures.py",
+      "language": "Python",
+      "bytes": 5258,
+      "sha256": "5824104dd5561917b730caf0c9411d7f9a540b971c9c60ccbefe299601f8336e",
+      "counted": true
+    },
+    {
+      "path": "education/data/elbow-v1/scripts/prepare_data.py",
+      "language": "Python",
+      "bytes": 12976,
+      "sha256": "e8a5c5cae1ac8e4752c7313844868e93f72968503f49f107506b6d4b11428a5c",
+      "counted": true
+    },
+    {
+      "path": "education/data/elbow-v1/scripts/read_openarm_safely.py",
+      "language": "Python",
+      "bytes": 4439,
+      "sha256": "febd235504fb3634bae9e50f05b4cef733dd49dc14d878078851044420022f89",
+      "counted": true
+    },
+    {
+      "path": "education/data/elbow-v1/scripts/validate_package.py",
+      "language": "Python",
+      "bytes": 4866,
+      "sha256": "6f4780ce800e164c99cb52ce70abfa9596ec59aef4a96ab251ed2d8240d8129c",
+      "counted": true
+    },
+    {
+      "path": "education/data/elbow-v1/sources/bodyparts_README.html",
+      "language": "HTML",
+      "bytes": 19263,
+      "sha256": "f9a90b4d945ad0fe50db45c712e931aa54e52667187b30d7085b6cc394f40107",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Downloaded upstream atlas documentation, not project-authored HTML."
+    },
+    {
+      "path": "education/data/elbow-v1/sources/bodyparts_license.html",
+      "language": "HTML",
+      "bytes": 14694,
+      "sha256": "07878f88d57f9d8acf88c6e33cf4d5cd3185a4c1ddae3904892720af006da423",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Downloaded upstream atlas documentation, not project-authored HTML."
+    },
+    {
+      "path": "education/data/elbow-v1/sources/bodyparts_release_4.0.html",
+      "language": "HTML",
+      "bytes": 6310,
+      "sha256": "771bd30a47ab11396eb6333e73a946426093c57fa4d4a1db8f718910fea7d985",
+      "counted": false,
+      "exclusion_kind": "dependency",
+      "reason": "Downloaded upstream atlas documentation, not project-authored HTML."
+    },
+    {
+      "path": "education/data/property-labs-v1/endpoint-warning-history/web/property-labs.mjs",
+      "language": "JavaScript",
+      "bytes": 6633,
+      "sha256": "e302e23845bebb2a314df612d4f48fea773de2dc6b0bd65daf6001c152721788",
+      "counted": true
+    },
+    {
+      "path": "education/data/property-labs-v1/endpoint-warning-history/web/tapered-bar.mjs",
+      "language": "JavaScript",
+      "bytes": 2868,
+      "sha256": "2b7a3ec5dcea86d4c0ac95eab02b91868aa3e2343298405b11f66783b374b9cc",
+      "counted": true
+    },
+    {
+      "path": "education/data/property-labs-v1/review/first-preview/index.html",
+      "language": "HTML",
+      "bytes": 32724,
+      "sha256": "0a45ca0ac9cc8db356fe42536fe4010be90efcef635e44c8b363881faadb9c9d",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Pandoc-rendered preview output; source templates and build script remain eligible."
+    },
+    {
+      "path": "education/data/property-labs-v1/review/first-preview/web/continuum-properties.mjs",
+      "language": "JavaScript",
+      "bytes": 5153,
+      "sha256": "29bcfa030f0a1af6d0c17ed72e2801f580c69c5fa45af26459e1028ba5dc5753",
+      "counted": true
+    },
+    {
+      "path": "education/data/property-labs-v1/review/first-preview/web/property-labs.mjs",
+      "language": "JavaScript",
+      "bytes": 6641,
+      "sha256": "deb2e1a1b49a021a31b32e93fd52662cc6755dcbe5f77cb7bf5451cd10f3e8ad",
+      "counted": true
+    },
+    {
+      "path": "education/data/property-labs-v1/review/first-preview/web/tapered-bar.mjs",
+      "language": "JavaScript",
+      "bytes": 2478,
+      "sha256": "f17a6d4d89f2e6f3d5d4bca060e4bae08c375c3dc8aeee9a2cc58c480acd835f",
+      "counted": true
+    },
+    {
+      "path": "education/proofs/ActuatorConstitutiveReal.lean",
+      "language": "Lean",
+      "bytes": 11852,
+      "sha256": "ca84ad202854c712c05d58d948b16f9bc48e1b7b557613124ebb2920f41c6453",
+      "counted": true
+    },
+    {
+      "path": "education/proofs/AnatomicalArm.lean",
+      "language": "Lean",
+      "bytes": 1948,
+      "sha256": "843f04f8e8f5c81a902d6816f0136726d006be6574aff5245360b8c2006ef025",
+      "counted": true
+    },
+    {
+      "path": "education/proofs/AnatomicalTransfer.lean",
+      "language": "Lean",
+      "bytes": 1309,
+      "sha256": "9c733f15d8b9016646bc024764595bb750041dd84cb0db4c0f0d896d4be423c8",
+      "counted": true
+    },
+    {
+      "path": "education/proofs/ArchitectureForce.lean",
+      "language": "Lean",
+      "bytes": 2711,
+      "sha256": "36f96515d885c06b824c3b6aa3fb8e915175fe4c3dbb441f0a143448399f746c",
+      "counted": true
+    },
+    {
+      "path": "education/proofs/ContinuumProperties.lean",
+      "language": "Lean",
+      "bytes": 1931,
+      "sha256": "33945605131f1a0fc3568467cbc1026463867a8fa241fb25e2174c23a229f12e",
+      "counted": true
+    },
+    {
+      "path": "education/proofs/CoupledMechanics.lean",
+      "language": "Lean",
+      "bytes": 3996,
+      "sha256": "84c4e1ad43e792d0fd530996e4814102fc3d31c1c5b3a689bf4ce6c060a4c2ab",
+      "counted": true
+    },
+    {
+      "path": "education/proofs/DissipativeBarReal.lean",
+      "language": "Lean",
+      "bytes": 6344,
+      "sha256": "7368497bd84dcb8ab8e020270a4823d233424601b0225e546393114b7141c972",
+      "counted": true
+    },
+    {
+      "path": "education/proofs/MaterialResponse.lean",
+      "language": "Lean",
+      "bytes": 1858,
+      "sha256": "8ce7f4b5bf4b68f9eeb0d85b06925f417995f945b64498a4533347ead1864092",
+      "counted": true
+    },
+    {
+      "path": "education/proofs/MaterialResponseReal.lean",
+      "language": "Lean",
+      "bytes": 2046,
+      "sha256": "2e30769e073b719b66cfcb38c527d7319034fcf55f2723771a54405337e53258",
+      "counted": true
+    },
+    {
+      "path": "education/proofs/Mechanics.lean",
+      "language": "Lean",
+      "bytes": 4824,
+      "sha256": "6b45c1d9a32fbd0cf6e034d3e4d15d26dc720215afe6845bbbb9d7de07bff2fd",
+      "counted": true
+    },
+    {
+      "path": "education/proofs/MechanicsReal.lean",
+      "language": "Lean",
+      "bytes": 1257,
+      "sha256": "aff41fbe28d5d546f1af36b1187c427cc536ea5c2853017d1539ac35ea645cdf",
+      "counted": true
+    },
+    {
+      "path": "education/proofs/MixedLogVolume.lean",
+      "language": "Lean",
+      "bytes": 11215,
+      "sha256": "d1411e4068ea99b9f7a85fd0a573e9ecd976b260617d0f209b6baebb3ae7e15e",
+      "counted": true
+    },
+    {
+      "path": "education/proofs/NonuniformIsochoric.lean",
+      "language": "Lean",
+      "bytes": 3756,
+      "sha256": "99029516cf26fca5a82cbd2971c13f9d9d1e6a10face1d71704a6185b7a731ea",
+      "counted": true
+    },
+    {
+      "path": "education/proofs/SerialSpecimenReal.lean",
+      "language": "Lean",
+      "bytes": 6275,
+      "sha256": "b0b4ccb250f7a10561c66fc32def5aad4f3ec900eeb3575a3e8bd4aacf0f3fbe",
+      "counted": true
+    },
+    {
+      "path": "education/review/accepted-book-integration/projection-negatives/unweighted-group-mean.html",
+      "language": "HTML",
+      "bytes": 24068,
+      "sha256": "080616e5e7f9e1fc4a9a228ac6ebb9a3932b88fc69a8f1064f89231ca00ea422",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Programmatically mutated negative-test output, generated from the maintained standalone source."
+    },
+    {
+      "path": "education/review/accepted-book-integration/projection-negatives/wrong-residual-vector.html",
+      "language": "HTML",
+      "bytes": 24106,
+      "sha256": "b68117bac55d87fc96623e491c066d75500940448f30f74737489b1a3b3060ef",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Programmatically mutated negative-test output, generated from the maintained standalone source."
+    },
+    {
+      "path": "education/review/accepted-book-integration/serial-runtime-negatives/negative-controls/display-lateral-volume/serial-lab.mjs",
+      "language": "JavaScript",
+      "bytes": 17070,
+      "sha256": "b6fabb38e0435c3b3df331959e7c5f350d5332d1d28586d23cf4f81c4cc61832",
+      "counted": true
+    },
+    {
+      "path": "education/review/accepted-book-integration/serial-runtime-negatives/negative-controls/nominal-current-area/serial-specimen.mjs",
+      "language": "JavaScript",
+      "bytes": 6681,
+      "sha256": "b4c81ea8747196cdb53fca88be66887166ed9a42d8859db792d6e20e80c34d6c",
+      "counted": true
+    },
+    {
+      "path": "education/review/accepted-book-integration/sls-runtime-negatives/negative-controls/forged-loss/delivered-dissipative-bar.mjs",
+      "language": "JavaScript",
+      "bytes": 7838,
+      "sha256": "0956c39a31e5d9c69ef534b2bb83f88b09dc8a9c2846d09d2cb06ce90965fd6d",
+      "counted": true
+    },
+    {
+      "path": "education/review/accepted-book-integration/sls-runtime-negatives/negative-controls/lost-extension-hold/delivered-dissipative-bar.mjs",
+      "language": "JavaScript",
+      "bytes": 7814,
+      "sha256": "76bf0410ed70fa54dccf19bfd37de46ff115388d8a2e3b7889f24ee33e9c1ec7",
+      "counted": true
+    },
+    {
+      "path": "education/review/dissipative-lesson/collect_evidence.py",
+      "language": "Python",
+      "bytes": 5950,
+      "sha256": "4c7f1929650cb2c0daa6fff89d92569f74cd86ddeaa90347c489734059e22935",
+      "counted": true
+    },
+    {
+      "path": "education/review/dissipative-lesson/standalone-569e/negative-controls/forged-loss/delivered-dissipative-bar.mjs",
+      "language": "JavaScript",
+      "bytes": 7838,
+      "sha256": "0956c39a31e5d9c69ef534b2bb83f88b09dc8a9c2846d09d2cb06ce90965fd6d",
+      "counted": true
+    },
+    {
+      "path": "education/review/dissipative-lesson/standalone-569e/negative-controls/lost-extension-hold/delivered-dissipative-bar.mjs",
+      "language": "JavaScript",
+      "bytes": 7814,
+      "sha256": "76bf0410ed70fa54dccf19bfd37de46ff115388d8a2e3b7889f24ee33e9c1ec7",
+      "counted": true
+    },
+    {
+      "path": "education/review/dissipative-real/qualify.py",
+      "language": "Python",
+      "bytes": 4610,
+      "sha256": "a432645ba4d41937a1abbae254807a8b4719896def9b3a556ae8b1b2113a60fb",
+      "counted": true
+    },
+    {
+      "path": "education/review/pr8-print-readability/negative/actual-book-negative-check.py",
+      "language": "Python",
+      "bytes": 3672,
+      "sha256": "7973102d0b34992446451028cdd75eaa4a6afc08ed84b240c208308c07c5a0a3",
+      "counted": true
+    },
+    {
+      "path": "education/review/pr8-print-readability/proofs/ActuatorConstitutiveReal.lean",
+      "language": "Lean",
+      "bytes": 11852,
+      "sha256": "ca84ad202854c712c05d58d948b16f9bc48e1b7b557613124ebb2920f41c6453",
+      "counted": true
+    },
+    {
+      "path": "education/review/pr8-print-readability/proofs/AnatomicalArm.lean",
+      "language": "Lean",
+      "bytes": 1948,
+      "sha256": "843f04f8e8f5c81a902d6816f0136726d006be6574aff5245360b8c2006ef025",
+      "counted": true
+    },
+    {
+      "path": "education/review/pr8-print-readability/proofs/AnatomicalTransfer.lean",
+      "language": "Lean",
+      "bytes": 1309,
+      "sha256": "9c733f15d8b9016646bc024764595bb750041dd84cb0db4c0f0d896d4be423c8",
+      "counted": true
+    },
+    {
+      "path": "education/review/pr8-print-readability/proofs/ContinuumProperties.lean",
+      "language": "Lean",
+      "bytes": 1931,
+      "sha256": "33945605131f1a0fc3568467cbc1026463867a8fa241fb25e2174c23a229f12e",
+      "counted": true
+    },
+    {
+      "path": "education/review/pr8-print-readability/proofs/CoupledMechanics.lean",
+      "language": "Lean",
+      "bytes": 3996,
+      "sha256": "84c4e1ad43e792d0fd530996e4814102fc3d31c1c5b3a689bf4ce6c060a4c2ab",
+      "counted": true
+    },
+    {
+      "path": "education/review/pr8-print-readability/proofs/MaterialResponse.lean",
+      "language": "Lean",
+      "bytes": 1858,
+      "sha256": "8ce7f4b5bf4b68f9eeb0d85b06925f417995f945b64498a4533347ead1864092",
+      "counted": true
+    },
+    {
+      "path": "education/review/pr8-print-readability/proofs/MaterialResponseReal.lean",
+      "language": "Lean",
+      "bytes": 2046,
+      "sha256": "2e30769e073b719b66cfcb38c527d7319034fcf55f2723771a54405337e53258",
+      "counted": true
+    },
+    {
+      "path": "education/review/pr8-print-readability/proofs/Mechanics.lean",
+      "language": "Lean",
+      "bytes": 4824,
+      "sha256": "6b45c1d9a32fbd0cf6e034d3e4d15d26dc720215afe6845bbbb9d7de07bff2fd",
+      "counted": true
+    },
+    {
+      "path": "education/review/pr8-print-readability/proofs/MechanicsReal.lean",
+      "language": "Lean",
+      "bytes": 1257,
+      "sha256": "aff41fbe28d5d546f1af36b1187c427cc536ea5c2853017d1539ac35ea645cdf",
+      "counted": true
+    },
+    {
+      "path": "education/review/pr8-print-readability/rejected-approach/pr8-native-beforeprint-review.py",
+      "language": "Python",
+      "bytes": 3109,
+      "sha256": "5a7a38f624b536017505761a44a7e707888a4c1a0ae6f4a5f0c316b88cd93dc9",
+      "counted": true
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/artifacts/proofs/ActuatorConstitutiveReal.lean",
+      "language": "Lean",
+      "bytes": 11852,
+      "sha256": "ca84ad202854c712c05d58d948b16f9bc48e1b7b557613124ebb2920f41c6453",
+      "counted": true
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/artifacts/proofs/AnatomicalArm.lean",
+      "language": "Lean",
+      "bytes": 1948,
+      "sha256": "843f04f8e8f5c81a902d6816f0136726d006be6574aff5245360b8c2006ef025",
+      "counted": true
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/artifacts/proofs/AnatomicalTransfer.lean",
+      "language": "Lean",
+      "bytes": 1309,
+      "sha256": "9c733f15d8b9016646bc024764595bb750041dd84cb0db4c0f0d896d4be423c8",
+      "counted": true
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/artifacts/proofs/ContinuumProperties.lean",
+      "language": "Lean",
+      "bytes": 1931,
+      "sha256": "33945605131f1a0fc3568467cbc1026463867a8fa241fb25e2174c23a229f12e",
+      "counted": true
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/artifacts/proofs/CoupledMechanics.lean",
+      "language": "Lean",
+      "bytes": 3996,
+      "sha256": "84c4e1ad43e792d0fd530996e4814102fc3d31c1c5b3a689bf4ce6c060a4c2ab",
+      "counted": true
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/artifacts/proofs/DissipativeBarReal.lean",
+      "language": "Lean",
+      "bytes": 6344,
+      "sha256": "7368497bd84dcb8ab8e020270a4823d233424601b0225e546393114b7141c972",
+      "counted": true
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/artifacts/proofs/MaterialResponse.lean",
+      "language": "Lean",
+      "bytes": 1858,
+      "sha256": "8ce7f4b5bf4b68f9eeb0d85b06925f417995f945b64498a4533347ead1864092",
+      "counted": true
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/artifacts/proofs/MaterialResponseReal.lean",
+      "language": "Lean",
+      "bytes": 2046,
+      "sha256": "2e30769e073b719b66cfcb38c527d7319034fcf55f2723771a54405337e53258",
+      "counted": true
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/artifacts/proofs/Mechanics.lean",
+      "language": "Lean",
+      "bytes": 4824,
+      "sha256": "6b45c1d9a32fbd0cf6e034d3e4d15d26dc720215afe6845bbbb9d7de07bff2fd",
+      "counted": true
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/artifacts/proofs/MechanicsReal.lean",
+      "language": "Lean",
+      "bytes": 1257,
+      "sha256": "aff41fbe28d5d546f1af36b1187c427cc536ea5c2853017d1539ac35ea645cdf",
+      "counted": true
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/artifacts/proofs/MixedLogVolume.lean",
+      "language": "Lean",
+      "bytes": 11215,
+      "sha256": "d1411e4068ea99b9f7a85fd0a573e9ecd976b260617d0f209b6baebb3ae7e15e",
+      "counted": true
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/artifacts/proofs/SerialSpecimenReal.lean",
+      "language": "Lean",
+      "bytes": 6275,
+      "sha256": "b0b4ccb250f7a10561c66fc32def5aad4f3ec900eeb3575a3e8bd4aacf0f3fbe",
+      "counted": true
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/projection-runtime-negatives/unweighted-group-mean.html",
+      "language": "HTML",
+      "bytes": 24155,
+      "sha256": "4e63ce09d2137b9438a0ff400cb0fc6973a838f7bd3c2e95ef3ff92c6a2030bd",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Programmatically mutated negative-test output, generated from the maintained standalone source."
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/projection-runtime-negatives/wrong-residual-vector.html",
+      "language": "HTML",
+      "bytes": 24193,
+      "sha256": "f14cdf59435eea035ce6fa4f50702df7e6c39c663d13e8054e04d3840c294460",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Programmatically mutated negative-test output, generated from the maintained standalone source."
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/serial-runtime-negatives/negative-controls/display-lateral-volume/serial-lab.mjs",
+      "language": "JavaScript",
+      "bytes": 17070,
+      "sha256": "b6fabb38e0435c3b3df331959e7c5f350d5332d1d28586d23cf4f81c4cc61832",
+      "counted": true
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/serial-runtime-negatives/negative-controls/nominal-current-area/serial-specimen.mjs",
+      "language": "JavaScript",
+      "bytes": 6681,
+      "sha256": "b4c81ea8747196cdb53fca88be66887166ed9a42d8859db792d6e20e80c34d6c",
+      "counted": true
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/sls-runtime-negatives/negative-controls/forged-loss/delivered-dissipative-bar.mjs",
+      "language": "JavaScript",
+      "bytes": 7838,
+      "sha256": "0956c39a31e5d9c69ef534b2bb83f88b09dc8a9c2846d09d2cb06ce90965fd6d",
+      "counted": true
+    },
+    {
+      "path": "education/review/projection-responsive-successor/qualification/sls-runtime-negatives/negative-controls/lost-extension-hold/delivered-dissipative-bar.mjs",
+      "language": "JavaScript",
+      "bytes": 7814,
+      "sha256": "76bf0410ed70fa54dccf19bfd37de46ff115388d8a2e3b7889f24ee33e9c1ec7",
+      "counted": true
+    },
+    {
+      "path": "education/review/real-constitutive/qualification-8/ActuatorConstitutiveReal.lean",
+      "language": "Lean",
+      "bytes": 8381,
+      "sha256": "abe172753acde3dafa097f8942dd0663651459dd54e721e65ac16ef4f8f36a8a",
+      "counted": true
+    },
+    {
+      "path": "education/review/real-constitutive/qualify.py",
+      "language": "Python",
+      "bytes": 3870,
+      "sha256": "9aa55dac846620bcc825dd850ea27d15f5f0346015c245314ea42aaf71a00046",
+      "counted": true
+    },
+    {
+      "path": "education/review/real-domain-claims/continue-qualification.sh",
+      "language": "Shell",
+      "bytes": 820,
+      "sha256": "7bb6a3f86770429c9f395edb13daabca8dcf34f9f27b8966d17c1222239f70b7",
+      "counted": true
+    },
+    {
+      "path": "education/review/real-domain-claims/qualified-53/negative_controls.py",
+      "language": "Python",
+      "bytes": 2575,
+      "sha256": "d885387c0ecd2ffd640a92c2f6a6ce98be304c65131687e665b444f29c2e329e",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-readable/negative/actual-book-negative-check.py",
+      "language": "Python",
+      "bytes": 3678,
+      "sha256": "3e900daaac8463fd8ba9f341c2664214a49fe1c580b27da2aaafbe2ee2b0839f",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-readable/negative/actual-rebundled-serial/negative-controls/display-lateral-volume/serial-lab.mjs",
+      "language": "JavaScript",
+      "bytes": 17018,
+      "sha256": "026afeebb802e71207ecabc6d19026958dd0e09abdcdc0c27c9169924435676a",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-readable/negative/actual-rebundled-serial/negative-controls/nominal-current-area/serial-specimen.mjs",
+      "language": "JavaScript",
+      "bytes": 6681,
+      "sha256": "b4c81ea8747196cdb53fca88be66887166ed9a42d8859db792d6e20e80c34d6c",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-readable/proofs/ActuatorConstitutiveReal.lean",
+      "language": "Lean",
+      "bytes": 11852,
+      "sha256": "ca84ad202854c712c05d58d948b16f9bc48e1b7b557613124ebb2920f41c6453",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-readable/proofs/AnatomicalArm.lean",
+      "language": "Lean",
+      "bytes": 1948,
+      "sha256": "843f04f8e8f5c81a902d6816f0136726d006be6574aff5245360b8c2006ef025",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-readable/proofs/AnatomicalTransfer.lean",
+      "language": "Lean",
+      "bytes": 1309,
+      "sha256": "9c733f15d8b9016646bc024764595bb750041dd84cb0db4c0f0d896d4be423c8",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-readable/proofs/ContinuumProperties.lean",
+      "language": "Lean",
+      "bytes": 1931,
+      "sha256": "33945605131f1a0fc3568467cbc1026463867a8fa241fb25e2174c23a229f12e",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-readable/proofs/CoupledMechanics.lean",
+      "language": "Lean",
+      "bytes": 3996,
+      "sha256": "84c4e1ad43e792d0fd530996e4814102fc3d31c1c5b3a689bf4ce6c060a4c2ab",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-readable/proofs/DissipativeBarReal.lean",
+      "language": "Lean",
+      "bytes": 6344,
+      "sha256": "7368497bd84dcb8ab8e020270a4823d233424601b0225e546393114b7141c972",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-readable/proofs/MaterialResponse.lean",
+      "language": "Lean",
+      "bytes": 1858,
+      "sha256": "8ce7f4b5bf4b68f9eeb0d85b06925f417995f945b64498a4533347ead1864092",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-readable/proofs/MaterialResponseReal.lean",
+      "language": "Lean",
+      "bytes": 2046,
+      "sha256": "2e30769e073b719b66cfcb38c527d7319034fcf55f2723771a54405337e53258",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-readable/proofs/Mechanics.lean",
+      "language": "Lean",
+      "bytes": 4824,
+      "sha256": "6b45c1d9a32fbd0cf6e034d3e4d15d26dc720215afe6845bbbb9d7de07bff2fd",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-readable/proofs/MechanicsReal.lean",
+      "language": "Lean",
+      "bytes": 1257,
+      "sha256": "aff41fbe28d5d546f1af36b1187c427cc536ea5c2853017d1539ac35ea645cdf",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-readable/proofs/SerialSpecimenReal.lean",
+      "language": "Lean",
+      "bytes": 6275,
+      "sha256": "b0b4ccb250f7a10561c66fc32def5aad4f3ec900eeb3575a3e8bd4aacf0f3fbe",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-specimen-real/qualify.py",
+      "language": "Python",
+      "bytes": 4648,
+      "sha256": "fcc327ec2e2c748f4cf8a02205c153646fc643b343b69ca15d7a4ce1249481c5",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-specimen/standalone/negative-controls/display-lateral-volume/serial-lab.mjs",
+      "language": "JavaScript",
+      "bytes": 17018,
+      "sha256": "026afeebb802e71207ecabc6d19026958dd0e09abdcdc0c27c9169924435676a",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-specimen/standalone/negative-controls/nominal-current-area/serial-specimen.mjs",
+      "language": "JavaScript",
+      "bytes": 6681,
+      "sha256": "b4c81ea8747196cdb53fca88be66887166ed9a42d8859db792d6e20e80c34d6c",
+      "counted": true
+    },
+    {
+      "path": "education/review/serial-wording/focused-capture.py",
+      "language": "Python",
+      "bytes": 3980,
+      "sha256": "b4c1800b690803bd668a92d4bd1e43e6ca145cfcd18a0dab08db8ab75cf3acba",
+      "counted": true
+    },
+    {
+      "path": "education/standalone/pressure-projection-lab-check.py",
+      "language": "Python",
+      "bytes": 15390,
+      "sha256": "b76d1135fe791cfe1b4c3cbbb32ac7574057807ba60bffaab2aca2d506925e59",
+      "counted": true
+    },
+    {
+      "path": "education/standalone/pressure-projection-lab.html",
+      "language": "HTML",
+      "bytes": 24193,
+      "sha256": "571378f62222bac31dab5b210efe23891b7beb02ec69f5ca42d953ac00f51975",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical-coupling.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2764,
+      "sha256": "820d87b948f56722131a07e4f034a83f8f647c6688123910d16d3d3077557b5a",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical-distance.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1169,
+      "sha256": "0f54f409bd92b094a8df219e4d7bc770fed4930c0891f474b74d8facfab2f45f",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical-element.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2673,
+      "sha256": "9c52ae93dfb37159713f7ee2af4ea0b1e49996968529bcdf2cb339cf82cd7b84",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical-fixture.test.mjs",
+      "language": "JavaScript",
+      "bytes": 3181,
+      "sha256": "18b09dd0f8c52f0d4c38cccc79db6bdddab8f27bb46fd4dcdc5fec0917a7357e",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical-geometry.test.mjs",
+      "language": "JavaScript",
+      "bytes": 5513,
+      "sha256": "3250ddc6443d6e35962030ee77efcac5e9ecc0d6e6cc38d068be7688eadf015c",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical-material.test.mjs",
+      "language": "JavaScript",
+      "bytes": 3148,
+      "sha256": "78497312c83af858439d45fcd3449354676170fb9a7236d9f416af0f6edf917c",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical-newton.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2271,
+      "sha256": "d36489c7deac4af95f582f8e0b6c4b1d91c5bea4afc614729134dc89c0f8c1b4",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical-solver.test.mjs",
+      "language": "JavaScript",
+      "bytes": 622,
+      "sha256": "efa0052f3f300f847260282431f9b02c466b9d122c0b1a57b0413469db5fbbe8",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical-tangent.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1692,
+      "sha256": "164c251a9704a72420f86a22a07a5771e2818cd8afb945ad007b910b59bd74e6",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_apparatus.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2800,
+      "sha256": "d60f7f3a3abe756b3996c5bc040fdce0a2c788a69595f2a1d9e149643e625c23",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_arm_inspection.py",
+      "language": "Python",
+      "bytes": 5430,
+      "sha256": "51aba8b3a436845770dcce9c2a460376021028fed2b1f0ede44575b7127732e5",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_arm_state.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2021,
+      "sha256": "dd22f3b63ed80f8086f4804c8989c949eb9423ceea21e6858fa32ab2af5c26db",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_bernstein_orientation.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2327,
+      "sha256": "8dea008dcbb653859fd2bce76c1c581c4e68c5929a72d10e715b9862b1311045",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_comparison.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1245,
+      "sha256": "a14b89518a237b5b4e31043061a512ecacf8e2253b04a4d93bb400e9dfdc941f",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_compression_localization.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1067,
+      "sha256": "51e2d42ae33e9b26928fcc28482739ba826c6488fde1bba19b813833f9acd1bf",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_compression_quadrature.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4489,
+      "sha256": "7bb45094f73deb02d3e887c545d7ca2f916f2cbb889622f48540e34f182d685b",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_contact.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2868,
+      "sha256": "bae53b02f6b132a40642558b8434fa3386197c6338ff3dc8a181f9cd1dc6c92a",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_contact_diagnostic.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1660,
+      "sha256": "e6df5d1e8e8380f52e6af096a8f4679272c0724570c0f72dee56e4c15c8c45b7",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_contact_differential.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2526,
+      "sha256": "03114cd8f41776709c7304672f7adb69f61db1473cbae7f5d4373ffd492dd29a",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_contact_refinement.test.mjs",
+      "language": "JavaScript",
+      "bytes": 11521,
+      "sha256": "fd7f31683b46ac5d6ec4e8ace4bfab319215d855be2c73c1c3032c2909be9c91",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_dense_lineage.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1563,
+      "sha256": "843a4f974cfecd6b12a83d29067d2eb7980540b63b9276848c0673aff08912ae",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_dense_quadrature.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2856,
+      "sha256": "0f113d33baf77d808b973a04307a0da7354b31c70be273974903cd7c50dc333a",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_enrichment.test.mjs",
+      "language": "JavaScript",
+      "bytes": 5112,
+      "sha256": "09e04f9799b0b156e88ebb2fbdbc1f5a24827b96a910d2a3a609bfd3c941428f",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_inspection.py",
+      "language": "Python",
+      "bytes": 4156,
+      "sha256": "9d99d8be82cf4da08b780b751dfe66b534315090410acbdcab44cba9d9c89638",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_integration_refinement.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1719,
+      "sha256": "5b4f978df34ec6445f16dab93096c945f72ca7df5757c8434a9c2534c6624ea8",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_modal.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2125,
+      "sha256": "e4ca64afe6513cb8192942282dd3c505f1ed29f55c374ad64e5aac93cc13d052",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_nodal_probe.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2711,
+      "sha256": "aad0bf707a98308f6ae68c80d9a757dac087f4bbfc73dadfeff5e4f23ccfa5a7",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_prefix_cache.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1755,
+      "sha256": "1e56c9b7761b204da6aaafac653a38dc5f26742496c7d51b2d1ed12902f79022",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_reference.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2976,
+      "sha256": "8e48dd0fa55e48b1a7df8c308183f0a2f5c066c609abf7f5b50f1b7c3659255b",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_replay_contracts.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4517,
+      "sha256": "ea81c315d2fbee9105daa8c4ca740d78306b40a2fb16814c835a8935a24edc99",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_retraction.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2162,
+      "sha256": "a90c88b10eed8e9b3c2492dd7a1b4e8eb0ba4efbce676f5f049b49c2a9b841bd",
+      "counted": true
+    },
+    {
+      "path": "education/tests/anatomical_routing.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1689,
+      "sha256": "e6985c05b52c3d48a56a626a57009a0d5f5f13a832da2bccaf1a03177ccd9b3a",
+      "counted": true
+    },
+    {
+      "path": "education/tests/architecture_force_book_browser.py",
+      "language": "Python",
+      "bytes": 7135,
+      "sha256": "74ab541393250976eedf43577d70a65c274d8babaf059a5c5bd2bd01434997d8",
+      "counted": true
+    },
+    {
+      "path": "education/tests/architecture_force_browser.py",
+      "language": "Python",
+      "bytes": 11168,
+      "sha256": "a2c12080f4e87dbd54eb8c1db7e9430c6b47f881b4ee0903dba989bde331d8e5",
+      "counted": true
+    },
+    {
+      "path": "education/tests/arm_draw_resources.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2386,
+      "sha256": "5fb1cf9e4ba390822fda8dbacfa6103ca10e49938cf84043ccf3f4e8c46a80f1",
+      "counted": true
+    },
+    {
+      "path": "education/tests/artifacts.py",
+      "language": "Python",
+      "bytes": 18656,
+      "sha256": "c666952cfee63026cdfd5c2e8b06787da6277696550b2285fc2ed6f9c94974ea",
+      "counted": true
+    },
+    {
+      "path": "education/tests/browser.py",
+      "language": "Python",
+      "bytes": 24412,
+      "sha256": "56c509038f5d0e39c7bb4c0aab2c1ab8d8a3707df97150e8fc940873c06b8480",
+      "counted": true
+    },
+    {
+      "path": "education/tests/browser_capture.py",
+      "language": "Python",
+      "bytes": 833,
+      "sha256": "78e42b85e5e930cffaf34c6af12ae7e1dd177d114654481c120e11b72e6c3e97",
+      "counted": true
+    },
+    {
+      "path": "education/tests/chapter-examples.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4574,
+      "sha256": "ec8e66fea8ded345b05768bf08cf3637cc0a0580981253559432327b40df0f16",
+      "counted": true
+    },
+    {
+      "path": "education/tests/chapter_examples_browser.py",
+      "language": "Python",
+      "bytes": 10152,
+      "sha256": "a7efb44dbaa6cf1daaadad1caf308ef3271cce760f78e3cf929d282e0f78fd08",
+      "counted": true
+    },
+    {
+      "path": "education/tests/continuum-display.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2269,
+      "sha256": "f20afd8dacf9598b99e263c87f1ddc33150c2479ce87cbee03923b06c404d88f",
+      "counted": true
+    },
+    {
+      "path": "education/tests/continuum_properties.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2683,
+      "sha256": "a848fabdda1a3c483712357cf93338b0090d9d54b555898668a60de1412f84b1",
+      "counted": true
+    },
+    {
+      "path": "education/tests/coupled_inspection.py",
+      "language": "Python",
+      "bytes": 5723,
+      "sha256": "fd2de51f0956c2c86b4cb90db73eaec0cba93615908c9ce18000f15e508db242",
+      "counted": true
+    },
+    {
+      "path": "education/tests/current-pulse.test.mjs",
+      "language": "JavaScript",
+      "bytes": 3677,
+      "sha256": "13c95a476e8e194cd4c65ef9605ea3ee21152a0fa521411af5c466b01fb3690b",
+      "counted": true
+    },
+    {
+      "path": "education/tests/current-trace.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2887,
+      "sha256": "d57b553094627c3b0f7930e07643a853cc1ae4c56b320ecefe3800279d816b26",
+      "counted": true
+    },
+    {
+      "path": "education/tests/dissipative_bar.test.mjs",
+      "language": "JavaScript",
+      "bytes": 13057,
+      "sha256": "cd9faecf99eedd8d730c667f2d1a50a61c44efec3ad93d3a77a3d4b3b2b1b4d7",
+      "counted": true
+    },
+    {
+      "path": "education/tests/dissipative_browser.py",
+      "language": "Python",
+      "bytes": 17843,
+      "sha256": "b818343c1ad7b9b4719fe231372656b20dccdf61c631f7e731151904b3c45d2a",
+      "counted": true
+    },
+    {
+      "path": "education/tests/editorial_progression.py",
+      "language": "Python",
+      "bytes": 8934,
+      "sha256": "19d149a4848ce6964e6888e58e6b78ff63440e7381db515195b2f381039b0d6a",
+      "counted": true
+    },
+    {
+      "path": "education/tests/elbow.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2945,
+      "sha256": "8eeadb62601fbbf6ee2fd6a20a98de597b5c3381bea879f44493f16f7ae258a3",
+      "counted": true
+    },
+    {
+      "path": "education/tests/endpoint_warning_audit.py",
+      "language": "Python",
+      "bytes": 5174,
+      "sha256": "507c63336799d63b546ddcc426dea4c45da9c7b4519542a06f227a045f6eba79",
+      "counted": true
+    },
+    {
+      "path": "education/tests/energy-duration.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4202,
+      "sha256": "5b9ad356c29cf7f9f0d665c2d19b44997bc0102690de84739c6b1780e0305956",
+      "counted": true
+    },
+    {
+      "path": "education/tests/material_browser.py",
+      "language": "Python",
+      "bytes": 11284,
+      "sha256": "30e2e618acbe337276f299becd07cfb754cc9b3ff2630c1513ddfb0e945bb94e",
+      "counted": true
+    },
+    {
+      "path": "education/tests/material_response.test.mjs",
+      "language": "JavaScript",
+      "bytes": 5930,
+      "sha256": "3c69070ea025f1db2347159f8ca2b607b5a1a5fd952358b56e2a2a7dbf6467d4",
+      "counted": true
+    },
+    {
+      "path": "education/tests/mechanics.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2843,
+      "sha256": "0e9d32dccfa93d8854c033c4f357ae9e08d72bf57a5e00feed5b909a394e870b",
+      "counted": true
+    },
+    {
+      "path": "education/tests/mixed_volume_binding.py",
+      "language": "Python",
+      "bytes": 3324,
+      "sha256": "f79790fd55f3a9b88c5948066c6276bea5785b2f86553a4a67a12389b75ba168",
+      "counted": true
+    },
+    {
+      "path": "education/tests/mobile_startup.py",
+      "language": "Python",
+      "bytes": 8882,
+      "sha256": "c89d9dc9224d057b2555859adc319dccce93ba52f194a11acb86d8eee04ce680",
+      "counted": true
+    },
+    {
+      "path": "education/tests/nonuniform_browser.py",
+      "language": "Python",
+      "bytes": 4941,
+      "sha256": "39b50009b244861bae1bc9a77c501d2a4d929db29c9f609564ab41f5dbc1e625",
+      "counted": true
+    },
+    {
+      "path": "education/tests/projection_integration.py",
+      "language": "Python",
+      "bytes": 7506,
+      "sha256": "e517edf55e6f47273fdfc108c3c8598f9687201e8a016414b82672bbfc1a0070",
+      "counted": true
+    },
+    {
+      "path": "education/tests/projection_responsive.py",
+      "language": "Python",
+      "bytes": 7022,
+      "sha256": "4245c6c7cef0f5996343afa6996b104d42069f1df78dd772ca9d697996b58e0d",
+      "counted": true
+    },
+    {
+      "path": "education/tests/property-names.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1324,
+      "sha256": "260f35b79fbadb0e5452cfd927088f2d506ac4681e11a82199e2460e335b6631",
+      "counted": true
+    },
+    {
+      "path": "education/tests/property_browser.py",
+      "language": "Python",
+      "bytes": 9477,
+      "sha256": "98d7967e5e7a5fda66eb0202e427862b60458619b66f3b255fd21d601e3f261a",
+      "counted": true
+    },
+    {
+      "path": "education/tests/render_capture_rerun.py",
+      "language": "Python",
+      "bytes": 847,
+      "sha256": "7bec14e590b052d57f25630ff5d607467307d67cc470cb30fb80801102463cfa",
+      "counted": true
+    },
+    {
+      "path": "education/tests/serial_browser.py",
+      "language": "Python",
+      "bytes": 36986,
+      "sha256": "dd5e0ed23a625565a5c6cdff9ea4e0c3913fb71983cda1c8254783439ef2d24f",
+      "counted": true
+    },
+    {
+      "path": "education/tests/serial_specimen.test.mjs",
+      "language": "JavaScript",
+      "bytes": 11334,
+      "sha256": "3ce5eed8e2004b6082d23adda6c5b88d275fb3741ccad4bcf751ec27b26e1d30",
+      "counted": true
+    },
+    {
+      "path": "education/tests/series-force-length.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4336,
+      "sha256": "51d02b3f45e63590d0211444d3b326e9b81fa5b762363b28a27676165be78dda",
+      "counted": true
+    },
+    {
+      "path": "education/tests/series-tissue.test.mjs",
+      "language": "JavaScript",
+      "bytes": 3896,
+      "sha256": "0c4a95bc5444efad3ff13f8862e477bd2bbc265001f81afd805273b8a530367b",
+      "counted": true
+    },
+    {
+      "path": "education/tests/spatial.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4732,
+      "sha256": "2407469b23ca7d6c63f593206317a0d612e79c707ba05b4b47a776228c540523",
+      "counted": true
+    },
+    {
+      "path": "education/tests/spatial_controls.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4352,
+      "sha256": "76e35354f95cf4b66d8899de5f1ec9f1e80ccb47238c6e3df9e7abd3b74293cc",
+      "counted": true
+    },
+    {
+      "path": "education/tests/tapered_bar.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2134,
+      "sha256": "ddd97f34a65c680d2cb1b84a4ea4c8aaea05781151b21bdd28c22d22d5cfa978",
+      "counted": true
+    },
+    {
+      "path": "education/tests/teaching_controls_browser.py",
+      "language": "Python",
+      "bytes": 32913,
+      "sha256": "2c322932682e32d84e7c64e23e69f250d70cb8f7ef232b50162411b02177f4e9",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_architecture_force_integration.py",
+      "language": "Python",
+      "bytes": 24322,
+      "sha256": "f21e0e5398bbd265816564bdb52c9a71e89b0651d41e88f5e5c6159a75a4e458",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_architecture_force_qualification.py",
+      "language": "Python",
+      "bytes": 12648,
+      "sha256": "899c6e177eca5732c9d27c690caa7099cae4f6b061d291c353c843ca81d4b07b",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_browser_capture.py",
+      "language": "Python",
+      "bytes": 2129,
+      "sha256": "43f7a659f02a668a2e726c1497c729e531e3c0c1563349658fcdeb9e1a40314d",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_data_validation.py",
+      "language": "Python",
+      "bytes": 3776,
+      "sha256": "0b01079ebe6cea9f0d8d2686edcc443558e19fd0b184cceef65079d20c561985",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_endpoint_audit_contract.py",
+      "language": "Python",
+      "bytes": 3238,
+      "sha256": "b7d3dbee7d03b9f984d42b046e6e2a0dfd98a3356c68a13397c673edee0cecbd",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_historical_outputs.py",
+      "language": "Python",
+      "bytes": 3533,
+      "sha256": "aae636af2dc02eb0d4ed7cb11cb73dc75cc5160f300eca0532be822d23836bf7",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_install_lean.py",
+      "language": "Python",
+      "bytes": 4288,
+      "sha256": "47062061801c91d0b17e03515c21c8c701d837288a8c424b428a18709c0bb5a2",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_output_routing.py",
+      "language": "Python",
+      "bytes": 4742,
+      "sha256": "69e9df1fc7d9042ff60c9cf90898050feaca9e2e34f6550090febdb1a38bf522",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_package_acceptance.py",
+      "language": "Python",
+      "bytes": 9745,
+      "sha256": "cfcb93fa61cb2691c6567876fb75814e7c3e42bbfb107151629eec31800a553f",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_pdf_outline.py",
+      "language": "Python",
+      "bytes": 1693,
+      "sha256": "87a20135baa530ee185310a3503a4314c4b341a366fb877dc0b443f0ab779d9a",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_print_layout.py",
+      "language": "Python",
+      "bytes": 3296,
+      "sha256": "13eff932013069f7c1fc039054c5effd648a7f724bc96e81798dcc255f57bb8b",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_print_readability.py",
+      "language": "Python",
+      "bytes": 10962,
+      "sha256": "8abd605fd28d3cfbdf12dd119c78f7b9f8705fe4eb024f17695791f3004509a3",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_projection_print_limits.py",
+      "language": "Python",
+      "bytes": 1445,
+      "sha256": "593db2039822ae0794bdd4ce587241c5b125bb658373eaa5bcaa3919856df7f4",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_proof_statement.py",
+      "language": "Python",
+      "bytes": 1058,
+      "sha256": "0c58a6cb4af70ad2d31b73a8efeae31a9f59b53f3855d978086b064844e86276",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_real_lesson_proofs.py",
+      "language": "Python",
+      "bytes": 3713,
+      "sha256": "6458a82af46a1a4f4842940d697a955e8d04f4493e072c042f46babccbec842a",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_research_workspace.py",
+      "language": "Python",
+      "bytes": 2916,
+      "sha256": "a1abf1cd91ed029c7394c2e85e9af410e41c5e4d74db28b032b811beb3929fb7",
+      "counted": true
+    },
+    {
+      "path": "education/tests/test_source_documents.py",
+      "language": "Python",
+      "bytes": 5724,
+      "sha256": "44eba1c836b04863f84878a31146dddc932161aca3b1ab64a1b539e803d67e64",
+      "counted": true
+    },
+    {
+      "path": "education/tests/worker_lifecycle.py",
+      "language": "Python",
+      "bytes": 7877,
+      "sha256": "1bb4df1a406c11a7661c9d227d1c3f2942d75175d1d7a564c1acfa0f890dadfa",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-activation-continuation.mjs",
+      "language": "JavaScript",
+      "bytes": 2002,
+      "sha256": "bd3444b4c1c3152ecebd609271232cefb4da5538aa5bf23d17cd9eb05ccba807",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-apposition-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 3616,
+      "sha256": "82b7e3af8f1dcac0f38b61d14e49bf35af9612f6cc340bc08b69237f2e4dfd3d",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-arm-experiment.mjs",
+      "language": "JavaScript",
+      "bytes": 5550,
+      "sha256": "4ddb8ea14adb1b79a26b46c0a9c1c8825c0ddc3596dbf18fc4a992393257e057",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-arm-inspector.mjs",
+      "language": "JavaScript",
+      "bytes": 12315,
+      "sha256": "4ffc6e08beebea2beb1746ee1b7d405062f273f0c5b666c09e9a4bbec7340985",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-axis-constraints.mjs",
+      "language": "JavaScript",
+      "bytes": 3011,
+      "sha256": "f9b4f20086614ab81ef2c2312863e42afdced5972519193cd9f3788ebf2cf542",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-axis-fit.mjs",
+      "language": "JavaScript",
+      "bytes": 3527,
+      "sha256": "4dd2a673b94fdc12237627b956df63507ae00fc64e96f31f89fba18b84465782",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-bernstein-orientation.mjs",
+      "language": "JavaScript",
+      "bytes": 2690,
+      "sha256": "5622685f19e7fabdd820fee11268950f0f97c58dc4818dbae8652e320cc5ca95",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-bone-collision-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 2748,
+      "sha256": "17ef428195835834ce09ef770325f002d6498aacd7301042932bc525d2e45118",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-bulk-step.mjs",
+      "language": "JavaScript",
+      "bytes": 9146,
+      "sha256": "101f1026cd1d502529351bd54a86f4b32320d493a3934738b8ef41925f903794",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-calibration-nodal-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 8076,
+      "sha256": "9913c31591c2502222e4d7efcc746db72d85fc09f8b1a7a482dff7fdfdfb9fa2",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-compression-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 8334,
+      "sha256": "0b8a2285a846edf77ee053357d89501b09f47a8aa261e837196b72877b93a00e",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-compression-localization.mjs",
+      "language": "JavaScript",
+      "bytes": 5467,
+      "sha256": "ae42ce74dfecea37937788507bfd9b23649365e1d26dd22883c530bc17c45d3e",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-compression-quadrature.mjs",
+      "language": "JavaScript",
+      "bytes": 3919,
+      "sha256": "f12e0d80224bad5e0bfa0649e08cac2f31a0baf162e2547ae8767b7371f48dc2",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-contact-experiment.mjs",
+      "language": "JavaScript",
+      "bytes": 7188,
+      "sha256": "a258797940c1bb0e0db0882539d9a802e0fea4671dcec0b54188e2feea91fa75",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-coupling-experiment.mjs",
+      "language": "JavaScript",
+      "bytes": 4676,
+      "sha256": "857e16d34d5159e91b1da5dc51f860c6248c95248b803d11e19f0eb2ca537a47",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-dense-envelope-export.mjs",
+      "language": "JavaScript",
+      "bytes": 3592,
+      "sha256": "6a6f2c69a34530a6b4c1129b98c59936b3e6771bbc40eedbc61416be802ca59f",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-dense-interpolated-trajectory.mjs",
+      "language": "JavaScript",
+      "bytes": 7620,
+      "sha256": "3fbf3165941bb30d2d9e8dd0f8a807a4f99f321bd4d0dcd6150ac3d4a737465d",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-dense-loading-prefix.mjs",
+      "language": "JavaScript",
+      "bytes": 1650,
+      "sha256": "a9cc5490d880bc9e36732c56f5e0c35e0c536815c03ecfd3e8a678ae93f2d000",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-dense-quadrature.mjs",
+      "language": "JavaScript",
+      "bytes": 1885,
+      "sha256": "2a9279268cc9a3c206e400293add90a537d7222c62af5992e08bc6467a078210",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-dense-release-refinement.mjs",
+      "language": "JavaScript",
+      "bytes": 6936,
+      "sha256": "39b2b933b970f5c93e874a836fcfc338eedde3c267f06a060d3ab789cadcb57d",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-dense-step.mjs",
+      "language": "JavaScript",
+      "bytes": 6086,
+      "sha256": "1ee52cfe5465caef74ba689939fe5102a1442bc7de6917bb4b3ab812c8915f5a",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-dense-trajectory.mjs",
+      "language": "JavaScript",
+      "bytes": 6513,
+      "sha256": "2fc880378fdf639741af5db355dce7ee3fec674c2f859df49f53845ce8cda31b",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-enriched-step.mjs",
+      "language": "JavaScript",
+      "bytes": 9513,
+      "sha256": "eedd8ead9ce8ddef3988108fa234740be7c975a45dfacc31b35f17f75d79163e",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-fixed-end-compression-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 4814,
+      "sha256": "45e495b138f415a8f2e6f0a72452ced4e07f579903b21e0420f8979d79ee870a",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-fixture-experiment.mjs",
+      "language": "JavaScript",
+      "bytes": 4124,
+      "sha256": "ab2643c37480dd1908fec40bdd80b679e0c8cdbb4add28a260091abc43f77d02",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-further-integration-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 4060,
+      "sha256": "c5d49d8e9da6f4afbb5377dc467ac09fe3d5c2d5cb8f97a81d89a518d1bf79b2",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-integration-refinement.mjs",
+      "language": "JavaScript",
+      "bytes": 1706,
+      "sha256": "4e304b9132c914762f15d4f51dc058d67181161e35b4bf4c24789f8e9df1898f",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-modal-fixed-end.mjs",
+      "language": "JavaScript",
+      "bytes": 5472,
+      "sha256": "d76a02ad773db22d77664c3d975a3eb25e388e2e4604844cb3e441d25585f0d3",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-nodal-force-components.mjs",
+      "language": "JavaScript",
+      "bytes": 5889,
+      "sha256": "8b7331bf68592aa1177ce33f3979df9b55ff21bd80bc7e8cd01a1886ed9487b3",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-nodal-probe.mjs",
+      "language": "JavaScript",
+      "bytes": 7490,
+      "sha256": "ffa819b6a288baa409df0032d221226730632e39780891d6d20429afc84a14e3",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-radial-apposition.mjs",
+      "language": "JavaScript",
+      "bytes": 4149,
+      "sha256": "ae2bb1f53cffc8fad9bf1ac8dfb76a21906d6340f4c1d7c836aa586d68454d10",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-release-refinement-experiment.mjs",
+      "language": "JavaScript",
+      "bytes": 3974,
+      "sha256": "c8d04666085c2dc99f126ea8c22e4499bf93bc0e5fe7e27d349ce42e58e69c70",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-remesh-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 5448,
+      "sha256": "85e31a70caa7cd9198e79be4e08d3d752b638ab145580765a9606c40dc96fa4a",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-replay-contracts.mjs",
+      "language": "JavaScript",
+      "bytes": 7617,
+      "sha256": "44be10c84af345388c1c568d4d81904cab3e00dd82760e8a9f49208b69897756",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-surface.mjs",
+      "language": "JavaScript",
+      "bytes": 4623,
+      "sha256": "3ec6e654b267de4e9afddda4ebaf9a6dc10eb5ecf52a4f87b9f5cdf0f15b9401",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical-trajectory-orientation-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 4962,
+      "sha256": "9013d7ae7264948d1228fd642a52f4086f8b20222c65059f45bea92e4b496d57",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical_calibration_geometry.py",
+      "language": "Python",
+      "bytes": 2687,
+      "sha256": "24d757e391c6a05fa4f81644d4d93775bf5842de3868ee420ddb0067cab89bb4",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomical_pressure_space_audit.py",
+      "language": "Python",
+      "bytes": 3520,
+      "sha256": "056c30cc1526ec79e5df83329ee32a0992855e034e944f8600af81d2fdf91da5",
+      "counted": true
+    },
+    {
+      "path": "education/tools/anatomy-inspector.mjs",
+      "language": "JavaScript",
+      "bytes": 11767,
+      "sha256": "1760366fe89eaf27f8caedc39031f88d2033bdab8d0718a49c3b4c8fb3dec112",
+      "counted": true
+    },
+    {
+      "path": "education/tools/architecture_force_lab.py",
+      "language": "Python",
+      "bytes": 12021,
+      "sha256": "99b0eadaa31c33cd5fd6f1d9b2d80a92e8533c21c002629868d65c64b48209e4",
+      "counted": true
+    },
+    {
+      "path": "education/tools/bootstrap_proofwidgets.py",
+      "language": "Python",
+      "bytes": 3417,
+      "sha256": "241b72ae705d66de3783fe830ee01193152fee08c49cbe3ee405e17cdd219d74",
+      "counted": true
+    },
+    {
+      "path": "education/tools/build-anatomical-arm-inspector.mjs",
+      "language": "JavaScript",
+      "bytes": 7029,
+      "sha256": "bad5072d8918c7a82d8b1717ca2cc623481eddb587ec176791b1d6b66cd0a350",
+      "counted": true
+    },
+    {
+      "path": "education/tools/build-anatomical-attachments.mjs",
+      "language": "JavaScript",
+      "bytes": 6730,
+      "sha256": "06da5068e145d1a64524afbb248305b683c689ffbc046954e722120a2795b079",
+      "counted": true
+    },
+    {
+      "path": "education/tools/build-anatomical-geometry.mjs",
+      "language": "JavaScript",
+      "bytes": 13795,
+      "sha256": "26ac9454e11651619cc617941cf22dbdb7336a96dcebe21dac17b5ffe58f0dfc",
+      "counted": true
+    },
+    {
+      "path": "education/tools/build-anatomical-routes.mjs",
+      "language": "JavaScript",
+      "bytes": 1291,
+      "sha256": "a161dd76ff66d1d85fc43a727c5af40ef1196e25e3d9f73983fcbb19332f6d0e",
+      "counted": true
+    },
+    {
+      "path": "education/tools/build-anatomy-inspector.mjs",
+      "language": "JavaScript",
+      "bytes": 4805,
+      "sha256": "b5e100736ff8652a76e5ce18562a2e3ba3b1208b9aa9687aaa54386501e7e564",
+      "counted": true
+    },
+    {
+      "path": "education/tools/build-coupled-inspector.mjs",
+      "language": "JavaScript",
+      "bytes": 4721,
+      "sha256": "df3729da5ae63df3302395bc8b820f05c27b13e6c8453ad904d9298f9c19dc52",
+      "counted": true
+    },
+    {
+      "path": "education/tools/build-enriched-operator.py",
+      "language": "Python",
+      "bytes": 4065,
+      "sha256": "48123088ffd42db362854737d1adf000ed5a1418dc7683b4cdd51dd7ef3d16bb",
+      "counted": true
+    },
+    {
+      "path": "education/tools/build.py",
+      "language": "Python",
+      "bytes": 41463,
+      "sha256": "126a4579b69d989c63d39d510546ba18c7cfea530c5b2cbd28de58754a435043",
+      "counted": true
+    },
+    {
+      "path": "education/tools/build_dissipative_preview.py",
+      "language": "Python",
+      "bytes": 2226,
+      "sha256": "bfc86e3df64913a2b0c522491420d44e64268867215f155059f5e3c2e1e017a5",
+      "counted": true
+    },
+    {
+      "path": "education/tools/build_editorial_preview.py",
+      "language": "Python",
+      "bytes": 9128,
+      "sha256": "ea823c6ebb4ac9515ca26537c0af59fc0158177eee6f36c79171aded27ef28e6",
+      "counted": true
+    },
+    {
+      "path": "education/tools/build_material_preview.py",
+      "language": "Python",
+      "bytes": 7198,
+      "sha256": "012a7f49da412774a62724160299b2b3317e6818307f4a0cb08f62418713aa60",
+      "counted": true
+    },
+    {
+      "path": "education/tools/build_property_mathlib.py",
+      "language": "Python",
+      "bytes": 3913,
+      "sha256": "d63dfe2a12e2320bf2a91033635f7fde932cd48d976b4bc671f11f6921d0c451",
+      "counted": true
+    },
+    {
+      "path": "education/tools/build_property_preview.py",
+      "language": "Python",
+      "bytes": 2844,
+      "sha256": "0ddc45275a028737fd3c6620606fa047a8b7e0404ccea15165f12121f52e1fa6",
+      "counted": true
+    },
+    {
+      "path": "education/tools/build_serial_preview.py",
+      "language": "Python",
+      "bytes": 2668,
+      "sha256": "bed957622e80e541152c45299b040a262d0906c63842c6905e6356401ad8cfff",
+      "counted": true
+    },
+    {
+      "path": "education/tools/capstone-gap-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 4319,
+      "sha256": "130c7d03ee07c6580e9b6e27f69b28ed1cbb4081180a148b887fe3f338c4e8a0",
+      "counted": true
+    },
+    {
+      "path": "education/tools/capture-anatomical-review.py",
+      "language": "Python",
+      "bytes": 3137,
+      "sha256": "5903e43c039bbfaef2562f225c7dfb8447153a3669a121d6bca1294305834832",
+      "counted": true
+    },
+    {
+      "path": "education/tools/chapter_examples.py",
+      "language": "Python",
+      "bytes": 5706,
+      "sha256": "89466d594d83a6d3fc2f548ea8e2be9a6032e884cd289f019b595e4268fa5ac9",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_anatomical_proofs.py",
+      "language": "Python",
+      "bytes": 1995,
+      "sha256": "6279facc3f9bc0b6fd0f35ac82300cb5f47ffe93c44565704501ff3a1da47ef8",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_architecture_force_artifact.py",
+      "language": "Python",
+      "bytes": 7839,
+      "sha256": "6518f091be4aa07ca606de2860dfcd159790f181bd9a7e5f198d7339d284fdc7",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_arm_proofs.py",
+      "language": "Python",
+      "bytes": 1962,
+      "sha256": "bb3c44be5d35394b49d236414a448ac9f5c90394d7cbafc90f71b73083c08e32",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_coupled_proofs.py",
+      "language": "Python",
+      "bytes": 2001,
+      "sha256": "679b2f55f07152d7cf414d2203f7ff681397b50d13d8863f10e9efe5849de34f",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_dissipative_artifact.py",
+      "language": "Python",
+      "bytes": 3711,
+      "sha256": "2330f23ed84abcdfa1667248c27d7391cac7cee1e916f954bec6cd9d4f7ca49c",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_endpoint_warning_audit.py",
+      "language": "Python",
+      "bytes": 4162,
+      "sha256": "80bde17e50e91db0372566bf6b24d50b0075c54f2f115eb8e830006a14fbb74d",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_generated_outputs.py",
+      "language": "Python",
+      "bytes": 2196,
+      "sha256": "ea18d5d8d83d031f5c1c25814dd316b37ff66d5d0c612303b8242f320123905f",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_material_artifact.py",
+      "language": "Python",
+      "bytes": 3521,
+      "sha256": "01589238b5e6b4ef040beea2827502debd5885d197124265223a23ad9396d140",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_material_proofs.py",
+      "language": "Python",
+      "bytes": 2212,
+      "sha256": "7f2221aa62d7ab22ceed905ba03de6a8e83bde5dd828ecb72468336eb0fb4d02",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_mixed_volume_proofs.py",
+      "language": "Python",
+      "bytes": 10921,
+      "sha256": "7c6586de69f6885d9a55dadf7c33c1e03334559eda4366ff844fff3132a1c96a",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_print_readability.py",
+      "language": "Python",
+      "bytes": 19403,
+      "sha256": "828ab107718689043c85db4ec8232f41f5be7001021147cbce74506c7a555657",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_projection_artifact.py",
+      "language": "Python",
+      "bytes": 4149,
+      "sha256": "1129aaec11452bbd6f78e394500a18d4ef28a843ed0d6584dad171f5edf02ced",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_projection_print_limits.py",
+      "language": "Python",
+      "bytes": 2484,
+      "sha256": "a6a397da2d6699764de627102e1e8436d01921d131a6512bff9e8df7c2250f66",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_proofs.py",
+      "language": "Python",
+      "bytes": 2223,
+      "sha256": "1d966d82b8cd486b7ec687e8b906e0cbe6b3d75522c58b6ba5e81fc003744d80",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_property_proofs.py",
+      "language": "Python",
+      "bytes": 3557,
+      "sha256": "7b3ea07a7f8d8c880a581260a64cb1c733f7083ef4a8201747b6481aa0363073",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_real_lesson_artifact.py",
+      "language": "Python",
+      "bytes": 2411,
+      "sha256": "ead50fb596977d3d4e36e7343849e4d788942b4799f5bf8f35831e8d5fd7dd51",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_real_lesson_proofs.py",
+      "language": "Python",
+      "bytes": 4097,
+      "sha256": "26d67af3822259f859119ea85a58811e49638478d75bc292d3fe75467edce978",
+      "counted": true
+    },
+    {
+      "path": "education/tools/check_serial_artifact.py",
+      "language": "Python",
+      "bytes": 7771,
+      "sha256": "9e1aa5458b086363a6b35551405af79c3d73d5ce7d48e71c8a193ad5bcae39bc",
+      "counted": true
+    },
+    {
+      "path": "education/tools/contact_trajectory_figure.py",
+      "language": "Python",
+      "bytes": 2295,
+      "sha256": "be7d946de26c025a69c7547b462a8f9a1d0184a7ef50d6a076baac297345e55b",
+      "counted": true
+    },
+    {
+      "path": "education/tools/coupled-inspector.mjs",
+      "language": "JavaScript",
+      "bytes": 10300,
+      "sha256": "a55c7d9e0b4e168819010d84cf59bbf30a442d46f61eac0eca54118776b51319",
+      "counted": true
+    },
+    {
+      "path": "education/tools/coupled_figures.py",
+      "language": "Python",
+      "bytes": 2034,
+      "sha256": "f266569623c41626b88fcdc500d490dc0bed60949f32e3c8b146019ac2a20522",
+      "counted": true
+    },
+    {
+      "path": "education/tools/dense_envelope_figure.py",
+      "language": "Python",
+      "bytes": 3731,
+      "sha256": "1364f896718d4259649f0b0515d4d6ffc4734556a1ad5771a1be7099c186ac2a",
+      "counted": true
+    },
+    {
+      "path": "education/tools/dense_qualification_figure.py",
+      "language": "Python",
+      "bytes": 7501,
+      "sha256": "a2be84095d19a639e5cdee32478b51131cbb0ef9ad0f5d969bd6643ff2b4590a",
+      "counted": true
+    },
+    {
+      "path": "education/tools/dissipative-experiment.mjs",
+      "language": "JavaScript",
+      "bytes": 2811,
+      "sha256": "86382d7783addbe1b3f311bd4397e33ef5c815c0e1c53baf13a0be9e5bb09408",
+      "counted": true
+    },
+    {
+      "path": "education/tools/dissipative_lab.py",
+      "language": "Python",
+      "bytes": 4442,
+      "sha256": "a8348a69081b04ab4dc6a1118095ed546fc68e7a63992fa89268ebedaec3abbf",
+      "counted": true
+    },
+    {
+      "path": "education/tools/elbow-experiment.mjs",
+      "language": "JavaScript",
+      "bytes": 509,
+      "sha256": "c1a16bb2853c64ae56d4077ed78ef9ade3ea8904f4abb42694d40a536ce0903d",
+      "counted": true
+    },
+    {
+      "path": "education/tools/enriched-support.mjs",
+      "language": "JavaScript",
+      "bytes": 893,
+      "sha256": "cba5c6b23d83379f0518d3a6c529b3083da52d7cdc171561d54f560c5c37040f",
+      "counted": true
+    },
+    {
+      "path": "education/tools/enriched/anatomical-aponeurosis.mjs",
+      "language": "JavaScript",
+      "bytes": 4213,
+      "sha256": "edd317467c160f36f2253e31f43c3ac637a7530fb0e1279d914fd6aaae7ecfaa",
+      "counted": true
+    },
+    {
+      "path": "education/tools/enriched/anatomical-apparatus.mjs",
+      "language": "JavaScript",
+      "bytes": 16208,
+      "sha256": "f5f3a75ca4a5236553847fef6dbbb3c9e12f523a5e9de903bbf05b692e19c90a",
+      "counted": true
+    },
+    {
+      "path": "education/tools/enriched/anatomical-arm.mjs",
+      "language": "JavaScript",
+      "bytes": 13548,
+      "sha256": "a03ae162abb6e187f225b4a9d2c1ee9145537c47bb7911a612e5713369baeab5",
+      "counted": true
+    },
+    {
+      "path": "education/tools/enriched/anatomical-contact-refinement.mjs",
+      "language": "JavaScript",
+      "bytes": 7403,
+      "sha256": "253742ea3c05f66648390c80791a8f62ae77167a32509fd1aaaf253a343e2735",
+      "counted": true
+    },
+    {
+      "path": "education/tools/enriched/anatomical-contact.mjs",
+      "language": "JavaScript",
+      "bytes": 17264,
+      "sha256": "93a39356dac95b5214a6b6efbe1d4e3a0d64c3355fd3f1b03088c0347c053b37",
+      "counted": true
+    },
+    {
+      "path": "education/tools/enriched/anatomical-modal.mjs",
+      "language": "JavaScript",
+      "bytes": 1320,
+      "sha256": "fb74854f03615cd98556bc5236d6f0666289e0f1abaa3dead7a811297e288773",
+      "counted": true
+    },
+    {
+      "path": "education/tools/enriched/anatomical-retraction.mjs",
+      "language": "JavaScript",
+      "bytes": 3956,
+      "sha256": "84dfe7a1cc6864dec135b05c3740980d213fd66c2b9aa22da23d7c5596af4fad",
+      "counted": true
+    },
+    {
+      "path": "education/tools/evidence_figures.py",
+      "language": "Python",
+      "bytes": 3587,
+      "sha256": "063383efe18fefafd613aedeeeae408594366bb2f62ac7b47d267d5cb0c92545",
+      "counted": true
+    },
+    {
+      "path": "education/tools/executable_outputs.py",
+      "language": "Python",
+      "bytes": 1135,
+      "sha256": "aa12af59a98ea2a61dba5e82c8e2d336bcc658a537466285811e84653c326ddd",
+      "counted": true
+    },
+    {
+      "path": "education/tools/experiment.mjs",
+      "language": "JavaScript",
+      "bytes": 759,
+      "sha256": "ee95fe4af1e4c064e1da0a058094375b686b249a538fe95fafb60d1a36bd06d3",
+      "counted": true
+    },
+    {
+      "path": "education/tools/fetch_historical_outputs.py",
+      "language": "Python",
+      "bytes": 3544,
+      "sha256": "a0dc188722b1d82b7c9f1217ccc14fcc7e9d0b4bc167a9c45c96057b2f79b187",
+      "counted": true
+    },
+    {
+      "path": "education/tools/figures.py",
+      "language": "Python",
+      "bytes": 4928,
+      "sha256": "e3044e51893cba69c4302c91cdf17371ef245c6468ca5dc7fe6337adf40e515f",
+      "counted": true
+    },
+    {
+      "path": "education/tools/inspect_property_integration.py",
+      "language": "Python",
+      "bytes": 3464,
+      "sha256": "da83ee75403e1219ea172f863f6eaf81db36b9035fc80b555f87caaf530e38c2",
+      "counted": true
+    },
+    {
+      "path": "education/tools/inspect_real_lesson_proofs.py",
+      "language": "Python",
+      "bytes": 6375,
+      "sha256": "0dd620814b88bb67b974b5a20bd4ef835c8925dc6b1b2357aa1d2d8810027540",
+      "counted": true
+    },
+    {
+      "path": "education/tools/install_lean.py",
+      "language": "Python",
+      "bytes": 2853,
+      "sha256": "2baad06b3820d8caea584748a09114b14e2e6995899c7f9e7395fcc45419d001",
+      "counted": true
+    },
+    {
+      "path": "education/tools/material-experiment.mjs",
+      "language": "JavaScript",
+      "bytes": 1487,
+      "sha256": "886cddad23d07b8e308ff9091486f01642fbc002d62c8ac077fb65f4e200a679",
+      "counted": true
+    },
+    {
+      "path": "education/tools/material_lab.py",
+      "language": "Python",
+      "bytes": 3270,
+      "sha256": "1883011aa821a91cb7d35f25217a297b46552743448adad5394754bc8a818b69",
+      "counted": true
+    },
+    {
+      "path": "education/tools/nodal_force_figure.py",
+      "language": "Python",
+      "bytes": 4259,
+      "sha256": "82d2316d1b50ebef74586d0eb53dc5d48b1b81fa4a7282eb69f49c03ba2cf7cd",
+      "counted": true
+    },
+    {
+      "path": "education/tools/nonuniform_lab.py",
+      "language": "Python",
+      "bytes": 8151,
+      "sha256": "0ce9ae45eeb40495bcca71ce72347b15ebe7ef141c57b288c5f7fc26b1957353",
+      "counted": true
+    },
+    {
+      "path": "education/tools/ordinary_images.py",
+      "language": "Python",
+      "bytes": 453,
+      "sha256": "67b581d84261fc7086ebd6f60449e062dad64dd0f1fb88c91bb3e78a9772012a",
+      "counted": true
+    },
+    {
+      "path": "education/tools/package_anatomical_orientation.py",
+      "language": "Python",
+      "bytes": 2088,
+      "sha256": "787e2028c0294a3a344bd273309db44b844e18a05a8d7ddd66a9fa1188296d94",
+      "counted": true
+    },
+    {
+      "path": "education/tools/package_education_bundle.py",
+      "language": "Python",
+      "bytes": 12880,
+      "sha256": "119d69318cbad0b8526ef621f3e5d33ed407dae9092371ac2ba3809f1377ac09",
+      "counted": true
+    },
+    {
+      "path": "education/tools/partition-anatomical-origins.mjs",
+      "language": "JavaScript",
+      "bytes": 3979,
+      "sha256": "86a23b80316d444c5e118706cf64b2fa5338812b3544fdd078d3d8341bedb498",
+      "counted": true
+    },
+    {
+      "path": "education/tools/prepare_research_workspace.py",
+      "language": "Python",
+      "bytes": 2095,
+      "sha256": "d074b304e142920caa03cf5bb2d2a19505d2471f205522432839c9587b074be1",
+      "counted": true
+    },
+    {
+      "path": "education/tools/print_layout.js",
+      "language": "JavaScript",
+      "bytes": 2977,
+      "sha256": "9b1debc7db380c4913f9caafb2053f6ac9ab42c2145e60cd04aa86b52e647973",
+      "counted": true
+    },
+    {
+      "path": "education/tools/projection_figure.py",
+      "language": "Python",
+      "bytes": 1406,
+      "sha256": "d16e63466df65f62213918a7dfa2416e84fde000937bf8d02729865c75abade9",
+      "counted": true
+    },
+    {
+      "path": "education/tools/property-experiment.mjs",
+      "language": "JavaScript",
+      "bytes": 2221,
+      "sha256": "a248f76d166fc6a7eb7772bee227844391c920b4671b91d9a10078bfe23ff23c",
+      "counted": true
+    },
+    {
+      "path": "education/tools/property_labs.py",
+      "language": "Python",
+      "bytes": 4414,
+      "sha256": "7f384ed486743f90b3d3d1c621fa5bc1e5e14a2fadb23df80324ed7c3a42bc61",
+      "counted": true
+    },
+    {
+      "path": "education/tools/publication_data.py",
+      "language": "Python",
+      "bytes": 2200,
+      "sha256": "dc79088bac2a4cb894f0a0b83d4d0eab869d736491a869056ef854f2a16d0cfa",
+      "counted": true
+    },
+    {
+      "path": "education/tools/qualify_architecture_force.py",
+      "language": "Python",
+      "bytes": 14087,
+      "sha256": "4724b72e56dc8df52c9a1d7b7ce8fd72114857ca9bd99078314aabec2bcb0e54",
+      "counted": true
+    },
+    {
+      "path": "education/tools/qualify_dissipative_negatives.py",
+      "language": "Python",
+      "bytes": 3303,
+      "sha256": "bb98547a5deb574dee8b398a2fc2a180b4a8f68612eb9f33c3150af815048ac3",
+      "counted": true
+    },
+    {
+      "path": "education/tools/qualify_print_negatives.py",
+      "language": "Python",
+      "bytes": 3947,
+      "sha256": "7c3e442031756be10711062765773765727a5d5d2de8bd06251c7a70fbc25baf",
+      "counted": true
+    },
+    {
+      "path": "education/tools/qualify_projection_negatives.py",
+      "language": "Python",
+      "bytes": 6247,
+      "sha256": "e202ae4b46e7103a74f9c78abcdad95ebfc702508a3b403abc5675266d64373b",
+      "counted": true
+    },
+    {
+      "path": "education/tools/qualify_serial_negatives.py",
+      "language": "Python",
+      "bytes": 4518,
+      "sha256": "6cc21e05113cf32d79f8d539416b28a3b834daea075caee89b787ac67b2d0f66",
+      "counted": true
+    },
+    {
+      "path": "education/tools/recorded-inputs.mjs",
+      "language": "JavaScript",
+      "bytes": 1321,
+      "sha256": "de5d1d10b755c2dbb295766de6fe6a5c5463cf1ba97447258ace3c469e5eb66a",
+      "counted": true
+    },
+    {
+      "path": "education/tools/recorded_inputs.py",
+      "language": "Python",
+      "bytes": 875,
+      "sha256": "cd33a6e52133d50094df3073d1f9d51bd47612b164ca167023f63b13c06745b3",
+      "counted": true
+    },
+    {
+      "path": "education/tools/render_pdf.py",
+      "language": "Python",
+      "bytes": 7416,
+      "sha256": "0e61065149a6e3455584495da33b1457c0b7c7bde96928d0734073283f53ddb4",
+      "counted": true
+    },
+    {
+      "path": "education/tools/repair-anatomical-reference.mjs",
+      "language": "JavaScript",
+      "bytes": 9093,
+      "sha256": "0f48145d1eb0eafca5e6235260f76540708b1b7bc9458fcd36fc0ad7f395ec21",
+      "counted": true
+    },
+    {
+      "path": "education/tools/replay-rejected-arm-v1.mjs",
+      "language": "JavaScript",
+      "bytes": 3632,
+      "sha256": "065e25bf35468af53bd89498a43fa25a58238248ecef93c222b5c2cf2eb89f68",
+      "counted": true
+    },
+    {
+      "path": "education/tools/serial-experiment.mjs",
+      "language": "JavaScript",
+      "bytes": 3127,
+      "sha256": "bff0eb8efa12f4f72a25f6d045888fe409252b51ef937c6336230f5dce68bb04",
+      "counted": true
+    },
+    {
+      "path": "education/tools/serial_lab.py",
+      "language": "Python",
+      "bytes": 5878,
+      "sha256": "657adfdf0d1be6cf88daa69ee403c19d880a6061aea25c3870c9b69e79f1f7c5",
+      "counted": true
+    },
+    {
+      "path": "education/tools/series-experiment.mjs",
+      "language": "JavaScript",
+      "bytes": 1183,
+      "sha256": "e33700af40bcacd92bd022060c8fc1f8b86da1921481b5779c19ffd227aa394f",
+      "counted": true
+    },
+    {
+      "path": "education/tools/spatial-experiment.mjs",
+      "language": "JavaScript",
+      "bytes": 2672,
+      "sha256": "67e589e545a6c1d5ac37567477f40441df29afba7d516c657cd559c55e5c494c",
+      "counted": true
+    },
+    {
+      "path": "education/tools/spatial_figures.py",
+      "language": "Python",
+      "bytes": 4613,
+      "sha256": "00379529c5c6714e1ec81d37a48288da12129e2a7f8816d93b5fe57aaf6b1f72",
+      "counted": true
+    },
+    {
+      "path": "education/tools/tapered-bar-current-endpoint-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 2283,
+      "sha256": "824f5ec0364629a407523855870861ca9814b7702a1f97e8431c18d41af4e7ff",
+      "counted": true
+    },
+    {
+      "path": "education/tools/tapered-bar-endpoint-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 2045,
+      "sha256": "19ba553e5a15d50d5a302603c90ca676c815da0f75de8a17d72845c448399afb",
+      "counted": true
+    },
+    {
+      "path": "education/tools/verify-anatomical-arm-rest.mjs",
+      "language": "JavaScript",
+      "bytes": 3147,
+      "sha256": "3812bef9cc146f67e62cf2081a283bd7bbb8e15065a4b10866a25c25a4bd904d",
+      "counted": true
+    },
+    {
+      "path": "education/tools/verify-anatomical-cold-candidate.mjs",
+      "language": "JavaScript",
+      "bytes": 3537,
+      "sha256": "26e3f2552ba583346cebc6b9e7dac7daea2557b33cd607047d344cc9ba420384",
+      "counted": true
+    },
+    {
+      "path": "education/tools/verify-anatomical-contact-trajectory.mjs",
+      "language": "JavaScript",
+      "bytes": 8618,
+      "sha256": "f1c069c530f575e6d348a8569324c5c3144124b84135b35d3c193e109165a340",
+      "counted": true
+    },
+    {
+      "path": "education/tools/verify-anatomical-dense-step.mjs",
+      "language": "JavaScript",
+      "bytes": 7209,
+      "sha256": "8aa040e7e171bc509c38c7fb9decdac66b1cb4e4a972e476145815852a52baeb",
+      "counted": true
+    },
+    {
+      "path": "education/tools/verify-anatomical-dense-trajectory.mjs",
+      "language": "JavaScript",
+      "bytes": 11815,
+      "sha256": "080a6b1ad60620249b02b7faa63ffd7ff127fbd75fb8588a0bf8e0c3dfe12d20",
+      "counted": true
+    },
+    {
+      "path": "education/tools/verify-anatomical-matches.mjs",
+      "language": "JavaScript",
+      "bytes": 4048,
+      "sha256": "295a2914af734682236cb1db0bef935447a57a4b851f5ea2ef094ef9c07842ee",
+      "counted": true
+    },
+    {
+      "path": "education/tools/verify-anatomical-rejected-steps.mjs",
+      "language": "JavaScript",
+      "bytes": 4557,
+      "sha256": "4b4af502350d775b3b5830d63142eb9dfa743e2e84c3527a94a0ccf995f5a0ea",
+      "counted": true
+    },
+    {
+      "path": "education/tools/verify-anatomical-release-prefix.mjs",
+      "language": "JavaScript",
+      "bytes": 8002,
+      "sha256": "a86e9370b7a1f95e45d115bcdb0de91a7922bcbee7633c783c1a532d255a0f81",
+      "counted": true
+    },
+    {
+      "path": "education/web/advanced.mjs",
+      "language": "JavaScript",
+      "bytes": 21725,
+      "sha256": "2cf33e78c7bb7042d615c8a8109724de5958d1050fb0b69ad81df5f3f7edff78",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-aponeurosis.mjs",
+      "language": "JavaScript",
+      "bytes": 4123,
+      "sha256": "1dbebfd2ea67427ee0d962b7b234d2d40a2f2cd4616a4f1199e20b3aba7316a0",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-apparatus.mjs",
+      "language": "JavaScript",
+      "bytes": 15889,
+      "sha256": "be60e6a3ba4db34ee01a4cb531bcdd19f868645ef26e06e1e30daedbc360cb98",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-arm-worker.mjs",
+      "language": "JavaScript",
+      "bytes": 2903,
+      "sha256": "dfadf3136b8ecac0fd6275f059085636eb8953346d920ca69a4d4382fa7b39d5",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-arm.mjs",
+      "language": "JavaScript",
+      "bytes": 13440,
+      "sha256": "9ec37ec7b23bb67643fef715f4554fc8811e897a581691231e6669fdd66c7569",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 1413,
+      "sha256": "4f45bf4ce4459096e9595cd7bb1e0bcdfb0fafe858ee5da25444940604589f14",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-comparison.mjs",
+      "language": "JavaScript",
+      "bytes": 2240,
+      "sha256": "d812405b86541f756759bede9750071117edbab81e69efcfadf96f4f195fd09f",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-contact-differential.mjs",
+      "language": "JavaScript",
+      "bytes": 3771,
+      "sha256": "76f107f5eb1c41fdf6622c428648babc5a489113a709fd337782b1b3de3cac0b",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-contact-refinement.mjs",
+      "language": "JavaScript",
+      "bytes": 7311,
+      "sha256": "29830d2f311ee74a50acfd65f0ca8c245d2b390ed66d6eafd6c9b79de7607e07",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-contact.mjs",
+      "language": "JavaScript",
+      "bytes": 17180,
+      "sha256": "ca3abc6a6c885651d6e43d0d0e2b08738b63a536d3850b854087a701695a1e67",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-coupled-fixture.mjs",
+      "language": "JavaScript",
+      "bytes": 8519,
+      "sha256": "620afbb2e801f00ec361f5f1b5d39f010acc386812dcaa7239c0ca781d0bf4b9",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-coupled-worker.mjs",
+      "language": "JavaScript",
+      "bytes": 1357,
+      "sha256": "1c54d08f5e36ca837343fc96399ac85de8e92f8fe1ebd1d73a50e5885b93c435",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-distance.mjs",
+      "language": "JavaScript",
+      "bytes": 6748,
+      "sha256": "e11826c97f160220fda68f72cbe5e73f35f9527edcf4a4d58100c467cb50940a",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-element.mjs",
+      "language": "JavaScript",
+      "bytes": 3397,
+      "sha256": "3f67a6bd31565c83d2cbea591c3cf1862a48e50cc4efa780880fda7e808d4b1f",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-fixture.mjs",
+      "language": "JavaScript",
+      "bytes": 5558,
+      "sha256": "d53b5dca829883b4e91c02e5b88f3ac745ce7510cf28aabfcbd6cb978353a30a",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-intersections.mjs",
+      "language": "JavaScript",
+      "bytes": 1298,
+      "sha256": "a083a9838ac3c7508b65b58329c741aef65a065288aff82fc886d1c2c90375df",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-material.mjs",
+      "language": "JavaScript",
+      "bytes": 3733,
+      "sha256": "e6ddf6cc391b417f03f5d122670036eb55ebe837ecbbc51d8535bd4e3e6d3a5b",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-modal.mjs",
+      "language": "JavaScript",
+      "bytes": 5352,
+      "sha256": "12cd671bc963aa04dd5c0e173a776049de191283d850b0b60d0fe8e63be4c9a1",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-newton.mjs",
+      "language": "JavaScript",
+      "bytes": 3887,
+      "sha256": "e0b2193bff56a3fdb9595fa0893c469b5897a31512a282ff7a9b5519b2fe93fe",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-preconditioner.mjs",
+      "language": "JavaScript",
+      "bytes": 1558,
+      "sha256": "d234cd800784a57171514139a17d0720bb1a9d4d1089afcd9e7c783cead1b0b4",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-retraction.mjs",
+      "language": "JavaScript",
+      "bytes": 3487,
+      "sha256": "f5c4ef1115bc2a385d86e232cb9a6a36f8f61cd56d823b3495284de8e9c71819",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-routing-audit.mjs",
+      "language": "JavaScript",
+      "bytes": 1633,
+      "sha256": "e6ef4473a272c985cd05012cf4cbf424c45522b535c280ad5de49222dd459d9b",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-routing.mjs",
+      "language": "JavaScript",
+      "bytes": 7163,
+      "sha256": "83e52df556739786c97e4cb8ef6a7854d0d9a5fb36ca197b6bdc0b7597d09a3e",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-solver.mjs",
+      "language": "JavaScript",
+      "bytes": 2387,
+      "sha256": "2e23ae4e594c0947d15b21cdcd0422ad27e2bc3c2ac3af40293703c208906bfb",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-tangent.mjs",
+      "language": "JavaScript",
+      "bytes": 1991,
+      "sha256": "9b35daecd9efd68908e393998271f63cbc5728a5a2c4821560010ff5786f285c",
+      "counted": true
+    },
+    {
+      "path": "education/web/anatomical-transfer.mjs",
+      "language": "JavaScript",
+      "bytes": 1488,
+      "sha256": "1e82dabebf5a6247af9216a70292216b194a52545abf8f3b73c93ee6e2f22431",
+      "counted": true
+    },
+    {
+      "path": "education/web/app.mjs",
+      "language": "JavaScript",
+      "bytes": 27084,
+      "sha256": "4726f88f5e512947f234591966c7c5a73cb1969ec562dcc12dbb280339610b61",
+      "counted": true
+    },
+    {
+      "path": "education/web/book-interaction.mjs",
+      "language": "JavaScript",
+      "bytes": 2111,
+      "sha256": "2a19ed8943ffb8d92f3eabb52ec1b016b4698c48ac45606abcb5844c217cc1bb",
+      "counted": true
+    },
+    {
+      "path": "education/web/chapter-examples.html",
+      "language": "HTML",
+      "bytes": 2236,
+      "sha256": "91f73ab75347f1ef4bbbc13aaa2ba6a03536f59d1973907d0c01363610897234",
+      "counted": true
+    },
+    {
+      "path": "education/web/chapter-examples.mjs",
+      "language": "JavaScript",
+      "bytes": 12696,
+      "sha256": "c6554b12becb0fc4a4f3043e60a57abf618b900b2d333d5b4d8a43be6452dd50",
+      "counted": true
+    },
+    {
+      "path": "education/web/chapter-models.mjs",
+      "language": "JavaScript",
+      "bytes": 17141,
+      "sha256": "8808ae32ea7f33aae023d3a8e37be2a3587b400c35a3c81bb39cd52ea37c531e",
+      "counted": true
+    },
+    {
+      "path": "education/web/chapter-worker.mjs",
+      "language": "JavaScript",
+      "bytes": 253,
+      "sha256": "a691ca8349edcd9ae74f32ea0e5f8a29663c0750005005ffa9bb8d398b013b59",
+      "counted": true
+    },
+    {
+      "path": "education/web/continuum-display.mjs",
+      "language": "JavaScript",
+      "bytes": 1799,
+      "sha256": "169a23218d576b488ba66284672f07d87462355b60e48feaff99b7e988d3b662",
+      "counted": true
+    },
+    {
+      "path": "education/web/continuum-properties.mjs",
+      "language": "JavaScript",
+      "bytes": 5301,
+      "sha256": "dafe703db471ec9de460b316dde9b56b5c16cedca720b1c48b2fba29c24d8988",
+      "counted": true
+    },
+    {
+      "path": "education/web/dissipative-bar.mjs",
+      "language": "JavaScript",
+      "bytes": 7851,
+      "sha256": "26c19ad1454245b79f83a1f1237b6d5764a8585e2f75ef7415e507fd86541ef5",
+      "counted": true
+    },
+    {
+      "path": "education/web/dissipative-lab.mjs",
+      "language": "JavaScript",
+      "bytes": 12330,
+      "sha256": "1bcf64845d87479d33f88837e19fa986bff300e84acaee3a2a4660e6660038ce",
+      "counted": true
+    },
+    {
+      "path": "education/web/elbow.mjs",
+      "language": "JavaScript",
+      "bytes": 3923,
+      "sha256": "96f0366af4043d9a17c4d44253a0233056aac410d444cce55ed41f04fdf0ec39",
+      "counted": true
+    },
+    {
+      "path": "education/web/energy-run.mjs",
+      "language": "JavaScript",
+      "bytes": 460,
+      "sha256": "cc82fe0ba609de1539bee507f0c144b1290e4e0c57ff1ec1a087583c0186f4a3",
+      "counted": true
+    },
+    {
+      "path": "education/web/evidence.html",
+      "language": "HTML",
+      "bytes": 2332,
+      "sha256": "2c01645e16ab2ead3b9bb73dabdfaa19c79bb42af92273ae9c0517074fe6e741",
+      "counted": true
+    },
+    {
+      "path": "education/web/evidence.mjs",
+      "language": "JavaScript",
+      "bytes": 6284,
+      "sha256": "920a61aabf59159cdf97d4c07ed6603957da8f874ba39c0e925e91b7f82c7b69",
+      "counted": true
+    },
+    {
+      "path": "education/web/material-lab.mjs",
+      "language": "JavaScript",
+      "bytes": 6729,
+      "sha256": "e884134063616720211036496f5f0bff0347137b27027b97718de00c78226f8b",
+      "counted": true
+    },
+    {
+      "path": "education/web/material-response.mjs",
+      "language": "JavaScript",
+      "bytes": 5041,
+      "sha256": "513dc004fe16dba2fa781f8534cb248b609fb20c59ffff9a759960b41a1d52e8",
+      "counted": true
+    },
+    {
+      "path": "education/web/mechanics.mjs",
+      "language": "JavaScript",
+      "bytes": 2766,
+      "sha256": "a22e0c9f613f755397244275f2a6c7f542276cc89cbe67911fa9471d32ad09d4",
+      "counted": true
+    },
+    {
+      "path": "education/web/property-labs.mjs",
+      "language": "JavaScript",
+      "bytes": 7591,
+      "sha256": "cf135d2dcd5ab359f6cf9a0d5f0062f01cbeaa487478188baa18ef5490c64eaa",
+      "counted": true
+    },
+    {
+      "path": "education/web/pulse.mjs",
+      "language": "JavaScript",
+      "bytes": 408,
+      "sha256": "0a5ec266342f07185cce7b7a66dfdb52702647a7c5d3e6124c8cd8b7955c32a1",
+      "counted": true
+    },
+    {
+      "path": "education/web/readout.mjs",
+      "language": "JavaScript",
+      "bytes": 336,
+      "sha256": "90f24c70b456e7e96e8ed56884ee587aee7bc0d12dcefc08134f9c2992fe9ada",
+      "counted": true
+    },
+    {
+      "path": "education/web/scene-status.mjs",
+      "language": "JavaScript",
+      "bytes": 4191,
+      "sha256": "1719e9dba0573423ba6be04f609950efa3303d2a75800be7ec9c38df8606b8cb",
+      "counted": true
+    },
+    {
+      "path": "education/web/serial-lab.css",
+      "language": "CSS",
+      "bytes": 2358,
+      "sha256": "689f5f797e22a216fdedcf4f99a4380bda44ac0f5ddfd453b45abe2b676dd4bf",
+      "counted": true
+    },
+    {
+      "path": "education/web/serial-lab.mjs",
+      "language": "JavaScript",
+      "bytes": 17042,
+      "sha256": "760749013924e4ddb4d5b6b124b2fc2004132cd728a8c751b3b9c6bab6f7c022",
+      "counted": true
+    },
+    {
+      "path": "education/web/serial-specimen.mjs",
+      "language": "JavaScript",
+      "bytes": 6674,
+      "sha256": "56391812f3d79a11f2840e13ca8dfaf6462459dae9826bcca1deb9208265b3ab",
+      "counted": true
+    },
+    {
+      "path": "education/web/series.mjs",
+      "language": "JavaScript",
+      "bytes": 5977,
+      "sha256": "54cd0690a7043fa5fe735b1707ec91485bb991dac5a841862736ee232dfdbf39",
+      "counted": true
+    },
+    {
+      "path": "education/web/spatial.mjs",
+      "language": "JavaScript",
+      "bytes": 10980,
+      "sha256": "4d3bbd478ea7c0db3c2f380d52af1d32af1d28be66ec04e519b7963201655d0f",
+      "counted": true
+    },
+    {
+      "path": "education/web/tapered-bar.mjs",
+      "language": "JavaScript",
+      "bytes": 3006,
+      "sha256": "9f68e29b3e708d8e53dd964d3d42fcfd9f530dd818ad33ed3641ad3a423feaec",
+      "counted": true
+    },
+    {
+      "path": "education/web/template.html",
+      "language": "HTML",
+      "bytes": 1202,
+      "sha256": "2a7a259f3679ea6e764764ac4dcfca6a8777bbb524170925effe97a7c1228fa4",
+      "counted": true
+    },
+    {
+      "path": "education/web/tissue.mjs",
+      "language": "JavaScript",
+      "bytes": 2103,
+      "sha256": "72d88e8afa18af7acf3f5ab45d6b1676a0beff523a124023f19cce99347b1b30",
+      "counted": true
+    }
+  ],
+  "explicit_exclusions_already_omitted_by_linguist": []
+}

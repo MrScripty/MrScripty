@@ -1,3 +1,17 @@
+# Authored-source and owner-image revision — 12 October 2026
+
+- Language graphics now use the exact public source commits and reviewed exclusions in [LANGUAGE_METHOD.md](LANGUAGE_METHOD.md), replacing the earlier raw API method. All 13 bars have separate measured data; no handwritten C/Python or maintained mixed-origin file is removed to obtain a preferred ratio.
+- Book-Be-Gone copy follows [the public README at ea6a3fa](https://github.com/MrScripty/Book-Be-Gone/blob/ea6a3fa2e2bfe3605ad932731f5693e2754ce07d/README.md): webcam capture, crop/straighten, OCR review and editable Markdown export. Public Pages is not configured, so the row has only its public repository link. No private service repository was used.
+- Book-Be-Gone's two original JPEGs were supplied by the owner at public source `c97f2310bac8d19f465a7dff39ddd0efd35f71d7`: scan/crop first, OCR review second. Their source paths, dimensions and original SHA-256 values are in [capture provenance](assets/capture-provenance.json). Both images were visually inspected and remain byte-identical.
+- Whip Docs' Website link was removed following the owner's observation that the deployed page is blank. The earlier Pages metadata check did not establish rendered content. Its verified public source link remains.
+- Image headers and captions are removed from every project and the image dialog. Original images, meaningful accessible descriptions and gallery controls remain. Rheon's native UI and separate lab are distinguished in image alt text, existing project prose and the two source links. Required licensing is still on [image credits](image-credits.html).
+- All five hero concepts have equal main-headline typography. The old Useful research line, eyebrow/bullet, supporting sentence and duplicate small concept labels are removed.
+- The About sentence identifying Puma as BC+AI cofounder and devLab founder is directly owner-confirmed. The website destination is the official https://bc-ai.ca/, corroborated by its About/Communities pages and its retired public BC-AI.net site. Public community invite URLs were not found in the inspected official site, contact, communities, FAQ or retired public pages; no invite code or unrelated group is guessed.
+
+The preceding source notes below are historical where superseded by this revision.
+
+---
+
 # Current presentation additions — 12 October 2026
 
 - Language graphics: individual public GitHub repository `/languages` responses and GitHub Linguist colors. See `assets/language-stats.json` for exact byte totals, timestamped source URLs, percentages and pinned color commit. No effort weighting or runtime-language inference is applied. Rheon and Surrogate Lab are separate datasets.

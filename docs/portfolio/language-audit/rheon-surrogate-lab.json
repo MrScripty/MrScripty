@@ -1,0 +1,280 @@
+{
+  "repository": "MrScripty/rheon-surrogate-lab",
+  "source_commit": "e8a90bfef6b2955c502008ccc62443e29dd9f2ec",
+  "baseline_total_bytes": 238099,
+  "authored_total_bytes": 238099,
+  "baseline_languages": {
+    "Rust": 80354,
+    "Python": 143491,
+    "JavaScript": 10454,
+    "HTML": 3800
+  },
+  "authored_languages": {
+    "Rust": 80354,
+    "Python": 143491,
+    "JavaScript": 10454,
+    "HTML": 3800
+  },
+  "files": [
+    {
+      "path": "build.rs",
+      "language": "Rust",
+      "bytes": 765,
+      "sha256": "24df3d38bc37e1f0198037a6ceed7641effc9e4541cd1fd2f369c2f774747ba8",
+      "counted": true
+    },
+    {
+      "path": "experiments/trajectory-v2/frozen-source/trajectory_experiment.py",
+      "language": "Python",
+      "bytes": 14504,
+      "sha256": "5cd1affacdc3462ad6d7b34fab76ee59f94c46eb445814a82a87db9af75f14e5",
+      "counted": true
+    },
+    {
+      "path": "probes/trajectory/src/main.rs",
+      "language": "Rust",
+      "bytes": 10537,
+      "sha256": "d44949066d7f5cc2759b6ed7947f35b612c0f1c69097a313d7033c40aaddd02b",
+      "counted": true
+    },
+    {
+      "path": "probes/warmstart/build.rs",
+      "language": "Rust",
+      "bytes": 1233,
+      "sha256": "5529ac79585ede92728f1b66ff7e009a5b2efee2b70232f4bb16c8966ca58a09",
+      "counted": true
+    },
+    {
+      "path": "probes/warmstart/src/main.rs",
+      "language": "Rust",
+      "bytes": 10071,
+      "sha256": "01830f368bab6886f7f5adcd2f17e2d774cf6552432564c957db1a43dd5cbe14",
+      "counted": true
+    },
+    {
+      "path": "scripts/check_trajectory_viewer.cjs",
+      "language": "JavaScript",
+      "bytes": 3180,
+      "sha256": "8524437fa368e22f16cea5e457ea5cecd77496be50c388b6b0d9e6e94bfef67e",
+      "counted": true
+    },
+    {
+      "path": "scripts/diagnose_cpu.py",
+      "language": "Python",
+      "bytes": 8262,
+      "sha256": "362c0878ce728b4608901c7790bc844d3a7e3dd588c21107f7a18ce7a91c2357",
+      "counted": true
+    },
+    {
+      "path": "scripts/final_evaluate.py",
+      "language": "Python",
+      "bytes": 18402,
+      "sha256": "1a3ba9776bb22479fb93b24bc445b12df2b068267ad19c5fe6c06794259ddfc7",
+      "counted": true
+    },
+    {
+      "path": "scripts/final_spectral.py",
+      "language": "Python",
+      "bytes": 965,
+      "sha256": "a2cf1b5572984bf4bcc9f1ff566fd4bf5521c68a9a559f6d3e05c314659ded9a",
+      "counted": true
+    },
+    {
+      "path": "scripts/final_worker.py",
+      "language": "Python",
+      "bytes": 5115,
+      "sha256": "61f6c88d6b9e6bf64fdc157353952cd0e77c4dc75e36ec78170f38f6286f1d14",
+      "counted": true
+    },
+    {
+      "path": "scripts/global_candidate.py",
+      "language": "Python",
+      "bytes": 9009,
+      "sha256": "be7b04c2e3c4747e672acb63e44a11828e2cf812a78d79179465308a29785584",
+      "counted": true
+    },
+    {
+      "path": "scripts/install_physics_book.py",
+      "language": "Python",
+      "bytes": 1650,
+      "sha256": "211f8ff0e625d5042a7c43ca3dc8659183939dfc5b5f5d36e46b34783ba55ed1",
+      "counted": true
+    },
+    {
+      "path": "scripts/package_trajectory_viewer.py",
+      "language": "Python",
+      "bytes": 1049,
+      "sha256": "06cf7bea56e392b814b975607b6660d748d321b1d32df9fad7114cc9fd326e03",
+      "counted": true
+    },
+    {
+      "path": "scripts/probe_warmstart.py",
+      "language": "Python",
+      "bytes": 9545,
+      "sha256": "d7840eb303a62df4f150b6b533fc35256426da86ddb466cbcbd00bb0ab331602",
+      "counted": true
+    },
+    {
+      "path": "scripts/pumas_trajectory.py",
+      "language": "Python",
+      "bytes": 2322,
+      "sha256": "ac004e2b3e1fbdbffcfbaf07742caf234ff6f08f9b518f3365d25aa939c93602",
+      "counted": true
+    },
+    {
+      "path": "scripts/stage_physics_book.py",
+      "language": "Python",
+      "bytes": 7318,
+      "sha256": "9bae77d49b63cc216dfe3eb37f758aeab6ac45c58b2b23be4a74bb667895b12c",
+      "counted": true
+    },
+    {
+      "path": "scripts/test_final_evaluation.py",
+      "language": "Python",
+      "bytes": 5089,
+      "sha256": "79f57cef2aa2362890587cb565c92fab15d861abacfd0cebfca8530e9aeceaa4",
+      "counted": true
+    },
+    {
+      "path": "scripts/test_global_candidate.py",
+      "language": "Python",
+      "bytes": 2297,
+      "sha256": "ca5631cb2b460c9c840a136e925c0f4da76ea9e13a44c44169aeb0817a457569",
+      "counted": true
+    },
+    {
+      "path": "scripts/test_train_cpu.py",
+      "language": "Python",
+      "bytes": 4425,
+      "sha256": "9a57ec4b3e8ff34ff59bfca471cbd274cc0f3b958e4141de28c613d81f3f9533",
+      "counted": true
+    },
+    {
+      "path": "scripts/test_trajectory_model.py",
+      "language": "Python",
+      "bytes": 2000,
+      "sha256": "36647ce71aca8ef41e768f2a8beadc1ebb7334269100cc90fc072af8734a1516",
+      "counted": true
+    },
+    {
+      "path": "scripts/test_warmstart_probe.py",
+      "language": "Python",
+      "bytes": 1242,
+      "sha256": "8c14b4ae58b059d678b18175504ca1a0f89878920d014b5ce82a4ad5f24cd26e",
+      "counted": true
+    },
+    {
+      "path": "scripts/train_cpu.py",
+      "language": "Python",
+      "bytes": 11486,
+      "sha256": "ee384926b3e3326356aa6c9b033b53c3c3236117514c848c2ebfc3a413115c37",
+      "counted": true
+    },
+    {
+      "path": "scripts/trajectory_cpu.py",
+      "language": "Python",
+      "bytes": 6463,
+      "sha256": "f8479f2667fd91fe83bf6c2d66fd1fb9cd9b60d960615b25f528ccac700ba039",
+      "counted": true
+    },
+    {
+      "path": "scripts/trajectory_cpu_viewer.py",
+      "language": "Python",
+      "bytes": 3055,
+      "sha256": "f7501c6ab65d05b869b69d4ec472f6255e52d12e8cc4cd4ec5bba0abda9395e9",
+      "counted": true
+    },
+    {
+      "path": "scripts/trajectory_experiment.py",
+      "language": "Python",
+      "bytes": 14799,
+      "sha256": "e1fd053f693730d39ded6a7ee50fd6e562bef37b2171bb7ed26acb770605e2f6",
+      "counted": true
+    },
+    {
+      "path": "scripts/trajectory_model.py",
+      "language": "Python",
+      "bytes": 2823,
+      "sha256": "83e93e75bbe05a8dfc8e8dc416b333d6d2e2614613ba45b4f77f99bb94f9a0b4",
+      "counted": true
+    },
+    {
+      "path": "scripts/trajectory_parallel.py",
+      "language": "Python",
+      "bytes": 3748,
+      "sha256": "6764eed37b707bea0fe29473dd5ab639340c21646d48daddf59fb0cf08fa40f3",
+      "counted": true
+    },
+    {
+      "path": "scripts/verify_parallel_results.py",
+      "language": "Python",
+      "bytes": 3368,
+      "sha256": "9d4bd626bbd4352102c11765a47040a37e729a15d5074211f5e60b5bc9ab31ad",
+      "counted": true
+    },
+    {
+      "path": "scripts/verify_trajectory_results.py",
+      "language": "Python",
+      "bytes": 4555,
+      "sha256": "788ed78d9e170039ad724aa970e2fa7e859d63e4b97a80ad7bdea49f80d440a1",
+      "counted": true
+    },
+    {
+      "path": "src/dataset.rs",
+      "language": "Rust",
+      "bytes": 19165,
+      "sha256": "2696d1b7e9b186b5ee6cf6289687ccc5b041d5d38fcd31ff17771df736f025e4",
+      "counted": true
+    },
+    {
+      "path": "src/diagnostics.rs",
+      "language": "Rust",
+      "bytes": 7596,
+      "sha256": "24cec62942f4a829c5f7cb8659d6b9b8b9ccae56568d0fecbbb3732db5e219cc",
+      "counted": true
+    },
+    {
+      "path": "src/experiment.rs",
+      "language": "Rust",
+      "bytes": 9522,
+      "sha256": "63b961029bdf5688f99c5dd2e663b3107772e2d1d877512113ca63b060a0dc94",
+      "counted": true
+    },
+    {
+      "path": "src/lib.rs",
+      "language": "Rust",
+      "bytes": 146,
+      "sha256": "4b21fdef73414c00b64104ef376a5d484bdec074730c066c8937bb3c0b8093bf",
+      "counted": true
+    },
+    {
+      "path": "src/main.rs",
+      "language": "Rust",
+      "bytes": 3714,
+      "sha256": "65c3f80ad1898e9550cf7ec12d371d25fa6c19903e6ffb089667a18843f59df6",
+      "counted": true
+    },
+    {
+      "path": "tests/contracts.rs",
+      "language": "Rust",
+      "bytes": 17605,
+      "sha256": "ba0ce81a5b763110c41f36c01f3280a08a73850cab8ae0cff8f1820776a54816",
+      "counted": true
+    },
+    {
+      "path": "viewer/index.html",
+      "language": "HTML",
+      "bytes": 3800,
+      "sha256": "80b7cc32143b1a6cf6827a5a3858132839c5466cfdd67d5d183f608263a6bcdf",
+      "counted": true
+    },
+    {
+      "path": "viewer/viewer.js",
+      "language": "JavaScript",
+      "bytes": 7274,
+      "sha256": "ae33a67314c96584e609c770b1e559647584664f6119477a6a6ee96f87134f3c",
+      "counted": true
+    }
+  ],
+  "explicit_exclusions_already_omitted_by_linguist": []
+}

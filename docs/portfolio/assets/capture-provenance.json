@@ -569,5 +569,41 @@
     "scope": "Visible Inventory harbour/lighthouse scene with narrative and game controls. No runtime source revision, voice capability or model-output qualification inferred.",
     "pixel_edits": "none; original uploaded JPEG bytes preserved",
     "visually_inspected": true
+  },
+  {
+    "file": "assets/book-be-gone_scan.jpg",
+    "sha256": "5d8d069abc099c531abe5787a056d35b0dce2421f6cbce18cb24f489916aa971",
+    "bytes": 206599,
+    "dimensions": [
+      2559,
+      1485
+    ],
+    "source_repository": "MrScripty/MrScripty",
+    "source_commit": "c97f2310bac8d19f465a7dff39ddd0efd35f71d7",
+    "source_path": "docs/portfolio/assets/book-be-gone_scan.jpg",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/MrScripty/c97f2310bac8d19f465a7dff39ddd0efd35f71d7/docs/portfolio/assets/book-be-gone_scan.jpg",
+    "capture_kind": "Owner-supplied public Book-Be-Gone utility screenshot",
+    "app_revision": null,
+    "scope": "Visible crop/straighten and OCR-review interfaces. Exact runtime revision and OCR accuracy are not inferred.",
+    "pixel_edits": "none; original uploaded JPEG bytes preserved",
+    "visually_inspected": true
+  },
+  {
+    "file": "assets/book-be-gone_ocr.jpg",
+    "sha256": "eaefc20b598d732f34f96b213f06e0720c2c19a415ecf950b68bf81215d2e05b",
+    "bytes": 416328,
+    "dimensions": [
+      2559,
+      1491
+    ],
+    "source_repository": "MrScripty/MrScripty",
+    "source_commit": "c97f2310bac8d19f465a7dff39ddd0efd35f71d7",
+    "source_path": "docs/portfolio/assets/book-be-gone_ocr.jpg",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/MrScripty/c97f2310bac8d19f465a7dff39ddd0efd35f71d7/docs/portfolio/assets/book-be-gone_ocr.jpg",
+    "capture_kind": "Owner-supplied public Book-Be-Gone utility screenshot",
+    "app_revision": null,
+    "scope": "Visible crop/straighten and OCR-review interfaces. Exact runtime revision and OCR accuracy are not inferred.",
+    "pixel_edits": "none; original uploaded JPEG bytes preserved",
+    "visually_inspected": true
   }
 ]

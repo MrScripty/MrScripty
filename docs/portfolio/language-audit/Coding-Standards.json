@@ -1,0 +1,2002 @@
+{
+  "repository": "MrScripty/Coding-Standards",
+  "source_commit": "188beda1fa477d21d576c233dd8c7f4c4c267d23",
+  "baseline_total_bytes": 3978363,
+  "authored_total_bytes": 3366001,
+  "baseline_languages": {
+    "Python": 3956691,
+    "TypeScript": 64,
+    "HTML": 21608
+  },
+  "authored_languages": {
+    "Python": 3344329,
+    "TypeScript": 64,
+    "HTML": 21608
+  },
+  "files": [
+    {
+      "path": ".agents/skills/standards-engine/scripts/invoke.py",
+      "language": "Python",
+      "bytes": 6685,
+      "sha256": "31f902610115fcd1a9eb95410f92cb26382df97d7be1502f0c2899fb8040f281",
+      "counted": true
+    },
+    {
+      "path": "evaluation/standards-effectiveness/fixtures/traceability/src/api/public.ts",
+      "language": "TypeScript",
+      "bytes": 32,
+      "sha256": "fa5260ad9dcf3e98a4ee92c72497fd5accf30730aa9ea5c598bf951edc706bf9",
+      "counted": true
+    },
+    {
+      "path": "evaluation/standards-effectiveness/fixtures/traceability/src/engine/policy.ts",
+      "language": "TypeScript",
+      "bytes": 32,
+      "sha256": "c8ec9ab772ef66c6baade3589017bf8907db31fa31b1e401ecd55fc64db17b6a",
+      "counted": true
+    },
+    {
+      "path": "tools/decision_traceability/decision_traceability/__init__.py",
+      "language": "Python",
+      "bytes": 224,
+      "sha256": "4a367fa39ae9c8ecbc92caedde00c6c107b9edf00a022cfd864d081a46e36ef2",
+      "counted": true
+    },
+    {
+      "path": "tools/decision_traceability/decision_traceability/check.py",
+      "language": "Python",
+      "bytes": 12727,
+      "sha256": "5228ba55c16e54a8a367b2104d860b74829a464235fa2b6dd02be21c0d5bd7c7",
+      "counted": true
+    },
+    {
+      "path": "tools/decision_traceability/verify_contract.py",
+      "language": "Python",
+      "bytes": 6558,
+      "sha256": "76b3c632590acfc922c47a6915442e1797c10b3b8608b8496f50fff8986fec85",
+      "counted": true
+    },
+    {
+      "path": "tools/graph_engine/graph_engine/__init__.py",
+      "language": "Python",
+      "bytes": 1551,
+      "sha256": "725648aa5f54c4a6f3177f361077f86526f26da87e51a63127f2da15ebc34cb1",
+      "counted": true
+    },
+    {
+      "path": "tools/graph_engine/graph_engine/cli.py",
+      "language": "Python",
+      "bytes": 6969,
+      "sha256": "641acd59e88d4d0d9c85c384d2cb84b5b3b3295b3dd77a41f9284629249e2a8b",
+      "counted": true
+    },
+    {
+      "path": "tools/graph_engine/graph_engine/errors.py",
+      "language": "Python",
+      "bytes": 1311,
+      "sha256": "464ba32cd9752a2804cdcdf84532043c68fb752f45783c2df00bb5adb9fdcf1b",
+      "counted": true
+    },
+    {
+      "path": "tools/graph_engine/graph_engine/manifest.py",
+      "language": "Python",
+      "bytes": 9862,
+      "sha256": "7ca7644dfd97313580e2ff8075ccdfe13dd4753075585997aced461bdbfccd1e",
+      "counted": true
+    },
+    {
+      "path": "tools/graph_engine/graph_engine/model.py",
+      "language": "Python",
+      "bytes": 5297,
+      "sha256": "cbbf89a7cd22a0c990867c86ae36539f9c6a387c64bc10f0c02c5e1b5df2ce33",
+      "counted": true
+    },
+    {
+      "path": "tools/graph_engine/graph_engine/paths.py",
+      "language": "Python",
+      "bytes": 1135,
+      "sha256": "7b5fbe0233db2cd906ddf4b74a1f2df833436497a51d7248bff7bbbe34ab9a48",
+      "counted": true
+    },
+    {
+      "path": "tools/graph_engine/graph_engine/projection.py",
+      "language": "Python",
+      "bytes": 6650,
+      "sha256": "393b0e26ccd9c7a734d610a0f4dc418657a72fce662b3efe24e6207b565490af",
+      "counted": true
+    },
+    {
+      "path": "tools/graph_engine/graph_engine/registry.py",
+      "language": "Python",
+      "bytes": 23251,
+      "sha256": "7e056a801f17a8eda311db9a66f6de62a77916bd21db24401cef7780b2200d39",
+      "counted": true
+    },
+    {
+      "path": "tools/graph_engine/tests/test_cli.py",
+      "language": "Python",
+      "bytes": 4527,
+      "sha256": "cca588ebf216ab643e5e499e20712dece29a76f4c008e862ea8bc29315862588",
+      "counted": true
+    },
+    {
+      "path": "tools/graph_engine/tests/test_logical_resolution.py",
+      "language": "Python",
+      "bytes": 4078,
+      "sha256": "6b84f9f5b2d0941f12adc00cbb54afa5c27669f3ca6ad0c6c130e0922d30bfbf",
+      "counted": true
+    },
+    {
+      "path": "tools/graph_engine/tests/test_manifest.py",
+      "language": "Python",
+      "bytes": 6006,
+      "sha256": "956e7e8ec4fa602d67742be5c963d28396aada76495075263bbd0aa243f89ae2",
+      "counted": true
+    },
+    {
+      "path": "tools/graph_engine/tests/test_projection.py",
+      "language": "Python",
+      "bytes": 1669,
+      "sha256": "1704a39a33a7f32db5dbe1904a5f3d86c3b52cab8ab1347f3a8adbde9cc0e2c5",
+      "counted": true
+    },
+    {
+      "path": "tools/graph_engine/tests/test_registry.py",
+      "language": "Python",
+      "bytes": 20134,
+      "sha256": "a4f1ff099d9434912f9b765ab1d86748f73a0b6ae5176765d7da2b9cc86e6098",
+      "counted": true
+    },
+    {
+      "path": "tools/query_edges.py",
+      "language": "Python",
+      "bytes": 501,
+      "sha256": "17c9f57fee617eeac07d46ee0eabd7d7424b473b1b42f9fb330f5966de67c8bb",
+      "counted": true
+    },
+    {
+      "path": "tools/repository_git/repository_git/__init__.py",
+      "language": "Python",
+      "bytes": 1243,
+      "sha256": "c0c8001952d1f914f263e243193a56c97fd4600d51a5c0a4157133ffece83562",
+      "counted": true
+    },
+    {
+      "path": "tools/repository_git/repository_git/batch.py",
+      "language": "Python",
+      "bytes": 10482,
+      "sha256": "45e07721da5c893ff0c4ebcbe34ed0e0e37386bdbdcc6a053aff8db5b52bf75b",
+      "counted": true
+    },
+    {
+      "path": "tools/repository_git/repository_git/errors.py",
+      "language": "Python",
+      "bytes": 1471,
+      "sha256": "690edf0e048ef3c63ee422aca2fdf1381cda6029e593adf5b96477b4d83e62fa",
+      "counted": true
+    },
+    {
+      "path": "tools/repository_git/repository_git/model.py",
+      "language": "Python",
+      "bytes": 8438,
+      "sha256": "9705fdbfd512b38a62772028bd1ff5809a6af1038753ff3547a2c4c8b30ee4f7",
+      "counted": true
+    },
+    {
+      "path": "tools/repository_git/repository_git/repository.py",
+      "language": "Python",
+      "bytes": 79535,
+      "sha256": "c0869a4d1a803a0c24c6e87cdd78fb0fc5a6d3801e59402017ea597f09cc577c",
+      "counted": true
+    },
+    {
+      "path": "tools/repository_git/tests/test_batch.py",
+      "language": "Python",
+      "bytes": 9788,
+      "sha256": "7b6e046fdf488dc6028b10c2c7c8460320ad55b95bfdd1c65267652bb745c6f5",
+      "counted": true
+    },
+    {
+      "path": "tools/repository_git/tests/test_exact_patch.py",
+      "language": "Python",
+      "bytes": 9945,
+      "sha256": "58092b4319cf711f69e184997b45e92fd72dffc24e6d0fda126521cb00a87ace",
+      "counted": true
+    },
+    {
+      "path": "tools/repository_git/tests/test_repository.py",
+      "language": "Python",
+      "bytes": 73099,
+      "sha256": "2ee478c8908bfbd7d303add9a2ce0801251d3a421da61c62513593d9b75128b1",
+      "counted": true
+    },
+    {
+      "path": "tools/repository_git/tests/test_review_metadata.py",
+      "language": "Python",
+      "bytes": 1991,
+      "sha256": "5e9ec22ae009328a37c3809d0db46f0035fc0118e6a6f9183ef0adb6379e5eeb",
+      "counted": true
+    },
+    {
+      "path": "tools/review_evidence/review_evidence/__init__.py",
+      "language": "Python",
+      "bytes": 126,
+      "sha256": "3afb7f4bb258430837be03c1fd1448543ab811bcce805f8f7b4e1a1218f48c79",
+      "counted": true
+    },
+    {
+      "path": "tools/review_evidence/review_evidence/__main__.py",
+      "language": "Python",
+      "bytes": 79,
+      "sha256": "307299fda7b77d22c64cb51430ec75e5f59d78e9c948786afb3b2544fe45e4b7",
+      "counted": true
+    },
+    {
+      "path": "tools/review_evidence/review_evidence/cli.py",
+      "language": "Python",
+      "bytes": 2415,
+      "sha256": "d39c9fbaf00aacdb3c1d08b23d9b645fe72c98ac121bbd7143d2a7fe8bb0d250",
+      "counted": true
+    },
+    {
+      "path": "tools/review_evidence/review_evidence/common.py",
+      "language": "Python",
+      "bytes": 3156,
+      "sha256": "2d84851dc497ecdae01eafcaf90aae12abda13a428eefa064517909af31711e2",
+      "counted": true
+    },
+    {
+      "path": "tools/review_evidence/review_evidence/local_files.py",
+      "language": "Python",
+      "bytes": 4539,
+      "sha256": "62e5177be158a1d94304414bf4664739bd804cf5725e53e1d8178f004bba5a21",
+      "counted": true
+    },
+    {
+      "path": "tools/review_evidence/review_evidence/packet.py",
+      "language": "Python",
+      "bytes": 20041,
+      "sha256": "0b7cfc5e12238513ad89628a063fb993003b6a93cbda4d8204ec0a1e2bd83bb6",
+      "counted": true
+    },
+    {
+      "path": "tools/review_evidence/review_evidence/request.py",
+      "language": "Python",
+      "bytes": 4477,
+      "sha256": "bf80886b99d6a065974b7a421a4924bd5228d696bf82b5e0a48d4e13ebb4eee9",
+      "counted": true
+    },
+    {
+      "path": "tools/review_evidence/tests/test_cli.py",
+      "language": "Python",
+      "bytes": 28102,
+      "sha256": "7a4491c86730c93033cd0faf2895582e2752643a0f040737dc6287e8a823eee6",
+      "counted": true
+    },
+    {
+      "path": "tools/review_evidence/tests/test_repair_boundaries.py",
+      "language": "Python",
+      "bytes": 21390,
+      "sha256": "6432649dc3c20be6cef9aad611f08318d02237268a2d919148594f0bcdfd2890",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/standards_analysis/__init__.py",
+      "language": "Python",
+      "bytes": 6046,
+      "sha256": "907a27607f06fd1b0f7a2e839eba5f089840861c06f8ee38e771526c9c0d2518",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/standards_analysis/changes.py",
+      "language": "Python",
+      "bytes": 36836,
+      "sha256": "d2c0343eac19c20b3bff310325eb0f0f53dea91eb95cac2f893f7ba20c684220",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/standards_analysis/coverage.py",
+      "language": "Python",
+      "bytes": 39094,
+      "sha256": "0fdca28dadfc1f4b950d844348c7927326b33a8fb291995f45e7680842b88fa4",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/standards_analysis/coverage_publication.py",
+      "language": "Python",
+      "bytes": 13736,
+      "sha256": "1fecafc49b9adb5516925398fdeec516e1c8cc6ae5240f7b67d329795fe50730",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/standards_analysis/errors.py",
+      "language": "Python",
+      "bytes": 794,
+      "sha256": "2381dbb0d02c118196899213970ce61053e69b30a190ad830532e13fc5fa38ff",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/standards_analysis/impact.py",
+      "language": "Python",
+      "bytes": 12801,
+      "sha256": "b7c9c93dba2080468d56a9f405fcadd9f7907ecce93876d40cf2a9d529737cf5",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/standards_analysis/kernel.py",
+      "language": "Python",
+      "bytes": 19766,
+      "sha256": "5dd1ca9ce4eae8a75a16539fb6058d603bc72a83d21bd69324dea71deac793c9",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/standards_analysis/keys.py",
+      "language": "Python",
+      "bytes": 1553,
+      "sha256": "6849041b743c2c7b59010f511531c13963cb8bca5045a1dfc855cdb991d32d08",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/standards_analysis/obligations.py",
+      "language": "Python",
+      "bytes": 26487,
+      "sha256": "22ed505a1fbe674292cc52540816274bd20f3ab6ed595112be4e8e513d39d454",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/standards_analysis/reading.py",
+      "language": "Python",
+      "bytes": 8797,
+      "sha256": "f0ebabf460240f9a80f65adc56305d792000ddd46f1a77feea93268cfa395fb7",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/standards_analysis/router_guidance.py",
+      "language": "Python",
+      "bytes": 5323,
+      "sha256": "82f5bb1715d5df55ed5b706e737181c237bb1bb110e742dcf7a8efa09cbfe879",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/standards_analysis/routing.py",
+      "language": "Python",
+      "bytes": 7979,
+      "sha256": "a0b7763d137159600b01bb3bae1c94442dbb3c160e69f7a622427977fea293f1",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/standards_analysis/state.py",
+      "language": "Python",
+      "bytes": 17553,
+      "sha256": "36bd4daa08e02a148398521ca82e0f7bc88a66244b9ef620ac6897224baebd0e",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/standards_analysis/trust.py",
+      "language": "Python",
+      "bytes": 19019,
+      "sha256": "e4d6f239e18682a3208d1c8a128ec602cbac0ad79b3bf1b726386cc9db6761de",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/tests/contract_support.py",
+      "language": "Python",
+      "bytes": 701,
+      "sha256": "c697c92b3e148e7f83a94f8d9fed5a58ac3df9938a9db661b7477a6fec62823e",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/tests/test_authority.py",
+      "language": "Python",
+      "bytes": 6359,
+      "sha256": "7375a3fd0f752f55f3f84c25bcd236db7d1fd70263d2280923bba2bde8b4ca12",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/tests/test_changes.py",
+      "language": "Python",
+      "bytes": 26345,
+      "sha256": "8b960568c2388a46570fa345873b2f6a733b88bec7be853585c70813fc99a3ae",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/tests/test_coverage.py",
+      "language": "Python",
+      "bytes": 28881,
+      "sha256": "a3f6ba58a1c5d7b39b1f1b50825a80b208980ade351c3f2e4dfad783cd787ad7",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/tests/test_coverage_preparation.py",
+      "language": "Python",
+      "bytes": 12977,
+      "sha256": "90a2eccbf3fe347ab4316facb4570865a52b7a65a28471321bdfcc5910ff5f78",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/tests/test_coverage_preparation_integration.py",
+      "language": "Python",
+      "bytes": 2901,
+      "sha256": "09823a075ecfcea16a8b6891e2863c2417ac930c6095ba3e83be817b52e42105",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/tests/test_impact.py",
+      "language": "Python",
+      "bytes": 43812,
+      "sha256": "38a924ee7186faa9aaaa92318c55fd158eeabeaadfe0f4b5c82f2255260117f5",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/tests/test_obligations.py",
+      "language": "Python",
+      "bytes": 8003,
+      "sha256": "42b7b7be51188e458a02be44b7cbbb81ac6dcd28b93c866c936235736ef25a84",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/tests/test_reading.py",
+      "language": "Python",
+      "bytes": 6534,
+      "sha256": "4383fe5733e3d45b33a169a37084c2dc8c5d22629060ef997bed1db1dd2fe5be",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/tests/test_router_guidance.py",
+      "language": "Python",
+      "bytes": 4106,
+      "sha256": "213d66204b73a7ff9b6a9b4db2fef17c5375cf8ee0a3c1ce83785e6b96954d13",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/tests/test_routing.py",
+      "language": "Python",
+      "bytes": 11589,
+      "sha256": "628568c02b5f6271277320815434e0f2ff397d61444244f1022be2fd00a6471d",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/tests/test_routing_records.py",
+      "language": "Python",
+      "bytes": 4085,
+      "sha256": "68757c91a42bcbab2eba1948d0ae2281808df11c08cc2597efbc5ae5c1404068",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_analysis/tests/test_state.py",
+      "language": "Python",
+      "bytes": 5777,
+      "sha256": "022c7325c1f9b0159faeb140aa5a46907dd9edf50f244d5b51b076b16b7e538b",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_applicability/standards_applicability/__init__.py",
+      "language": "Python",
+      "bytes": 837,
+      "sha256": "86e2db4c3a216c2f8139981cfb32bde2876e7e1b00e0804778df51a9a54b1fa5",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_applicability/standards_applicability/core.py",
+      "language": "Python",
+      "bytes": 25042,
+      "sha256": "9ebd97a04b6db1439d40f21b9796e85066bbef9ffe183453cab4b2870d14207a",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_applicability/standards_applicability/errors.py",
+      "language": "Python",
+      "bytes": 420,
+      "sha256": "d47c99c886eece97186e347989bec5f1929232da09082a8ab9d48e6661f01416",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_applicability/tests/test_applicability.py",
+      "language": "Python",
+      "bytes": 16064,
+      "sha256": "698208ed3e088b4b15d4297909b93c5fa5fe3025ddf28aa3854ff8d48d39d01d",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_applicability/tests/test_required_fact_lookup.py",
+      "language": "Python",
+      "bytes": 1422,
+      "sha256": "e1a2ed70b3acd6d73926c78105d8bc4e988280f55d27ba97377c09c428b79333",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/standards_contracts/__init__.py",
+      "language": "Python",
+      "bytes": 1512,
+      "sha256": "f18775527ec2a5cde781fc61752e80a8fcc8dd39a8dec2233923122b75e04112",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/standards_contracts/compiler.py",
+      "language": "Python",
+      "bytes": 28802,
+      "sha256": "62aea45105e65acd37e0b8eab4c4d504092f7f0d89e3ec8d2c992675a2f05bdf",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/standards_contracts/errors.py",
+      "language": "Python",
+      "bytes": 1203,
+      "sha256": "93a6e7e22f0d918d00c2ed56a0d195057ec65c630ab004670ec7395123c13920",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/standards_contracts/model.py",
+      "language": "Python",
+      "bytes": 2729,
+      "sha256": "23f65d4a0243c42abb936d20c3f5b78841923553a02dafcde2d381e4251e4ef0",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/standards_contracts/projection.py",
+      "language": "Python",
+      "bytes": 2094,
+      "sha256": "41dc99455a4fb59df12e8d7a1a3dde1894ab5f8e600cb8923308d659589c2c8d",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/standards_contracts/runtime.py",
+      "language": "Python",
+      "bytes": 11837,
+      "sha256": "3e612692b20c98b502b07d1eba52efc4cf2269eaf64bd37c0509767503f36722",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/standards_contracts/schema_structure.py",
+      "language": "Python",
+      "bytes": 3957,
+      "sha256": "dc53eab107beb6e7e1eea90f40455ddbd567dba0e40fd8c5bef93a44c66beed5",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/standards_contracts/union_selection.py",
+      "language": "Python",
+      "bytes": 4472,
+      "sha256": "7f03d6dca26c71b46fed6cfbff867ad58bda590c97412cfdfa912522cfc62aca",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/standards_contracts/validation_feedback.py",
+      "language": "Python",
+      "bytes": 5033,
+      "sha256": "a801fcd89046dfb1d8c126bcf97afa617cf4a62bc7736dc78a9a1097c782b976",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/tests/schema_location_fixtures.py",
+      "language": "Python",
+      "bytes": 1341,
+      "sha256": "f72acaf325309c820a907095e7acbb97074a970c2de00be0af313d2c924289be",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/tests/support.py",
+      "language": "Python",
+      "bytes": 745,
+      "sha256": "8ec37b73c674b874bca87128c8a62172ea420ae7846aa13aa1142d894ed682ab",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/tests/test_compiler.py",
+      "language": "Python",
+      "bytes": 10873,
+      "sha256": "1f3e7260633e295091fddaeb39d155fea61cc9c87e3485e71db34824bf3f89fc",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/tests/test_dependency_resolution.py",
+      "language": "Python",
+      "bytes": 3232,
+      "sha256": "8b61d8211dca3f4ce8e55852ed7a6fcf06ffd4f5b51a4047037e9d1876b5976b",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/tests/test_integer_decoding.py",
+      "language": "Python",
+      "bytes": 9070,
+      "sha256": "2aa5db038c54d08c34fa319bf9ae09917e5f7077b99f79dee928cb1a8fc231d1",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/tests/test_projection.py",
+      "language": "Python",
+      "bytes": 14365,
+      "sha256": "1f5076b43fb126a7acff9718c8e9ea634dabd648a78035a1217fe45693e7d29a",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/tests/test_review_contract.py",
+      "language": "Python",
+      "bytes": 1552,
+      "sha256": "37c2c28b401bd200b52438061bc5dff97c4a9b63c39d7e1da775f0641ec479c6",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/tests/test_schema_locations.py",
+      "language": "Python",
+      "bytes": 4114,
+      "sha256": "b0de3989d766cb1d3aed3c665d289c372f058856f2f9ab20923a319eb76c2f9c",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/tests/test_schema_structure.py",
+      "language": "Python",
+      "bytes": 2815,
+      "sha256": "4fec15ecf34b44a2a0da020d2a800ded2487160cd253df0d1d59928de421786a",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/tests/test_semantics.py",
+      "language": "Python",
+      "bytes": 8615,
+      "sha256": "69c1a06dc27ea0f1f36dd8898f2370f8bbcd6055e4203469716c173774552ba7",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/tests/test_union_decoding.py",
+      "language": "Python",
+      "bytes": 16839,
+      "sha256": "69cfa9f9feb8b3c87ad6236ba2875cbdb53feb5025a77319d36b076d67b53a87",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/tests/test_union_projection.py",
+      "language": "Python",
+      "bytes": 6430,
+      "sha256": "bbcb853f9fdc0037fae016a043eec09a6552adf62ff44b7c49ff143bfd306a43",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_contracts/tests/test_validation_feedback.py",
+      "language": "Python",
+      "bytes": 6203,
+      "sha256": "d12da182256cccf8772f481e08b8625d2b71a78c9346f27bf665160608a93378",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/prototypes/a2/authoring-state-model.prototype.html",
+      "language": "HTML",
+      "bytes": 21608,
+      "sha256": "a3aa4ef36be6377b2ab233d31748085749e691c5621f17dba2c3bd3cf1761da7",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/__init__.py",
+      "language": "Python",
+      "bytes": 504,
+      "sha256": "305317ccc14c4de68e142f4912f95a1a7bb0ac616d1107de11d061f8c7b6e4c3",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/_generated_contract.py",
+      "language": "Python",
+      "bytes": 612362,
+      "sha256": "fad80e42005503a1b24e4a1ac458d8d6f91fbf48e2797b7812858b903e52e8c5",
+      "counted": false,
+      "exclusion_kind": "generated",
+      "reason": "Disposable Python projection produced by the contract compiler."
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/agent_navigation.py",
+      "language": "Python",
+      "bytes": 13394,
+      "sha256": "e545029d0c37b3256c810a849c6fa3af8bfe4bf11415d208c4277c7e7a26b9fe",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/agent_workflow.py",
+      "language": "Python",
+      "bytes": 13848,
+      "sha256": "9a39d95363aec431a62fa4dbced44ed4f3d87f9b4a302852a18b4396dad5d5d9",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/analysis_projection.py",
+      "language": "Python",
+      "bytes": 14421,
+      "sha256": "a706f9214dd751411d1e158061dec8669fb03f1a2fd5fa2c72d94d9fe68c8289",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/authoring.py",
+      "language": "Python",
+      "bytes": 59574,
+      "sha256": "e518ed0dc72e7c1f7f73a7523f620ff06cf83decb173636f5639ee51667b527e",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/compiled_cache.py",
+      "language": "Python",
+      "bytes": 16250,
+      "sha256": "c220a0c5dbc84c60ffd8e0d47dd50839db58a1d4c75c33cc8682ad5de733ddae",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/consumer_authoring.py",
+      "language": "Python",
+      "bytes": 8363,
+      "sha256": "865b499b737f476a2717b0086ca4a70ae844f01d52e8964d5dae1d5e71792394",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/context_projection.py",
+      "language": "Python",
+      "bytes": 18998,
+      "sha256": "7d2a0b4d4c6529d403a943caf0bcd5c98e5b33ef1dc33f141679fe78b027a437",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/contract_discovery.py",
+      "language": "Python",
+      "bytes": 8846,
+      "sha256": "9b6b18cc2da3e1d3dd473322108a07cc0b0315bbfd1614dd7157c045397ceb3b",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/decision_batch.py",
+      "language": "Python",
+      "bytes": 5123,
+      "sha256": "db3061fe87b423c7d9f58248d95df2fb5c9ecfdf1ec7343ea4396dd7d1a438d2",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/engine.py",
+      "language": "Python",
+      "bytes": 161182,
+      "sha256": "02e5bb8cbef1cbcd836a0f707d4db495b3f42a211fe140b8a04d01da268aded4",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/evidence_maintenance.py",
+      "language": "Python",
+      "bytes": 12161,
+      "sha256": "2747e501c6372ea4c1291c71b0e091ac9e1b88dce622e179b5fd273ee7aa0446",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/input_feedback.py",
+      "language": "Python",
+      "bytes": 1603,
+      "sha256": "faaedd424f81558a11724ab735f0631975ab15c1582e51cb33b28e3e46d5063b",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/logical_authoring.py",
+      "language": "Python",
+      "bytes": 110183,
+      "sha256": "bac3a3330851489f35542e775ecf61c2f04822b17d23806803b8da8d2fb4b506",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/mcp.py",
+      "language": "Python",
+      "bytes": 11796,
+      "sha256": "d6cfe64a594c017f2e3be53dc3f70c561c9fb9d24ebe98f78a7e5ca43ceaa964",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/mcp_catalog.py",
+      "language": "Python",
+      "bytes": 15527,
+      "sha256": "0627c1b5d957f264d7e925fcb134c30470fd0a9af743cdbc7734c05e124b8f2b",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/navigation_indexes.py",
+      "language": "Python",
+      "bytes": 15238,
+      "sha256": "0c8b56d1a914306f954eaa9c24fb78d56415912f8668f486d9f88982d84e57c2",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/operation_materials.py",
+      "language": "Python",
+      "bytes": 3646,
+      "sha256": "bcba59c19e69bcaf683c4266430933cb54c086d08c428ad0654c0f0db35c2881",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/projection_continuation.py",
+      "language": "Python",
+      "bytes": 2228,
+      "sha256": "2188fd6ca71176ae31db92cfbf4c1be0286b09c6025d5eed75a1dac4b3af3518",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/relationship_vocabulary.py",
+      "language": "Python",
+      "bytes": 4868,
+      "sha256": "e1039af76be923d41362e81d35fb7025c59246aae8ea0f0a106cc2aa39ce9d0e",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/rendering.py",
+      "language": "Python",
+      "bytes": 10408,
+      "sha256": "53f070736d679418213878dc7cd3e6849357d1351fd621cfb6bf8c018612d4fe",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/request_evidence.py",
+      "language": "Python",
+      "bytes": 3204,
+      "sha256": "48a61c2029c39f46e4bd533aba570cad4e481e35d8713d5d9365ade4d91bfc2a",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/routing_edits.py",
+      "language": "Python",
+      "bytes": 5671,
+      "sha256": "2c5ca992b532a09b4bbd343e094e3686fefac2d3e76a9accbd911be966d2b46a",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/routing_inputs.py",
+      "language": "Python",
+      "bytes": 3987,
+      "sha256": "24393890b46a4f56ba0a4f59e724f924e842eb0aa764b8c9f104672e9e995fdd",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/runtime_identity.py",
+      "language": "Python",
+      "bytes": 4547,
+      "sha256": "5237dbc3ca5db69540b90c92e5f03279b2cfcad5e0cbf4fc8cf93e424f77ca1e",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/supporting.py",
+      "language": "Python",
+      "bytes": 8971,
+      "sha256": "9e16bf974c02ad5194a02a7836a9a8c8d4eca56b4ea5da821c1ab312e2832469",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/supporting_authoring.py",
+      "language": "Python",
+      "bytes": 7273,
+      "sha256": "2f11bf3e9c85c9a5ed073c884debf3010a36a0b4d6b60c5b38a52b9cb846afd7",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/tools.py",
+      "language": "Python",
+      "bytes": 24835,
+      "sha256": "52f6762cc0c94c40df466a632cec7612eec5fa6479b486b523835cd2c2f245b2",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/standards_engine/workflow_presentation.py",
+      "language": "Python",
+      "bytes": 9794,
+      "sha256": "8ce8775aab3f3ff577d1c71a9d1b40d8dd4fef3650aa5cd0221155402a48e1b4",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/agent_efficiency_trace.py",
+      "language": "Python",
+      "bytes": 8214,
+      "sha256": "ab6a8550cb990e49b66cee5166e2a1703e25d883e077e7c69111bac7b4fc6655",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/catalog_inventory.py",
+      "language": "Python",
+      "bytes": 4123,
+      "sha256": "45a0fa706c91f7c94b7a184fa850b4274f8170297ee5c181f9a8cb30668ab906",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/codex_discovery_client.py",
+      "language": "Python",
+      "bytes": 32715,
+      "sha256": "bae93baaac0fecba55bf347c6a6f5f6d58128e97e10c49cd7229ce0ff0936f4f",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/codex_navigation_client.py",
+      "language": "Python",
+      "bytes": 10948,
+      "sha256": "827dd86e0f727a8fff2b00752857832d484a180a34364b62899dec842e8415a4",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/mcp_policy_registration_client.py",
+      "language": "Python",
+      "bytes": 13884,
+      "sha256": "837fa2b09a6912067ac07e5db1742dccada922983b93a034f44680003aed9dfd",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/mcp_workflow_client.py",
+      "language": "Python",
+      "bytes": 15354,
+      "sha256": "62a7bbba1a5f7ee7db156282b1c4d886c79de2914a0c4b143da276d99a33bc73",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/platform_harness.py",
+      "language": "Python",
+      "bytes": 21011,
+      "sha256": "8b528d85518d186aa49e3cc39e3b476f8c34e296e49486c50f13249338428bfa",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/replay_discovery_qualification.py",
+      "language": "Python",
+      "bytes": 15325,
+      "sha256": "c9ef0ddcb9cb12528096c7c147875fc68b9cd272a5a32ae8e65389f3bb50e6c9",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_agent_input_feedback.py",
+      "language": "Python",
+      "bytes": 6647,
+      "sha256": "6687f34a16c3b5ffc2571883d021bdb3b6ae16abf97d5324a7bc9f99e5c612bb",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_agent_interaction_transport.py",
+      "language": "Python",
+      "bytes": 7575,
+      "sha256": "ce288e9d617cff34bd51b24872d845bb28e46fdea98ed9dc8bf5698a0df5731f",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_agent_navigation.py",
+      "language": "Python",
+      "bytes": 14562,
+      "sha256": "5633b53bc7d8d3009378455ecc5fe387ffa569598dca8f91cf665bb0c2becf77",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_agent_workflow.py",
+      "language": "Python",
+      "bytes": 15886,
+      "sha256": "cb40b4e284733a5420db4eff7ffe77b42ced7b33ed3c5349108ddaf40775c66f",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_analysis.py",
+      "language": "Python",
+      "bytes": 100718,
+      "sha256": "c463c48d95bcbc5b5bfd3690668198897a251c5000e59db71f2cbc5f983d71af",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_applicability_contract.py",
+      "language": "Python",
+      "bytes": 2662,
+      "sha256": "8df2a0b5a22244f02be07a4d4c19391aa12df2e069da4fde876207fb21eec22e",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_authoring.py",
+      "language": "Python",
+      "bytes": 42115,
+      "sha256": "8de6682c67a5a0d3a33e986e1fded1892398805f2cf2f0065f266e0c72dcc715",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_capture_handoff.py",
+      "language": "Python",
+      "bytes": 18819,
+      "sha256": "7b73dd3e00e639d2966548b007a3a3681b04e90f0aa95bda8af6954c13e292f0",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_capture_handoff_transport.py",
+      "language": "Python",
+      "bytes": 5617,
+      "sha256": "613a5fc51f29d0af155e3dde5d2c7e8f007d037d1786df68fb69224e1dede98d",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_catalog_inventory.py",
+      "language": "Python",
+      "bytes": 2389,
+      "sha256": "269f489051c159cf2ba8b75fa8a0d60dcba0d63942753d09d83dededf2bf397a",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_compact_routing.py",
+      "language": "Python",
+      "bytes": 4575,
+      "sha256": "1a0499c6acf5091b5118c2bc1e8afe3b89d7fe54d35e55aff3e50c28e518540e",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_consumer_publication.py",
+      "language": "Python",
+      "bytes": 12889,
+      "sha256": "e87d0ac64801a7dcf9889859844b3cb49eac9ce3e02993d2bbcb363c13d44cef",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_coverage_preparation_accounting.py",
+      "language": "Python",
+      "bytes": 1342,
+      "sha256": "c0c2ed10514813acafccb18205a60cc92be4813ace7ce3e5dcaa2520d0d37875",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_coverage_publication.py",
+      "language": "Python",
+      "bytes": 34719,
+      "sha256": "2a5e6761f159c63e3c79f8fed0d90e1edcf987ea78a86fc9878a2866c840ef03",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_discovered_workflow.py",
+      "language": "Python",
+      "bytes": 7501,
+      "sha256": "261b20b95716884fb3f597d1e0ba9f71619c2c63a7f5a657624d7fdd8a14d79f",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_efficiency_trace.py",
+      "language": "Python",
+      "bytes": 1470,
+      "sha256": "81f97a333f965b265b72edf448102ac686d27af223af67a4484a26204bd1b322",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_evidence_digest_boundary.py",
+      "language": "Python",
+      "bytes": 3174,
+      "sha256": "a814109ed25888670ebece144ebbb0ff7298f9981de5bc6108fa96dddec4f749",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_evidence_maintenance.py",
+      "language": "Python",
+      "bytes": 14537,
+      "sha256": "09464a63f418e196c4e50bf86d83c85139f9f6035becbc22cf2bf44c02917d72",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_facade_decoding.py",
+      "language": "Python",
+      "bytes": 2658,
+      "sha256": "629d7b03894392e9ef981068e65e1aa9c2ee8ff7d20f8829e9e9b159b14d03bd",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_fact_material_ownership.py",
+      "language": "Python",
+      "bytes": 9056,
+      "sha256": "961b47d7e1538e09bb67a774ebcc719e6a43998d4d3b81a9f94db77c02c0718e",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_fixture_worktree.py",
+      "language": "Python",
+      "bytes": 2108,
+      "sha256": "cf8c76411daed97720760010b713ac008171ed22e5aecf8af58676d45ace15bf",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_generated_contract.py",
+      "language": "Python",
+      "bytes": 24015,
+      "sha256": "2d22ae5620f0e24461acef693626940ef9f44f3377def59f7e38971b04c8ccd3",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_immutable_work_reuse.py",
+      "language": "Python",
+      "bytes": 22067,
+      "sha256": "27f4245bd6b495a7c9e0d355058c7f7fb783e3c40dbde724466814fb29d4637f",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_input_discovery.py",
+      "language": "Python",
+      "bytes": 19088,
+      "sha256": "b8f5f7db4325fe72dcc005856d03d9d4f0743072896a7704de1ee210c0d3c4ce",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_logical_authoring.py",
+      "language": "Python",
+      "bytes": 61858,
+      "sha256": "4dce72dad27e7feddee973b65770503883092d499461b1fd9a9515dc133cdff0",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_mcp.py",
+      "language": "Python",
+      "bytes": 18067,
+      "sha256": "0d7888189722dd43ea5c851b9737d7080ca50d2c0eee3633dcf00ed21f436272",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_model_discovery_qualification.py",
+      "language": "Python",
+      "bytes": 22247,
+      "sha256": "2e5558bd8de68fe99c721e22da39d8f4b3b15b88a699af506da57ff9c831df9e",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_navigation.py",
+      "language": "Python",
+      "bytes": 19169,
+      "sha256": "b14540a5826d5f2d490a7e5c4f5791b383ad11b9dd48e4fee460dc507ccb5474",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_navigation_indexes.py",
+      "language": "Python",
+      "bytes": 24273,
+      "sha256": "45e6ed0662c958aa97633dcd5c6c1e38ff5a8cf14a08178268545ddbc3c96374",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_nested_materials.py",
+      "language": "Python",
+      "bytes": 13231,
+      "sha256": "4fb3cb767fc36f8a933e7d35d902aade4cd467ec144d840932172aacd2b03c10",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_numeric_boundary.py",
+      "language": "Python",
+      "bytes": 7884,
+      "sha256": "15d15d4aa0d11a83e84a02fcc1b0d895e75c9513cd6821631a6e8b01f835ecff",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_output_delivery.py",
+      "language": "Python",
+      "bytes": 14020,
+      "sha256": "3742378ecb57c287a88c4944735fc21717bb79468271b0dce7f90e38ff25b93b",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_platform_harness.py",
+      "language": "Python",
+      "bytes": 3720,
+      "sha256": "149a85f4dd9a75166c422446941af7ceafbd08389baa4e593bbf469d58c99e07",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_policy_registration.py",
+      "language": "Python",
+      "bytes": 22273,
+      "sha256": "01cd41bb39404a6fbde06b6586e3fb1f6d9251e497d4d2ae167f0ca15c060cab",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_policy_sidecar_selection.py",
+      "language": "Python",
+      "bytes": 6521,
+      "sha256": "5e992fc239882b9309fc75e99ce37f8a51f5b98ba4e63c7133f012138f730af3",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_process_reuse.py",
+      "language": "Python",
+      "bytes": 22795,
+      "sha256": "59e491576911627654a2a3dffd58f806966da8c2df73a212de3c38ada3bb02aa",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_projection_continuation.py",
+      "language": "Python",
+      "bytes": 5520,
+      "sha256": "78f22af9f4979fadd36f17d4067677a15c63fbca5e1f547dacbd2a9377942a2b",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_proposal_consumers.py",
+      "language": "Python",
+      "bytes": 17626,
+      "sha256": "41ef04c8a7e04ce8bf03fbf056c38068c3b12760df1df77d9f38638c13943f36",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_proposal_reuse.py",
+      "language": "Python",
+      "bytes": 31280,
+      "sha256": "30ba138e5838d87a1ebd50b532a2c727fcb1e6a07c49a58389ca2a593eafdab8",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_publication_recovery.py",
+      "language": "Python",
+      "bytes": 16002,
+      "sha256": "f214f0aa3dabf4cfc52790abb08acacaa02dd201844e1c5bb3c09aeaff995eb0",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_purpose_projection.py",
+      "language": "Python",
+      "bytes": 15519,
+      "sha256": "08a8d3704c80217bd0da388c69d49de614c1413314aaf6e8091456bafc844a5f",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_purpose_transport.py",
+      "language": "Python",
+      "bytes": 8677,
+      "sha256": "d0c625e3041d27bc50e416e5e24bd270f8a7526880f00b81dceb28a7bdae21fa",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_read_many.py",
+      "language": "Python",
+      "bytes": 13370,
+      "sha256": "2213820f2c7bdd5070dab60d20bc06736665edc640b8f4845c8a7323301f801c",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_registration_contract.py",
+      "language": "Python",
+      "bytes": 6612,
+      "sha256": "68c791cd4fb0f4937dfdf5688494b980581c7b9e442f7bf8c4a4ffe97bd6db95",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_relationship_vocabulary.py",
+      "language": "Python",
+      "bytes": 8238,
+      "sha256": "837b353be0967cc26983c8517e85638836109115ff79b0479bae9dd85a1e96fb",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_rendering.py",
+      "language": "Python",
+      "bytes": 6872,
+      "sha256": "2a749897699a22ff841991c97cb907d5e0667cf8799895c24c80645a65b8e736",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_replay_discovery_qualification.py",
+      "language": "Python",
+      "bytes": 11935,
+      "sha256": "103c381e1e2fdc626866592e7a5921a563fe0bd654ab685099fc96c535ae9ac2",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_replay_discovery_workflow.py",
+      "language": "Python",
+      "bytes": 8551,
+      "sha256": "c1616dd76d512a5a5a1f11162d3823d73766eb8956466e4201f95b2e653eef6e",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_request_evidence.py",
+      "language": "Python",
+      "bytes": 14204,
+      "sha256": "d8ebc1191ca42bc189cf87ef2c7213d348290ee1b441aff7ee443793d44763f6",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_review_mcp.py",
+      "language": "Python",
+      "bytes": 4216,
+      "sha256": "53a62a8a2d05a6c61daecc96b0e0fb6bfac541cfda8265ec7d8a1f3933085d28",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_review_workflow_ux.py",
+      "language": "Python",
+      "bytes": 20488,
+      "sha256": "f0753ff66cc523add77365f7a60e5f74bd382e1dde3304da0af4db94985d3722",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_revision_working_set.py",
+      "language": "Python",
+      "bytes": 8427,
+      "sha256": "78cc1e9984bbd06317c5706713a7f40e4bff2cba2fdd94ee5f9de5898715fc15",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_route_content.py",
+      "language": "Python",
+      "bytes": 9931,
+      "sha256": "d13182d4b21d3c1353faf6056c1901a44214ab89e07b5280b629581d048e259f",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_router_consumer_paths.py",
+      "language": "Python",
+      "bytes": 4668,
+      "sha256": "56e1a41ae68724f68270ab99e46c1d7f80a552b1ebf15f8b2da8c5a6a510ae55",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_routing_fact_inputs.py",
+      "language": "Python",
+      "bytes": 11266,
+      "sha256": "fe879824efe503fa1a64f858221d4e11e7b8447fccef169593d487990e484488",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_routing_fact_transport.py",
+      "language": "Python",
+      "bytes": 14604,
+      "sha256": "3defa028ef8d7ae7513cc97bebbdec8b0e17708e21101587139ba21ca2e9964f",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_runtime_identity.py",
+      "language": "Python",
+      "bytes": 7890,
+      "sha256": "071ca7160031935db9ba0c3293b148e1a3fa2d1d539d29bee5fb1edaeaaeccb9",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_schema_locations.py",
+      "language": "Python",
+      "bytes": 6573,
+      "sha256": "6a317d28700c083a6d014778b9c724772b0f670b6a78ff0f3913127a89a947f2",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_schema_presentation.py",
+      "language": "Python",
+      "bytes": 9100,
+      "sha256": "c30f31e27da71da178f41edba7ab6f5043388cae242c5f04bda4be22ce7cd77b",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_storage_lifecycle_transport.py",
+      "language": "Python",
+      "bytes": 7428,
+      "sha256": "140298ea73e9d536754fe30e03f8b476036a270b3388b5a70ccfbc47162c588a",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_store_path_boundary.py",
+      "language": "Python",
+      "bytes": 5377,
+      "sha256": "b1d35dc7bfc8d8cd475d63621423e386c81fae31869d698d79eda7f4f5c37caf",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_supporting_workflow.py",
+      "language": "Python",
+      "bytes": 9033,
+      "sha256": "c543d97d3de7916cb2e9ecffd431c9cf188c9422ce60f5d39b626720a72b264f",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_typed_routing_edits.py",
+      "language": "Python",
+      "bytes": 11073,
+      "sha256": "2aaa976031041250f96113722ea115fc4ac74f2da19638ae372b0d9d33ce5954",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_typed_routing_projection.py",
+      "language": "Python",
+      "bytes": 7795,
+      "sha256": "14d0b9e71ca693667fcb631a84180dc10f0d9397291af37cd8749a96a0a4023b",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_typed_routing_workflow.py",
+      "language": "Python",
+      "bytes": 8884,
+      "sha256": "e0900f4f86fd0e2b5f80ba5971f5b1839aa9381c18bb6f498e83cb8d1ff10434",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_workflow_detail_reuse.py",
+      "language": "Python",
+      "bytes": 17538,
+      "sha256": "f57b02bfc8480234983c44c7b840b419ee84365a770b067b4c6facb35e50e744",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_workflow_interaction.py",
+      "language": "Python",
+      "bytes": 12764,
+      "sha256": "26daf9a36f1248ab8cd916271c69846a311876143d0d4f5d6a36103952f4c827",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/test_workflow_presentation.py",
+      "language": "Python",
+      "bytes": 18549,
+      "sha256": "a93030cd6faeacf9eb6fef28f6dd7684c7db956f3b3ac06d5e20554972b76f8d",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_engine/tests/workflow_interaction_trace.py",
+      "language": "Python",
+      "bytes": 4374,
+      "sha256": "5b8bba5a57d3ce7638776fef2f74f810f6504de4d1f9d29194837b0508f5ff75",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_graph/standards_graph/__init__.py",
+      "language": "Python",
+      "bytes": 759,
+      "sha256": "bca9f62d323417605a3ad2e9dc77c44e95b4aa7106f59bbf53ec115153095c5f",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_graph/standards_graph/metadata.py",
+      "language": "Python",
+      "bytes": 3179,
+      "sha256": "153921a40d785c6fc6facb8b090d5eefdde0123166a40ee85f8237f0c122b375",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_graph/standards_graph/policy_units.py",
+      "language": "Python",
+      "bytes": 1363,
+      "sha256": "5f7320281ce1b2ae5884b41b9e65cb4c98bd1197e0468f19689f767301c66ba5",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_graph/standards_graph/repository.py",
+      "language": "Python",
+      "bytes": 1637,
+      "sha256": "89a711ce6e71e5508d5bd2e2f79fc3e2c9189ff90fbaca81a0134cd80f25f0b5",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_graph/tests/test_metadata_graph.py",
+      "language": "Python",
+      "bytes": 2062,
+      "sha256": "47f6172a9a23d15e1c27d44d7c521aaee010d04e2de70ba4d3ae2f2b5efdb703",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_identity/standards_identity/__init__.py",
+      "language": "Python",
+      "bytes": 452,
+      "sha256": "330770de68a1688aa5833d2ec01fb14684eeabd53b0a45fb6138709a98478fca",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_identity/standards_identity/encoding.py",
+      "language": "Python",
+      "bytes": 9620,
+      "sha256": "611655e641a65b8e7d0986f0af34a792b4b8a977523bee683553f8e0e48804f1",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_identity/standards_identity/errors.py",
+      "language": "Python",
+      "bytes": 525,
+      "sha256": "2179f8bd7b9ff5e0499b711c4be6287c5e03d3530bd164904e196e33878be56e",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_identity/tests/test_compact_bytes.py",
+      "language": "Python",
+      "bytes": 4673,
+      "sha256": "5e4b6806477dfdaef4ed0606ae4f3d09c4a061df81a161498e1819487a4a79fd",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_identity/tests/test_identity.py",
+      "language": "Python",
+      "bytes": 11350,
+      "sha256": "0d1407eec003c8f01c6e8ca51ef00b4f567ad10b44e4cdcd535db7c99c2ee5e7",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_metadata/standards_metadata/__init__.py",
+      "language": "Python",
+      "bytes": 2555,
+      "sha256": "c15dd073190a0d427a5d1e8879bd46112fe96343b38de1f7c20a823cbbb305bd",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_metadata/standards_metadata/corpus.py",
+      "language": "Python",
+      "bytes": 792,
+      "sha256": "14719d8a568fbcf8850ee4dbd650e15808c7b07534aa9d434d647717775f7de9",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_metadata/standards_metadata/errors.py",
+      "language": "Python",
+      "bytes": 492,
+      "sha256": "88f919d535c28a27946bb64c7670043de5529fd4dd4e43b845e37338bed02266",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_metadata/standards_metadata/loader.py",
+      "language": "Python",
+      "bytes": 17028,
+      "sha256": "4f648ce836bc5a1976a1823581a3e7840743ab064fdc87056300dd547ef10e42",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_metadata/standards_metadata/model.py",
+      "language": "Python",
+      "bytes": 1832,
+      "sha256": "9090c26487afb5c476a660648c9a21e1934a709c437f109375efbf60f2c40a1f",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_metadata/standards_metadata/paths.py",
+      "language": "Python",
+      "bytes": 1705,
+      "sha256": "8b071568245437eb2f495d651ce282145db6aed0f81f8b660ea04ccf7ef0db80",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_metadata/standards_metadata/policy_units.py",
+      "language": "Python",
+      "bytes": 18513,
+      "sha256": "90081a9ae3a3e6d0005c34f3ae4448225ae50087b9c02ee1150fb9f39a82f047",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_metadata/standards_metadata/source.py",
+      "language": "Python",
+      "bytes": 3538,
+      "sha256": "d203344970e92235a06c13a7ed0b307a4611ccbe5b0ca4e55f0cb5445a56b73b",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_metadata/standards_metadata/suite_inputs.py",
+      "language": "Python",
+      "bytes": 22833,
+      "sha256": "ca59c9b44cc21fdca6bc92784581d3c40ddced5d80bae73772b7f146754e2d5c",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_metadata/standards_metadata/supporting_content.py",
+      "language": "Python",
+      "bytes": 9385,
+      "sha256": "e3675974a343e699e30b561a0eb394982920f4805c7d9499993f0245313c2f89",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_metadata/tests/test_metadata.py",
+      "language": "Python",
+      "bytes": 9259,
+      "sha256": "be82c51a7abb8ab9261820649b069cd24d933c17bbbc2b9e4aba6111e4f6b124",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_metadata/tests/test_policy_units.py",
+      "language": "Python",
+      "bytes": 10689,
+      "sha256": "df08f603049f3d490c6ee835ba9f777582c29cdaa03f6df39466414992fcc3d5",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_metadata/tests/test_prepared_suite_dependencies.py",
+      "language": "Python",
+      "bytes": 12647,
+      "sha256": "67a4c300d204e9793eb86b81b081c4772c832c12bad0f017f3d27fa4c788e5fc",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_metadata/tests/test_suite_inputs.py",
+      "language": "Python",
+      "bytes": 5434,
+      "sha256": "b2f8867b3407019727310affa3d85b722c08fe544d63d1c36fc023d83fd0e0bd",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_metadata/tests/test_supporting_content.py",
+      "language": "Python",
+      "bytes": 4614,
+      "sha256": "8c2d8744ab5fd5005465d618283e11bbe1d35f546f05ee636a6b7cff08efbcdd",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_policy_impact/standards_policy_impact/__init__.py",
+      "language": "Python",
+      "bytes": 1090,
+      "sha256": "ee4954dcfa56c051a85ad712dce52d85230cc5bdf4ff5882cf3beff1ee19af20",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_policy_impact/standards_policy_impact/compiler.py",
+      "language": "Python",
+      "bytes": 34666,
+      "sha256": "b43946dda744f25073c39a57e11f3cb3f3493ce79bc4ed83a85cf2424c2d56eb",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_policy_impact/standards_policy_impact/errors.py",
+      "language": "Python",
+      "bytes": 446,
+      "sha256": "3d0b1501c872ede7a78991305e6287db2d7952457769d3b5e5070af7ea5973c6",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_policy_impact/standards_policy_impact/model.py",
+      "language": "Python",
+      "bytes": 3424,
+      "sha256": "d49cf43b7193b4c01a31b3dc4ae0dc1dbd26e72c78f32315fa9e3dd65817b793",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_policy_impact/standards_policy_impact/provenance.py",
+      "language": "Python",
+      "bytes": 1768,
+      "sha256": "55d4198beaf10ef36c2e86970e54f7bfc4960117db75b0710a27470f386e185b",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_policy_impact/tests/test_compiler.py",
+      "language": "Python",
+      "bytes": 23443,
+      "sha256": "fa859d74f1ee3debaabea51856c5c28125af49f8af4970b52e4244600ac853ea",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_snapshots/standards_snapshots/__init__.py",
+      "language": "Python",
+      "bytes": 1216,
+      "sha256": "bfb48d6fe1c8ffae55ad80a6e46e3a4ec5c78ffcc2d1d7835f3974c3b5ff89df",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_snapshots/standards_snapshots/errors.py",
+      "language": "Python",
+      "bytes": 919,
+      "sha256": "c11328c1b3f7fb217cad2d4f68b7cbe80f6b001a62782ceeb8a2d0788cc42aeb",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_snapshots/standards_snapshots/model.py",
+      "language": "Python",
+      "bytes": 13879,
+      "sha256": "b1ca65c06fa1313a5ee4656ac6b3304419d511aea5a4592cce58a802eb7a8ac9",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_snapshots/standards_snapshots/module.py",
+      "language": "Python",
+      "bytes": 7634,
+      "sha256": "0725a0c3a208d7e773f15feb3129aec241caec75cb758e45dfc2f7757216bff9",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_snapshots/standards_snapshots/store.py",
+      "language": "Python",
+      "bytes": 48943,
+      "sha256": "bda178630b8226af0de5c42a7da6290ace2ed1745e3d2a99057deb0bae6ac617",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_snapshots/tests/test_module.py",
+      "language": "Python",
+      "bytes": 11068,
+      "sha256": "e98ec19c3df6250196975026c460893c7844079f882629f3f0b991ff8aac60dc",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_snapshots/tests/test_storage_lifecycle.py",
+      "language": "Python",
+      "bytes": 20818,
+      "sha256": "f95c5f4b322951e3abb0eff5c3f0758a7acdcb33387d8c1e710f259b505041b2",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_snapshots/tests/test_store.py",
+      "language": "Python",
+      "bytes": 25626,
+      "sha256": "7401b1ce117276e34c806870ec103d91a35c2d80ae413fd741a5f81547f81eb6",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/__init__.py",
+      "language": "Python",
+      "bytes": 738,
+      "sha256": "df0fe1fded4e6acfa85c0342285064016cf70f7aeb6e351ae7cf4c26f81b2c0f",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/checks/__init__.py",
+      "language": "Python",
+      "bytes": 2122,
+      "sha256": "4fd26bc3eba2945d3f9ca888a9a7eb02ac4e2dcca9527a578a4d934e25fcfab3",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/checks/contract_projection.py",
+      "language": "Python",
+      "bytes": 7407,
+      "sha256": "84eeaaaadec2526b56e1d17efac213ff4fd30dfc44bc3e4fb5776486a5c32b64",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/checks/literal_matching.py",
+      "language": "Python",
+      "bytes": 2099,
+      "sha256": "0ebf225e5597c9df33c13ad3b52d6edb847bc0b3fa36a4df955c69f971825492",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/checks/markdown.py",
+      "language": "Python",
+      "bytes": 1442,
+      "sha256": "fc1475e2653af9972776f32bb4c5c9098dd7b3de7d536db95af95800b76bc64f",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/checks/markdown_link_coverage.py",
+      "language": "Python",
+      "bytes": 9117,
+      "sha256": "56caef06f81ab095f10a5a174022f9ea7c1a362cdb9c4b50fd45a4ee054cdf15",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/checks/markdown_links.py",
+      "language": "Python",
+      "bytes": 7285,
+      "sha256": "2a594dda5c4cb718a16e0cd09ed04df4b16f841004a170442c3bb4c36864ab3c",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/checks/markdown_targets.py",
+      "language": "Python",
+      "bytes": 2394,
+      "sha256": "4973ad8da5931d0905096ef51b420c8276a9171cc5c568ce3a003db4476ba136",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/checks/metadata.py",
+      "language": "Python",
+      "bytes": 7154,
+      "sha256": "dea89749eea74df0b1194907d5507d6dc74cf1e74c18e1861e4a5e3c99613dcd",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/checks/metadata_route.py",
+      "language": "Python",
+      "bytes": 15805,
+      "sha256": "42a7223e6aad21bf6bf4239c0e37751b6c0f5499db78e2b3725d0cec95525812",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/checks/plan_contract.py",
+      "language": "Python",
+      "bytes": 13132,
+      "sha256": "c7266c0564b9ee02944fc4eb12d66cc20d604fd4ddb7f051ed77d01e9fe4466e",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/checks/policy_impact.py",
+      "language": "Python",
+      "bytes": 7488,
+      "sha256": "e28442711d42d69bdb9348ec01923daefd49cec2be8850239c9489fb6cb71dc9",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/checks/predicates.py",
+      "language": "Python",
+      "bytes": 5426,
+      "sha256": "d41f8ed712ee2bcf301d797168d172cb04907d85b7a75c9adffc2cfcfdc3454b",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/checks/python_package_contract.py",
+      "language": "Python",
+      "bytes": 9001,
+      "sha256": "a292b6d7aa44f3cbc2b1876ca46935aa7c1edf602b49fddf47308eba5ec7dca5",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/checks/table.py",
+      "language": "Python",
+      "bytes": 10530,
+      "sha256": "439b9ee8fe5cdd890cf8a7b3b43a6f19293c9e456579c68b5fab556543a65fe8",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/cli.py",
+      "language": "Python",
+      "bytes": 5136,
+      "sha256": "9bd69963a333f0590c47c86f23425412ab9358ffe2c94d676c23ba40c5b68c34",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/config.py",
+      "language": "Python",
+      "bytes": 7136,
+      "sha256": "45e5a3af333253b2a93d5c0f3802b803be3603b37a61c557a0794a2459b7c8f6",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/diagnostics.py",
+      "language": "Python",
+      "bytes": 1759,
+      "sha256": "d4197095b0a6de9088a26ff9452452093cf5e7df637cd2f46c717db12d4f9289",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/engine.py",
+      "language": "Python",
+      "bytes": 4192,
+      "sha256": "ba53599cdc5927b018daf020a55cb12c474fde1ae26d99e0caaaad5fca59f979",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/entrypoints.py",
+      "language": "Python",
+      "bytes": 1774,
+      "sha256": "752db9aab7b47e4e6431bf2772d15550963c25034df773154c2507950b611269",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/git_reachability.py",
+      "language": "Python",
+      "bytes": 7113,
+      "sha256": "4423b8310e8760e9f85d4ab6df1a644f8ee8e8038236d3ee016d66def6b0d15a",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/graph_adapters.py",
+      "language": "Python",
+      "bytes": 2419,
+      "sha256": "a2daac9fcba96192e64bd0161c9af3f3878e6f833078415700eddc30698c2aec",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/input_sources.py",
+      "language": "Python",
+      "bytes": 6491,
+      "sha256": "c54c8c8967dec15675b3a9dfc5c0bcca118a63edf0eec0f99038221cda134ca7",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/model.py",
+      "language": "Python",
+      "bytes": 4455,
+      "sha256": "5b5b87b7eee4dfa98776459ac50e02af29b62eb602842e0b547a190b74acbe02",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/paths.py",
+      "language": "Python",
+      "bytes": 2445,
+      "sha256": "de45013a15b4989767b250ef5e3fa4fb54a41d52b8a1b480a67d8986f9ea65e3",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/policy_impact.py",
+      "language": "Python",
+      "bytes": 12198,
+      "sha256": "d2505473e3c78783c7c3f50f4072e4830c80ae9d91cbb2b09ece8aa85b68612e",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/python_packages.py",
+      "language": "Python",
+      "bytes": 49950,
+      "sha256": "717bc3fe807cd00a6da5b147a0a7923c009ac594157a76ed43e18feabb8413d7",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/repository_graph.py",
+      "language": "Python",
+      "bytes": 2876,
+      "sha256": "38cf46ae2a908eeb5873096834a3ad727d2539404b9666cdb5c9319b51c6f8e3",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/standards_verifier/suite_inputs.py",
+      "language": "Python",
+      "bytes": 6090,
+      "sha256": "9c2e21a210ce0ad4ca076e9ed73645ca34b929abbdfae4a822dc31bd0b266cae",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/tests/test_decision_traceability.py",
+      "language": "Python",
+      "bytes": 1135,
+      "sha256": "5605a4211c605824139097caeb95e0e5518c28e4e54b40d30fefb2b8ebaf45dc",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/tests/test_engine.py",
+      "language": "Python",
+      "bytes": 15940,
+      "sha256": "6cbdec45de865d67dd2d133c26d971b135ac7f0497871aee624f0777bee8ba71",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/tests/test_file_contracts.py",
+      "language": "Python",
+      "bytes": 2088,
+      "sha256": "909ab53930e934b08ecadeffcbd2f79db19025b3a09490f71f62e4aa76217280",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/tests/test_frozen_suite_inputs.py",
+      "language": "Python",
+      "bytes": 9600,
+      "sha256": "ed0bf34bfe420265796efca17198383d8f19cf30eba9512b0e66c273f5b3b3ed",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/tests/test_git_reachability.py",
+      "language": "Python",
+      "bytes": 8001,
+      "sha256": "1f4747f20f1432e43a36b9f34e0dff2c899c65ed46abba2c384b3d6cf8fc3c4f",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/tests/test_metadata.py",
+      "language": "Python",
+      "bytes": 13761,
+      "sha256": "4f984f3de96e8571d853c9cacdfcf200a4058a4c7e6793eb699beea4611ab9cb",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/tests/test_metadata_route.py",
+      "language": "Python",
+      "bytes": 6546,
+      "sha256": "8594d85d024831a0643d057a00f31b10a40c962c808df1c19d2e6a8ff802bc91",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/tests/test_plan_contract.py",
+      "language": "Python",
+      "bytes": 3738,
+      "sha256": "c854a10d01cf49af13fc91a9acd5a201a955323ead717b95795e42e8e6133279",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/tests/test_policy_impact.py",
+      "language": "Python",
+      "bytes": 16559,
+      "sha256": "ce9d010a24ec3074da9d9110b8d5f90f977559c22d2f6a175ae0a1acf73b87cb",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/tests/test_python_package_contract.py",
+      "language": "Python",
+      "bytes": 22471,
+      "sha256": "7f64e6b43152dfd51230daf2773ff7cba8113c27e708c7d6ca829a041ba6d7c3",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/tests/test_repository_graph.py",
+      "language": "Python",
+      "bytes": 5131,
+      "sha256": "27f65a492c789c3981a12094a066213e3601320f683536737ea1fb61126c5146",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/tests/test_routing_checks.py",
+      "language": "Python",
+      "bytes": 16804,
+      "sha256": "acbb87c15ba43814b695b72d1b3c21409c01dd37d2d9fce961903ec57993c631",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/tests/test_suite_inputs.py",
+      "language": "Python",
+      "bytes": 10923,
+      "sha256": "ec9d8a5b09950599b3f03b914f5d2c916a44f77b8a76a086a139045d9d2e6b9d",
+      "counted": true
+    },
+    {
+      "path": "tools/standards_verifier/verify.py",
+      "language": "Python",
+      "bytes": 507,
+      "sha256": "77ac6c2f233c2ac442230fe0a28e74131ab4a507b50c768dcfc108f8e75c573e",
+      "counted": true
+    },
+    {
+      "path": "tools/verify_git_reachability.py",
+      "language": "Python",
+      "bytes": 503,
+      "sha256": "92f32562c4b748c3a174faa8392966a928e865098a6d2c52ba008cc8b212bd9e",
+      "counted": true
+    }
+  ],
+  "explicit_exclusions_already_omitted_by_linguist": []
+}

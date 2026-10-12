@@ -1,3 +1,21 @@
+# Final authored-source presentation checks — 12 October 2026
+
+- Static validation: 35 unique IDs, 85 links/assets, 26 image elements, one h1, no external scripts, and JavaScript syntax pass.
+- Chromium at 1440, 768, 390 and 320 px: no horizontal overflow, broken images, blank links or script errors. Skip navigation and all 16 image dialogs pass 64 open/Escape/focus exercises.
+- 508 gallery checks pass: five galleries, original proportions, overlay controls without strips, keyboard navigation, repeated selection, reduced motion, full-size Back/Forward and focus restoration. All 16 image links remain available without JavaScript.
+- 381 refinement checks pass: all 13 authored-source distributions reconcile with their exact pinned commits; all bars sit in the project text column on desktop; mobile remains consistent. Actual CDP touch swipes, hover/focus/tap language keys, original owner-image hashes, credits and source-only Whip link pass.
+- All five hero concepts share headline size and weight and fit single lines at each width. The eyebrow/bullet, supporting sentence and duplicate small labels are removed. About includes the owner's BC+AI/devLab statement and the verified official website link.
+- Every project image header and caption is removed, including Book-Be-Gone and Lanternwake; the dialog has no caption strip. No reserved strip height remains. Accessible descriptions, image proportions, counters, arrows, full-size controls and project prose remain.
+- Book-Be-Gone's two owner-supplied JPEGs remain original bytes. Copy is grounded in the pinned public README; no private service source or invented website appears.
+- The pinned classifier was run twice across all 13 repositories; snapshots are byte-identical. The independent file audit reconciles 5,557 classified records and 93 exact exclusion records with their source/evidence hashes. See [method and comparison](LANGUAGE_METHOD.md).
+- The original worktree's separate Cooking the Cat draft, the profile README review branch, main and the owner-upload branch are preserved. No application code, workflows or account settings change.
+
+Final previews and reports are recorded in `review/authored-source-2026-10-12/`. Local rendering establishes the intended public bundle; direct live Pages requests remain subject to this environment's outbound proxy. Exact deployment results are recorded separately in [DEPLOYMENT.md](DEPLOYMENT.md).
+
+Earlier records below are historical and refer to their stated revisions.
+
+---
+
 # Consolidated presentation review — 12 October 2026
 
 This review is not deployed. The approved portfolio remains at Pages commit `fe30267e0c99c6cc19b9d5fd35208823cc93a678`, from source `83b67e99cb52c17af8eb42b8900ebadc81377569`.
