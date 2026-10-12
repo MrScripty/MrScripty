@@ -4,7 +4,7 @@ from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urlparse
 from collections import Counter
-import json
+import json,hashlib
 ROOT = Path(__file__).resolve().parents[1]
 class Page(HTMLParser):
     def __init__(self):
@@ -32,6 +32,12 @@ for img in p.images:
     if 'alt' not in img: errors.append('Image lacks alt')
 if p.headings.count('h1')!=1: errors.append('Page must have exactly one h1')
 if not (ROOT/'.nojekyll').exists(): errors.append('Missing .nojekyll')
+for asset in ('styles.css','script.js'):
+    source=ROOT/asset
+    stem,ext=asset.rsplit('.',1)
+    versioned=f'{stem}.{hashlib.sha256(source.read_bytes()).hexdigest()[:12]}.{ext}'
+    if not (ROOT/versioned).is_file() or (ROOT/versioned).read_bytes()!=source.read_bytes(): errors.append(f'Stale or missing versioned asset: {versioned}; run tools/version_assets.py')
+    if versioned not in [ref for _,ref in p.refs]: errors.append(f'HTML must reference versioned asset: {versioned}')
 report={'static_errors':errors,'ids':len(p.ids),'links_and_assets':len(p.refs),'images':len(p.images),'h1_count':p.headings.count('h1'),'external_scripts':sum(bool(urlparse(s.get('src','')).scheme) for s in p.scripts)}
 print(json.dumps(report,indent=2))
 raise SystemExit(bool(errors))

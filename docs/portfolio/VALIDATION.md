@@ -1,5 +1,13 @@
 # Validation status
 
+## Asset-version repair, 12 October 2026
+
+The first dark publication used the same `styles.css` URL as the previous cream layout. A browser primed with that prior stylesheet reproduced the reported cream sections, distorted icons/portrait, and side-by-side Tuldok/Eidetic sections on desktop. Fresh-cache testing alone had missed this failure mode. Live HTTP remains proxy-blocked, so the exact browser/CDN cache layer cannot be determined here; the four supplied screenshot transfers also failed and their pixels were not inspected.
+
+The repair references `styles.41bb4b5ed6e1.css` and `script.73ab2d2be243.js`. Their contents are unchanged; there is no design or content change. A browser retaining the old CSS now fetches the versioned files at `/MrScripty/` and renders dark sections, undistorted images, and separately stacked Tuldok/Eidetic sections at 1440, 768, 390 and 320 px. Full-page desktop and mobile screenshots are byte-identical to the approved review previews. Resource responses have the expected paths and CSS MIME type; no horizontal overflow or JavaScript errors occur.
+
+After editing canonical `styles.css` or `script.js`, run `python tools/version_assets.py`, then `python tools/verify.py`. Validation rejects stale content-versioned assets or HTML links. Canonical legacy asset URLs remain available for previously loaded pages.
+
 The compact dark revision is source-only. It was checked locally in Chromium 151 at **1440, 768, 390 and 320 px** on 12 October 2026.
 
 - Static paths, fragments, IDs, alt attributes, one h1, and JavaScript syntax pass. No external scripts are loaded.
