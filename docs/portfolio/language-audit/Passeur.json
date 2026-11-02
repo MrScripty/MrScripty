@@ -1,0 +1,2960 @@
+{
+  "repository": "MrScripty/Passeur",
+  "source_commit": "725c45cfc1fcd9fae0980bceebe051debdc11cb2",
+  "baseline_total_bytes": 5815163,
+  "authored_total_bytes": 5815163,
+  "baseline_languages": {
+    "Shell": 6855,
+    "TypeScript": 2407417,
+    "JavaScript": 3374433,
+    "C": 2124,
+    "C++": 3382,
+    "C#": 1978,
+    "Kotlin": 2573,
+    "Lua": 1846,
+    "Odin": 2115,
+    "Python": 3594,
+    "HTML": 594,
+    "Rust": 4566,
+    "Svelte": 1194,
+    "Zig": 2492
+  },
+  "authored_languages": {
+    "Shell": 6855,
+    "TypeScript": 2407417,
+    "JavaScript": 3374433,
+    "C": 2124,
+    "C++": 3382,
+    "C#": 1978,
+    "Kotlin": 2573,
+    "Lua": 1846,
+    "Odin": 2115,
+    "Python": 3594,
+    "HTML": 594,
+    "Rust": 4566,
+    "Svelte": 1194,
+    "Zig": 2492
+  },
+  "files": [
+    {
+      "path": "passeur",
+      "language": "Shell",
+      "bytes": 943,
+      "sha256": "bc76bdf826581b2448091efae52d1c4a0d50c1c5af474cd4874fc941b272b4e6",
+      "counted": true
+    },
+    {
+      "path": "scripts/benchmark-structural.ts",
+      "language": "TypeScript",
+      "bytes": 27323,
+      "sha256": "f9a6f1982360d5cd685c1e3d81c95ea566f42aa5d0eb197ef4e86d616367715f",
+      "counted": true
+    },
+    {
+      "path": "scripts/build-runtime.ts",
+      "language": "TypeScript",
+      "bytes": 833,
+      "sha256": "8d59cdfdd793f1dc69439902d8f54b4a096050c8c7ae91e826136665cd124b06",
+      "counted": true
+    },
+    {
+      "path": "scripts/experiment-worker-sandbox.mjs",
+      "language": "JavaScript",
+      "bytes": 10665,
+      "sha256": "d5d970e7fcc7a38387682bbb73d24b05f17cffdd6fd0ec89cc09a7c417ff4172",
+      "counted": true
+    },
+    {
+      "path": "scripts/prepare-structural-live.ts",
+      "language": "TypeScript",
+      "bytes": 10666,
+      "sha256": "0a007d42ff07106988ce744a3ddeecc66de02cecb12edd942496b3332e5a4c6f",
+      "counted": true
+    },
+    {
+      "path": "scripts/probe-agents.ts",
+      "language": "TypeScript",
+      "bytes": 6410,
+      "sha256": "737aec091e13f842c50729d125f3ce6667dcd518fac7e3633d6588f017564f00",
+      "counted": true
+    },
+    {
+      "path": "scripts/probe-installed.ts",
+      "language": "TypeScript",
+      "bytes": 4981,
+      "sha256": "bd9e0ad4e9a3d8e9669fa6778d33ba3b30f5880b0ee0d27bb76ae7b9933af421",
+      "counted": true
+    },
+    {
+      "path": "scripts/probe-muse.ts",
+      "language": "TypeScript",
+      "bytes": 1465,
+      "sha256": "c255a09227f6486f6ad7cf04bf3e34b5154cd3c5957c667785aa1ccba7c57e11",
+      "counted": true
+    },
+    {
+      "path": "scripts/probe-parallel.ts",
+      "language": "TypeScript",
+      "bytes": 119,
+      "sha256": "1f2c9d8527dda336633313216f7349898026240d245070cfe00e09e9a76957a3",
+      "counted": true
+    },
+    {
+      "path": "scripts/probe-service.ts",
+      "language": "TypeScript",
+      "bytes": 3538,
+      "sha256": "fc066476fef23477d2194efd73a3941c0fbb6f92fe97625fd0d25e4111d36b4c",
+      "counted": true
+    },
+    {
+      "path": "scripts/probe-structural-oracles.ts",
+      "language": "TypeScript",
+      "bytes": 41282,
+      "sha256": "5cfb9d549115b7c2d5c6e6017779e8a1243f67effcb41e820ced6c8038cf8a08",
+      "counted": true
+    },
+    {
+      "path": "scripts/probe-structural-runner.ts",
+      "language": "TypeScript",
+      "bytes": 14545,
+      "sha256": "397ebb849914f3cc9c65003f8d399f1c9ebcc4b3d45f0c661f55bccb80d51611",
+      "counted": true
+    },
+    {
+      "path": "scripts/probe-structural.ts",
+      "language": "TypeScript",
+      "bytes": 39017,
+      "sha256": "210bb612b7c5670a773294d4c9a7995efaccca432f6bf305c229c3416bf58855",
+      "counted": true
+    },
+    {
+      "path": "scripts/probe-wait.ts",
+      "language": "TypeScript",
+      "bytes": 866,
+      "sha256": "c2f06111285c057edf72719a1c49223293a9105cd3df40d132d49e1fdc9df983",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-codex-blinded-pair.mjs",
+      "language": "JavaScript",
+      "bytes": 11337,
+      "sha256": "e4ecf049924c32551f81d67ec72c15482707e38d520f792e05205c331e4abf92",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-codex-first-party-transport.mjs",
+      "language": "JavaScript",
+      "bytes": 9471,
+      "sha256": "d73ef478ca722da0eb4b4cb7c38b82ee3553e672fec9e29324cb0a334d56818d",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-codex-model-exec.mjs",
+      "language": "JavaScript",
+      "bytes": 30681,
+      "sha256": "c22beac7f4822d1932aaa4375b7567a885d10fc11bc8b356ad5ce8cb8e418faf",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-codex-model-tools.mjs",
+      "language": "JavaScript",
+      "bytes": 17553,
+      "sha256": "303501e02730b0120899548222fea68bfd4aa0b51e15e52ac0cb983c0e8d9569",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-codex-model-view-image.mjs",
+      "language": "JavaScript",
+      "bytes": 30525,
+      "sha256": "bd720bfadd9ac1c4c622f1d9d17788538341f2ac2b5f2dc6f76c9cf9002eed2c",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-codex-model-write-stdin.mjs",
+      "language": "JavaScript",
+      "bytes": 50466,
+      "sha256": "6193db2654b5fce95e09bbdac0f65aab82aae97f5235cfb5c721b65ffa431cd4",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-codex-protected-boundary.mjs",
+      "language": "JavaScript",
+      "bytes": 18610,
+      "sha256": "59106256f2243c95c67b93086525e0101770b2e2260ad97f5a63f84dc7d2b689",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-codex-protected-worker.mjs",
+      "language": "JavaScript",
+      "bytes": 41366,
+      "sha256": "84a101170fc4103f300ff0c602967c5cfe6dca77bc13f8b53d0ff358b808a81e",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-codex-real-protected-native-boundary.mjs",
+      "language": "JavaScript",
+      "bytes": 11953,
+      "sha256": "5ae5155e092f31d8a2c213c32e0f011376f8afebfc1c77f08a8a0cb65df69167",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-codex-real-protected-worker.mjs",
+      "language": "JavaScript",
+      "bytes": 16742,
+      "sha256": "f873bb4c146ae2fb6ddb286239a7d3dae980b43566fffe68f947bf7676271d1f",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-codex-registered-service.mjs",
+      "language": "JavaScript",
+      "bytes": 24223,
+      "sha256": "050e788230f665274cce8516f20b8a6fb7bc52d393180260a5d2896e40b75563",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-codex-subscription-transport.mjs",
+      "language": "JavaScript",
+      "bytes": 40212,
+      "sha256": "33e7d285140bc29b971ae685fe27e4cdf9769548f302cca9795841102e8ee6ce",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-codex-thread-start.mjs",
+      "language": "JavaScript",
+      "bytes": 12786,
+      "sha256": "8a46110b0faa68320208ecf5a5193d623ac7b84d36c5be0ec72b63c19bc1e496",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-codex-tty-visibility.mjs",
+      "language": "JavaScript",
+      "bytes": 30805,
+      "sha256": "6e1033ffa1e6a274a5559b07c6d0175939a034f272e5255f43881f5a2658c33b",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-codex-tty-write-effect.mjs",
+      "language": "JavaScript",
+      "bytes": 22055,
+      "sha256": "4ccb835c2f216a82ca165636e9939a93ce66393b28726299f1517df6f0d483b4",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-fixture-apps.mjs",
+      "language": "JavaScript",
+      "bytes": 37921,
+      "sha256": "ba99d55915a7e140805d02be6979201de26fab44a9aa67b2e47b612e25b45bfa",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-muse-credential-relay.mjs",
+      "language": "JavaScript",
+      "bytes": 124683,
+      "sha256": "5e436dad5d362e11eda79057936fe01f9a5fdf38656a4a18955fd4d422f171b5",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-muse-native-shell.mjs",
+      "language": "JavaScript",
+      "bytes": 12131,
+      "sha256": "0c5c35e3d9bd80e8314cb11edc841190b7ec926c305a1b20239e0811bf82dea5",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-muse-protected-worker.mjs",
+      "language": "JavaScript",
+      "bytes": 72798,
+      "sha256": "eb29b9df83ced8083790772f4aa42adcb80d9bac4a4e36e2eb47ef63b09d10ec",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-muse-provider-transport.mjs",
+      "language": "JavaScript",
+      "bytes": 7131,
+      "sha256": "168416aaee283e08c2c90c03fcf8a76200b48d41b740c6c0026593bc1eed2055",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-muse-sandbox-transport.mjs",
+      "language": "JavaScript",
+      "bytes": 304839,
+      "sha256": "44495d8177e31d49265922a58a953f2468de89b2c08654b85f4e0e09a83d71e7",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-muse-serve-boundary.mjs",
+      "language": "JavaScript",
+      "bytes": 34339,
+      "sha256": "f360dc0eb26741fa5e99058572b879f809100dbe00cb8361224a054f32cdf2e0",
+      "counted": true
+    },
+    {
+      "path": "src/agents/builtins.ts",
+      "language": "TypeScript",
+      "bytes": 299,
+      "sha256": "165d2f446e3b7b03fcb5ae007124165246247ee8469b17942e1e1d866c3ad62e",
+      "counted": true
+    },
+    {
+      "path": "src/agents/codex/adapter.ts",
+      "language": "TypeScript",
+      "bytes": 39729,
+      "sha256": "4126d96577d0521d9a9649e11d978bd43e2f1aff4bd4622750359118b740a186",
+      "counted": true
+    },
+    {
+      "path": "src/agents/codex/config.ts",
+      "language": "TypeScript",
+      "bytes": 2772,
+      "sha256": "106917fbdb2a1a52817af1cbe4cd48d0ceade05b278e8a28542a2c7e256367d8",
+      "counted": true
+    },
+    {
+      "path": "src/agents/codex/protected-egress.ts",
+      "language": "TypeScript",
+      "bytes": 9745,
+      "sha256": "c8dd3ed4fdabf8796e2fc5c5bbd00b5ce165465a4e2e5b6f9f0e240e69a9ac95",
+      "counted": true
+    },
+    {
+      "path": "src/agents/codex/protected-host.ts",
+      "language": "TypeScript",
+      "bytes": 23004,
+      "sha256": "43c8194d3673c39bc93949640e283a8c45da92afa41647c0b6686d4c8fcccb48",
+      "counted": true
+    },
+    {
+      "path": "src/agents/codex/protected-runtime.ts",
+      "language": "TypeScript",
+      "bytes": 17744,
+      "sha256": "47bbda8ea08f05a0745d04852f2aad8bd5a8e5846f9db81a198d0a47038c80bf",
+      "counted": true
+    },
+    {
+      "path": "src/agents/codex/protocol.ts",
+      "language": "TypeScript",
+      "bytes": 24389,
+      "sha256": "2a6004f7dd59459699ddf87f489cfa20698332aaf8a49ef8d608d6049047f794",
+      "counted": true
+    },
+    {
+      "path": "src/agents/codex/transport.ts",
+      "language": "TypeScript",
+      "bytes": 17773,
+      "sha256": "e06a15b7d6db59762d3fac398eac469df2285c012d2a3b9e5a8e83fdc1a402af",
+      "counted": true
+    },
+    {
+      "path": "src/agents/registry.ts",
+      "language": "TypeScript",
+      "bytes": 4771,
+      "sha256": "4ba44ce0d534d60613597d3b155685d2feee9afb4ae5b2ba8865de29b82794a6",
+      "counted": true
+    },
+    {
+      "path": "src/agents/report-format.ts",
+      "language": "TypeScript",
+      "bytes": 14940,
+      "sha256": "8ed333911347bad9b2f375c1659e5f33e3ce754b3d4881da6ed7b209bcba350e",
+      "counted": true
+    },
+    {
+      "path": "src/agents/report.ts",
+      "language": "TypeScript",
+      "bytes": 7799,
+      "sha256": "57084173f1385922bc8f0b4c5a2da87a0715a334d13b701c353329e90426b4eb",
+      "counted": true
+    },
+    {
+      "path": "src/agents/types.ts",
+      "language": "TypeScript",
+      "bytes": 4743,
+      "sha256": "5ac103b5602517f9ef666d5717d96dcbb6508fc29ad5eadd27b8b36418fb3353",
+      "counted": true
+    },
+    {
+      "path": "src/approvals/native.ts",
+      "language": "TypeScript",
+      "bytes": 1858,
+      "sha256": "d18ce8ff9d04e43afd2317b12db6a64a73a55af9228a478622185a3210cfb99c",
+      "counted": true
+    },
+    {
+      "path": "src/cli.ts",
+      "language": "JavaScript",
+      "bytes": 36399,
+      "sha256": "c5d5580ea9f4b32835fee0b79f074cfaa68463e49a666859a91b60323de19583",
+      "counted": true
+    },
+    {
+      "path": "src/cli/coordination.ts",
+      "language": "TypeScript",
+      "bytes": 4735,
+      "sha256": "746581ebfd07a6abd182fc16e7ccc895a2163099825900eae34fe0fe3d002460",
+      "counted": true
+    },
+    {
+      "path": "src/codex/config.ts",
+      "language": "TypeScript",
+      "bytes": 24824,
+      "sha256": "2d3e632ff7feeed7947eb0e97a6f512e5f3fa7d0d9a8a02833da6913e067dabb",
+      "counted": true
+    },
+    {
+      "path": "src/codex/probe.ts",
+      "language": "TypeScript",
+      "bytes": 8621,
+      "sha256": "f8f3e7da25952693d279144ec7bd62db587541fd2bf7848994b7a5d2856dded6",
+      "counted": true
+    },
+    {
+      "path": "src/codex/profile-migration.ts",
+      "language": "TypeScript",
+      "bytes": 9478,
+      "sha256": "a77ff764bcd8902580637ef6fac7dd47fc7db6e4427361ed3ea44ff29a2614bb",
+      "counted": true
+    },
+    {
+      "path": "src/codex/startup-policy.ts",
+      "language": "TypeScript",
+      "bytes": 1983,
+      "sha256": "ce61ec7622be6bb48f5c28db2038b4679554bb87ff24c8bf315e1772cee17408",
+      "counted": true
+    },
+    {
+      "path": "src/contracts/agents.ts",
+      "language": "TypeScript",
+      "bytes": 5166,
+      "sha256": "9669c5aaab33adcf3d0a1eb855e478e8dfa6a24289ebc9485ed63ae8dec09b49",
+      "counted": true
+    },
+    {
+      "path": "src/contracts/coordination-control.ts",
+      "language": "TypeScript",
+      "bytes": 72359,
+      "sha256": "e36c243e2ebad8172dd9cc0b21011290b4f4d2db1201bf215701315c1c0c944a",
+      "counted": true
+    },
+    {
+      "path": "src/contracts/coordination-service.ts",
+      "language": "TypeScript",
+      "bytes": 14454,
+      "sha256": "861ea43cffb5aae451cb5114e4256bc6a8cb2c0a36cd5d000bd7ec5636d2014a",
+      "counted": true
+    },
+    {
+      "path": "src/contracts/index.ts",
+      "language": "TypeScript",
+      "bytes": 4916,
+      "sha256": "3e721b58601acd4501233bd7c7438fa93c4f121f637e2f2be3a99cbffee06875",
+      "counted": true
+    },
+    {
+      "path": "src/contracts/observation.ts",
+      "language": "TypeScript",
+      "bytes": 10763,
+      "sha256": "742a0681e8603a499333f2f6e2bcbd615191fffd5849af9310104a402d899f04",
+      "counted": true
+    },
+    {
+      "path": "src/contracts/peer-delivery.ts",
+      "language": "TypeScript",
+      "bytes": 7853,
+      "sha256": "82b473ff7da7a02be7e53ac8ffb6210158f0739daf51734591afd9ff83ac44de",
+      "counted": true
+    },
+    {
+      "path": "src/contracts/peer-operations.ts",
+      "language": "TypeScript",
+      "bytes": 25625,
+      "sha256": "2eb737cf70b56927dd96bd8cf89be4f45f5b99064d447f75c17bf5ebdf80982a",
+      "counted": true
+    },
+    {
+      "path": "src/contracts/private-git-publication.ts",
+      "language": "TypeScript",
+      "bytes": 2607,
+      "sha256": "8dc845a2522ad5ba060da64640188437d7c5ef89bd540b06b4df65cd8843d9d1",
+      "counted": true
+    },
+    {
+      "path": "src/contracts/runtime.ts",
+      "language": "TypeScript",
+      "bytes": 4260,
+      "sha256": "e786aef501e2b531843fe98e1b8c19f399e53a093443117c8cb3651ef2b4f7b6",
+      "counted": true
+    },
+    {
+      "path": "src/contracts/service.ts",
+      "language": "TypeScript",
+      "bytes": 14031,
+      "sha256": "3016d51401b734309b51fac30c52c6a079a73dc41836ffe17f254c33d1c057c3",
+      "counted": true
+    },
+    {
+      "path": "src/contracts/tasks.ts",
+      "language": "TypeScript",
+      "bytes": 18664,
+      "sha256": "1edf8449f6479e67bec212834178e0dde56cb8d1fb67345d501313e28b61dee4",
+      "counted": true
+    },
+    {
+      "path": "src/contracts/types.ts",
+      "language": "TypeScript",
+      "bytes": 4736,
+      "sha256": "4241018fc5f429874de401989ff86abea9add3a2739e70a53fe91ac1a043c6c4",
+      "counted": true
+    },
+    {
+      "path": "src/coordination/bound-control.ts",
+      "language": "TypeScript",
+      "bytes": 16558,
+      "sha256": "5dd2d55207eee06d2ee290107c67c7512c1dbc0f7c73711d2d57472830d30224",
+      "counted": true
+    },
+    {
+      "path": "src/coordination/control.ts",
+      "language": "TypeScript",
+      "bytes": 144998,
+      "sha256": "bad963431c121956513ff22fdfd8d878be32158d46c3cd5929f6954538edf06f",
+      "counted": true
+    },
+    {
+      "path": "src/coordination/notices.ts",
+      "language": "TypeScript",
+      "bytes": 1708,
+      "sha256": "84cffdf43d9a092833203ad2a074fb9a61c2cce71281d3177b70a8713ac94bde",
+      "counted": true
+    },
+    {
+      "path": "src/coordination/peer-application.ts",
+      "language": "TypeScript",
+      "bytes": 11867,
+      "sha256": "590089bb9a6eef81784fc6db66d5487f42acbd1bd19813a2d2ec0856017a11af",
+      "counted": true
+    },
+    {
+      "path": "src/coordination/peer-resolution.ts",
+      "language": "TypeScript",
+      "bytes": 15069,
+      "sha256": "dc75c47e4ba32b916a2f6cba7e7ddb57b6728c3ba73463559fb082c837fc873c",
+      "counted": true
+    },
+    {
+      "path": "src/coordination/repository.ts",
+      "language": "TypeScript",
+      "bytes": 14420,
+      "sha256": "6d2445fa6eaaafa095f8c86d0f9556f6400009018e7d5078fac99bd4a4f8eacb",
+      "counted": true
+    },
+    {
+      "path": "src/core/async.ts",
+      "language": "TypeScript",
+      "bytes": 3280,
+      "sha256": "59fe78dadca2b12a618d20b8585588a4d0b3d26bcec22c195822b02a9b4f339a",
+      "counted": true
+    },
+    {
+      "path": "src/core/cleanup.ts",
+      "language": "TypeScript",
+      "bytes": 1661,
+      "sha256": "1baa1cbb8ecfe1f70dd7e2481ab83c16455f9fd90b9dd6a22ca5c368f82d3e85",
+      "counted": true
+    },
+    {
+      "path": "src/core/coordination-resources.ts",
+      "language": "TypeScript",
+      "bytes": 4582,
+      "sha256": "23411a060adaa71414d8256de589d6d1abb42d189484eef48837836545c727fd",
+      "counted": true
+    },
+    {
+      "path": "src/core/coordinator.ts",
+      "language": "TypeScript",
+      "bytes": 80356,
+      "sha256": "de2adced92eda289d929485e32aad3b1e70998f1451fc5ae97f9ef7c0a4bea3f",
+      "counted": true
+    },
+    {
+      "path": "src/core/disposition.ts",
+      "language": "TypeScript",
+      "bytes": 12069,
+      "sha256": "6401b84240caf427a35b95e337737a963f4d5305084d01464fa48715095e028d",
+      "counted": true
+    },
+    {
+      "path": "src/core/errors.ts",
+      "language": "TypeScript",
+      "bytes": 4011,
+      "sha256": "ebde2080a19c9551bd6578fbdc01fac37d68da399dcb9a467da0d23a7b929d98",
+      "counted": true
+    },
+    {
+      "path": "src/core/input-broker.ts",
+      "language": "TypeScript",
+      "bytes": 7038,
+      "sha256": "3648d1d068bacb65ed750e76c6cebd19289c0e726fa96adb2ff8bbfebdeae08d",
+      "counted": true
+    },
+    {
+      "path": "src/core/lease.ts",
+      "language": "TypeScript",
+      "bytes": 19009,
+      "sha256": "abd75f15bc1c0b1b61884d3d6cfdad15e39e9a79beb10e932828717d218d3fbf",
+      "counted": true
+    },
+    {
+      "path": "src/core/managed-coordination.ts",
+      "language": "TypeScript",
+      "bytes": 4429,
+      "sha256": "5038259367be10157a992de1bda4d5f5c2dc7355fbd0480d0715e43989d4332f",
+      "counted": true
+    },
+    {
+      "path": "src/core/prior-task.ts",
+      "language": "TypeScript",
+      "bytes": 1930,
+      "sha256": "87ebcb7c3f71b1d6078355cd873bdcb36c2d950b8f70f31f533aba37e09b040e",
+      "counted": true
+    },
+    {
+      "path": "src/core/process-identity.ts",
+      "language": "TypeScript",
+      "bytes": 1779,
+      "sha256": "56939b02e8f25aa14bc4f950fb85cbd517b88324641b02db842678c419b320e2",
+      "counted": true
+    },
+    {
+      "path": "src/core/profile-edit.ts",
+      "language": "TypeScript",
+      "bytes": 5219,
+      "sha256": "54cbe8a368fdb4093046367f88aca07633f1daaeab02bb5171e8dfc1a7982b0e",
+      "counted": true
+    },
+    {
+      "path": "src/core/profile.ts",
+      "language": "TypeScript",
+      "bytes": 6781,
+      "sha256": "4b49f59cd021031cbdba5565d8b9c9517dc29c1cf8d9f05dc149bc29005d2e39",
+      "counted": true
+    },
+    {
+      "path": "src/core/protected-namespace.ts",
+      "language": "TypeScript",
+      "bytes": 8267,
+      "sha256": "614046e9f695074be239e391183ca474f4b64e9a5ae71a2cfdba1dd43fe71146",
+      "counted": true
+    },
+    {
+      "path": "src/core/recovery.ts",
+      "language": "TypeScript",
+      "bytes": 16865,
+      "sha256": "00010123e0b9a7a9169234d80e9acab8c79672a6919959d13b36b65cf33248f8",
+      "counted": true
+    },
+    {
+      "path": "src/core/repository-runtime.ts",
+      "language": "TypeScript",
+      "bytes": 230339,
+      "sha256": "7f21a39be22c4157ea4cee1fa8641ab7262658bef272628d4ea16915d0007341",
+      "counted": true
+    },
+    {
+      "path": "src/core/result.ts",
+      "language": "TypeScript",
+      "bytes": 6771,
+      "sha256": "456c25a493cc7d0844f423d31675db71d5ef4d2c94d59c03c7a7b95debf8938e",
+      "counted": true
+    },
+    {
+      "path": "src/core/state.ts",
+      "language": "TypeScript",
+      "bytes": 1497,
+      "sha256": "313e2b452f0ba39490f8b05b50b6700cb6bf7950128811317f0738c2652e38bc",
+      "counted": true
+    },
+    {
+      "path": "src/core/task-control.ts",
+      "language": "TypeScript",
+      "bytes": 24012,
+      "sha256": "3ad357240844851649240a9ae59468ddbf25d99e9c80134bef1486b0467bcc86",
+      "counted": true
+    },
+    {
+      "path": "src/diagnostics/doctor.ts",
+      "language": "TypeScript",
+      "bytes": 6603,
+      "sha256": "3bf1f75833f3ff82c96ecfaa4e9363bbe995dd56886011f4eb27a7833cec74eb",
+      "counted": true
+    },
+    {
+      "path": "src/install/runtime.ts",
+      "language": "TypeScript",
+      "bytes": 32406,
+      "sha256": "41c7b1bc2faed44a7c1c5fd9de79b189ece74a8571dd3dffa2c85661ea854549",
+      "counted": true
+    },
+    {
+      "path": "src/mcp/announcement-view.ts",
+      "language": "TypeScript",
+      "bytes": 3234,
+      "sha256": "69df4e0c08a75f5adc9f34e0d5f832e3a17ad13758a4787990c0063e2f685c4b",
+      "counted": true
+    },
+    {
+      "path": "src/mcp/coordination-operations.ts",
+      "language": "TypeScript",
+      "bytes": 4815,
+      "sha256": "b9176979ab16c655de40ee78a994519c10b4308077f0dfd4bdd3e045794011fa",
+      "counted": true
+    },
+    {
+      "path": "src/mcp/coordination.ts",
+      "language": "TypeScript",
+      "bytes": 8493,
+      "sha256": "0cfc579249d91a373cca0399f8f19c134320fe1c1ea15ea150a06ee802097f58",
+      "counted": true
+    },
+    {
+      "path": "src/mcp/server.ts",
+      "language": "TypeScript",
+      "bytes": 22791,
+      "sha256": "f2401482ba822e8c694b1aa59088fa0d91b8915b627c6037245175c38b4aae59",
+      "counted": true
+    },
+    {
+      "path": "src/muse/adapter.ts",
+      "language": "TypeScript",
+      "bytes": 31507,
+      "sha256": "89fe167b35e545fad6944d7e8584eafe1a974016a95dbbe955b9ee3e2afaebc7",
+      "counted": true
+    },
+    {
+      "path": "src/muse/config.ts",
+      "language": "TypeScript",
+      "bytes": 1794,
+      "sha256": "c407813fabdd675ac8205bfc7bcb7f8ad1163814808565874980fc176a351bd0",
+      "counted": true
+    },
+    {
+      "path": "src/muse/models.ts",
+      "language": "TypeScript",
+      "bytes": 5470,
+      "sha256": "a163129f09d0b4d558de700132b4b6ff1b1fc83d03051b094aa109f8b78525cd",
+      "counted": true
+    },
+    {
+      "path": "src/muse/protected-host.ts",
+      "language": "TypeScript",
+      "bytes": 8453,
+      "sha256": "073a09c52df670d9daff821ab0901d0a39f2fa035ab3c2be223e7551aaa46e4f",
+      "counted": true
+    },
+    {
+      "path": "src/muse/protected-runtime.ts",
+      "language": "TypeScript",
+      "bytes": 10417,
+      "sha256": "e6e8ac85113bc7f821290612d07c89757e13484384db7c3df7211b8144830a1b",
+      "counted": true
+    },
+    {
+      "path": "src/muse/provider-transport.ts",
+      "language": "TypeScript",
+      "bytes": 8363,
+      "sha256": "5af9abcddfa14ad128fe2b844022a41b1659ec3d7e6bacd07ff1e75a5341becd",
+      "counted": true
+    },
+    {
+      "path": "src/observation/cache.ts",
+      "language": "TypeScript",
+      "bytes": 1671,
+      "sha256": "d2e2e24964f3e0e933c600aa916faabbbd1c361c5df649c0696cdb77a64558ee",
+      "counted": true
+    },
+    {
+      "path": "src/observation/comparison.ts",
+      "language": "TypeScript",
+      "bytes": 2954,
+      "sha256": "13d10e63f01fd7d5360bf8aec051bdf304a8c8f0d01ddf711af470525b166d52",
+      "counted": true
+    },
+    {
+      "path": "src/observation/correspondence.ts",
+      "language": "TypeScript",
+      "bytes": 8424,
+      "sha256": "5ffb43e3a7dc4e67756923eb268966c350a746b732d9854256815592fb05f546",
+      "counted": true
+    },
+    {
+      "path": "src/observation/extractor-identity.ts",
+      "language": "TypeScript",
+      "bytes": 920,
+      "sha256": "88d7c57e244bd5952e162853eabe784f772ca725578c6d09aa6ad343c8fea819",
+      "counted": true
+    },
+    {
+      "path": "src/observation/helper-main.ts",
+      "language": "TypeScript",
+      "bytes": 1444,
+      "sha256": "bf4f349f68a6d601ad57436ac65fca64e8e7c762b158f9fc119daf7029b8cfa8",
+      "counted": true
+    },
+    {
+      "path": "src/observation/helper-protocol.ts",
+      "language": "TypeScript",
+      "bytes": 5722,
+      "sha256": "05fe05e5728da3308e330df614bd3609b4f19af13bb83ecc7e28f0e865768ae3",
+      "counted": true
+    },
+    {
+      "path": "src/observation/helper.ts",
+      "language": "TypeScript",
+      "bytes": 14402,
+      "sha256": "9b8c8df5cc972a5970c52546cb7f6c486383b112a40110b3a42543a25788514a",
+      "counted": true
+    },
+    {
+      "path": "src/observation/inventory-selection.ts",
+      "language": "TypeScript",
+      "bytes": 3165,
+      "sha256": "152a376df6980274c42a4663c85520941cfac4393c35f3c6907b070765a3ca44",
+      "counted": true
+    },
+    {
+      "path": "src/observation/language-c-family.ts",
+      "language": "TypeScript",
+      "bytes": 14947,
+      "sha256": "b754b780d4eb6b6858a361fe937e243aa7d4a24898ba4e8972f4ea4adfd8989c",
+      "counted": true
+    },
+    {
+      "path": "src/observation/language-common.ts",
+      "language": "TypeScript",
+      "bytes": 3227,
+      "sha256": "acd8f7158437d08b5604860c460b9cba95cf55d2ebb4e20bc7189c57d913f799",
+      "counted": true
+    },
+    {
+      "path": "src/observation/language-js-react-svelte.ts",
+      "language": "TypeScript",
+      "bytes": 29040,
+      "sha256": "199b1d0f1e4325f3bfcf9fa2e46f1b2a7b50542253badd8332ea65785df5657c",
+      "counted": true
+    },
+    {
+      "path": "src/observation/language-kotlin-zig-odin.ts",
+      "language": "TypeScript",
+      "bytes": 17320,
+      "sha256": "77cb0ce262160fd4c95fd051b39ea074b9edc16d6731b269a82506885f3f4ef0",
+      "counted": true
+    },
+    {
+      "path": "src/observation/language-python-lua.ts",
+      "language": "TypeScript",
+      "bytes": 17702,
+      "sha256": "ecf64b675d422b165e153d2298ecf1736adc88aa800321cbbb66ec50247f9b55",
+      "counted": true
+    },
+    {
+      "path": "src/observation/language-routing.ts",
+      "language": "TypeScript",
+      "bytes": 2032,
+      "sha256": "5cca6928ca43e513bea9ff799a84d5f4ce55fb8cb5fe408f96ae59ef5c4a033d",
+      "counted": true
+    },
+    {
+      "path": "src/observation/match.ts",
+      "language": "TypeScript",
+      "bytes": 7786,
+      "sha256": "85f68adc9d0ad24da59259475bf8cb85a90ed2176a35f501151a04fe3db7044d",
+      "counted": true
+    },
+    {
+      "path": "src/observation/model.ts",
+      "language": "TypeScript",
+      "bytes": 3525,
+      "sha256": "bc8dc748050c4965cfbe3bc640cf2f81a059fdf505eb0b0c9e8f11061cb3ffd0",
+      "counted": true
+    },
+    {
+      "path": "src/observation/monitor.ts",
+      "language": "TypeScript",
+      "bytes": 21291,
+      "sha256": "0b3b3d46f3185e33f054897f3059986890c41d1da02fa523e37b1611bb9476d7",
+      "counted": true
+    },
+    {
+      "path": "src/observation/native-extraction.ts",
+      "language": "TypeScript",
+      "bytes": 25241,
+      "sha256": "7d0ff2609438fea7361af2b85fbdae95529127d8198d2aa14a00051d1ffb0de6",
+      "counted": true
+    },
+    {
+      "path": "src/observation/native-parser.ts",
+      "language": "TypeScript",
+      "bytes": 4569,
+      "sha256": "4eb4e0339378cd9b99209806ff4157bc56383df523b2fcebc3862acbfecc7928",
+      "counted": true
+    },
+    {
+      "path": "src/observation/overlap.ts",
+      "language": "TypeScript",
+      "bytes": 18912,
+      "sha256": "b9cf517c7e5ad5d08f502540594303f6e3c0e55d401511605d15967e9567ba62",
+      "counted": true
+    },
+    {
+      "path": "src/observation/parameter-defaults.ts",
+      "language": "TypeScript",
+      "bytes": 1472,
+      "sha256": "2e2a6019092a9bafdb9a0a64f636d684191f6071dea16ab6498ee666d3a1a14e",
+      "counted": true
+    },
+    {
+      "path": "src/observation/ranges.ts",
+      "language": "TypeScript",
+      "bytes": 1599,
+      "sha256": "e8a84c5d948b30e688cd5ba90f99e7ab6d5545da782f0d3a3b44fcba66342243",
+      "counted": true
+    },
+    {
+      "path": "src/observation/report.ts",
+      "language": "TypeScript",
+      "bytes": 8539,
+      "sha256": "405d87a36f47ea6607bda720e56c26778bc16da4326f961c21c9fdc04d7ea035",
+      "counted": true
+    },
+    {
+      "path": "src/observation/source-inventory.ts",
+      "language": "TypeScript",
+      "bytes": 13620,
+      "sha256": "1d980422af2e771121fc11681b8f7e192b793ce200176e9ab719ac03113096f2",
+      "counted": true
+    },
+    {
+      "path": "src/observation/source.ts",
+      "language": "TypeScript",
+      "bytes": 18178,
+      "sha256": "2975809e163417b4dc72edf1c00ef750fbdeab8163ac91ffb6bf276c99cac8ad",
+      "counted": true
+    },
+    {
+      "path": "src/service/bootstrap.ts",
+      "language": "TypeScript",
+      "bytes": 8498,
+      "sha256": "b27b2bd99b89b689d0db5ff6d2493061a96af0f6917c2957f00f43609c8f2695",
+      "counted": true
+    },
+    {
+      "path": "src/service/client.ts",
+      "language": "TypeScript",
+      "bytes": 20815,
+      "sha256": "ccca119b980057b02bd1580cfa73c91cad45c9c76e0f5cc5f34b420557818009",
+      "counted": true
+    },
+    {
+      "path": "src/service/coordination-route.ts",
+      "language": "TypeScript",
+      "bytes": 886,
+      "sha256": "2655f60dc0a05d33b770c40c6b379606230d08570f4a6af0b8e96ae71a86b338",
+      "counted": true
+    },
+    {
+      "path": "src/service/coordination.ts",
+      "language": "TypeScript",
+      "bytes": 32796,
+      "sha256": "91148ed05c956259f9ef6028b7c3a8b764f92624b58fb861eca17c1e847f748d",
+      "counted": true
+    },
+    {
+      "path": "src/service/operator-token.ts",
+      "language": "TypeScript",
+      "bytes": 2355,
+      "sha256": "579ec5105aba4533c6d007e2bb27bc9c57cb06df834e0753644f368a71487d7b",
+      "counted": true
+    },
+    {
+      "path": "src/service/peer-auth.ts",
+      "language": "TypeScript",
+      "bytes": 2191,
+      "sha256": "d16d6e4a4f97ff87a3cf684a4c1a8f512f2f9af692401f672978ad95f3068699",
+      "counted": true
+    },
+    {
+      "path": "src/service/process.ts",
+      "language": "TypeScript",
+      "bytes": 2669,
+      "sha256": "5652d733c81469f96655f2d7078813bec4ded92d4e51980508519cf28b25e4e9",
+      "counted": true
+    },
+    {
+      "path": "src/service/request-capacity.ts",
+      "language": "TypeScript",
+      "bytes": 1556,
+      "sha256": "0948c2c10bbc2fc514e01b3526aa6ee9757dac825b64ab881231bddac778f39d",
+      "counted": true
+    },
+    {
+      "path": "src/service/server.ts",
+      "language": "TypeScript",
+      "bytes": 19258,
+      "sha256": "507e45add3acfe7da232569c469426796acdb029e084b5544374cbba6284db16",
+      "counted": true
+    },
+    {
+      "path": "src/service/transport.ts",
+      "language": "TypeScript",
+      "bytes": 8095,
+      "sha256": "dd0d3dcf8929ff2286e3dc9b4bbc198ccd6cb4bb96b2177a89987e8eab58e47f",
+      "counted": true
+    },
+    {
+      "path": "src/store/atomic-json.ts",
+      "language": "TypeScript",
+      "bytes": 916,
+      "sha256": "47883a0fc7c6cf8720ad8a92c8189fbf1f5cb5bc3af257cc80b5aefdfee29b77",
+      "counted": true
+    },
+    {
+      "path": "src/store/coordination-store.ts",
+      "language": "TypeScript",
+      "bytes": 11007,
+      "sha256": "3ccbd6371442e4fb507ed05f53751270b574b5849301736a6726d58c60caaae2",
+      "counted": true
+    },
+    {
+      "path": "src/store/observation-store.ts",
+      "language": "TypeScript",
+      "bytes": 28644,
+      "sha256": "e3d5b22c782614f180edc06883608be17a4d7ecf83abae721da70575fc3d7c57",
+      "counted": true
+    },
+    {
+      "path": "src/store/record-codecs.ts",
+      "language": "TypeScript",
+      "bytes": 19862,
+      "sha256": "e8af1182d2b4083c055195b08a11d24c90efa449beb5afcaf9d1beb6383fb5fb",
+      "counted": true
+    },
+    {
+      "path": "src/store/task-store.ts",
+      "language": "TypeScript",
+      "bytes": 38753,
+      "sha256": "a799ab6c52f67fd876924276674b27e698681062b591c391a69879be5f09efb4",
+      "counted": true
+    },
+    {
+      "path": "src/workspace/inventory.ts",
+      "language": "TypeScript",
+      "bytes": 967,
+      "sha256": "096f45da99ff9716a4abe55a3788706bfb6d792d13d291050fb1e21e26be4069",
+      "counted": true
+    },
+    {
+      "path": "src/workspace/project.ts",
+      "language": "TypeScript",
+      "bytes": 12418,
+      "sha256": "35a0f5eab835422bad1ecf2cd306d6ea5945cdbecd33363058952492f0441de5",
+      "counted": true
+    },
+    {
+      "path": "src/workspace/worktree.ts",
+      "language": "TypeScript",
+      "bytes": 34676,
+      "sha256": "859b9ccad1d58017576f9ad3415b47a754375a5eea29150b93a74e071fd254b9",
+      "counted": true
+    },
+    {
+      "path": "tests/core/announcement-view-mcp.test.mjs",
+      "language": "JavaScript",
+      "bytes": 5498,
+      "sha256": "3e2451d7b8ae9ac008679634308d5816e87061ec4c75e182e0bc79725d557f89",
+      "counted": true
+    },
+    {
+      "path": "tests/core/announcement-view.test.mjs",
+      "language": "JavaScript",
+      "bytes": 6012,
+      "sha256": "e6411683192ebde066f8371c69ee0046f255245f60d58ca3763abdc06db96fb2",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-blinded-pair.test.mjs",
+      "language": "JavaScript",
+      "bytes": 7262,
+      "sha256": "eb97680f70af4e691a20f64a6c3c384d4de8fb52ab887986a9b520fb2838efbe",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-first-party-transport.test.mjs",
+      "language": "JavaScript",
+      "bytes": 8253,
+      "sha256": "a553cf8c2befe8fdaf421646b01f69f8c373d760d54f4466ea7b73d675cf9077",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-model-exec.test.mjs",
+      "language": "JavaScript",
+      "bytes": 22053,
+      "sha256": "d2b87cdd0d6d8d1dbfcecb47408fe444a13a1bbaf2f88c9439c63754e76790a3",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-model-tools.test.mjs",
+      "language": "JavaScript",
+      "bytes": 10301,
+      "sha256": "9f36876ca38689c56bf04f5aa4b040199b2f8794f4ac7c30f1a160b0308bfe3b",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-model-view-image.test.mjs",
+      "language": "JavaScript",
+      "bytes": 14651,
+      "sha256": "3c6ba0a0bfdffab7c0f2566fc04ae8432e621650888db6c3e375dad8b6cb12f7",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-model-write-stdin.test.mjs",
+      "language": "JavaScript",
+      "bytes": 30734,
+      "sha256": "926dcccc06ecac1fbe2186ee5f413a32cc5cbe86b1c6dc19b516bfc67e4f1746",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-protected-boundary.test.mjs",
+      "language": "JavaScript",
+      "bytes": 12544,
+      "sha256": "02cf34579615de88cb3f3013760915360707168014b1e25363d55ab0755757e8",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-protected-egress.test.mjs",
+      "language": "JavaScript",
+      "bytes": 19212,
+      "sha256": "82c8daa8273576f7834e0d9aa19c5915233d950bac277fc0e5058b70e20a99c9",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-protected-qualification.test.mjs",
+      "language": "JavaScript",
+      "bytes": 23278,
+      "sha256": "7084d6edd5377e26f3960b829d6c88715f3b9558213c97083fd3b72908c53b4b",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-protected-runtime.test.mjs",
+      "language": "JavaScript",
+      "bytes": 41681,
+      "sha256": "6829a085cdb9e94e96e2c78280b6aba124c24a5683e2595ca0d9f2e8c47349f8",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-real-protected-native-boundary.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4360,
+      "sha256": "22a40b6638ac51033d972ac429421d50353dc552e08bac450861d499f6c87290",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-real-protected-worker.test.mjs",
+      "language": "JavaScript",
+      "bytes": 6606,
+      "sha256": "ea6d08986b5c976c624908ddd201270b96963567e1941056dfba2ffba9b7cf22",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-registered-service.test.mjs",
+      "language": "JavaScript",
+      "bytes": 11786,
+      "sha256": "91e8db09bf773ec3d27cd93be37af48d9f3db6d9e3bbd0b422bf9c6d12600fee",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-subscription-transport.test.mjs",
+      "language": "JavaScript",
+      "bytes": 27025,
+      "sha256": "e104cdae928413ec26d8647fc98d9d5ba05f588e497d17fa0cca1710376c4263",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-thread-start.test.mjs",
+      "language": "JavaScript",
+      "bytes": 17845,
+      "sha256": "6cccc9c8d431bb3d3a6322b30dad40ec65177a9ecc33aa25863123c44c54f6cb",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-tty-visibility.test.mjs",
+      "language": "JavaScript",
+      "bytes": 11456,
+      "sha256": "d9e5f96b669e072413aa108f76ad0a6c23aa9c37aeba0f8845fcc0d76bc31867",
+      "counted": true
+    },
+    {
+      "path": "tests/core/codex-tty-write-effect.test.mjs",
+      "language": "JavaScript",
+      "bytes": 8327,
+      "sha256": "bd2d8df54eaf17bf82a0d0ba8bacaf9f85d080533f915efb44e7daebb14f98eb",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-announcements.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4375,
+      "sha256": "a7ff4161bacd2b4d9c014a2c0b693f4a1c5839b5d6a758efd34982d933feac87",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-authenticated.test.mjs",
+      "language": "JavaScript",
+      "bytes": 13073,
+      "sha256": "7d5e5e8e520388e75d7064155f461b3efff80edeac4fe9b7c7bd6547568ecf5a",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-bound.test.mjs",
+      "language": "JavaScript",
+      "bytes": 16790,
+      "sha256": "7efb861568f3ec7958b9e0a7615ca6ce4ea927c5193c0ca0959526f28d922ce5",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-cli.test.mjs",
+      "language": "JavaScript",
+      "bytes": 7155,
+      "sha256": "5ddd4fb6a049a0289ec6f89b1a680ae15e665256a664335ae289feba24171187",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-control.test.mjs",
+      "language": "JavaScript",
+      "bytes": 29433,
+      "sha256": "56c161574f47f43896d60076f7d67f11801dc16d8db49c5045d52b4549499ed2",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-elected.test.mjs",
+      "language": "JavaScript",
+      "bytes": 5728,
+      "sha256": "94e72ccbfc3a13134f18fb5323c47f9a761d20b76c6d29594e425a63a9b1d95d",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-gated-preflight.test.mjs",
+      "language": "JavaScript",
+      "bytes": 13910,
+      "sha256": "0cc012b17c63bf4e5ef597ab9ccb2c1c446d74e359d80fa72c6a6d08b57f9d69",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-launcher.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2370,
+      "sha256": "4afbbedf8d8c49ae1a883e84ca7aecbe53c0981c0ed93deca4c33f2ee8ec6783",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-linkage-recovery.test.mjs",
+      "language": "JavaScript",
+      "bytes": 19797,
+      "sha256": "eb59dc288a5f8240645290a5a97814c8a8a5017e5688ebb7a71c96fa30232c02",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-managed-authenticated.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2724,
+      "sha256": "1a2f29daf684aae9683c73a4ec5897a3aa984deab40161169c294afab76e1e9c",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-managed-control.test.mjs",
+      "language": "JavaScript",
+      "bytes": 12431,
+      "sha256": "040c394cdc341e2a152caf83f89aa3175d6a29997c02da4c7ac7750520242a28",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-managed-runtime.test.mjs",
+      "language": "JavaScript",
+      "bytes": 13182,
+      "sha256": "b79db5146b31441475510e67cddb49c30e1fbc5a8f641320a7a6704327991132",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-managed-store.test.mjs",
+      "language": "JavaScript",
+      "bytes": 5624,
+      "sha256": "3eecdb6caea4958429232d20bff855aa3d43b2eb5f382413fc0161c6a14f8996",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-mcp-source-grant.test.mjs",
+      "language": "JavaScript",
+      "bytes": 3666,
+      "sha256": "eec915c90afd67dc898d8bb78ae876f653147197b1aba13a75f42648f734e2f6",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-mcp.test.mjs",
+      "language": "JavaScript",
+      "bytes": 6945,
+      "sha256": "ea649d5ca1bbce246858cfdd8697dbe08ab03d496f17afd6d8261eeb1ec68835",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-public-admission.test.mjs",
+      "language": "JavaScript",
+      "bytes": 13148,
+      "sha256": "7e829559482ed53ab83852af6948e7c90cb1138f6ac51b3861b6e688968ece0c",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-public.test.mjs",
+      "language": "JavaScript",
+      "bytes": 6879,
+      "sha256": "9678b58811a5be300caea0affb1dd4d194cf56581da3c8a7204d68a745ebbf93",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-recovery-runtime.test.mjs",
+      "language": "JavaScript",
+      "bytes": 11271,
+      "sha256": "fc3b5fd8711ac921ef71b341eee189ec933a0e0965fd69fda12635177ed33aba",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-recovery.test.mjs",
+      "language": "JavaScript",
+      "bytes": 17485,
+      "sha256": "ee63d04759bc442bcd7a24d164ec451c4b7a65428a0cc3d977608f16e5ef71fb",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-repository.test.mjs",
+      "language": "JavaScript",
+      "bytes": 10170,
+      "sha256": "cd38be3b29ec05fabb0ce65e5517d69155782cd4cddd9c825eb2a6aacbafd493",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-request-capacity.test.mjs",
+      "language": "JavaScript",
+      "bytes": 3056,
+      "sha256": "c739b5598591704a084537c621361953219b723c73b57f046eb79f8398cc2c99",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-resources.test.mjs",
+      "language": "JavaScript",
+      "bytes": 9461,
+      "sha256": "2d3e79799e6cdf163b767837913f3458dcae68096d4550c62b13b011981039aa",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-runtime.test.mjs",
+      "language": "JavaScript",
+      "bytes": 14274,
+      "sha256": "9b6d24b78ec4519ded29feadccdc7eded7495a4fac0e2fa0b9c636c059d2a235",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-service-contract.test.mjs",
+      "language": "JavaScript",
+      "bytes": 11013,
+      "sha256": "bab1926bbf2450f9e152fb890f875fd9457146cc3f9fa11a72d2dfe3e0a59e62",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-service-ipc.test.mjs",
+      "language": "JavaScript",
+      "bytes": 9087,
+      "sha256": "593cad23052e3c04cd77b64d08af5caf01cb7a26dcb42a1409a2c1ac8f2ca2b7",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-service.test.mjs",
+      "language": "JavaScript",
+      "bytes": 20010,
+      "sha256": "514c685706db5309a8dbc067b737f2d6f69bfa47cfdf83cff4c10122c73fea2d",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-source-grants.test.mjs",
+      "language": "JavaScript",
+      "bytes": 3875,
+      "sha256": "569396ea26e3fe96f1391840e9c2596445b169997cd9feba034a65885742e474",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-source-watches.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4462,
+      "sha256": "7df3ea6b93a93d7a725815911a6f385e9d83704dd2abf8c524a489c6669fa3fd",
+      "counted": true
+    },
+    {
+      "path": "tests/core/coordination-store.test.mjs",
+      "language": "JavaScript",
+      "bytes": 13542,
+      "sha256": "db3a2c603e44c1ce5f13f052570f28e82602f87c71f9591ac00117db7a8cc463",
+      "counted": true
+    },
+    {
+      "path": "tests/core/delivery.test.mjs",
+      "language": "JavaScript",
+      "bytes": 9399,
+      "sha256": "9dc5ee4d2b485af56d1aed93a386f3fa039fc481d574ace2feb02224a60d224b",
+      "counted": true
+    },
+    {
+      "path": "tests/core/disposition.test.mjs",
+      "language": "JavaScript",
+      "bytes": 6641,
+      "sha256": "3b98bee1914f54272b31eee64da95807e44f4c16e0b0cfb01b4c10e5e88cbaab",
+      "counted": true
+    },
+    {
+      "path": "tests/core/durable-lifecycle.test.mjs",
+      "language": "JavaScript",
+      "bytes": 15648,
+      "sha256": "f672bfc9fd65a6e1a9bbc69aa32ab0b623598648dfe618c9b19365d26634c13d",
+      "counted": true
+    },
+    {
+      "path": "tests/core/experiment-worker-sandbox.test.mjs",
+      "language": "JavaScript",
+      "bytes": 7609,
+      "sha256": "9a7ff319ba2ba705ce2c37a0a20dc8261e9208d8b99837cd5abf1ec6e9bb5e95",
+      "counted": true
+    },
+    {
+      "path": "tests/core/fixture-app-protection.test.mjs",
+      "language": "JavaScript",
+      "bytes": 51853,
+      "sha256": "fdf5eb69d0c157a6fc2605f2cf266512dc03d6bda0529fd59c28acb53f528d54",
+      "counted": true
+    },
+    {
+      "path": "tests/core/global-binding.test.mjs",
+      "language": "JavaScript",
+      "bytes": 7216,
+      "sha256": "6ab3c6913183edaf9d23fb875e922b230e906889eecc83d5d95ae8fc5ded5d76",
+      "counted": true
+    },
+    {
+      "path": "tests/core/helpers.mjs",
+      "language": "JavaScript",
+      "bytes": 5889,
+      "sha256": "1c010415b394b4ea6834ed78be74724fe6c405db5bc5af9d4ea0df7ea45aa6ba",
+      "counted": true
+    },
+    {
+      "path": "tests/core/inventory-selection.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4347,
+      "sha256": "4f48ad22e6f9a839e3c3bfcc0d9b7c6f5b998d361cd0ce06e1e6d1e9c72179ee",
+      "counted": true
+    },
+    {
+      "path": "tests/core/lease-recovery.test.mjs",
+      "language": "JavaScript",
+      "bytes": 10382,
+      "sha256": "3376b8f438b1d3bd0efdf71d74e5598a66b7b59553a630403af6c277774dea89",
+      "counted": true
+    },
+    {
+      "path": "tests/core/muse-credential-relay.test.mjs",
+      "language": "JavaScript",
+      "bytes": 127988,
+      "sha256": "7aa35cd7d28f5a7197bc900b366aa22055972b0b054f667bf30c6455187d05d6",
+      "counted": true
+    },
+    {
+      "path": "tests/core/muse-native-shell-qualification.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4602,
+      "sha256": "d5c1d3346b408adec779a4a195e1b368f4abcab91154041cc62b1e7a4d06af91",
+      "counted": true
+    },
+    {
+      "path": "tests/core/muse-protected-runtime.test.mjs",
+      "language": "JavaScript",
+      "bytes": 17360,
+      "sha256": "1bc18163885769e7a1e19f2e2592c0632570772109c363e469c105602eab5dae",
+      "counted": true
+    },
+    {
+      "path": "tests/core/muse-protected-worker.test.mjs",
+      "language": "JavaScript",
+      "bytes": 119896,
+      "sha256": "f8897cb25c2214687137f7e921f83db92c8d6ffa04540c78826b2685bbdd9c34",
+      "counted": true
+    },
+    {
+      "path": "tests/core/muse-provider-transport-composition.test.mjs",
+      "language": "JavaScript",
+      "bytes": 8038,
+      "sha256": "1cca795b044f2166376ec3872ea0f7e5ca5cc5ec42a61bf9678cbace19d62b1f",
+      "counted": true
+    },
+    {
+      "path": "tests/core/muse-provider-transport.test.mjs",
+      "language": "JavaScript",
+      "bytes": 11496,
+      "sha256": "4ab75498c4fec0aff754b191f482fcb890afddd46c1dc087e028a78004ab2b5e",
+      "counted": true
+    },
+    {
+      "path": "tests/core/muse-sandbox-transport.test.mjs",
+      "language": "JavaScript",
+      "bytes": 326423,
+      "sha256": "24dd1f7c0632302ae86e2ad0823eec826584f17c4f5de0acb8f4e1c1996580c7",
+      "counted": true
+    },
+    {
+      "path": "tests/core/muse-serve-boundary.test.mjs",
+      "language": "JavaScript",
+      "bytes": 30469,
+      "sha256": "dd88d6cd7c0ffd947d683f0d15858e74c3d3b03931c605873a3e2bfec7395fe5",
+      "counted": true
+    },
+    {
+      "path": "tests/core/observed-case-extension.test.mjs",
+      "language": "JavaScript",
+      "bytes": 12308,
+      "sha256": "6117a11384b2514cf850b45d57b7eb2afb9562777bca9e1c6a91ca48c9603baa",
+      "counted": true
+    },
+    {
+      "path": "tests/core/observed-extension-preflight.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1667,
+      "sha256": "00ee74ed18326fa2b519c19e54f394a03d9edb085c577ecf7944d46ae2521243",
+      "counted": true
+    },
+    {
+      "path": "tests/core/operator-token.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4059,
+      "sha256": "f6b101398a1090e729a210b7290f85dc55771e3451734854e7c75d198f049790",
+      "counted": true
+    },
+    {
+      "path": "tests/core/parameter-defaults.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2742,
+      "sha256": "c603d74042c0ff548c68a340d7763316f7e16b4b24a6d08a9868c4dca3298e87",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-application-replay.test.mjs",
+      "language": "JavaScript",
+      "bytes": 16487,
+      "sha256": "a80ae34c381495364140bf2704365435617c7e15bf2956277c5f59c8615ef55c",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-application.test.mjs",
+      "language": "JavaScript",
+      "bytes": 5152,
+      "sha256": "a26170c53494d4077ee0d9dca063fee7ab4767ed2eed7a819b9bcc8ae6c56d47",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-delivery-completion-child.mjs",
+      "language": "JavaScript",
+      "bytes": 11538,
+      "sha256": "6aa73fa5c0e434af40501c1ba03d808cfc6183ac2fcff80cde2ff222c601bb8e",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-delivery-completion-restart.test.mjs",
+      "language": "JavaScript",
+      "bytes": 10087,
+      "sha256": "d959b30d67c467b4e8ad41f74121e5a4a52b46cfdd4a5d33e1a50c878c26df40",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-delivery-lifecycle.test.mjs",
+      "language": "JavaScript",
+      "bytes": 65910,
+      "sha256": "f5b1085e305ca348e30866ccfd295a4ace07666af09693f9064ef57940b31762",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-delivery-producer.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4850,
+      "sha256": "e574c1916fae93e88efd0401e35a6aa21c1d83b6181bb236e2fd97225acb3052",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-effect-race.test.mjs",
+      "language": "JavaScript",
+      "bytes": 11542,
+      "sha256": "00d808ba56bd792e3741272d5a77e439b82ab9311768db07a20fadfde73ab6d7",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-evidence-budget.test.mjs",
+      "language": "JavaScript",
+      "bytes": 5236,
+      "sha256": "c961856d2b12601ca697004634af5120dbac5b546d99f69b8b85a1b5debd72ef",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-first-proposal.test.mjs",
+      "language": "JavaScript",
+      "bytes": 9470,
+      "sha256": "5ac5ab75c8b2fefaa85499464b018d62581db3de69c94c7029e962a7f32bcd9e",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-handoff-evidence.test.mjs",
+      "language": "JavaScript",
+      "bytes": 6202,
+      "sha256": "e4809ca8519a161fc2fca35f170b863dd68775bd030ca8cbbb16af2fa03e7647",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-legacy-current.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1896,
+      "sha256": "f67f73e3b23a684a05db4d86f506f5ce167ece7f60d050c24078e03cd8e52d48",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-operations-contract.test.mjs",
+      "language": "JavaScript",
+      "bytes": 9025,
+      "sha256": "24e7800b44707828621cc856fec39772290902b204ca6ced43c97e505de2064b",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-operations-control.test.mjs",
+      "language": "JavaScript",
+      "bytes": 53586,
+      "sha256": "651d968b1fe4d6534bee265b07290bf87d6d402357ab454448e9c14beef16cc4",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-operations-runtime.test.mjs",
+      "language": "JavaScript",
+      "bytes": 34024,
+      "sha256": "566d1541774fed1cca59966e6e483499dc6c35098ef1b26c46ddf70d13fe207d",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-overlap.test.mjs",
+      "language": "JavaScript",
+      "bytes": 10478,
+      "sha256": "092a419e8400dcd174c92c5ca54c021f15231a3aaef47710117d28a55fb82390",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-proposal-v2.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2486,
+      "sha256": "5dc0d53bf5e1b8a871a3d935c4c45129b8a43299cf827e1827d64fadddb31c9d",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-resolution-contract.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4233,
+      "sha256": "fb210ef33ab908503d7d4d665c53b556d27fd0bfa500f299e7af37aa36f45e5a",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-resolution-negotiation.test.mjs",
+      "language": "JavaScript",
+      "bytes": 18358,
+      "sha256": "b7fe7e9f6b714c032be199f379640f619feb63dd53e93b5b560cb338c5bf9f55",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-runtime-crash.test.mjs",
+      "language": "JavaScript",
+      "bytes": 7575,
+      "sha256": "a82fef1b29d30af043a3e922430648816df9445d0d940a9280f76187616bbb43",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-runtime-evidence.test.mjs",
+      "language": "JavaScript",
+      "bytes": 88424,
+      "sha256": "98a1357bf816f7ff163d78dc19fbb53813c445a9f54b279214ef68b036903f2e",
+      "counted": true
+    },
+    {
+      "path": "tests/core/peer-stale-consent.test.mjs",
+      "language": "JavaScript",
+      "bytes": 13699,
+      "sha256": "b455d4dc7b43e2fef99ead56169a4028a13f00777c3a7f5485ba31f18a5fa2b0",
+      "counted": true
+    },
+    {
+      "path": "tests/core/pool.test.mjs",
+      "language": "JavaScript",
+      "bytes": 5642,
+      "sha256": "d1e910bd3917d2223c93e92fb7a5c8727df808ab5c6ec6cc7fbeb792e6be157c",
+      "counted": true
+    },
+    {
+      "path": "tests/core/private-git-publication-child.mjs",
+      "language": "JavaScript",
+      "bytes": 1999,
+      "sha256": "534cad4465a43fc3fd4be4d3305fda2ca53e67e259ba3daac6ee1ff1adb439fb",
+      "counted": true
+    },
+    {
+      "path": "tests/core/private-git-publication-fixture.mjs",
+      "language": "JavaScript",
+      "bytes": 3057,
+      "sha256": "813ea54ea41d29848575a33695687c42951e25f4b6240997de1b5fd516fdc95c",
+      "counted": true
+    },
+    {
+      "path": "tests/core/private-git-publication-lifecycle.test.mjs",
+      "language": "JavaScript",
+      "bytes": 29712,
+      "sha256": "07212a546ecf8ac46087c745fe044900d192c1d21d4c2f5f3eeed21ecef9b58d",
+      "counted": true
+    },
+    {
+      "path": "tests/core/private-git-publication-restart.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4679,
+      "sha256": "6265ee17f0cde430e794b90c687049b8937dddb5e4e572abbc9fa0e03137cbb6",
+      "counted": true
+    },
+    {
+      "path": "tests/core/private-git-publication-sandbox.test.mjs",
+      "language": "JavaScript",
+      "bytes": 16136,
+      "sha256": "8981f65a433f1f277acc539abbb93ea22e324912a43f249993ddaadfafc71119",
+      "counted": true
+    },
+    {
+      "path": "tests/core/private-git-publication-store.test.mjs",
+      "language": "JavaScript",
+      "bytes": 11627,
+      "sha256": "b7a33e01bdf466e9775d861970d3a8fe92364855e9c100fb57845619dbb2c590",
+      "counted": true
+    },
+    {
+      "path": "tests/core/private-git-publication.test.mjs",
+      "language": "JavaScript",
+      "bytes": 11633,
+      "sha256": "0a02b0ce797320dd0133202599645c7c36f16637f3b81358a7a9cd25058b4e04",
+      "counted": true
+    },
+    {
+      "path": "tests/core/profile-snapshot.test.mjs",
+      "language": "JavaScript",
+      "bytes": 7577,
+      "sha256": "3ad541d7d2914400338946c08347770288630c88e2bbb036de5cc6a999a4461b",
+      "counted": true
+    },
+    {
+      "path": "tests/core/protected-namespace-network.test.mjs",
+      "language": "JavaScript",
+      "bytes": 3393,
+      "sha256": "c94680e1bd820e797d57468edb7af7b381e9b62edc99e0cc9e1d9501cc4a84b6",
+      "counted": true
+    },
+    {
+      "path": "tests/core/registered-agents.test.mjs",
+      "language": "JavaScript",
+      "bytes": 14859,
+      "sha256": "fd0d98f49f4724905c2f186354337cbff1c102a905af068b15716a3968b1df95",
+      "counted": true
+    },
+    {
+      "path": "tests/core/registered-protected-codex.test.mjs",
+      "language": "JavaScript",
+      "bytes": 7061,
+      "sha256": "5e6ecb2444e37c27f4480b0c2df4aa93fd949e1cd9648f4b0285c41c4a807328",
+      "counted": true
+    },
+    {
+      "path": "tests/core/runtime-owner.test.mjs",
+      "language": "JavaScript",
+      "bytes": 12093,
+      "sha256": "c6cecf8728a4bb011215ef9787d509739c61721b092dbfed2d44c6f183f1609b",
+      "counted": true
+    },
+    {
+      "path": "tests/core/service-attachment.test.mjs",
+      "language": "JavaScript",
+      "bytes": 10187,
+      "sha256": "203154f33588e5981021ebed04cf557afc663267be7b8e6711e272fd6008ef7d",
+      "counted": true
+    },
+    {
+      "path": "tests/core/service-bootstrap.test.mjs",
+      "language": "JavaScript",
+      "bytes": 10817,
+      "sha256": "35b611408370834531622a9316555a5094133a1fd9ef5705287393c3fe3fe272",
+      "counted": true
+    },
+    {
+      "path": "tests/core/service-profile-identity.test.mjs",
+      "language": "JavaScript",
+      "bytes": 14331,
+      "sha256": "daa00f4d08002808ecc668203f8d6fa23289516e887e8133e6a76c40e8533f1e",
+      "counted": true
+    },
+    {
+      "path": "tests/core/store.test.mjs",
+      "language": "JavaScript",
+      "bytes": 5073,
+      "sha256": "8e04615c2ce09e6fc29c911cd43a299bbd4f7502f0275bee9927920155e34a91",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-cache.test.mjs",
+      "language": "JavaScript",
+      "bytes": 894,
+      "sha256": "d1d5320ce145f47cce3ee7a65843bc9475a9f9f37c77ede3f42b4077be880365",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-capture-boundary.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4322,
+      "sha256": "4f90d1361ed2c7f83975a550a0c6d4f822f36522e922a11b2e23d3f009898021",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-correspondence.test.mjs",
+      "language": "JavaScript",
+      "bytes": 7318,
+      "sha256": "54e22e05414f480fecf0dca59072439e9bf70fb9067ce33602a0ccbb8a6b9652",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-foundation.test.mjs",
+      "language": "JavaScript",
+      "bytes": 12487,
+      "sha256": "4fcadf60a6975528abc70fb2f43e757705a4a832ae0236f17c8bde5ed5cde5d1",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-inventory-progress.test.mjs",
+      "language": "JavaScript",
+      "bytes": 5336,
+      "sha256": "15c4abd867be23fa3c9164606fe38b54a9a146a59f5df93dd98b0a751a49fa1d",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-js-react-svelte-public.test.mjs",
+      "language": "JavaScript",
+      "bytes": 6402,
+      "sha256": "88f28596190f3efa0cd26ed967e22f0c8ae1fb856471053a88147c7294019bb8",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-language-routing.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1758,
+      "sha256": "0e41ea09e163eb43e7e659cb0a9d5d642ada9669f173b8831d87c6aecfc43eea",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-managed-store.test.mjs",
+      "language": "JavaScript",
+      "bytes": 6366,
+      "sha256": "7b2e29c746baa472fb9e31309facd5a447ad4488166ad4a56133d7d69422303e",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-mask-history.test.mjs",
+      "language": "JavaScript",
+      "bytes": 3098,
+      "sha256": "a96655bdf79a9f91862adb216ce19f78bc91dd9d96724cf09f3d240f47604703",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-monitor-selection.test.mjs",
+      "language": "JavaScript",
+      "bytes": 9109,
+      "sha256": "c76488939f754bbdf613b8fdc2eb61e62f3be047476d47b67c215c66407e8ff2",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-mount-boundary.test.mjs",
+      "language": "JavaScript",
+      "bytes": 5260,
+      "sha256": "dbf6d2e5ee642353a5602efd0f34ca52e09e57fe5b26fe26af0de16a533bad0f",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-notices.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2577,
+      "sha256": "1e2692cbeaf3849cdeaf66d669d1880a69fdb14d573e46593002da0bdd7fb61b",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-observation-store.test.mjs",
+      "language": "JavaScript",
+      "bytes": 22339,
+      "sha256": "7a11072ffaa70924f1d53354fe0da33d5a969ddee7b09bef93459a0313377e67",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-primitives.test.mjs",
+      "language": "JavaScript",
+      "bytes": 28948,
+      "sha256": "b1cb9af5c0a39932ad6fb832fbe862f507966d848575657c4780b1e8cd1d0066",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-public.test.mjs",
+      "language": "JavaScript",
+      "bytes": 7579,
+      "sha256": "a2cf244f9ef7c0924381ead594810500b17d6af26e379659c0d3e354d37dd9f9",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-ranges.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1277,
+      "sha256": "e9e154fade7699a899dc48e7abbb4d57b25f105a91d9b17009347a53df1cd657",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-report-selection.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2604,
+      "sha256": "a156bd4b011b90d2fe7b40ab8139d4fe976e7c86785519d4b65906850bf1ff6a",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-runtime-observation.test.mjs",
+      "language": "JavaScript",
+      "bytes": 39423,
+      "sha256": "035ac9e06efa218bc81eee3d40e4c52c1fd12c8ee85779e772ac68c9935ccb75",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-runtime.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4141,
+      "sha256": "177a357bc3f4882777f148cd532687fcb7856d6a4a5230179440085f7e07d7c1",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-source-inventory.test.mjs",
+      "language": "JavaScript",
+      "bytes": 8720,
+      "sha256": "1485b77a2c9083e576e441cf7d30b9820b606d74db1ab796d4a3507a27b1ec73",
+      "counted": true
+    },
+    {
+      "path": "tests/core/structural-watcher-gaps.test.mjs",
+      "language": "JavaScript",
+      "bytes": 15152,
+      "sha256": "1f1eb144ed45b03624c222367e6a27be6142d4fe2e441571a312fc7b608487dc",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/c/main.c",
+      "language": "C",
+      "bytes": 1281,
+      "sha256": "453976184d71ca9863a6ee9fba9b2b3d192a98d5b6f14da5fa551eb8369b2067",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/c/quote.c",
+      "language": "C",
+      "bytes": 541,
+      "sha256": "4ad4571985d1ecd2111d211299182861ec2fb7afaf818b709980b33cea8ca506",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/c/quote.h",
+      "language": "C",
+      "bytes": 302,
+      "sha256": "2165f1f534eb8644ed89debfc09b3390cbd39c42d6a968b298330f0f729734e1",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/c/test.sh",
+      "language": "Shell",
+      "bytes": 1700,
+      "sha256": "b757fed52bc2692c61912c53acd38c99572b88a2e8c671377bf5bdf017a178af",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/cpp/format.cxx",
+      "language": "C++",
+      "bytes": 321,
+      "sha256": "ef408d311dda22484afe21727c6499be4f07fc7bf97cce2681d1644504815092",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/cpp/format.hh",
+      "language": "C++",
+      "bytes": 201,
+      "sha256": "674f4755d3e89028e237959d50d03e3dda9a82db0e159866614cc86e5001baf0",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/cpp/limits.hxx",
+      "language": "C++",
+      "bytes": 278,
+      "sha256": "93139c16473c4a3ac6c0016faa63ca14bca3e03bb4d908f4187644b1ef1eed62",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/cpp/main.cc",
+      "language": "C++",
+      "bytes": 1041,
+      "sha256": "bdc554de55aa9b3869a2cf116da534dbf47cd68ff6f6df3140b9b348afa714a1",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/cpp/pricing.h",
+      "language": "C++",
+      "bytes": 247,
+      "sha256": "f2418243ac990e90f75364158bc9325d7ea577428fa57f51fc0e2f7ebd35ed9d",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/cpp/quote.cpp",
+      "language": "C++",
+      "bytes": 872,
+      "sha256": "1ea00c34e74610e95549e495c63dd434283c8048e136b610110a1cd426923c55",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/cpp/quote.hpp",
+      "language": "C++",
+      "bytes": 422,
+      "sha256": "1dd59583350f1337c091503f15b91445d6b7049a2dec4d3fadb919ce2257e4b0",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/cpp/test.sh",
+      "language": "Shell",
+      "bytes": 1751,
+      "sha256": "0a8eb4224d2fb2143bfd96c0c4f3b8337f778787cbca29ca3a0a2457bb6f0554",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/csharp/Program.cs",
+      "language": "C#",
+      "bytes": 1062,
+      "sha256": "0138428ab9bf430b37d2c05d79af7b6fd9f349a012474cd7a2c3f26f74706107",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/csharp/Quote.cs",
+      "language": "C#",
+      "bytes": 345,
+      "sha256": "1e5a5efb686a826ed58d0321867eec2ba9e22c769e7e6974479b1dc7c1968969",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/csharp/QuoteCalculator.cs",
+      "language": "C#",
+      "bytes": 571,
+      "sha256": "a4ed60f7120743111a38ce5d03bbaf235f78cfc3e502de38ee6910a95c9d8b73",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/csharp/test.sh",
+      "language": "Shell",
+      "bytes": 2461,
+      "sha256": "5915969440e010d48b57da7d316c7d666e993f56a9a2aa12f1acce56108eb990",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/javascript/src/format.cjs",
+      "language": "JavaScript",
+      "bytes": 177,
+      "sha256": "c3c0baee04aef29a8c01b584c12917c0b1101bad105b781e853c89eba086138a",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/javascript/src/main.js",
+      "language": "JavaScript",
+      "bytes": 350,
+      "sha256": "5be3e1b7e22687ca95565528c850e406c72b5d3d4ae19dfefbbb59be12d08765",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/javascript/src/quote.mjs",
+      "language": "JavaScript",
+      "bytes": 1064,
+      "sha256": "a73bf7d40dbbd67b7e63d8bcc63c92c47fd7f9856a96e1bb0419ff288bea3957",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/javascript/test/cli.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1170,
+      "sha256": "4a32928956cfcd493a3bebbe5174b9be3d35deb7228c66dddebbccd550844177",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/kotlin/Main.kt",
+      "language": "Kotlin",
+      "bytes": 753,
+      "sha256": "482c364f8d05aa46aa7702cde5d104b23be10164b75caf131feb55eedb1127c9",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/kotlin/Quote.kt",
+      "language": "Kotlin",
+      "bytes": 672,
+      "sha256": "42775314e2ed5d5feb2a403f9af15c96c8855452bc495d5cea6eed0e49c3a979",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/kotlin/QuoteTest.kt",
+      "language": "Kotlin",
+      "bytes": 457,
+      "sha256": "e19e242a511247728f7bfe3d0a9b4fb400f6926a050898093b459d7171b75fdc",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/kotlin/quote.kts",
+      "language": "Kotlin",
+      "bytes": 691,
+      "sha256": "29b4fc9cecd7652c0fc4dc99040efe480223bfaef2d11abfc51b1f22f5059b5d",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/lua/main.lua",
+      "language": "Lua",
+      "bytes": 344,
+      "sha256": "09ab243eb738d92fe8d30938f4f503c1982e24edeab589f05b7178f705c850a4",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/lua/quote.lua",
+      "language": "Lua",
+      "bytes": 943,
+      "sha256": "9b7f02f851c683eafd443d415241186e04c9134216b10cdf710d5d6b2cb1f781",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/lua/test.lua",
+      "language": "Lua",
+      "bytes": 559,
+      "sha256": "311df7fb0f170022d773287a103f655070ffacd3509f8046ef85fe348b86743c",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/odin/main.odin",
+      "language": "Odin",
+      "bytes": 998,
+      "sha256": "ca0f7d86471b1800135b50f83ae9f41d35402877745d2b65c45df0d28a30a621",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/odin/quote.odin",
+      "language": "Odin",
+      "bytes": 1117,
+      "sha256": "c97ac05e023fe3fc581bfc8a2bceab8abb19e0e1d1bc7bb4e37c8f2a18d2951c",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/python/display.py",
+      "language": "Python",
+      "bytes": 229,
+      "sha256": "2b711d1b9ddba334f3aeeb754bdc79718dc333d7ff69f79ded3b6e1a782ee2d2",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/python/main.py",
+      "language": "Python",
+      "bytes": 401,
+      "sha256": "4691d8f711f958168e0069176b351d27b2b9d3483f29a9db371b4d2ccc611ca7",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/python/quote.py",
+      "language": "Python",
+      "bytes": 1165,
+      "sha256": "56191c8031466a224eea7732a49d178aa0af44f84c9ef14a6f7e63e3d3051c66",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/python/quote.pyi",
+      "language": "Python",
+      "bytes": 396,
+      "sha256": "4d1c2559410b9a874a98cb1085b73e7e31393c97335fef260c14eabe4af88d76",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/python/test_quote.py",
+      "language": "Python",
+      "bytes": 1403,
+      "sha256": "956e9d707dc4ed5366028d51513263f6283e267b1f70936396b633f8901a5cb9",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/react/jsx.html",
+      "language": "HTML",
+      "bytes": 203,
+      "sha256": "78b7a3cbbedc60e2cd0d9f0a55b5179dd038983305496c28f12d85e26048bc6d",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/react/scripts/build.mjs",
+      "language": "JavaScript",
+      "bytes": 2058,
+      "sha256": "5a370d49f2656371293562276c85c256ea90c7c060c31da5c46603e826589e10",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/react/scripts/render.mjs",
+      "language": "JavaScript",
+      "bytes": 1500,
+      "sha256": "855d6295b876afc993f5ac69ed1c0fd24f842324d842bf08079dc9fd1d2fdc9c",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/react/src/LineItem.js",
+      "language": "JavaScript",
+      "bytes": 271,
+      "sha256": "1b0a8c7af700bbdfc3c65f888690d5b85bc9a65bc9b5488fbfcd1832743dcd45",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/react/src/QuoteForm.jsx",
+      "language": "JavaScript",
+      "bytes": 1280,
+      "sha256": "cf1b1e214f2d61eb85f7db53fd053d9b80dd06d5b63d421d322a1d4ca317e819",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/react/src/QuoteForm.tsx",
+      "language": "TypeScript",
+      "bytes": 1292,
+      "sha256": "46d94a11e453d7941aa2ff554615c8970638bdb9d93902627084ae14db5fc8ae",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/react/src/main-jsx.jsx",
+      "language": "JavaScript",
+      "bytes": 155,
+      "sha256": "0ebaf7d82780638ed76426c1c8d1454048007b3659ee42c9a0774202a5f78531",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/react/src/main-tsx.tsx",
+      "language": "TypeScript",
+      "bytes": 245,
+      "sha256": "7642e1c2069a8c9a59695be88567f9bb683b51bc03da28be04e2a36062da1d5f",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/react/src/quote.js",
+      "language": "JavaScript",
+      "bytes": 722,
+      "sha256": "feaf72fe7b8f1a83cb1eb30fa2c49221e6927001b242f957b216fff6b82c3648",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/react/tests/quote.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2243,
+      "sha256": "627e5354eff20ff87e98d86531fa04b654a8cf78e5fb8b8a9aa7d197bf004952",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/react/tsx.html",
+      "language": "HTML",
+      "bytes": 203,
+      "sha256": "d2473571d8704be0affa6c3431f1778774e9249b4c3ed2fe58bdc4f0afc355c0",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/rust/src/lib.rs",
+      "language": "Rust",
+      "bytes": 2872,
+      "sha256": "468eb7531ff41890724d62d669d183ba125c81cc4b80533b8f168009b0e72679",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/rust/src/main.rs",
+      "language": "Rust",
+      "bytes": 451,
+      "sha256": "5cb1e585c46a467dab1a6d28ad99cf59d7bd3bfa73df90f4e3b14b46cf09ea0c",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/rust/tests/cli.rs",
+      "language": "Rust",
+      "bytes": 1243,
+      "sha256": "54b9bf19db7487385b58d7d320a273d83d9f4c88d812ce4e0aa0cd4eb47ece85",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/svelte5/index.html",
+      "language": "HTML",
+      "bytes": 188,
+      "sha256": "ee1eb2dc05a4ba81121ad42bc497c5f7d1aab7c45ec0c472d2e3f3a171de490a",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/svelte5/scripts/build.mjs",
+      "language": "JavaScript",
+      "bytes": 1639,
+      "sha256": "f5fcdee678773cd79010ca5d8ea49dc5876163cb867b4cc1e794b1cb27d5478b",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/svelte5/scripts/render.mjs",
+      "language": "JavaScript",
+      "bytes": 1622,
+      "sha256": "8081edb8743eac623c1ce7627af94f28f6e36c69294ea7982df002a9d8446546",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/svelte5/src/App.svelte",
+      "language": "Svelte",
+      "bytes": 1194,
+      "sha256": "ba6beacd45449501ccf59c1dd60cb17021f108ee4bcfc87ca8459611f4353b02",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/svelte5/src/delivery.svelte.js",
+      "language": "JavaScript",
+      "bytes": 281,
+      "sha256": "740556dd46d9491267af4d60451b5363228f3cf3f2d4a9583f05a57a6e092645",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/svelte5/src/main.js",
+      "language": "JavaScript",
+      "bytes": 195,
+      "sha256": "2ce7cc89153c305daa85a251a8ca2cde24eb0b47c6987f54c55bc1f6fb832cc7",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/svelte5/src/quote.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 803,
+      "sha256": "340873ea5becc60898fc8e9354f9a24dfd6093216f497e2c35430c454155dfdf",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/svelte5/tests/quote.test.mjs",
+      "language": "JavaScript",
+      "bytes": 576,
+      "sha256": "e95680bbff25a8b70fd35a778b94f16d77a9f10a97204ef45c7b4a26136ef980",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/svelte5/vite.config.js",
+      "language": "JavaScript",
+      "bytes": 182,
+      "sha256": "e6468309a4a363be284a5e4612f836af41e0bd698c52b172eaf0a72a5e524771",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/typescript/src/format.cts",
+      "language": "TypeScript",
+      "bytes": 219,
+      "sha256": "859837f2fac15320ed42f3aea57a8e1da713ce0d6454aa33b0b14c05d9728dce",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/typescript/src/main.ts",
+      "language": "TypeScript",
+      "bytes": 390,
+      "sha256": "6f37a19247fcc5623c99da887d58f17d1abf68d7a0845bb4bcee558408eb6c7c",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/typescript/src/quote.mts",
+      "language": "TypeScript",
+      "bytes": 1335,
+      "sha256": "159d14230d25a0619f938d031e4146ae1cf8db55c735950cc5d9c1b588b26333",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/typescript/test/cli.test.mts",
+      "language": "TypeScript",
+      "bytes": 1216,
+      "sha256": "18f1da24edc811ade01832342fc61bcb73f88916117bce239f9874c0a07eb64d",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/zig/main.zig",
+      "language": "Zig",
+      "bytes": 1094,
+      "sha256": "42edfcadf59298daebe192480506435db8c1fd9fb6a2a20ff369f9f3cf800b78",
+      "counted": true
+    },
+    {
+      "path": "tests/fixture-apps/zig/quote.zig",
+      "language": "Zig",
+      "bytes": 1398,
+      "sha256": "467f4198f993bee65f2d3b05417f9ffb2001b3c7e0e506c1fd359f63d7bb3d1a",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/agent-migration.test.ts",
+      "language": "TypeScript",
+      "bytes": 4112,
+      "sha256": "30a158faf7e8d3fbb65489267a17fb76c451dff75821cd5be420a2affb0c937a",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/automatic-managed-overlap.test.ts",
+      "language": "TypeScript",
+      "bytes": 6494,
+      "sha256": "007a6256f974e9c09f472680f515024e142d1006079f738665d37f461a2901c1",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/cleanup.test.ts",
+      "language": "TypeScript",
+      "bytes": 1366,
+      "sha256": "6f499dce37784bdaf715faee7b8814717e51466b278dab36abc8e510a97ce63b",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/cli-startup-policy.test.ts",
+      "language": "TypeScript",
+      "bytes": 1311,
+      "sha256": "f85842d56de2a7cc89efb6ef2ab5e34edb5748b904acdd9007b968a12e6e577d",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/coordination-cli-entry.test.mjs",
+      "language": "JavaScript",
+      "bytes": 5047,
+      "sha256": "c80fdd511dfd8000ca404a64656a1e8f6ebfcf1bff0ad60229d47817da07877b",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/coordination-linkage-crash.test.ts",
+      "language": "TypeScript",
+      "bytes": 12106,
+      "sha256": "181c3481bb1823a3f1a6f111fe2e2db88551fe16b26354251f43fb9491966b2f",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/coordination-process-crash.test.ts",
+      "language": "TypeScript",
+      "bytes": 13309,
+      "sha256": "7d16d4f11f5d557f26ae4126f28db6d854a2b362569268df18b2d4e22362ea6f",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/coordination-submission.test.ts",
+      "language": "TypeScript",
+      "bytes": 4079,
+      "sha256": "d27baad6410f6ca044a87c9f55a33999225c4179a2733b35069c306eb49d5179",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/coordinator.test.ts",
+      "language": "TypeScript",
+      "bytes": 2214,
+      "sha256": "4f5cb150c4e34fe2c12c3c1a74953fac90d37e379bd56de1a2f3ff7e3be62848",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/durable-store.test.ts",
+      "language": "TypeScript",
+      "bytes": 4251,
+      "sha256": "a4ffac3a64742218c288b7e350fedbbb8a1a448307985fd80fee38d83bf6663f",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/global-frontend.test.ts",
+      "language": "TypeScript",
+      "bytes": 14408,
+      "sha256": "27445423e64b8d4a5441f7da160d7dc3dda6cad56c88a49ffcf1e0c69404cd4f",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/installed-runtime.test.ts",
+      "language": "TypeScript",
+      "bytes": 4016,
+      "sha256": "18c99b3568a181477097898b0dac678b36d7abf6a131ef9e760132dbc5eec405",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/mcp-startup.test.ts",
+      "language": "TypeScript",
+      "bytes": 14415,
+      "sha256": "647b7be770a5c781ee7a0cca94ee2ebae33974239a01f4b5602f6d01ba658d6a",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/muse-native-identity.test.ts",
+      "language": "TypeScript",
+      "bytes": 15840,
+      "sha256": "d1f573f30f0eef39525865c99f37b3ef4f108d31f87b87545fd62b2955089bd0",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/parallel-mcp.test.ts",
+      "language": "TypeScript",
+      "bytes": 2197,
+      "sha256": "ddfa4606b4e88bf523675fcbba51da2480d3943751117864d58956706647ae1f",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/peer-adapter-three-worker.test.ts",
+      "language": "TypeScript",
+      "bytes": 40641,
+      "sha256": "d5a28e9711154593da5b57ab336a30e50943762004f36fd803571ae61ea3789c",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/peer-application-crash.test.ts",
+      "language": "TypeScript",
+      "bytes": 10626,
+      "sha256": "7acb00d429e380f7bbbe6f158fe3924d1c860705843db8a6adbbb42da578a535",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/peer-composition.test.ts",
+      "language": "TypeScript",
+      "bytes": 16808,
+      "sha256": "ddd4f23ac4cf5c634c619e9848341be1421decec9cb19f92f17555e4441ce669",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/peer-worker-composition.test.ts",
+      "language": "TypeScript",
+      "bytes": 32152,
+      "sha256": "22cd4388e82d5d6f7a8ca7e7145ea58bad30e81482061cb7e048e35ebf0d9d3d",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/profile-upgrade.test.ts",
+      "language": "TypeScript",
+      "bytes": 18653,
+      "sha256": "b908065d02238b56c574f83592dc1ed368ee31989d796216bd803d443b6ce0cc",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/reconcile-operator.test.ts",
+      "language": "TypeScript",
+      "bytes": 6612,
+      "sha256": "a0eb5e5b771db142cea364ebdb847d5e8d773f2d8896008ad5242b3509d67474",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/recovery.test.ts",
+      "language": "TypeScript",
+      "bytes": 880,
+      "sha256": "4d69d6f8e7e9347c486cb8c4c632813545c1e52befbc5fa3661ab97fe8764edb",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/registration-probe.test.ts",
+      "language": "TypeScript",
+      "bytes": 4176,
+      "sha256": "c99641d64b38841cf768eb333ff45eb55f587188680620b7243c0c49c60860fb",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/service-attachment-recovery.test.ts",
+      "language": "TypeScript",
+      "bytes": 3703,
+      "sha256": "e6d886a8ecab91504702e9d06ce9443f682be1ecf8e183ca1887a349f189ed77",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/service-finalize-projection.test.ts",
+      "language": "TypeScript",
+      "bytes": 3538,
+      "sha256": "10638fb2bdbe2b7dbea1741463b1b44e30b73d68f08cc0f90973cdbaa959eece",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/structural-capacity-lifecycle.test.ts",
+      "language": "TypeScript",
+      "bytes": 9056,
+      "sha256": "51021181609e9ed8d5d3b885862e14628c2e2f36828e6849a3e9a0f123f9d486",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/structural-cli-mcp.test.ts",
+      "language": "TypeScript",
+      "bytes": 9571,
+      "sha256": "cd920946a994ef68f17ce2c120d95e31eaea90d068de8f68ab0a53b7f55a44e3",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/structural-cutover.test.ts",
+      "language": "TypeScript",
+      "bytes": 9559,
+      "sha256": "ac66701ed0abaaf623a98370b82cf6af78254dc333b304fcaa808b47e523d122",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/structural-doctor.test.ts",
+      "language": "TypeScript",
+      "bytes": 4432,
+      "sha256": "70f3adfa4b31fd555a7737a0e4915d45a68a7e76c7863e823043a31eb2d5f642",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/structural-installation.test.ts",
+      "language": "TypeScript",
+      "bytes": 12486,
+      "sha256": "054a65607afd3860c0adec74900646f6a96c6fb3172d887a0c0070d31ee30d23",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/structural-migration.test.ts",
+      "language": "TypeScript",
+      "bytes": 12266,
+      "sha256": "a9ab0f0f9efd02f2925ec68b24638b1bb86c821b20358cfe9e9497f941dd99a5",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/structural-notifications.test.ts",
+      "language": "TypeScript",
+      "bytes": 20268,
+      "sha256": "19dea84e3dee73ec115e758b82cb997f633342edb9636331f2fd4eddd2f4ec70",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/structural-retirement.test.ts",
+      "language": "TypeScript",
+      "bytes": 12765,
+      "sha256": "b6a90b82b2e7611c936aa46223b6f4377772407d6148d0842c3d912e32653273",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/structural-sharing.test.ts",
+      "language": "TypeScript",
+      "bytes": 12351,
+      "sha256": "4ff135dceb88c823638fa6d366be281b408a1a0f3ae0a9ff2642171439d291c9",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/structural-source-trust.test.ts",
+      "language": "TypeScript",
+      "bytes": 23437,
+      "sha256": "4778b4135f0ecd47ae37c654198ff207e009decb47647aee1bcfa4e3dacf07eb",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/task-store.test.ts",
+      "language": "TypeScript",
+      "bytes": 674,
+      "sha256": "2262d59fba95fd2d9742ab031bd071c728b8d79e0330fdbd7e82cd6e5f2501e4",
+      "counted": true
+    },
+    {
+      "path": "tests/integration/workspace.test.ts",
+      "language": "TypeScript",
+      "bytes": 1361,
+      "sha256": "fd97a7cfc9bf2e6609e50cfdc7167568531c1f795c65c3a0eb49cb0908775733",
+      "counted": true
+    },
+    {
+      "path": "tests/native/codex-protocol.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4221,
+      "sha256": "1f855f26956105f6ffc8f89bc4e0570b832dadc851a19c1b82f62132e5e89e47",
+      "counted": true
+    },
+    {
+      "path": "tests/native/codex-startup-policy.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2979,
+      "sha256": "160750c9a6bd638ec898cc7600b86686245af61663fcdfe37247b746f6584b24",
+      "counted": true
+    },
+    {
+      "path": "tests/native/codex-transport.test.mjs",
+      "language": "JavaScript",
+      "bytes": 5542,
+      "sha256": "427a7e5f106983b35270476594759b43e09458bd3974aa216cf7854bfdebed8f",
+      "counted": true
+    },
+    {
+      "path": "tests/native/fixture-app-oracles.test.mjs",
+      "language": "JavaScript",
+      "bytes": 17241,
+      "sha256": "1d41567f8c6a6ed6450ac68e007a400874b627a01996eb767c785d30c9d8c70d",
+      "counted": true
+    },
+    {
+      "path": "tests/native/lifetime-observations.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2922,
+      "sha256": "1ada67c44b7ceb241fc50312a91118b17ad7e542b3236b3db5a5f0bd42489a0d",
+      "counted": true
+    },
+    {
+      "path": "tests/native/parameter-default-masking.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4491,
+      "sha256": "c28f9bb79ead35613d6b6953a749d07e93a76973f995b7f27f18329c9bc5a10e",
+      "counted": true
+    },
+    {
+      "path": "tests/native/peer-parser-coverage.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4414,
+      "sha256": "1fbdaa693e5e678b51e532b1e0cab77c755f6dd8675ae8e6b6c7eccb634e3726",
+      "counted": true
+    },
+    {
+      "path": "tests/native/shared-service.test.mjs",
+      "language": "JavaScript",
+      "bytes": 7065,
+      "sha256": "9a0d73471cddfb02c4b74f5cd5f971ef787a3dc6273324fc01493f6224133754",
+      "counted": true
+    },
+    {
+      "path": "tests/native/source-domain-consumer.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1694,
+      "sha256": "420d7d7dbebd2314d8a6d1c8fdc5a9ab9317b67cba8058cf60bb127e2f8b901b",
+      "counted": true
+    },
+    {
+      "path": "tests/native/structural-c-family.test.mjs",
+      "language": "JavaScript",
+      "bytes": 15957,
+      "sha256": "29a466439bfa18b407dc4c2e252fbf8cd357f0cbbd126d6e1c37e972f910a615",
+      "counted": true
+    },
+    {
+      "path": "tests/native/structural-grammar-qualification.test.mjs",
+      "language": "JavaScript",
+      "bytes": 4082,
+      "sha256": "961f90395f313591b6b68ca7ea6257634ef3065dd5aeeaae93ce91951309613f",
+      "counted": true
+    },
+    {
+      "path": "tests/native/structural-helper-cache.test.mjs",
+      "language": "JavaScript",
+      "bytes": 3959,
+      "sha256": "5df691feba83f1d5203f29a6245044a1584dbe97964825913750e29342a896f9",
+      "counted": true
+    },
+    {
+      "path": "tests/native/structural-helper-faults.test.mjs",
+      "language": "JavaScript",
+      "bytes": 7223,
+      "sha256": "b04a98afca51fd667629f9fdc0e6f1d584de54c95fbac9328782d287af2323a7",
+      "counted": true
+    },
+    {
+      "path": "tests/native/structural-helper-protocol.test.mjs",
+      "language": "JavaScript",
+      "bytes": 2709,
+      "sha256": "72e8b5f9cb3a6b8626f8100da9cf9ce066151738bbc62f01b727e99cd37c8925",
+      "counted": true
+    },
+    {
+      "path": "tests/native/structural-helper-resource.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1748,
+      "sha256": "0e7399905f85d6b72618c258c4de005ff40bc45f9ea82d55fff5140d7a19a509",
+      "counted": true
+    },
+    {
+      "path": "tests/native/structural-helper.test.mjs",
+      "language": "JavaScript",
+      "bytes": 11316,
+      "sha256": "a9856914b0385d56eda7c05185966cf6bd7aacbfde7856d4e66cfc45dc13661e",
+      "counted": true
+    },
+    {
+      "path": "tests/native/structural-js-react-svelte.test.mjs",
+      "language": "JavaScript",
+      "bytes": 18466,
+      "sha256": "16c5b9db44d3e5abc8d0272282b4c922584d174675e7e3e42b3f0a630ec67c86",
+      "counted": true
+    },
+    {
+      "path": "tests/native/structural-kotlin-zig-odin.test.mjs",
+      "language": "JavaScript",
+      "bytes": 17772,
+      "sha256": "9f7f394c91311e9073a9e0ecf3941c9b741c8bcf49fee89e530251f63d3b3fdc",
+      "counted": true
+    },
+    {
+      "path": "tests/native/structural-monitor.test.mjs",
+      "language": "JavaScript",
+      "bytes": 6477,
+      "sha256": "e0b93bf1a95041ba62036157ce825d7b13a0b2bc2789313f8d4b6184c88e5d10",
+      "counted": true
+    },
+    {
+      "path": "tests/native/structural-native-functions.test.mjs",
+      "language": "JavaScript",
+      "bytes": 51630,
+      "sha256": "3f18de70d7258c47f8eac3f643f894fa4b6aaa19e8fd2d5ba68c7d41de79650d",
+      "counted": true
+    },
+    {
+      "path": "tests/native/structural-parser-load.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1052,
+      "sha256": "f4684f479b5ac9bf5b07d08dec21c4ae8b768f632c37e6570170cd9f880805ca",
+      "counted": true
+    },
+    {
+      "path": "tests/native/structural-python-lua.test.mjs",
+      "language": "JavaScript",
+      "bytes": 15002,
+      "sha256": "ca47c228c5f7bf68b559fd98674a3de6a7691bf49842e0ceee8a7a73a49a3dd3",
+      "counted": true
+    },
+    {
+      "path": "tests/native/structural-ranges.test.mjs",
+      "language": "JavaScript",
+      "bytes": 1152,
+      "sha256": "fba171952c3158218645b0e8ad3658bccda1ccdbdd0391d79cb24766179f2f2b",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/adapter-lifecycle.test.ts",
+      "language": "TypeScript",
+      "bytes": 17453,
+      "sha256": "f77335a675440fbb2a6e377da396b3aab6d57f821ce2d6db23b5226d1d245ae4",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/adapter-skill.test.ts",
+      "language": "TypeScript",
+      "bytes": 747,
+      "sha256": "52346e93119a262311b1b20a907cae36af143ef10219bf133809fcd45b5fdea8",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/agent-records.test.ts",
+      "language": "TypeScript",
+      "bytes": 4915,
+      "sha256": "483fece1b347e5ada611d6320a5a4fd5c750fabefe2767a7a5980d209d943571",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/approvals.test.ts",
+      "language": "TypeScript",
+      "bytes": 1433,
+      "sha256": "99be192e4c0c60c6b625a046a1c41cb0ca25b3eabcfeec61956222364a456ec8",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/codex-adapter.test.ts",
+      "language": "TypeScript",
+      "bytes": 42958,
+      "sha256": "1f1b8de0e0b88e9c22af6237d1f50b832a874052600c7def27a68bdb8606d991",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/codex-config.test.ts",
+      "language": "TypeScript",
+      "bytes": 20432,
+      "sha256": "4b98a5e864578a8519e39710600543b9fd2cf545d09e759e690c84aed9180465",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/codex-profile-migration.test.ts",
+      "language": "TypeScript",
+      "bytes": 12672,
+      "sha256": "1617a30aa988df4c1ce8d4e65dfa09b37b77862b4ebe1a6d747d9c628fa803be",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/compact-result.test.ts",
+      "language": "TypeScript",
+      "bytes": 1278,
+      "sha256": "66e246c173870d2e9a3aca7728d17f086d91a26250b4b50b47dd2639916c13da",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/contracts.test.ts",
+      "language": "TypeScript",
+      "bytes": 3312,
+      "sha256": "1f7f363eeee85b1fcf6600df19de50d1168db8c79282ebfe482225f0dff22e1a",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/model-catalog.test.ts",
+      "language": "TypeScript",
+      "bytes": 14013,
+      "sha256": "3620af511cfd9b57c06412a06f2f56512ffe350d99034aa69ebc3169a9705119",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/peer-delivery-byte-budget.test.ts",
+      "language": "TypeScript",
+      "bytes": 2621,
+      "sha256": "674da21cabf06532b565244519200c67439424a875ccb3d4fb5e18e9ace9ae63",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/peer-delivery-codex.test.ts",
+      "language": "TypeScript",
+      "bytes": 16871,
+      "sha256": "a61b217dc0126ada87a3522ac4b245e8743b8dd1da20d3a017b04a426be4d27c",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/peer-delivery-muse.test.ts",
+      "language": "TypeScript",
+      "bytes": 40727,
+      "sha256": "3ddf6ad3f05d70ecf66885338bbd459de8e22b87fad03b7a6ba9056f015dbbe4",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/peer-proposal-feedback-muse.test.ts",
+      "language": "TypeScript",
+      "bytes": 6164,
+      "sha256": "4bb051c2cdc58c72e080d763bf8c5b809c86f7bf0b1944c85a7ef53ae0401251",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/peer-result-prompt-budget.test.ts",
+      "language": "TypeScript",
+      "bytes": 3791,
+      "sha256": "77ea1ec4168e6a9404d4147fe54bb28f7eaad904fa97d7896c06e13ef94900f2",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/persisted-records.test.ts",
+      "language": "TypeScript",
+      "bytes": 5327,
+      "sha256": "9a223f62c0432a552b84a128966d30b34787fee5a9ff068ba81eacede2f64aae",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/state.test.ts",
+      "language": "TypeScript",
+      "bytes": 822,
+      "sha256": "933c9a95e665f0b1f99863ecbf83979f6690539edcaef00fcd6a1a469f42acab",
+      "counted": true
+    },
+    {
+      "path": "tests/unit/worker-report.test.ts",
+      "language": "TypeScript",
+      "bytes": 1461,
+      "sha256": "d2570d565f9cca719f61e2b7b480995963fed0087a5cdaf2ea647d16988fe4b4",
+      "counted": true
+    },
+    {
+      "path": "vitest.config.ts",
+      "language": "TypeScript",
+      "bytes": 176,
+      "sha256": "8f56e7d032706b448486d544471019a635769d974b7b2d94fc66e4e8952a0bcf",
+      "counted": true
+    }
+  ],
+  "explicit_exclusions_already_omitted_by_linguist": []
+}

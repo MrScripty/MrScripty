@@ -1,0 +1,1638 @@
+{
+  "repository": "MrScripty/Tuldok",
+  "source_commit": "c522bf6b5eaf94d89811578c9e73aecfdba4ef9e",
+  "baseline_total_bytes": 3135727,
+  "authored_total_bytes": 3135727,
+  "baseline_languages": {
+    "Python": 1588647,
+    "JavaScript": 1466839,
+    "CSS": 22602,
+    "HTML": 57639
+  },
+  "authored_languages": {
+    "Python": 1588647,
+    "JavaScript": 1466839,
+    "CSS": 22602,
+    "HTML": 57639
+  },
+  "files": [
+    {
+      "path": "ai.py",
+      "language": "Python",
+      "bytes": 7584,
+      "sha256": "a3b04a3015496ff3c66c3eb450ccf887bd5726229669ac0515d95a2761ad3a9a",
+      "counted": true
+    },
+    {
+      "path": "ai_codex.py",
+      "language": "Python",
+      "bytes": 8328,
+      "sha256": "debd26342e73a87635d772e3ee59d30bb822877008d667b47997f52e22f94f16",
+      "counted": true
+    },
+    {
+      "path": "ai_http.py",
+      "language": "Python",
+      "bytes": 20960,
+      "sha256": "73ca648fe00e8f5a4022b14b72c80dd695228706a0f2b79aee605a524b8f2585",
+      "counted": true
+    },
+    {
+      "path": "ai_openrouter.py",
+      "language": "Python",
+      "bytes": 2585,
+      "sha256": "70930124fac7ef08941f571c1d4492f72b29aa94807cfd5d66bc32555432b160",
+      "counted": true
+    },
+    {
+      "path": "app.py",
+      "language": "Python",
+      "bytes": 45309,
+      "sha256": "c8f5bc913494e43f8e196d93f6e37cde3b9f6299358c74929c7f170090ec54a5",
+      "counted": true
+    },
+    {
+      "path": "audio_assets.py",
+      "language": "Python",
+      "bytes": 10764,
+      "sha256": "a68c5fcfbfe1535c34d5b3c6cdf167e9ef3c6a728f6eee65fbec0af7bfd879a6",
+      "counted": true
+    },
+    {
+      "path": "audio_classification_export.py",
+      "language": "Python",
+      "bytes": 5325,
+      "sha256": "0f0643470cfa3b015c2d56c0e8e1dc2ad4944bc825127b9131fbbdd36349052d",
+      "counted": true
+    },
+    {
+      "path": "audio_export.py",
+      "language": "Python",
+      "bytes": 897,
+      "sha256": "bc20d32089b3a004504c6cb072e18db9e285c9195db84679670fe460ef51cfc9",
+      "counted": true
+    },
+    {
+      "path": "audio_training.py",
+      "language": "Python",
+      "bytes": 26159,
+      "sha256": "fd5a21f1bfbfbbd72f8ba5a3bcc88017e2b8c2f075a7a6506310a01156f771a7",
+      "counted": true
+    },
+    {
+      "path": "backup_metadata.py",
+      "language": "Python",
+      "bytes": 17007,
+      "sha256": "15fced02dbc6da6b035b2ab7fbf5bd368ef862d0d03eb01561781d09fb921f0a",
+      "counted": true
+    },
+    {
+      "path": "bulk_import.py",
+      "language": "Python",
+      "bytes": 5944,
+      "sha256": "9e30d8bcd0756a696b1e7587c17204c8b3baac1f6271b192a26b7ab91256df3e",
+      "counted": true
+    },
+    {
+      "path": "caption_import.py",
+      "language": "Python",
+      "bytes": 20019,
+      "sha256": "991c9a94c39cb9e2cf823625f73f6a3b1773b2eb72956b15372040a11785d03f",
+      "counted": true
+    },
+    {
+      "path": "caption_proposals.py",
+      "language": "Python",
+      "bytes": 21447,
+      "sha256": "e741e97f70907a95b8115000ca4e56742868e6541050d8af26d316eccc85836b",
+      "counted": true
+    },
+    {
+      "path": "curation.py",
+      "language": "Python",
+      "bytes": 6063,
+      "sha256": "b25576749afd01f9e699133c5db7e6113f9a5f0ad8961dafc4084292896b0049",
+      "counted": true
+    },
+    {
+      "path": "dataset_recipes.py",
+      "language": "Python",
+      "bytes": 5291,
+      "sha256": "68ba888d046d3ae1edf604165ced3886e0e8e9efc7162cf20cac85d95fb517cb",
+      "counted": true
+    },
+    {
+      "path": "dataset_releases.py",
+      "language": "Python",
+      "bytes": 61924,
+      "sha256": "df49ff328749f2faafe8315607ce37162cbdb8a93971a533d53d4b3726ebd327",
+      "counted": true
+    },
+    {
+      "path": "frozen_classification.py",
+      "language": "Python",
+      "bytes": 4438,
+      "sha256": "a6a9fc244bcb7de7da5217fb36d5e73bb03ca1756c9c63770c23a78336606649",
+      "counted": true
+    },
+    {
+      "path": "gateway_discovery.py",
+      "language": "Python",
+      "bytes": 11034,
+      "sha256": "8a02e2ef9038859c1accce9ea3e31ea489423f19799a279f4be6f9afd61297d0",
+      "counted": true
+    },
+    {
+      "path": "grounded_candidates.py",
+      "language": "Python",
+      "bytes": 19780,
+      "sha256": "958d21b1156e6c0d34063d299f92c1d9df592eb3234911bd4f1e00531a3e8d15",
+      "counted": true
+    },
+    {
+      "path": "image_classification_export.py",
+      "language": "Python",
+      "bytes": 2990,
+      "sha256": "995edefa24fc039505337fd8d2915e45d173c18a03af513d9f5d8eb234225b96",
+      "counted": true
+    },
+    {
+      "path": "image_generation.py",
+      "language": "Python",
+      "bytes": 12729,
+      "sha256": "b94304936c08258ef70ee8e340b15a4df8648a2ea03efb02d7b272571aebde55",
+      "counted": true
+    },
+    {
+      "path": "image_training.py",
+      "language": "Python",
+      "bytes": 26318,
+      "sha256": "5a7807f8834f96bf17e1c020357fdb96a7eb1ac94b54a440db80559d9923f99c",
+      "counted": true
+    },
+    {
+      "path": "immutable_assets.py",
+      "language": "Python",
+      "bytes": 3948,
+      "sha256": "615f8199f34d4b3dc7bdf5e1bb1b56e2a1ff3769e93eca29d0759d278e8a091d",
+      "counted": true
+    },
+    {
+      "path": "mesh_release.py",
+      "language": "Python",
+      "bytes": 12754,
+      "sha256": "5d6488b03bb8cbd33194db62546d90eae2afca1ad24b89aa3acf937038f368bf",
+      "counted": true
+    },
+    {
+      "path": "meshes.py",
+      "language": "Python",
+      "bytes": 14164,
+      "sha256": "f6dc36458f64e75a2334b1257cb49c09854133704bb6415270d9e16510b3b2bc",
+      "counted": true
+    },
+    {
+      "path": "metadata.py",
+      "language": "Python",
+      "bytes": 26631,
+      "sha256": "2960b8b24de7ee0db79915d655256048f300d72288e7a0a0465b4b699bdd88de",
+      "counted": true
+    },
+    {
+      "path": "migrate_sqlite.py",
+      "language": "Python",
+      "bytes": 18168,
+      "sha256": "be1a79a1b6f5e2c8e4c99862043a5afcd4f30d6539388c1600908f4a4f3f92da",
+      "counted": true
+    },
+    {
+      "path": "native_detection_import.py",
+      "language": "Python",
+      "bytes": 17735,
+      "sha256": "0ef3b7ce488fbe5c863e69d50787e1ae679c5531ca9290122aa9e17452a77934",
+      "counted": true
+    },
+    {
+      "path": "native_text_import.py",
+      "language": "Python",
+      "bytes": 14467,
+      "sha256": "70f939a7f6acee8f887f884ec52e7570a5df06fcefdff5063e92a5387c9d782a",
+      "counted": true
+    },
+    {
+      "path": "pipeline.py",
+      "language": "Python",
+      "bytes": 21701,
+      "sha256": "ae7c2b420fdb3b2eee12f770973231cca9eeb276b54068b4a28125b085735ef9",
+      "counted": true
+    },
+    {
+      "path": "preferences.py",
+      "language": "Python",
+      "bytes": 11170,
+      "sha256": "29f2565558d92081e083c06f31d98dc48fdf03ddce8f920af377c9d0fa88693d",
+      "counted": true
+    },
+    {
+      "path": "pumas_gateway_descriptor.py",
+      "language": "Python",
+      "bytes": 5682,
+      "sha256": "b9c4259bda856fd19d1d82b3a2c000a74ab3979832248fd3f1f1d3d6309c0752",
+      "counted": true
+    },
+    {
+      "path": "pumas_operations.py",
+      "language": "Python",
+      "bytes": 17685,
+      "sha256": "e8b8acee54a027633ae39f00a23b3d4845ae474d031690134cafb1c75bf73511",
+      "counted": true
+    },
+    {
+      "path": "pumas_vision.py",
+      "language": "Python",
+      "bytes": 9302,
+      "sha256": "5659c7731b5011ff39a0a9b7c27712382983f16286540f47f6b1337941bbda7d",
+      "counted": true
+    },
+    {
+      "path": "rheon_sequence_contract.py",
+      "language": "Python",
+      "bytes": 16817,
+      "sha256": "063d17a3bbc92a27c26c0f5dd4588a9478091ebbf53ce0ccb818cee6a9393b98",
+      "counted": true
+    },
+    {
+      "path": "rheon_sequences.py",
+      "language": "Python",
+      "bytes": 4165,
+      "sha256": "93f92a26a7d25669a974e41779df809d59ffc2601dbab72b2363664d822e34c3",
+      "counted": true
+    },
+    {
+      "path": "runs.py",
+      "language": "Python",
+      "bytes": 48147,
+      "sha256": "8b8aaf0d483e953b41e59d17c9733f90ed39e968611b4683ba63647838a5e291",
+      "counted": true
+    },
+    {
+      "path": "saved_searches.py",
+      "language": "Python",
+      "bytes": 5604,
+      "sha256": "ebf0f5eeaab54212c046f94cc011e57cc507903624ca7682018d440640db54e0",
+      "counted": true
+    },
+    {
+      "path": "saved_selections.py",
+      "language": "Python",
+      "bytes": 6853,
+      "sha256": "d5b43d9c099cf48ba088c680bacc10e7bece15e09a8a2919e798eebc60969a3e",
+      "counted": true
+    },
+    {
+      "path": "scripts/local_postgres.py",
+      "language": "Python",
+      "bytes": 5518,
+      "sha256": "72398d2cd6a00f281b79773c1aa297da3b5ddfa1ccf029f49d90511b8fd89d2b",
+      "counted": true
+    },
+    {
+      "path": "scripts/prepare_caption_fixtures.py",
+      "language": "Python",
+      "bytes": 14021,
+      "sha256": "556e1971b65eb075da9933a79065018ae871c35764992ee1c733a315367b9fd2",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify_grounded_local.py",
+      "language": "Python",
+      "bytes": 5255,
+      "sha256": "9262b217dcd907f7503adfb2432c464c8c43434433267684146e5895c61b96d2",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify_pumas_typed_actual.py",
+      "language": "Python",
+      "bytes": 8766,
+      "sha256": "8e003ae08c3a0a0b1aa6d9ea169567b0989c8f7126846f067c6672ff5f70cd0c",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify_text_classification_local.py",
+      "language": "Python",
+      "bytes": 12037,
+      "sha256": "b39f64b230d345e6c692fd3bb2cc52499970b77317694e3828fc9961b89f3fcb",
+      "counted": true
+    },
+    {
+      "path": "sequence_assets.py",
+      "language": "Python",
+      "bytes": 941,
+      "sha256": "b27c5847fbd55ce0601decb0ade503873596d961821c9799508c08a20850f298",
+      "counted": true
+    },
+    {
+      "path": "sequence_batch_import.py",
+      "language": "Python",
+      "bytes": 5167,
+      "sha256": "b2684e2a46dd65171fe06024f93ff3e6c531b20c17f34301fdec6f58fa0f539e",
+      "counted": true
+    },
+    {
+      "path": "static/app.js",
+      "language": "JavaScript",
+      "bytes": 39061,
+      "sha256": "622409e4e4f9e94236fc1d611bb7bb91453299339949285f533fd85aa652ea02",
+      "counted": true
+    },
+    {
+      "path": "static/audio-editor.css",
+      "language": "CSS",
+      "bytes": 1068,
+      "sha256": "6c6cecd83f78d0a37af9011f5a3716dec6d41686e7de85af7e8b3d9e171bd628",
+      "counted": true
+    },
+    {
+      "path": "static/audio-editor.js",
+      "language": "JavaScript",
+      "bytes": 12119,
+      "sha256": "445441b9ff4eb480cf26711b8a94eb55c1472164d7bb4ea3c68a1874f2093661",
+      "counted": true
+    },
+    {
+      "path": "static/bulk_import.js",
+      "language": "JavaScript",
+      "bytes": 7290,
+      "sha256": "0a8d31360370658f741c5b2045a244d6ac08f6cdac4cb8e20157b51337033c8a",
+      "counted": true
+    },
+    {
+      "path": "static/caption-proposals.js",
+      "language": "JavaScript",
+      "bytes": 19016,
+      "sha256": "09906d8ea799ee7def657a5d1c7746a5dcbe25797f7849c7ac27364089a083d7",
+      "counted": true
+    },
+    {
+      "path": "static/caption_import.js",
+      "language": "JavaScript",
+      "bytes": 7635,
+      "sha256": "415824e3c719829a1f4d6f65aee0a775cf8f308a4c229cc629e360e1b808cf93",
+      "counted": true
+    },
+    {
+      "path": "static/curation.js",
+      "language": "JavaScript",
+      "bytes": 5614,
+      "sha256": "2f51c2e063eddbe16cb92dfcaa96c35c749dd61960ebd92c8c538bf0c6ff389a",
+      "counted": true
+    },
+    {
+      "path": "static/index.html",
+      "language": "HTML",
+      "bytes": 8846,
+      "sha256": "a143b95f69f90cb9317b557a21f88fc83f76af8c34c7adf626603c1772e781b8",
+      "counted": true
+    },
+    {
+      "path": "static/instruction-responses.js",
+      "language": "JavaScript",
+      "bytes": 14510,
+      "sha256": "3fb4fb8d78154bedb37ef90afbcc269fdab0938c4ac50236f38a7f26f54ac940",
+      "counted": true
+    },
+    {
+      "path": "static/meshes.js",
+      "language": "JavaScript",
+      "bytes": 17754,
+      "sha256": "4e1faf2de9fccf28c9672a423ba2b2774c6c131d05d02634d168c38893be625f",
+      "counted": true
+    },
+    {
+      "path": "static/native_detection_import.js",
+      "language": "JavaScript",
+      "bytes": 9140,
+      "sha256": "b0bc44be5ed80274bee72312feac0296e891f6e3d4a2b7f6114f137e60f2160c",
+      "counted": true
+    },
+    {
+      "path": "static/native_text_import.js",
+      "language": "JavaScript",
+      "bytes": 6740,
+      "sha256": "96b8798779eb6c9a5dadf0523d13b9eeebe2f466dcb15dfb59b5364f22a2c62d",
+      "counted": true
+    },
+    {
+      "path": "static/pipeline-editor.js",
+      "language": "JavaScript",
+      "bytes": 14962,
+      "sha256": "2272f1a9b106945203112a46d73643cc5d4dbbfd92f0d7c09d1cc36a713042d2",
+      "counted": true
+    },
+    {
+      "path": "static/preferences.js",
+      "language": "JavaScript",
+      "bytes": 14090,
+      "sha256": "fb22c04b6856d33b7e298aa1989d073c937ab40020025f39b86daaff62b948f7",
+      "counted": true
+    },
+    {
+      "path": "static/pumas-gateways.js",
+      "language": "JavaScript",
+      "bytes": 4817,
+      "sha256": "02df8f34362fc2e32f6a4582a9cb71adaa5d7b83ccd897803b9e1d02c7bcb932",
+      "counted": true
+    },
+    {
+      "path": "static/pumas-typed.js",
+      "language": "JavaScript",
+      "bytes": 2826,
+      "sha256": "6acc489b6a326b8aa4fa0c38849441faa236803c65bdb56a67fae018792db173",
+      "counted": true
+    },
+    {
+      "path": "static/rights-note.js",
+      "language": "JavaScript",
+      "bytes": 7661,
+      "sha256": "fd09cef5c52b2635ad42998483c7054260140459444fbd948bb596e5966feb11",
+      "counted": true
+    },
+    {
+      "path": "static/runs-view.js",
+      "language": "JavaScript",
+      "bytes": 7975,
+      "sha256": "7568b843ad9b56c1c6878a9756553cdf8092dea3b954aec1947b8f32d730ca85",
+      "counted": true
+    },
+    {
+      "path": "static/saved-searches.js",
+      "language": "JavaScript",
+      "bytes": 9130,
+      "sha256": "49210b9da9dd7f7372e977c15543a77c5ada1df82ad9abdcb350026e16517892",
+      "counted": true
+    },
+    {
+      "path": "static/saved-selections.js",
+      "language": "JavaScript",
+      "bytes": 6308,
+      "sha256": "2c2feecca798217644247f98aab8e7a00d707a25d4af75e02f9d906ccbd905a3",
+      "counted": true
+    },
+    {
+      "path": "static/sequence-batch.js",
+      "language": "JavaScript",
+      "bytes": 11365,
+      "sha256": "e70140f475f85250b446dda4381d14c1a537ba84502e36cafe8d415ca380f7de",
+      "counted": true
+    },
+    {
+      "path": "static/sequences.js",
+      "language": "JavaScript",
+      "bytes": 2219,
+      "sha256": "aff0628408e5e69f1364228f3cb9a4fd821f5f2122036d3497532f3bfe1c0c93",
+      "counted": true
+    },
+    {
+      "path": "static/text-classification-proposals.js",
+      "language": "JavaScript",
+      "bytes": 44448,
+      "sha256": "03dbec1114700f383f8bc9883c8a4cdaae59d898fc44240022b2011893965d6f",
+      "counted": true
+    },
+    {
+      "path": "static/workbench.html",
+      "language": "HTML",
+      "bytes": 44245,
+      "sha256": "8d9e1b1bb9727a7a7a2a7b4edbbef112eb712a9d3027f8ad3a4f99308b6aaf5b",
+      "counted": true
+    },
+    {
+      "path": "static/workbench.js",
+      "language": "JavaScript",
+      "bytes": 32049,
+      "sha256": "2ee92abca09bf5e79e07268e07da5cfa0242cb15bf686c9656126bd0a84fe52a",
+      "counted": true
+    },
+    {
+      "path": "static/workspace-real.js",
+      "language": "JavaScript",
+      "bytes": 33242,
+      "sha256": "0cab931f7da79780835cc8a801c304a408d28428181dd477ee196c552db0bd42",
+      "counted": true
+    },
+    {
+      "path": "static/workspace-service.js",
+      "language": "JavaScript",
+      "bytes": 21417,
+      "sha256": "9a924f671f604221de3c055a75da2fce3a82666d4090cf50477ab757032228bd",
+      "counted": true
+    },
+    {
+      "path": "static/workspaces-data.css",
+      "language": "CSS",
+      "bytes": 2179,
+      "sha256": "6fb60509361b926b4af3ac5d70803e48596c3677dfd64ca209466a4bca86fdf6",
+      "counted": true
+    },
+    {
+      "path": "static/workspaces-data.js",
+      "language": "JavaScript",
+      "bytes": 8245,
+      "sha256": "cb821fc9c5e56e44f03bd4b192a6f63c7e059b3ceb75878d2b238871207613aa",
+      "counted": true
+    },
+    {
+      "path": "static/workspaces.css",
+      "language": "CSS",
+      "bytes": 19355,
+      "sha256": "996e3646dfdfb7c09f0357f975a895b5f1aae1e2f7594f8d173f80416c6a24c6",
+      "counted": true
+    },
+    {
+      "path": "static/workspaces.html",
+      "language": "HTML",
+      "bytes": 4548,
+      "sha256": "34af0451a2b47b14af15d2ec66d422717e3ac3a63c51f86495fe83f89af47143",
+      "counted": true
+    },
+    {
+      "path": "static/workspaces.js",
+      "language": "JavaScript",
+      "bytes": 21730,
+      "sha256": "f03c0ecb3c0d2a76c9619f646af4f75c773603142436015a97446aca7d4a6e0d",
+      "counted": true
+    },
+    {
+      "path": "synthetic.py",
+      "language": "Python",
+      "bytes": 18250,
+      "sha256": "13d062d5dce7959c9d5487528ef655ded13b507b4819439b080f69478d8fc1b7",
+      "counted": true
+    },
+    {
+      "path": "tests/browser.cjs",
+      "language": "JavaScript",
+      "bytes": 17337,
+      "sha256": "b85ada8a170555b210e91c742deb297f1a2d4588c1a50907fc2ec0c0ccca9b32",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_bulk_import.cjs",
+      "language": "JavaScript",
+      "bytes": 15827,
+      "sha256": "82552781225bcf3638fcaa25218d71f1163b1361b93061a8729ebbadf1d405e4",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_caption_dataset_integration.cjs",
+      "language": "JavaScript",
+      "bytes": 18719,
+      "sha256": "c8295a596d531dd296d24c6fc0b661c12cfb8ba9d5cf41b9f9ac804bef38d894",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_caption_import.cjs",
+      "language": "JavaScript",
+      "bytes": 21166,
+      "sha256": "75a9073fc6a180698835a81d1bfc7b7b1f979defba0b05726c9b38874adb2b6d",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_caption_proposals.cjs",
+      "language": "JavaScript",
+      "bytes": 30597,
+      "sha256": "9f501440eb4c9878031fb2380d4201df6137d6c14ad3d20cca0b2ecefc56ea64",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_caption_proposals_server.py",
+      "language": "Python",
+      "bytes": 392,
+      "sha256": "b131aa4b8732ccd465b5b6c8ae9afc89365e4ae70375fdc0fb239df5e6bb7b06",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_captions.cjs",
+      "language": "JavaScript",
+      "bytes": 11346,
+      "sha256": "58c8994d8e13b723f3b3ac5445b6328db7ec4acad18fbcfaf9c36856819d12d1",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_classification_preferences_integration.cjs",
+      "language": "JavaScript",
+      "bytes": 30299,
+      "sha256": "5d9b27e5e646fa98622d4d4b88c1a70db70ed49d43c9854d7957ffa58229c6d3",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_combined_workbench.cjs",
+      "language": "JavaScript",
+      "bytes": 26645,
+      "sha256": "bf55f19447b0b039902ddc22da603a2103f2ce8f09cb9df86e892b8b0a46dbfc",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_curation.cjs",
+      "language": "JavaScript",
+      "bytes": 16750,
+      "sha256": "a5916733e037c9b2b4611e7df88bb608d844f16cbbd93bd3c3705eef51af0cd2",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_curation_server.py",
+      "language": "Python",
+      "bytes": 1417,
+      "sha256": "16e46300fbb47188baf861a0b8147287bc91c5702ffd6e41c7a83741d18f917f",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_dataset_integration.cjs",
+      "language": "JavaScript",
+      "bytes": 16738,
+      "sha256": "3c7eb918eacdb6aa12e157883c6dc624903a0a6a10812b6b79f94b56f19eb5fc",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_grounded.cjs",
+      "language": "JavaScript",
+      "bytes": 11555,
+      "sha256": "0a81506e2a29f5dedce8846120edf63c48eb1b0089021fb85ee738be424b7c41",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_grounded_server.py",
+      "language": "Python",
+      "bytes": 377,
+      "sha256": "afa77db2d8d4ce01e8257c5d3b5a35cd2dc78bf3199cc306b307341748b170ea",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_image_classification_export.cjs",
+      "language": "JavaScript",
+      "bytes": 10478,
+      "sha256": "b7aff0f95fd63ebb79c18a98b56a1c84c739fbae82526f0f5904f57604e720a4",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_image_classification_server.py",
+      "language": "Python",
+      "bytes": 507,
+      "sha256": "3b0a828265cb47d973ccdedcbdc3bdf12abe9ef23ebb0c07ea17328ebc29c2c9",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_images.cjs",
+      "language": "JavaScript",
+      "bytes": 11740,
+      "sha256": "1c4a8a6a2e78be92434549c1c5b91091af36e69d08f482cd91fb36e0f8ac3da3",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_images_real.cjs",
+      "language": "JavaScript",
+      "bytes": 6321,
+      "sha256": "b8fc0c506cca37716fd2030f3af5c9e004899587d59c97fe93b4d9379965ad4f",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_images_server.py",
+      "language": "Python",
+      "bytes": 374,
+      "sha256": "1375a6a1d9e2727949254de9286fe0da51b69cf5cc55709ef5a9430c7cd0eb55",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_instruction_responses.cjs",
+      "language": "JavaScript",
+      "bytes": 22520,
+      "sha256": "a47741d3bea779610f862ab406b198aaf25743101e24b0a6d366eebb5374dd97",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_meshes.cjs",
+      "language": "JavaScript",
+      "bytes": 13294,
+      "sha256": "1b04f067f7ab06ea59c69e86957e291946523fc8326a8fe4c6c4fc5198b08423",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_metadata_filters.cjs",
+      "language": "JavaScript",
+      "bytes": 20318,
+      "sha256": "4933d66e1d52641c952c65de76f324336dbcd806f3ed29c15dbdaafb6f066304",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_metadata_server.py",
+      "language": "Python",
+      "bytes": 1002,
+      "sha256": "ec716ecd6f717aa5f1bea76204c0758dca3770fa3952f77dc41c61d9abd4b321",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_native_detection_import.cjs",
+      "language": "JavaScript",
+      "bytes": 22541,
+      "sha256": "32582ef1196472a84a7c9447f51e95057ed4acc294be0b4ffd774de619794b70",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_native_text_import.cjs",
+      "language": "JavaScript",
+      "bytes": 15752,
+      "sha256": "8b75492ecf7d702510439275a8fd2e8304c6a972e0d3b654d9deb9fd6d2e7111",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_page_load.cjs",
+      "language": "JavaScript",
+      "bytes": 914,
+      "sha256": "bb74bd6ad97e0ff7c4545c747df698d0466d143764b0ccb52ed26b2051a13318",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_preferences.cjs",
+      "language": "JavaScript",
+      "bytes": 20082,
+      "sha256": "a3737bccdd096608da6684257ce7d63ea5b5d67eff5ce8270d834ef67d03d836",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_pumas_gateways.cjs",
+      "language": "JavaScript",
+      "bytes": 13478,
+      "sha256": "c9b63d1c4a9c4ca7f7170ec14e942cd5fee5b7cd90f6361828ff15888dbd74ba",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_pumas_gateways_server.py",
+      "language": "Python",
+      "bytes": 3072,
+      "sha256": "c17a4b267ea2e1385185f94685eca893691a8f966f46b89c3084e7ba8e8bdc3d",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_pumas_typed.cjs",
+      "language": "JavaScript",
+      "bytes": 23391,
+      "sha256": "2280074da9ae31710ec79fe3bd498b6d44827e6aaf0a10b9f11f560603da600d",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_pumas_typed_server.py",
+      "language": "Python",
+      "bytes": 1909,
+      "sha256": "51c6a9d91c78183bec5039678f7b719298813c9458edc98a644f4d8df77af4ef",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_release_preview.cjs",
+      "language": "JavaScript",
+      "bytes": 11452,
+      "sha256": "4d76afd9ba1fb10cc8480152a19c96d065e128e340415af5eb6572f3e75bf15a",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_rights_note.cjs",
+      "language": "JavaScript",
+      "bytes": 20806,
+      "sha256": "c5a97f34a9af0d774a5bb375e37aca670fe314fbd33e37e2780bd4e7aab14627",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_saved_searches.cjs",
+      "language": "JavaScript",
+      "bytes": 14309,
+      "sha256": "758d4a0f85c4ffc4450833a27ceed7a5f03a6d70c560c603faa52dfc31602c10",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_saved_selection_intent.cjs",
+      "language": "JavaScript",
+      "bytes": 14476,
+      "sha256": "f8b62a91fef01843618d590e2b391f95051a1252641ab7c285180327073765d6",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_saved_selections.cjs",
+      "language": "JavaScript",
+      "bytes": 13892,
+      "sha256": "6947c767a5e171af99affb5fe8804a116f06b136ccfe22566d489358826d4667",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_sequence_batch.cjs",
+      "language": "JavaScript",
+      "bytes": 17108,
+      "sha256": "3558cc1f08bbcf296ff986d6306af32a4985c5ee207f08a4e4f8e941f83b87e0",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_sequences.cjs",
+      "language": "JavaScript",
+      "bytes": 11178,
+      "sha256": "15e14c271a1a6c66f1aaaf70c6bf52d7787fe02bad5331cbc3d4241c181cb523",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_sequences_actual.cjs",
+      "language": "JavaScript",
+      "bytes": 17081,
+      "sha256": "f9f4b22ea45922fc0c0dae4415c02b7b23f3bf196789aa7de9a5c59c3d65c8f1",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_server.py",
+      "language": "Python",
+      "bytes": 939,
+      "sha256": "6c3d57a4e5b5fe75ab866fcf35dc5450a98ed0170d0fbcc03d10f40761dc8d89",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_startup.cjs",
+      "language": "JavaScript",
+      "bytes": 1670,
+      "sha256": "ba7e6c8817489ec6d41b994e57a4f01029e986d2475162fe3b5cc971e6ccf634",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_text_classification_proposals.cjs",
+      "language": "JavaScript",
+      "bytes": 53294,
+      "sha256": "cd80eaf0423fbd8b5ff4fbee69193561b84221f4fa5fc99017bf5336cfd0383d",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_text_classification_proposals_server.py",
+      "language": "Python",
+      "bytes": 2150,
+      "sha256": "41e1163104d30621e660e00ff2f6aeee7d7f43dda895d5cbbf1cc1229abe1068",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_text_corpus_export.cjs",
+      "language": "JavaScript",
+      "bytes": 12002,
+      "sha256": "b8e421735de0d1d0068c23a626046bd342fd4cf3e075349714306cad3556fca4",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_vlm_real.cjs",
+      "language": "JavaScript",
+      "bytes": 6455,
+      "sha256": "5425c17d2e99505ab54deab250266185e0d4fa6cf20aa998c008575532508ea9",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_workbench.cjs",
+      "language": "JavaScript",
+      "bytes": 9360,
+      "sha256": "8772ef2c968f7c8d40a012f12af214b7d16b20441e59a3cfca709ba022ba587a",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_workspace_audio.cjs",
+      "language": "JavaScript",
+      "bytes": 21266,
+      "sha256": "8b940defd5de0630f7fe03f8bd053c688cdf4a2c065fdf438d29c45cb65b32fb",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_workspace_audio_run.cjs",
+      "language": "JavaScript",
+      "bytes": 32810,
+      "sha256": "203a1409cce0f46194904d1669b9c15aebb58e97bf08d6ea45568816e3153f43",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_workspace_image_run.cjs",
+      "language": "JavaScript",
+      "bytes": 30569,
+      "sha256": "dd4e571dff9466b22c45a072a0b62d76793aaa3097e9050b796e648cde5853ca",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_workspace_mesh.cjs",
+      "language": "JavaScript",
+      "bytes": 22986,
+      "sha256": "7d4bb59bbdeb986ae1432d04ae1d94667eb70e65ce892dbc43aad263905d9574",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_workspace_recovery.cjs",
+      "language": "JavaScript",
+      "bytes": 8524,
+      "sha256": "30adaf17175eb4c9bcfd98907b4c411e25559cbfc2b8781d1598788c6afe5f98",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_workspace_text.cjs",
+      "language": "JavaScript",
+      "bytes": 31361,
+      "sha256": "cdcae09bc75eb8c2255b4036a6cc5a308dc8951bfda8102bc55f18e69699e3c7",
+      "counted": true
+    },
+    {
+      "path": "tests/browser_workspaces.cjs",
+      "language": "JavaScript",
+      "bytes": 26131,
+      "sha256": "68b7f5fb31ae05795d7bae79320f8961513a9628be5b9be9a38883db676c693f",
+      "counted": true
+    },
+    {
+      "path": "tests/check_image_classification_consumer.cjs",
+      "language": "JavaScript",
+      "bytes": 656,
+      "sha256": "c51342eba4486e6e7f48377ebabfed9dd2b11d401822eb8323d7f7e4c1aef683",
+      "counted": true
+    },
+    {
+      "path": "tests/check_image_classification_consumer.py",
+      "language": "Python",
+      "bytes": 5771,
+      "sha256": "444727686904d4d79b5222cb8a72917c64d1b266597ab2abd88e940126f24305",
+      "counted": true
+    },
+    {
+      "path": "tests/check_instruction_consumer.py",
+      "language": "Python",
+      "bytes": 8500,
+      "sha256": "d2b38df86311be0011aced1046c0fd7a7e8f667dee9b1e783a1ff9a189aab5d7",
+      "counted": true
+    },
+    {
+      "path": "tests/check_preference_consumer.py",
+      "language": "Python",
+      "bytes": 10197,
+      "sha256": "9b33ca4300fe6eac6fea14a1b2d24a598a7b50a60dcc81f224a0c1b0296bbf1c",
+      "counted": true
+    },
+    {
+      "path": "tests/check_text_corpus_consumer.cjs",
+      "language": "JavaScript",
+      "bytes": 663,
+      "sha256": "d6a851b1ff40fdc1407b2e3807b93d8b2b7dc727d648ec0b3493484d3e031190",
+      "counted": true
+    },
+    {
+      "path": "tests/check_text_corpus_consumer.py",
+      "language": "Python",
+      "bytes": 8565,
+      "sha256": "36c2d7db9bd6311d885813c0ed0c1cfb7db255c3e1207727225e189acf1ce271",
+      "counted": true
+    },
+    {
+      "path": "tests/fake_ai.py",
+      "language": "Python",
+      "bytes": 3311,
+      "sha256": "2eece3243b9c1594b7ed0f0a0dd9f20a453838d2e6b73ad058e217f688631a72",
+      "counted": true
+    },
+    {
+      "path": "tests/fake_ai_codex.py",
+      "language": "Python",
+      "bytes": 1498,
+      "sha256": "31ec8bebf169703cae1db8936c84ae983e57ba7d7dfa937e57bad4e575e41b88",
+      "counted": true
+    },
+    {
+      "path": "tests/fake_caption_model.py",
+      "language": "Python",
+      "bytes": 3987,
+      "sha256": "61a34f2584ce3f3de64075478103422fd04e562649875de97f4e029dbceae7b1",
+      "counted": true
+    },
+    {
+      "path": "tests/fake_classification_model.py",
+      "language": "Python",
+      "bytes": 4155,
+      "sha256": "27cb688d1f1c6d55bc742f8265c7a634133c94d94d4758b691e2b45b03fb7ab5",
+      "counted": true
+    },
+    {
+      "path": "tests/fake_grounded.py",
+      "language": "Python",
+      "bytes": 3086,
+      "sha256": "1edf38662b953dfbb6b3ff0460320b820d7bd6b6bbc6c07157835f3aa5a4afb2",
+      "counted": true
+    },
+    {
+      "path": "tests/fake_images.py",
+      "language": "Python",
+      "bytes": 3096,
+      "sha256": "c4a532a749211c6e67a5f7444eee698c8ac51f28cb3f636ddfcc6a9f1f5e4816",
+      "counted": true
+    },
+    {
+      "path": "tests/fake_pumas_typed.py",
+      "language": "Python",
+      "bytes": 4831,
+      "sha256": "95d0a2e8bf652e6f5165a8c2a9a2a5c2e7378c7680cc3e8c615e431210ae07f1",
+      "counted": true
+    },
+    {
+      "path": "tests/fake_pumas_vision.py",
+      "language": "Python",
+      "bytes": 4072,
+      "sha256": "bcdb4abf3ff170f26f6798a306db77f8ec3c370843905ac816e17b8593d47ddc",
+      "counted": true
+    },
+    {
+      "path": "tests/postgres_helpers.py",
+      "language": "Python",
+      "bytes": 4759,
+      "sha256": "eb8398f68b17d8f84309941058872c2d80d73d09e63c2c8cb4af4d8ec59c22bf",
+      "counted": true
+    },
+    {
+      "path": "tests/qa_artifacts.cjs",
+      "language": "JavaScript",
+      "bytes": 1366,
+      "sha256": "592a98a1928f5b791f37fe13b94b5065a293af4c570bd6c3df449bf10ede5927",
+      "counted": true
+    },
+    {
+      "path": "tests/test_ai.py",
+      "language": "Python",
+      "bytes": 6454,
+      "sha256": "283d62e758b2e5eae2f64fd1501ebe76e0f0b9a20c20be797f2a9cab46c49d07",
+      "counted": true
+    },
+    {
+      "path": "tests/test_audio_data.py",
+      "language": "Python",
+      "bytes": 14386,
+      "sha256": "2ff0c48e41614dd2d9d72c38f3cc541ab99be5617bced0e30b3c33eaf014e65e",
+      "counted": true
+    },
+    {
+      "path": "tests/test_audio_training.py",
+      "language": "Python",
+      "bytes": 23206,
+      "sha256": "b6db2f6b549ff4abf900c0020c628ea68c0dcd152eabae9b67a759fc385abcdd",
+      "counted": true
+    },
+    {
+      "path": "tests/test_browser_page_load.cjs",
+      "language": "JavaScript",
+      "bytes": 1611,
+      "sha256": "d062d47a7e7e608a2e97eda018a70ea8edb30e12a5afad2ea951f81ad9d8119d",
+      "counted": true
+    },
+    {
+      "path": "tests/test_browser_startup.cjs",
+      "language": "JavaScript",
+      "bytes": 4086,
+      "sha256": "7d2be37ce682f593407a890013b25268fc595f8cb80c42dd6edc9e2e97373e52",
+      "counted": true
+    },
+    {
+      "path": "tests/test_bulk_import.py",
+      "language": "Python",
+      "bytes": 13524,
+      "sha256": "441a539d6b3d80293ddeeaee7f0fa2e2a9e79b95f0efbe0935f011a3f7911784",
+      "counted": true
+    },
+    {
+      "path": "tests/test_bulk_import_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 7870,
+      "sha256": "ce193a2f3c6f257d8a3466ae3c8505b3e49b366d4d2ff448899ccbfa4f1b9d52",
+      "counted": true
+    },
+    {
+      "path": "tests/test_caption_exports.py",
+      "language": "Python",
+      "bytes": 30422,
+      "sha256": "921aa1825afdbaec6dc0ce6b62cf9854f33ec6b4291d0ed09f92f071ee958776",
+      "counted": true
+    },
+    {
+      "path": "tests/test_caption_import.py",
+      "language": "Python",
+      "bytes": 28686,
+      "sha256": "3620285857d8c2d4143988ab0c7b5466bbcfc7bde177488f8f84faa2a1e58119",
+      "counted": true
+    },
+    {
+      "path": "tests/test_caption_import_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 6847,
+      "sha256": "1a5b7ce0beb56c05b68d33c2b65354d24b8de74bdee44e09a3d749a835a0db3a",
+      "counted": true
+    },
+    {
+      "path": "tests/test_caption_proposals.py",
+      "language": "Python",
+      "bytes": 29279,
+      "sha256": "0e845bf2579c4a18f4daae99b1c5dcdefb764aea4712485d72c502118bdadf2f",
+      "counted": true
+    },
+    {
+      "path": "tests/test_caption_proposals_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 17444,
+      "sha256": "f9385428a190f8bfb9e8bfa9b155011d46cda2228b6e35c5524bf28524fb6042",
+      "counted": true
+    },
+    {
+      "path": "tests/test_caption_reload_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 22612,
+      "sha256": "a6c21de93424eece37e5a47d38a5f3c49328d965c48954cc0da6f65f3916eaa8",
+      "counted": true
+    },
+    {
+      "path": "tests/test_combined_workbench.py",
+      "language": "Python",
+      "bytes": 13046,
+      "sha256": "90109d5ada7b4eef2556a2a4071a00bc7a664e093afcf9c7f67aa2177cc257ef",
+      "counted": true
+    },
+    {
+      "path": "tests/test_combined_workbench_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 12127,
+      "sha256": "cb323e44713dff35ddbf291f20ef5bbd4054194634c6a73dcadf79b9a7a0a7b8",
+      "counted": true
+    },
+    {
+      "path": "tests/test_curation.py",
+      "language": "Python",
+      "bytes": 12822,
+      "sha256": "cb8d1e1f08fd2f6432d4c9c43420a2172261af2cc75fca5d00a9a44263b48876",
+      "counted": true
+    },
+    {
+      "path": "tests/test_curation_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 5919,
+      "sha256": "e60b14423fc485fae0f3e12cb217cb0df7501882f985ab791ce91ca50de44cee",
+      "counted": true
+    },
+    {
+      "path": "tests/test_dataset.py",
+      "language": "Python",
+      "bytes": 8734,
+      "sha256": "fd1826806eda53c98394f9a8ca212f83e911caa990a2309a628f9cb1d52bfe24",
+      "counted": true
+    },
+    {
+      "path": "tests/test_dataset_releases.py",
+      "language": "Python",
+      "bytes": 2153,
+      "sha256": "32ee71ced83f17717980c1eb4375611b2483dbef9937c3e9b43a80817168e550",
+      "counted": true
+    },
+    {
+      "path": "tests/test_gateway_discovery.py",
+      "language": "Python",
+      "bytes": 4396,
+      "sha256": "f67eaab50db54e1abac9bfadb51b1bfc807f43c8286dd8ebc4e1126f8f84edc9",
+      "counted": true
+    },
+    {
+      "path": "tests/test_generation_job_api.py",
+      "language": "Python",
+      "bytes": 3905,
+      "sha256": "4793ff9fc82c864694d00082aec2d31dd7e2c3ba66fd5a47f28f18d6288fb737",
+      "counted": true
+    },
+    {
+      "path": "tests/test_grounded_candidates.py",
+      "language": "Python",
+      "bytes": 14537,
+      "sha256": "0d0dbd69abb4a414f3ca45931748db8255fa756337e4c4da32f720b570922a70",
+      "counted": true
+    },
+    {
+      "path": "tests/test_image_classification_export.py",
+      "language": "Python",
+      "bytes": 15546,
+      "sha256": "8e9d9d29aafa40f70a78769330988d30e97b7838fdf16cf4aac16ce43d15d3ee",
+      "counted": true
+    },
+    {
+      "path": "tests/test_image_classification_export_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 5751,
+      "sha256": "c21a1d9b64116396dc4e007b7f07b81d28a1151ba548e415bfd45274effc12a4",
+      "counted": true
+    },
+    {
+      "path": "tests/test_image_generation.py",
+      "language": "Python",
+      "bytes": 9567,
+      "sha256": "82cf026b56322f5950b9754272da57b2f0372c421412d1d5afa3a164bd13ef5c",
+      "counted": true
+    },
+    {
+      "path": "tests/test_image_training.py",
+      "language": "Python",
+      "bytes": 19174,
+      "sha256": "921dc3446473fea20cdb8913414b4711c5191e1f58c0c89008723e385b9f96de",
+      "counted": true
+    },
+    {
+      "path": "tests/test_instruction_responses.py",
+      "language": "Python",
+      "bytes": 18177,
+      "sha256": "62cb42e095100fab5c84acb5649c82bdaf9c40539911469773563f736ed67ad5",
+      "counted": true
+    },
+    {
+      "path": "tests/test_instruction_responses_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 13006,
+      "sha256": "bcc6df5ace74be696f4b9ca98e0475be65d76c9ceedfdbba8dcac443fae9d8f8",
+      "counted": true
+    },
+    {
+      "path": "tests/test_mesh_release.py",
+      "language": "Python",
+      "bytes": 9323,
+      "sha256": "6b9eab65f6e3e8fecd4acd1a87727b2552394fdf2cd7753fd1acf2d417cd0dc4",
+      "counted": true
+    },
+    {
+      "path": "tests/test_meshes.py",
+      "language": "Python",
+      "bytes": 22989,
+      "sha256": "2fde95a04cf4d28c606060dbc6e44177a9bf581fd971e92d59c5fb18bb4a4dfc",
+      "counted": true
+    },
+    {
+      "path": "tests/test_meshes_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 6994,
+      "sha256": "a5137a40c573a2c0a73740ebb1133c5fb263030bbc8077a8bae14b2ca496d242",
+      "counted": true
+    },
+    {
+      "path": "tests/test_metadata_filters.py",
+      "language": "Python",
+      "bytes": 12666,
+      "sha256": "a6b47ddf05f5b44b8fa9686aa0613d91f5fd40dd6c4776f80d06d542c3a78bdc",
+      "counted": true
+    },
+    {
+      "path": "tests/test_metadata_migration.py",
+      "language": "Python",
+      "bytes": 27818,
+      "sha256": "c44027202d10d18e54609899b1c341b8360e88b5365578d78a2271e6484a31ee",
+      "counted": true
+    },
+    {
+      "path": "tests/test_metadata_transactions.py",
+      "language": "Python",
+      "bytes": 13236,
+      "sha256": "43fe0928bdc49a10ab48376a07c26e44bbf012a445da1e3575c3e0b0086301e7",
+      "counted": true
+    },
+    {
+      "path": "tests/test_metadata_workers.py",
+      "language": "Python",
+      "bytes": 19330,
+      "sha256": "de4167b1bb1f4e870b91b9f105e675a0a505dc8d5ab961e296b34628640375a0",
+      "counted": true
+    },
+    {
+      "path": "tests/test_native_detection_import.py",
+      "language": "Python",
+      "bytes": 23885,
+      "sha256": "551915ae288e97c6f4dab109c151dd6e7ecf922c60f413fe97805b8e21b34c00",
+      "counted": true
+    },
+    {
+      "path": "tests/test_native_detection_import_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 10012,
+      "sha256": "4690e65d8a85cfd4492bd8136f218c482fc32562bebc198f515ee7057e3545a9",
+      "counted": true
+    },
+    {
+      "path": "tests/test_native_detection_stack.py",
+      "language": "Python",
+      "bytes": 6387,
+      "sha256": "72bcbad155f593a01e81718484140c5ceecf81df0922941981e1d184180cadf5",
+      "counted": true
+    },
+    {
+      "path": "tests/test_native_text_import.py",
+      "language": "Python",
+      "bytes": 21410,
+      "sha256": "36c44b6d66ceeb06c8a4861bf08da53c65b35e9a5c1659c35cf97f62c46b57ab",
+      "counted": true
+    },
+    {
+      "path": "tests/test_native_text_import_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 6461,
+      "sha256": "98e550c365133b1954537114cab78dcec4ba03ba395e622c591f13f4ba8e2742",
+      "counted": true
+    },
+    {
+      "path": "tests/test_pipeline.py",
+      "language": "Python",
+      "bytes": 7770,
+      "sha256": "56841c911a3806701779650bebd21487f16dc15f6a67cd27bec7c6a4629463b9",
+      "counted": true
+    },
+    {
+      "path": "tests/test_preferences.py",
+      "language": "Python",
+      "bytes": 21846,
+      "sha256": "5c83218dab4f3b9373496f898f79e3bdc72f6454a4f8a9dd6bb3b1adaefb2dd6",
+      "counted": true
+    },
+    {
+      "path": "tests/test_preferences_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 14290,
+      "sha256": "24cb8f6f7d1cfb61089412eb6df5138a27faf6263130887fc69ad87626f99694",
+      "counted": true
+    },
+    {
+      "path": "tests/test_pumas_gateways.py",
+      "language": "Python",
+      "bytes": 9011,
+      "sha256": "c716d118e3e6ba0723f7751eb20b6c5cd496b3590f0e82d3341b150e9457621a",
+      "counted": true
+    },
+    {
+      "path": "tests/test_pumas_gateways_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 5792,
+      "sha256": "96dc99ae0ce6cc6da6dece8288aad3595a323121a69bf2794091287a4c9145c5",
+      "counted": true
+    },
+    {
+      "path": "tests/test_pumas_typed.py",
+      "language": "Python",
+      "bytes": 14404,
+      "sha256": "24ae2ea2a14705fd8854a0a646e0f7d7bfb79f2fe41da7d2d95a490b12a6bb18",
+      "counted": true
+    },
+    {
+      "path": "tests/test_pumas_typed_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 2958,
+      "sha256": "7c53d8407fdc0bfd540292f937bfb71bf5cb3be96e5b4aecca22ed1ddc84df63",
+      "counted": true
+    },
+    {
+      "path": "tests/test_pumas_vision.py",
+      "language": "Python",
+      "bytes": 14634,
+      "sha256": "00a2256302d83933c86a0cd15ce7f6e0b13e51a94b0b041a62cdeed28cdf1df6",
+      "counted": true
+    },
+    {
+      "path": "tests/test_qa_artifacts.cjs",
+      "language": "JavaScript",
+      "bytes": 5287,
+      "sha256": "1fc4c29daf0ea6603ff858fe3eca865eee428800b709bfbee9603ad3234ec376",
+      "counted": true
+    },
+    {
+      "path": "tests/test_qa_qualification.py",
+      "language": "Python",
+      "bytes": 5934,
+      "sha256": "539abd5c349b2fd899cab9dd4b64d618d9e0012eaf2f06a5bdb2e8bec795f599",
+      "counted": true
+    },
+    {
+      "path": "tests/test_real_import_foundation.py",
+      "language": "Python",
+      "bytes": 6777,
+      "sha256": "77c7597a3edb39d4462c3ea72fc5ecfff2819acab1603655be5986b563ac0b8e",
+      "counted": true
+    },
+    {
+      "path": "tests/test_release_preview.py",
+      "language": "Python",
+      "bytes": 18147,
+      "sha256": "d3086c79d31053290e91d61f09aec8201d02e159ad164cbf6a17ff3e90d3f02a",
+      "counted": true
+    },
+    {
+      "path": "tests/test_rights_note.py",
+      "language": "Python",
+      "bytes": 18004,
+      "sha256": "62f49b3e39a48a0ca2210fcfdc46c6af0379cbfde53346ddb38f0c16b64b3c9c",
+      "counted": true
+    },
+    {
+      "path": "tests/test_rights_note_artifacts.cjs",
+      "language": "JavaScript",
+      "bytes": 3738,
+      "sha256": "8922f55d613f9b63e37ea53670acebe6efea7fc4923a53410ae2a8a065b13ddd",
+      "counted": true
+    },
+    {
+      "path": "tests/test_rights_note_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 9881,
+      "sha256": "7f9f3a50684b8270101e3341171ac46d2b08c9efea8867ed41865223ef1e93a6",
+      "counted": true
+    },
+    {
+      "path": "tests/test_runs.py",
+      "language": "Python",
+      "bytes": 16859,
+      "sha256": "5405e5cedff8d6e53656aca8312990f58c1cde0c9805973c4bc1e513abf45ab3",
+      "counted": true
+    },
+    {
+      "path": "tests/test_saved_generation.py",
+      "language": "Python",
+      "bytes": 8975,
+      "sha256": "86b8bf7675ba249fcc833f4c3b8aecc41bf7c5cbbb3d74f4e92af38276b3061b",
+      "counted": true
+    },
+    {
+      "path": "tests/test_saved_searches.py",
+      "language": "Python",
+      "bytes": 10425,
+      "sha256": "b8215f07aadee9039f0c3a005d7ba199e870a5b5a2f1f66d8bd4fa42c57d89c7",
+      "counted": true
+    },
+    {
+      "path": "tests/test_saved_searches_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 8731,
+      "sha256": "918baa9325b91ca5e23c3b20366a10e6f206827e7386d5422d08b2b72dc44b55",
+      "counted": true
+    },
+    {
+      "path": "tests/test_saved_selection_intent.cjs",
+      "language": "JavaScript",
+      "bytes": 9562,
+      "sha256": "bfad6b7ea3e094e64a5ad0cc39fa7a17073e17bc32cb898fea1022be8b36ccb9",
+      "counted": true
+    },
+    {
+      "path": "tests/test_saved_selections.py",
+      "language": "Python",
+      "bytes": 11135,
+      "sha256": "3bc7d7737cd91b7da56f040972dd00fc8169805bb8352c082c1a09c9218a8ea8",
+      "counted": true
+    },
+    {
+      "path": "tests/test_saved_selections_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 7031,
+      "sha256": "5d04684415739d4b42dce8663bfbfbf38308330160d196fa073aa91d0c18cd26",
+      "counted": true
+    },
+    {
+      "path": "tests/test_sequence_batch.py",
+      "language": "Python",
+      "bytes": 14587,
+      "sha256": "0b313ec2ce22069dc54b46cec1ad3bb980c20c150e828a1b94e50d248e19220e",
+      "counted": true
+    },
+    {
+      "path": "tests/test_sequence_batch_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 11423,
+      "sha256": "f822b914b57d98536e44da65c45e411fee5163cddccefdde5e5ba22c92f589cb",
+      "counted": true
+    },
+    {
+      "path": "tests/test_sequences.py",
+      "language": "Python",
+      "bytes": 24257,
+      "sha256": "7f6d0a4cdc458b3bd5e819e059428e452d51f5d7e0b6c975ac424745546324e0",
+      "counted": true
+    },
+    {
+      "path": "tests/test_synthetic.py",
+      "language": "Python",
+      "bytes": 9457,
+      "sha256": "6960c295dcaaff5a2dfe11052f1bba14b88e6a71f5fef31caa92a46384ed067e",
+      "counted": true
+    },
+    {
+      "path": "tests/test_text_classification_proposals.py",
+      "language": "Python",
+      "bytes": 18594,
+      "sha256": "95e5ae5dd4cb06fc125336eb24c97a4fc011a2b0ca0c7bb1ac245fe086c8db6d",
+      "counted": true
+    },
+    {
+      "path": "tests/test_text_classification_proposals_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 82709,
+      "sha256": "00bcaa0f32754e6c7af542500ddbbd6ce39a2c2679a0d989a6a354e06c323d7d",
+      "counted": true
+    },
+    {
+      "path": "tests/test_text_corpus_export.py",
+      "language": "Python",
+      "bytes": 19786,
+      "sha256": "c5a2788f144e668370cc17aa38c4d8ba4f42cee7cddf35838f8af05491dd6ca1",
+      "counted": true
+    },
+    {
+      "path": "tests/test_text_corpus_export_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 6781,
+      "sha256": "dbe4401c84d9a759bc3991ca5a91bef6e673806276799a64a0d92d53f3d6c826",
+      "counted": true
+    },
+    {
+      "path": "tests/test_text_training.py",
+      "language": "Python",
+      "bytes": 19135,
+      "sha256": "5cd78435b29a68f294a164f479437cc7059fc4a0c166ceefd8b2c9f1a62db02c",
+      "counted": true
+    },
+    {
+      "path": "tests/test_workbench.py",
+      "language": "Python",
+      "bytes": 12758,
+      "sha256": "dc57bd416b8e366dfc88e598aa27d1ccbbc845a8344d1fc4d03881eeb9d79b9f",
+      "counted": true
+    },
+    {
+      "path": "tests/test_workbench_controller.cjs",
+      "language": "JavaScript",
+      "bytes": 14211,
+      "sha256": "17dfb3ae38c9143e41ce0242a3b06e5a6f32d65e62f47c6f364de6619ca2e1bd",
+      "counted": true
+    },
+    {
+      "path": "tests/test_workspace_contracts.py",
+      "language": "Python",
+      "bytes": 1384,
+      "sha256": "b281d64940892b0408702b0b6fa1346daec018fcbfbb5b75ef955158bd8b6f41",
+      "counted": true
+    },
+    {
+      "path": "tests/test_workspace_metadata.py",
+      "language": "Python",
+      "bytes": 28729,
+      "sha256": "f87c5a49af6667eff3ee3c4f5c94b038ad3373324ed936f0c40cd79d7e48ffd6",
+      "counted": true
+    },
+    {
+      "path": "tests/test_workspace_offline.py",
+      "language": "Python",
+      "bytes": 4553,
+      "sha256": "03a277e830dd8c5a2947d2158276b9207b675ae7c75f2562f3e6172acd93eb4b",
+      "counted": true
+    },
+    {
+      "path": "tests/test_workspace_service.cjs",
+      "language": "JavaScript",
+      "bytes": 5119,
+      "sha256": "6d6d61ceec55f7f57640d382b97a80b8a85ba756c7aab0ec52eb13d3e8944b84",
+      "counted": true
+    },
+    {
+      "path": "text_classification_export.py",
+      "language": "Python",
+      "bytes": 4203,
+      "sha256": "2510ad278a95892d4453ffb5b146ae47c11f8e31f3dc4cf9fb005eec79270bdf",
+      "counted": true
+    },
+    {
+      "path": "text_classification_proposals.py",
+      "language": "Python",
+      "bytes": 21191,
+      "sha256": "2d49aaa1dd5b35dffefa4f6f472a5a72a45f5a5421826c1bb9cedfb058c74c57",
+      "counted": true
+    },
+    {
+      "path": "text_corpus_export.py",
+      "language": "Python",
+      "bytes": 7363,
+      "sha256": "3af4883df1b714519fb4e9be872f39de20dc3013deca720e32a89789cbdbff69",
+      "counted": true
+    },
+    {
+      "path": "text_training.py",
+      "language": "Python",
+      "bytes": 23745,
+      "sha256": "9794c343af00854519be0873bad766eadf681c4826be010efb3423cae1d0974e",
+      "counted": true
+    },
+    {
+      "path": "upgrade_metadata.py",
+      "language": "Python",
+      "bytes": 3994,
+      "sha256": "608809651b6bd387dd6fc83cc797cdf0886ca392e5a0a5f7e18e89b5d70463ad",
+      "counted": true
+    },
+    {
+      "path": "workbench.py",
+      "language": "Python",
+      "bytes": 40122,
+      "sha256": "c6a8056dcaebc7065bbf3180d864fd4c4cadea9a85d6e456792694a9f3f51ff6",
+      "counted": true
+    }
+  ],
+  "explicit_exclusions_already_omitted_by_linguist": []
+}

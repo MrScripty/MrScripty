@@ -1,0 +1,2482 @@
+{
+  "repository": "MrScripty/Rheon",
+  "source_commit": "2209012bc5f902693d0f695ec1c2d854126af317",
+  "baseline_total_bytes": 2709016,
+  "authored_total_bytes": 2709016,
+  "baseline_languages": {
+    "TypeScript": 2807,
+    "Lean": 132762,
+    "Python": 1178301,
+    "Shell": 1102,
+    "Rust": 1389922,
+    "JavaScript": 4122
+  },
+  "authored_languages": {
+    "TypeScript": 2807,
+    "Lean": 132762,
+    "Python": 1178301,
+    "Shell": 1102,
+    "Rust": 1389922,
+    "JavaScript": 4122
+  },
+  "files": [
+    {
+      "path": ".coderabbit.config.ts",
+      "language": "TypeScript",
+      "bytes": 2807,
+      "sha256": "f36f2813d414825dd24ab5776b6fe22399f8048f7a2300c256293f2608db6369",
+      "counted": true
+    },
+    {
+      "path": "evidence/advancing-liquid-contract/AuditMovingLiquid.lean",
+      "language": "Lean",
+      "bytes": 1369,
+      "sha256": "5b43536c9ad513a451064879dccb4f757e2cbf2aff70b1ddd202cf8ccab008cd",
+      "counted": true
+    },
+    {
+      "path": "evidence/advancing-liquid-contract/MovingLiquid.lean",
+      "language": "Lean",
+      "bytes": 1617,
+      "sha256": "1917e236b458d741e94c95936ed9f5d504a8a6c0488b8be33c856f0980d04508",
+      "counted": true
+    },
+    {
+      "path": "evidence/advancing-liquid-contract/diagnose.py",
+      "language": "Python",
+      "bytes": 2174,
+      "sha256": "a720861bfef059c58a4f57bcef31b38ea436685c7e2ee758ea1524ad49beda7e",
+      "counted": true
+    },
+    {
+      "path": "evidence/advancing-liquid-contract/qualify_lean.py",
+      "language": "Python",
+      "bytes": 3368,
+      "sha256": "f3d787d6d7d98fe9d8286201c56df3ed9913d10a4de6c568bbe7fc6afb32d5b1",
+      "counted": true
+    },
+    {
+      "path": "evidence/advancing-liquid-contract/verify.py",
+      "language": "Python",
+      "bytes": 4161,
+      "sha256": "f86ae1575fb2429fb7cfca13850a6a0d73aa2ea59c2a55249a2bbdf95c1e84f8",
+      "counted": true
+    },
+    {
+      "path": "evidence/bounded-physics-contracts/AuditBoundedPhysics.lean",
+      "language": "Lean",
+      "bytes": 1616,
+      "sha256": "ad9b42dd49701214c1d90d8836eccbc5ea4ad1ea06ffdeee52748d7e190ce647",
+      "counted": true
+    },
+    {
+      "path": "evidence/bounded-physics-contracts/witness.py",
+      "language": "Python",
+      "bytes": 2806,
+      "sha256": "b7cd7fb53b855a53a9f71f1b734ae3a09fbf523ea358f3cef6860f4fd7534df6",
+      "counted": true
+    },
+    {
+      "path": "evidence/box-flux-step/AuditStepBudget.lean",
+      "language": "Lean",
+      "bytes": 1376,
+      "sha256": "2a38d64f8f9fd3d9876560c852ae901aafde2f05d846fffc0bab322b982e264b",
+      "counted": true
+    },
+    {
+      "path": "evidence/box-flux-step/StepBudget.lean",
+      "language": "Lean",
+      "bytes": 3436,
+      "sha256": "10be406be75eb7d2de0c4ef518d177e66d6278747e625b95a932c1c69f17fb5c",
+      "counted": true
+    },
+    {
+      "path": "evidence/box-flux/AffineProjection.lean",
+      "language": "Lean",
+      "bytes": 4261,
+      "sha256": "357e470e8a4d76ebdc8b471211b6721c0d896892a7e6aaf856d57d2e7dfbe8a9",
+      "counted": true
+    },
+    {
+      "path": "evidence/box-flux/AuditAffineProjection.lean",
+      "language": "Lean",
+      "bytes": 1388,
+      "sha256": "fec8505171d92b120c6fa2d70edb666a46e7dbee8c4a0f23345cf2deab1f9e4c",
+      "counted": true
+    },
+    {
+      "path": "evidence/cloud-qualification/benchmark.py",
+      "language": "Python",
+      "bytes": 2739,
+      "sha256": "9633944d7e8c44715807f0b4c24140c6b823e83e4f82bc4a4ea1a633c76030ba",
+      "counted": true
+    },
+    {
+      "path": "evidence/cloud-qualification/replay.py",
+      "language": "Python",
+      "bytes": 2451,
+      "sha256": "eb32accb0150a7acc7d6a314a7cc0eb1257f3a68a8eb036e9033b42be68e363a",
+      "counted": true
+    },
+    {
+      "path": "evidence/cloud-qualification/test_gates.py",
+      "language": "Python",
+      "bytes": 12330,
+      "sha256": "d1e77028506f7ca3a9b0e34e57266da1b0be7e0833c59c7c0cdb1bf69dad3474",
+      "counted": true
+    },
+    {
+      "path": "evidence/cloud-qualification/verify.py",
+      "language": "Python",
+      "bytes": 12697,
+      "sha256": "4fec1f998ebffcf8c4ad5f66d234ac8afcebe13f016cdb61e405eaaa44561bc1",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-interface-final-artifacts/guarded_figure.py",
+      "language": "Python",
+      "bytes": 1565,
+      "sha256": "0b6f83feaa7ce3b29046f57e993a9008a2da0974a4e6b401f792e0705396f3ae",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-interface-final-artifacts/remaining-ci/lifecycle.sh",
+      "language": "Shell",
+      "bytes": 129,
+      "sha256": "ae059bae5e614d149e3898ed5cd87422097d29498fe0f12add3d42b7e6160f61",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-interface-final-artifacts/remaining-ci/smoke.sh",
+      "language": "Shell",
+      "bytes": 973,
+      "sha256": "ed2bb5550e0d36b1e4c1de44de2c431d49d0588517757f277fa24b6e4668918e",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-interface-final-artifacts/reproduce_old.py",
+      "language": "Python",
+      "bytes": 1585,
+      "sha256": "514f55b704204fa57f25a362e1bbb2b855f00a3c4b2ec758d663700d7ecf38d3",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-interface-final-artifacts/run_remaining_ci.py",
+      "language": "Python",
+      "bytes": 3107,
+      "sha256": "dc3a8c5190fe05fb5fa3c30bf97d46516d1342ede7faa531f7c839aa8de09e1a",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-interface-final-artifacts/scope_witnesses.py",
+      "language": "Python",
+      "bytes": 2427,
+      "sha256": "60b7a939e5a4dfa2a7fdcf49f80b91c8ed850d8d5aa7d5cdf57e50fed47e1221",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-interface-final-artifacts/trials/frozen_verifier.py",
+      "language": "Python",
+      "bytes": 13389,
+      "sha256": "190bb7fdd7c4959550226ea9a7a08cc6de4179c0e05db2a031c39d621c5b7c69",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-interface-final-artifacts/verify.py",
+      "language": "Python",
+      "bytes": 6255,
+      "sha256": "5263aeca55c1cd7a02764282593bdf765b0ca9b3d9d40cb84c2f7e375633b051",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-interface-path-ledger/run_ledger.py",
+      "language": "Python",
+      "bytes": 1316,
+      "sha256": "efd12ff7249ba207f97ba6dfe697dc3f022759de55f4647376a6e4ddc43733af",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-interface-path-ledger/verify.py",
+      "language": "Python",
+      "bytes": 5905,
+      "sha256": "dbdccd084c9311888c00cf78a9ca17c487a694bed353998c2a42b5dafdf3c837",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-interface/AuditColumnSurface.lean",
+      "language": "Lean",
+      "bytes": 1531,
+      "sha256": "6be636efba4e8d85dfaa676d40ee439f31e36e68d11630e5bf11dea92d15aad1",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-interface/ColumnSurface.lean",
+      "language": "Lean",
+      "bytes": 2797,
+      "sha256": "6d8b204bec18260e73b07691a2d64073330948bc69df07723868c6479cea52cc",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-interface/make_figure.py",
+      "language": "Python",
+      "bytes": 3768,
+      "sha256": "5ed97338700cb0eae71e5d788556a8799a955eb31e49521b41acabda204ecbf3",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-interface/qualify_lean.py",
+      "language": "Python",
+      "bytes": 3395,
+      "sha256": "70d4db38c3608b4e559749e0de99798a3d1fa4fffd31503be629066ab446d2e9",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-interface/verify.py",
+      "language": "Python",
+      "bytes": 4147,
+      "sha256": "5d330fd473fd2977f9e054cf159596f53f83d9d3c3156d700907dcd4a3cb6efa",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-mac/AuditColumnMac.lean",
+      "language": "Lean",
+      "bytes": 1626,
+      "sha256": "b2939485836735e198049287886319768aa9cd21021f5907010f9c9c7abb63fb",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-mac/ColumnMac.lean",
+      "language": "Lean",
+      "bytes": 2064,
+      "sha256": "c3fe46b6d3c7cdee1e5340788aa5886a7c924411de78fe4722456a1354037120",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-mac/make_figure.py",
+      "language": "Python",
+      "bytes": 2012,
+      "sha256": "124a7e5bd76f5c7b374c39f7b9bb9e12f234f7290ed8b2f3154b5d58ad2e21e3",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-mac/qualify_lean.py",
+      "language": "Python",
+      "bytes": 3333,
+      "sha256": "403b146c5addfb003d78cf30e79fac91cc90d5a91a2f4f3b5154fb5f757e1c25",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-mac/qualify_replay.py",
+      "language": "Python",
+      "bytes": 2663,
+      "sha256": "a86eff50a98f159fd7f267a7c871cfd0ed9986e83a373a04c6a7666788a1e4ae",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-mac/qualify_rust.py",
+      "language": "Python",
+      "bytes": 1299,
+      "sha256": "2dea0fdd1de25cdd0e6062cb684379777e440fe86f4f469599694fb5ce88a0fe",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-mac/verify.py",
+      "language": "Python",
+      "bytes": 4141,
+      "sha256": "b87bfd1c5633fb3a9337b125e12f3b6cb60d3f5ed12b846eec59d65772ffca6d",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-momentum-constant/qualify_replay.py",
+      "language": "Python",
+      "bytes": 2604,
+      "sha256": "c868a7f9e8dec381f75b635b0e67a31673d2eea0a0f90c51056cb12df7893cc9",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-momentum-constant/qualify_rust.py",
+      "language": "Python",
+      "bytes": 1299,
+      "sha256": "2dea0fdd1de25cdd0e6062cb684379777e440fe86f4f469599694fb5ce88a0fe",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-momentum-constant/verify.py",
+      "language": "Python",
+      "bytes": 4155,
+      "sha256": "c4086698e898b0153abd90c3dc0ce6eab7b16a45e9011ebd03dec74a84d4ab45",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-momentum/AuditColumnMomentum.lean",
+      "language": "Lean",
+      "bytes": 1555,
+      "sha256": "d1a86c2f82848d4a7f9dc0be58ce8da4edba8ccfacbb6e14aad02112a59fd5cd",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-momentum/ColumnMomentum.lean",
+      "language": "Lean",
+      "bytes": 2544,
+      "sha256": "2eb4eebf756d2eeb0382283d6b66728c8e0a4d6e1fbf77b5a869e1bc35d52df4",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-momentum/make_figure.py",
+      "language": "Python",
+      "bytes": 1694,
+      "sha256": "abd5ffe5cdae013661e013a277ebae67566c0b044337a0598a56d3c7c2ed34e8",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-momentum/qualify_lean.py",
+      "language": "Python",
+      "bytes": 3393,
+      "sha256": "aa94add88633285304b7475659b57b011204f4313d1fbb3e79bf4c3409099bbd",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-momentum/qualify_replay.py",
+      "language": "Python",
+      "bytes": 2604,
+      "sha256": "c868a7f9e8dec381f75b635b0e67a31673d2eea0a0f90c51056cb12df7893cc9",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-momentum/qualify_rust.py",
+      "language": "Python",
+      "bytes": 1299,
+      "sha256": "2dea0fdd1de25cdd0e6062cb684379777e440fe86f4f469599694fb5ce88a0fe",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-momentum/verify.py",
+      "language": "Python",
+      "bytes": 4146,
+      "sha256": "d9e1e44efec5a66265f68adbd6b5672935ab019d2f7cc467dcdf661409ed50f1",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-shear/AuditColumnShear.lean",
+      "language": "Lean",
+      "bytes": 1729,
+      "sha256": "6bed3a9c56432605aa9c88a6085d989a8f35d3d0b2d306acc39465c5e0634a06",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-shear/ColumnShear.lean",
+      "language": "Lean",
+      "bytes": 3522,
+      "sha256": "dd3d5182d08f4a3d060f972a3b9f3740a323a3fa1c146238c9d78bd4222cc1b9",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-shear/make_figure.py",
+      "language": "Python",
+      "bytes": 3650,
+      "sha256": "1d106abcf79047494a5547a39233e04a0ad551a9c5e47602e76c6a0e1f4fce39",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-shear/qualify_lean.py",
+      "language": "Python",
+      "bytes": 3357,
+      "sha256": "49598367decf36563aa653d2d5035c094eea7cfa3d14ec243e8fccb13ead35e2",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-shear/qualify_replay.py",
+      "language": "Python",
+      "bytes": 2553,
+      "sha256": "84c5a7f07a5d9261d977fd25d3d04fa4399079b547d3c673a97b9d81ec64aad3",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-shear/qualify_rust.py",
+      "language": "Python",
+      "bytes": 1299,
+      "sha256": "2dea0fdd1de25cdd0e6062cb684379777e440fe86f4f469599694fb5ce88a0fe",
+      "counted": true
+    },
+    {
+      "path": "evidence/column-shear/verify.py",
+      "language": "Python",
+      "bytes": 4143,
+      "sha256": "19a0e26b711f17b8bf735af2ae92c5b5cc4dd88685d26ceaafee6889ee2b6c89",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-equation-consistency/finer.py",
+      "language": "Python",
+      "bytes": 753,
+      "sha256": "39567ea569e91fe06c99dfdb1f19cbd6f07fc53c25e2c45331202841df88e520",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-equation-consistency/qualify.py",
+      "language": "Python",
+      "bytes": 2872,
+      "sha256": "b30b63d0c4d58ec9ab8198c9bf20775b26204f79026e70941ffd1ca901366276",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-equation-consistency/render.py",
+      "language": "Python",
+      "bytes": 6652,
+      "sha256": "b3f1011cd91308d4c5c13e28612d0bcebc099481c5d183ee014290ea7316202b",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-equation-consistency/study.py",
+      "language": "Python",
+      "bytes": 8661,
+      "sha256": "6f3c0134c1e469945269ff19e4c6324d6544481849f3851071eb33c6975b5791",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-equation-consistency/taylor.py",
+      "language": "Python",
+      "bytes": 11502,
+      "sha256": "175daeb3159191400a8501bc03cc4bc60a2d3263e57b22c6cf39982fd19a188c",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-equation-consistency/test_reference.py",
+      "language": "Python",
+      "bytes": 2128,
+      "sha256": "53f7dc095378b2ad39615a1f3421288ba9c00cc2db1e9ac0c692b36fcc9bd454",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-equation-consistency/verify.py",
+      "language": "Python",
+      "bytes": 4171,
+      "sha256": "42029f9067203f3071e1e6a3420b7adca2820ec73c65d2802d649513ec520613",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-oracle-repair/qualify.py",
+      "language": "Python",
+      "bytes": 3711,
+      "sha256": "8c3352f8a0635ab7f0456182a726216ea1948cb430ac391e3c9fc059a4c90316",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-oracle-repair/replay.py",
+      "language": "Python",
+      "bytes": 10007,
+      "sha256": "764d95b3dffc9a0181f76f796fe957c7223c8b6374f148cee395bd839745678b",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-oracle-repair/reproduce_old.py",
+      "language": "Python",
+      "bytes": 2203,
+      "sha256": "834214295aa6bf88bfa3dba7a798263cb2b0d74c4a5241fa2a951e7706bb5425",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-oracle-repair/test_reference.py",
+      "language": "Python",
+      "bytes": 3008,
+      "sha256": "35bd8f12c7ba8a63bed36a27295081213a7409e806088c1bad096687d1694c41",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-oracle-repair/verify.py",
+      "language": "Python",
+      "bytes": 4159,
+      "sha256": "1ad93ffe2b80995ff22d815ea8a976c06b3a95637e245056473210523a9be14d",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-oracle-repair/verify_trajectory.py",
+      "language": "Python",
+      "bytes": 8720,
+      "sha256": "8a95375d02633a3c397db573b04a90239180f643ee55324b8757e07c0498ec6b",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-terminal-main/baseline-probe-source.rs",
+      "language": "Rust",
+      "bytes": 2304,
+      "sha256": "8c47def3bd74d2c12f3035f046fb25a9e3ea01884e54f6de956fe8e768c3356b",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-terminal-main/freeze_receipt.py",
+      "language": "Python",
+      "bytes": 2175,
+      "sha256": "98d22e33ca6f1ca235214ce6843a366b82867d710b8659b4eb9a822401f5bc24",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-terminal-main/qualify_local.py",
+      "language": "Python",
+      "bytes": 2133,
+      "sha256": "547a94d0b58f630f27180f083bbadf3437f1d4ab2d7b540a0e0a315b9d76fb53",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-terminal-main/qualify_workflow_candidate.py",
+      "language": "Python",
+      "bytes": 1339,
+      "sha256": "20ea8c54fcf61fc2942fd07617dad7a65aca4d0189f3d580fb1679df1af95d53",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-terminal-main/verify_receipt.py",
+      "language": "Python",
+      "bytes": 7656,
+      "sha256": "aede98c64797195611c8a2af68b9dcf7ca392b753d116c74919aef94745b09c9",
+      "counted": true
+    },
+    {
+      "path": "evidence/coupled-terminal-main/verify_workflow.py",
+      "language": "Python",
+      "bytes": 3448,
+      "sha256": "b4e00072301199e4e98c9b88307a5a8c332c9567e7c30cd10305662e07610cca",
+      "counted": true
+    },
+    {
+      "path": "evidence/cpu-threading/measure.py",
+      "language": "Python",
+      "bytes": 4101,
+      "sha256": "015a4ae0826b699ef7856d786e5217b47612de2b3801ac0c37b18e9c1987de1a",
+      "counted": true
+    },
+    {
+      "path": "evidence/explicit-forces/AuditForceWork.lean",
+      "language": "Lean",
+      "bytes": 1265,
+      "sha256": "69a6e71c6d2932f6d7c97e3a69b458eb2bcc03779b74c9707b7c3e7f75eb07f1",
+      "counted": true
+    },
+    {
+      "path": "evidence/explicit-forces/ForceWork.lean",
+      "language": "Lean",
+      "bytes": 1750,
+      "sha256": "6523dc9b86f70fba8b81301bb7c674f43545825a34f8524fa89134b1cf62e725",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/check_browser.py",
+      "language": "Python",
+      "bytes": 1129,
+      "sha256": "1bf42b492416c0201fe785cf467b66d95383a97cb09a7a969d02c2c95e0e01e2",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/check_viewer.cjs",
+      "language": "JavaScript",
+      "bytes": 4122,
+      "sha256": "0335c32c8eaf3c4c5778733777a20a2f08ce111a6eaf9ff01db1d65cfa0aefe0",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/derivation-trials/first-harness-source.py",
+      "language": "Python",
+      "bytes": 2718,
+      "sha256": "5dd0213a02f0fba3bce07816b2b6f51359c6760df04d506a9efa070df0d6ee29",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/native-trials/first-export-source.rs",
+      "language": "Rust",
+      "bytes": 7984,
+      "sha256": "7b493980de835d69f1c367137d14f37636564f90f9fdb80df1a02ad403bff08b",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/native-trials/first-replay-source.py",
+      "language": "Python",
+      "bytes": 14091,
+      "sha256": "5d70b1a20ae1a6a3361fb2876360c2e3e4b8247df000d1e5b38cbc06a8d2b1aa",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/native-trials/mapped-normal-replay-source.py",
+      "language": "Python",
+      "bytes": 14441,
+      "sha256": "5c92fbe8b2ca8ba079e7270d9fc34cfae6fd83e0f85c5b7ae04ae58a543b4d7e",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/native-trials/strain-square-replay-source.py",
+      "language": "Python",
+      "bytes": 14290,
+      "sha256": "6c2311f1da63309c9d20f0f963d58b6ac079e5441d83c7379b941338d50a05a4",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/qualify.py",
+      "language": "Python",
+      "bytes": 5479,
+      "sha256": "c04ea03a22e600e7b33f1e772fa3abe6cba616039f24eace702befffe65debea",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/reference.py",
+      "language": "Python",
+      "bytes": 3066,
+      "sha256": "d44896d9548867d37234d2734dba6ac28861ffdfcaf2108bbb8ba9fb8878c14d",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/render-trials/first-render-source.py",
+      "language": "Python",
+      "bytes": 6012,
+      "sha256": "72c4cda04e4c0cfaffbe981e902904e9d70d64bf72a80529e8b1c43a283b9140",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/render-verified/renderer-source.py",
+      "language": "Python",
+      "bytes": 6013,
+      "sha256": "89a8d67b0f6428b14e5b300cf07f6f979654689eb21c2f172e17e5000faec91c",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/render_native.py",
+      "language": "Python",
+      "bytes": 6437,
+      "sha256": "7f13daa3048b6649b7e1025f914527cc7ac698ecda63ed903f52d7c795e62197",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/replay.py",
+      "language": "Python",
+      "bytes": 14747,
+      "sha256": "eab1033f182a5a1802f32097c76743a44f35e87bbb91d4eeac877aab28794d0c",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/test_reference.py",
+      "language": "Python",
+      "bytes": 1298,
+      "sha256": "c3b94853cf5c31c867a4d4ee102294b299ce3235833fc9dd3c5acb41cf20afa6",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/test_replay.py",
+      "language": "Python",
+      "bytes": 1651,
+      "sha256": "70d30d11c41b1dc93ce1a245ab8db18cd07ef2d4f8cec70fe1c26ceb8facb070",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/third_exact.py",
+      "language": "Python",
+      "bytes": 2722,
+      "sha256": "bad2e491b34338a635659a7f1e594336629368f022f275bb99da0c11884283f3",
+      "counted": true
+    },
+    {
+      "path": "evidence/extruded-third-velocity/verify_final.py",
+      "language": "Python",
+      "bytes": 5091,
+      "sha256": "2cf9a19efe9517715ce5cbed3565a62a15b877e98285b5ac1a51ee738dd18249",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-ale-native/bind_final_build.py",
+      "language": "Python",
+      "bytes": 2134,
+      "sha256": "f0f2880f6fa4b806c8c99618f3727d862d933c7ec150de7baf82f2234b9bb841",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-ale-native/qualify_native.py",
+      "language": "Python",
+      "bytes": 2682,
+      "sha256": "f1d18c887d852934fd38da09849d8216736d05ea8eca4c81d8800fff8177de73",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-ale-native/qualify_rust.py",
+      "language": "Python",
+      "bytes": 1471,
+      "sha256": "4c1aafdb25c412f07cb375931cbfedffc11e0c6caf3dfbd4026c8d73823d74a5",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-ale-native/render.py",
+      "language": "Python",
+      "bytes": 2951,
+      "sha256": "1e476f743277fc28c480fa2689824799c0947db07973deb2038cd1e69a6d8f36",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-ale-native/verify.py",
+      "language": "Python",
+      "bytes": 4155,
+      "sha256": "82c8761cae3a1335a42e862482fc095e7d08a079bc310db42b437ee5e8042c6c",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-ale-native/verify_native.py",
+      "language": "Python",
+      "bytes": 8699,
+      "sha256": "5403ab892dfd2257245574be49cf702ad0d436973853a3270ca73285f6105fa9",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-coupled-temporal/cell.py",
+      "language": "Python",
+      "bytes": 7198,
+      "sha256": "14a7b9a85f02fa5bab59073521fa17b2972b191c48d0fa79e565000a62e999d0",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-coupled-temporal/certificate.py",
+      "language": "Python",
+      "bytes": 9595,
+      "sha256": "0ef1328a9fae7d1f859a9bc29298a3e0fb4563e749fa236a5ff970bb58d6366f",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-coupled-temporal/exact.py",
+      "language": "Python",
+      "bytes": 6272,
+      "sha256": "26a61d5bfb7404e181f7bf2d0d582f90ba2fd8565ea33f096bdba7c96c21930c",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-coupled-temporal/independent.py",
+      "language": "Python",
+      "bytes": 6783,
+      "sha256": "d6d8d5d9d61475cec0470f86dcdc67811183e104ec3d39f3e2a15adb167ac3e1",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-coupled-temporal/model.py",
+      "language": "Python",
+      "bytes": 10674,
+      "sha256": "6f3ec893af86e7465b4ac0afca9e28b22eaf71d18f42b3c302862413d2a1b499",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-coupled-temporal/qualify.py",
+      "language": "Python",
+      "bytes": 3446,
+      "sha256": "db63afac7d55483ca085971b6ad4d58db9717d98da7c56f93aa0ec55d05ee5df",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-coupled-temporal/render.py",
+      "language": "Python",
+      "bytes": 4024,
+      "sha256": "8629a3ee99dc984b51b6aeb830974e114fa65a2a4e53773b55524a06180d2849",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-coupled-temporal/study.py",
+      "language": "Python",
+      "bytes": 715,
+      "sha256": "849e3f03c1ab1019f85ca27cab54dceaf3aabb3b73d35ea7c27c58a2d6009fde",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-coupled-temporal/test_reference.py",
+      "language": "Python",
+      "bytes": 5712,
+      "sha256": "2c72d2441ac62f6158cedcbb2880d1ed31ec6da7f69250024d2fde5040d22a9e",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-coupled-temporal/verify.py",
+      "language": "Python",
+      "bytes": 4163,
+      "sha256": "e6cb484d8c5da25beae80f4cd97e77dfa967785c06052af0a7e7e930973e615a",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-coupled-temporal/verify_cell.py",
+      "language": "Python",
+      "bytes": 6294,
+      "sha256": "3cd6bc8dfbb94ee8030285d1402d1a04e72dcb59f012639482e04c7656562d9c",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-refinement/cells.py",
+      "language": "Python",
+      "bytes": 2214,
+      "sha256": "606525eb0fe0a2a8144b514d844870ee5422305d2aafe6f2a6ee97d961334e75",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-refinement/certificate.py",
+      "language": "Python",
+      "bytes": 2240,
+      "sha256": "57d25e7daf0a35bf408f79763f898de331d8c8dd6428542a0ebdcd4eec65a732",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-refinement/diagnose.py",
+      "language": "Python",
+      "bytes": 2024,
+      "sha256": "d03bc80f923d185b79cf9f0774d00344c11093e68348900adcb1e5cf0d361018",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-refinement/independent_work.py",
+      "language": "Python",
+      "bytes": 4068,
+      "sha256": "f9434695435d675e2db3d95eb3aa6a2a044def998ea737ddd0332b8cc5592e9b",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-refinement/qualify.py",
+      "language": "Python",
+      "bytes": 4994,
+      "sha256": "4a34b8d2c2c394b907e5a83d34f28b2538bdedf43cc5418688659b3ccf8654cd",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-refinement/rate.py",
+      "language": "Python",
+      "bytes": 2024,
+      "sha256": "00d3ae69d53e125be057840746df951d2e17241dd416a6d30e45a1bf28eee345",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-refinement/render.py",
+      "language": "Python",
+      "bytes": 3553,
+      "sha256": "cc838cdcb5bd3453e0e121cf938ac7f4cad8f1c7dd30c6bbc04532ca91c6edf0",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-refinement/temporal.py",
+      "language": "Python",
+      "bytes": 13475,
+      "sha256": "e499438f17178b8a29bd3dd37dce02300482b85d2f691155b747fcf8c45f6c96",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-refinement/test_reference.py",
+      "language": "Python",
+      "bytes": 7011,
+      "sha256": "a588e4e72f86098896e960a6b4311d5f19ced404f86d2f8e5367433c2adda488",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-refinement/trajectory.py",
+      "language": "Python",
+      "bytes": 8453,
+      "sha256": "322ea6bf608c289f06a6296ff95cafc10640f1685ec147a45780e81e0be017c1",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-refinement/verify.py",
+      "language": "Python",
+      "bytes": 4166,
+      "sha256": "fa89a68f86aa1e0080d06b9b506fa26ab38fed4ddc4244bbfed34d69f6890612",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-refinement/verify_cell.py",
+      "language": "Python",
+      "bytes": 6390,
+      "sha256": "3852cfdf29624a7972e69bfcc53704e969f43012292d3fb0be168f2a213c1baf",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-refinement/verify_trajectory.py",
+      "language": "Python",
+      "bytes": 2778,
+      "sha256": "3694a7b6073f6d99def6ca2448e86a1c74c5f1505a22e2d01b68024c4a7a2c5f",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-work/cells.py",
+      "language": "Python",
+      "bytes": 1419,
+      "sha256": "c961e0455db272b70488284e26f7f011272713e75b5e942b867b3141e92e38bf",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-work/independent_work.py",
+      "language": "Python",
+      "bytes": 4056,
+      "sha256": "c0795436f7eb40519ec6c9a2a99f74c069dc0a2a22caf4dea5af09d7026705a6",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-work/qualify.py",
+      "language": "Python",
+      "bytes": 5085,
+      "sha256": "1a09ea64e6bb430e7458a368cf322286f8d8b751fd894030a98a2aabecd51ade",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-work/render.py",
+      "language": "Python",
+      "bytes": 3236,
+      "sha256": "e6cc06aff7076ef99e753100c4809776e2401b60b1332cf8ba810f59fac32a46",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-work/step.py",
+      "language": "Python",
+      "bytes": 10889,
+      "sha256": "3c720e94866a4c4fd318fa06ae25c620300153caf7c75127810ca6090a8529ad",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-work/test_reference.py",
+      "language": "Python",
+      "bytes": 5295,
+      "sha256": "04eace7aeae336fd4244b0501cce790730e0db98c8671e701e05f811aa8c6657",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-work/trajectory.py",
+      "language": "Python",
+      "bytes": 7228,
+      "sha256": "a2b255bd45e98712357b7af71f676e109d3b63f78682cbf623bf9d1feb39d1be",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-work/verify.py",
+      "language": "Python",
+      "bytes": 4160,
+      "sha256": "6901a321bdd4a2cf4879cc48fdfcd9414de12b0a7c3deedbcd2c3481558489b9",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-work/verify_cell.py",
+      "language": "Python",
+      "bytes": 6220,
+      "sha256": "c118a5b6ec1310bde2eedcb21fc316dd7683fd1f52026ef6d4d0baabf146380d",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-discrete-work/verify_trajectory.py",
+      "language": "Python",
+      "bytes": 2621,
+      "sha256": "1e4c9bb7d86da8238bbdd022f276821cb1d483f9d6f2503a72f75e4ce27c3894",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-finite-transport/make_figure.py",
+      "language": "Python",
+      "bytes": 1851,
+      "sha256": "dc1867b5a29567a74cca8bd9d4aca011c1146d7323ab093b5de4dd5dc9cb427c",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-finite-transport/numerical.py",
+      "language": "Python",
+      "bytes": 6748,
+      "sha256": "16bb385d2e8827426ba4e82b7d1e89edcf72da984286e9b312bfe752f187f8a1",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-finite-transport/qualify.py",
+      "language": "Python",
+      "bytes": 1339,
+      "sha256": "5d75bc5c77751e483f5074abc75e9a7b07fc7e0e908d2cd324c6ca0dfcff4c93",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-finite-transport/reference.py",
+      "language": "Python",
+      "bytes": 7647,
+      "sha256": "88a17db2bced80ad303ad1e884c387357811159f1c734a05c7455ea373684640",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-finite-transport/test_reference.py",
+      "language": "Python",
+      "bytes": 4539,
+      "sha256": "c7473bbfcbe2652b4b8ee04c129c988da8ae7c84165366c42dc7b751ab76ff27",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-finite-transport/verify.py",
+      "language": "Python",
+      "bytes": 4163,
+      "sha256": "22b5fa590f0948bf17f425e778ea68e25f2d2c46834087e8989f6de2e87ccbf2",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-assembly/make_figure.py",
+      "language": "Python",
+      "bytes": 1040,
+      "sha256": "c7cea0fd234f50abf137de32140cfbc495b8c97a73cb0a5e31aa06562a8b75a3",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-assembly/qualify_native.py",
+      "language": "Python",
+      "bytes": 1891,
+      "sha256": "f5dbbefc8758f9aa7e7c7a04e7fab24a800abeb0762e68ea00022e4b8eb7127a",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-assembly/qualify_rust.py",
+      "language": "Python",
+      "bytes": 1395,
+      "sha256": "2ae45c33421a228baa648a73b04292997de5dbde1827a46761b86bc72c4c2323",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-assembly/verify.py",
+      "language": "Python",
+      "bytes": 4160,
+      "sha256": "eec1a0f1dbbe30fd13b2504c8a7d8cdca42438ee85819ba038189be37958ce9c",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-assembly/verify_native.py",
+      "language": "Python",
+      "bytes": 5382,
+      "sha256": "6c894879887b81e1bef75b57d0fec400171a8072df966d2930a636c6b7600014",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-formulation/AuditFittedHeight.lean",
+      "language": "Lean",
+      "bytes": 1658,
+      "sha256": "0377b9c4281737db9f0ac2dce93996c1898e491d3e7229a0d9a98def44c92587",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-formulation/FittedHeight.lean",
+      "language": "Lean",
+      "bytes": 3111,
+      "sha256": "ad716a0e642de8cdbfbaca8491a580621efb47e55a74f40d855ad5548363a433",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-formulation/make_figure.py",
+      "language": "Python",
+      "bytes": 1434,
+      "sha256": "3808afad8158582d41cb06a404afbaa60fd3719771d4706b231d9fbd5c979ec3",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-formulation/qualify_lean.py",
+      "language": "Python",
+      "bytes": 3369,
+      "sha256": "6ebe10ac3995c4dafb7ae8549f23aa1fd52e270fcc2994e5c30b03cf11a7a0a9",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-formulation/reference.py",
+      "language": "Python",
+      "bytes": 19529,
+      "sha256": "d8a9a4ec5a99d64b8a4eef5df9b6f6dd3a325be3e402b5f0ef76db5aace9dfc5",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-formulation/test_reference.py",
+      "language": "Python",
+      "bytes": 2824,
+      "sha256": "682f2791b04823c38220b0ab42d6f961385c543c1093b2d8f47438fe78e4bb20",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-formulation/verify.py",
+      "language": "Python",
+      "bytes": 4161,
+      "sha256": "ae71e9f5ab6c388b886a8e007b4c081204444c718c92a547205265a35af63b66",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-periodic-repair/diagnose_seam.py",
+      "language": "Python",
+      "bytes": 3492,
+      "sha256": "37df24a5ff9e949bab0fadddfc12de4aa169c613ba264cca937e698a59f109c4",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-periodic-repair/make_figure.py",
+      "language": "Python",
+      "bytes": 1042,
+      "sha256": "8334e2241437222061d032ffca1e112c1161807b021a9d3048fdc676311a0c64",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-periodic-repair/qualify_native.py",
+      "language": "Python",
+      "bytes": 1898,
+      "sha256": "319104cd08cbdc3ea6a0aad9fb3e19ac81ca3261c636b446fc22cc2d07b2c94b",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-periodic-repair/qualify_rust.py",
+      "language": "Python",
+      "bytes": 1395,
+      "sha256": "2ae45c33421a228baa648a73b04292997de5dbde1827a46761b86bc72c4c2323",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-periodic-repair/reference.py",
+      "language": "Python",
+      "bytes": 19875,
+      "sha256": "43cae1a869d0fbda43e93af58b2bf4ec4717bfd85231bbc77a41e6690e8dc477",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-periodic-repair/test_reference.py",
+      "language": "Python",
+      "bytes": 4343,
+      "sha256": "176f4af86a015396330363ec1d9dbd8f0ed523adcf496408b7fe2417bbe4d353",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-periodic-repair/verify.py",
+      "language": "Python",
+      "bytes": 4167,
+      "sha256": "d30dcf372a12f419999218be2a5ad62bbc069c63caf9a4fef53fe267e0f209b8",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-height-periodic-repair/verify_native.py",
+      "language": "Python",
+      "bytes": 5512,
+      "sha256": "da00c345bec70d2dfb6e0e5ca17e02d90c0c31f913c4dbae8fdc4e6a13b76734",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-pressure-path/numerical.py",
+      "language": "Python",
+      "bytes": 3631,
+      "sha256": "dadd6dfa5a89c787b88f28063e60b064966c2ef25e87012e6f155b02eb31bb58",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-pressure-path/qualify.py",
+      "language": "Python",
+      "bytes": 3488,
+      "sha256": "09b4560dea06651d4a59d149e8579589cd39ae541ed7317126fed4c56fccbf35",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-pressure-path/qualify_rust.py",
+      "language": "Python",
+      "bytes": 1471,
+      "sha256": "4c1aafdb25c412f07cb375931cbfedffc11e0c6caf3dfbd4026c8d73823d74a5",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-pressure-path/reference.py",
+      "language": "Python",
+      "bytes": 11513,
+      "sha256": "76264813031ff460a209f16a0d43306748b74d35cb31dccd88dd478ebed52efd",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-pressure-path/render.py",
+      "language": "Python",
+      "bytes": 3436,
+      "sha256": "f44106833755d5685a08f79481133c62f39a89562809a0d728604b1a8dbc462e",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-pressure-path/test_reference.py",
+      "language": "Python",
+      "bytes": 5084,
+      "sha256": "7052e80fa5dd69ada5d88446a91c8d7041363e55e774687eb6900492dd9d3db3",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-pressure-path/verify.py",
+      "language": "Python",
+      "bytes": 4160,
+      "sha256": "634ec8c55f747d60ddb5898fca569d4808b9a890dd0a66effa424780818db771",
+      "counted": true
+    },
+    {
+      "path": "evidence/fitted-pressure-path/verify_native.py",
+      "language": "Python",
+      "bytes": 6750,
+      "sha256": "2de1a902d2726ef8a340e15bf27999c5cc6a072b4833e62b00ea427b56a94b7d",
+      "counted": true
+    },
+    {
+      "path": "evidence/free-surface/AuditFreeSurface.lean",
+      "language": "Lean",
+      "bytes": 1407,
+      "sha256": "c54899c984daf23fcbe32774e1dea4b72e41a9663cfc8e7bf3708f254305cdf2",
+      "counted": true
+    },
+    {
+      "path": "evidence/free-surface/FreeSurface.lean",
+      "language": "Lean",
+      "bytes": 2201,
+      "sha256": "0e0e4ca38c2c1e034d805f94198391c67dadbafe66a477abe08fad8a5185cbe8",
+      "counted": true
+    },
+    {
+      "path": "evidence/free-surface/make_figure.py",
+      "language": "Python",
+      "bytes": 3193,
+      "sha256": "54b2c486e0ea6a47957871056858901fbe42cb1e4585528a3db26afed8a26383",
+      "counted": true
+    },
+    {
+      "path": "evidence/free-surface/qualify_lean.py",
+      "language": "Python",
+      "bytes": 3346,
+      "sha256": "d97752fde80c2c8ad1637660dfb92409b60cda97d554474662bbbce3349b2863",
+      "counted": true
+    },
+    {
+      "path": "evidence/free-surface/verify.py",
+      "language": "Python",
+      "bytes": 4143,
+      "sha256": "a7e5c8fd09afe865943ef4b10655eb615d81eddba81a59f1a237e0912aadcf73",
+      "counted": true
+    },
+    {
+      "path": "evidence/hit-reconstruction/exact-red-witness.rs",
+      "language": "Rust",
+      "bytes": 656,
+      "sha256": "8ce5176f109fdfa7eb12eb4d4fafcc77eb77b32d71240bb1bb0ad9a8fb9fa878",
+      "counted": true
+    },
+    {
+      "path": "evidence/liquid-bindings/verify.py",
+      "language": "Python",
+      "bytes": 2332,
+      "sha256": "84ce066211c862cb24ecf7afb504dac18f9158543c0cac573c9e2f27b6df3c94",
+      "counted": true
+    },
+    {
+      "path": "evidence/liquid-composition/verify.py",
+      "language": "Python",
+      "bytes": 2228,
+      "sha256": "823e72530826ee15214b0c8da7f36dc9c1b3875493a9c595b725db41089d8873",
+      "counted": true
+    },
+    {
+      "path": "evidence/liquid-step/make_figure.py",
+      "language": "Python",
+      "bytes": 2505,
+      "sha256": "2e8a87124e68be9321cc8cdd23ca65df271117bbf4ab66c3fd14351b355a6a56",
+      "counted": true
+    },
+    {
+      "path": "evidence/liquid-step/test_verify_numerics.py",
+      "language": "Python",
+      "bytes": 1836,
+      "sha256": "ead1429c8375a27540bd9d06c5d8c39ad6c6593ca462443fa63c8158a325d7dd",
+      "counted": true
+    },
+    {
+      "path": "evidence/liquid-step/verify.py",
+      "language": "Python",
+      "bytes": 3563,
+      "sha256": "43d1204b7d0d099f45ea666eb29a971b6d12a7d04b31d0b1a0ee753d00301cc0",
+      "counted": true
+    },
+    {
+      "path": "evidence/liquid-step/verify_numerics.py",
+      "language": "Python",
+      "bytes": 8368,
+      "sha256": "da9d351e9b2fb64502a480dba12b4bd8bf3fbf9d22dc3708cd3139df629a3489",
+      "counted": true
+    },
+    {
+      "path": "evidence/liquid-volume/AuditVolumeLedger.lean",
+      "language": "Lean",
+      "bytes": 1476,
+      "sha256": "7ed9affa73fade14f20fb1baea98db3a7d44eea0532d22f10e70c2469ef966de",
+      "counted": true
+    },
+    {
+      "path": "evidence/liquid-volume/VolumeLedger.lean",
+      "language": "Lean",
+      "bytes": 4190,
+      "sha256": "35c34d148b36f03ae3429052e14bf948ce4e7587ea6113ae56160e17fd9d0f85",
+      "counted": true
+    },
+    {
+      "path": "evidence/liquid-volume/verify_numerics.py",
+      "language": "Python",
+      "bytes": 3690,
+      "sha256": "872f78d8f3a9223ee3b01ea53a6f21ff3d3b1c7bdbf8c8b0449c93b9bcd85da3",
+      "counted": true
+    },
+    {
+      "path": "evidence/liquid-volume/verify_packet.py",
+      "language": "Python",
+      "bytes": 3443,
+      "sha256": "88822404e280688ca26bde28febbf30122d913995595718b70d70cd6fb4cfb19",
+      "counted": true
+    },
+    {
+      "path": "evidence/native-coupled-discrete/qualify.py",
+      "language": "Python",
+      "bytes": 2919,
+      "sha256": "f964e6654043963534d4a96c63a6c9c8c42741cd73b45c29ca00beb254432cc9",
+      "counted": true
+    },
+    {
+      "path": "evidence/native-coupled-discrete/render.py",
+      "language": "Python",
+      "bytes": 3929,
+      "sha256": "ae7d19e09eb92613aa4bf4197367a6712844fa51a4ef089463fe948e0bea3a2b",
+      "counted": true
+    },
+    {
+      "path": "evidence/native-coupled-discrete/replay.py",
+      "language": "Python",
+      "bytes": 7972,
+      "sha256": "0849f778cb27c6d127e93f5f29c73884e522de7535234345e444409e3115aa12",
+      "counted": true
+    },
+    {
+      "path": "evidence/native-coupled-discrete/verify.py",
+      "language": "Python",
+      "bytes": 4161,
+      "sha256": "716309e039bb74ce88dde2df8f3cfa69a2d2658302b2e03b399378d3cf8eaf08",
+      "counted": true
+    },
+    {
+      "path": "evidence/pr5-evidence-repair/test_integrity.py",
+      "language": "Python",
+      "bytes": 12523,
+      "sha256": "798e95b17ad58fa83a0f9cd8d54979ea2779076c055e06873196d5d51700a11d",
+      "counted": true
+    },
+    {
+      "path": "evidence/pr7-verifier-repair/test_invariants.py",
+      "language": "Python",
+      "bytes": 15185,
+      "sha256": "14504883c8b8ab11cb31bcfa7ca2ab8b8a6a745a805c3fba606aafb0628f5116",
+      "counted": true
+    },
+    {
+      "path": "evidence/pr9-git-isolation/probe.py",
+      "language": "Python",
+      "bytes": 6046,
+      "sha256": "4663163633ca937e8620dab180d77c15d42aa80a636c89be0145c2cd60c64fad",
+      "counted": true
+    },
+    {
+      "path": "evidence/pressure-divergence-restart/probe-pr3.rs",
+      "language": "Rust",
+      "bytes": 1282,
+      "sha256": "0f7781786a40fcece2b7b01af4e5ad386d9e8e457870e923533d33c5b9d4c1d0",
+      "counted": true
+    },
+    {
+      "path": "evidence/pressure-divergence-restart/probe.rs",
+      "language": "Rust",
+      "bytes": 1015,
+      "sha256": "5be8fe73716fed669cb09e46339f0aa3c0f0b188e206d1551adbcf1a66c267e4",
+      "counted": true
+    },
+    {
+      "path": "evidence/publication-terminal-repair/verify.py",
+      "language": "Python",
+      "bytes": 6048,
+      "sha256": "f68166f1e85c4b12fdd9115d62468e56c5c019046466d16264d911d551e06d07",
+      "counted": true
+    },
+    {
+      "path": "evidence/result-integration-qualification/fresh_replay.py",
+      "language": "Python",
+      "bytes": 6153,
+      "sha256": "5bec091ea8a1afca8615a31aef994f2c3fa15941f05c0e68d21cd15632aa4e6b",
+      "counted": true
+    },
+    {
+      "path": "evidence/result-integration-qualification/verify.py",
+      "language": "Python",
+      "bytes": 8264,
+      "sha256": "02f4120739c47fbd18c31e7d0ff2e727434487ac2be5a6734bcd2237b663b19e",
+      "counted": true
+    },
+    {
+      "path": "evidence/result-qualification/verify.py",
+      "language": "Python",
+      "bytes": 15090,
+      "sha256": "3c5df079fa3139722a88ba6b4697cc6836ca674f250eb78002f51bd1b93f7431",
+      "counted": true
+    },
+    {
+      "path": "evidence/scheduling/measure.py",
+      "language": "Python",
+      "bytes": 3364,
+      "sha256": "5bd8c35c168ba9492198d5bd29dde5d6dcc3602f651eb41fc5b0ea827cb46953",
+      "counted": true
+    },
+    {
+      "path": "evidence/surface-queries/AuditFacetSelection.lean",
+      "language": "Lean",
+      "bytes": 1378,
+      "sha256": "db52db5d39ba70c488517315eb3b5109cda0cff84bdc2335d35d6377be8d73b9",
+      "counted": true
+    },
+    {
+      "path": "evidence/surface-queries/FacetSelection.lean",
+      "language": "Lean",
+      "bytes": 3400,
+      "sha256": "710b188d7c214d8cdc3605b41621fd6685c481567c0925a4cd4db0e2ac47d60a",
+      "counted": true
+    },
+    {
+      "path": "evidence/tracer-barriers/AuditVisibleWeights.lean",
+      "language": "Lean",
+      "bytes": 1461,
+      "sha256": "04fb910db2ccaf102f7c0fcec5225708632e3434f63b244336147ec2e3329297",
+      "counted": true
+    },
+    {
+      "path": "evidence/tracer-barriers/VisibleWeights.lean",
+      "language": "Lean",
+      "bytes": 3719,
+      "sha256": "2fa7b0314c00859b55175db893dda09d18c4346bd87083dc27877a8f40b581b3",
+      "counted": true
+    },
+    {
+      "path": "evidence/translated-viscous-flow/qualify_native.py",
+      "language": "Python",
+      "bytes": 2612,
+      "sha256": "aad400949fc62b8094235089853493b687824bf3a5207e46f3dc7f7d217bc986",
+      "counted": true
+    },
+    {
+      "path": "evidence/translated-viscous-flow/qualify_rust.py",
+      "language": "Python",
+      "bytes": 1434,
+      "sha256": "bad2de6a6e7a9ee4787facd61a2379ae443571185d69f32ff78b6c33610fca7f",
+      "counted": true
+    },
+    {
+      "path": "evidence/translated-viscous-flow/reference.py",
+      "language": "Python",
+      "bytes": 3679,
+      "sha256": "fb64e81061ef283f1f7bb6ebdd07ddbac6ac370d09be3302a24e9695b5ef1b9d",
+      "counted": true
+    },
+    {
+      "path": "evidence/translated-viscous-flow/render.py",
+      "language": "Python",
+      "bytes": 2368,
+      "sha256": "22dabbf891906188c81c58f56714f283e2b736110162d1d4b62647d92e7906d8",
+      "counted": true
+    },
+    {
+      "path": "evidence/translated-viscous-flow/test_reference.py",
+      "language": "Python",
+      "bytes": 2456,
+      "sha256": "9095e9bcd6859996a13aa143cc5bbad70c7c2deb63463a8d6c490de1d4f25244",
+      "counted": true
+    },
+    {
+      "path": "evidence/translated-viscous-flow/trials/baseline-source/examples__translated_viscous.rs",
+      "language": "Rust",
+      "bytes": 4733,
+      "sha256": "cd21ba55572510da15203f2c0b0cfc268a3289248759222b967f20ad51b82c3c",
+      "counted": true
+    },
+    {
+      "path": "evidence/translated-viscous-flow/trials/baseline-source/src__lib.rs",
+      "language": "Rust",
+      "bytes": 4187,
+      "sha256": "8f194e2204315c81d907f0ae454b2bd91358ea950f9bd4685ae66225b6222134",
+      "counted": true
+    },
+    {
+      "path": "evidence/translated-viscous-flow/trials/baseline-source/src__translated_viscous.rs",
+      "language": "Rust",
+      "bytes": 25274,
+      "sha256": "4702f4e42ab31c3122fa7b1fd332370a43d33d4fd6fd98ec3d52abb97e28fed7",
+      "counted": true
+    },
+    {
+      "path": "evidence/translated-viscous-flow/trials/baseline-source/tests__translated_viscous_contract.rs",
+      "language": "Rust",
+      "bytes": 7077,
+      "sha256": "c122407674f191512ba27668d2af5c9e35a0cceb1ece911a3efdfe0c30bcc06d",
+      "counted": true
+    },
+    {
+      "path": "evidence/translated-viscous-flow/verify.py",
+      "language": "Python",
+      "bytes": 4161,
+      "sha256": "55f1c9c30fee22bee4dada3a2592808e1c514a38c322e96f0cf1c69c818f1f11",
+      "counted": true
+    },
+    {
+      "path": "evidence/translated-viscous-flow/verify_native.py",
+      "language": "Python",
+      "bytes": 5149,
+      "sha256": "d5fd7d6b043a0679db9596a69371e119b9e48df6c5bbaf5481394c5df5f141fa",
+      "counted": true
+    },
+    {
+      "path": "evidence/translating-surfaces/AuditTranslationFrame.lean",
+      "language": "Lean",
+      "bytes": 1466,
+      "sha256": "329a225cf8e8305bc1455e23850bda44b69738414cabfc409f6902dc675fa4f8",
+      "counted": true
+    },
+    {
+      "path": "evidence/translating-surfaces/TranslationFrame.lean",
+      "language": "Lean",
+      "bytes": 2592,
+      "sha256": "8a30d9be2cb11d10ad99d9290901614020b78642b710ac400efa1bc55ed2f64a",
+      "counted": true
+    },
+    {
+      "path": "evidence/viscosity/AuditBoxViscosity.lean",
+      "language": "Lean",
+      "bytes": 1476,
+      "sha256": "e36488fd8edbebed2dad395f29e4e87fe43e3c4e6d20a9c30671754d66cf9bbd",
+      "counted": true
+    },
+    {
+      "path": "evidence/viscosity/BoxViscosity.lean",
+      "language": "Lean",
+      "bytes": 1922,
+      "sha256": "cc4a3453624d8a0514f2d92918d6f016074f2409dc4cd83ce8966e25ee1c5c16",
+      "counted": true
+    },
+    {
+      "path": "evidence/viscosity/make_figure.py",
+      "language": "Python",
+      "bytes": 3577,
+      "sha256": "fc4c51ed6df76ec135888242fcc7fbb3adde91324c51892a529d8b3d63d5dac0",
+      "counted": true
+    },
+    {
+      "path": "evidence/viscosity/qualify_lean.py",
+      "language": "Python",
+      "bytes": 3369,
+      "sha256": "61063fcc9ffbee47131b1accc2026fdf98ad2653ae6b0f2a14df7d2309778459",
+      "counted": true
+    },
+    {
+      "path": "evidence/viscosity/qualify_replay.py",
+      "language": "Python",
+      "bytes": 2507,
+      "sha256": "2fa155311c42ce913614dee685790a31039f4bc33af630ceb5664c690ace2c22",
+      "counted": true
+    },
+    {
+      "path": "evidence/viscosity/qualify_rust.py",
+      "language": "Python",
+      "bytes": 1299,
+      "sha256": "2dea0fdd1de25cdd0e6062cb684379777e440fe86f4f469599694fb5ce88a0fe",
+      "counted": true
+    },
+    {
+      "path": "evidence/viscosity/verify.py",
+      "language": "Python",
+      "bytes": 4140,
+      "sha256": "1491e4f96b7499727216e4502d6c5230ff20d2fc2f2b7c38dfdd7a1c48de8017",
+      "counted": true
+    },
+    {
+      "path": "proofs/AxiomAudit.lean",
+      "language": "Lean",
+      "bytes": 7565,
+      "sha256": "e87a9ddf7d5196d9bc4dd81be62a8170442bb48288b785d662edf263d93d5dfa",
+      "counted": true
+    },
+    {
+      "path": "proofs/Rheon.lean",
+      "language": "Lean",
+      "bytes": 278,
+      "sha256": "5492a033bd55bdbb31945f5ed9bf102a094c1bda224f31e6db160d7352e5effe",
+      "counted": true
+    },
+    {
+      "path": "proofs/Rheon/AlignedStrain.lean",
+      "language": "Lean",
+      "bytes": 12003,
+      "sha256": "4a76bacb1a49b2c395c1718ce45e2ed134217b78697766c099e666d09001ae32",
+      "counted": true
+    },
+    {
+      "path": "proofs/Rheon/BoundedPhysics.lean",
+      "language": "Lean",
+      "bytes": 5861,
+      "sha256": "20dd53b1b137a01f8b04de47ffbe8474561696940e17ab1ed4d3bfde388b03af",
+      "counted": true
+    },
+    {
+      "path": "proofs/Rheon/ColumnForcing.lean",
+      "language": "Lean",
+      "bytes": 3085,
+      "sha256": "9199bd6d06f254e1cf31d8c7cd5e8cee951d53a5325db8bc78ef5cb449226211",
+      "counted": true
+    },
+    {
+      "path": "proofs/Rheon/Discrete.lean",
+      "language": "Lean",
+      "bytes": 4375,
+      "sha256": "70a2ca5d2c5cbefacbbb8742954375fdfe8cc25c3c5b8afd05738941cfc5ee0a",
+      "counted": true
+    },
+    {
+      "path": "proofs/Rheon/Indexing.lean",
+      "language": "Lean",
+      "bytes": 810,
+      "sha256": "862c33164e75daccd43603c9b5a61473fd825885d9106b766a35204e578f60bf",
+      "counted": true
+    },
+    {
+      "path": "proofs/Rheon/NoSlip.lean",
+      "language": "Lean",
+      "bytes": 2749,
+      "sha256": "615283345c18331b5c19fba94cf738a55f089978df68d2ff67f109ae219b4e3c",
+      "counted": true
+    },
+    {
+      "path": "proofs/Rheon/ObstacleOperators.lean",
+      "language": "Lean",
+      "bytes": 17625,
+      "sha256": "514cb760f16dd55d6bbad78b30953fcf3b90f3247b2185c1719b8463b6531680",
+      "counted": true
+    },
+    {
+      "path": "proofs/Rheon/Physics.lean",
+      "language": "Lean",
+      "bytes": 4602,
+      "sha256": "26cbb4f75076c7e70a90da126f96622b75044befce26a4c17a50066c76e96050",
+      "counted": true
+    },
+    {
+      "path": "proofs/Rheon/StaticObstacle.lean",
+      "language": "Lean",
+      "bytes": 2690,
+      "sha256": "b93a60d832775dd2177980806d149cbe0a42fef03bc3993f10ed44aa8451c4bb",
+      "counted": true
+    },
+    {
+      "path": "proofs/Rheon/Transport.lean",
+      "language": "Lean",
+      "bytes": 2365,
+      "sha256": "f967e593db1df0ec945ea6830e67b991e56da168e9f6e3f2d42c4c5866c5cf06",
+      "counted": true
+    },
+    {
+      "path": "proofs/Rheon/WallFriction.lean",
+      "language": "Lean",
+      "bytes": 1851,
+      "sha256": "3aa15f9e4b5881181cdf438c88774a5eec29feb1a849b0329f0f95c34fa551e7",
+      "counted": true
+    },
+    {
+      "path": "proofs/scripts/check_sources.py",
+      "language": "Python",
+      "bytes": 2115,
+      "sha256": "a230cec2ed8882904524f12b11eb644d9120da46b9b71c95d45fbb313466402e",
+      "counted": true
+    },
+    {
+      "path": "proofs/scripts/test_audit.py",
+      "language": "Python",
+      "bytes": 1363,
+      "sha256": "7c2116a269c0dd04ce44123a737c3de7d4fb40980436a83fff6da77b17656b5d",
+      "counted": true
+    },
+    {
+      "path": "proofs/scripts/test_bootstrap.py",
+      "language": "Python",
+      "bytes": 2799,
+      "sha256": "08d2ead62ec79e0bdf5349223de6277610b42119db510aec808d1ec27924f041",
+      "counted": true
+    },
+    {
+      "path": "proofs/scripts/test_check_sources.py",
+      "language": "Python",
+      "bytes": 5986,
+      "sha256": "e53304e8bcb0b11a61e434d2e8be39e0b42e37a11d82af689423e97777ba4899",
+      "counted": true
+    },
+    {
+      "path": "src/advection.rs",
+      "language": "Rust",
+      "bytes": 8961,
+      "sha256": "0163a872c314b2b3bb7f732348aafdbfa7b162dceea74807b7e7e3eb60ab0849",
+      "counted": true
+    },
+    {
+      "path": "src/aligned_strain.rs",
+      "language": "Rust",
+      "bytes": 22750,
+      "sha256": "1541bc444d1b098c5a59a221b7068538b013362db46ed66e37eb4931ad425e4f",
+      "counted": true
+    },
+    {
+      "path": "src/bin/desktop/history.rs",
+      "language": "Rust",
+      "bytes": 12270,
+      "sha256": "206b3917fa56920a168563c4ad942235b0b29c67f703f9783775a8bdc9e5784d",
+      "counted": true
+    },
+    {
+      "path": "src/bin/desktop/settings.rs",
+      "language": "Rust",
+      "bytes": 10582,
+      "sha256": "d66735427fc8b6be57d93812d30fb4b8c357419acd70b7b0564aa48216bb2660",
+      "counted": true
+    },
+    {
+      "path": "src/bin/desktop/viewport.rs",
+      "language": "Rust",
+      "bytes": 25204,
+      "sha256": "a96d99bbe8b61c7c8d108ba3eeaeea849be64d3c46eebb6fb5811de1a19e80c8",
+      "counted": true
+    },
+    {
+      "path": "src/bin/rheon-desktop.rs",
+      "language": "Rust",
+      "bytes": 55382,
+      "sha256": "d8666343a57194be097110573b1663767c68b3a1ab8bd0d67b4623c312c23ca4",
+      "counted": true
+    },
+    {
+      "path": "src/bin/rheon.rs",
+      "language": "Rust",
+      "bytes": 9168,
+      "sha256": "93f662452c3d9208bc130d17a4266f65981228f621566dade274a90b899a5547",
+      "counted": true
+    },
+    {
+      "path": "src/box_flux.rs",
+      "language": "Rust",
+      "bytes": 17346,
+      "sha256": "554b3cdc916e7527bbfdbd6a54b8cf7e27549c3c661015b259c8b2d18784bbb0",
+      "counted": true
+    },
+    {
+      "path": "src/box_flux_step.rs",
+      "language": "Rust",
+      "bytes": 5487,
+      "sha256": "e2ef3afcd8adffe0f79c0030eb56e5bb55943775e474a1dab2a7fe78ac38441b",
+      "counted": true
+    },
+    {
+      "path": "src/collision.rs",
+      "language": "Rust",
+      "bytes": 12262,
+      "sha256": "101c91ced5efc250f3a12bc47d5bbf04b812096caf8580c0229362e959839115",
+      "counted": true
+    },
+    {
+      "path": "src/column_mac.rs",
+      "language": "Rust",
+      "bytes": 35637,
+      "sha256": "40b86c5bab2d458c8b31b1f8def21c5f715acecb37813fb57417f7fe363aca84",
+      "counted": true
+    },
+    {
+      "path": "src/column_momentum.rs",
+      "language": "Rust",
+      "bytes": 22078,
+      "sha256": "373f63ac001fe8e9f8017a912033b3cc431169c6e4c86c2e6b514ee945f1f9b0",
+      "counted": true
+    },
+    {
+      "path": "src/column_shear.rs",
+      "language": "Rust",
+      "bytes": 37106,
+      "sha256": "bd2a20a11f927c2a886b524a4a45791100f9c3e8119b7648153b7775cb6a3299",
+      "counted": true
+    },
+    {
+      "path": "src/column_surface.rs",
+      "language": "Rust",
+      "bytes": 15155,
+      "sha256": "cd58d4d7d1c3d94092374ebd65fd191e3cf58f7ae68caeaf30ca15d36df666e0",
+      "counted": true
+    },
+    {
+      "path": "src/coupled_discrete.rs",
+      "language": "Rust",
+      "bytes": 61268,
+      "sha256": "b296021b8dd2f763b6eeab1e49e78bf06ec2ec801ac9595441e9e3920235d8e7",
+      "counted": true
+    },
+    {
+      "path": "src/dense3d_sequence.rs",
+      "language": "Rust",
+      "bytes": 20084,
+      "sha256": "90e9249fd82cc829a84cea9162d680971e660bfc6c32619355b353d17b25a431",
+      "counted": true
+    },
+    {
+      "path": "src/emitter.rs",
+      "language": "Rust",
+      "bytes": 8368,
+      "sha256": "cd30d73dc6532c1af7017816b364af532c8c00ca0b1f40fbef90324d135451e2",
+      "counted": true
+    },
+    {
+      "path": "src/export.rs",
+      "language": "Rust",
+      "bytes": 4681,
+      "sha256": "afe2b79d11f1b8c0ccd16dcaae51a22c8d35ba2e7a23c362729fe907b208f0d3",
+      "counted": true
+    },
+    {
+      "path": "src/fitted_height.rs",
+      "language": "Rust",
+      "bytes": 48528,
+      "sha256": "0181db7ffbad932b7e3492ce1a8e260736389e4ded3472c81fe2697861f6777a",
+      "counted": true
+    },
+    {
+      "path": "src/fixed_bottom_ale.rs",
+      "language": "Rust",
+      "bytes": 28202,
+      "sha256": "3cc724d376d115fccd8b6c658d7f26b6436f4d13d105a5ae8416fd9c04b17a47",
+      "counted": true
+    },
+    {
+      "path": "src/forces.rs",
+      "language": "Rust",
+      "bytes": 7828,
+      "sha256": "c5585940330096890016ff68f25645aa12cdaec2b796a8b234c138e88dd892bb",
+      "counted": true
+    },
+    {
+      "path": "src/free_surface.rs",
+      "language": "Rust",
+      "bytes": 3639,
+      "sha256": "f43fd9a71da6aac985dfcfb6cc471318227c1727d6e0dad8e2a5feb5b3728a8e",
+      "counted": true
+    },
+    {
+      "path": "src/geometry.rs",
+      "language": "Rust",
+      "bytes": 10418,
+      "sha256": "882ff1af358417a18c00ed8058a9138362d019c6bcc97c0687959d819cc76af2",
+      "counted": true
+    },
+    {
+      "path": "src/lib.rs",
+      "language": "Rust",
+      "bytes": 6219,
+      "sha256": "0cf223a96606280e56e27c7a5b7f82250edbd663f50adb4e2b42dfd737d8a085",
+      "counted": true
+    },
+    {
+      "path": "src/liquid_step.rs",
+      "language": "Rust",
+      "bytes": 27052,
+      "sha256": "00f190f64f58ee40eddb2a85f9b8e01e74a7137ba6b0842b5f2de9abc458183c",
+      "counted": true
+    },
+    {
+      "path": "src/liquid_volume.rs",
+      "language": "Rust",
+      "bytes": 29752,
+      "sha256": "24623038f62261ce6a17b034e9b6d82c5f0aba02dd0df7aad174c885ed2a8c96",
+      "counted": true
+    },
+    {
+      "path": "src/material.rs",
+      "language": "Rust",
+      "bytes": 7103,
+      "sha256": "49874ff972f16a972d706236b34e62f83e994c57e39b642c6d94a1a6f4b7fb66",
+      "counted": true
+    },
+    {
+      "path": "src/motion.rs",
+      "language": "Rust",
+      "bytes": 6031,
+      "sha256": "8ab9f26199f36d76cb2f5e4cb58d40905205f0d6fc90988549f7e389c489a3ea",
+      "counted": true
+    },
+    {
+      "path": "src/observation.rs",
+      "language": "Rust",
+      "bytes": 6669,
+      "sha256": "2c6d4cd75cdb0f2d560d0f79df4e53914e10f340de0740b939311d8cc35d5dee",
+      "counted": true
+    },
+    {
+      "path": "src/obstacle_pressure.rs",
+      "language": "Rust",
+      "bytes": 24077,
+      "sha256": "b45262632483ce08773924b407eeffbe99bd62663094ce6fd71b24d132026b07",
+      "counted": true
+    },
+    {
+      "path": "src/obstacle_shear.rs",
+      "language": "Rust",
+      "bytes": 16421,
+      "sha256": "745da07d5e949276a2e0cb7ac4bdde4aedf557bf6189d5a51581d8ce79b1dc1f",
+      "counted": true
+    },
+    {
+      "path": "src/operator.rs",
+      "language": "Rust",
+      "bytes": 29555,
+      "sha256": "cd98684d5204908e5344b2628a8f93ea2a55a90c6678e03a71f2d75ab1f2be38",
+      "counted": true
+    },
+    {
+      "path": "src/parallel.rs",
+      "language": "Rust",
+      "bytes": 5488,
+      "sha256": "ee5420673a59ae4fb247b3542878e74902f7a87056744d4303fb400be074677e",
+      "counted": true
+    },
+    {
+      "path": "src/particle_fluid.rs",
+      "language": "Rust",
+      "bytes": 39581,
+      "sha256": "014d194ce9e622ce56620c8b06558051f678785e7ae6682c62ac5debf49f4480",
+      "counted": true
+    },
+    {
+      "path": "src/pressure.rs",
+      "language": "Rust",
+      "bytes": 28790,
+      "sha256": "39ddb79dd3de196e83545679e556c0cd8ce9afae9db9282161f54b8f22f713a5",
+      "counted": true
+    },
+    {
+      "path": "src/sampling.rs",
+      "language": "Rust",
+      "bytes": 6347,
+      "sha256": "6bf158f71f795078b5a88a5662ec2169693508e555f0f98d539657873aaabbcf",
+      "counted": true
+    },
+    {
+      "path": "src/scheduling.rs",
+      "language": "Rust",
+      "bytes": 9467,
+      "sha256": "d6f4662c499415a16f91096fec7e03f73668bd6b0ae1668b014d9d00bee6403b",
+      "counted": true
+    },
+    {
+      "path": "src/sgs.rs",
+      "language": "Rust",
+      "bytes": 9318,
+      "sha256": "9208311eb376febbfcdb0664bbcc7614771ada7abed841620485bfe4b2a2a35b",
+      "counted": true
+    },
+    {
+      "path": "src/simulation.rs",
+      "language": "Rust",
+      "bytes": 37721,
+      "sha256": "cd4e28c228e386d2d49492cd1ad0a6a90bdc70322e4055329efb5d63eae0a7fc",
+      "counted": true
+    },
+    {
+      "path": "src/static_obstacle.rs",
+      "language": "Rust",
+      "bytes": 18098,
+      "sha256": "df50f3761fd7258ca42026ba852d2c326a1a5efa42daa4021967b799493b1080",
+      "counted": true
+    },
+    {
+      "path": "src/tracer_barrier.rs",
+      "language": "Rust",
+      "bytes": 9936,
+      "sha256": "1007f35400b5e1b3206653b9f9ccaafbc169617ad896aec54f94fc792eba2fae",
+      "counted": true
+    },
+    {
+      "path": "src/translated_viscous.rs",
+      "language": "Rust",
+      "bytes": 29473,
+      "sha256": "6fa240053738411bb93b3e365def39fdc8a93597cd0c0523dcd1af39cbc68163",
+      "counted": true
+    },
+    {
+      "path": "src/viscosity.rs",
+      "language": "Rust",
+      "bytes": 15726,
+      "sha256": "3cb7643d321fa94957fafdc101abf0ee9ef273f99c9a512938124e72f32178aa",
+      "counted": true
+    },
+    {
+      "path": "tests/advection_contract.rs",
+      "language": "Rust",
+      "bytes": 4293,
+      "sha256": "2e6c78e51d457bfe0cda4972dbfec5677e9e3a5e4f42a8647aec8aa1f4b73f2d",
+      "counted": true
+    },
+    {
+      "path": "tests/aligned_strain_contract.rs",
+      "language": "Rust",
+      "bytes": 12213,
+      "sha256": "d2270f86bd04c36501b59f01772656bda264d2c70b8613429701a268a305da16",
+      "counted": true
+    },
+    {
+      "path": "tests/box_flux_contract.rs",
+      "language": "Rust",
+      "bytes": 21542,
+      "sha256": "d3a23e9ae3973044183d22c5dbc9b2a00c2d0d731cae1777426337310949133d",
+      "counted": true
+    },
+    {
+      "path": "tests/box_flux_step_contract.rs",
+      "language": "Rust",
+      "bytes": 23582,
+      "sha256": "4adc5ddf0e878cffc3e70b47bcb0f98cad07aef4489a41f9fa7d1695304bd94f",
+      "counted": true
+    },
+    {
+      "path": "tests/cli_contract.rs",
+      "language": "Rust",
+      "bytes": 5193,
+      "sha256": "5eaaa71ff975102bea4585c7b79768397b5a5c9d87953282a880dd7eb2fe2b8a",
+      "counted": true
+    },
+    {
+      "path": "tests/collision_contract.rs",
+      "language": "Rust",
+      "bytes": 14667,
+      "sha256": "8625b6a0d01271b90f17fd22b0ea4f5d0869827fad6537720fb631ce565367ac",
+      "counted": true
+    },
+    {
+      "path": "tests/column_mac_contract.rs",
+      "language": "Rust",
+      "bytes": 23553,
+      "sha256": "3fc23b6ff935696bb96082e824cc1a5c2cfe32821559074f6ec00b3b8000afdf",
+      "counted": true
+    },
+    {
+      "path": "tests/column_momentum_contract.rs",
+      "language": "Rust",
+      "bytes": 14152,
+      "sha256": "4ea859692dc437e98bdce6fc3fdfb55a8821ffc52699c8a7596ddc7d75e8aec7",
+      "counted": true
+    },
+    {
+      "path": "tests/column_shear_contract.rs",
+      "language": "Rust",
+      "bytes": 48884,
+      "sha256": "466dab4d7dd6cfa464de3428da8b0b9aadfb3a2699810ca302e9bec90db62f12",
+      "counted": true
+    },
+    {
+      "path": "tests/column_surface_contract.rs",
+      "language": "Rust",
+      "bytes": 20247,
+      "sha256": "515f39b3bf06fe23c1115201cefa1d4f1d69660ce4298daf3d4b7e16f5844759",
+      "counted": true
+    },
+    {
+      "path": "tests/coupled_discrete_contract.rs",
+      "language": "Rust",
+      "bytes": 8944,
+      "sha256": "3a730e8dbeaf8fd81a19eee5717b4719f62af83e42c395691535a1ed6f1a0116",
+      "counted": true
+    },
+    {
+      "path": "tests/dense3d_controls_contract.rs",
+      "language": "Rust",
+      "bytes": 15542,
+      "sha256": "678058ce656cde9d0b8c5f3ac9de4da5a81ca3f76d5003c1954ff3929d964625",
+      "counted": true
+    },
+    {
+      "path": "tests/dense3d_sequence_contract.rs",
+      "language": "Rust",
+      "bytes": 19273,
+      "sha256": "016ba99a4a234ced02a1613d5cc4af6072f3e070f185bf8ad25ca73202b128a7",
+      "counted": true
+    },
+    {
+      "path": "tests/emitter_contract.rs",
+      "language": "Rust",
+      "bytes": 3338,
+      "sha256": "9288b53744ff31fb4e338be13d8b4e9e68ea58aec2e78a15d5aa8850da0a9d4d",
+      "counted": true
+    },
+    {
+      "path": "tests/export_contract.rs",
+      "language": "Rust",
+      "bytes": 1199,
+      "sha256": "299ace3dc49a9990b52cd2ee55c974769c3acda5fc9ce43331fdb0cbfd34c070",
+      "counted": true
+    },
+    {
+      "path": "tests/extruded_third_contract.rs",
+      "language": "Rust",
+      "bytes": 10602,
+      "sha256": "19968c75c9dd95c1c19cc2a4f6a605d4a047bc20290562fe693fc7e8b628fbe2",
+      "counted": true
+    },
+    {
+      "path": "tests/fitted_height_contract.rs",
+      "language": "Rust",
+      "bytes": 21420,
+      "sha256": "391e6d3c992442a5a3a2e38f4d1304a20602047808831bd873567b1d8224a61f",
+      "counted": true
+    },
+    {
+      "path": "tests/fixed_bottom_ale_contract.rs",
+      "language": "Rust",
+      "bytes": 9344,
+      "sha256": "006968122943cd48290f302cdc33115d7c40058d992f8f38df1d5fbf28f57289",
+      "counted": true
+    },
+    {
+      "path": "tests/forces_contract.rs",
+      "language": "Rust",
+      "bytes": 13633,
+      "sha256": "b8a5da48feab2eef82cc1600945cc30ff15082c0b447d8b5eb0c635821cf27eb",
+      "counted": true
+    },
+    {
+      "path": "tests/free_surface_contract.rs",
+      "language": "Rust",
+      "bytes": 16199,
+      "sha256": "8f9584c26f7a816bb53f15bb70ddec168c0949adf9ad7847ad2edcfb0af40e9d",
+      "counted": true
+    },
+    {
+      "path": "tests/geometry_contract.rs",
+      "language": "Rust",
+      "bytes": 4339,
+      "sha256": "5b44f1c75958abf3073e6c168ebc44a3951f72052db0c31b1a2b4a49a7d16cf8",
+      "counted": true
+    },
+    {
+      "path": "tests/implementation_contract.rs",
+      "language": "Rust",
+      "bytes": 6301,
+      "sha256": "e8b3b88536bd5d38dfda7d1454e916277e5314bbb9410bda81630faffe76c621",
+      "counted": true
+    },
+    {
+      "path": "tests/liquid_scale_division_contract.rs",
+      "language": "Rust",
+      "bytes": 2797,
+      "sha256": "dede02f6a5fc9eff67d87814b1845bfc6295c7a22098121217fee70822a4c3fb",
+      "counted": true
+    },
+    {
+      "path": "tests/liquid_step_contract.rs",
+      "language": "Rust",
+      "bytes": 15658,
+      "sha256": "e1aa67f673de131f97a1be651221db3f74a8beeed105076532ceeac2b92b5b12",
+      "counted": true
+    },
+    {
+      "path": "tests/liquid_volume_contract.rs",
+      "language": "Rust",
+      "bytes": 28424,
+      "sha256": "9eac2c3feedf24efd3e34f1651ead5ea14f036dbfb238af829650d5b77006ec2",
+      "counted": true
+    },
+    {
+      "path": "tests/material_contract.rs",
+      "language": "Rust",
+      "bytes": 10486,
+      "sha256": "c5a1e89205b6cb65df69a1c10fa905f85d5efa6bc11c591211d509cb40161257",
+      "counted": true
+    },
+    {
+      "path": "tests/observation_contract.rs",
+      "language": "Rust",
+      "bytes": 2355,
+      "sha256": "54a89d2df244839dec1931cde92117cf1bb832ffb0b6eb2ca32ca9ec28a8f7ed",
+      "counted": true
+    },
+    {
+      "path": "tests/obstacle_flow_contract.rs",
+      "language": "Rust",
+      "bytes": 17654,
+      "sha256": "7e5318ca45b6932818accfc748cc70ae6cf1719f6047c2d2f9343eb8cedcd020",
+      "counted": true
+    },
+    {
+      "path": "tests/operator_contract.rs",
+      "language": "Rust",
+      "bytes": 3742,
+      "sha256": "b0ea207c02df69aed1f5f3eb6abda8fdeb245b271c325b383c3748d945c5095e",
+      "counted": true
+    },
+    {
+      "path": "tests/parallel_contract.rs",
+      "language": "Rust",
+      "bytes": 6972,
+      "sha256": "b91c7c87698c1a7b1d3b92c7b252781d96616df37c8a6ef391d4229a251668f2",
+      "counted": true
+    },
+    {
+      "path": "tests/pressure_contract.rs",
+      "language": "Rust",
+      "bytes": 10147,
+      "sha256": "f343f7f23965d963df8d734d624c63b12acaf165936ba2635e1b71816ee16c91",
+      "counted": true
+    },
+    {
+      "path": "tests/sampling_contract.rs",
+      "language": "Rust",
+      "bytes": 2908,
+      "sha256": "3e99ff52088aa37d4043453a57c82bbe6de0da84e990796df76a3453f1ae004d",
+      "counted": true
+    },
+    {
+      "path": "tests/simulation_contract.rs",
+      "language": "Rust",
+      "bytes": 7545,
+      "sha256": "f81fb0696307aa07abba0d8b44316430aeab19317c57d38db3222cdc9e33ddc6",
+      "counted": true
+    },
+    {
+      "path": "tests/static_obstacle_contract.rs",
+      "language": "Rust",
+      "bytes": 9794,
+      "sha256": "fcc7546886b865ada1641dd7ee3549534f2273d908c19047d886c49a048157de",
+      "counted": true
+    },
+    {
+      "path": "tests/tracer_barrier_contract.rs",
+      "language": "Rust",
+      "bytes": 15648,
+      "sha256": "433edf41b549171f3a3c412e6d9233345f4ca8f45e6f5ebe5468638d3db9aca8",
+      "counted": true
+    },
+    {
+      "path": "tests/translated_viscous_contract.rs",
+      "language": "Rust",
+      "bytes": 8782,
+      "sha256": "d6fda116af1ae38a3e9216b97136562c144bfe1a5269734d002c3117c9b65e79",
+      "counted": true
+    },
+    {
+      "path": "tests/translation_contract.rs",
+      "language": "Rust",
+      "bytes": 12063,
+      "sha256": "e1fd504cb399b313bbb1df752f79e72cb51556c5af6d85dbb91cb5c690fb5c8d",
+      "counted": true
+    },
+    {
+      "path": "tests/viscosity_contract.rs",
+      "language": "Rust",
+      "bytes": 16747,
+      "sha256": "b716ef20283784d9a61bc95702c97c30c8e7d00c80f95530c46d27e667586c9d",
+      "counted": true
+    },
+    {
+      "path": "tools/aligned_strain_oracle.py",
+      "language": "Python",
+      "bytes": 19002,
+      "sha256": "902fbbf5fc94b93cfc490a9646eaa4e2233262e704121ea49f4fe6a5ab9744a5",
+      "counted": true
+    },
+    {
+      "path": "tools/export_dense3d_sequence.py",
+      "language": "Python",
+      "bytes": 11475,
+      "sha256": "e9ec082113536e62f019d7ec4c51519719940b6ff4a584c9b1a5faf386253ec1",
+      "counted": true
+    },
+    {
+      "path": "tools/generated_fixtures.py",
+      "language": "Python",
+      "bytes": 3735,
+      "sha256": "09ba81c54209e5896b9d840cd42192716e5008e0a1004533359b3c34cf4ef791",
+      "counted": true
+    },
+    {
+      "path": "tools/import_dense3d_controls.py",
+      "language": "Python",
+      "bytes": 9759,
+      "sha256": "215f98241e01a6fb099b5b1b8789e00c951988e1382438afbd45cfbb7e1c4c43",
+      "counted": true
+    },
+    {
+      "path": "tools/import_dense3d_sequence.py",
+      "language": "Python",
+      "bytes": 16866,
+      "sha256": "5c41f3a3c848940191d05d9b5b01a2a398b0d2a67f23c603ab8e918897bd3b55",
+      "counted": true
+    },
+    {
+      "path": "tools/qualify_aligned_strain.py",
+      "language": "Python",
+      "bytes": 9126,
+      "sha256": "5b907d7d65f688b41b5c56a2c2f3f2f4cc4a4b7958a4bb3af1a7df5ac448e5ba",
+      "counted": true
+    },
+    {
+      "path": "tools/qualify_dense3d_controls.py",
+      "language": "Python",
+      "bytes": 9006,
+      "sha256": "b835bd06ec16ec0be2a7e561f726ce8d2ab814eaf50247851fc3d68577a041ea",
+      "counted": true
+    },
+    {
+      "path": "tools/rheon_compare.py",
+      "language": "Python",
+      "bytes": 19640,
+      "sha256": "085c93855dffaaeab49afbacc177198094f29cbb849b66a1218364077778a396",
+      "counted": true
+    },
+    {
+      "path": "tools/test_aligned_strain_oracle.py",
+      "language": "Python",
+      "bytes": 12003,
+      "sha256": "4dff74ceef758cc492d6a67f0ef0598a4221b87183f6fb033db591611aca3a3f",
+      "counted": true
+    },
+    {
+      "path": "tools/test_column_interface_verifier.py",
+      "language": "Python",
+      "bytes": 13796,
+      "sha256": "6c03164b1ea16a7c9cf357b0e922cf6396b4f47d337a02188727c1bb0ce64b59",
+      "counted": true
+    },
+    {
+      "path": "tools/test_column_mac_verifier.py",
+      "language": "Python",
+      "bytes": 4635,
+      "sha256": "f0c0ab7ac8de2f58b44a011d7e969cffb09fe5efb8982267ff0206662bfd4b1c",
+      "counted": true
+    },
+    {
+      "path": "tools/test_column_momentum_verifier.py",
+      "language": "Python",
+      "bytes": 3592,
+      "sha256": "af4a90074eca2115ea00d8dc6173663dd1ebbf9855c320a7ed7b022e6f38667b",
+      "counted": true
+    },
+    {
+      "path": "tools/test_column_shear_verifier.py",
+      "language": "Python",
+      "bytes": 4535,
+      "sha256": "530e3e4ee469c7b6d94381970dac5ae8672f89b053a61a5e06af0d3f95cd8060",
+      "counted": true
+    },
+    {
+      "path": "tools/test_dense3d_controls_export.py",
+      "language": "Python",
+      "bytes": 10570,
+      "sha256": "da490cb894feca9b2c8647828ef19824a1c8be0c6f4e2d08bdf264563bf82962",
+      "counted": true
+    },
+    {
+      "path": "tools/test_dense3d_controls_import.py",
+      "language": "Python",
+      "bytes": 18732,
+      "sha256": "fa940190bac55ce4955f2046e857d52b336442e9edecabbf5653afedf0eb828f",
+      "counted": true
+    },
+    {
+      "path": "tools/test_dense3d_sequence_export.py",
+      "language": "Python",
+      "bytes": 11097,
+      "sha256": "8dc654fffb11476697baa01ecec17f30e5d36ceadfb70f8404ef280d5e9135d1",
+      "counted": true
+    },
+    {
+      "path": "tools/test_dense3d_sequence_import.py",
+      "language": "Python",
+      "bytes": 13878,
+      "sha256": "fa43af4815ee64676df772b19f4647378e44d18b34a7116ab638d5643ce0b743",
+      "counted": true
+    },
+    {
+      "path": "tools/test_free_surface_verifier.py",
+      "language": "Python",
+      "bytes": 2952,
+      "sha256": "c9bb52cfde9431f58d9201525fd2a05c8c334066253fd67a07ab58e7ecd60f83",
+      "counted": true
+    },
+    {
+      "path": "tools/test_liquid_transport_verifier.py",
+      "language": "Python",
+      "bytes": 2475,
+      "sha256": "6436a3f60789835ade0d9e292bb8366f05a51af3ce102b781cf11e0f3189e225",
+      "counted": true
+    },
+    {
+      "path": "tools/test_qualify_aligned_strain.py",
+      "language": "Python",
+      "bytes": 4547,
+      "sha256": "48e0f89d4a12e4d2b8a4a374b36a8bdcf8b2d0250ab449df93ca188d410673db",
+      "counted": true
+    },
+    {
+      "path": "tools/test_repository_hygiene.py",
+      "language": "Python",
+      "bytes": 8164,
+      "sha256": "f016816b167e4519ca14f07f5f05d1e268fc971a8aa1785b2fe9947ac2b5f092",
+      "counted": true
+    },
+    {
+      "path": "tools/test_result_qualification.py",
+      "language": "Python",
+      "bytes": 14443,
+      "sha256": "72009dbd5d378d18de0459d917faa24647e6c9dbdf6b68bfe9d523f73f20e36c",
+      "counted": true
+    },
+    {
+      "path": "tools/test_rheon_compare.py",
+      "language": "Python",
+      "bytes": 8111,
+      "sha256": "8e32da5ad5c0f07796fc9987b1faa9dbc22595b764a83988b0e47b41a759e7a1",
+      "counted": true
+    },
+    {
+      "path": "tools/test_viscosity_verifier.py",
+      "language": "Python",
+      "bytes": 4069,
+      "sha256": "6da78d7af13cae2991797ed8695d849e7ed6dbf247bf34c65f6f24f6236c42e6",
+      "counted": true
+    },
+    {
+      "path": "tools/verify_column_interface.py",
+      "language": "Python",
+      "bytes": 13825,
+      "sha256": "b4e822ec7977c9a3145b4a299532e09453a1c400163360e35a09306a6860e13c",
+      "counted": true
+    },
+    {
+      "path": "tools/verify_column_mac.py",
+      "language": "Python",
+      "bytes": 22418,
+      "sha256": "652787bb2b1fff64773f0c15e1e291ac8c5333d593781fb99f6729cbb278c825",
+      "counted": true
+    },
+    {
+      "path": "tools/verify_column_momentum.py",
+      "language": "Python",
+      "bytes": 11616,
+      "sha256": "9b70b8574ad078485741b62bb66c628b14ef58161f73f0e1482690bdaac313e8",
+      "counted": true
+    },
+    {
+      "path": "tools/verify_column_shear.py",
+      "language": "Python",
+      "bytes": 12577,
+      "sha256": "189ab0906295aba19137792d4c7f88632a59ea03d742a77fd6d53e0d467d6722",
+      "counted": true
+    },
+    {
+      "path": "tools/verify_free_surface.py",
+      "language": "Python",
+      "bytes": 7580,
+      "sha256": "ea855a2e793f4cbac96bf5acfbc81ea4d43bd9935ffb90ca26cf4e7d67899b2b",
+      "counted": true
+    },
+    {
+      "path": "tools/verify_liquid_transport.py",
+      "language": "Python",
+      "bytes": 3440,
+      "sha256": "4100783fe1012705f49dbb24eb18333b92e7d540f07375cb72a041d08e3bce2b",
+      "counted": true
+    },
+    {
+      "path": "tools/verify_viscosity.py",
+      "language": "Python",
+      "bytes": 10213,
+      "sha256": "68b8594e952e621b677cb3059f2ffd89c7e94a2eac54b2a86f2e1eaf17f94180",
+      "counted": true
+    }
+  ],
+  "explicit_exclusions_already_omitted_by_linguist": []
+}

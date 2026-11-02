@@ -1,0 +1,155 @@
+{
+  "basis": "Reviewed public runtime content only; canonical and previously published asset URLs retained separately during deployment.",
+  "files": [
+    {
+      "path": ".nojekyll",
+      "bytes": 1,
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "path": "assets/Lanternwake_2026-10-07_13-43-35.jpg",
+      "bytes": 178815,
+      "sha256": "ab4fe6f43ae12109f3858fe66eb54868617efe86fcade84a7bb571c64e1dcbcc"
+    },
+    {
+      "path": "assets/PumasLibrary_search_v0.8.0.png",
+      "bytes": 568995,
+      "sha256": "174078d0e2f58d26b687ff0c82291150fbb300df9f81f8b435926ee093bbec87"
+    },
+    {
+      "path": "assets/Rheon_algo_to_AI.jpg",
+      "bytes": 168394,
+      "sha256": "8d71c81835beabc2df4f6bd36158e6482d55e7b34457015a3fa10e3245dbce1f"
+    },
+    {
+      "path": "assets/book-be-gone_ocr.jpg",
+      "bytes": 416328,
+      "sha256": "eaefc20b598d732f34f96b213f06e0720c2c19a415ecf950b68bf81215d2e05b"
+    },
+    {
+      "path": "assets/book-be-gone_scan.jpg",
+      "bytes": 206599,
+      "sha256": "5d8d069abc099c531abe5787a056d35b0dce2421f6cbce18cb24f489916aa971"
+    },
+    {
+      "path": "assets/books/dataset-production.webp",
+      "bytes": 78962,
+      "sha256": "409e4b54266a9332a21cebf174ae475c38ba7816c958c8bbdcd724edb35ce9cc"
+    },
+    {
+      "path": "assets/books/practical-data-analysis.png",
+      "bytes": 2894195,
+      "sha256": "01b260cb41f45041225fe3c688b7d72023a0343755ae1551147b73b07a011354"
+    },
+    {
+      "path": "assets/books/training-your-own-models.png",
+      "bytes": 2562722,
+      "sha256": "c898632b6a199d4692bc66b7f7f518eed32e759848c7ec7acc87a0613e27066e"
+    },
+    {
+      "path": "assets/eidetic-screenplay-timeline.png",
+      "bytes": 121185,
+      "sha256": "d8f85a18ac887ad5821e944eade2efa7f987bcff72ec9c7e767d87580812db16"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 222,
+      "sha256": "ea2e9a4ff524321d9b483921bedad7347333c4ecb28fa186ebf3020092460d5c"
+    },
+    {
+      "path": "assets/icons/eidetic-icon.png",
+      "bytes": 122910,
+      "sha256": "7b063a49f521c4d54fc69e8704cd58f06455b07437e9e9acc6419c376e9e0a86"
+    },
+    {
+      "path": "assets/icons/pantograph-icon.png",
+      "bytes": 128309,
+      "sha256": "c7ce58f4acbda8c9af51ee663e65d8b3e5275a691f1c53b65c1fa598a013df62"
+    },
+    {
+      "path": "assets/icons/pumas-icon.png",
+      "bytes": 262877,
+      "sha256": "3e9f4267db33be64bf3552bb1a92677c060a3f6dd87eeafb8cc3956697403638"
+    },
+    {
+      "path": "assets/kenoma-held-anatomy-scene.png",
+      "bytes": 68419,
+      "sha256": "f5447eaa7a86935156a347d2fee3bc9f6bfdf03844749fb98fb72b94466caa20"
+    },
+    {
+      "path": "assets/kenoma-two-character-scene.png",
+      "bytes": 205238,
+      "sha256": "4ae8f7458f541e1c818ba10cbbdd6383c11851e9e7d8a11a792dbaca1e1c51bc"
+    },
+    {
+      "path": "assets/language-stats.json",
+      "bytes": 88203,
+      "sha256": "425bc951a79a80ee66e23255308967f8555a3ae724f65cee7ea2dcda3aa3b593"
+    },
+    {
+      "path": "assets/pantograph-inference-multibranch-diagnostics.png",
+      "bytes": 405579,
+      "sha256": "797ea7038a733dc481b696bef4af498edfa3bde801c0d6e89f8eb4ab1cc3e07e"
+    },
+    {
+      "path": "assets/pantograph-inference-multibranch-graph-completed.png",
+      "bytes": 367830,
+      "sha256": "d48e36d267e76407b551513abe47a521ded832b88de1f109fa33e5bb1dd0dcac"
+    },
+    {
+      "path": "assets/pantograph-inference-multibranch-retained-output.png",
+      "bytes": 160801,
+      "sha256": "21f74817ab9ee4d53699954ac1fb135de8a0fd9de314f8ddbdbb15a79f82421a"
+    },
+    {
+      "path": "assets/pantograph-inference-multibranch-scheduler.png",
+      "bytes": 190053,
+      "sha256": "7bfa03d810b4724483a26c5eb8f5be43639e57f9178ba37cf68a47cd47a74b66"
+    },
+    {
+      "path": "assets/rheon.jpg",
+      "bytes": 208749,
+      "sha256": "8666fc09c0712641db67c57db4de5de4e33f8d0e076acb6249b981e94953cf42"
+    },
+    {
+      "path": "assets/tuldok-workspace-results.jpg",
+      "bytes": 102800,
+      "sha256": "34fdf853af386eec516d6e026930d98fd80256ec0545b6c9b299e4f4d7e20487"
+    },
+    {
+      "path": "assets/whip-docs-expanded-symbols.png",
+      "bytes": 241724,
+      "sha256": "34637384262df566250c2d781fcf0c1cdd297338efa5dab0e1692540d558dfb9"
+    },
+    {
+      "path": "assets/whip-docs-file-graph.png",
+      "bytes": 131462,
+      "sha256": "a27901eb2ef095dbd4c0a178bcf0e66de8f39be3039a7e7c060bdf79796d04f8"
+    },
+    {
+      "path": "image-credits.html",
+      "bytes": 1136,
+      "sha256": "2ab01dab99d9d9367305800bfea0761aa0b7a937b9b9dcf09c81051317957fb8"
+    },
+    {
+      "path": "index.html",
+      "bytes": 66257,
+      "sha256": "904b95097f700239068ca3001ed7767a53414a7d14f6550a6cf3332ec370b364"
+    },
+    {
+      "path": "puma.jpg",
+      "bytes": 185254,
+      "sha256": "661bb77b05d56cf01ad0eba0bb108fee297d99f3c13009ebc8906467a04b5e19"
+    },
+    {
+      "path": "script.9ce4ad0e82d9.js",
+      "bytes": 8842,
+      "sha256": "9ce4ad0e82d932a3b5fb96271df6c3ac03de2a0d49c45746ecc2311af8773277"
+    },
+    {
+      "path": "styles.309e3377b081.css",
+      "bytes": 29145,
+      "sha256": "309e3377b081521e49f53b8635a2f428046991fdee50597c1d50252ea941acae"
+    }
+  ]
+}

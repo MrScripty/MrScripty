@@ -1,0 +1,26 @@
+[
+  {
+    "file": "assets/books/dataset-production.webp",
+    "source_repository": "MrScripty/dataset-production",
+    "source_commit": "93613d638d6c6bb05c997b55033234a6147b63c3",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/dataset-production/93613d638d6c6bb05c997b55033234a6147b63c3/docs/assets/book-cover.webp",
+    "sha256": "409e4b54266a9332a21cebf174ae475c38ba7816c958c8bbdcd724edb35ce9cc",
+    "pixel_edits": "none"
+  },
+  {
+    "file": "assets/books/training-your-own-models.png",
+    "source_repository": "bc-ai-ecosystem/training-your-own-models",
+    "source_commit": "fb895e1a3e08fac86738106e6122bdcafb124e65",
+    "source_url": "https://raw.githubusercontent.com/bc-ai-ecosystem/training-your-own-models/fb895e1a3e08fac86738106e6122bdcafb124e65/docs/assets/cover.png",
+    "sha256": "c898632b6a199d4692bc66b7f7f518eed32e759848c7ec7acc87a0613e27066e",
+    "pixel_edits": "none"
+  },
+  {
+    "file": "assets/books/practical-data-analysis.png",
+    "source_repository": "MrScripty/practical-data-analysis",
+    "source_commit": "559737010a24b5cdb09e775e367e4c1a9e40ef02",
+    "source_url": "https://raw.githubusercontent.com/MrScripty/practical-data-analysis/559737010a24b5cdb09e775e367e4c1a9e40ef02/docs/assets/cover.png",
+    "sha256": "01b260cb41f45041225fe3c688b7d72023a0343755ae1551147b73b07a011354",
+    "pixel_edits": "none"
+  }
+]

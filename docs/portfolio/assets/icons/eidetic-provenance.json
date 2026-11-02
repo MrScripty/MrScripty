@@ -1,0 +1,17 @@
+{
+  "source_repository": "MrScripty/Eidetic",
+  "source_commit": "cc80011cbf631f7c4774c576ba879dfec1211c6a",
+  "source_path": "icon.png",
+  "source_url": "https://raw.githubusercontent.com/MrScripty/Eidetic/cc80011cbf631f7c4774c576ba879dfec1211c6a/icon.png",
+  "bytes": 122910,
+  "dimensions": [
+    512,
+    512
+  ],
+  "sha256": "7b063a49f521c4d54fc69e8704cd58f06455b07437e9e9acc6419c376e9e0a86",
+  "file": "assets/icons/eidetic-icon.png",
+  "pixel_edits": "none",
+  "visually_inspected": true,
+  "content": "Original silver E mark over a film reel on a dark rounded square",
+  "owner_confirmation": "Owner confirmed the previously unpublished icon was pushed as repository-root icon.png."
+}

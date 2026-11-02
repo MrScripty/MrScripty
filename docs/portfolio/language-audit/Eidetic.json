@@ -1,0 +1,4504 @@
+{
+  "repository": "MrScripty/Eidetic",
+  "source_commit": "cc80011cbf631f7c4774c576ba879dfec1211c6a",
+  "baseline_total_bytes": 4843800,
+  "authored_total_bytes": 4843800,
+  "baseline_languages": {
+    "Rust": 3354777,
+    "WGSL": 228,
+    "Shell": 22080,
+    "Python": 206872,
+    "JavaScript": 1984,
+    "CSS": 17002,
+    "HTML": 337,
+    "TypeScript": 925966,
+    "Svelte": 314554
+  },
+  "authored_languages": {
+    "Rust": 3354777,
+    "WGSL": 228,
+    "Shell": 22080,
+    "Python": 206872,
+    "JavaScript": 1984,
+    "CSS": 17002,
+    "HTML": 337,
+    "TypeScript": 925966,
+    "Svelte": 314554
+  },
+  "files": [
+    {
+      "path": "crates/bevy_bible_graph/src/category.rs",
+      "language": "Rust",
+      "bytes": 165,
+      "sha256": "5efda6cc5fbd0499073fdb756d4f91caebcc6012f9be65968ab128c814ab4937",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_bible_graph/src/lib.rs",
+      "language": "Rust",
+      "bytes": 18583,
+      "sha256": "dad9daa8139a69a00fdb9e2fa98f2db57d6ea98ef2a525c902f7496f0a4376b8",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_bible_graph/src/lib_tests.rs",
+      "language": "Rust",
+      "bytes": 80148,
+      "sha256": "94b0ac7b4ec3d1d8a325f64a1b2c81c1ca1be260326446ff8467ef92e2bb0f01",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_bible_graph/src/native_graph_material.wgsl",
+      "language": "WGSL",
+      "bytes": 228,
+      "sha256": "2346dbd05bd95bd8b0a42d7a74ac6c336d0e588795229b7ef8f9e47acca1486c",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_bible_graph/src/native_render.rs",
+      "language": "Rust",
+      "bytes": 109280,
+      "sha256": "c230800899d5eda1a8a47ed56d3553c53cce6a173370ca0a0d25bbb3e62264ac",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_bible_graph/src/native_text_editor.rs",
+      "language": "Rust",
+      "bytes": 5084,
+      "sha256": "697c8ae031221acd5a5af1dd7b0fd9a6cd40eaccc6f45879832d3bc3159d1c4d",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_bible_graph/src/scene.rs",
+      "language": "Rust",
+      "bytes": 4138,
+      "sha256": "274a065a5c2dd5808ed18757135fc912721555cf8ae171856949716112cbd25d",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_bible_graph/src/visual.rs",
+      "language": "Rust",
+      "bytes": 3363,
+      "sha256": "df8cf8b5c42f7fea9f262b35098c5a1d1c593202cc981e9bf4adf475fe92e7ce",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_bible_graph/src/visual_3d.rs",
+      "language": "Rust",
+      "bytes": 7594,
+      "sha256": "97fdf4659dca104eb6426e8a3037f345dddf5223ffa514ff3d997420de613d25",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_bible_graph/src/workspace.rs",
+      "language": "Rust",
+      "bytes": 10778,
+      "sha256": "10c64435eb29ae67e1cd361d015b5b9ff6948b81c19469f6945a09d48dc0c641",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/app.rs",
+      "language": "Rust",
+      "bytes": 13901,
+      "sha256": "1758e6d4e9e4425c28bb2422b1fc176ed3fadffd2b3b91ca6baa2e6753a12308",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/geometry.rs",
+      "language": "Rust",
+      "bytes": 779,
+      "sha256": "3d1dcd768e3df0faac90b1049dcd7a42353bf641f668ccb47ccfbd91c352d660",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/hit_test.rs",
+      "language": "Rust",
+      "bytes": 1875,
+      "sha256": "b00b602a961c53c7967ba51152e75131eec67a200cd6013fc62ef94ee3eb6853",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/lib.rs",
+      "language": "Rust",
+      "bytes": 4843,
+      "sha256": "58cd457f39e01a0da3d414387ee79a1295d9a742df90223e07d421e3f4e1a912",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/native_command.rs",
+      "language": "Rust",
+      "bytes": 10717,
+      "sha256": "ee8b029f0870b6536720bc1aca46c77f1874633369085b0297c5173889a069e9",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/native_input.rs",
+      "language": "Rust",
+      "bytes": 10924,
+      "sha256": "12d4e36c0bb3dd4a1fe0c350a7dfc8586680c680c3932696d83dbf3175172b51",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/native_render.rs",
+      "language": "Rust",
+      "bytes": 13546,
+      "sha256": "00bf7f38f44f4096bebb7746a21986dcdd432a29a5ebfc7cf295444bc419d625",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/native_style.rs",
+      "language": "Rust",
+      "bytes": 1986,
+      "sha256": "701e5a31ba176de5c88319ed2e8157a5d4a7963d5ef152fcf933042654d241ea",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/native_visual.rs",
+      "language": "Rust",
+      "bytes": 14568,
+      "sha256": "d8e920bf33a8ccda32117b6e50a1960a544033e0ccb8c7312aa99f10ba1f9a19",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/native_window_control.rs",
+      "language": "Rust",
+      "bytes": 5137,
+      "sha256": "795a38238e30188518b29004793064e5f0954f9dfb33508cea9533499b8108f6",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/playhead.rs",
+      "language": "Rust",
+      "bytes": 873,
+      "sha256": "0f104c1a02f8eaba85d4dafb364eb4511654b2f811173a8e59a49aab5eaffc90",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/relationship_curve.rs",
+      "language": "Rust",
+      "bytes": 2450,
+      "sha256": "98855f3d0fa5c7d054c1ed77785adb142c57bd3080cac4ba3887c3707666e9f0",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/scene.rs",
+      "language": "Rust",
+      "bytes": 4807,
+      "sha256": "288cea56347c890ef112ab16542585de25dd46f7599a6e76b05deef752ef3a3b",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/tests.rs",
+      "language": "Rust",
+      "bytes": 4479,
+      "sha256": "876b491efa3602f059303da7bfaf579de3ea9e898da83a6ee2a626f6c61d43a6",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/tests/app.rs",
+      "language": "Rust",
+      "bytes": 13366,
+      "sha256": "30476e2186520c5ffecdf2851902544adccdc4ebaae50545fee501a315059d5f",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/tests/app_command.rs",
+      "language": "Rust",
+      "bytes": 5440,
+      "sha256": "430144fcb4c2f05880b32fd0df2ad5d594986bfa6eda901b4a4a7790c0c51339",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/tests/native_command.rs",
+      "language": "Rust",
+      "bytes": 22608,
+      "sha256": "79ba5b6e3118472f9341f6e536da4adb57dbad354aacb158dcaa469d5dd06be3",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/tests/native_lifecycle.rs",
+      "language": "Rust",
+      "bytes": 3137,
+      "sha256": "0d79264ff8bebe2e2e39bfe5181b3981c072b622d27d5d24055b04b056c0dd43",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/tests/native_navigation.rs",
+      "language": "Rust",
+      "bytes": 6703,
+      "sha256": "c9c8c19ce665841a72fbd8596bf61ce034843a76433909eb1c80fffe36dc2d8b",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/tests/native_visual.rs",
+      "language": "Rust",
+      "bytes": 10157,
+      "sha256": "bc57151ba3de3a1f9927e21df7277ead79dd5ea8d6b06937bca8d75e40427a30",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/tests/split.rs",
+      "language": "Rust",
+      "bytes": 1934,
+      "sha256": "991344870b65043ffa149fd51b4ff41c36d30a72e960a94c237b0e95f69754c9",
+      "counted": true
+    },
+    {
+      "path": "crates/bevy_timeline/src/viewport.rs",
+      "language": "Rust",
+      "bytes": 2340,
+      "sha256": "032e3e22e73af3f2418b7b1af7380b59c321ce1ad5967c5803a503c671a83f59",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/ai/backend.rs",
+      "language": "Rust",
+      "bytes": 11686,
+      "sha256": "3a4a670c798454268af631ff7a09876bd9ebd1ca678c2f3c804e8885ce83cb37",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/ai/consistency.rs",
+      "language": "Rust",
+      "bytes": 3926,
+      "sha256": "66ff577ea9235979597850f308402e52452ef2e5dfca23dacc1f672b8b02b742",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/ai/helpers.rs",
+      "language": "Rust",
+      "bytes": 4768,
+      "sha256": "9a2f97f32b128d413e722a508a4226c81cde1fe59abdb91717513d94c0a2115a",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/ai/mod.rs",
+      "language": "Rust",
+      "bytes": 71,
+      "sha256": "86c7636ecd366a128e9c1cf3c9dad73fae7b974b08ca222c8d6cc77baf295c46",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/ai/prompt.rs",
+      "language": "Rust",
+      "bytes": 4952,
+      "sha256": "5b5efd0d39446907301634098ca4a4c9a9a2838486716c5a9055eb01e90f7942",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/affect.rs",
+      "language": "Rust",
+      "bytes": 20429,
+      "sha256": "d3ef7fccbbb56f5a36c7a1c4f8d8f4480bca9a9a06075fb97fa3300d11143eb7",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/agent_workflow.rs",
+      "language": "Rust",
+      "bytes": 19831,
+      "sha256": "862d7603b90a6be0b930fbbe84449e12200278acc839b6110bcbcd798d326b02",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/ai_context.rs",
+      "language": "Rust",
+      "bytes": 4700,
+      "sha256": "ccc7b829fd074cdffef835fc16fc33b8e760380701e78ae0d63c8592fd94178a",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/bible_graph.rs",
+      "language": "Rust",
+      "bytes": 26488,
+      "sha256": "3188cfbe493c4c5da2a0b1838bdd4ccea90a1dffcd76cbe700f5f49825883195",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/bible_graph_defaults.rs",
+      "language": "Rust",
+      "bytes": 18047,
+      "sha256": "b48afdec1a9fa1ce6082706852d6c361e78ea5d47df975eee935a64387ff4488",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/bible_recall.rs",
+      "language": "Rust",
+      "bytes": 5004,
+      "sha256": "2fa745bc568b10009ef19409af8094d309d25359f99168d1100bf74b48d6d93a",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/bible_render_graph.rs",
+      "language": "Rust",
+      "bytes": 17993,
+      "sha256": "e50daf85d5980880a23cf3d7e49f8189f7f30796c862ed9d02d5b1cb0334691f",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/bible_render_graph_filter.rs",
+      "language": "Rust",
+      "bytes": 7554,
+      "sha256": "d036111525f11e432871fba8e2d835659be7f0d25ac302c0123aeb68dbc92cc9",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/bible_render_graph_tests.rs",
+      "language": "Rust",
+      "bytes": 18615,
+      "sha256": "12f61687974399524799df6d809a2625ac5caf4c54d26eb3afe4ec085264d946",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/change_review.rs",
+      "language": "Rust",
+      "bytes": 1163,
+      "sha256": "89df61817bcebd8b832b50f789cbbbdd31d5b950a7a47de7fd049c7c3e9daad1",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/context_influence.rs",
+      "language": "Rust",
+      "bytes": 9916,
+      "sha256": "069e3fc014ff0bad73ece17d33ebde41c4663308e8c9dff23572270fc24a4a04",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/graph_proposal.rs",
+      "language": "Rust",
+      "bytes": 6330,
+      "sha256": "542193172adabf6bae28f43bcc66b1a7948f1ab13a921d297ff013dc9df554f2",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/mod.rs",
+      "language": "Rust",
+      "bytes": 17004,
+      "sha256": "616c56a5958e49b59c6ec962d0f9948cf7c81b8a27ef5c2c75735f83e8ca0707",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/propagation_proposal.rs",
+      "language": "Rust",
+      "bytes": 10413,
+      "sha256": "2e6599b047befc62922f7dd917fb06566d60c60c97322ef126a2c6820d9e9aba",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/script_document.rs",
+      "language": "Rust",
+      "bytes": 22509,
+      "sha256": "588695adf63f114805a2e2c5b704b1760f617a53b8135dcbb858c7b96a051784",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/script_fact_reconciliation.rs",
+      "language": "Rust",
+      "bytes": 2163,
+      "sha256": "7bb22f97259c5ea1f1a8c1317eeefa95d2f71142fa7d5ae3e5e595388a8a80c6",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/script_impact_review.rs",
+      "language": "Rust",
+      "bytes": 8448,
+      "sha256": "dd61dde2a9aa78e9ef5fc9bc4eaa37c47d273d3be27f8ea427d6cb24db25c453",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/selected_node_editor.rs",
+      "language": "Rust",
+      "bytes": 10061,
+      "sha256": "f89363d379370d32bb701720648631557d56d82d08aa604ecc5ca15ae5f1eb65",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/semantic_dependency.rs",
+      "language": "Rust",
+      "bytes": 5228,
+      "sha256": "e234cfd57e1802124b28bff7ee6d88f558a5f85c80ec433d2fc114c70450f6c0",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/semantic_proposal.rs",
+      "language": "Rust",
+      "bytes": 6582,
+      "sha256": "ec9981bf9c03333b45f6240bf7c2984b33841bf1c3753ae9f13294ffd0214b79",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/story_arc.rs",
+      "language": "Rust",
+      "bytes": 2613,
+      "sha256": "5fbf40d729984ec3eb5ad1edd9b8e10274e35ddcafbd28ea6942201f5a0525b7",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/timeline_command.rs",
+      "language": "Rust",
+      "bytes": 4674,
+      "sha256": "61d358b0e9266d65e57d5fcfe47955e48b9e49e3edca00c165c611c6b0bb8c50",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/contracts/timeline_render.rs",
+      "language": "Rust",
+      "bytes": 9849,
+      "sha256": "8296d71b70eb4fea5d115c693628aed483e3874957cd30a1803fab15b9a7fa59",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/error.rs",
+      "language": "Rust",
+      "bytes": 1602,
+      "sha256": "b64387c9d9526d1e2d5563d742fc75d631fd4bb63d3d0470ffad3f7080a464ac",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/lib.rs",
+      "language": "Rust",
+      "bytes": 233,
+      "sha256": "80ef2b538d5cfafc619f527c566678e3bf9c32f1349b720c965a47bf7040a29b",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/project/mod.rs",
+      "language": "Rust",
+      "bytes": 815,
+      "sha256": "5ee3726c27b97dc308081a5e273cc0b56f66d9bdbbceb36eea7895a862a65cc4",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/reference.rs",
+      "language": "Rust",
+      "bytes": 4150,
+      "sha256": "73e72f6b089e0205e96095b12ddb1c90021c54a7db83a5cea62598c82530aafd",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/script/element.rs",
+      "language": "Rust",
+      "bytes": 1021,
+      "sha256": "d550e8bd9a10c01ebdccb44e7847c9240e0c35649a52e33a5732168f99dc093d",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/script/format.rs",
+      "language": "Rust",
+      "bytes": 10913,
+      "sha256": "7800aee34a31214627b05fc347d60a8f3eefd4ebd38cd35bfe11865fef6c02e5",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/script/merge.rs",
+      "language": "Rust",
+      "bytes": 4357,
+      "sha256": "f7c440f131d87a747a90db1257c182e04192861776e2d2606f184e05d8eef56c",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/script/mod.rs",
+      "language": "Rust",
+      "bytes": 48,
+      "sha256": "14292906ed86ed996f9a5425d051379c86753c2e26e5a401e1ab5cb3ac06ae7f",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/story/arc.rs",
+      "language": "Rust",
+      "bytes": 2568,
+      "sha256": "325c42dadaed018411baf75a830b6ee88fc6ce99e5937568039a9d6ddfb3f17e",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/story/character.rs",
+      "language": "Rust",
+      "bytes": 1010,
+      "sha256": "c1c81c430138fa4251dfd3acff30f4d9741f059502c6c35e70e117f2aedb8179",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/story/mod.rs",
+      "language": "Rust",
+      "bytes": 53,
+      "sha256": "b0614bf503c00bbd2441da41661de50dbf58488ae84545eaac4be0f0f2fee6f1",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/story/progression.rs",
+      "language": "Rust",
+      "bytes": 9260,
+      "sha256": "50d020f9e0556d7c5b65c4b136153d75d9d3eeb2a78573ba5e148580a116eb4a",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/template.rs",
+      "language": "Rust",
+      "bytes": 19689,
+      "sha256": "77c16c23178e36908f5e6e3020d2ad98978889feb9fa002557c3559863317bf3",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/timeline/gap_tests.rs",
+      "language": "Rust",
+      "bytes": 2448,
+      "sha256": "7fa74462231d9b2cd8a2a7dc12f80abd636653a8617ffae0532ee6fca67adf2b",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/timeline/mod.rs",
+      "language": "Rust",
+      "bytes": 19675,
+      "sha256": "4a8373810a1186c6953ad430712849e99bbe711098c0327d78ee4a8bfa09f9ae",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/timeline/node.rs",
+      "language": "Rust",
+      "bytes": 9395,
+      "sha256": "65a4a16ff3433d9bfad372a2cb5711bb4a40d7ea267e1413396efa6a48299232",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/timeline/relationship.rs",
+      "language": "Rust",
+      "bytes": 1490,
+      "sha256": "a3e6bd287f96df372a83a87c21dc8fe0ab07421603b50e9474f58292c35eae1a",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/timeline/resize_tests.rs",
+      "language": "Rust",
+      "bytes": 5163,
+      "sha256": "4f5efb5e5803f3d3d604ed0c753d6756832e01132f809093ea8da9278275796a",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/timeline/structure.rs",
+      "language": "Rust",
+      "bytes": 3942,
+      "sha256": "8f5acbb79b1b2395ae2381fdf4d043ca1163d46d66350010615375700e7d56b5",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/timeline/timing.rs",
+      "language": "Rust",
+      "bytes": 3995,
+      "sha256": "35fda02982c01551bb69a961c1a751771690bc4dbbfc2c775dcdb361bd04a58a",
+      "counted": true
+    },
+    {
+      "path": "crates/core/src/timeline/track.rs",
+      "language": "Rust",
+      "bytes": 1514,
+      "sha256": "b5e2a34f445f9d0a5d25b88918685aa3bad62543ba73a484491fa07c88be2e8c",
+      "counted": true
+    },
+    {
+      "path": "crates/server/examples/authoring_capture_fixture.rs",
+      "language": "Rust",
+      "bytes": 2058,
+      "sha256": "c64b88a829cb1f167df0a053e718c8d6794b157b3d1509a5a1fc6d63da90c3fc",
+      "counted": true
+    },
+    {
+      "path": "crates/server/examples/bible_fact_capture_fixture.rs",
+      "language": "Rust",
+      "bytes": 4005,
+      "sha256": "1c7c6b762ed9680eea8960875b07069b10f8e4d6c6bb58f8b7752bc9bf597126",
+      "counted": true
+    },
+    {
+      "path": "crates/server/examples/canonical_scene_capture_fixture.rs",
+      "language": "Rust",
+      "bytes": 4408,
+      "sha256": "b3df9757e88c2425795e7337688e4391950ea1fe822593826e6279547384d047",
+      "counted": true
+    },
+    {
+      "path": "crates/server/examples/scene_order_capture_fixture.rs",
+      "language": "Rust",
+      "bytes": 9487,
+      "sha256": "350d8833dc19caaa7f652d4886e8026707c3f7fbe21d765ecfe2cfdae578db20",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/affect_service.rs",
+      "language": "Rust",
+      "bytes": 11810,
+      "sha256": "a7c89f9620c99eec16f2ef9f9ea1090b9c4965b9b44ff9efe6be949f4d53d501",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/affect_store.rs",
+      "language": "Rust",
+      "bytes": 56574,
+      "sha256": "ff03c954a6ca41db34e2e18299dc33e1e0cb2bc584c1101dc5918e58faffedcb",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/agent_graph_tools.rs",
+      "language": "Rust",
+      "bytes": 20735,
+      "sha256": "e2e34ccb9b1b4d6f81af92681a3e9f022b31d22e97e27da1ba5ea66ffe7794ad",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/agent_premise_workflow.rs",
+      "language": "Rust",
+      "bytes": 10641,
+      "sha256": "a1d1df42019659d06e78cda1c326f46cec78569790980719dbbb22f4c120c984",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/agent_screenplay_context_tests.rs",
+      "language": "Rust",
+      "bytes": 5956,
+      "sha256": "d183e4134c008aaff6c9ad543aec4edb5af376900dd5c7195cca98671dc2fdef",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/agent_structured_tool_provider.rs",
+      "language": "Rust",
+      "bytes": 9035,
+      "sha256": "70786db76fd526cd60a8feeda75672118966165b25acc00a57fe5ddabedd1187",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/agent_workflow_harness.rs",
+      "language": "Rust",
+      "bytes": 10019,
+      "sha256": "ee3c51eea62fd4dcc855f67cd90bed4f37af959606f30a09182170e0a7b274da",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/agent_workflow_harness_tests.rs",
+      "language": "Rust",
+      "bytes": 15641,
+      "sha256": "a3149adcd2d0601ad86ad55cbf40aa3774f0d17b36daf998681258fe24dc6689",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/agent_workflow_service.rs",
+      "language": "Rust",
+      "bytes": 8590,
+      "sha256": "a58837cae6675c6633b917486ca4d309ad32089a31127e458aef1cb382fc0e15",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/agent_workflow_store.rs",
+      "language": "Rust",
+      "bytes": 24411,
+      "sha256": "48207e1bfb58024ce0087725350e7cedcf5497409fdc6b9e75d97581f4cc9574",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_affect_context_prompt.rs",
+      "language": "Rust",
+      "bytes": 1726,
+      "sha256": "c3b7248f8428345c2882c20f6a9b8b2871f70787a493c3a67d5ec0e42a192ee1",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_backends/llamacpp.rs",
+      "language": "Rust",
+      "bytes": 6701,
+      "sha256": "783a501fb3c6691c0faf0527fa005ef463f14595db67ca5475c4fd8601303285",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_backends/mod.rs",
+      "language": "Rust",
+      "bytes": 2535,
+      "sha256": "db1c1c5f7663a5e6eba4fdb8eb6cce21736f4a8e50cce2e5a3b404b7eabd42e2",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_backends/openrouter.rs",
+      "language": "Rust",
+      "bytes": 5526,
+      "sha256": "956f759f4fd11a57687771e75d6479f03f3390d827da5c459cbfee999dd1ad52",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_backends/sse.rs",
+      "language": "Rust",
+      "bytes": 5680,
+      "sha256": "000f88aa7d670e724f1e076c5cde9bda21a0997b81eca98bef9f5377382745bf",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_backends/sse_tests.rs",
+      "language": "Rust",
+      "bytes": 4624,
+      "sha256": "2f4a49b079f1dba3a128ce1dec5b9d316227cbc09f0d8c4fbc3a702b9652c116",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_backends/transport_tests.rs",
+      "language": "Rust",
+      "bytes": 12369,
+      "sha256": "a5ee7ed247f58ea7d049cd84cd73b46b87ecd77d93c50fc43d2db22a703368b2",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_bible_context_prompt.rs",
+      "language": "Rust",
+      "bytes": 3904,
+      "sha256": "77ce3740c418260f44f2fe5ad7666f15a14a4b1de7879361cfedf5ad35ecd7f6",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_context_projection.rs",
+      "language": "Rust",
+      "bytes": 6087,
+      "sha256": "bf4ab692032ae9af4717341cc38d66dea43e89b47ced9f5212e866848bc2dcc1",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_context_projection_tests.rs",
+      "language": "Rust",
+      "bytes": 8074,
+      "sha256": "9ec8861de6fef0674ce57ff3e256bd0b0f45c1761d2115652b12f30f6c10db38",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_generation_runtime.rs",
+      "language": "Rust",
+      "bytes": 20640,
+      "sha256": "1e85d5481065af8ef7a3ea8b6bcd459f9b7241bdf11a707355f6115378ee1f17",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_generation_runtime_tests.rs",
+      "language": "Rust",
+      "bytes": 30843,
+      "sha256": "a7312a82b0ff1da21d49e6c0e2009785c0189da3a55e0c059e6b0214c9648989",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_generation_service.rs",
+      "language": "Rust",
+      "bytes": 8177,
+      "sha256": "f6fcc6986fc74b92cf23b941253a2ed7780093314e485023ba11e06cae2eab34",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_generation_stream_tests.rs",
+      "language": "Rust",
+      "bytes": 2273,
+      "sha256": "70cc1ceba1f3df08a19f34c7ec2d4f428a213ba80dc8b66fa56c1c839f08157b",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_script_context.rs",
+      "language": "Rust",
+      "bytes": 4295,
+      "sha256": "753c82e435a06669883f9e7dbed76d08a06c59bf0a8eb32a1a301f447925e83d",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_service.rs",
+      "language": "Rust",
+      "bytes": 15680,
+      "sha256": "9c703651f033d0cf6112e8357d467d07a569d025c42710c1d06fefeb8884e686",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_temporal_context.rs",
+      "language": "Rust",
+      "bytes": 6261,
+      "sha256": "517694bcc790d5203f599dcc58660070052c56ea5f3e25ada3f4f5a2aceca659",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ai_temporal_context_tests.rs",
+      "language": "Rust",
+      "bytes": 5001,
+      "sha256": "bfab28855ee44bc2229d55432ee0cdbc1a9c0448234ebc4f9a74708ae9a73339",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ancestor_notes_lineage.rs",
+      "language": "Rust",
+      "bytes": 7492,
+      "sha256": "95eef8cf85e32db1b6ee30f8963442e99e1b41fa5cd19e0f8cecda5bf08d1bfd",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ancestor_notes_lineage_tests.rs",
+      "language": "Rust",
+      "bytes": 16276,
+      "sha256": "e8437fd83ad7926558c69c01abed330c7a4cfe97eb7969726114f583624f83d7",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/arc_description_applicability.rs",
+      "language": "Rust",
+      "bytes": 7540,
+      "sha256": "cf5ed2dd4fe63db3e5505c3f5eac9bcf77e34f1e8182a5c2647c8d9d55bd1c7a",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/arc_description_applicability_tests.rs",
+      "language": "Rust",
+      "bytes": 23263,
+      "sha256": "f3e00a520451436d32bc65257a8f830a73f58af0e4815f7c24c26c32721d8c0c",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/backend_error.rs",
+      "language": "Rust",
+      "bytes": 1033,
+      "sha256": "471763db8df294e706a3454df1a58a77d66e52fbee7ac18fee4ded28365007a5",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/backend_task.rs",
+      "language": "Rust",
+      "bytes": 9077,
+      "sha256": "39be4f3d807456dd627329ba922888782171844afdd2789b5060899bd666f159",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_context_scope.rs",
+      "language": "Rust",
+      "bytes": 20052,
+      "sha256": "70dc84407b2266edf28cb791828a0d9eb40b6403b0f62961ee9fe65b64fb2c19",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_context_scope_tests.rs",
+      "language": "Rust",
+      "bytes": 20918,
+      "sha256": "12fddd31417f3bec08ae0f9d7be2e6d53bb503b9a918a5c4718da643bf93f353",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_field_lineage.rs",
+      "language": "Rust",
+      "bytes": 5892,
+      "sha256": "0b68e5a2cf90388c8a1ab0abf801b7d1e0e073ff0610e7b1facc918ff61e3d2e",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_field_lineage_tests.rs",
+      "language": "Rust",
+      "bytes": 12653,
+      "sha256": "6acdbc5a00de214b1c61afbb3950fc264b82c63f9650f0e00bda38b39028e644",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_graph_command.rs",
+      "language": "Rust",
+      "bytes": 31611,
+      "sha256": "7d01b8af835b1212b0d4a354611bc665bc6c7e9116405a77cb6d3ecadc6b1ba6",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_graph_command_tests.rs",
+      "language": "Rust",
+      "bytes": 29614,
+      "sha256": "8977aaadbbb4a8fb22142266cbf08f9def6f30b2374b94a0c587d72f4b3f5a1f",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_graph_edge_label_command.rs",
+      "language": "Rust",
+      "bytes": 2930,
+      "sha256": "a774938efb5cb7f4ad507fe8ce5034518c953fbbe602a3f027485f6733591e9c",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_graph_edge_label_tests.rs",
+      "language": "Rust",
+      "bytes": 11159,
+      "sha256": "ddb7f0beaa78b492d933b86ba890c6b6b6394b5603244af251cfd25d9a0bb5f7",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_graph_edge_store.rs",
+      "language": "Rust",
+      "bytes": 12273,
+      "sha256": "03e9a1f2a1bdb39fbc0a037745d46eec2645f967cad50f24df864aad9ede4a07",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_graph_field_store.rs",
+      "language": "Rust",
+      "bytes": 9458,
+      "sha256": "e32bd57555270c003b5c3aff6ed10dd11ab801ce5b186b546311d24f84dc156d",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_graph_schema.rs",
+      "language": "Rust",
+      "bytes": 4871,
+      "sha256": "daed20b67448eef0c15ea9367eba8d48d01d27109e240a786cd2523a1928c061",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_graph_snapshot_store.rs",
+      "language": "Rust",
+      "bytes": 10429,
+      "sha256": "3a593343aad78ef1da74d8bcbc385f400f0478b0ab98e8886e1c81ddd3ce29c4",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_graph_store.rs",
+      "language": "Rust",
+      "bytes": 19613,
+      "sha256": "065e926dc93513d79dd339471dbab98a6ff8e8a33e4a89ce85fbe353c934f67b",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_graph_store_render_tests.rs",
+      "language": "Rust",
+      "bytes": 18763,
+      "sha256": "b734a62ac9d810d0e344fc892d1b8253a86363825bbf3162b9665a6d4ca53221",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_graph_store_tests.rs",
+      "language": "Rust",
+      "bytes": 13463,
+      "sha256": "da12a42d5dc3529d1051d418588d80ee42f62103382d2ae226b25a634f172b93",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_graph_value_store.rs",
+      "language": "Rust",
+      "bytes": 4020,
+      "sha256": "fbe1c98e276e99bb3facaa7098042fa9d62444f5ed9f3ba0b46ac8766ec82f2a",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_membership_preview_limit_tests.rs",
+      "language": "Rust",
+      "bytes": 6919,
+      "sha256": "7173c18e5ea22166224d2e76baeed0f59539cc6153c7a22234cbd4d37f8a108f",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_node_name_lineage.rs",
+      "language": "Rust",
+      "bytes": 7758,
+      "sha256": "6d1cbdde5bc98fac1f7e09eb79980cb57f5f34735e0290d13a10cfd170761b15",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_node_name_lineage_tests.rs",
+      "language": "Rust",
+      "bytes": 12553,
+      "sha256": "cd0ea667203576bb5a8d0c9121daa9183d0c8aec6e5c65d511f4200511ed0137",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_recall_evidence.rs",
+      "language": "Rust",
+      "bytes": 7317,
+      "sha256": "9aab280556670bcdcf858968473b496fa489596c78622aa2ae0ec9162436f554",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_recall_projection.rs",
+      "language": "Rust",
+      "bytes": 4983,
+      "sha256": "40db434324b685a4fbe0326140e9d4a8b51496b9e2beb281efd7ba054b0a13ca",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_recall_projection_tests.rs",
+      "language": "Rust",
+      "bytes": 17105,
+      "sha256": "b490367057e95f76379b2d51f5d3062dd7bc60f87f4c0f1b2638a3ea5974cb5e",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_recall_service.rs",
+      "language": "Rust",
+      "bytes": 1060,
+      "sha256": "40aec5ff1cb08859e7015851276aef3924da6aa578c4a0e681e7fc6f27a0ebf4",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_relationship_lineage.rs",
+      "language": "Rust",
+      "bytes": 8512,
+      "sha256": "ba8d64b7ace72e486bc2a957ced882c5714aea2b533e3f2525ed8e075633d92f",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_relationship_lineage_tests.rs",
+      "language": "Rust",
+      "bytes": 24082,
+      "sha256": "98f4515bc2b85f4cc80207b911693dc436abb7f72c87de5de731693dc7d8aa93",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_render_graph_projection.rs",
+      "language": "Rust",
+      "bytes": 2069,
+      "sha256": "160ec8d5f490bce40a3013128b32a14156671ef38fc9ad1677f384a29fd83d06",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/bible_render_graph_query.rs",
+      "language": "Rust",
+      "bytes": 12852,
+      "sha256": "231b1d901775db3b76d46b2c1a862fcb3dddb536f99b0e1f539e6693ff08e225",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/canonical_generation_service_tests.rs",
+      "language": "Rust",
+      "bytes": 24807,
+      "sha256": "15de371d25836a05cd9300c08ec7c4d0e190170a91b3957906cb0305acd43c31",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/change_review_projection.rs",
+      "language": "Rust",
+      "bytes": 1928,
+      "sha256": "2626e9b281bc6ffcb99bf295f587c855667ffaeaa4e5ba1557f60d8850f64baf",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/change_review_projection_tests.rs",
+      "language": "Rust",
+      "bytes": 1362,
+      "sha256": "488a2847445d9f5f0d4295bc5ba509f0e4b56367ff09b000059e6f4380470e29",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/child_plan_bible_memory.rs",
+      "language": "Rust",
+      "bytes": 9311,
+      "sha256": "25b467b03e6f5081cf7d1eb08bdf8a08083024867c1320f2f5df21301b76201e",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/child_plan_bible_service_tests.rs",
+      "language": "Rust",
+      "bytes": 31729,
+      "sha256": "a67bddc81b2268c647c0ef11ba5d1504d807d21b84a291de120e31f41184e4ae",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/child_plan_generation.rs",
+      "language": "Rust",
+      "bytes": 7399,
+      "sha256": "39c2b864e4b9faa67a9a50d8333f00800038ef46733e53da74b93234da9b6978",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/child_plan_memory.rs",
+      "language": "Rust",
+      "bytes": 9460,
+      "sha256": "87400343f55c422a443f5db4ccb6cbfde057fcd8c5fef0fab59d2fd08c7d78e2",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/child_plan_memory_service_tests.rs",
+      "language": "Rust",
+      "bytes": 41500,
+      "sha256": "9447d1dede3af0cf13ffc68e69e72a59cb0665418362da59746d2415da000a96",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/child_plan_projection_store.rs",
+      "language": "Rust",
+      "bytes": 5705,
+      "sha256": "f0fa0e2c9a416d3853a2b5ef551e52c5d83872a9d82fe0129453ddaacc2ba39e",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/child_plan_store.rs",
+      "language": "Rust",
+      "bytes": 13249,
+      "sha256": "dda01bb7b17acad0b08cecb5b82ceb8346d970492786c688ec2889e586ece08e",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/child_plan_store_tests.rs",
+      "language": "Rust",
+      "bytes": 3964,
+      "sha256": "7f52ff1912a8872e3a0cc72de82de40ac118d7462e704736117d0534add63cad",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/command_service.rs",
+      "language": "Rust",
+      "bytes": 18604,
+      "sha256": "5497fda7d493ed4e32d4535861dc6149b5a4edaa181c392b24cc8f6a543974a0",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/command_service_bible.rs",
+      "language": "Rust",
+      "bytes": 28304,
+      "sha256": "c18d31f286c40b2b38557d9edbbf9cf6cc5a03a887bf75bfe127862acef8ecc3",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/command_service_semantic.rs",
+      "language": "Rust",
+      "bytes": 13342,
+      "sha256": "f6633efafebe4c216d2b14ebcade8e032ded2bce49f4c8b4aabfd1b910923f9e",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/command_service_support.rs",
+      "language": "Rust",
+      "bytes": 1425,
+      "sha256": "9b3713133b12f85f4b699f9ffa33e6c3ebc46e12ec9b71f215d6e15c1f992779",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/command_service_timeline.rs",
+      "language": "Rust",
+      "bytes": 29104,
+      "sha256": "fb13ee2d5156d2a5ec528006a49bb907d6b07d8e59fc7789d8f9b251ed286732",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/command_service_timeline_requests.rs",
+      "language": "Rust",
+      "bytes": 8032,
+      "sha256": "14b060a9a075878a75101d3f5d5bb18fe20c67b687cb4a6802fd8783ca09b61d",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/context_influence_service.rs",
+      "language": "Rust",
+      "bytes": 8932,
+      "sha256": "5ea63e289ff1d242a92815adbeb8eed3ffbaef6ed5e1ba9850b87f68f0b2b4fe",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/context_influence_store.rs",
+      "language": "Rust",
+      "bytes": 16445,
+      "sha256": "c8b78da7cf70ee3c8a425322b200facc964cffd931321c32b714014ede0d204c",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/context_influence_store_tests.rs",
+      "language": "Rust",
+      "bytes": 6348,
+      "sha256": "e41333f3301e0c170add6127e26c87910ba71d78259e770e627e0fb96fdf26fd",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/context_stack_projection.rs",
+      "language": "Rust",
+      "bytes": 2992,
+      "sha256": "b5808455666d5aa06c1ba763388e9e2d36eab4d3a1294edc66ba10acd37dd935",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/context_stack_projection_tests.rs",
+      "language": "Rust",
+      "bytes": 8960,
+      "sha256": "c1de91286056a4695f6013f1ef19426b5f4d05945fcc9949bfdeaec92212bd02",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/embeddings.rs",
+      "language": "Rust",
+      "bytes": 5512,
+      "sha256": "ff91a816fdf8955cf096bff15c4f86a1079c9a30b2549c2796dbf8e9cdc5ee85",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/export.rs",
+      "language": "Rust",
+      "bytes": 9255,
+      "sha256": "64e8241bdf261d98053428643951adefc1b8ab84b8a7c58ab3613fce45d76a45",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/export_service.rs",
+      "language": "Rust",
+      "bytes": 3186,
+      "sha256": "8130d83482e3c4d018a3f27c7350a405fa2f2637fbddef92527042e16381be57",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/graph_proposal_service.rs",
+      "language": "Rust",
+      "bytes": 4617,
+      "sha256": "de8a2030dd1cf642df7c7bbdae0af0fab7dcc904fabbabada216878cf9076829",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/graph_proposal_store.rs",
+      "language": "Rust",
+      "bytes": 18155,
+      "sha256": "118cb53c988bbf79731e4e63a59b84db066e033a6cc099cf0a0750853dfa854e",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/history_read_store.rs",
+      "language": "Rust",
+      "bytes": 11395,
+      "sha256": "e06ddde6e0f4d9ac4dce98436ee7ab63b2f1efd396415003e547a1d5fdb86e00",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/history_store.rs",
+      "language": "Rust",
+      "bytes": 13853,
+      "sha256": "7149943cdef48ad6f771e6b6bd9f40ff06fb8b17e8cb6cbb133d88879a7008e2",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/history_store_tests.rs",
+      "language": "Rust",
+      "bytes": 12564,
+      "sha256": "87abe6722d761b6267f5b9ceb499cce4a941369dc4a5e7535a10d071c01b781e",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/lib.rs",
+      "language": "Rust",
+      "bytes": 4679,
+      "sha256": "d947296e90e179b47d3faf2c2e0850daeca8ca647ad217b6fd2296a7840c5937",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/manual_script_workflow_tests.rs",
+      "language": "Rust",
+      "bytes": 4623,
+      "sha256": "1ca0494cc3b1bd5d6e18981ab0b63ee1b7723bf69739a494a3f93d588f4fb08f",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/model_endpoint_resolver.rs",
+      "language": "Rust",
+      "bytes": 6384,
+      "sha256": "33d98da3f238bd8adad3c63fa25c7d3ad98988eb243d271ae34812bb4928ebd7",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/model_service.rs",
+      "language": "Rust",
+      "bytes": 2868,
+      "sha256": "27b12141d25f0649229488c1428898242e3c01f82fb3e4abdbbfca5b8adb4745",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/object_field_command.rs",
+      "language": "Rust",
+      "bytes": 2411,
+      "sha256": "e132232785a9b9c6b0232109f79ba656825591846556f97d5a40f8f3be2ffba7",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/object_field_command_tests.rs",
+      "language": "Rust",
+      "bytes": 2459,
+      "sha256": "2a8525d47c7318538bace2cb20036af51c86a4a50c454645e7055614ac6e1051",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/persistence.rs",
+      "language": "Rust",
+      "bytes": 34185,
+      "sha256": "fc4cb9e3abae4d1e3e092604b5dca9422bbac5e27039a927db1b48fb605888e0",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/project_database.rs",
+      "language": "Rust",
+      "bytes": 5585,
+      "sha256": "6502ae3000342240b700ea111e3cf9afc264f8ed23bacb76480223603e81b367",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/project_service.rs",
+      "language": "Rust",
+      "bytes": 11221,
+      "sha256": "97d0e770d9398f23cb9a951d59e6a1161570b5004713ac593de7bc03b3f0c7e6",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/projection_service.rs",
+      "language": "Rust",
+      "bytes": 18869,
+      "sha256": "b71e2d5f7a64dbb3b44ed7e772df044fb867613725b569c335de130c59b73e3f",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/projection_service_semantic_dependency.rs",
+      "language": "Rust",
+      "bytes": 6758,
+      "sha256": "f4d17c6e70bd3cf99097b767d1c03fa0f4e836dc1be68c3d36af411052161a3b",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/prompt_format.rs",
+      "language": "Rust",
+      "bytes": 20025,
+      "sha256": "900823a62fc25e076bc7bcac14b5f178f9dcd206ce9a1abbd5bea05c48680702",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/propagation_proposal_accept.rs",
+      "language": "Rust",
+      "bytes": 20842,
+      "sha256": "b3aba8c36239e9ea1ca4d49827064d62aa68daa457d0406543a904c4bc243d07",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/propagation_proposal_accept_tests.rs",
+      "language": "Rust",
+      "bytes": 23303,
+      "sha256": "09c02dcaf3b950666c0d1f3f423f28c40b41ae401cf03fcb62f85f39f65d79f0",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/propagation_proposal_review.rs",
+      "language": "Rust",
+      "bytes": 4384,
+      "sha256": "99c4f0abc7f9e1f161e53efa64b3da0f977827a3ba6a30225c0b2632111a6e48",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/propagation_proposal_script_accept.rs",
+      "language": "Rust",
+      "bytes": 12581,
+      "sha256": "6aed0579165c189d9ae6f316c74a19ef95af17011ac78c116dae7ecbf4a02390",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/propagation_proposal_store.rs",
+      "language": "Rust",
+      "bytes": 19848,
+      "sha256": "97da088a82d058a4c8e66d229de8f6a3065d0edcb0257b1eb9af9d90a8ba5c1e",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/propagation_proposal_store_tests.rs",
+      "language": "Rust",
+      "bytes": 11748,
+      "sha256": "e21573da1997b1c664c3a6066489d8207ec36fc84caba3f28e34378b1fe4d583",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/propagation_proposal_target.rs",
+      "language": "Rust",
+      "bytes": 5716,
+      "sha256": "3f9c748c1285b19a60b8e8b541f9c549d1408fcf1273ccbca47afb49b3da9ab8",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/propagation_proposal_update.rs",
+      "language": "Rust",
+      "bytes": 10032,
+      "sha256": "180f37eaf1864a5c65c2a2fc61cd9c4d6785eacd8f86d46228c70a8bddbda5a8",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/reference_retrieval_tests.rs",
+      "language": "Rust",
+      "bytes": 5170,
+      "sha256": "9bc707df42da6946020d5e949e265cb72072095b0b074ea8912a8e31596b7178",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/reference_service.rs",
+      "language": "Rust",
+      "bytes": 7270,
+      "sha256": "dcb56550b16f49c3662d0ab9b7c490b867732b7a020d5cb9d5fee0f4a09b0d27",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/revision_projection.rs",
+      "language": "Rust",
+      "bytes": 3453,
+      "sha256": "c66bea6ec4ddec8094bf48da602aa17384452d6fabee77deb1fe6eed508d340f",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/revision_projection_tests.rs",
+      "language": "Rust",
+      "bytes": 4304,
+      "sha256": "bab1e29ffec2ae51c96acd50a17c0cc68eab4d3e4f2687dc3ca64aecab90275c",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/scene_context_membership_service_tests.rs",
+      "language": "Rust",
+      "bytes": 5119,
+      "sha256": "56ed04ed65aac572bda9753b37fd0cb42821084a8137e25ff6668a824d2df0fb",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/scene_context_membership_tests.rs",
+      "language": "Rust",
+      "bytes": 13008,
+      "sha256": "0b620497afdc7a9fbd8e88023adf1ffaf846c476b29a86f47103d11aed6d2487",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_block_create.rs",
+      "language": "Rust",
+      "bytes": 9853,
+      "sha256": "dc0802a313a3b84f16ba7f9500595ef2c1ed2d6693c8ceb255bbacfc1614fbf1",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_block_create_impact_tests.rs",
+      "language": "Rust",
+      "bytes": 21130,
+      "sha256": "3334a75879ba4ffc8ac6befe503962ff98cef96b37618a1aee968bc67e2e589a",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_block_create_service_tests.rs",
+      "language": "Rust",
+      "bytes": 6750,
+      "sha256": "cae362063858969d81fd2b287b98650b37c78e8e3536798002d081a8cd9774e2",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_block_create_tests.rs",
+      "language": "Rust",
+      "bytes": 15208,
+      "sha256": "d507d9f3749a000089d3604b2089c172c3e541ecf2df66535dc99b0a12103d7e",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_block_edit.rs",
+      "language": "Rust",
+      "bytes": 5576,
+      "sha256": "93b2d04c46fd5797516b9e9f9064e1cb1fdfe95d791767e9d2076447cddd6fe6",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_block_edit_tests.rs",
+      "language": "Rust",
+      "bytes": 9200,
+      "sha256": "13e20a40ce04c61ba732fbbab2e6261c58d825855d1ffcb1c6b6d86accbbd1b0",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_block_remove.rs",
+      "language": "Rust",
+      "bytes": 5637,
+      "sha256": "26fabf908f9b95026eb4f65fabc3cd889f118701b2828d2231aaec83838af810",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_block_remove_impact_tests.rs",
+      "language": "Rust",
+      "bytes": 3510,
+      "sha256": "d318086fa42649e1271d6c60a9a40b08882a0e46affd3e8a271be2acdd80e0a8",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_block_remove_tests.rs",
+      "language": "Rust",
+      "bytes": 8771,
+      "sha256": "01836576fc8503a71b1d442f759491cc140872c3b9942ea715668fc18c4ac444",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_context_scope.rs",
+      "language": "Rust",
+      "bytes": 10071,
+      "sha256": "d2cf60a74eedd4bd692aa294f8303acf45ebb3906215478b12165efb0a9519b1",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_document_command.rs",
+      "language": "Rust",
+      "bytes": 18318,
+      "sha256": "c39960d71dd6a1fcce909115ea602e2477671b9797e2c26fec2b7d2f9e4f71bc",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_document_command_tests.rs",
+      "language": "Rust",
+      "bytes": 7699,
+      "sha256": "d0ed97c6457320e960901dc450d13cb244edb194c2a890fd249a0683580f64ac",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_fact_evidence.rs",
+      "language": "Rust",
+      "bytes": 9260,
+      "sha256": "cbdf2387429df026277c6710a951dccf243f6c44e1b1b68df018313505792796",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_fact_proposal.rs",
+      "language": "Rust",
+      "bytes": 6239,
+      "sha256": "4c72a9ec6a93b21ea8a5687fc350886e080e7b2d92bf4091208cf95f3036e873",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_fact_proposal_service.rs",
+      "language": "Rust",
+      "bytes": 3539,
+      "sha256": "804e406b9b90b61b9bdc75e4dec56f775b70f8ecfdbd09eb6e53d384618520aa",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_fact_proposal_service_tests.rs",
+      "language": "Rust",
+      "bytes": 3872,
+      "sha256": "e9dc44f07b92de36a79f08e20aa54168a8457374385b1ad0528e556bd5929890",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_fact_proposal_tests.rs",
+      "language": "Rust",
+      "bytes": 21661,
+      "sha256": "0e896164558b14f58f4b07b328992a74a00ae27eeb86e2b883a56757ecb8915b",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_generation_lineage.rs",
+      "language": "Rust",
+      "bytes": 14902,
+      "sha256": "556074835123376a4f051988cd94a63930b488f52bcea452a79dcb50ff9aaac6",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_generation_lineage_tests.rs",
+      "language": "Rust",
+      "bytes": 12326,
+      "sha256": "311aaaf88cd6d15df54480d37341b053182fe1402165709e4197ac9c53b99295",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_generation_target.rs",
+      "language": "Rust",
+      "bytes": 5248,
+      "sha256": "227912fc4f2de234f4b7d5fa9a027e5e87334f3b8ef1e3a5cc0d718afcced543",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_generation_target_tests.rs",
+      "language": "Rust",
+      "bytes": 11584,
+      "sha256": "78b54296fdab87057cd9f4a766e1d187061c9e8567db0371f961d6f6e3e139d4",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_impact_projection.rs",
+      "language": "Rust",
+      "bytes": 8259,
+      "sha256": "969c1110cc0fd08c6821a66c87aea50cedf1d2c2a6c625ace360c80159587c8a",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_impact_prompt.rs",
+      "language": "Rust",
+      "bytes": 3634,
+      "sha256": "e94041ac1fb2c6eda6a538c1c91d56b2faad0a6c74f4cf35d83e5dab1643bf0b",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_impact_prompt_tests.rs",
+      "language": "Rust",
+      "bytes": 1688,
+      "sha256": "125ccfd0f3f7c205c8d8c8c74c86719b52f821c7b7ae6cb2d42a2bbf778fa78a",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_impact_review.rs",
+      "language": "Rust",
+      "bytes": 18459,
+      "sha256": "39686e617f0d40ae6cce67cedf94c7d19150b68ecc0bf5752121c289c5676841",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_impact_review_guard_tests.rs",
+      "language": "Rust",
+      "bytes": 5894,
+      "sha256": "bf0d8406e1d21a4adcc779dbf3ce6c0d23e8a38f1fe9fd8fe5fe2b045ab66a1f",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_impact_review_service.rs",
+      "language": "Rust",
+      "bytes": 3705,
+      "sha256": "ec271b2c12a365cc16b09dfff4802abeaceae6eff4705da8cced05139e420b7d",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_impact_review_service_tests.rs",
+      "language": "Rust",
+      "bytes": 4011,
+      "sha256": "d1f577cd26da91a3f1b3650fa07db7e6920de0e02f822fa01770e6a3bcde0198",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_impact_review_tests.rs",
+      "language": "Rust",
+      "bytes": 14658,
+      "sha256": "2a18494b609bd74061732986953ad0fc6fadcdbb574d0e6d3d4cfde0a2af0d71",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_recall_selection.rs",
+      "language": "Rust",
+      "bytes": 6188,
+      "sha256": "02f3efdc121b89d812cbe2c9d5e3fbef5582d245995227b64122b7df5de7d9fd",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_recall_selection_tests.rs",
+      "language": "Rust",
+      "bytes": 23668,
+      "sha256": "44e685267566d872335d0c93703694066c82532c4afb1cc1de90afe37a2a3c60",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_segment_replace.rs",
+      "language": "Rust",
+      "bytes": 5529,
+      "sha256": "19187234d8f02dab09638867a20b08ccf2a2de30b98058206520632a3aad71fb",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_segment_replace_tests.rs",
+      "language": "Rust",
+      "bytes": 7250,
+      "sha256": "a83e31d2451087bee795f65b83956f427c07fb20a1dcf286661bdcc3f13ccc2c",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_store.rs",
+      "language": "Rust",
+      "bytes": 17691,
+      "sha256": "bb7a0a498d34f7e76b31192e0a3b4b1d3372e5579c43d654d8ec585f748bc4a0",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_store_codec.rs",
+      "language": "Rust",
+      "bytes": 7258,
+      "sha256": "19e226271925cf59054448b54039102e5597d38de7a0bc6ebf8ed2e7a00ee1e3",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_store_schema.rs",
+      "language": "Rust",
+      "bytes": 2978,
+      "sha256": "cf381b6b5679b0f6c8e6ea096b9446a10c00a6306427461afe93c15a8181740b",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/script_store_tests.rs",
+      "language": "Rust",
+      "bytes": 5529,
+      "sha256": "175d2166de783d73c6b2712956b393f5b45e1a01fd26ee31173ec3ac388da808",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/semantic_dependency_store.rs",
+      "language": "Rust",
+      "bytes": 19765,
+      "sha256": "d3c2a1ed90264e80b3d7b2853dc9e532bff99efc8e14006b1d70a0e1a78ae31d",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/semantic_dependency_store_tests.rs",
+      "language": "Rust",
+      "bytes": 4608,
+      "sha256": "31080e6380863ea878bc387dd8e814d75455b9c8d234133fd8f934ca5b1b3032",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/semantic_proposal_accept.rs",
+      "language": "Rust",
+      "bytes": 7824,
+      "sha256": "03d158172a5a7bb5beb803ac97484514890eec0112f4ede1e2ed2c6a4619f406",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/semantic_proposal_store.rs",
+      "language": "Rust",
+      "bytes": 13585,
+      "sha256": "86b5b5963a225f1d2f655a4d8123f598fe3b5056b7338e17c8df62944903bd6e",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/semantic_proposal_store_tests.rs",
+      "language": "Rust",
+      "bytes": 13025,
+      "sha256": "be1e273078ef64106f15e39635566d7cc55bd028e7a0f9e76e6f1a427dd8c9ab",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/sqlite.rs",
+      "language": "Rust",
+      "bytes": 557,
+      "sha256": "df9ff7d3a0a02b5ec82d9730832bb3441d36ba69efda86d2770caaa51fa6aa73",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/sqlite_tests.rs",
+      "language": "Rust",
+      "bytes": 313,
+      "sha256": "fc7361f81e49b39206d53266626aadbfe1b097b5aaba999795390695b62f1814",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/state.rs",
+      "language": "Rust",
+      "bytes": 13946,
+      "sha256": "cc04b92e4799d06252718381e4b110bfc2b52f4299803cdadceee8645b9fe11a",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/state_autosave_custody_tests.rs",
+      "language": "Rust",
+      "bytes": 5798,
+      "sha256": "ccbe4938a00d3e11b249b0585255cab519b8549f43d06a34ec3a122d1a3b3fc9",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/story_arc_command.rs",
+      "language": "Rust",
+      "bytes": 8874,
+      "sha256": "be3efb94b7e31fb0ef01512100a2e894bf59746ff8c2cea923018215347d43c0",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/story_arc_lineage.rs",
+      "language": "Rust",
+      "bytes": 10672,
+      "sha256": "31a1f45e0995dd07f1606c21b3973c1391baf7a65930cc932af5d753e3ef1f83",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/story_arc_lineage_guard_tests.rs",
+      "language": "Rust",
+      "bytes": 3688,
+      "sha256": "f147cd3dae373fc03a8d79776b01927c10ef0f8f83b6d902c9d84641501f9711",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/story_arc_lineage_tests.rs",
+      "language": "Rust",
+      "bytes": 14390,
+      "sha256": "287136863f0b4c0cbffd588d347484f70de6a545586a9db830c3f215b477f14b",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/story_arc_store.rs",
+      "language": "Rust",
+      "bytes": 8922,
+      "sha256": "58748107481f7165fbbf3a6b353800ba62cfa88835a5a3bd9fe89c7f5b72748e",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_affect_overlay.rs",
+      "language": "Rust",
+      "bytes": 3572,
+      "sha256": "170ed8a5441af4be9b058ff643de32a65d948009d9017f6d453157464487b8ae",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_child_plan_apply.rs",
+      "language": "Rust",
+      "bytes": 3166,
+      "sha256": "6df8f1e649597b079ae4b6caf457a38352cb42e1ed058e9b1d1e7d1ead3c7126",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_children_history.rs",
+      "language": "Rust",
+      "bytes": 16094,
+      "sha256": "2c92658bfb470548a2a3725ae0ee83888ee7d4100d43bf3ba3dc04dc5f7ce311",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_command.rs",
+      "language": "Rust",
+      "bytes": 9047,
+      "sha256": "dfe7d5201466a7106763327dda7d3157627134c98925a573a062606126111017",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_command_admission_tests.rs",
+      "language": "Rust",
+      "bytes": 5747,
+      "sha256": "2cdaa54c4a5a39656f3b333d12100176e5929a0330d10514b5b648588e52e4f8",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_command_guard.rs",
+      "language": "Rust",
+      "bytes": 2553,
+      "sha256": "09f91f599e84b442f2cd707e85b4f62b347990d38fa5a718a1a0dbe29b61490d",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_command_guard_tests.rs",
+      "language": "Rust",
+      "bytes": 15725,
+      "sha256": "eacca76aeca5016cb54de9c654673fbf4ae05612ca640c85f5e27aed4adf24a9",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_command_history.rs",
+      "language": "Rust",
+      "bytes": 21869,
+      "sha256": "bbef0c6ebfa2725b8a5d28c579165484a5e48ca857d3c201adcc9345f2f50205",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_command_history_codec.rs",
+      "language": "Rust",
+      "bytes": 1641,
+      "sha256": "45d92af2a37fce24a9baea64d03e3cd225890aec969c6dc90916bfbc1f0a50d4",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_command_tests.rs",
+      "language": "Rust",
+      "bytes": 12302,
+      "sha256": "5e8b9652dac003dc15b87b51869e2212024d7f3d78edb29151ade9a7a0bca759",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_create_intent.rs",
+      "language": "Rust",
+      "bytes": 3561,
+      "sha256": "616d97303bf8b4cacd1cbbd180dee3c63f349ffb9c396ecb73722f59b3f9925b",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_node_delete_history.rs",
+      "language": "Rust",
+      "bytes": 6207,
+      "sha256": "7ecaca82c1f8d95750d1d0d80cbadd159c5137ed5c015a4a5aabb0356bb60ef8",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_node_split_history.rs",
+      "language": "Rust",
+      "bytes": 11062,
+      "sha256": "7dd840890b078a0e6daf65121dbd835d14343bd7c8f29f4860cfdad3b217dd86",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_node_store.rs",
+      "language": "Rust",
+      "bytes": 15894,
+      "sha256": "911f4b37bdda0f3eda352c87b91e8f34213d6d1a852e59c04697ea970bdb949e",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_notes_draft_command_tests.rs",
+      "language": "Rust",
+      "bytes": 9947,
+      "sha256": "9fc876bcb6122cddf8fd3233d7fedf95db4bfffa69bc224eb8b575f4f7ccc429",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_notes_lineage.rs",
+      "language": "Rust",
+      "bytes": 10351,
+      "sha256": "e67bd41e0c859dce1f43ff7282aa6eef703941ef91cb01a49ca885cf70b8af47",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_notes_lineage_tests.rs",
+      "language": "Rust",
+      "bytes": 17935,
+      "sha256": "dafc612cf501d8fe629cd8ce21383bbb787d2307b4bc2ece5b5320353c897393",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_postcommit_custody_tests.rs",
+      "language": "Rust",
+      "bytes": 38298,
+      "sha256": "f0d8bdb793c5dd3c70fd8b2e260ca5cb871d773fdc12740fb62b89a4b343a0cc",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_range_history_tests.rs",
+      "language": "Rust",
+      "bytes": 18202,
+      "sha256": "c9e6628e62318be2888147af6fc9f77b0e3fc54ccf4eb6f369a15fc432d8fd12",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_relationship_store.rs",
+      "language": "Rust",
+      "bytes": 3802,
+      "sha256": "b33f509f136d206d9a16ce8f9b6eb9249358c2e88ca45d9fc50152d8c8dc6fe4",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_script_placement.rs",
+      "language": "Rust",
+      "bytes": 2938,
+      "sha256": "a21a81c5772f9d438aaa63179fca3f15b461036dcf7d68fd012316710062f720",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_script_placement_service_tests.rs",
+      "language": "Rust",
+      "bytes": 9018,
+      "sha256": "b1b37840a5d1e43e101fa4c3c36a7bbf15b14b3a221811b64b19b4a8a3e220ec",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_script_placement_tests.rs",
+      "language": "Rust",
+      "bytes": 18039,
+      "sha256": "5c2d3e5bb877dc3198d08a4aea1a51d8a36a7cbe4f03feace62f32574f8f22a4",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_title_command_tests.rs",
+      "language": "Rust",
+      "bytes": 12456,
+      "sha256": "89ee78cbcd8ba77486bd371abf2b577329a69a754d0610bed0ae86ad59150095",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_title_lineage.rs",
+      "language": "Rust",
+      "bytes": 11242,
+      "sha256": "172ac3f211916dcb867fcb83d33f080f41150fefad43b1370b536aeee0e79f70",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/timeline_title_lineage_tests.rs",
+      "language": "Rust",
+      "bytes": 26966,
+      "sha256": "7368fe1c592ace79190f460cc8e342344f15587ccf1b2342b7e0a4033f6b0ce9",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/validation.rs",
+      "language": "Rust",
+      "bytes": 22871,
+      "sha256": "b0dd8585d01785103c03d7ef47b027ff20bdd9f7666d85babe7db0ee0bfe6c09",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/vector_store.rs",
+      "language": "Rust",
+      "bytes": 4818,
+      "sha256": "f16a89b9298ac11c98f0ee80ee111c5e147cdf383e9104ccf4c08a69cb6aa52b",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/vector_store_tests.rs",
+      "language": "Rust",
+      "bytes": 5361,
+      "sha256": "15666a763193fa5861a9427372ca782e6dd3f9ac2d763c84c07dc5b9f931768b",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/write_concurrency_probe.rs",
+      "language": "Rust",
+      "bytes": 2109,
+      "sha256": "9eb708ec8778055ed127d87ed3a5c05970c5f9dd567c81bb1a148db058ec5d03",
+      "counted": true
+    },
+    {
+      "path": "crates/server/src/ydoc.rs",
+      "language": "Rust",
+      "bytes": 28426,
+      "sha256": "cff5eab4b19dcc6d56302dffad0167ab90b14c6035f87e18361d367e3dadfc83",
+      "counted": true
+    },
+    {
+      "path": "experiments/bevy-text-editor-018/src/document.rs",
+      "language": "Rust",
+      "bytes": 2016,
+      "sha256": "ebf948927d2e7653f7aeecced55be2bb6e61dbbf34c05c877d4895d02630fb17",
+      "counted": true
+    },
+    {
+      "path": "experiments/bevy-text-editor-018/src/fountain.rs",
+      "language": "Rust",
+      "bytes": 7007,
+      "sha256": "67814fd001ecaf27342c68a8ce3267bc24bb8ca22c386c4a9dd923b0d8f8479f",
+      "counted": true
+    },
+    {
+      "path": "experiments/bevy-text-editor-018/src/main.rs",
+      "language": "Rust",
+      "bytes": 8038,
+      "sha256": "edccdbcd7bb8b4c464cd3d11e857eca9eeae34183faab86174d129f84634ebc2",
+      "counted": true
+    },
+    {
+      "path": "launcher.sh",
+      "language": "Shell",
+      "bytes": 12390,
+      "sha256": "b88a7ca885ff124b05db69b47e2d82bd1146fdb9161859f340a063f860bfb955",
+      "counted": true
+    },
+    {
+      "path": "scripts/check-decision-traceability.sh",
+      "language": "Shell",
+      "bytes": 5990,
+      "sha256": "3ae598abd90a564acdf9088167dda41cfd1b981c2171387170ed998410682b76",
+      "counted": true
+    },
+    {
+      "path": "scripts/check-dependencies.sh",
+      "language": "Shell",
+      "bytes": 1868,
+      "sha256": "0ccdad7ec1c5437da7ba191789afe0eaf1fb34fca2136475ed38ed0f9bf132f9",
+      "counted": true
+    },
+    {
+      "path": "scripts/check-onnx-no-download.py",
+      "language": "Python",
+      "bytes": 1734,
+      "sha256": "14f02397e69e40e221ad731c26f9cb751c18b4dd03a54cf8b66dfde52e95ca99",
+      "counted": true
+    },
+    {
+      "path": "scripts/prepare-pumas-dependency.sh",
+      "language": "Shell",
+      "bytes": 1832,
+      "sha256": "04d50b52b9a1e1b9c79b8a8fa39ae0a54d9d43e52cdfb740765d433ff75f14c2",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-bible-fact-propagation.py",
+      "language": "Python",
+      "bytes": 15404,
+      "sha256": "b36d3633e9e4bb7bd6770c3702615d32d99ffc1ad338c05d51647430ba41968f",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-bible-relationship.py",
+      "language": "Python",
+      "bytes": 23581,
+      "sha256": "d0249892269c4f1155e17fd196848d78788d2d2ee85818d782eccc64f8b249c6",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-canonical-scene-generation.py",
+      "language": "Python",
+      "bytes": 20327,
+      "sha256": "454af934220aa37a7844946e3471fab45d314ae8259811a5c5b3de0d08d3d18e",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-child-plan-bible.py",
+      "language": "Python",
+      "bytes": 20256,
+      "sha256": "06e0ad463e932d892274b3934305365afa68ed842845e76a2ee2752b59d801f1",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-child-plan-memory.py",
+      "language": "Python",
+      "bytes": 15388,
+      "sha256": "a7adb7d3d473006ac858296678dbf0c8717457445be9019a635bed97aeb491e6",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-child-plan-recovery.py",
+      "language": "Python",
+      "bytes": 8631,
+      "sha256": "1dbd034468a7fbfceda66ce4400ba84a828603bdb2b3d6d8b0a358a167ba8987",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-scene-order-memory.py",
+      "language": "Python",
+      "bytes": 15097,
+      "sha256": "44e002ab7619e24f41e572c3fc5a6ff5e2e9d6a8428ae24c2d36bbee25d4ff2c",
+      "counted": true
+    },
+    {
+      "path": "scripts/qualify-screenplay-authoring.py",
+      "language": "Python",
+      "bytes": 30011,
+      "sha256": "68045f905e20ed61b382103c14714529e5979c5a6b10fa2e212492239e3c4479",
+      "counted": true
+    },
+    {
+      "path": "scripts/test_check_onnx_no_download.py",
+      "language": "Python",
+      "bytes": 2912,
+      "sha256": "168f790bf1303cadaa3222e9bee562d525d6e6964aae1ca5570021c661df1118",
+      "counted": true
+    },
+    {
+      "path": "scripts/test_qualify_bible_fact_propagation.py",
+      "language": "Python",
+      "bytes": 3995,
+      "sha256": "0ce11c1e96f3ca0d181497cd31745eb7f4a9437e7d71b305e6648e353628e1a8",
+      "counted": true
+    },
+    {
+      "path": "scripts/test_qualify_bible_relationship.py",
+      "language": "Python",
+      "bytes": 12408,
+      "sha256": "b29931edd3835ba00455a1f58102c3c67062785e97c04e4ea64bbb50a2e066dc",
+      "counted": true
+    },
+    {
+      "path": "scripts/test_qualify_canonical_scene_generation.py",
+      "language": "Python",
+      "bytes": 4847,
+      "sha256": "8d1d971a785bcd53b2e95c697d306db3ce68e67b4d8a57ef6790bf89f824330e",
+      "counted": true
+    },
+    {
+      "path": "scripts/test_qualify_child_plan_bible.py",
+      "language": "Python",
+      "bytes": 6538,
+      "sha256": "a6eb4ff94efa0712f3775b345f0efee18a91477b80aa097a0f1b03499ea9b349",
+      "counted": true
+    },
+    {
+      "path": "scripts/test_qualify_child_plan_memory.py",
+      "language": "Python",
+      "bytes": 5305,
+      "sha256": "ab250c25fbf8eaee5d9d0d1cba213d5b6e4e255f68d26fbb18463890c2f9f788",
+      "counted": true
+    },
+    {
+      "path": "scripts/test_qualify_child_plan_recovery.py",
+      "language": "Python",
+      "bytes": 9421,
+      "sha256": "3b0af782b19ddc89bde338ffc87909521886205681806b3238b6f9beac10a0ab",
+      "counted": true
+    },
+    {
+      "path": "scripts/test_qualify_scene_order_memory.py",
+      "language": "Python",
+      "bytes": 3169,
+      "sha256": "0140384dba74be7e8b926c69daceb6293658edf11c22666ab934776ad3328e90",
+      "counted": true
+    },
+    {
+      "path": "scripts/test_qualify_screenplay_authoring.py",
+      "language": "Python",
+      "bytes": 7848,
+      "sha256": "45b17f30d90e3b68969c5691739022e57c965be4e0a1925837dd4053163d400b",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/build.rs",
+      "language": "Rust",
+      "bytes": 40,
+      "sha256": "6aeeab41bc35efde4e3c2b644a6248f7fc06d24ae30b75c0d33491cbb0c1fa31",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/ai_commands.rs",
+      "language": "Rust",
+      "bytes": 2172,
+      "sha256": "a560be5944fd6124da81745f861527222e22df47d500978e7d125d1e8bece751",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/bevy_graph_host/host.rs",
+      "language": "Rust",
+      "bytes": 17373,
+      "sha256": "4336d5907eadf1e5cc3e40ad3ac48d413dd804cbdc90bc75c98074189f7d66bd",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/bevy_graph_host/mod.rs",
+      "language": "Rust",
+      "bytes": 3190,
+      "sha256": "446597570cd7766238b5de6bc185c10fee02dd2db6d4e11b3fa8694e87efd332",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/bevy_graph_host/native_runner.rs",
+      "language": "Rust",
+      "bytes": 11430,
+      "sha256": "19509e1f84c9db76199bfbe2839927e4d62ca749b179cec601345b7706f6d229",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/bevy_graph_host/owner.rs",
+      "language": "Rust",
+      "bytes": 18394,
+      "sha256": "c56853df6399eebf53c6f2f1a63a850a07bcba67b29bc3a20a0173e09071e625",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/bevy_graph_host/platform_strategy/current_platform.rs",
+      "language": "Rust",
+      "bytes": 252,
+      "sha256": "58766d3ab372f83dae3ea52082cf844e867fe1b31569f25786c249d7929d1004",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/bevy_graph_host/platform_strategy/mod.rs",
+      "language": "Rust",
+      "bytes": 5035,
+      "sha256": "56243ac38d1c7497f72fd34d48f33816ef15837560a520277414b547b115407a",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/bevy_graph_host/supervisor.rs",
+      "language": "Rust",
+      "bytes": 14869,
+      "sha256": "bb03ef8a92ac1579f4b2abb5824a23c106065b77b5106851646b9a44746d37c4",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/bevy_graph_host/tests.rs",
+      "language": "Rust",
+      "bytes": 42102,
+      "sha256": "3f42440321e16b1a8f2c7ff41236321d0ab8589f1a126f2bb9875990ac244c5c",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/bevy_graph_host/window_strategy.rs",
+      "language": "Rust",
+      "bytes": 975,
+      "sha256": "ac633936e007001924050b483a960c6bdc64bee96589b7080c2a2a98e337a198",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/bevy_graph_host/window_thread.rs",
+      "language": "Rust",
+      "bytes": 5218,
+      "sha256": "0620bd32984ba9be072aa604ddd91dc7d62a0df1821b6f35afa3a259b5a8b4f2",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/bevy_timeline_host.rs",
+      "language": "Rust",
+      "bytes": 10337,
+      "sha256": "1a627e716fef413c592c5391e017b7f9470c0f848ab93dfa49ff350f32a4d344",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/bevy_timeline_host_tests.rs",
+      "language": "Rust",
+      "bytes": 8483,
+      "sha256": "7949b8a07cd1a45e297b170fa3ddbfab9270c83c8c4e7911f5635bdac3f027ec",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/bevy_timeline_owner.rs",
+      "language": "Rust",
+      "bytes": 8395,
+      "sha256": "37c28de4186f426095c81ca58d011db99c06229099e3d5eab059e2360429a778",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/bin/native_renderer_smoke.rs",
+      "language": "Rust",
+      "bytes": 12594,
+      "sha256": "83ef3baa3aaa5f41395220f8cde0cad110668bf3b1a9187690e2adfb1070108a",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/commands/affect.rs",
+      "language": "Rust",
+      "bytes": 1927,
+      "sha256": "1c5f5d253ac32433489728d461cca8a9e46069a0be7003930361396161219944",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/commands/bible.rs",
+      "language": "Rust",
+      "bytes": 4834,
+      "sha256": "94063f098ebb77a1679013a8ce6801ff33d33ebca63d9a3532571d1e09f2c02f",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/commands/context.rs",
+      "language": "Rust",
+      "bytes": 682,
+      "sha256": "090e5924002596c7b11892d49eaa129c4a05a1952ba37917543d9198bc1a6dc6",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/commands/mod.rs",
+      "language": "Rust",
+      "bytes": 113,
+      "sha256": "f8dfca6e891dea21951aaa52f3864cfbdc24d4f341394dd9b5c7823b74d7a765",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/commands/object_script_story.rs",
+      "language": "Rust",
+      "bytes": 3805,
+      "sha256": "8848bfa0472593e0bd8076361060356525818765a6ae17003681494d5593c582",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/commands/semantic.rs",
+      "language": "Rust",
+      "bytes": 4454,
+      "sha256": "d6767fe3623130273fc45788484627050e6e28292cacb1c5c8b3bdf7afc982c3",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/commands/timeline.rs",
+      "language": "Rust",
+      "bytes": 6217,
+      "sha256": "4d1d20df4b7357a8f9bc2351b86f73c8fb52e30bedccc272eff3d6933dd18f5e",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/desktop_events.rs",
+      "language": "Rust",
+      "bytes": 29981,
+      "sha256": "713a176436d67671885c90e753b25c7b4e1887ae3cb7a2afa2f08a62eb0e6c76",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/desktop_smoke.rs",
+      "language": "Rust",
+      "bytes": 14774,
+      "sha256": "0f92d2f9b77bfab546f1c5a33203d20b14e209f789355eea630f1a37e709c42c",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/error.rs",
+      "language": "Rust",
+      "bytes": 1774,
+      "sha256": "e8727357a6c60e1911af43c6fcb77412cc8b1fd3f17d29f2d951c70521cf86b1",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/export_commands.rs",
+      "language": "Rust",
+      "bytes": 377,
+      "sha256": "9f5754c0a34443c79f50cdbc4d9af223f0bd0eb08af74ac10c5ec47d09613dd5",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/graph_renderer_commands.rs",
+      "language": "Rust",
+      "bytes": 15810,
+      "sha256": "134b8f1e702e9d6ff70c850925bf156444238ee4fe024fdcc47f713638d61440",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/graph_renderer_projection.rs",
+      "language": "Rust",
+      "bytes": 14085,
+      "sha256": "b9d9c6550a2256c1af12936cb731bb4e16af64399bf47d8bfa569b9d31bbd898",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/health.rs",
+      "language": "Rust",
+      "bytes": 266,
+      "sha256": "22579e9bd5a7bf85025eec2f3061b4d77fc143ef6929e806b3a13409ff52dc25",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/lib.rs",
+      "language": "Rust",
+      "bytes": 9557,
+      "sha256": "8072b1e4751d71a81703f10a626295a002eed707d3f899a32e1abeba331392bf",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/main.rs",
+      "language": "Rust",
+      "bytes": 1616,
+      "sha256": "e233b00109ca5959670083bef77ce25fc278015cd7afcf0c093f2096b94d0381",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/model_commands.rs",
+      "language": "Rust",
+      "bytes": 476,
+      "sha256": "d8c525df061f0c425aab48e9f9e17d4a4ad05c00df041ca9c2418f89aa9beb5f",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/project_commands.rs",
+      "language": "Rust",
+      "bytes": 1900,
+      "sha256": "914c230359b9db8fd1b4269b76fe1fda96d60a6750875ea56b498b13b85f6a60",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/projections/affect.rs",
+      "language": "Rust",
+      "bytes": 1083,
+      "sha256": "9877b9b29e4fdfd4b926bc9913336d9db7e2b03837330c3898f07cd1c0399ad1",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/projections/bible.rs",
+      "language": "Rust",
+      "bytes": 2358,
+      "sha256": "ab655b828280da47ac1ebdef53d4eee06b3f71ccbcf0002e60549b6aeec5c436",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/projections/context.rs",
+      "language": "Rust",
+      "bytes": 1095,
+      "sha256": "2fcbad0dfd6e2c99311c28298347d91d68fa107961d114b7bee8484e812d1c5b",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/projections/mod.rs",
+      "language": "Rust",
+      "bytes": 106,
+      "sha256": "bd699831d6c04c4b332f3b5cdb612f5df782a17396ee8588345c98a6574281f9",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/projections/semantic.rs",
+      "language": "Rust",
+      "bytes": 1845,
+      "sha256": "de55571d01ab56ac8e06ff6d07693b95997c454a20005cc817683d889b60910c",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/projections/story_script.rs",
+      "language": "Rust",
+      "bytes": 2099,
+      "sha256": "f21e1a5229b2d687558fa56fe1c284ee348ab53f618192f8780e01587226b791",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/projections/timeline.rs",
+      "language": "Rust",
+      "bytes": 1013,
+      "sha256": "03094dc1b65073e2ede9437ca38ba6bf99cdf82e929578cdbcbbf0b8b4e76f7b",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/reference_commands.rs",
+      "language": "Rust",
+      "bytes": 1026,
+      "sha256": "485b193095405677b9e01dd55c6f44a73344f84fddf898d660a807027cd991d0",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/renderer_window.rs",
+      "language": "Rust",
+      "bytes": 4459,
+      "sha256": "f0f1a65423fd37cd038f419320b73acddccd51bb7ebc7c9937f1cd2b3a15375c",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/timeline_renderer_command_bridge.rs",
+      "language": "Rust",
+      "bytes": 11350,
+      "sha256": "75e23ebaac30818ff3589b34aedf07c1dd0c6790895c964e9f0d02d4a6cf54b5",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/timeline_renderer_commands.rs",
+      "language": "Rust",
+      "bytes": 2306,
+      "sha256": "62157d1908a72c34d18f58e2fda6095fd072ad449046efcfa32cbf0bb7a4f88b",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/timeline_renderer_platform_strategy.rs",
+      "language": "Rust",
+      "bytes": 8077,
+      "sha256": "7ede8ddf645534c3da94355630d414f8bbd2287b090cadea902fc8dad927ab8f",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/timeline_renderer_supervisor.rs",
+      "language": "Rust",
+      "bytes": 16641,
+      "sha256": "3909f5b7238725d0a0c71f25d70da4b8180d76219158ac090019905459796c11",
+      "counted": true
+    },
+    {
+      "path": "src-tauri/src/timeline_renderer_window_thread.rs",
+      "language": "Rust",
+      "bytes": 7091,
+      "sha256": "3327ab19063d6295ccaa469f99ecb2ab130aa0d4525bc1810776e029c1f4f789",
+      "counted": true
+    },
+    {
+      "path": "ui/eslint.config.js",
+      "language": "JavaScript",
+      "bytes": 1574,
+      "sha256": "af8e88bc2a6773105eb72b84785e52acc4de15466892be7dfe0464ea1aa6cc82",
+      "counted": true
+    },
+    {
+      "path": "ui/src/app.css",
+      "language": "CSS",
+      "bytes": 3983,
+      "sha256": "ae13a5c8a5ae17b918de331386a12fa6cd0388ea10828ba0789f32c20b8ec87a",
+      "counted": true
+    },
+    {
+      "path": "ui/src/app.html",
+      "language": "HTML",
+      "bytes": 337,
+      "sha256": "90c250519c9e67b100b8ef3a07110f6a330fa8858651de0305cfecbe2bedd475",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/affectTypes.ts",
+      "language": "TypeScript",
+      "bytes": 2594,
+      "sha256": "eca2fe92d65d6e5e523ecd8ddd2c72d5b325b4d4983b6208b9d379a302f44254",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/aiTypes.ts",
+      "language": "TypeScript",
+      "bytes": 591,
+      "sha256": "e8f80f2cea747c63c241afdcaf11c6e3f9b60f18dc9fa2c71035b8729cff7416",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/api.test.ts",
+      "language": "TypeScript",
+      "bytes": 9933,
+      "sha256": "109c9fa27aa694877218f21100f65cfd5c41255a7d1308babbc6743e42ffb11e",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/api.ts",
+      "language": "TypeScript",
+      "bytes": 4423,
+      "sha256": "f03d614320c1280ad57766c9f3a0fbb55a81e8209515f17a8d15f7f2d015db06",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/bibleGraphSchemaTypes.ts",
+      "language": "TypeScript",
+      "bytes": 1336,
+      "sha256": "68cf6f5f657f9084ef487ed80c1f2c218ba98163886c5cc1df04c935d428db88",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/bibleGraphTypes.ts",
+      "language": "TypeScript",
+      "bytes": 6638,
+      "sha256": "043a3c1e49ab8edfa36833b1b6bfddaca45627002b19a31f5a2663b83d07f9d0",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/bibleRecallTypes.ts",
+      "language": "TypeScript",
+      "bytes": 1552,
+      "sha256": "a1217f2eefb9c300170562d2bb9b2212b858750be47e8e7016554977ca195ce7",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/changeReviewProjectionApi.test.ts",
+      "language": "TypeScript",
+      "bytes": 1156,
+      "sha256": "dd99fdd93fbf15903f278d0cebfad6590a8502d5bedc4755daf6dedca52819b5",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/changeReviewTypes.ts",
+      "language": "TypeScript",
+      "bytes": 1229,
+      "sha256": "facc270b220ea86a1cbab15e546e84923f5ece18e53ec11ddf5ec04393330e5b",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/childPlanningTypes.ts",
+      "language": "TypeScript",
+      "bytes": 2330,
+      "sha256": "a90dd13571ebe0c04b1dfd66f4838ac0a97e4895b7a61e2665787e8894c7b6cb",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/commandApi.test.ts",
+      "language": "TypeScript",
+      "bytes": 36844,
+      "sha256": "78c5740347372b2e3c769d6f97c7c0a0755ab60540a2704d875863f82e49eabc",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/commandApi.ts",
+      "language": "TypeScript",
+      "bytes": 14371,
+      "sha256": "3a803a399199d4e685347403e5660304b96c32810d5c437992cac6bf93eca449",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/commandTransport.ts",
+      "language": "TypeScript",
+      "bytes": 76,
+      "sha256": "cb5c24a3dfd25b1d2c94de140a4e446b58537fbd68d2012221a1f19728b1010a",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/AiPromptPreview.svelte",
+      "language": "Svelte",
+      "bytes": 1206,
+      "sha256": "012f06f2138ff6a2117c446f73ba65887ea6fc5a5b99b4ed73ba634bbad56025",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/BeatChildContext.svelte",
+      "language": "Svelte",
+      "bytes": 3372,
+      "sha256": "6fc669686e2cb7a36eff19829ba2507bbfd63c99036f488edc178d4b543ff2c2",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/BeatEditor.svelte",
+      "language": "Svelte",
+      "bytes": 13038,
+      "sha256": "ba44a1fca9014f251805c74438513ff36c07b6ef2e71ef7579c369c946b6e377",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/BeatEditorHeader.svelte",
+      "language": "Svelte",
+      "bytes": 1413,
+      "sha256": "44193a2669131bbf7c34c55d4860320ec7434e9ae8ab771ed3ce62ea7d970824",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/BeatNotesPanel.svelte",
+      "language": "Svelte",
+      "bytes": 1245,
+      "sha256": "e4e182c21366216c6627cb606f097bf9c315ebf05a2afb81f7924e5759a66ba2",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/BeatPlanningActions.svelte",
+      "language": "Svelte",
+      "bytes": 528,
+      "sha256": "164dd4329543e3a5956aaac51ea79480d6e342216130628fb3e8434e674a0349",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ChildPlanBibleEvidence.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 7640,
+      "sha256": "b87fc3eed3494c4fe779a8e214a100cb2f67735cde5f4c8dfa0d8cd828211ec8",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ChildPlanBibleEvidence.svelte",
+      "language": "Svelte",
+      "bytes": 4325,
+      "sha256": "3da0f075edba886e28d03864ca3797e61a077073fc7fbab489f849245f8290ce",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ChildPlanReview.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 4037,
+      "sha256": "b86897c02480a50e06a7b0cbc9cdf6dcef583a356b0ac1d35f2b395e251db2de",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ChildPlanReview.svelte",
+      "language": "Svelte",
+      "bytes": 3647,
+      "sha256": "7168c1796a95740478030f75b1032261156f38341a89a553ff3c2cbd02b95a87",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptArcEvidence.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 5297,
+      "sha256": "5fe8169f3c640707e8ea4cc22ab24f85ea42a17a16021607c79cf6f0f8fe41a9",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptArcEvidence.svelte",
+      "language": "Svelte",
+      "bytes": 3451,
+      "sha256": "c5f5bdbe7f8f12b04e8273150a4c24b8960cfa0490037f9a3cde3addc99ba327",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptBlockComposer.retry.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 2208,
+      "sha256": "161b672c04c35eec2a5acf63c82941068e6f847232796b7545baa63f583f19dd",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptBlockComposer.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 1061,
+      "sha256": "221c803c15fe94b895821215c58a6a17a3a8cc06e3eb44968c22d83c2f0117a1",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptBlockComposer.svelte",
+      "language": "Svelte",
+      "bytes": 3252,
+      "sha256": "79624834878afde0f7f318f7f3c26791be6199454538e5681b12f08f3522dbcf",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptBlockEditor.svelte",
+      "language": "Svelte",
+      "bytes": 3827,
+      "sha256": "326c2778bf0b4bd1c03494c499625293b1896fc969890b4f11ebdb7402d79ccb",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptBlockRemoval.svelte",
+      "language": "Svelte",
+      "bytes": 1223,
+      "sha256": "ac4dae236bd6473cd698649c55f6d186dd195ece84274e6a561c62a82f824ea5",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptFactReconciliation.svelte",
+      "language": "Svelte",
+      "bytes": 5507,
+      "sha256": "4d90708131a2f41c57acfe7670f27038a7d4426050566b2311e32459fbd3f7ac",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptImpactNotice.svelte",
+      "language": "Svelte",
+      "bytes": 1278,
+      "sha256": "2eaad320b8404e25d4a699259e3a1740e9fb2b86349fbe9f8bebf5df40eed90c",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptImpactReview.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 9911,
+      "sha256": "6105419dac62cd8edbcd55ab24b077069a917141ccb5eb9eee998d2e9defbfec",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptImpactReview.svelte",
+      "language": "Svelte",
+      "bytes": 9939,
+      "sha256": "b746bcbce93fc0acf5f4d3b1beeb32f1baa843b19d3ff951d68b852d8e0f5e59",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptPanel.svelte",
+      "language": "Svelte",
+      "bytes": 5771,
+      "sha256": "000775d7dbfda786d2f75eb922a419ea9ab283573a2c26c8f4f9b60e7f6c1011",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptRecallFacts.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 2526,
+      "sha256": "a9a38533209497e1295081772c82d91384c5a841fb14b466a683733857676f29",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptRecallFacts.svelte",
+      "language": "Svelte",
+      "bytes": 4023,
+      "sha256": "b1f4449a28538fdd21f49e90142b4cb4a4272da20bd293f549cb7facaf9e10db",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptSegmentSource.svelte",
+      "language": "Svelte",
+      "bytes": 1386,
+      "sha256": "6d976a258e15a56a4c4a33eca96b1f51aad4deda766812a35eeb657e0fc4cf65",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptTimelineNotesEvidence.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 4264,
+      "sha256": "765cf8477b829e5a9b45e95bb3c5d180888cb4cd21d607ec8178e4d68b1f4d93",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptTimelineNotesEvidence.svelte",
+      "language": "Svelte",
+      "bytes": 1662,
+      "sha256": "1d63dd6f4401471c988edf224c5a3012003580f691a8ccaf665d1ac02cc0495c",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptTimelineNotesReview.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 5339,
+      "sha256": "bcfbb761549283c391eb54548bcf72085745c715e05f6b0a54e77f6659d7a3a1",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptTimelineTitleEvidence.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 1857,
+      "sha256": "fab797ada7390183ed0be1c6a1ca39a19f2906274c95d86bdfa65d9e88ab2ba4",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptTimelineTitleEvidence.svelte",
+      "language": "Svelte",
+      "bytes": 2245,
+      "sha256": "389a0b6baad1860f7c155a8d4e371ca17fdfff00a8c98ce0002cc84fe0f7f813",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/ScriptView.svelte",
+      "language": "Svelte",
+      "bytes": 5658,
+      "sha256": "48f8ba38f1ad430299a12564cc4c2d47cc7b201e73bddeea20792a9236cdcd69",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/TimelineNotesEditor.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 2513,
+      "sha256": "d551a335dd72dba8692dca0410be7d5e5e7f6c870f890a3881ea8e62f2b4d05f",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/TimelineNotesEditor.svelte",
+      "language": "Svelte",
+      "bytes": 3354,
+      "sha256": "d3cc4077397c9d585172acc267787a647d6e1df0b4419b2d6d5561abeae32796",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/TimelinePlacementEditor.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 901,
+      "sha256": "c7f405d85bccf717e9f082d2b0ac28c4864d741e37ca5e8c4f42a7179c163992",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/TimelinePlacementEditor.svelte",
+      "language": "Svelte",
+      "bytes": 2438,
+      "sha256": "fecf5b78cc797c835c408215b1864022e6dc1fa7c579d5ce7c33044384c0e287",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/TimelineTitleEditor.svelte",
+      "language": "Svelte",
+      "bytes": 1703,
+      "sha256": "8d768bbc7011ec1c3ae77863a799fc080d511f6f29b9ceeca666d1aba794149d",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/beatEditor.css",
+      "language": "CSS",
+      "bytes": 8781,
+      "sha256": "ded60a8febcdedc58666bd7a4213662d4b3f229b8cfd7e734ae3433c2bacdbcf",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/beatEditorStatus.ts",
+      "language": "TypeScript",
+      "bytes": 329,
+      "sha256": "58bd539da7e50b9d181a3bc7a0b6a28f8257f87003e2a58042cfb3c886a72b18",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/childPlanReview.client.test.ts",
+      "language": "TypeScript",
+      "bytes": 3543,
+      "sha256": "2acd3f380edf54e744fec39ef887182b03b2588b57aa2a7d35c26a259cb77531",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/childPlanReview.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 14106,
+      "sha256": "393fae4a6bc30028f31a4077ef1b5ad8217aaa6def7b13ef3df1b7e7e77fc26b",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/childPlanReview.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 6053,
+      "sha256": "aadc4acd6bb6e20c3bc49c5e2c0e14e0732b54437b3d9c0d3bb5ceb0bb0113a6",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/contextRequestLifecycle.test.ts",
+      "language": "TypeScript",
+      "bytes": 7145,
+      "sha256": "77892744bdcf52e8ebb7701da45bf0cdf5e4fe374d5d441eb9fdc82211e3e0ab",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/contextRequestLifecycle.ts",
+      "language": "TypeScript",
+      "bytes": 1516,
+      "sha256": "bead79a6cb21b0ab519a19f142601485356ca6bf90ad209e91f23e5b46dac9e6",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/createSelectedTimelineChild.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 2641,
+      "sha256": "d13bfea6c4edf8377d66f52a104e484fe96e6f94aaf9543510cc81b5b2e43c16",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/createSelectedTimelineChild.ts",
+      "language": "TypeScript",
+      "bytes": 1159,
+      "sha256": "46e475398e85a28cea48105e3c193a5e1200806f19c020e80953570e8a709d12",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/debouncedNodeNotesSave.test.ts",
+      "language": "TypeScript",
+      "bytes": 1563,
+      "sha256": "69a335f63f1ef195afc565beacba0b4a91249d08ebcfc35ceeef87e2a5884163",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/debouncedNodeNotesSave.ts",
+      "language": "TypeScript",
+      "bytes": 783,
+      "sha256": "23b846ebfbf5947316bdc31f6fe8c8f964015ab5ceb935514d70335848a658c5",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptBlockCreationDraft.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 2909,
+      "sha256": "c2e8d438313e2d75d820aeb7d31a6db2ffbe2fbc2c365f8ad8ccdf02bc34917c",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptBlockCreationDraft.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 4542,
+      "sha256": "4465fa36ee6b0a42380bbb8fe79db45f33b125e62be0b39f0164aa2d92e15e12",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptBlockCreationRetry.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 6826,
+      "sha256": "9cd3bb3d01a13eb98d0f0432bdbc03818ad64dcd75ad2c46496dddaf423c640a",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptBlockEditComparison.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 9911,
+      "sha256": "80ec7dbd76ecac3ef25291a44b0e6301cab1a73b111777a1b51bd78a4cae477f",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptBlockEditDraft.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 8239,
+      "sha256": "f5ffa72c06899914802131aaee8d972f9a6d53788ae83cc75e054a1215566058",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptBlockEditLifetime.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 9059,
+      "sha256": "925faaaf225646f522d22011303f36e39ee822db0f102fe4d7944ba25ae2d8cf",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptBlockRemoval.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 9921,
+      "sha256": "98af3c38105c38362d5bac7886eeabe53f268e48704b97de815a41a41f652301",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptCreationSource.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 11232,
+      "sha256": "718875843e9e462e6fd69d0a31ace928b532d0bc3b13ae014a6bfeb9118f5e34",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptCreationSource.ts",
+      "language": "TypeScript",
+      "bytes": 1796,
+      "sha256": "9da0894c77b4025e354831f5159e4a492be9287cbabeb8b587f60f5af786a14f",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptFactReview.client.test.ts",
+      "language": "TypeScript",
+      "bytes": 2535,
+      "sha256": "c02e534e87986042fc657d430177d5d090f84b33a759304ebb1562648ccfa9e5",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptFactReview.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 8301,
+      "sha256": "bc16a9a361077f6265ba011452a778533b9b66a9ee8134a7e52b0b530cb2087c",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptFactReview.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 2664,
+      "sha256": "86d7ae30d252492ebc338059549d02fe704e5adcbe3334f930dcb08f4c3ab5e3",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptImpactNotice.ts",
+      "language": "TypeScript",
+      "bytes": 1945,
+      "sha256": "911beff493e80dfd632e7b6768094a4af64121e8dc9ba6893b075a47aa9e8cec",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptRecallDraft.client.test.ts",
+      "language": "TypeScript",
+      "bytes": 3282,
+      "sha256": "49ac0eb960167b9495bf557e148ee4ecf53169d9cc367662e6515297c0e6fb8d",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptRecallDraft.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 1505,
+      "sha256": "03b20c7a5fbf34c0802ca2bf6058737d70fd36c07419f1f4a2ff293321c99a78",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptRecallPreview.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 3717,
+      "sha256": "6b764225a816d1938569d6bdb01697f463738e125bdab1d0264d2a3987df1d61",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptRecallSelection.fixture.ts",
+      "language": "TypeScript",
+      "bytes": 1638,
+      "sha256": "93adf9f32f2c3c07cd30ce12da25c25816e2fee934e53b6d8ff0fc9a657e134c",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptRecallSelection.test.ts",
+      "language": "TypeScript",
+      "bytes": 4593,
+      "sha256": "7a22b09ad83b68e8cbaab712bd21733e9cd39c93cff8107ef89bdc808b5cc1b2",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptRecallSelection.ts",
+      "language": "TypeScript",
+      "bytes": 2619,
+      "sha256": "f8cc8875ad9a2212fb762cacca6d1bef68fdfa23f5f97700b8443568bf4c4c41",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptSourceNavigation.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 9562,
+      "sha256": "da80d74a2001b0a73864710c94bc9570b50fe6d2e82d8658ba39f9dc67118645",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/scriptSourceNavigation.ts",
+      "language": "TypeScript",
+      "bytes": 1158,
+      "sha256": "a2a6ae0bdf6bfc702c1150330daf7eb6da9e50df89300b895255097cc16eff5e",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/timelineNotesDraft.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 7546,
+      "sha256": "7ba6c7870a842a1ba6ec4b7464427c82d6a65f4c8767076b042427206ba195f1",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/timelineNotesDraft.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 4330,
+      "sha256": "294272cca1a1e81b4c3e8d8a9ee273f8f67da7620bc88f80cba6bfcff78b3294",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/timelinePlacementDraft.client.test.ts",
+      "language": "TypeScript",
+      "bytes": 1946,
+      "sha256": "9779375686097b60c4e7e2ae6a063b88e1409dc2a57da31e48410cdf772fda2e",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/timelinePlacementDraft.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 3884,
+      "sha256": "cc49337a33b0a37982da4ae831739614bdd492951ce5ebcfe97b2e4e325d5336",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/timelinePlacementDraft.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 3388,
+      "sha256": "32f24d9ec3ece6c50f3db1bb51bb999a93132961aea3c7c755c67e6554324866",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/timelineTitleDraft.client.test.ts",
+      "language": "TypeScript",
+      "bytes": 2121,
+      "sha256": "83fa56fb3495f814fec84f635098b46a98adad58efa0ef4ef6a008e6c69f4596",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/timelineTitleDraft.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 3692,
+      "sha256": "955389960025a974a883a01bd31cfec252c89baa8cf9ec129c7e722694b350b1",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/editor/timelineTitleDraft.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 3164,
+      "sha256": "3faf72e059f7062cfdd36fcff626f6fa2eeef3a710b28bb8c96c300f50d5c5b0",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/AiStatusIndicator.svelte",
+      "language": "Svelte",
+      "bytes": 1088,
+      "sha256": "0233a7f4316b3e0066f2863bdea44518b448760da1d030db104742b69b5ba2c4",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/AppShell.svelte",
+      "language": "Svelte",
+      "bytes": 8724,
+      "sha256": "9580d4838452052cc20c4aca330f0a1bf2e3b2203ddac722ab4a802022e8cb8b",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/AppToolbar.svelte",
+      "language": "Svelte",
+      "bytes": 2317,
+      "sha256": "5a48e574f817520e3dacb4175e88a49d41a0d9b88708214fecec5c9778ad9150",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/AppWorkspace.creationLifetime.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 8328,
+      "sha256": "ee593824eb59536ee8ce65ccde1f811393b51b56e196944a768a11369310517d",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/AppWorkspace.svelte",
+      "language": "Svelte",
+      "bytes": 1842,
+      "sha256": "e6efd4156dc26eb8e390f1dd201ead9300c0be51bbe02a66f2c25635cb4e75ef",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/BottomTimelineStack.svelte",
+      "language": "Svelte",
+      "bytes": 871,
+      "sha256": "925a1e6d873c9d80d1773320578fd1fa622317ab786fe9b0c24bcef61bb5bad8",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/GraphRendererWindowControls.svelte",
+      "language": "Svelte",
+      "bytes": 5465,
+      "sha256": "8ed35814540ce1be79a175e42a30cfbd90c4f1f0da7b76ef32eb5ec8183f4020",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/GraphRightInspector.svelte",
+      "language": "Svelte",
+      "bytes": 1846,
+      "sha256": "60241e5d45486595013fdd153924f581c31d4591cb8c310731beac05b7640d43",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/GraphSelectionDetail.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 2607,
+      "sha256": "c36e4532550acd18539231cdb54ff2a7d482e5d7da61cc6a4ef21bbf01f29c8a",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/GraphSelectionDetail.svelte",
+      "language": "Svelte",
+      "bytes": 6154,
+      "sha256": "c38cb7a07eabf61d14bf87c534053f55425a2517c82df706ddd909dadb2fc700",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/GraphWorkspacePanel.svelte",
+      "language": "Svelte",
+      "bytes": 28994,
+      "sha256": "fc761bea8f02b87aa3317740700282b04729f037eb4e7ba92236b9b2c3649305",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/GraphWorkspaceSideLists.svelte",
+      "language": "Svelte",
+      "bytes": 5591,
+      "sha256": "e90cd2a7c25546c49ce529a906b91fce4ad3f3b8cdc0159697faf3075d88b097",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/PanelResizer.svelte",
+      "language": "Svelte",
+      "bytes": 1965,
+      "sha256": "eefa0b69c9b0650c23340c11f68a3e8a762833bebf8948293c3845aace0c361f",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/Sidebar.svelte",
+      "language": "Svelte",
+      "bytes": 4558,
+      "sha256": "0efdf6489f893279a634ac41a18ba1db19f876a30be6fcf86de2c057c9ccc89c",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/SplashScreen.svelte",
+      "language": "Svelte",
+      "bytes": 8796,
+      "sha256": "eacff291d66af51c5fe3753a07bc4ca8bb35c9038685f071a2d3bb100b8dcbc2",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/ToastContainer.svelte",
+      "language": "Svelte",
+      "bytes": 1749,
+      "sha256": "28fcf2c3b967ad7c50cdf6ec1a4859684a271d97c506d3ac60ab6ab8db5810eb",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/graphRendererWindowStatus.test.ts",
+      "language": "TypeScript",
+      "bytes": 5147,
+      "sha256": "4300c2e1406286cbd43fd8842b4efa7a14231ec8e6faf0fbfab7dbd84ec22142",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/graphRendererWindowStatus.ts",
+      "language": "TypeScript",
+      "bytes": 2482,
+      "sha256": "1383c747b6a547896be377d72ced6c6ebb1f140bccfdea4b4dacc19f76ec345d",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/graphSelectionDetails.test.ts",
+      "language": "TypeScript",
+      "bytes": 3462,
+      "sha256": "f7ae83bb3363e878dc907c8beb81484f9b9141a187d162b1f9c4d0a40e4e4fd9",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/graphSelectionDetails.ts",
+      "language": "TypeScript",
+      "bytes": 3591,
+      "sha256": "f6819d60459af2eb380d0b1db0d9ff948e7c1a0512ba3243b163f313518cc1ee",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/graphWorkspaceBootstrap.test.ts",
+      "language": "TypeScript",
+      "bytes": 1305,
+      "sha256": "efc17059cfc90bc282a23d63458347a6c0326881ab05377d606fd632c8c6aef1",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/graphWorkspaceBootstrap.ts",
+      "language": "TypeScript",
+      "bytes": 546,
+      "sha256": "92176d6b3c5a6d08b67dc9fe44799a1f334765c43a7af3f6742a1940971deff0",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/graphWorkspaceEdgeKindFilters.test.ts",
+      "language": "TypeScript",
+      "bytes": 625,
+      "sha256": "1e54936047fd3da04653a9d35540ec593d69c5d92ade4c6df3e8aa6aeaaac63c",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/graphWorkspaceEdgeKindFilters.ts",
+      "language": "TypeScript",
+      "bytes": 815,
+      "sha256": "c531167c292cc20f8b0c0da66bff13c1aa3901deca6fa67f96ea15a845230f03",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/graphWorkspaceItems.test.ts",
+      "language": "TypeScript",
+      "bytes": 1907,
+      "sha256": "49ec89cb54fe1470dd20f2b765fec6e0f1dc1e6f5c99498e674a5e2989eeac99",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/graphWorkspaceItems.ts",
+      "language": "TypeScript",
+      "bytes": 1717,
+      "sha256": "b36840c6878f7e5f8856e2bfc9806ebc5b389a487f3eb2c6b0be2a7d2ff310e3",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/graphWorkspaceProjectionRequest.test.ts",
+      "language": "TypeScript",
+      "bytes": 1995,
+      "sha256": "70eaca533965e57085d005a2a2d62629b04c3c0bd8c16ba4a8f46208a889141b",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/graphWorkspaceProjectionRequest.ts",
+      "language": "TypeScript",
+      "bytes": 1199,
+      "sha256": "c98633b0ac352cb781c657a96d3edef1c584f2999c2000dab0e1fe127568d22a",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/graphWorkspaceTimelineCrossLink.test.ts",
+      "language": "TypeScript",
+      "bytes": 1101,
+      "sha256": "fc03430ff912913ce2687a2758dda1cfc3377b42e6e1ab16bc093cfc6bca84a0",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/layout/graphWorkspaceTimelineCrossLink.ts",
+      "language": "TypeScript",
+      "bytes": 948,
+      "sha256": "2faec6cd5ccda524d598c0dfd880530529ba0e9a5b5d13c4c1a934e83307b0bf",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/AiConfigPanel.svelte",
+      "language": "Svelte",
+      "bytes": 6070,
+      "sha256": "b0be1abc5da3ce3c728d7b31394515e915802f30b6440a7bae9f67d62df8cd2d",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/ArcDetail.svelte",
+      "language": "Svelte",
+      "bytes": 4744,
+      "sha256": "a2df5cb7a3f57d4a0ffb95aa14543d0f1a8f2fb08e9b64f6543da058ca469035",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/ArcList.svelte",
+      "language": "Svelte",
+      "bytes": 2546,
+      "sha256": "c5e9d6147ff30f73d792e20fc8675cff9301a64e55fbd9199f4f344911b0dae1",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/ChangeReviewPanel.svelte",
+      "language": "Svelte",
+      "bytes": 7566,
+      "sha256": "d8bf2ac969f4dacba27c303e15c06cb896aca42a1a4e54f9b122595fc18fd93d",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/ProgressionPanel.svelte",
+      "language": "Svelte",
+      "bytes": 4155,
+      "sha256": "e5b9d2e10379fc19d74f62e5d60f7232a2f49eadf60cfcc151fb021183bcfba2",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/ReferencePanel.svelte",
+      "language": "Svelte",
+      "bytes": 4446,
+      "sha256": "a198e460112ec53e664b842387a11510a64382a7287861aafc38196905e256e3",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/BibleGraphAddControls.svelte",
+      "language": "Svelte",
+      "bytes": 2431,
+      "sha256": "f1d0cd25ee300b91f9feadfbde306c26990868bcf75f417f7da5b59e687e40f4",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/BibleGraphCategoryFilters.svelte",
+      "language": "Svelte",
+      "bytes": 1546,
+      "sha256": "42e913fe68284de765c0a423d06d1ba3132be9c3934ef4584bd5a69ee53c6e4e",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/BibleGraphEdgeEditor.svelte",
+      "language": "Svelte",
+      "bytes": 4293,
+      "sha256": "02a16a1daf81d77300096bd4e1ff1609d3527199fb2b6459731983c502e52374",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/BibleGraphEdgeList.svelte",
+      "language": "Svelte",
+      "bytes": 4641,
+      "sha256": "69655fbc6a2bf8793b8aaba80ccea39294bcf7bd86ac55be10e9f884029d7e13",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/BibleGraphNodeCard.svelte",
+      "language": "Svelte",
+      "bytes": 2109,
+      "sha256": "df1ca34270ea883a7d7771e176337d63ab659e05472a80af92b7c3c1a5778706",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/BibleGraphNodeDetail.retry.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 1828,
+      "sha256": "bdbe8ace70e16c098a5a77521dbd728d129dcadb7d77efe03d9ca808561d0ba7",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/BibleGraphNodeDetail.svelte",
+      "language": "Svelte",
+      "bytes": 15697,
+      "sha256": "0a4f4868e44d8c394e9d1e09ae43f186640339eb6aec62b07fa91b839749c82b",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/BibleGraphPartFields.svelte",
+      "language": "Svelte",
+      "bytes": 4836,
+      "sha256": "979a5277a9fca60d30cd58385c0e3c7170e8d4553c5cebb3a686d5b8435e2a4c",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/BibleGraphSnapshotEditor.svelte",
+      "language": "Svelte",
+      "bytes": 4477,
+      "sha256": "16f289fbcc00cb582b8e73ebb677e1c6c50b10d7cfb096f71f67ea6e082d91a4",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/BibleGraphSnapshotList.svelte",
+      "language": "Svelte",
+      "bytes": 3249,
+      "sha256": "53e391a958e5c24c9f6e6e7f372a7238cc268018ce98c142234913b880719824",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/BibleRecall.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 3934,
+      "sha256": "58c1620cbbd37d1f8bdb7c4fd69cb453cf753a7031245d8da70512fefda42246",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/BibleRecall.svelte",
+      "language": "Svelte",
+      "bytes": 7851,
+      "sha256": "57a3b0bf1b805d18368ecc85b5073dfdf4924c86e7020e4623c03d9c870f43cd",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/BibleRenderGraphOutline.svelte",
+      "language": "Svelte",
+      "bytes": 3333,
+      "sha256": "1b642b6738dd1a6904048b7aa3d228333d3caba7904c5a2d6427899dd5cc0365",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/StoryBibleTab.svelte",
+      "language": "Svelte",
+      "bytes": 8358,
+      "sha256": "774041b44385370248bfb2c6017e547458523a0c4aec12ecd73931dbad67e2fe",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/bibleGraphCategories.test.ts",
+      "language": "TypeScript",
+      "bytes": 5317,
+      "sha256": "decd24a731b9d3f1f24cbf8bed7b73b65e48e9756914ca48f73c4da34f4b1cc2",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/bibleGraphCategories.ts",
+      "language": "TypeScript",
+      "bytes": 7135,
+      "sha256": "4763c8c44247b13407b4b1439571d7814a2974da1b3479ac87e9612a7b13124d",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/bibleGraphEdgeLabelEditor.client.test.ts",
+      "language": "TypeScript",
+      "bytes": 4382,
+      "sha256": "c84f2679719431d2688a82e8c43c238d2f6a19aa6134d17abd35d8f89cc4a6c9",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/bibleGraphEdgeLabelEditor.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 2636,
+      "sha256": "ea6289e1b6786c7de99d8baa86c1a0fe5ed3ada1b7772bb5503adbd1f073aa82",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/bibleGraphEdgeTargetOptions.test.ts",
+      "language": "TypeScript",
+      "bytes": 1945,
+      "sha256": "822322d8a0906fdb29a42a20b9913126091ed85e5c5442a3ee1cb228ebddfe59",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/bibleGraphEdgeTargetOptions.ts",
+      "language": "TypeScript",
+      "bytes": 1038,
+      "sha256": "1d91c4c2557aa9ff755ecaf1bcd2d154dba5bbc67bfa60b91b3bf3643ab08b83",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/bibleGraphFieldDrafts.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 4822,
+      "sha256": "0b1b79923e9a02ca295cf9bd913e38b70072b65a9b295c9c9c3eff95325da169",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/bibleGraphNodeCreateFlow.test.ts",
+      "language": "TypeScript",
+      "bytes": 9628,
+      "sha256": "007bd7ffea2a0d55355ca3535ccec616badf212fa35038a10bd5c621bccedd1a",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/bibleGraphNodeCreateFlow.ts",
+      "language": "TypeScript",
+      "bytes": 5008,
+      "sha256": "346133463b157f408fcc67b9374ccedef2798a5dab9318b9c73c2b27a8f636a6",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/bibleRenderGraphOutline.test.ts",
+      "language": "TypeScript",
+      "bytes": 2893,
+      "sha256": "ffcc302ea697c0b72e39c0d213b5b0d0ae36d52e5956c04c6f809a144b434f16",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/bible/bibleRenderGraphOutline.ts",
+      "language": "TypeScript",
+      "bytes": 1819,
+      "sha256": "a628ffb2dcc11cd392a8d3cae781822778fa1c0666b17ea476bbca978bf12281",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/changeReviewPanel.css",
+      "language": "CSS",
+      "bytes": 4238,
+      "sha256": "c96684c615a4d01d54893f51ab09c35dddf9bb4d8348beccfcaf08b63127f2f8",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/debouncedStoryArcMetadataSave.test.ts",
+      "language": "TypeScript",
+      "bytes": 1723,
+      "sha256": "b8f3c97678714882794dd8f87e8ddd2a003fa7512573a88597d303c1e9c9b2d2",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/sidebar/debouncedStoryArcMetadataSave.ts",
+      "language": "TypeScript",
+      "bytes": 903,
+      "sha256": "6aa434d6314aa9880e568d2112d2d6678fa387f489eb65be9da9c5194f7fee8c",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/timeline/LevelTrack.svelte",
+      "language": "Svelte",
+      "bytes": 10533,
+      "sha256": "181b14e9f3237d5e3430ab2aa29c24b1c3bea1522661a8af127d0523718bbc21",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/timeline/Playhead.svelte",
+      "language": "Svelte",
+      "bytes": 2741,
+      "sha256": "34af96795e8d4a7d3a3841ec94c0f2d91d744789270bba65cf090cedf95aba7a",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/timeline/RelationshipArc.svelte",
+      "language": "Svelte",
+      "bytes": 476,
+      "sha256": "4a1a8e46e3b4a37be5dc60792d7b5908fdb7090b0214e38dd0f90740fb9f21b6",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/timeline/RelationshipLayer.svelte",
+      "language": "Svelte",
+      "bytes": 2550,
+      "sha256": "79b05593c4d77683abb389fc4d469a7353e3833724c6e917fc45368df1bf8dd8",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/timeline/StoryNodeClip.svelte",
+      "language": "Svelte",
+      "bytes": 12854,
+      "sha256": "095d31405edea3b062550cdb02d6d6302465d21d69c367b58c381a61ca991538",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/timeline/StructureBar.svelte",
+      "language": "Svelte",
+      "bytes": 2029,
+      "sha256": "a19b6e64a77b6926b9a0937e6221930f755a4942b34ab81cb23775333b1da8e2",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/timeline/TimeRuler.svelte",
+      "language": "Svelte",
+      "bytes": 2580,
+      "sha256": "4e728c2050fddce524e05ef038e4ee580a41794535631f5c79aac758460397a9",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/timeline/Timeline.svelte",
+      "language": "Svelte",
+      "bytes": 12894,
+      "sha256": "f4827c24069d227e89960d006def50e3955f6fda2f6f0ad5f0790c5f42fd2da6",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/timeline/TimelineRendererWindowControls.svelte",
+      "language": "Svelte",
+      "bytes": 4859,
+      "sha256": "43150f0ead0ae48e27ce8d1e6987aa3d58b0a90d17b0d8999c586c62465b8393",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/timeline/TimelineToolbar.svelte",
+      "language": "Svelte",
+      "bytes": 4361,
+      "sha256": "8ba53c3374dc0d40f92c5b9790a1dc3fc9fa2dd735a820b66f5da86e6a2f40a6",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/timeline/timelineRendererWindowControls.test.ts",
+      "language": "TypeScript",
+      "bytes": 2967,
+      "sha256": "238e6103394e6d7d0ab9ca3ce2e9e10967f9424f64465a993464b53ce1dc7450",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/components/timeline/timelineRendererWindowControls.ts",
+      "language": "TypeScript",
+      "bytes": 1351,
+      "sha256": "40f5604e9323024ebd9570b30c5a2517a9c988f9e095e03c6ceef14556fd9855",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/contextInfluenceTypes.ts",
+      "language": "TypeScript",
+      "bytes": 2205,
+      "sha256": "7929825eb0009c675ec269ed5a07a788fad7cdedc8fa3c05406feb10b2fa0593",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/desktopTransport.ts",
+      "language": "TypeScript",
+      "bytes": 1819,
+      "sha256": "d230ff9fd78270ef1f043ecafe0a9075eb9d37bc8e600406ee20cfd44e16d794",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/graphRendererApi.test.ts",
+      "language": "TypeScript",
+      "bytes": 14706,
+      "sha256": "305d3272f846aca96ed5d7fe443ca25a9f5e66860c0909462ab516a32ddd6d9b",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/graphRendererApi.ts",
+      "language": "TypeScript",
+      "bytes": 2288,
+      "sha256": "a99cb4427a106a93d5c714477935783036ef4ca8d4d443a11ee2dd38f2f0b621",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/graphRendererTypes.ts",
+      "language": "TypeScript",
+      "bytes": 5040,
+      "sha256": "acd08b07ec29cee1ea29f72eba5e0a8df140c2aa4766b7dcda29c48ec7a9fdc4",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/projectTypes.ts",
+      "language": "TypeScript",
+      "bytes": 464,
+      "sha256": "ed6105b88794b7198dde795b238a188a8fae6dbde4c5c09b48296945a980477f",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/projectionApi.test.ts",
+      "language": "TypeScript",
+      "bytes": 10564,
+      "sha256": "9a777939548993c3ad9a840203eb6a9da5e35752a26a10b78a643fa5ddbc98b0",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/projectionApi.ts",
+      "language": "TypeScript",
+      "bytes": 6730,
+      "sha256": "cb7a8bbf60bcf671ffe458d43f1bb298b9216c0c099464c173ad6d81e84eb7ba",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/projectionOnlyGuards.test.ts",
+      "language": "TypeScript",
+      "bytes": 3779,
+      "sha256": "a55513c2e8fe5a42b7220efa222c9c466ecc595ea802f5a16afb60eb916c56e8",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/projectionTypes.ts",
+      "language": "TypeScript",
+      "bytes": 1526,
+      "sha256": "2698cd0aeac489fd77b8ba7d29cb85c43c4ededec74e2667658cc5af22280489",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/propagationProposalCommandApi.test.ts",
+      "language": "TypeScript",
+      "bytes": 5448,
+      "sha256": "eef80c0ec4893e7e9dee6bf112f1f20c73ea3967b1feae4c0bc506be0cc2b62f",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/propagationProposalProjectionApi.test.ts",
+      "language": "TypeScript",
+      "bytes": 1226,
+      "sha256": "737454fc404782cfc025a6436a03993dad618c7b96a95e7da4f03ecc47492b36",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/propagationProposalTypes.ts",
+      "language": "TypeScript",
+      "bytes": 5859,
+      "sha256": "3e7f0d7ebf0257a6fd24e2cb979a08ea7fe4f3a2a95deb632cedeabea6d35879",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/scriptCommandApi.test.ts",
+      "language": "TypeScript",
+      "bytes": 2162,
+      "sha256": "e3105ac3be185ffcb6ce7f0ae87fd04b68d6376db5ef7d0650c01b5293283808",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/scriptDocumentFormat.test.ts",
+      "language": "TypeScript",
+      "bytes": 2197,
+      "sha256": "bae9fd0d82a5434b6ba988318675814a89e1b03c1521ad2f9e190149a177b183",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/scriptDocumentFormat.ts",
+      "language": "TypeScript",
+      "bytes": 891,
+      "sha256": "68fa775a717fbc5b7f0207b67bd85762d9b45fae98288f862868c1841ecdd957",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/scriptFactTypes.ts",
+      "language": "TypeScript",
+      "bytes": 1242,
+      "sha256": "e1c87161520cca175faf5817e822389c0ce2e14c6cba7493a21f01126afd0093",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/scriptProjectionApi.test.ts",
+      "language": "TypeScript",
+      "bytes": 1485,
+      "sha256": "38e495c25d2489f54ba8a99cd6b19870c25c96d52ad3387e8b2105431dc5e831",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/scriptTypes.ts",
+      "language": "TypeScript",
+      "bytes": 4405,
+      "sha256": "df2b76b771631841e8f832fb9fe3a868acd80323d00d303c484b6ce84af9efc2",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/selectedNodeEditorTypes.ts",
+      "language": "TypeScript",
+      "bytes": 1434,
+      "sha256": "11b3183cd4b85ae513d799190c5d244c7f1469262413f600d20451e1d79a8c8b",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/semanticProposalCommandApi.test.ts",
+      "language": "TypeScript",
+      "bytes": 2908,
+      "sha256": "12fbd41d215d702eb665a06d80bef8b2175f1da547691cc46b8ac602af41ae03",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/semanticProposalProjectionApi.test.ts",
+      "language": "TypeScript",
+      "bytes": 1240,
+      "sha256": "cc75543019a0b77d778753d0f097d6a1232caf0e4ae7b131f4567eb62b8121c3",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/semanticProposalTypes.ts",
+      "language": "TypeScript",
+      "bytes": 1530,
+      "sha256": "9f55d9b43af718209152e1de0499ca068d1a14005e8ad07efe75622425341470",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/serverEventClient.test.ts",
+      "language": "TypeScript",
+      "bytes": 2548,
+      "sha256": "7c7492d343c92283f82ba1e0f9a700d1b3e663d268fcdc3464c16f685cb48470",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/serverEventClient.ts",
+      "language": "TypeScript",
+      "bytes": 2505,
+      "sha256": "3061b07bce6a6d3bde63f6c5e0094408904cb2dd1e431250f46813d6a9704385",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/serverEventTypes.ts",
+      "language": "TypeScript",
+      "bytes": 875,
+      "sha256": "84011e1a909ee07e62d7bba3d439543879a52088a6099c9285fa14afa7292abb",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/affectProposalProjection.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 5162,
+      "sha256": "4760104e8fda0fce1ab5275a1e4e30b291b8ea896533887a3d231734068d933a",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/affectProposalProjection.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 3908,
+      "sha256": "d56ad703023e976af13f8612b9a116c3dca726cb7dd7d3304f69a49965bec0ca",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/aiStatus.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 3105,
+      "sha256": "4f0d261167f8ec880c90587979538ee15748487f22cc9fbf9b615f2224ea53db",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/aiStatus.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 1551,
+      "sha256": "cecb2b29667917163ba0dd8d27fdd905d29f968ed9cf6df343b4d01bb034d298",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/bible.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 2338,
+      "sha256": "8299b15576332b60c02a088ca5d3ccd0f925699872e7467ea453cce8a6ddb98c",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/bible.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 2470,
+      "sha256": "7cbb119b009e789467f55a69e0bd36be01204bfd8d9d6cf429fcc1fa3731f758",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/bibleGraphNodeDetailProjection.client.test.ts",
+      "language": "TypeScript",
+      "bytes": 18104,
+      "sha256": "c174e1cd6f42911393790e483111c08f813fa208ad84842fd3b708d05795a04f",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/bibleGraphNodeDetailProjection.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 6023,
+      "sha256": "191253d4eeec0819181a748e82ef3d4d36c85de0e381e6859c902eba4a7aa7fd",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/bibleGraphNodeProjection.commands.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 27547,
+      "sha256": "7c10a70ce66b332d948c2423dac24927f846c37cb03da3e63e894633c8070d09",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/bibleGraphNodeProjection.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 11305,
+      "sha256": "a42b1b7c9e5482da185207ee527cbc6b8e734f1f8c33f3b18b941f6674fe0ad9",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/bibleGraphNodeProjection.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 13985,
+      "sha256": "48b2e1ea037fd380e0b6876da82546a34d7a8da455abec8510094b7589bb817a",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/bibleGraphNodeReadOwners.ts",
+      "language": "TypeScript",
+      "bytes": 294,
+      "sha256": "d2c2dd1cd13f0ab1d68c37dc0f57a1059c3323805f0f3cd22430595e9fcf4525",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/bibleGraphSchemaProjection.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 6332,
+      "sha256": "16075a82a0fa7d68141774d31cc20c95fab59a017e98a95fd584eb2d0241ced8",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/bibleGraphSchemaProjection.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 1969,
+      "sha256": "567fab486e0ccc3b66f41fff1ce52f877c49cbaf70a8b0f9b6d1f29f6d9360e5",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/bibleRecallProjection.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 13063,
+      "sha256": "0a5ddedebeb89215baa0b6262681e0962ba0427b595868eb999be15b4be36e42",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/bibleRecallProjection.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 3994,
+      "sha256": "5e442834cb8a0bc85da3fd4c8ab8d5bb12cb5b7cf1fec0dcd02ca73fbf3d1506",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/bibleRenderGraphProjection.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 6026,
+      "sha256": "2d80ece64f6699d84fed340d854c1fc00daed4bc5fc8bbceaf2754e8d22da511",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/bibleRenderGraphProjection.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 4140,
+      "sha256": "c14211becc0f696555b499c99877db4501c17432ac05294b4237be98e7c63f42",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/changeReviewProjection.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 3375,
+      "sha256": "6e35407e51c3df7ebce44b823be36e6bce5a96e1422de698fbe8da3f37198cc8",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/changeReviewProjection.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 1824,
+      "sha256": "ca93497d4bb676a27fc8e50515d66e675c079dca80de824b54742b842a0fe628",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/contextStackProjection.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 4899,
+      "sha256": "016560ab9ea6f22172fe57aacfe79fa818b9580182e097c07d7ca965891ddd4f",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/contextStackProjection.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 2646,
+      "sha256": "ebf5c56b1dec7a60d7559218e0fd09f9ebd53603d4ebc03464635ba486c9ac64",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/editor.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 5290,
+      "sha256": "21edae75c6b7043f772df3c97229e08b262c88577c7c63c0fdb7b0f65cf81305",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/graphRendererCommands.test.ts",
+      "language": "TypeScript",
+      "bytes": 3835,
+      "sha256": "a4e0bc707b19ecc6ab559ab4f6fac24f59d1383c820eebdb7e12d17530a39fcf",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/graphRendererCommands.ts",
+      "language": "TypeScript",
+      "bytes": 2194,
+      "sha256": "2cbd06d40a2c7963f6b8944642b611741537733b0daa59378680e0c1aaa1de80",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/graphRendererWindow.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 1900,
+      "sha256": "3ee608b044d211cfe53c1c8a36880ad6dab00cc56cb624ec4b59c9c0c6b35734",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/graphRendererWindow.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 415,
+      "sha256": "d2dfbb44c1c3178c72526d8a42007a2bf2bc51a613221b59177658dbf43e1812",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/notifications.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 681,
+      "sha256": "558dad725b50cc2a344325ea6700418cab2562e2a9ec27f0639f42e9fd7fe614",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/objectFieldProjection.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 6624,
+      "sha256": "cd0ee013fcf12a26b8406c8e1a6fb1991b1d2698ff94993f4a808b8d6b62445e",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/objectFieldProjection.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 3515,
+      "sha256": "9a6d281f1012362fba334007ed76443dde129fd1734db1e42f3631d0385c3446",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/project.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 256,
+      "sha256": "b6239988175a406332f4b021be648a2f3d07f73f554aa7ee224665e0b5d6c1c6",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/projectSession.test.ts",
+      "language": "TypeScript",
+      "bytes": 2318,
+      "sha256": "40815c75a9c871c7721f20d7242010fc425e91de8236c4c728fc19d419ec8bcd",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/projectSession.ts",
+      "language": "TypeScript",
+      "bytes": 4423,
+      "sha256": "c584de73a61b509ed32899c7f890af43ae86707ced7955dda82cd50009a05b4b",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/projectionCacheGuards.test.ts",
+      "language": "TypeScript",
+      "bytes": 826,
+      "sha256": "7f09d04a915813897087a8821786d946430e4300f84724df39caadc47d080ba1",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/projectionCacheGuards.ts",
+      "language": "TypeScript",
+      "bytes": 282,
+      "sha256": "7fb44bfa4a41153778f34cb3ba1a4d1f15d6a7cbb84e1003b7950a325613e4a9",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/projectionRefreshQueue.test.ts",
+      "language": "TypeScript",
+      "bytes": 1961,
+      "sha256": "05f0cfc8ce949f73b7bf5c48c3adb2248a4a0bba9d6269249850c07306745765",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/projectionRefreshQueue.ts",
+      "language": "TypeScript",
+      "bytes": 1605,
+      "sha256": "458c13436729257f62fe3d6756d10dd33b44a016f15bca339e5bb7f5d8d0fc64",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/propagationProposalProjection.client.test.ts",
+      "language": "TypeScript",
+      "bytes": 3621,
+      "sha256": "9d4ad20c31b755fe31006dd61f3733d5d12bde6c695f7ec30e4e7955f690cbbf",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/propagationProposalProjection.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 14540,
+      "sha256": "57ca00be182ae183349b674a5f63c9eacb81d889c143469551a21d8ba9905b66",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/propagationProposalProjection.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 7591,
+      "sha256": "9f014396fb723fcecf3c331b4202a353cfc0f2f6e85dae44059c48e7623bb8dc",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/scriptBlockCreationSession.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 1150,
+      "sha256": "db5506e19456f39cbfec9add5bda1896cb800298bbadcfc7fb839be2df7bade9",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/scriptBlockEditSession.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 2694,
+      "sha256": "c5a82c0a7fbb2cf297900aab76dc8ee3fb293390abcd3595a92c6b3c10e530c2",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/scriptDocumentProjection.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 16646,
+      "sha256": "eb0360ccb21cc59b49ed61590cf5b2fb277f47b571bf22ccba3af2e1292c26b1",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/scriptDocumentProjection.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 6520,
+      "sha256": "1c08380ae46815aae4ac167beeeb746e33673c33cf58e566f7a1e35737db501e",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/scriptDocumentProjectionLifecycle.test.ts",
+      "language": "TypeScript",
+      "bytes": 9963,
+      "sha256": "5659c143df5c254bb3d8a568256b217d75a3b41249ee69094520df6ef9cf3835",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/selectedInspectorEvents.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 16173,
+      "sha256": "2af014a3002560b14bb48422de32746c56e7b893f614ffcc29583a8e9dea9d26",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/selectedNodeEditorProjection.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 6038,
+      "sha256": "de2be932be6357a732bacd090f6402d99ef13d8bd56d27521fdad2ebdfa587c9",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/selectedNodeEditorProjection.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 2689,
+      "sha256": "f653ba9c2bd58db2ed786c638de8f408c2e70caa03dbd4b91f5e4882c6598d1b",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/semanticProposalProjection.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 8090,
+      "sha256": "be3c63feaa0bb692c1a52b7e3d0739e172a53a461ddeee0e0896700e166e4fbe",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/semanticProposalProjection.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 4328,
+      "sha256": "248409a653371f684358f90110f11b21b84b9ea45e833e5774f142ad6a11aa6b",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/serverEventHandlers.test.ts",
+      "language": "TypeScript",
+      "bytes": 12414,
+      "sha256": "f06c244b42a01acef252a1204a44fa06e09c7af82787bed4b55adaa55723f847",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/serverEventHandlers.ts",
+      "language": "TypeScript",
+      "bytes": 8233,
+      "sha256": "9b827c54a8222b23b1d9baa4a55fc92e9d9d4f1161281da29e1ff016aa9b6cfd",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/shortcuts.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 1319,
+      "sha256": "116904a8d58b37a250c428cdf36be8a2835daba3c2d05de21284ec7ccf61b451",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/storyArcProjection.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 6536,
+      "sha256": "4bf270191f74a416e52853a46fb29428866a7be7ea2a0917122ee55545942b04",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/storyArcProjection.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 3617,
+      "sha256": "d9157b15b25ef97eee816c9dc0833ad5d8da094f66fc729d723c32ba579fa8ae",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/timeline.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 3851,
+      "sha256": "2eaf6cc8f05183acf35910f6ff3ed079a235030dc46f48cafd8ea9d083abd22c",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/timelineCommandFlow.test.ts",
+      "language": "TypeScript",
+      "bytes": 4008,
+      "sha256": "acb57a152818141bb631134c80e6c73f2d2a1a962a3bdce821a001faa7d18218",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/timelineKeyboardCommands.test.ts",
+      "language": "TypeScript",
+      "bytes": 9854,
+      "sha256": "37d28317187881a8ae3a5ce98f2e24f29877f35cfcc63b33999d05532670d93b",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/timelineKeyboardCommands.ts",
+      "language": "TypeScript",
+      "bytes": 4459,
+      "sha256": "083e5b676b84b29803246864c443e5145a6b625694be2f5bd5a11d3fe6d8fbf3",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/timelineNotesSession.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 4778,
+      "sha256": "bb240e810a1dd8bdf9af136ef1f9ac21030be23e74ec5bb587f7679a13311d41",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/timelineNotesSession.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 2769,
+      "sha256": "c2f4334311131a1dc6a7872857958f990bc588bbcd66b18bec31160957a2700a",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/timelinePlacementSession.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 1450,
+      "sha256": "0b4831c630f3ab84638c3f4d67adf002f50cb0e9f79d026a69fe529bc382e679",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/timelinePlacementSession.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 1814,
+      "sha256": "19454e480ff5ae19d1de9edd68ef99fd449d59b29320f7b6f06233812731e352",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/timelineProjectionLifecycle.test.ts",
+      "language": "TypeScript",
+      "bytes": 11264,
+      "sha256": "5848303c570f7628b0ea90eecb04f81aa06cd80db7358fa3cc9aa575c936734e",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/timelineRenderProjection.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 24733,
+      "sha256": "e1193ef7a27ca2cfe84be28d974718de7f554e5b3c6741642c196c99307714bd",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/timelineRenderProjection.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 7598,
+      "sha256": "319f8c7d0f06f28bd1bdee95119c22e9b90c316ab630d436e23d9f28ce45e2b9",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/timelineRendererWindow.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 1622,
+      "sha256": "da1e6847b527515f8204b5c27d1d20978b59caaca7e790899dcd214d81f42c6a",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/timelineRendererWindow.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 442,
+      "sha256": "7d3fba989ef622e13a42e652afb1cf2835de372c266ef96fff9f493ddd116358",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/timelineTitleSession.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 5062,
+      "sha256": "fffd308007279b75216a545e8aecedf6b1c33c03d2e2adf67f1932362d883afa",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/timelineTitleSession.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 2484,
+      "sha256": "2538152e03dbd9b8217d4e6709b6a55b8282b8ef02c97673e411c81eb969b901",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/workspaceMode.svelte.test.ts",
+      "language": "TypeScript",
+      "bytes": 478,
+      "sha256": "035b3de9c8710db06e795b56a433b175bb9982fe7c731152efdab0036aeff32b",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/stores/workspaceMode.svelte.ts",
+      "language": "TypeScript",
+      "bytes": 251,
+      "sha256": "7a870c37e3aeee6960cd527c5b093403bec9a924f92f4228842b434c4ec2e80f",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/storyArcTypes.ts",
+      "language": "TypeScript",
+      "bytes": 1867,
+      "sha256": "cd38cd00bb01902970a77db55de1895a73877f3ba0c93d1436640e6394ce22cb",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/timelineCommandApi.ts",
+      "language": "TypeScript",
+      "bytes": 4822,
+      "sha256": "818564b1b338f6c172988f603ff7763cb4bf587380aa00b37ea841a4bbebc344",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/timelineCommandTypes.ts",
+      "language": "TypeScript",
+      "bytes": 2394,
+      "sha256": "de39c753b05bf7c080289c2dceb130357256f57b187295368a70f3e37fce0410",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/timelineRenderModel.test.ts",
+      "language": "TypeScript",
+      "bytes": 6262,
+      "sha256": "ce9c1724af35c78961b6f8de162560dedb9eb493c56f194491fe928798447a33",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/timelineRenderModel.ts",
+      "language": "TypeScript",
+      "bytes": 4995,
+      "sha256": "c0776bbb29128138bbc782bad7323f1e1e675741c6ab9a21008bfb005eda05e7",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/timelineRenderTypes.ts",
+      "language": "TypeScript",
+      "bytes": 1835,
+      "sha256": "37879d4ff8c9c5129d1c10e2c50ad0b4d0b74dae2bf4e89921fc6becbd514866",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/timelineRendererApi.test.ts",
+      "language": "TypeScript",
+      "bytes": 2325,
+      "sha256": "143fb9650ae5c33758117035fb2bb7a79bad2b19f9e09b5930ce87812fba40b1",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/timelineRendererApi.ts",
+      "language": "TypeScript",
+      "bytes": 744,
+      "sha256": "699698759cce6420b53aaa36549a9192c275151df5bc3e1cf94e7aafd3c73735",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/timelineRendererTypes.ts",
+      "language": "TypeScript",
+      "bytes": 1921,
+      "sha256": "711fd3f75360aa6208dd1214965eb831dab625494b53ae7f50909b7e0b58de2f",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/timelineTypes.ts",
+      "language": "TypeScript",
+      "bytes": 5614,
+      "sha256": "375f79c0be3866986b5b9494423fa5c3da2867cd6deb09a3abec0c778120565c",
+      "counted": true
+    },
+    {
+      "path": "ui/src/lib/types.ts",
+      "language": "TypeScript",
+      "bytes": 1505,
+      "sha256": "bc2a3a6bbc9b5787309ba3c5418bc04a92eb39fc2c64c10f2eefb5d8eaa8c522",
+      "counted": true
+    },
+    {
+      "path": "ui/src/routes/+layout.svelte",
+      "language": "Svelte",
+      "bytes": 106,
+      "sha256": "07c121458701ab3252fda860bcd85fc6bd4af3d1ba91f63152d436256a8c9ee5",
+      "counted": true
+    },
+    {
+      "path": "ui/src/routes/+page.svelte",
+      "language": "Svelte",
+      "bytes": 772,
+      "sha256": "3aa54fd35c035a542e2ab4dd52dc16b011b361930f6edcd416846c25a1ee98f6",
+      "counted": true
+    },
+    {
+      "path": "ui/src/routes/page.ssr.test.ts",
+      "language": "TypeScript",
+      "bytes": 352,
+      "sha256": "ea9433c4707dbcc92465b2503bc9bc5cc8bbd2dd37ad75ea9116b59cc70f268a",
+      "counted": true
+    },
+    {
+      "path": "ui/svelte.config.js",
+      "language": "JavaScript",
+      "bytes": 410,
+      "sha256": "685dde0d2a2bbc2bbd0eb122546408d932352df3d70242a8ecc99fb9d6f58a44",
+      "counted": true
+    },
+    {
+      "path": "ui/vite.config.ts",
+      "language": "TypeScript",
+      "bytes": 396,
+      "sha256": "f32d207dd00b3be6a64569d904b2a12d6a31a65e9b45fb96e040abcc16ca264d",
+      "counted": true
+    }
+  ],
+  "explicit_exclusions_already_omitted_by_linguist": []
+}

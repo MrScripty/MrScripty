@@ -1,0 +1,1739 @@
+{
+  "schema_version": 1,
+  "method": "authored-source-bytes-v1",
+  "linguist": {
+    "version": "9.3.0",
+    "image": "ghcr.io/github-linguist/linguist@sha256:cfe77ac6fe1d7d46c2e705922f53ddb8260f2bbe37ccceb8d9ef13ddce151fb6"
+  },
+  "rules": [
+    "Start from pinned GitHub Linguist programming/markup statistics, including its normal generated/vendor/documentation/binary filters.",
+    "Remove only listed exact-file exclusions whose SHA-256 and evidence files match the pinned repository commit.",
+    "Count the complete bytes of each remaining eligible tracked file, without language weighting or line-based authorship guesses.",
+    "Keep maintained mixed-origin files, generators, tests and historical source; duplicated source is not globally deduplicated.",
+    "Do not count build outputs, dependency copies, prose or binary archives."
+  ],
+  "repositories": [
+    {
+      "repository": "MrScripty/Pumas-Library",
+      "branch": "main",
+      "source_commit": "ef9eead9fe6595f5b3152ef8df19c5dace30190b",
+      "tree": "7301cb8e86f9e7a498f5dd64b663a4ea5e174b75",
+      "repository_kib": 27218,
+      "retrieved_at": "2026-10-12T22:43:07.508400+00:00",
+      "tracked_files": 1629,
+      "tracked_bytes": 51928938,
+      "exclusions": [
+        {
+          "path": "electron/src/generated/desktop-contract.ts",
+          "sha256": "61bef36237fe262409657b6ddc5767e50b2c80c601bf118b5218162a1967d6af",
+          "kind": "generated",
+          "reason": "Contract projection marked Generated / DO NOT EDIT; original Rust contract and generator remain counted.",
+          "evidence": [
+            {
+              "path": "electron/src/generated/desktop-contract.ts",
+              "sha256": "61bef36237fe262409657b6ddc5767e50b2c80c601bf118b5218162a1967d6af"
+            },
+            {
+              "path": "scripts/generate-bindings.sh",
+              "sha256": "3468c3f2e16bf620d6a0abad679408dcd52760864f0c79ec714717f4c2219112"
+            }
+          ]
+        },
+        {
+          "path": "electron/src/generated/desktop-contract.validators.d.ts",
+          "sha256": "cdbf5d1c7e6c2d2c901cfd33b105d027a6847479f8eca4cdca560360e877fdcf",
+          "kind": "generated",
+          "reason": "Contract projection marked Generated / DO NOT EDIT; original Rust contract and generator remain counted.",
+          "evidence": [
+            {
+              "path": "electron/src/generated/desktop-contract.validators.d.ts",
+              "sha256": "cdbf5d1c7e6c2d2c901cfd33b105d027a6847479f8eca4cdca560360e877fdcf"
+            },
+            {
+              "path": "scripts/generate-bindings.sh",
+              "sha256": "3468c3f2e16bf620d6a0abad679408dcd52760864f0c79ec714717f4c2219112"
+            }
+          ]
+        },
+        {
+          "path": "electron/src/generated/desktop-contract.validators.js",
+          "sha256": "b38e43c3675ce0a55969dca61e70b030a3200b0ea8ae53b3c8a7078c671086db",
+          "kind": "generated",
+          "reason": "Contract projection marked Generated / DO NOT EDIT; original Rust contract and generator remain counted.",
+          "evidence": [
+            {
+              "path": "electron/src/generated/desktop-contract.validators.js",
+              "sha256": "b38e43c3675ce0a55969dca61e70b030a3200b0ea8ae53b3c8a7078c671086db"
+            },
+            {
+              "path": "scripts/generate-bindings.sh",
+              "sha256": "3468c3f2e16bf620d6a0abad679408dcd52760864f0c79ec714717f4c2219112"
+            }
+          ]
+        },
+        {
+          "path": "frontend/src/generated/desktop-contract.ts",
+          "sha256": "61bef36237fe262409657b6ddc5767e50b2c80c601bf118b5218162a1967d6af",
+          "kind": "generated",
+          "reason": "Contract projection marked Generated / DO NOT EDIT; original Rust contract and generator remain counted.",
+          "evidence": [
+            {
+              "path": "frontend/src/generated/desktop-contract.ts",
+              "sha256": "61bef36237fe262409657b6ddc5767e50b2c80c601bf118b5218162a1967d6af"
+            },
+            {
+              "path": "scripts/generate-bindings.sh",
+              "sha256": "3468c3f2e16bf620d6a0abad679408dcd52760864f0c79ec714717f4c2219112"
+            }
+          ]
+        },
+        {
+          "path": "frontend/src/generated/desktop-contract.validators.d.ts",
+          "sha256": "cdbf5d1c7e6c2d2c901cfd33b105d027a6847479f8eca4cdca560360e877fdcf",
+          "kind": "generated",
+          "reason": "Contract projection marked Generated / DO NOT EDIT; original Rust contract and generator remain counted.",
+          "evidence": [
+            {
+              "path": "frontend/src/generated/desktop-contract.validators.d.ts",
+              "sha256": "cdbf5d1c7e6c2d2c901cfd33b105d027a6847479f8eca4cdca560360e877fdcf"
+            },
+            {
+              "path": "scripts/generate-bindings.sh",
+              "sha256": "3468c3f2e16bf620d6a0abad679408dcd52760864f0c79ec714717f4c2219112"
+            }
+          ]
+        },
+        {
+          "path": "frontend/src/generated/desktop-contract.validators.js",
+          "sha256": "b38e43c3675ce0a55969dca61e70b030a3200b0ea8ae53b3c8a7078c671086db",
+          "kind": "generated",
+          "reason": "Contract projection marked Generated / DO NOT EDIT; original Rust contract and generator remain counted.",
+          "evidence": [
+            {
+              "path": "frontend/src/generated/desktop-contract.validators.js",
+              "sha256": "b38e43c3675ce0a55969dca61e70b030a3200b0ea8ae53b3c8a7078c671086db"
+            },
+            {
+              "path": "scripts/generate-bindings.sh",
+              "sha256": "3468c3f2e16bf620d6a0abad679408dcd52760864f0c79ec714717f4c2219112"
+            }
+          ]
+        }
+      ],
+      "retained_mixed_origin": [],
+      "required_retained": [
+        {
+          "path": "rust/crates/pumas-rpc/src/contract.rs",
+          "sha256": "7426a7d88ec142e0a2f3a430cd05544303b4c628ceea34895837fd71f8a040f5"
+        },
+        {
+          "path": "scripts/generate-bindings.sh",
+          "sha256": "3468c3f2e16bf620d6a0abad679408dcd52760864f0c79ec714717f4c2219112"
+        },
+        {
+          "path": "electron/build/check-attribution.cjs",
+          "sha256": "426c71d251cff9bd80521e29a1708099450e50dadf7ad3442a11813a0db3f5fa"
+        }
+      ],
+      "source_url": "https://github.com/MrScripty/Pumas-Library/tree/ef9eead9fe6595f5b3152ef8df19c5dace30190b"
+    },
+    {
+      "repository": "MrScripty/Pantograph",
+      "branch": "main",
+      "source_commit": "07b23d47b2cdfae5669bbda78515c9c728081031",
+      "tree": "6b2b9bc5cb46a31ed6c0268fe58721a36fffc576",
+      "repository_kib": 47319,
+      "retrieved_at": "2026-10-12T22:43:07.339816+00:00",
+      "tracked_files": 2312,
+      "tracked_bytes": 41091349,
+      "exclusions": [],
+      "retained_mixed_origin": [],
+      "required_retained": [],
+      "source_url": "https://github.com/MrScripty/Pantograph/tree/07b23d47b2cdfae5669bbda78515c9c728081031"
+    },
+    {
+      "repository": "MrScripty/Chrema",
+      "branch": "main",
+      "source_commit": "75fba334d35378f3205746cbf6467700baa07671",
+      "tree": "b2b9c301992a103cf46dbf8ec215085ad707b56c",
+      "repository_kib": 0,
+      "retrieved_at": "2026-10-12T22:43:07.025161+00:00",
+      "tracked_files": 82,
+      "tracked_bytes": 1354739,
+      "exclusions": [],
+      "retained_mixed_origin": [],
+      "required_retained": [],
+      "source_url": "https://github.com/MrScripty/Chrema/tree/75fba334d35378f3205746cbf6467700baa07671"
+    },
+    {
+      "repository": "MrScripty/Tuldok",
+      "branch": "main",
+      "source_commit": "c522bf6b5eaf94d89811578c9e73aecfdba4ef9e",
+      "tree": "6cb9f26d2a3cf922c985a0dabcb9f4781d76f329",
+      "repository_kib": 85088,
+      "retrieved_at": "2026-10-12T22:43:07.390670+00:00",
+      "tracked_files": 617,
+      "tracked_bytes": 10730628,
+      "exclusions": [],
+      "retained_mixed_origin": [],
+      "required_retained": [],
+      "source_url": "https://github.com/MrScripty/Tuldok/tree/c522bf6b5eaf94d89811578c9e73aecfdba4ef9e"
+    },
+    {
+      "repository": "MrScripty/Eidetic",
+      "branch": "main",
+      "source_commit": "cc80011cbf631f7c4774c576ba879dfec1211c6a",
+      "tree": "386a915d186df02444fdfc8ffea9e344d3407731",
+      "repository_kib": 47945,
+      "retrieved_at": "2026-10-12T22:43:08.225326+00:00",
+      "tracked_files": 853,
+      "tracked_bytes": 14368852,
+      "exclusions": [],
+      "retained_mixed_origin": [],
+      "required_retained": [],
+      "source_url": "https://github.com/MrScripty/Eidetic/tree/cc80011cbf631f7c4774c576ba879dfec1211c6a"
+    },
+    {
+      "repository": "MrScripty/whip-docs",
+      "branch": "main",
+      "source_commit": "c5a8417e4e13d18c6751de196cf667653863d5de",
+      "tree": "a41dae0a0ec1261a0bfe779a5733baf2f6b42155",
+      "repository_kib": 4662,
+      "retrieved_at": "2026-10-12T22:43:09.086203+00:00",
+      "tracked_files": 432,
+      "tracked_bytes": 36047917,
+      "exclusions": [
+        {
+          "path": "grammars/c/src/parser.c",
+          "sha256": "f4d83356b4a259ce8399fc9005c52758c1d38b797d43e0f32fbffef352618e4a",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/c/generated-provenance.json",
+              "sha256": "62f63f266abbd5547a06af0045603414efdc1772e29a7b533f87e4ba167e240a"
+            },
+            {
+              "path": "grammars/c/README.whip.md",
+              "sha256": "cdd0aa90bfc522ba351d56b90e627e754fecbdf0ca23ddb3e5ff3c700019e26d"
+            }
+          ]
+        },
+        {
+          "path": "grammars/c/src/grammar.json",
+          "sha256": "8b2e3b562f296d3b0610bfba1af98352bbdbe015554722cb15806eb779d07656",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/c/generated-provenance.json",
+              "sha256": "62f63f266abbd5547a06af0045603414efdc1772e29a7b533f87e4ba167e240a"
+            },
+            {
+              "path": "grammars/c/README.whip.md",
+              "sha256": "cdd0aa90bfc522ba351d56b90e627e754fecbdf0ca23ddb3e5ff3c700019e26d"
+            }
+          ]
+        },
+        {
+          "path": "grammars/c/src/node-types.json",
+          "sha256": "1a2a2480bed375402b8b6bd92a9accbab145fac5cd7d4770de053b7e1ae64f63",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/c/generated-provenance.json",
+              "sha256": "62f63f266abbd5547a06af0045603414efdc1772e29a7b533f87e4ba167e240a"
+            },
+            {
+              "path": "grammars/c/README.whip.md",
+              "sha256": "cdd0aa90bfc522ba351d56b90e627e754fecbdf0ca23ddb3e5ff3c700019e26d"
+            }
+          ]
+        },
+        {
+          "path": "grammars/c/src/tree_sitter/parser.h",
+          "sha256": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/c/generated-provenance.json",
+              "sha256": "62f63f266abbd5547a06af0045603414efdc1772e29a7b533f87e4ba167e240a"
+            },
+            {
+              "path": "grammars/c/README.whip.md",
+              "sha256": "cdd0aa90bfc522ba351d56b90e627e754fecbdf0ca23ddb3e5ff3c700019e26d"
+            }
+          ]
+        },
+        {
+          "path": "grammars/c/src/tree_sitter/alloc.h",
+          "sha256": "b29c1c9fb7cc82f58c84b376df1297d6e2737a1d655fd356db0859e3c29c2fea",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/c/generated-provenance.json",
+              "sha256": "62f63f266abbd5547a06af0045603414efdc1772e29a7b533f87e4ba167e240a"
+            },
+            {
+              "path": "grammars/c/README.whip.md",
+              "sha256": "cdd0aa90bfc522ba351d56b90e627e754fecbdf0ca23ddb3e5ff3c700019e26d"
+            }
+          ]
+        },
+        {
+          "path": "grammars/c/src/tree_sitter/array.h",
+          "sha256": "5bdf6ed1a78e3409fd443e085ca967a64c188a5d082aaf7f819bccd53a471c94",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/c/generated-provenance.json",
+              "sha256": "62f63f266abbd5547a06af0045603414efdc1772e29a7b533f87e4ba167e240a"
+            },
+            {
+              "path": "grammars/c/README.whip.md",
+              "sha256": "cdd0aa90bfc522ba351d56b90e627e754fecbdf0ca23ddb3e5ff3c700019e26d"
+            }
+          ]
+        },
+        {
+          "path": "grammars/c/upstream/bindings/rust/build.rs",
+          "sha256": "111b403dd548b7024678668f4f5af0afd89ba62a549b6c42b46dc50b79082966",
+          "kind": "dependency",
+          "reason": "Preserved original upstream source; bytes match source-provenance.json.",
+          "evidence": [
+            {
+              "path": "grammars/c/source-provenance.json",
+              "sha256": "d4a0b3cc9d451c9049007a7b3d50a5392b489456213662e43c51a7b6ee92d122"
+            }
+          ]
+        },
+        {
+          "path": "grammars/c/bindings/rust/lib.rs",
+          "sha256": "786c8ab81d2325234b60e5e321a74486875c88e11a15a9479e1d049911e343c1",
+          "kind": "dependency",
+          "reason": "Unchanged upstream source; bytes match source-provenance.json.",
+          "evidence": [
+            {
+              "path": "grammars/c/source-provenance.json",
+              "sha256": "d4a0b3cc9d451c9049007a7b3d50a5392b489456213662e43c51a7b6ee92d122"
+            }
+          ]
+        },
+        {
+          "path": "grammars/c/upstream/grammar.js",
+          "sha256": "f362b9fe06db321464fc77f1e5ba2ce089baec9d18f4defddb0c9ca87885e546",
+          "kind": "dependency",
+          "reason": "Preserved original upstream source; bytes match source-provenance.json.",
+          "evidence": [
+            {
+              "path": "grammars/c/source-provenance.json",
+              "sha256": "d4a0b3cc9d451c9049007a7b3d50a5392b489456213662e43c51a7b6ee92d122"
+            }
+          ]
+        },
+        {
+          "path": "grammars/c/queries/highlights.scm",
+          "sha256": "3378d854dda695b2b282b9468247524ed4271ef74af691033d2e36883379409c",
+          "kind": "dependency",
+          "reason": "Unchanged upstream source; bytes match source-provenance.json.",
+          "evidence": [
+            {
+              "path": "grammars/c/source-provenance.json",
+              "sha256": "d4a0b3cc9d451c9049007a7b3d50a5392b489456213662e43c51a7b6ee92d122"
+            }
+          ]
+        },
+        {
+          "path": "grammars/c/queries/tags.scm",
+          "sha256": "774ca67cfe23b0e0d1d3a4f01788049a822beb1311feee72b20a595a37be1e28",
+          "kind": "dependency",
+          "reason": "Unchanged upstream source; bytes match source-provenance.json.",
+          "evidence": [
+            {
+              "path": "grammars/c/source-provenance.json",
+              "sha256": "d4a0b3cc9d451c9049007a7b3d50a5392b489456213662e43c51a7b6ee92d122"
+            }
+          ]
+        },
+        {
+          "path": "grammars/kotlin/src/parser.c",
+          "sha256": "4c4e97cfae09117329b734482edbd5ba4a1ec5e550fe177258572562c8cef9f5",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/kotlin/generated-provenance.json",
+              "sha256": "ee87fe9d82e9c84606ed333ea22da5e34eef36a6bedf8a98379faa54a812877d"
+            },
+            {
+              "path": "grammars/kotlin/README.whip.md",
+              "sha256": "be0ab31197225922f3070bfe6c6217f64d6fc1e28d3344f7f6c9f4bf98cfc76e"
+            }
+          ]
+        },
+        {
+          "path": "grammars/kotlin/src/grammar.json",
+          "sha256": "5fae6fa28aa755d5c9078efea4d335ad614144452db66e16a26c6bece36a6bdc",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/kotlin/generated-provenance.json",
+              "sha256": "ee87fe9d82e9c84606ed333ea22da5e34eef36a6bedf8a98379faa54a812877d"
+            },
+            {
+              "path": "grammars/kotlin/README.whip.md",
+              "sha256": "be0ab31197225922f3070bfe6c6217f64d6fc1e28d3344f7f6c9f4bf98cfc76e"
+            }
+          ]
+        },
+        {
+          "path": "grammars/kotlin/src/node-types.json",
+          "sha256": "3e4ccbfcad91ba6ab580ac5cbf18a0fe3a9b1471a26b0e1cc2d3f52acef10d50",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/kotlin/generated-provenance.json",
+              "sha256": "ee87fe9d82e9c84606ed333ea22da5e34eef36a6bedf8a98379faa54a812877d"
+            },
+            {
+              "path": "grammars/kotlin/README.whip.md",
+              "sha256": "be0ab31197225922f3070bfe6c6217f64d6fc1e28d3344f7f6c9f4bf98cfc76e"
+            }
+          ]
+        },
+        {
+          "path": "grammars/kotlin/src/tree_sitter/parser.h",
+          "sha256": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/kotlin/generated-provenance.json",
+              "sha256": "ee87fe9d82e9c84606ed333ea22da5e34eef36a6bedf8a98379faa54a812877d"
+            },
+            {
+              "path": "grammars/kotlin/README.whip.md",
+              "sha256": "be0ab31197225922f3070bfe6c6217f64d6fc1e28d3344f7f6c9f4bf98cfc76e"
+            }
+          ]
+        },
+        {
+          "path": "grammars/kotlin/src/tree_sitter/alloc.h",
+          "sha256": "b29c1c9fb7cc82f58c84b376df1297d6e2737a1d655fd356db0859e3c29c2fea",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/kotlin/generated-provenance.json",
+              "sha256": "ee87fe9d82e9c84606ed333ea22da5e34eef36a6bedf8a98379faa54a812877d"
+            },
+            {
+              "path": "grammars/kotlin/README.whip.md",
+              "sha256": "be0ab31197225922f3070bfe6c6217f64d6fc1e28d3344f7f6c9f4bf98cfc76e"
+            }
+          ]
+        },
+        {
+          "path": "grammars/kotlin/src/tree_sitter/array.h",
+          "sha256": "5bdf6ed1a78e3409fd443e085ca967a64c188a5d082aaf7f819bccd53a471c94",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/kotlin/generated-provenance.json",
+              "sha256": "ee87fe9d82e9c84606ed333ea22da5e34eef36a6bedf8a98379faa54a812877d"
+            },
+            {
+              "path": "grammars/kotlin/README.whip.md",
+              "sha256": "be0ab31197225922f3070bfe6c6217f64d6fc1e28d3344f7f6c9f4bf98cfc76e"
+            }
+          ]
+        },
+        {
+          "path": "grammars/kotlin/bindings/rust/build.rs",
+          "sha256": "8f497bb1459c09529efecfb9ae0dbc6e6f3c5892911e535f6551e15337d2cd6c",
+          "kind": "dependency",
+          "reason": "Unchanged upstream source; bytes match source-provenance.json.",
+          "evidence": [
+            {
+              "path": "grammars/kotlin/source-provenance.json",
+              "sha256": "8fe19fb565aca07308cbe3494a170c3519e9cdb2cff2685cbd84f6d1efb2fda6"
+            }
+          ]
+        },
+        {
+          "path": "grammars/kotlin/bindings/rust/lib.rs",
+          "sha256": "1e3ede5fbdb4106d84452424d796facd175b130e0c55d6b3887809e9642d0fcc",
+          "kind": "dependency",
+          "reason": "Unchanged upstream source; bytes match source-provenance.json.",
+          "evidence": [
+            {
+              "path": "grammars/kotlin/source-provenance.json",
+              "sha256": "8fe19fb565aca07308cbe3494a170c3519e9cdb2cff2685cbd84f6d1efb2fda6"
+            }
+          ]
+        },
+        {
+          "path": "grammars/kotlin/upstream/grammar.js",
+          "sha256": "1f6260635f96071fe1a164a3acbdaaf9d670dc2b35766e438c91f58ed2d50a7f",
+          "kind": "dependency",
+          "reason": "Preserved original upstream source; bytes match source-provenance.json.",
+          "evidence": [
+            {
+              "path": "grammars/kotlin/source-provenance.json",
+              "sha256": "8fe19fb565aca07308cbe3494a170c3519e9cdb2cff2685cbd84f6d1efb2fda6"
+            }
+          ]
+        },
+        {
+          "path": "grammars/kotlin/src/scanner.c",
+          "sha256": "164c2bb928d23765ed38c3a322deaef9b52d6e147cec7cdf45add90d4fa6101c",
+          "kind": "dependency",
+          "reason": "Unchanged upstream source; bytes match source-provenance.json.",
+          "evidence": [
+            {
+              "path": "grammars/kotlin/source-provenance.json",
+              "sha256": "8fe19fb565aca07308cbe3494a170c3519e9cdb2cff2685cbd84f6d1efb2fda6"
+            }
+          ]
+        },
+        {
+          "path": "grammars/python/src/parser.c",
+          "sha256": "186eefa327e23949f46c3c832133693f52b8861402c02c91c74251ce926460e2",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/python/generated-provenance.json",
+              "sha256": "428554d407eea79e297632f0dfb4e08070a53e3a178a013905989324d96ace1c"
+            },
+            {
+              "path": "grammars/python/README.whip.md",
+              "sha256": "fb6a6f2fb53f1f3b543d3a7939c8a07e9394c6822ec85e3eeb46cf6a4e1791b0"
+            }
+          ]
+        },
+        {
+          "path": "grammars/python/src/grammar.json",
+          "sha256": "1f200bd5818bddd54afa11fba90e469cd23b6cf2ff46026265e94c8356ccbda1",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/python/generated-provenance.json",
+              "sha256": "428554d407eea79e297632f0dfb4e08070a53e3a178a013905989324d96ace1c"
+            },
+            {
+              "path": "grammars/python/README.whip.md",
+              "sha256": "fb6a6f2fb53f1f3b543d3a7939c8a07e9394c6822ec85e3eeb46cf6a4e1791b0"
+            }
+          ]
+        },
+        {
+          "path": "grammars/python/src/node-types.json",
+          "sha256": "829b4a4afb2a28e153a9f294fcc97322fd1c0343fcfb892ba11acb7bd7bf94a7",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/python/generated-provenance.json",
+              "sha256": "428554d407eea79e297632f0dfb4e08070a53e3a178a013905989324d96ace1c"
+            },
+            {
+              "path": "grammars/python/README.whip.md",
+              "sha256": "fb6a6f2fb53f1f3b543d3a7939c8a07e9394c6822ec85e3eeb46cf6a4e1791b0"
+            }
+          ]
+        },
+        {
+          "path": "grammars/python/src/tree_sitter/parser.h",
+          "sha256": "180b893c8734778fd32f372dfbc27bd6ad1cd2221f26150b31256ff6716320d2",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/python/generated-provenance.json",
+              "sha256": "428554d407eea79e297632f0dfb4e08070a53e3a178a013905989324d96ace1c"
+            },
+            {
+              "path": "grammars/python/README.whip.md",
+              "sha256": "fb6a6f2fb53f1f3b543d3a7939c8a07e9394c6822ec85e3eeb46cf6a4e1791b0"
+            }
+          ]
+        },
+        {
+          "path": "grammars/python/src/tree_sitter/alloc.h",
+          "sha256": "b29c1c9fb7cc82f58c84b376df1297d6e2737a1d655fd356db0859e3c29c2fea",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/python/generated-provenance.json",
+              "sha256": "428554d407eea79e297632f0dfb4e08070a53e3a178a013905989324d96ace1c"
+            },
+            {
+              "path": "grammars/python/README.whip.md",
+              "sha256": "fb6a6f2fb53f1f3b543d3a7939c8a07e9394c6822ec85e3eeb46cf6a4e1791b0"
+            }
+          ]
+        },
+        {
+          "path": "grammars/python/src/tree_sitter/array.h",
+          "sha256": "5bdf6ed1a78e3409fd443e085ca967a64c188a5d082aaf7f819bccd53a471c94",
+          "kind": "generated",
+          "reason": "Tree-sitter output listed in the checked-in generation manifest.",
+          "evidence": [
+            {
+              "path": "grammars/python/generated-provenance.json",
+              "sha256": "428554d407eea79e297632f0dfb4e08070a53e3a178a013905989324d96ace1c"
+            },
+            {
+              "path": "grammars/python/README.whip.md",
+              "sha256": "fb6a6f2fb53f1f3b543d3a7939c8a07e9394c6822ec85e3eeb46cf6a4e1791b0"
+            }
+          ]
+        },
+        {
+          "path": "grammars/python/bindings/rust/build.rs",
+          "sha256": "4e069992deffe54f04909739e954f581409c7d167cb5ba1f775717258751568f",
+          "kind": "dependency",
+          "reason": "Unchanged upstream source; bytes match source-provenance.json.",
+          "evidence": [
+            {
+              "path": "grammars/python/source-provenance.json",
+              "sha256": "09fc263be465c69916fa4c66faab167890163e1db699d84d87a582438aa8aca4"
+            }
+          ]
+        },
+        {
+          "path": "grammars/python/bindings/rust/lib.rs",
+          "sha256": "b582f6091fe5978d9c12fb50438de0e0dcc2b962f297e633793523009e40e202",
+          "kind": "dependency",
+          "reason": "Unchanged upstream source; bytes match source-provenance.json.",
+          "evidence": [
+            {
+              "path": "grammars/python/source-provenance.json",
+              "sha256": "09fc263be465c69916fa4c66faab167890163e1db699d84d87a582438aa8aca4"
+            }
+          ]
+        },
+        {
+          "path": "grammars/python/upstream/grammar.js",
+          "sha256": "5071cb77def12a276ec71c2c584ef276b1266df720e16f642530bac35c5c2560",
+          "kind": "dependency",
+          "reason": "Preserved original upstream source; bytes match source-provenance.json.",
+          "evidence": [
+            {
+              "path": "grammars/python/source-provenance.json",
+              "sha256": "09fc263be465c69916fa4c66faab167890163e1db699d84d87a582438aa8aca4"
+            }
+          ]
+        },
+        {
+          "path": "grammars/python/queries/highlights.scm",
+          "sha256": "a6708f209381618e2b398972c8f1ccd892f0c064eab35a2a3f911c3e22e79a7e",
+          "kind": "dependency",
+          "reason": "Unchanged upstream source; bytes match source-provenance.json.",
+          "evidence": [
+            {
+              "path": "grammars/python/source-provenance.json",
+              "sha256": "09fc263be465c69916fa4c66faab167890163e1db699d84d87a582438aa8aca4"
+            }
+          ]
+        },
+        {
+          "path": "grammars/python/queries/tags.scm",
+          "sha256": "d0f3e577878167bfabc30e526e497bce58d1699b9bcabf8ab3a50698efb5ca3e",
+          "kind": "dependency",
+          "reason": "Unchanged upstream source; bytes match source-provenance.json.",
+          "evidence": [
+            {
+              "path": "grammars/python/source-provenance.json",
+              "sha256": "09fc263be465c69916fa4c66faab167890163e1db699d84d87a582438aa8aca4"
+            }
+          ]
+        },
+        {
+          "path": "grammars/python/src/scanner.c",
+          "sha256": "6db82134ac2d4c90a1a1475487a625cface02662ebda9b7478cad9c7147e9afe",
+          "kind": "dependency",
+          "reason": "Unchanged upstream source; bytes match source-provenance.json.",
+          "evidence": [
+            {
+              "path": "grammars/python/source-provenance.json",
+              "sha256": "09fc263be465c69916fa4c66faab167890163e1db699d84d87a582438aa8aca4"
+            }
+          ]
+        }
+      ],
+      "retained_mixed_origin": [
+        {
+          "path": "grammars/c/bindings/rust/build.rs",
+          "sha256": "8b6cdaa628f455bd3fe4f0e7cc0bd40e052c6d587ce875462939ffaaa9feb4e0",
+          "upstream_sha256": "111b403dd548b7024678668f4f5af0afd89ba62a549b6c42b46dc50b79082966",
+          "evidence": "grammars/c/source-provenance.json",
+          "reason": "Maintained mixed-origin source retained in full; no line attribution or weighting."
+        },
+        {
+          "path": "grammars/c/grammar.js",
+          "sha256": "ada74d4ebaacd0c67d750b57fe67e8c820fe9513b0c0f89f4a7713a5a57367e5",
+          "upstream_sha256": "f362b9fe06db321464fc77f1e5ba2ce089baec9d18f4defddb0c9ca87885e546",
+          "evidence": "grammars/c/source-provenance.json",
+          "reason": "Maintained mixed-origin source retained in full; no line attribution or weighting."
+        },
+        {
+          "path": "grammars/kotlin/grammar.js",
+          "sha256": "ee132c86b69cbd7b5627ff3644d02e95906796f34e5aaf677f1420b989d894ae",
+          "upstream_sha256": "1f6260635f96071fe1a164a3acbdaaf9d670dc2b35766e438c91f58ed2d50a7f",
+          "evidence": "grammars/kotlin/source-provenance.json",
+          "reason": "Maintained mixed-origin source retained in full; no line attribution or weighting."
+        },
+        {
+          "path": "grammars/python/grammar.js",
+          "sha256": "70a9a56168055e5c4b0c4d82a5921628df8ef89f9e1fc92c071980fa289f4812",
+          "upstream_sha256": "5071cb77def12a276ec71c2c584ef276b1266df720e16f642530bac35c5c2560",
+          "evidence": "grammars/python/source-provenance.json",
+          "reason": "Maintained mixed-origin source retained in full; no line attribution or weighting."
+        }
+      ],
+      "required_retained": [
+        {
+          "path": "fixtures/mixed-workspace/broken/alternatives.c",
+          "sha256": "81b26740dde069b7c82de8ac815a1fd23a0bd258ddfd86792485d08a84530ab9"
+        },
+        {
+          "path": "fixtures/mixed-workspace/include/api.h",
+          "sha256": "a018ff632a2e649484c047bc38297246836f02033f9338e32c300acbb3a3933e"
+        },
+        {
+          "path": "fixtures/mixed-workspace/native/bitint.c",
+          "sha256": "c7d42c5a016cf666ea492ee878d9affff0fc46e453b837d96979368d9aa14b5c"
+        },
+        {
+          "path": "fixtures/mixed-workspace/native/math.c",
+          "sha256": "4825155d47a94bd0b4d39dffd324c9bfe1681f912dd9bfebafbf551a44e280b2"
+        },
+        {
+          "path": "fixtures/syntax/basic/c.c",
+          "sha256": "4825155d47a94bd0b4d39dffd324c9bfe1681f912dd9bfebafbf551a44e280b2"
+        },
+        {
+          "path": "fixtures/syntax/modern/bitint.c",
+          "sha256": "c7d42c5a016cf666ea492ee878d9affff0fc46e453b837d96979368d9aa14b5c"
+        },
+        {
+          "path": "fixtures/syntax/modern/c.c",
+          "sha256": "7d2d3f89c66f1f22cc7cc4bbcdacd362942de3f60028d9170e6e475490346d3e"
+        },
+        {
+          "path": "grammars/c/bindings/rust/build.rs",
+          "sha256": "8b6cdaa628f455bd3fe4f0e7cc0bd40e052c6d587ce875462939ffaaa9feb4e0"
+        },
+        {
+          "path": "grammars/c/grammar.js",
+          "sha256": "ada74d4ebaacd0c67d750b57fe67e8c820fe9513b0c0f89f4a7713a5a57367e5"
+        },
+        {
+          "path": "grammars/kotlin/grammar.js",
+          "sha256": "ee132c86b69cbd7b5627ff3644d02e95906796f34e5aaf677f1420b989d894ae"
+        },
+        {
+          "path": "grammars/python/grammar.js",
+          "sha256": "70a9a56168055e5c4b0c4d82a5921628df8ef89f9e1fc92c071980fa289f4812"
+        }
+      ],
+      "source_url": "https://github.com/MrScripty/whip-docs/tree/c5a8417e4e13d18c6751de196cf667653863d5de"
+    },
+    {
+      "repository": "MrScripty/Rheon",
+      "branch": "main",
+      "source_commit": "2209012bc5f902693d0f695ec1c2d854126af317",
+      "tree": "e30b7135eabad4827ee6e21c75715af0f5408d78",
+      "repository_kib": 125181,
+      "retrieved_at": "2026-10-12T22:43:08.985534+00:00",
+      "tracked_files": 745,
+      "tracked_bytes": 6260229,
+      "exclusions": [],
+      "retained_mixed_origin": [],
+      "required_retained": [],
+      "source_url": "https://github.com/MrScripty/Rheon/tree/2209012bc5f902693d0f695ec1c2d854126af317"
+    },
+    {
+      "repository": "MrScripty/rheon-surrogate-lab",
+      "branch": "main",
+      "source_commit": "e8a90bfef6b2955c502008ccc62443e29dd9f2ec",
+      "tree": "deb79c7c491768a22427bb77198b3b670ddc8be1",
+      "repository_kib": 2584,
+      "retrieved_at": "2026-10-12T22:43:08.550533+00:00",
+      "tracked_files": 107,
+      "tracked_bytes": 11852121,
+      "exclusions": [],
+      "retained_mixed_origin": [],
+      "required_retained": [],
+      "source_url": "https://github.com/MrScripty/rheon-surrogate-lab/tree/e8a90bfef6b2955c502008ccc62443e29dd9f2ec"
+    },
+    {
+      "repository": "MrScripty/Kenoma",
+      "branch": "main",
+      "source_commit": "e2ea6acc5db44794ae8b49beb877f5a8bccea056",
+      "tree": "5cc6f2d9840282e218329e3b0c8fa20b86cf8306",
+      "repository_kib": 697187,
+      "retrieved_at": "2026-10-12T22:43:09.875931+00:00",
+      "tracked_files": 2376,
+      "tracked_bytes": 333852195,
+      "exclusions": [
+        {
+          "path": "education/data/elbow-v1/sources/bodyparts_README.html",
+          "sha256": "f9a90b4d945ad0fe50db45c712e931aa54e52667187b30d7085b6cc394f40107",
+          "kind": "dependency",
+          "reason": "Downloaded upstream atlas documentation, not project-authored HTML.",
+          "evidence": [
+            {
+              "path": "education/data/elbow-v1/provenance.json",
+              "sha256": "b0cf7d1774f2031f2e2f73e0b7af509cf77fdfcd3cb90f0e231a69ec5799b752"
+            },
+            {
+              "path": "education/data/elbow-v1/scripts/fetch_sources.py",
+              "sha256": "fe29b1f1e8131dd5ec9c9c07ad1ef14fdb202317bd22f70d0d95681bfaa07c33"
+            }
+          ]
+        },
+        {
+          "path": "education/data/elbow-v1/sources/bodyparts_license.html",
+          "sha256": "07878f88d57f9d8acf88c6e33cf4d5cd3185a4c1ddae3904892720af006da423",
+          "kind": "dependency",
+          "reason": "Downloaded upstream atlas documentation, not project-authored HTML.",
+          "evidence": [
+            {
+              "path": "education/data/elbow-v1/provenance.json",
+              "sha256": "b0cf7d1774f2031f2e2f73e0b7af509cf77fdfcd3cb90f0e231a69ec5799b752"
+            },
+            {
+              "path": "education/data/elbow-v1/scripts/fetch_sources.py",
+              "sha256": "fe29b1f1e8131dd5ec9c9c07ad1ef14fdb202317bd22f70d0d95681bfaa07c33"
+            }
+          ]
+        },
+        {
+          "path": "education/data/elbow-v1/sources/bodyparts_release_4.0.html",
+          "sha256": "771bd30a47ab11396eb6333e73a946426093c57fa4d4a1db8f718910fea7d985",
+          "kind": "dependency",
+          "reason": "Downloaded upstream atlas documentation, not project-authored HTML.",
+          "evidence": [
+            {
+              "path": "education/data/elbow-v1/provenance.json",
+              "sha256": "b0cf7d1774f2031f2e2f73e0b7af509cf77fdfcd3cb90f0e231a69ec5799b752"
+            },
+            {
+              "path": "education/data/elbow-v1/scripts/fetch_sources.py",
+              "sha256": "fe29b1f1e8131dd5ec9c9c07ad1ef14fdb202317bd22f70d0d95681bfaa07c33"
+            }
+          ]
+        },
+        {
+          "path": "education/data/property-labs-v1/review/first-preview/index.html",
+          "sha256": "0a45ca0ac9cc8db356fe42536fe4010be90efcef635e44c8b363881faadb9c9d",
+          "kind": "generated",
+          "reason": "Pandoc-rendered preview output; source templates and build script remain eligible.",
+          "evidence": [
+            {
+              "path": "education/tools/build_property_preview.py",
+              "sha256": "0ddc45275a028737fd3c6620606fa047a8b7e0404ccea15165f12121f52e1fa6"
+            }
+          ]
+        },
+        {
+          "path": "education/review/accepted-book-integration/projection-negatives/unweighted-group-mean.html",
+          "sha256": "080616e5e7f9e1fc4a9a228ac6ebb9a3932b88fc69a8f1064f89231ca00ea422",
+          "kind": "generated",
+          "reason": "Programmatically mutated negative-test output, generated from the maintained standalone source.",
+          "evidence": [
+            {
+              "path": "education/tools/qualify_projection_negatives.py",
+              "sha256": "e202ae4b46e7103a74f9c78abcdad95ebfc702508a3b403abc5675266d64373b"
+            }
+          ]
+        },
+        {
+          "path": "education/review/accepted-book-integration/projection-negatives/wrong-residual-vector.html",
+          "sha256": "b68117bac55d87fc96623e491c066d75500940448f30f74737489b1a3b3060ef",
+          "kind": "generated",
+          "reason": "Programmatically mutated negative-test output, generated from the maintained standalone source.",
+          "evidence": [
+            {
+              "path": "education/tools/qualify_projection_negatives.py",
+              "sha256": "e202ae4b46e7103a74f9c78abcdad95ebfc702508a3b403abc5675266d64373b"
+            }
+          ]
+        },
+        {
+          "path": "education/review/projection-responsive-successor/qualification/projection-runtime-negatives/unweighted-group-mean.html",
+          "sha256": "4e63ce09d2137b9438a0ff400cb0fc6973a838f7bd3c2e95ef3ff92c6a2030bd",
+          "kind": "generated",
+          "reason": "Programmatically mutated negative-test output, generated from the maintained standalone source.",
+          "evidence": [
+            {
+              "path": "education/tools/qualify_projection_negatives.py",
+              "sha256": "e202ae4b46e7103a74f9c78abcdad95ebfc702508a3b403abc5675266d64373b"
+            }
+          ]
+        },
+        {
+          "path": "education/review/projection-responsive-successor/qualification/projection-runtime-negatives/wrong-residual-vector.html",
+          "sha256": "f14cdf59435eea035ce6fa4f50702df7e6c39c663d13e8054e04d3840c294460",
+          "kind": "generated",
+          "reason": "Programmatically mutated negative-test output, generated from the maintained standalone source.",
+          "evidence": [
+            {
+              "path": "education/tools/qualify_projection_negatives.py",
+              "sha256": "e202ae4b46e7103a74f9c78abcdad95ebfc702508a3b403abc5675266d64373b"
+            }
+          ]
+        }
+      ],
+      "retained_mixed_origin": [],
+      "required_retained": [
+        {
+          "path": "education/standalone/pressure-projection-lab.html",
+          "sha256": "571378f62222bac31dab5b210efe23891b7beb02ec69f5ca42d953ac00f51975"
+        },
+        {
+          "path": "education/web/template.html",
+          "sha256": "2a7a259f3679ea6e764764ac4dcfca6a8777bbb524170925effe97a7c1228fa4"
+        },
+        {
+          "path": "education/tools/build_property_preview.py",
+          "sha256": "0ddc45275a028737fd3c6620606fa047a8b7e0404ccea15165f12121f52e1fa6"
+        },
+        {
+          "path": "education/web/anatomical-arm.mjs",
+          "sha256": "9ec37ec7b23bb67643fef715f4554fc8811e897a581691231e6669fdd66c7569"
+        }
+      ],
+      "source_url": "https://github.com/MrScripty/Kenoma/tree/e2ea6acc5db44794ae8b49beb877f5a8bccea056"
+    },
+    {
+      "repository": "MrScripty/Coding-Standards",
+      "branch": "main",
+      "source_commit": "188beda1fa477d21d576c233dd8c7f4c4c267d23",
+      "tree": "dbd48f9e622236abb83d0a920e0903e09ca3d5a0",
+      "repository_kib": 17138,
+      "retrieved_at": "2026-10-12T22:43:09.681295+00:00",
+      "tracked_files": 1540,
+      "tracked_bytes": 18252781,
+      "exclusions": [
+        {
+          "path": "tools/standards_engine/standards_engine/_generated_contract.py",
+          "sha256": "fad80e42005503a1b24e4a1ac458d8d6f91fbf48e2797b7812858b903e52e8c5",
+          "kind": "generated",
+          "reason": "Disposable Python projection produced by the contract compiler.",
+          "evidence": [
+            {
+              "path": "tools/standards_engine/contracts/README.md",
+              "sha256": "065f284eeee398b764c8eebf151fec59727e3b0b1dad1fea942607129a110335"
+            },
+            {
+              "path": "tools/standards_contracts/standards_contracts/projection.py",
+              "sha256": "41dc99455a4fb59df12e8d7a1a3dde1894ab5f8e600cb8923308d659589c2c8d"
+            }
+          ]
+        }
+      ],
+      "retained_mixed_origin": [],
+      "required_retained": [
+        {
+          "path": "tools/standards_contracts/standards_contracts/projection.py",
+          "sha256": "41dc99455a4fb59df12e8d7a1a3dde1894ab5f8e600cb8923308d659589c2c8d"
+        },
+        {
+          "path": "tools/standards_engine/tests/test_generated_contract.py",
+          "sha256": "2d22ae5620f0e24461acef693626940ef9f44f3377def59f7e38971b04c8ccd3"
+        }
+      ],
+      "source_url": "https://github.com/MrScripty/Coding-Standards/tree/188beda1fa477d21d576c233dd8c7f4c4c267d23"
+    },
+    {
+      "repository": "MrScripty/Lanternwake",
+      "branch": "main",
+      "source_commit": "76b8428ee6bbe0c03d80b7df0520370df1a1b3a7",
+      "tree": "0b673e9e9b92816e8c14d393496a576c6e0f723a",
+      "repository_kib": 7656,
+      "retrieved_at": "2026-10-12T22:43:11.519937+00:00",
+      "tracked_files": 650,
+      "tracked_bytes": 12023171,
+      "exclusions": [
+        {
+          "path": "ThirdParty/MeltySynth/ProjectInfo.cs",
+          "sha256": "983a1929c99414881e9cef8e41e10f01bcf764d59e7ff74278acff36eb689df7",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/ArrayMath.cs",
+          "sha256": "7107ef77309f2fcf5cf1f9efccfe8c5fdcbf66db5fb27d091677bc3cad2a60c6",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/AudioRendererEx.cs",
+          "sha256": "46a9524ab7c32d51321de88520f5180aad00979399d4a11d4ea099d05869fd6f",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/BiQuadFilter.cs",
+          "sha256": "e06a0b3431c128c9e53715749b0f34432fedf7e66b5e84932a2dabb1387a09ce",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/BinaryReaderEx.cs",
+          "sha256": "08cddf2753cca1cb04fcd1e507b6ee85f72e165ca534bd0a5a87c70581e5efb2",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/Channel.cs",
+          "sha256": "477a680aadbdf763e86bebfe5e8e019efa3304236937fa350fc0b93890172ea7",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/Chorus.cs",
+          "sha256": "c0b07fae675a076fb10ae5abc00071ea2f834358e4844e7d40998284d039c2ad",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/Generator.cs",
+          "sha256": "aa641bf2a20a8f300649f4c7936371aa15beb162708027119cfbe135e9d36aef",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/GeneratorType.cs",
+          "sha256": "62d62fd7d5ab400e47b7a1b14f3f371c750d6b2ec9cd4ec98f5ad608fa0c008c",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/IAudioRenderer.cs",
+          "sha256": "d4db8d826567cd2100874dd4475e7e4ed8699c3ef521bc32e9c6593759100e1a",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/Instrument.cs",
+          "sha256": "a29aae0ba80ed79bcb1acabba38ead4cdfdf1aa1c6b8a7e601ded1dff612ef44",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/InstrumentInfo.cs",
+          "sha256": "734bea003e0a36e9e60aef04e04461092e50cf00f31f89d1747bc53b2f790067",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/InstrumentRegion.cs",
+          "sha256": "1adca552411c4dba259ee89786c6cf58572a8f922b50dfb1e15b792327b8fed7",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/Lfo.cs",
+          "sha256": "cf90e343ab4743312285f91ac27ed1ac50d13d0341d88b2baa16b9eaf1e9d9ea",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/LoopMode.cs",
+          "sha256": "d88f658b1bdc4831898a53ebfbb47f2ef5ed0cce743dd21e62004769f91fa2cf",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/MidiFile.cs",
+          "sha256": "48cf380582414c768ba181f9dcbf0914ef9e7ca10d7eec49b48eaefd0f0b935a",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/MidiFileLoopType.cs",
+          "sha256": "9b22219850dafd0b811be6d404744e21df2ebe2b9b2a005fb2d757bb542bf203",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/MidiFileSequencer.cs",
+          "sha256": "223d9ddb49db2678f4c088703acaa26b0d40465af5914c8d9c543db29fc43174",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/ModulationEnvelope.cs",
+          "sha256": "7c209ea7b6b873a0ea3e5041a2a2c338ba5ba7b8661fc2f7d633adfab6a516f4",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/Modulator.cs",
+          "sha256": "86a4fcfc4f4396c15cf3c3d22df435576d598b9405a5cc7687e90fb90fcb4160",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/Oscillator.cs",
+          "sha256": "47fe07a606bac49907ff0642340fe5a5c05953a90a606f9d263964009db3b996",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/Preset.cs",
+          "sha256": "e2a1967dd0fdec76bb686714b30241d60c90bec7aa02ca11206e489d0dd7669c",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/PresetInfo.cs",
+          "sha256": "fe843686a899813883376eb62921e83ea6ddb8aaf1ff5f61eb42eaade20a2b53",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/PresetRegion.cs",
+          "sha256": "8ba802091698c0d4554b6d0259cc7c27442c48e61885bd9c9b7a1313cac7c980",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/RegionEx.cs",
+          "sha256": "b9ad7c70a48a5341e8501591e85876808a84046a5f2221adcaaf88b9c1e005cc",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/RegionPair.cs",
+          "sha256": "da6b217a90372d19a3ba0e934647cb27601aed0af58126c2b938869892e8cf27",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/Reverb.cs",
+          "sha256": "10a3ed1ef29682eabcd11dcfbf59359843e9c838622f8d675ed06ddf3d16f456",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/SampleHeader.cs",
+          "sha256": "49dc7e8664d57bad7a960310dc99ab1db8e9d0c47785049a8945c779305a5132",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/SampleType.cs",
+          "sha256": "9601372ea12525a3e73ebca41d3cfdb7ab754721e1486f9ee0968bee364b19a1",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/SoundFont.cs",
+          "sha256": "c789b4d8d7e5b8aba0c3d7b22272e8fac31cb25256af74b001f2ed00622c62ba",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/SoundFontInfo.cs",
+          "sha256": "44b327f79e02df42b174e0a781bd5203c065dd3cca4b47ee873771ff102b1122",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/SoundFontMath.cs",
+          "sha256": "8c8f55729716be2a2f6dd9c6393c8fbe97c399d67f86453029002754ac8361b0",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/SoundFontParameters.cs",
+          "sha256": "ab163d3c93ac7d0793198ff23ae9782aa6a183b352e69d9a6fcbaf12725541aa",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/SoundFontSampleData.cs",
+          "sha256": "9f80eb3e6948f8c2e40420233f60d7c4b87c3beecbf98668400293157e5809a8",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/SoundFontVersion.cs",
+          "sha256": "06ef045f293e9b8eeaa21aafb255b98facdba8d9a610c152e69011d2fde02865",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/Synthesizer.cs",
+          "sha256": "1bb1004f75696b5484ac3c82ca0f70a1db32c983b1829bcd682f08c75590bd5c",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/SynthesizerSettings.cs",
+          "sha256": "383c867b007534939d9ae7a0707291d19393b4f8452eebff48ada712a2eb6fd7",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/Voice.cs",
+          "sha256": "be4bf51b5f9210b762a05d16e4694045a89b407fdd45008e6c971086856de120",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/VoiceCollection.cs",
+          "sha256": "1164cce1224ce27678d74330c86135638bdb38e6123a0f6b659a0def7157d0cd",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/VolumeEnvelope.cs",
+          "sha256": "a68b60d8034786751efe5b38966ad304b3c93314a38fc86a8c58d6acd85fd760",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/Zone.cs",
+          "sha256": "50d7296d071282d89ad317cbf9cf9febc745c3c75b159bacdce350e975e0eac0",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        },
+        {
+          "path": "ThirdParty/MeltySynth/ZoneInfo.cs",
+          "sha256": "a6e3ff66c11ad3475b2d264160a589bb016e7e9725381284710ac722ce7cd8d8",
+          "kind": "dependency",
+          "reason": "Unchanged MeltySynth dependency; matches the pinned upstream SHA-256 manifest.",
+          "evidence": [
+            {
+              "path": "ThirdParty/MeltySynth/UPSTREAM.json",
+              "sha256": "e6faf6ce3a163b9a0811b943542eb0b15ebc67eed74373e2b0ea37bbfaef91f6"
+            },
+            {
+              "path": "docs/AUDIO.md",
+              "sha256": "6c9c534558de755247e9d15b510095837506939ede3741f5fc8d6938648fd9c7"
+            }
+          ]
+        }
+      ],
+      "retained_mixed_origin": [],
+      "required_retained": [],
+      "source_url": "https://github.com/MrScripty/Lanternwake/tree/76b8428ee6bbe0c03d80b7df0520370df1a1b3a7"
+    },
+    {
+      "repository": "MrScripty/Passeur",
+      "branch": "main",
+      "source_commit": "725c45cfc1fcd9fae0980bceebe051debdc11cb2",
+      "tree": "4cf55eb2205101912aba1634942cdcc7537f77a4",
+      "repository_kib": 8513,
+      "retrieved_at": "2026-10-12T22:43:10.364130+00:00",
+      "tracked_files": 894,
+      "tracked_bytes": 17344630,
+      "exclusions": [],
+      "retained_mixed_origin": [],
+      "required_retained": [],
+      "source_url": "https://github.com/MrScripty/Passeur/tree/725c45cfc1fcd9fae0980bceebe051debdc11cb2"
+    },
+    {
+      "repository": "MrScripty/Book-Be-Gone",
+      "branch": "main",
+      "source_commit": "ea6a3fa2e2bfe3605ad932731f5693e2754ce07d",
+      "tree": "5a226acf540aad473c8452834bd5e388d4559a44",
+      "repository_kib": 208,
+      "retrieved_at": "2026-10-12T22:49:52.943635+00:00",
+      "tracked_files": 59,
+      "tracked_bytes": 489717,
+      "exclusions": [
+        {
+          "path": "frontend/dist/index.html",
+          "sha256": "d11e70b141e62c7cdf7f51f5fb2560e012720720df8f213c610dcc38944930d7",
+          "kind": "generated",
+          "reason": "Committed Vite production bundle; maintained Svelte/JavaScript inputs remain eligible.",
+          "evidence": [
+            {
+              "path": "README.md",
+              "sha256": "4a908bf1a801d020f928ccfa130e9c58d474483de1ec2eb5a4e2864b4baa05e7"
+            },
+            {
+              "path": "frontend/package.json",
+              "sha256": "4a5b318d7bd3170411b5fd44ef2393f17ec7d7cbafb827b4f3767a8a8d7fe587"
+            }
+          ]
+        },
+        {
+          "path": "frontend/dist/assets/index-DeQivOCC.css",
+          "sha256": "7dc6f0ddd0a9d5b14b1e8cb97d8c29f5be2d2296a44167a830bfdda337f6c54f",
+          "kind": "generated",
+          "reason": "Committed Vite production bundle; maintained Svelte/JavaScript inputs remain eligible.",
+          "evidence": [
+            {
+              "path": "README.md",
+              "sha256": "4a908bf1a801d020f928ccfa130e9c58d474483de1ec2eb5a4e2864b4baa05e7"
+            },
+            {
+              "path": "frontend/package.json",
+              "sha256": "4a5b318d7bd3170411b5fd44ef2393f17ec7d7cbafb827b4f3767a8a8d7fe587"
+            }
+          ]
+        },
+        {
+          "path": "frontend/dist/assets/index-B0Y62VYZ.js",
+          "sha256": "ddc6e49a9265eee468143c71c9f3074c40926a07eed28feef5d49908aed87e02",
+          "kind": "generated",
+          "reason": "Committed Vite production bundle; maintained Svelte/JavaScript inputs remain eligible.",
+          "evidence": [
+            {
+              "path": "README.md",
+              "sha256": "4a908bf1a801d020f928ccfa130e9c58d474483de1ec2eb5a4e2864b4baa05e7"
+            },
+            {
+              "path": "frontend/package.json",
+              "sha256": "4a5b318d7bd3170411b5fd44ef2393f17ec7d7cbafb827b4f3767a8a8d7fe587"
+            }
+          ]
+        }
+      ],
+      "retained_mixed_origin": [],
+      "required_retained": [
+        {
+          "path": "frontend/src/App.svelte",
+          "sha256": "7e3b84b48b0423c1b7a1033c79a3bc9a407ac50a068b0bd9af80b5ac3d140e41"
+        },
+        {
+          "path": "frontend/src/session.svelte.js",
+          "sha256": "5347bde260aa8b8f743a09b13a0b32b2eba81c2ee49793c0e2ae6735eaef490c"
+        },
+        {
+          "path": "app.py",
+          "sha256": "73be999ef06ddf1561224e6094fc9ee267f13c5c634d7a5390dcdb54db1743dc"
+        }
+      ],
+      "source_url": "https://github.com/MrScripty/Book-Be-Gone/tree/ea6a3fa2e2bfe3605ad932731f5693e2754ce07d"
+    }
+  ]
+}
