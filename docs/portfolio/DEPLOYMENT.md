@@ -1,3 +1,17 @@
+# Published node-canvas redesign — 2 November 2026
+
+- Source: `f99cc66` on `redesign/portfolio-2026-11-02`.
+- Published `gh-pages`: `76ea227`. Pages build `built` at that commit; deployment run [41485285728](https://github.com/MrScripty/MrScripty/actions/runs/41485285728) completed successfully.
+- URL: https://mrscripty.github.io/MrScripty/
+- Bundle: 35 runtime files copied byte-for-byte from the source commit (10 changed or new: page, credits, CSS/JS, Archivo font, font and icon licenses). All images are unchanged. Earlier versioned CSS/JS stay for cached pages.
+- Before publishing, the isolated bundle passed `verify.py`, `browser_check.py` at four widths, 424 gallery checks and 217 refinement checks, and every file loaded under `/MrScripty/`.
+- After deployment: the live `index.html`, `image-credits.html`, versioned CSS/JS and the font matched the bundle by SHA-256. The live page rendered at 1440 and 390 px with the font loaded, all images loading and no console errors.
+- Owner-approved content: regrouping (model development, memory systems, agent tooling), owner-confirmed status labels, Tuldok, Eidetic and Coding Standards copy, Phased Memory entry, language explanations, devLab WhatsApp invite.
+
+The records below are historical.
+
+---
+
 # Published authored-source portfolio — 12 October 2026
 
 - Tested source: `faed6ec2ffe05a00d645e4d3e14a21cd7ae90d61` on `fix/portfolio-authored-languages-2026-10-12`.
