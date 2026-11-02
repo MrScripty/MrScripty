@@ -4,6 +4,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 from http.server import ThreadingHTTPServer,SimpleHTTPRequestHandler
 from functools import partial
+import os
 import threading,json
 ROOT=Path(__file__).resolve().parents[1];OUT=ROOT/'review';OUT.mkdir(exist_ok=True)
 class Quiet(SimpleHTTPRequestHandler):
@@ -16,21 +17,22 @@ def check(name,result):
 def selected(gallery):return gallery.locator('figure:not([hidden])')
 try:
     with sync_playwright() as p:
-        browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])
+        browser=p.chromium.launch(executable_path=os.environ.get('PORTFOLIO_CHROMIUM','/usr/bin/chromium'),headless=True,args=['--no-sandbox'])
         for name,w,h in [('desktop',1440,1050),('tablet',768,1024),('mobile',390,844),('narrow',320,800)]:
             page=browser.new_page(viewport={'width':w,'height':h},reduced_motion='reduce',has_touch=w<=560,is_mobile=w<=560);errors=[]
             page.on('pageerror',lambda e:errors.append(str(e)));page.goto(url,wait_until='networkidle')
-            styles=page.locator('.project-deck').evaluate_all('(xs)=>xs.map(e=>{let s=getComputedStyle(e);return [s.fontFamily,s.fontSize,s.fontWeight,s.fontStyle,s.lineHeight,s.color]})')
-            check(name+' twelve matching white taglines',len(styles)==12 and all(s==styles[0] and s[-1]=='rgb(255, 255, 255)' for s in styles))
+            # Tagline color encodes the project's category, so only the type treatment must match.
+            styles=page.locator('.project-deck').evaluate_all('(xs)=>xs.map(e=>{let s=getComputedStyle(e);return [s.fontFamily,s.fontSize,s.fontWeight,s.fontStyle,s.lineHeight]})')
+            check(name+' fourteen matching taglines',len(styles)==14 and all(s==styles[0] for s in styles))
             styles=page.locator('h3.project-title').evaluate_all('(xs)=>xs.map(e=>{let s=getComputedStyle(e);return [s.fontFamily,s.fontSize,s.fontWeight,s.color]})')
-            check(name+' matching project names',len(styles)==12 and all(s==styles[0] for s in styles))
-            check(name+' dark theme',page.locator('#work').evaluate('(e)=>getComputedStyle(e).backgroundColor')=='rgb(18, 28, 23)')
+            check(name+' matching project names',len(styles)==14 and all(s==styles[0] for s in styles))
+            check(name+' dark theme',page.locator('body').evaluate('(e)=>getComputedStyle(e).backgroundColor')=='rgb(29, 32, 36)')
             books=page.locator('#books').bounding_box();lantern=page.locator('#lanternwake').bounding_box()
-            check(name+' Lanternwake below books',lantern['y']>=books['y']+books['height'])
+            check(name+' Applications before books',lantern['y']+lantern['height']<=books['y'])
             check(name+' supplied Lanternwake image',page.locator('#lanternwake img').count()==1 and page.locator('#lanternwake img').get_attribute('src').startswith('assets/Lanternwake_2026-10-07_13-43-35.jpg'))
             a=page.locator('#tuldok').bounding_box();b=page.locator('#eidetic').bounding_box();check(name+' stacked apps',b['y']>=a['y']+a['height'])
             if name in ['desktop','mobile']:
-                for id in ['pumas','pantograph','chrema','tuldok','book-be-gone','eidetic','whip-docs','rheon','kenoma','standards','lanternwake','passeur']:
+                for id in ['pumas','pantograph','chrema','rheon-surrogate-lab','tuldok','book-be-gone','eidetic','whip-docs','rheon','kenoma','standards','lanternwake','passeur']:
                     card=page.locator('#'+id)
                     for img in card.locator('img:visible').all():img.evaluate('(i)=>i.decode()')
                     card.screenshot(path=str(OUT/f'{name}-{id}.png'))
@@ -71,10 +73,10 @@ try:
         check('no JS all 16 image links visible',page.locator('.capture-button:visible').count()==16)
         check('no JS no inert controls',page.locator('.gallery-controls').count()==0);page.close()
         page=browser.new_page(viewport={'width':390,'height':844},reduced_motion='no-preference');page.goto(url)
-        gallery=page.locator('#rheon .capture-gallery');gallery.locator('button').last.evaluate('(b)=>b.click()')
+        gallery=page.locator('#pantograph .capture-gallery');gallery.locator('button').last.evaluate('(b)=>b.click()')
         check('short normal-motion fade',gallery.evaluate('(g)=>g.getAnimations({subtree:true}).some(a=>a.effect.getTiming().duration===150)'))
-        page.wait_for_function('document.querySelector("#rheon .capture-gallery").getAnimations({subtree:true}).length===0')
-        check('Rheon lab distinct accessible description','Surrogate Lab' in selected(gallery).locator('img').get_attribute('alt') and 'Jacobi PCG' in selected(gallery).locator('img').get_attribute('alt'))
+        page.wait_for_function('document.querySelector("#pantograph .capture-gallery").getAnimations({subtree:true}).length===0')
+        lab=page.locator('#rheon-surrogate-lab img');check('Surrogate Lab has its own capture','Surrogate Lab' in lab.get_attribute('alt') and 'Jacobi PCG' in lab.get_attribute('alt') and page.locator('#rheon img').count()==1)
         page.close();browser.close()
 finally:
     server.shutdown();server.server_close()

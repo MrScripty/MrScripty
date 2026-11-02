@@ -4,6 +4,7 @@ from pathlib import Path
 from playwright.sync_api import sync_playwright
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from functools import partial
+import os
 import threading,json
 ROOT=Path(__file__).resolve().parents[1]
 (ROOT/'review').mkdir(exist_ok=True)
@@ -13,7 +14,7 @@ url=f'http://127.0.0.1:{server.server_port}/'
 report={'url':url,'pages':[]}; failures=[]
 try:
  with sync_playwright() as p:
-  browser=p.chromium.launch(executable_path='/usr/bin/chromium',headless=True,args=['--no-sandbox'])
+  browser=p.chromium.launch(executable_path=os.environ.get('PORTFOLIO_CHROMIUM','/usr/bin/chromium'),headless=True,args=['--no-sandbox'])
   for name,width,height in [('desktop',1440,1050),('tablet',768,1024),('mobile',390,844),('narrow',320,800)]:
    page=browser.new_page(viewport={'width':width,'height':height},device_scale_factor=1,reduced_motion='reduce',has_touch=width<=560,is_mobile=width<=560)
    errors=[];page.on('pageerror',lambda err:errors.append(str(err)))
