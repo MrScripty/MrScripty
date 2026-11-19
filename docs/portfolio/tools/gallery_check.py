@@ -70,7 +70,7 @@ try:
             check(name+' no overflow or errors',not errors and page.evaluate('document.documentElement.scrollWidth<=innerWidth'))
             page.close()
         page=browser.new_page(viewport={'width':390,'height':844},java_script_enabled=False);page.goto(url)
-        check('no JS all 16 image links visible',page.locator('.capture-button:visible').count()==16)
+        check('no JS all 19 image links visible',page.locator('.capture-button:visible').count()==19)
         check('no JS no inert controls',page.locator('.gallery-controls').count()==0);page.close()
         page=browser.new_page(viewport={'width':390,'height':844},reduced_motion='no-preference');page.goto(url)
         gallery=page.locator('#pantograph .capture-gallery');gallery.locator('button').last.evaluate('(b)=>b.click()')

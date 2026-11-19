@@ -20,12 +20,12 @@ try:
    page=browser.new_page(viewport={'width':w,'height':h},has_touch=w<=560,is_mobile=w<=560,reduced_motion='reduce');page.goto(url,wait_until='networkidle')
    check(name+' no status or scope widgets',page.locator('.pill,details.project-boundary,.primary-link').count()==0)
    check(name+' plain-language hero',page.locator('h1 .visually-hidden').inner_text()=='I build local AI systems you can inspect, trace, audit, compose and understand.' and page.locator('.verb-word[data-active]').inner_text()=='inspect.' and page.locator('.hero-focus').inner_text()=='Model systems, visual tools, data provenance, observability and local AI.')
-   check(name+' project map links every project',all(page.locator(f'.graph a.node[href="#{i}"]').count()==1 for i in ['pumas','pantograph','chrema','tuldok','rheon-surrogate-lab','book-be-gone','eidetic','whip-docs','standards','phased-memory','passeur','lanternwake','rheon','kenoma']))
+   check(name+' project map links every project',all(page.locator(f'.graph a.node[href="#{i}"]').count()==1 for i in ['pumas','pantograph','chrema','tuldok','rheon-surrogate-lab','book-be-gone','eidetic','whip-docs','standards','story-memory-bench','passeur','lanternwake','rheon','kenoma']))
    check(name+' no image labels or captions',page.locator('.capture-heading,figcaption,#dialog-caption').count()==0)
    check(name+' no reserved image strip',all(f.evaluate('(e)=>{let r=e.getBoundingClientRect(),a=e.querySelector(".capture-button").getBoundingClientRect();return Math.abs(r.height-a.height-2)<1}') for f in page.locator('figure.app-capture:visible').all()))
    check(name+' single hero heading',page.locator('.hero h1').count()==1)
    check(name+' BC+AI and devLab biography','I’m a cofounder of BC+AI and founded its developer subgroup, devLab.' in page.locator('#about').inner_text())
-   groups={'infrastructure':['pumas','pantograph','chrema'],'models':['rheon-surrogate-lab','tuldok'],'context':['eidetic','standards','phased-memory'],'agents':['whip-docs','passeur'],'research':['rheon','kenoma'],'applications':['book-be-gone','lanternwake']}
+   groups={'infrastructure':['pumas','pantograph','chrema'],'models':['rheon-surrogate-lab','tuldok'],'context':['eidetic','standards','story-memory-bench'],'agents':['whip-docs','passeur'],'research':['rheon','kenoma'],'applications':['book-be-gone','lanternwake']}
    check(name+' project grouping',all(page.locator(f'#{g} #{i}').count()==1 for g,ids in groups.items() for i in ids))
    check(name+' books separate',page.locator('#books .paired-book').count()==1 and page.locator('#context .paired-book').count()==0)
    check(name+' meaningful tags for 14 projects',page.locator('.capability-tags').count()==14)
