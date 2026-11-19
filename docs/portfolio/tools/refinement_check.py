@@ -40,7 +40,7 @@ try:
    wires=page.locator('.wires path').evaluate_all('(ps)=>ps.filter(p=>p.getAttribute("d")).length')
    check(name+' project map wires',wires==(4 if w>720 else 3))
    check(name+' fluid background static under reduced motion',page.locator('canvas.flow-field').count()==1)
-   gallery=page.locator('#kenoma .capture-gallery');check(name+' arm image first',gallery.locator('figure').first.locator('img').get_attribute('src').startswith('assets/kenoma-held-anatomy-scene.png'))
+   gallery=page.locator('#kenoma .capture-gallery');check(name+' arm image first',gallery.locator('figure').first.locator('img').get_attribute('src').startswith('assets/kenoma-arm-fibre-stress-extended.jpg'))
    gallery=page.locator('#pantograph .capture-gallery');gallery.scroll_into_view_if_needed();page.locator('#pantograph h3').click();page.mouse.move(0,0)
    arrow=gallery.locator('button').last
    if w<=560:

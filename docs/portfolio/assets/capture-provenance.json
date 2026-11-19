@@ -1,31 +1,5 @@
 [
   {
-    "file": "assets/tuldok-workbench-image.jpg",
-    "sha256": "7bcb3234b3379ec31ffc53f6cfa9ce86bf9f0f3c1a2e5540c8c5708959e369a8",
-    "dimensions": [
-      1600,
-      1100
-    ],
-    "origin": "genuine running Tuldok application capture",
-    "source_commit": "83b2df92d16acb80a03d1a5d19370489b464501a",
-    "app_revision": "1bb2c3a",
-    "status": "draft PR32, not merged",
-    "fixture": "authored safe sample data; no real-model quality claim"
-  },
-  {
-    "file": "assets/tuldok-workbench-text.jpg",
-    "sha256": "c81be20c2982d7062f79057cb07127f0c5a59cce21d0280b38991df3b05ad499",
-    "dimensions": [
-      1600,
-      1100
-    ],
-    "origin": "genuine running Tuldok application capture",
-    "source_commit": "83b2df92d16acb80a03d1a5d19370489b464501a",
-    "app_revision": "1bb2c3a",
-    "status": "draft PR32, not merged",
-    "fixture": "authored safe sample data; no real-model quality claim"
-  },
-  {
     "file": "assets/rheon-native-comparison.png",
     "sha256": "95cbfa411eb50fbe0c7497a5320340d5680f46d84e49066de4456692975c448b",
     "git_blob_sha": "81135ddda50791d2c1cc7eb8bc2f662d3bc166f6",
@@ -41,22 +15,6 @@
     "pixel_edits": "none",
     "visually_inspected": true,
     "portfolio_display": "Retained historical source asset; superseded in the review gallery by the owner-supplied Rheon UI and separate Surrogate Lab captures from c2e337a."
-  },
-  {
-    "file": "assets/kenoma-two-character-scene.png",
-    "sha256": "4ae8f7458f541e1c818ba10cbbdd6383c11851e9e7d8a11a792dbaca1e1c51bc",
-    "git_blob_sha": "3b796ce37edbcead80ec1feb293e152a4f90a667",
-    "dimensions": [
-      1600,
-      1000
-    ],
-    "source_repository": "MrScripty/Kenoma",
-    "source_commit": "9739080116b658e6248816f4e4239c4fde95ca94",
-    "app_revision": "e2ea6acc5db44794ae8b49beb877f5a8bccea056",
-    "source_url": "https://raw.githubusercontent.com/MrScripty/Kenoma/9739080116b658e6248816f4e4239c4fde95ca94/docs/images/kenoma-two-character-scene.png",
-    "scope": "Unedited Chromium151 capture of running Rust/WASM posing editor at1600x1000. Schematic posing; joint creasing retained.",
-    "pixel_edits": "none",
-    "visually_inspected": true
   },
   {
     "file": "assets/pantograph-node-editor.png",
@@ -138,73 +96,6 @@
     "visually_inspected": true
   },
   {
-    "file": "assets/tuldok-workspace-results.jpg",
-    "sha256": "34fdf853af386eec516d6e026930d98fd80256ec0545b6c9b299e4f4d7e20487",
-    "dimensions": [
-      1440,
-      900
-    ],
-    "source_repository": "MrScripty/Tuldok",
-    "source_commit": "6d939359d3cef2464c2aff990dd58d50c4f8d791",
-    "app_revision": "f725bd1806bfe5e27635eb817a403b602a14591a",
-    "source_url": "https://raw.githubusercontent.com/MrScripty/Tuldok/6d939359d3cef2464c2aff990dd58d50c4f8d791/docs/images/workspaces-m2/results-real-1440.jpg",
-    "provenance_url": "https://github.com/MrScripty/Tuldok/blob/6d939359d3cef2464c2aff990dd58d50c4f8d791/docs/images/workspaces-m2/manifest.json",
-    "scope": "Genuine Chromium capture of completed scratch CPU image-classification run on 12 authored CC0 drawings. Frozen release and graph, validation metrics on three examples, stages and verified artifacts are visible. PostgreSQL persistence and restart tested by source workflow; no useful model-quality, audio-training or 3D-training claim.",
-    "pixel_edits": "none",
-    "visually_inspected": true
-  },
-  {
-    "file": "assets/kenoma-anatomical-arm-apparatus.png",
-    "sha256": "3e0b37ecab5259fea8828faa9f67c6adf6e6703e7d4f2666c74706b3d7b3590d",
-    "dimensions": [
-      1440,
-      1440
-    ],
-    "source_repository": "MrScripty/Kenoma",
-    "source_commit": "85107192d6459cae8d0054fe59f5f7889618f7ec",
-    "app_revision": "b6ff7af9010e867e6f8361ef4c5652147efa8391",
-    "source_url": "https://raw.githubusercontent.com/MrScripty/Kenoma/85107192d6459cae8d0054fe59f5f7889618f7ec/docs/review/research-book-teaching/portfolio-anatomy/kenoma-anatomical-arm-apparatus.png",
-    "provenance_url": "https://github.com/MrScripty/Kenoma/blob/85107192d6459cae8d0054fe59f5f7889618f7ec/docs/review/research-book-teaching/portfolio-anatomy/capture-provenance.json",
-    "scope": "Unedited Chromium capture of existing right-arm viewer at held reference state. Three BodyParts3D bones, seven derived muscle volumes, authored tendon routes and same-angle weighting comparison. No new nonlinear step, motion trajectory, full-body simulation or clinical qualification.",
-    "attribution": {
-      "notice_source": "education/data/elbow-v1/LICENSES_AND_ATTRIBUTION.txt",
-      "notice_sha256": "9c2fa6c1434f40faed1fa1c24c1af9a04bd931066d4ada27a501752c7af38f2e",
-      "atlas": {
-        "credit": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International.",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "official_grant": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
-        "release": "BodyParts3D 4.0, IS-A 99% polygon-reduced archive",
-        "publication": "Mitsuhashi N, Fujieda K, Tamura T, Kawamoto S, Takagi T, Okubo K. BodyParts3D: 3D structure database for anatomical concepts. Nucleic Acids Research37 (2009), D782\u2013D785. doi:10.1093/nar/gkn613.",
-        "modifications": "Ten-element selection; mm to SI m; zero-based face indices; colors/rendering. Muscle volumes additionally authored segmentation/remeshing and explicit reference repairs; authored attachments, fibres and tendon routes.",
-        "historical_notices": "Historical CC BY-SA2.1 Japan comments remain in original OBJ files; no license changed.",
-        "source": "education/data/elbow-v1/data/bodyparts3d_right_arm_m.json",
-        "source_sha256": "c3ca97df0d41302de5c3e553cb9974c4c0bd68a30866c26a18e1ba41ceab4257"
-      },
-      "arm26": {
-        "credit": "The OpenSim Development Team (Reinbolt, J; Seth, A; Habib, A; Hamner, S), adapted from a model originally created by Kate Holzbaur (11/22/04).",
-        "license": "CC BY3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "publication": "Holzbaur KRS, Murray WM, Delp SL. A Model of the Upper Extremity for Simulating Musculoskeletal Surgery and Analyzing Neuromuscular Control. Annals of Biomedical Engineering33 (2005),829\u2013840. doi:10.1007/s10439-005-3320-7.",
-        "pinned_model_url": "https://github.com/opensim-org/opensim-models/blob/84b487c4e3245359a64381e01f01b9cf4772d457/Models/Arm26/arm26.osim",
-        "modifications": "Selected numerical parameters/coordinate bounds extracted into CSV/JSON with units and evidence labels; original XML unchanged.",
-        "source_sha256": "e2224d0044eb393b05d64926c3fa1682c451a9adc7f510e5517ef9958d3d41b9"
-      },
-      "original_processing_scripts": {
-        "credit": "Copyright (c)2026 Kenoma educational data contribution",
-        "license": "MIT; full existing notice retained in linked component record"
-      },
-      "renderer": {
-        "credit": "Copyright \u00a92010\u20132025 three.js authors",
-        "license": "MIT; existing bundled notices retained"
-      },
-      "openarm": "Not used or displayed in this capture; separate OpenArm Multisensor2.0 CC BY4.0 credits remain in the component record.",
-      "license_changes": "None; no package-wide license overrides component licenses."
-    },
-    "pixel_edits": "none",
-    "visually_inspected": true
-  },
-  {
     "file": "assets/pantograph-inference-graph-completed.png",
     "sha256": "7ec9c4357cf7531261c2b4b7751e88d0e2ed38085e75d705e5c50c0ade3ecbd3",
     "dimensions": [
@@ -267,58 +158,6 @@
     "scope": "Actual Svelte workbench and loopback Rust service. One completed CPU Candle untrained BERT-8 embedding run. No meaningful model-quality, native Tauri or richer multimodal claim.",
     "pixel_edits": "none",
     "visually_inspected": true
-  },
-  {
-    "file": "assets/kenoma-held-anatomy-scene.png",
-    "sha256": "f5447eaa7a86935156a347d2fee3bc9f6bfdf03844749fb98fb72b94466caa20",
-    "dimensions": [
-      700,
-      661
-    ],
-    "source_repository": "MrScripty/Kenoma",
-    "source_commit": "b9ccaacd355d9c75cce042541f738de7df56de69",
-    "app_revision": "b6ff7af9010e867e6f8361ef4c5652147efa8391",
-    "source_url": "https://raw.githubusercontent.com/MrScripty/Kenoma/b9ccaacd355d9c75cce042541f738de7df56de69/docs/review/research-book-teaching/portfolio-anatomy/kenoma-held-anatomy-scene.png",
-    "provenance_url": "https://github.com/MrScripty/Kenoma/blob/b9ccaacd355d9c75cce042541f738de7df56de69/docs/review/research-book-teaching/portfolio-anatomy/held-scene-provenance.json",
-    "scope": "Complete native WebGL canvas at an adjusted oblique camera angle. Held right-arm reference and same-angle authored bone-weight comparison; no pixels or geometry edited, no new motion solve or full-body simulation.",
-    "attribution": {
-      "notice_source": "education/data/elbow-v1/LICENSES_AND_ATTRIBUTION.txt",
-      "notice_sha256": "9c2fa6c1434f40faed1fa1c24c1af9a04bd931066d4ada27a501752c7af38f2e",
-      "atlas": {
-        "credit": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International.",
-        "license": "CC BY 4.0",
-        "license_url": "https://creativecommons.org/licenses/by/4.0/",
-        "official_grant": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
-        "release": "BodyParts3D 4.0, IS-A 99% polygon-reduced archive",
-        "publication": "Mitsuhashi N, Fujieda K, Tamura T, Kawamoto S, Takagi T, Okubo K. BodyParts3D: 3D structure database for anatomical concepts. Nucleic Acids Research37 (2009), D782\u2013D785. doi:10.1093/nar/gkn613.",
-        "modifications": "Ten-element selection; mm to SI m; zero-based face indices; colors/rendering. Muscle volumes additionally authored segmentation/remeshing and explicit reference repairs; authored attachments, fibres and tendon routes.",
-        "historical_notices": "Historical CC BY-SA2.1 Japan comments remain in original OBJ files; no license changed.",
-        "source": "education/data/elbow-v1/data/bodyparts3d_right_arm_m.json",
-        "source_sha256": "c3ca97df0d41302de5c3e553cb9974c4c0bd68a30866c26a18e1ba41ceab4257"
-      },
-      "arm26": {
-        "credit": "The OpenSim Development Team (Reinbolt, J; Seth, A; Habib, A; Hamner, S), adapted from a model originally created by Kate Holzbaur (11/22/04).",
-        "license": "CC BY3.0",
-        "license_url": "https://creativecommons.org/licenses/by/3.0/",
-        "publication": "Holzbaur KRS, Murray WM, Delp SL. A Model of the Upper Extremity for Simulating Musculoskeletal Surgery and Analyzing Neuromuscular Control. Annals of Biomedical Engineering33 (2005),829\u2013840. doi:10.1007/s10439-005-3320-7.",
-        "pinned_model_url": "https://github.com/opensim-org/opensim-models/blob/84b487c4e3245359a64381e01f01b9cf4772d457/Models/Arm26/arm26.osim",
-        "modifications": "Selected numerical parameters/coordinate bounds extracted into CSV/JSON with units and evidence labels; original XML unchanged.",
-        "source_sha256": "e2224d0044eb393b05d64926c3fa1682c451a9adc7f510e5517ef9958d3d41b9"
-      },
-      "original_processing_scripts": {
-        "credit": "Copyright (c)2026 Kenoma educational data contribution",
-        "license": "MIT; full existing notice retained in linked component record"
-      },
-      "renderer": {
-        "credit": "Copyright \u00a92010\u20132025 three.js authors",
-        "license": "MIT; existing bundled notices retained"
-      },
-      "openarm": "Not used or displayed in this capture; separate OpenArm Multisensor2.0 CC BY4.0 credits remain in the component record.",
-      "license_changes": "None; no package-wide license overrides component licenses."
-    },
-    "pixel_edits": "none",
-    "visually_inspected": true,
-    "publication_approval": "User explicitly approved this exact image for public upload."
   },
   {
     "file": "assets/whip-docs-file-graph.png",
@@ -605,5 +444,131 @@
     "scope": "Visible crop/straighten and OCR-review interfaces. Exact runtime revision and OCR accuracy are not inferred.",
     "pixel_edits": "none; original uploaded JPEG bytes preserved",
     "visually_inspected": true
+  },
+  {
+    "file": "assets/tuldok-benchmarks-frontier.jpg",
+    "sha256": "87e849feef101cd278a2ac98c7ea68310474754b3491ab8b00e89d204791406b",
+    "dimensions": [
+      2560,
+      1484
+    ],
+    "source_repository": "MrScripty/Tuldok",
+    "source_commit": "9a06ef8b (feat/definition-first-projects, not pushed)",
+    "source": "owner screenshot Screenshot_2026-11-19_11-54-48.png",
+    "scope": "Tuldok project workspace (Benchmarks tab) on the owner's Rheon surrogate lab project: the accuracy-against-time chart with its frontier, parallel coordinates and the subjects table, real results of 127 earlier pressure models.",
+    "pixel_edits": "none; PNG converted to JPEG at quality 90 (4:4:4) on 2026-11-19",
+    "visually_inspected": true
+  },
+  {
+    "file": "assets/tuldok-map-ancestry.jpg",
+    "sha256": "0df23a05775346b80f6e7404daa1774b224e1d792d725658d45e1c23f51aac59",
+    "dimensions": [
+      2559,
+      1488
+    ],
+    "source_repository": "MrScripty/Tuldok",
+    "source_commit": "9a06ef8b (feat/definition-first-projects, not pushed)",
+    "source": "owner screenshot Screenshot_2026-11-19_11-54-00.png",
+    "scope": "Tuldok project workspace (Map tab) on the owner's Rheon surrogate lab project: the ancestry tree and model list of 206 earlier models.",
+    "pixel_edits": "none; PNG converted to JPEG at quality 90 (4:4:4) on 2026-11-19",
+    "visually_inspected": true
+  },
+  {
+    "file": "assets/kenoma-arm-fibre-stress-extended.jpg",
+    "sha256": "d72d6d0394ac8ad49bc65e8d21ceea980b1a1f5f919a014d8e5c5d5d94bc71e2",
+    "dimensions": [
+      1472,
+      913
+    ],
+    "source_repository": "MrScripty/Kenoma",
+    "source_commit": null,
+    "source": "owner screenshot Screenshot_2026-11-17_20-49-39.png",
+    "scope": "Kenoma arm lifting a ball, elbow 39.4 degrees at 0.54 s of 1.70 s; muscles coloured by active fibre stress (0 to 329 kPa).",
+    "pixel_edits": "none; PNG converted to JPEG at quality 90 (4:4:4) on 2026-11-19",
+    "visually_inspected": true,
+    "attribution": {
+      "notice_source": "education/data/elbow-v1/LICENSES_AND_ATTRIBUTION.txt",
+      "notice_sha256": "9c2fa6c1434f40faed1fa1c24c1af9a04bd931066d4ada27a501752c7af38f2e",
+      "atlas": {
+        "credit": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International.",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "official_grant": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+        "release": "BodyParts3D 4.0, IS-A 99% polygon-reduced archive",
+        "publication": "Mitsuhashi N, Fujieda K, Tamura T, Kawamoto S, Takagi T, Okubo K. BodyParts3D: 3D structure database for anatomical concepts. Nucleic Acids Research37 (2009), D782\u2013D785. doi:10.1093/nar/gkn613.",
+        "modifications": "Ten-element selection; mm to SI m; zero-based face indices; colors/rendering. Muscle volumes additionally authored segmentation/remeshing and explicit reference repairs; authored attachments, fibres and tendon routes.",
+        "historical_notices": "Historical CC BY-SA2.1 Japan comments remain in original OBJ files; no license changed.",
+        "source": "education/data/elbow-v1/data/bodyparts3d_right_arm_m.json",
+        "source_sha256": "c3ca97df0d41302de5c3e553cb9974c4c0bd68a30866c26a18e1ba41ceab4257"
+      },
+      "arm26": {
+        "credit": "The OpenSim Development Team (Reinbolt, J; Seth, A; Habib, A; Hamner, S), adapted from a model originally created by Kate Holzbaur (11/22/04).",
+        "license": "CC BY3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "publication": "Holzbaur KRS, Murray WM, Delp SL. A Model of the Upper Extremity for Simulating Musculoskeletal Surgery and Analyzing Neuromuscular Control. Annals of Biomedical Engineering33 (2005),829\u2013840. doi:10.1007/s10439-005-3320-7.",
+        "pinned_model_url": "https://github.com/opensim-org/opensim-models/blob/84b487c4e3245359a64381e01f01b9cf4772d457/Models/Arm26/arm26.osim",
+        "modifications": "Selected numerical parameters/coordinate bounds extracted into CSV/JSON with units and evidence labels; original XML unchanged.",
+        "source_sha256": "e2224d0044eb393b05d64926c3fa1682c451a9adc7f510e5517ef9958d3d41b9"
+      },
+      "original_processing_scripts": {
+        "credit": "Copyright (c)2026 Kenoma educational data contribution",
+        "license": "MIT; full existing notice retained in linked component record"
+      },
+      "renderer": {
+        "credit": "Copyright \u00a92010\u20132025 three.js authors",
+        "license": "MIT; existing bundled notices retained"
+      },
+      "openarm": "Not used or displayed in this capture; separate OpenArm Multisensor2.0 CC BY4.0 credits remain in the component record.",
+      "license_changes": "None; no package-wide license overrides component licenses."
+    }
+  },
+  {
+    "file": "assets/kenoma-arm-fibre-stress-flexed.jpg",
+    "sha256": "5dd36010cc5a86c65d3939341ec0e1888f259265f8a168ed8bff51843f139900",
+    "dimensions": [
+      1474,
+      927
+    ],
+    "source_repository": "MrScripty/Kenoma",
+    "source_commit": null,
+    "source": "owner screenshot Screenshot_2026-11-17_20-49-53.png",
+    "scope": "Kenoma arm lifting a ball, elbow 80.9 degrees at 0.81 s of 1.70 s; muscles coloured by active fibre stress (0 to 329 kPa).",
+    "pixel_edits": "none; PNG converted to JPEG at quality 90 (4:4:4) on 2026-11-19",
+    "visually_inspected": true,
+    "attribution": {
+      "notice_source": "education/data/elbow-v1/LICENSES_AND_ATTRIBUTION.txt",
+      "notice_sha256": "9c2fa6c1434f40faed1fa1c24c1af9a04bd931066d4ada27a501752c7af38f2e",
+      "atlas": {
+        "credit": "BodyParts3D, \u00a9 The Database Center for Life Science licensed under CC Attribution 4.0 International.",
+        "license": "CC BY 4.0",
+        "license_url": "https://creativecommons.org/licenses/by/4.0/",
+        "official_grant": "https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html",
+        "release": "BodyParts3D 4.0, IS-A 99% polygon-reduced archive",
+        "publication": "Mitsuhashi N, Fujieda K, Tamura T, Kawamoto S, Takagi T, Okubo K. BodyParts3D: 3D structure database for anatomical concepts. Nucleic Acids Research37 (2009), D782\u2013D785. doi:10.1093/nar/gkn613.",
+        "modifications": "Ten-element selection; mm to SI m; zero-based face indices; colors/rendering. Muscle volumes additionally authored segmentation/remeshing and explicit reference repairs; authored attachments, fibres and tendon routes.",
+        "historical_notices": "Historical CC BY-SA2.1 Japan comments remain in original OBJ files; no license changed.",
+        "source": "education/data/elbow-v1/data/bodyparts3d_right_arm_m.json",
+        "source_sha256": "c3ca97df0d41302de5c3e553cb9974c4c0bd68a30866c26a18e1ba41ceab4257"
+      },
+      "arm26": {
+        "credit": "The OpenSim Development Team (Reinbolt, J; Seth, A; Habib, A; Hamner, S), adapted from a model originally created by Kate Holzbaur (11/22/04).",
+        "license": "CC BY3.0",
+        "license_url": "https://creativecommons.org/licenses/by/3.0/",
+        "publication": "Holzbaur KRS, Murray WM, Delp SL. A Model of the Upper Extremity for Simulating Musculoskeletal Surgery and Analyzing Neuromuscular Control. Annals of Biomedical Engineering33 (2005),829\u2013840. doi:10.1007/s10439-005-3320-7.",
+        "pinned_model_url": "https://github.com/opensim-org/opensim-models/blob/84b487c4e3245359a64381e01f01b9cf4772d457/Models/Arm26/arm26.osim",
+        "modifications": "Selected numerical parameters/coordinate bounds extracted into CSV/JSON with units and evidence labels; original XML unchanged.",
+        "source_sha256": "e2224d0044eb393b05d64926c3fa1682c451a9adc7f510e5517ef9958d3d41b9"
+      },
+      "original_processing_scripts": {
+        "credit": "Copyright (c)2026 Kenoma educational data contribution",
+        "license": "MIT; full existing notice retained in linked component record"
+      },
+      "renderer": {
+        "credit": "Copyright \u00a92010\u20132025 three.js authors",
+        "license": "MIT; existing bundled notices retained"
+      },
+      "openarm": "Not used or displayed in this capture; separate OpenArm Multisensor2.0 CC BY4.0 credits remain in the component record.",
+      "license_changes": "None; no package-wide license overrides component licenses."
+    }
   }
 ]
